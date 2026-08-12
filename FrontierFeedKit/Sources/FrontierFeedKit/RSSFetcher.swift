@@ -19,15 +19,19 @@ public struct FeedConfig: Sendable {
 public struct RSSFetcher: Fetcher {
     private let client: NetworkClient
     private let feed: FeedConfig
+    private let maxItems: Int
 
-    public init(client: NetworkClient, feed: FeedConfig) {
+    /// `maxItems` bounds how many of a feed's newest entries we keep — many feeds serve
+    /// their full archive (hundreds of entries), which a morning feed shouldn't ingest.
+    public init(client: NetworkClient, feed: FeedConfig, maxItems: Int = 25) {
         self.client = client
         self.feed = feed
+        self.maxItems = maxItems
     }
 
     public func fetch() async throws -> [FeedItem] {
         let data = try await client.get(feed.url)
-        return parseSyndication(data).map { entry in
+        return parseSyndication(data).prefix(maxItems).map { entry in
             FeedItem(
                 title: entry.title,
                 snippet: entry.summary,

@@ -118,10 +118,23 @@ Was about to cover, still open for discussion in the next session:
   `NetworkClient` seam with saved fixtures, (4) `FeedRepository` actor (concurrent fan-out,
   failure isolation, cache). Live adapters `LiveNetworkClient` + `JSONFileCache` added.
   **14 tests green.**
-- **NEXT:** SwiftUI app shell (Xcode project depending on the package) — Apple-News card
-  feed + category chips + in-app reader. Needs: app name, bundle id, confirm iOS 17 min.
-  Then remaining Fetchers (arXiv, RSS, HF, GitHub, Reddit) one slice each; then real
-  cross-source categorization (currently HN defaults every Item to `.tools`).
+- **All Fetchers built + tested** (slices 3, 5–9), each fixture-driven (real captured
+  fixtures for the JSON APIs): `HackerNewsFetcher`, `SyndicationParser` (Atom + RSS 2.0),
+  `RSSFetcher` (generic, config-driven, `maxItems`-capped), `GitHubFetcher`,
+  `HuggingFaceFetcher` (daily papers). **arXiv + all blogs = `FeedConfig`s in
+  `FeedCatalog`**, no bespoke code. Composition root: **`FeedRepository.live()`**.
+- **Reddit dropped for now**: its public `.json` returns **403** (OAuth-gated). Needs auth
+  to add later; not baked in as a dead source.
+- **Live end-to-end verified** (`LIVE=1 swift test`, gated off by default): real refresh
+  returns **~239 items across 8 sources** (arXiv, OpenAI, Google DeepMind, Google AI,
+  Google Research, Hugging Face, BAIR, Hacker News, GitHub), sorted + deduped. **21 offline
+  tests green** + 1 live smoke.
+- **NEXT:** SwiftUI app shell — Xcode project **Frontier AI Feed** /
+  `com.jonluongo.FrontierAIFeed` / iOS 17, depending on `FrontierFeedKit`, calling
+  `FeedRepository.live()`. Apple-News card feed + category chips + pull-to-refresh + in-app
+  reader (`SFSafariViewController`). Then: real cross-source categorization (HN defaults to
+  `.tools`, blog categories are provisional source defaults); Settings to toggle Sources;
+  Reddit via auth; the AI-summary layer (phase B).
 
 ## Open questions to resolve in spec
 - Min iOS version (proposed **17**).

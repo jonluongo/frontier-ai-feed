@@ -31,4 +31,17 @@ struct RSSFetcherTests {
         #expect(items[0].url == URL(string: "https://openai.com/blog/gpt-5"))
         #expect(items[0].imageURL == URL(string: "https://openai.com/img/gpt5.png"))
     }
+
+    @Test("caps to maxItems, keeping the newest entries")
+    func capsToMaxItems() async throws {
+        let fetcher = RSSFetcher(
+            client: try stub(),
+            feed: FeedConfig(url: feedURL, source: Source(name: "OpenAI"), category: .models),
+            maxItems: 1
+        )
+
+        let items = try await fetcher.fetch()
+
+        #expect(items.map(\.title) == ["Introducing GPT-5"])
+    }
 }
