@@ -62,10 +62,18 @@ test("failure isolation: an always-throwing client for every fetcher but one sti
 });
 
 test("a velocity-boosted item (rising engagement since prevState) outranks its static twin", async () => {
-  const ID_ONE_URL = "https://x.example.com/one";
-  const ID_TWO_URL = "https://x.example.com/two";
+  // These particular URL suffixes are load-bearing: they were chosen so that itemID("...one-1")
+  // > itemID("...two-1") in plain string comparison. score.ts's tie-break sorts by id ASCENDING,
+  // so on a dead tie (no velocity) "two-1" — the smaller id — sorts first, not "one-1". That
+  // means a naive choice of URLs risks the tie-break alone reproducing the "expected" order,
+  // making the test pass even if the velocity term were deleted entirely (this happened — see
+  // task-4-report.md fix note). With these URLs, the tie-break and the velocity-driven outcome
+  // actively DISAGREE, so the assertions below only hold if velocity is genuinely applied.
+  const ID_ONE_URL = "https://x.example.com/one-1";
+  const ID_TWO_URL = "https://x.example.com/two-1";
   const idOne = itemID(ID_ONE_URL);
   const idTwo = itemID(ID_TWO_URL);
+  expect(idOne > idTwo).toBe(true); // sanity: confirms the tie-break would favor "two-1"
 
   const hnTopstories = JSON.stringify([10, 20]);
   const hnItem10 = JSON.stringify({
@@ -88,10 +96,19 @@ test("a velocity-boosted item (rising engagement since prevState) outranks its s
     return hit;
   };
 
-  // Both items have identical current engagement (500) and identical age/pickup, so
-  // without prevState they'd be a dead tie. prevState gives "one" a much lower prior
-  // reading (100), while "two" has no prior record at all -> "one" alone gets a
-  // velocity boost and must outrank "two".
+  // Baseline: no prevState -> velocity forced to 0 for both -> a dead tie on raw score,
+  // broken purely by id ascending -> "two-1" (smaller id) sorts first.
+  const { feed: baseline } = await runPipeline(client, NOW, null);
+  expect(baseline.stories.map(s => s.title)).toEqual([
+    "New AI velocity twin two",
+    "New AI velocity twin one",
+  ]);
+  const oneSignalBaseline = baseline.stories.find(s => s.title === "New AI velocity twin one")!.signal;
+
+  // Both items have identical current engagement (500) and identical age/pickup, so absent
+  // velocity they'd be the dead-tie case above. prevState gives "one-1" a much lower prior
+  // reading (100), while "two-1" has no prior record at all -> "one-1" alone gets a velocity
+  // boost, which must be large enough to flip the id tie-break and outrank "two-1".
   const prevState = {
     generatedAt: new Date(NOW.getTime() - 3_600_000).toISOString().replace(/\.\d{3}Z$/, "Z"),
     engagement: { [idOne]: 100 },
@@ -105,6 +122,11 @@ test("a velocity-boosted item (rising engagement since prevState) outranks its s
   ]);
   // n=2, rank0 -> signal=99 -> alert (threshold 90).
   expect(feed.stories[0]!.alert).toBe(true);
+
+  // The boosted item's own signal must have genuinely risen between the two runs -- not just
+  // its relative position -- confirming the velocity term (not some other side effect) moved it.
+  const oneSignalBoosted = feed.stories.find(s => s.title === "New AI velocity twin one")!.signal;
+  expect(oneSignalBoosted).toBeGreaterThan(oneSignalBaseline);
 });
 
 test("state.json: version, generatedAt, and non-null engagement keyed by item id", async () => {
