@@ -27,9 +27,15 @@ public enum FeedCatalog {
 
 extension FeedRepository {
     /// The app's composition root: every Fetcher wired to the live network + on-disk cache.
+    /// Remote-first: the backend pipeline's published feed leads; on-device fetchers remain
+    /// the offline fallback (the merge dedups overlaps by Item identity).
     public static func live() -> FeedRepository {
         let client = LiveNetworkClient()
         var fetchers: [Fetcher] = [
+            RemoteFeedFetcher(
+                client: client,
+                feedURL: URL(string: "https://jonluongo.github.io/frontier-ai-feed/feed.json")!
+            ),
             HackerNewsFetcher(client: client),
             GitHubFetcher(client: client),
             HuggingFaceFetcher(client: client),
