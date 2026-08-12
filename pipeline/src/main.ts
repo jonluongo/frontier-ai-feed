@@ -1,6 +1,6 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { liveClient, type FetchClient } from "./client.js";
-import { dedupeByURL } from "./dedupe.js";
+import { dedupeByURL, dedupeByTitle } from "./dedupe.js";
 import { toFeedDocument, toStateJSON, type FeedDocument, type StateDocument } from "./publish.js";
 import { scoreFeed } from "./score.js";
 import { rssFetcher } from "./fetchers/rss.js";
@@ -26,7 +26,7 @@ export async function runPipeline(
   ];
   const settled = await Promise.allSettled(fetchers.map(f => f(client)));
   const groups = settled.map(r => (r.status === "fulfilled" ? r.value : []));
-  const items = dedupeByURL(groups);
+  const items = dedupeByTitle(dedupeByURL(groups));
 
   const nowISO = now.toISOString().replace(/\.\d{3}Z$/, "Z");
   const scored = scoreFeed(items, nowISO, prevState?.engagement ?? {}, prevState?.generatedAt ?? null);

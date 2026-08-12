@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { dedupeByURL } from "../src/dedupe.js";
+import { dedupeByURL, dedupeByTitle } from "../src/dedupe.js";
 import { itemID } from "../src/identity.js";
 import type { Item } from "../src/types.js";
 
@@ -28,4 +28,72 @@ test("earliest publishedAt wins as representative", () => {
   const late = make({ url: "https://a.com/1", publishedAt: "2026-01-05T00:00:00Z" });
   const early = make({ url: "https://a.com/1/", publishedAt: "2026-01-01T00:00:00Z" });
   expect(dedupeByURL([[late], [early]])[0]!.publishedAt).toBe("2026-01-01T00:00:00Z");
+});
+
+// ---------------------------------------------------------------------------
+// dedupeByTitle: interim exact-title dedupe across sources (revives pickup that
+// URL-only dedupe misses, e.g. a Google News redirect vs. the outlet's own link).
+// ---------------------------------------------------------------------------
+
+test("a TechCrunch-style pair (same normalized title, one news.google.com URL, one real outlet URL) merges", () => {
+  const googleCopy = make({
+    url: "https://news.google.com/rss/articles/CBMixxxxTechCrunchOpenAIThrive",
+    title: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+    sources: [{ name: "Google News" }],
+  });
+  const realCopy = make({
+    url: "https://techcrunch.com/2026/01/01/openai-backed-thrive-holdings-raises-2b/",
+    title: "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+    sources: [{ name: "TechCrunch" }],
+  });
+
+  const out = dedupeByTitle([googleCopy, realCopy]);
+
+  expect(out).toHaveLength(1);
+  expect(out[0]!.sources.map(s => s.name).sort()).toEqual(["Google News", "TechCrunch"]);
+  expect(out[0]!.url).toBe(
+    "https://techcrunch.com/2026/01/01/openai-backed-thrive-holdings-raises-2b/"
+  );
+});
+
+test("a short title (\"llama cpp\", under the 25-char floor) does NOT merge across sources", () => {
+  const a = make({ url: "https://a.com/1", title: "llama cpp", sources: [{ name: "A" }] });
+  const b = make({ url: "https://b.com/1", title: "llama cpp", sources: [{ name: "B" }] });
+
+  const out = dedupeByTitle([a, b]);
+
+  expect(out).toHaveLength(2);
+});
+
+test("four sources union across a 62h span (no time window)", () => {
+  const title = "New AI safety benchmark released to the public today";
+  const s1 = make({ url: "https://a.com/1", title, sources: [{ name: "S1" }], publishedAt: "2026-01-01T00:00:00Z" });
+  const s2 = make({ url: "https://b.com/1", title, sources: [{ name: "S2" }], publishedAt: "2026-01-02T10:00:00Z" }); // +34h
+  const s3 = make({ url: "https://c.com/1", title, sources: [{ name: "S3" }], publishedAt: "2026-01-03T14:00:00Z" }); // +62h
+  const s4 = make({ url: "https://d.com/1", title, sources: [{ name: "S4" }], publishedAt: "2026-01-01T12:00:00Z" }); // +12h
+
+  const out = dedupeByTitle([s1, s2, s3, s4]);
+
+  expect(out).toHaveLength(1);
+  expect(out[0]!.sources.map(s => s.name).sort()).toEqual(["S1", "S2", "S3", "S4"]);
+});
+
+test("titleKey ignores case, punctuation and diacritics", () => {
+  const a = make({ url: "https://a.com/1", title: "Café Society Releases a New Model, Today!" });
+  const b = make({ url: "https://b.com/1", title: "cafe society releases a new model today" });
+
+  const out = dedupeByTitle([a, b]);
+
+  expect(out).toHaveLength(1);
+});
+
+test("dedupeByTitle merges max engagement across occurrences", () => {
+  const title = "New AI safety benchmark released to the public today";
+  const low = make({ url: "https://a.com/1", title, sources: [{ name: "A" }], engagement: 10 });
+  const high = make({ url: "https://b.com/1", title, sources: [{ name: "B" }], engagement: 900 });
+
+  const out = dedupeByTitle([low, high]);
+
+  expect(out).toHaveLength(1);
+  expect(out[0]!.engagement).toBe(900);
 });
