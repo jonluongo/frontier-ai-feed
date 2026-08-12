@@ -13,9 +13,9 @@ public struct RemoteFeedFetcher: Fetcher {
     public func fetch() async throws -> [FeedItem] {
         let data = try await client.get(feedURL)
         let doc = try JSONDecoder().decode(Envelope.self, from: data)
+        let df = ISO8601DateFormatter()
         return doc.stories.compactMap { s in
             guard let url = URL(string: s.url) else { return nil }
-            let df = ISO8601DateFormatter()
             return FeedItem(
                 title: s.title,
                 snippet: s.snippet,

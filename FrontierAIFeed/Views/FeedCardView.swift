@@ -98,7 +98,11 @@ struct FeedCardView: View {
     }
 
     private func signalBadge(_ signal: Int) -> some View {
-        let isAlert = signal >= 90
+        // ALERT comes from the wire (substance-gated: pickup>=2 or top-decile engagement — see
+        // pipeline/src/score.ts). `?? (signal >= 90)` is only a fallback for feed documents that
+        // predate the `alert` field. The 60-threshold "elevated" tier below is presentation-only
+        // (a visual step, not a semantic gate) and is unaffected by this.
+        let isAlert = item.alert ?? (signal >= 90)
         let isElevated = signal >= 60
         let fill: Color = isAlert
             ? item.category.tint

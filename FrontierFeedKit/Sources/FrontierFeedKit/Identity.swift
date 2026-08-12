@@ -26,7 +26,12 @@ func canonicalKey(for url: URL) -> String {
     comps.host = comps.host?.lowercased()
     comps.fragment = nil
 
-    if comps.path.count > 1 && comps.path.hasSuffix("/") {
+    // A bare origin (no path at all) and its "/" form are the same Item, so normalize the
+    // empty path to "/" rather than leaving it empty -- otherwise "https://x.com" and
+    // "https://x.com/" produce different canonical keys even though they're the same page.
+    if comps.path.isEmpty {
+        comps.path = "/"
+    } else if comps.path.count > 1 && comps.path.hasSuffix("/") {
         comps.path = String(comps.path.dropLast())
     }
 

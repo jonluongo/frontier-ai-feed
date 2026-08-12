@@ -107,4 +107,20 @@ struct MergeFeedTests {
         #expect(merged[0].signal == 80)
         #expect(merged[0].alert == true)
     }
+
+    @Test("alert travels with the occurrence that holds the max signal, not independently")
+    func alertTravelsWithMaxSignalOccurrence() {
+        let lowerSignalAlert = item("GPT-5", url: "https://openai.com/blog/gpt-5",
+                                     sources: [Source(name: "Hacker News")], at: 1_000,
+                                     signal: 80, alert: true)
+        let higherSignalNoAlert = item("GPT-5 is here", url: "https://openai.com/blog/gpt-5/?utm_source=x",
+                                        sources: [Source(name: "OpenAI")], at: 1_000,
+                                        signal: 95, alert: nil)
+
+        let merged = mergeFeed([[lowerSignalAlert], [higherSignalNoAlert]])
+
+        #expect(merged.count == 1)
+        #expect(merged[0].signal == 95)
+        #expect(merged[0].alert == nil)
+    }
 }

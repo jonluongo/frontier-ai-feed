@@ -15,6 +15,13 @@ struct ItemIdentityTests {
         #expect(itemID(for: a) == itemID(for: b))
     }
 
+    @Test("a bare origin and its trailing-slash form are the same Item")
+    func bareOriginTrailingSlashParity() throws {
+        let a = try #require(URL(string: "https://llama.app"))
+        let b = try #require(URL(string: "https://llama.app/"))
+        #expect(itemID(for: a) == itemID(for: b))
+    }
+
     @Test("scheme and host casing does not change identity")
     func casing() throws {
         let a = try #require(URL(string: "HTTPS://OpenAI.com/blog/gpt-5"))
