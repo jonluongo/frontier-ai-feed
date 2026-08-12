@@ -14,7 +14,8 @@ let package = Package(
         .target(name: "FrontierFeedKit"),
         .testTarget(
             name: "FrontierFeedKitTests",
-            dependencies: ["FrontierFeedKit"]
+            dependencies: ["FrontierFeedKit"],
+            resources: [.copy("Fixtures")]
         ),
     ]
 )
