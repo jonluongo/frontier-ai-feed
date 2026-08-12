@@ -149,6 +149,28 @@ Was about to cover, still open for discussion in the next session:
   provisional source defaults); Settings screen to toggle Sources; Reddit via auth; saved/
   bookmarks; the AI-summary layer (phase B). Consider a `code-review` pass over the engine.
 
+**2026-08-12 — session 2, later: ranking pivot + backend Stage 1 SHIPPED.**
+- User: feed was HN-dominated recency soup; wants AI-Weekly-style ranked "real updates."
+  Brainstormed → **cross-source attention ranking** (no manual source weights; percentile
+  engagement + corroboration + decay). Then **architecture audit** (adversarial, primary-source;
+  `docs/research/2026-08-12-backend-architecture-audit.md`) rejected my TS-service+Postgres
+  sketch → **ADR-0002**: one TS script on GHA cron, SQLite/JSON state, window re-clustering,
+  `feed.json` to Pages. Spec: `docs/design/2026-08-12-backend-pipeline-design.md`. New domain
+  terms: **Story**, **Signal** (0–99; top tier = Alert, badge-only in v1).
+- **Stage 1 built via subagent-driven dev** (11 tasks, per-task review, final whole-branch
+  review + fix wave): TS pipeline in `pipeline/` (ingest 10 fetchers → ADR-0001 dedup →
+  publish; 25 tests + tsc gate), hardened GHA workflow (30-min cron, empty-feed floor,
+  SHA-pinned Pages action), Swift `RemoteFeedFetcher` contract-tested against real pipeline
+  output. **Git history rewritten** to purge 60MB of committed .build/ artifacts before going
+  public (backup bundle: `.superpowers/sdd/2026-08-12-pipeline-stage1/backups/`).
+- **LIVE:** public repo **github.com/jonluongo/frontier-ai-feed**; workflow active (first run
+  green); **https://jonluongo.github.io/frontier-ai-feed/feed.json** serving 245 stories;
+  app consumes it remote-first (on-device fetchers = offline fallback), verified in simulator.
+- **NEXT (Stage 2, separate plan):** Signal scoring in the pipeline + signal badge UI; then
+  Stage 3 title-similarity clustering + "also covered by" UI; Stage 4 Haiku-batch summaries.
+  Parked items to fold in: TS/Swift canonicalKey parity golden vectors; lossy per-story Swift
+  decode; dedupe tie-break; contract fixture regen in CI.
+
 ## Open questions to resolve in spec
 - Min iOS version (proposed **17**).
 - Exact starter RSS URL list (some company blogs' RSS availability varies).
