@@ -30,6 +30,8 @@ public struct FeedItem: Identifiable, Codable, Hashable, Sendable {
     public let category: FeedCategory
     public let publishedAt: Date
     public let imageURL: URL?
+    public let signal: Int?
+    public let alert: Bool?
 
     public init(
         title: String,
@@ -38,7 +40,9 @@ public struct FeedItem: Identifiable, Codable, Hashable, Sendable {
         sources: [Source],
         category: FeedCategory,
         publishedAt: Date,
-        imageURL: URL?
+        imageURL: URL?,
+        signal: Int? = nil,
+        alert: Bool? = nil
     ) {
         self.id = itemID(for: url)
         self.title = title
@@ -48,5 +52,7 @@ public struct FeedItem: Identifiable, Codable, Hashable, Sendable {
         self.category = category
         self.publishedAt = publishedAt
         self.imageURL = imageURL
+        self.signal = signal
+        self.alert = alert
     }
 }
