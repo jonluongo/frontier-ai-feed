@@ -77,8 +77,10 @@ aggregator research (`docs/research/2026-08-13-how-aggregators-decide-importance
 4. **Signal v2:** per story,
    `signal_raw = (engagement_pctile_per_source + k·(pickup − 1) + v·velocity) · decay`
    with `pickup` = distinct Sources (now meaningful: curated-source ∩ Google-News hits),
-   `k = 0.5`, `v = 0.5`, `decay = 1/(age_h+2)^1.6`. Published `signal` = rank-mapped 0–99;
-   `alert = signal ≥ 90`. Stories in `feed.json` are ordered by signal.
+   `k = 0.5`, `v = 0.5`, `decay = 1/(age_h+2)^1.6`. Published `signal` = rank-mapped 0–99.
+   **Alert is substance-gated** (revised 2026-08-13 post-launch, user-approved): `alert =
+   signal ≥ 90 AND (pickup ≥ 2 OR engagement-percentile ≥ 0.9)` — an ALERT claims
+   importance, not merely recency-rank. Stories in `feed.json` are ordered by signal.
 5. **The app displays ranked order** when signal is present (signal desc, nil-signal items
    after, then recency) and renders the **Signal badge** (tier-tinted number, ALERT flag)
    in the telemetry eyebrow.
