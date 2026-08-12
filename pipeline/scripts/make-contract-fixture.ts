@@ -27,7 +27,7 @@ const client = async (url: string) => {
 
 const NOW = new Date("2026-08-12T14:00:00Z");
 
-const doc = await runPipeline(client, NOW);
+const { feed } = await runPipeline(client, NOW, null);
 
 const outDir = new URL(
   "../../FrontierFeedKit/Tests/FrontierFeedKitTests/Fixtures/",
@@ -35,5 +35,5 @@ const outDir = new URL(
 );
 mkdirSync(outDir, { recursive: true });
 const outPath = new URL("feed_v1.json", outDir);
-writeFileSync(outPath, JSON.stringify(doc, null, 2) + "\n");
-console.log(`wrote ${doc.stories.length} stories to ${outPath.pathname}`);
+writeFileSync(outPath, JSON.stringify(feed, null, 2) + "\n");
+console.log(`wrote ${feed.stories.length} stories to ${outPath.pathname}`);

@@ -16,10 +16,11 @@ struct RemoteFeedFetcherTests {
 
         // Fixture is genuine `runPipeline` output (see pipeline/scripts/make-contract-fixture.ts),
         // wired against the same HN + OpenAI-RSS stubs as pipeline/test/pipeline.test.ts.
+        // Order is Signal-ranked (descending), not chronological.
         #expect(items.map(\.title) == [
+            "OpenAI releases GPT-5",
             "Research update",
             "A new LLM benchmark from DeepMind",
-            "OpenAI releases GPT-5",
         ])
         #expect(items.allSatisfy { !$0.title.isEmpty })
         #expect(items.allSatisfy { !$0.sources.isEmpty })
@@ -42,9 +43,13 @@ struct RemoteFeedFetcherTests {
         #expect(Set(gpt5.sources) == Set([Source(name: "Hacker News"), Source(name: "OpenAI")]))
         #expect(gpt5.category == .tools)
 
-        // signal/alert are absent from the pipeline's v1 wire format today; RemoteFeedFetcher
-        // must still decode successfully and default them to nil.
-        #expect(items.allSatisfy { $0.signal == nil && $0.alert == nil })
+        // signal/alert are now part of the pipeline's v1 wire format (Signal ranking + alerts).
+        #expect(researchUpdate.signal == 50)
+        #expect(researchUpdate.alert == false)
+        #expect(gpt5.signal == 99)
+        #expect(gpt5.alert == true)
+        #expect(benchmark.signal == 0)
+        #expect(benchmark.alert == false)
     }
 
     @Test("falls back to .tools for an unknown category and drops stories with unparseable URLs")
