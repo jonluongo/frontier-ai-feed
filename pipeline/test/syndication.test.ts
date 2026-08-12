@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseSyndication } from "../src/syndication.js";
+import { parseSyndication, sanitizeSnippet } from "../src/syndication.js";
 
 const fixture = (n: string) => readFileSync(new URL(`./fixtures/${n}`, import.meta.url), "utf8");
 
@@ -63,4 +63,40 @@ test("decodes numeric and named HTML entities in Atom title/summary, without dou
   expect(e).toHaveLength(1);
   expect(e[0]!.title).toBe("Scaling Laws’ new results ' ’ ’ &");
   expect(e[0]!.summary).toBe("Literal stays: &#8217; but real ones decode: ’ ' ’ ’ &");
+});
+
+test("sanitizeSnippet: null passes through", () => {
+  expect(sanitizeSnippet(null)).toBeNull();
+});
+
+test("sanitizeSnippet: strips tags (including script/style blocks) and collapses whitespace", () => {
+  const raw = `  <p>Hello   <b>world</b></p>\n<script>alert(1)</script><style>.x{color:red}</style>  <a href="x">link</a>  text  `;
+  expect(sanitizeSnippet(raw)).toBe("Hello world link text");
+});
+
+test("sanitizeSnippet: decodes &nbsp; to a plain space as part of collapsing whitespace", () => {
+  expect(sanitizeSnippet("a&nbsp;&nbsp;b")).toBe("a b");
+});
+
+test("sanitizeSnippet: an all-HTML/whitespace input becomes null", () => {
+  expect(sanitizeSnippet("<div>   </div>")).toBeNull();
+});
+
+test("sanitizeSnippet: text under the cap is returned unchanged, no ellipsis", () => {
+  const short = "a short snippet";
+  expect(sanitizeSnippet(short)).toBe(short);
+});
+
+test("sanitizeSnippet: text over the cap is truncated at a word boundary with a trailing ellipsis", () => {
+  const long = "word ".repeat(80).trim(); // 400 chars, well over the 300 cap
+  const result = sanitizeSnippet(long)!;
+  expect(result.length).toBeLessThanOrEqual(301); // <=300 chars + the ellipsis char
+  expect(result.endsWith("…")).toBe(true);
+  expect(result.slice(0, -1).length).toBeLessThanOrEqual(300);
+  // no partial word before the ellipsis
+  expect(result.slice(0, -1).trimEnd()).not.toMatch(/\Sword$/);
+});
+
+test("sanitizeSnippet: respects a custom maxChars", () => {
+  expect(sanitizeSnippet("abcdefghij", 5)).toBe("abcde…");
 });

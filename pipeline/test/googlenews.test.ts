@@ -41,6 +41,8 @@ test("maps a single query into Items with outlet Source names, stripped titles, 
   ]);
   expect(items.every(i => i.category === "models")).toBe(true);
   expect(items.every(i => i.engagement === null)).toBe(true);
+  // Google News <description> is an anchor+outlet HTML block, never prose -- never surfaced as a snippet.
+  expect(items.every(i => i.snippet === null)).toBe(true);
   // These captured links carry an opaque (non-decodable) CBMi token — see decode tests below —
   // so the fallback keeps the original Google redirect link as the item url.
   expect(items[0]!.url).toBe(OPENAI_LINK);

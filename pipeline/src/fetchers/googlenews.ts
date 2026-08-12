@@ -65,7 +65,7 @@ export const googleNewsFetcher = (queries = GOOGLE_NEWS_QUERIES, perQuery = 25) 
             items.push({
               id,
               title: stripSourceSuffix(entry.title, entry.sourceName),
-              snippet: entry.summary,
+              snippet: null, // Google News <description> is an anchor+outlet HTML block, never prose
               url,
               sources: [{ name: entry.sourceName ?? "Google News" }],
               category: "models",

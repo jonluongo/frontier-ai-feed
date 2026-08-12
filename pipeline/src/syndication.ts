@@ -20,6 +20,20 @@ const text = (v: unknown): string | null => {
 
 const asArray = <T>(v: T | T[] | undefined): T[] => (v === undefined ? [] : Array.isArray(v) ? v : [v]);
 
+/** Feed <description>/<summary> often carries HTML. Cards render 2–3 lines, so reduce to
+ *  plain text and cap. Never invents text — strip and truncate only. */
+export function sanitizeSnippet(raw: string | null, maxChars = 300): string | null {
+  if (raw === null) return null;
+  const text = raw
+    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!text) return null;
+  return text.length <= maxChars ? text : text.slice(0, maxChars).replace(/\s+\S*$/, "") + "…";
+}
+
 /** Parse RSS 2.0 or Atom into neutral entries. Malformed → []. */
 export function parseSyndication(xml: string): SyndicationEntry[] {
   let doc: Record<string, any>;
@@ -38,7 +52,7 @@ export function parseSyndication(xml: string): SyndicationEntry[] {
     out.push({
       title: text(item.title) ?? "",
       link,
-      summary: text(item.description) ?? text(item.summary),
+      summary: sanitizeSnippet(text(item.description) ?? text(item.summary)),
       published: toISO(text(item.pubDate) ?? undefined),
       imageURL: (enclosure?.["@_url"] ?? media?.["@_url"] ?? null) as string | null,
       sourceName: text(item.source),
@@ -53,7 +67,7 @@ export function parseSyndication(xml: string): SyndicationEntry[] {
     out.push({
       title: text(entry.title) ?? "",
       link,
-      summary: text(entry.summary) ?? text(entry.content),
+      summary: sanitizeSnippet(text(entry.summary) ?? text(entry.content)),
       published: toISO(text(entry.published) ?? text(entry.updated) ?? undefined),
       imageURL: null,
       sourceName: null,
