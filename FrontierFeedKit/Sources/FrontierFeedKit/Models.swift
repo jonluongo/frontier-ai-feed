@@ -1,0 +1,52 @@
+import Foundation
+
+/// The four kinds of Frontier content. Exhaustive and mutually exclusive (see CONTEXT.md).
+public enum Category: String, Codable, CaseIterable, Sendable {
+    case models
+    case tools
+    case techniques
+    case research
+}
+
+/// A named origin shown as attribution on an Item's card, and the unit toggled in Settings
+/// (e.g. "OpenAI", "arXiv", "Hacker News"). Not the fetch adapter — that is a Fetcher.
+public struct Source: Codable, Hashable, Sendable {
+    public let name: String
+
+    public init(name: String) {
+        self.name = name
+    }
+}
+
+/// One real, published piece of Frontier content. Identity is its normalized URL
+/// (ADR-0001), so the same story from several Fetchers is one Item carrying every
+/// Source that surfaced it.
+public struct FeedItem: Identifiable, Codable, Hashable, Sendable {
+    public let id: String
+    public let title: String
+    public let snippet: String?
+    public let url: URL
+    public let sources: [Source]
+    public let category: Category
+    public let publishedAt: Date
+    public let imageURL: URL?
+
+    public init(
+        title: String,
+        snippet: String?,
+        url: URL,
+        sources: [Source],
+        category: Category,
+        publishedAt: Date,
+        imageURL: URL?
+    ) {
+        self.id = itemID(for: url)
+        self.title = title
+        self.snippet = snippet
+        self.url = url
+        self.sources = sources
+        self.category = category
+        self.publishedAt = publishedAt
+        self.imageURL = imageURL
+    }
+}
