@@ -1,0 +1,20 @@
+[
+  {
+    "paper": {
+      "id": "2608.10628",
+      "title": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
+      "summary": "Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone to context rot. In this work, we propose InSight-doc, an agentic visual perception framework that treats visual resolution as an adaptive reasoning-time resource. InSight-doc starts from low resolution and selectively zooms into high-resolution regions for finer evidence, without relying on any external retriever. To train such an agent, we construct an active-perception corpus of 17.9K high-quality SFT examples with region-level zoom-in trajectories, accompanied by 19.2K hard RL examples. Through SFT+RL, InSight-doc-8B improves the baseline by 4.3--16.4 accuracy points over document VQA benchmarks. On long documents, it reduces hallucination by more than 40% and inference latency by 41%--68% while maintaining an accuracy lead. Our code, datasets, and model are released at https://github.com/m-Just/InSight-doc .",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "upvotes": 5
+    }
+  },
+  {
+    "paper": {
+      "id": "2608.10288",
+      "title": "Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference",
+      "summary": "The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention (PLGA), replace the fixed bilinear form of scaled dot-product attention (SDPA) with a learned, input-generated bilinear operator G_{LM}, built from a positive tensor A_{LM} by elementwise power laws. The architecture is fully specified, verified against pinned reference releases; claims are labeled theorem, conditional theorem, measurement, or conjecture. Unconditionally: PLGA contains SDPA exactly at G_{LM}=I; A_{LM} and A_P are strictly entrywise positive, with Perron-Frobenius structure on A_{LM}; the DAG regularizer has the NOTEARS walk-counting form and positivity obstructs exact acyclicity; and, under nonresonance (satisfied by standard rotary frequencies), a commutant criterion identifies which operators preserve relative-position dependence. An inference-collapse theorem: exact input invariance of deductive outputs collapses inference to generalized SDPA with a constant operator. Measured invariance: relative fluctuations of 10^{-6} and below; perturbation bounds quantify but do not certify cached inference; the assembled proxy misses the decoding margin. A conditional three-stage mechanism (rotary twirl, concentration, row-map contraction) is measured on a released checkpoint. Blockwise training and scoring under the global Gram are stated with explicit target exposure; on tested samples, block and sequential scoring select identical answers and agree on the published TruthfulQA probability-mass metric within 5times 10^{-5} per item. Self-organized criticality enters as a phenomenological framework with an intrinsic order parameter; open claims become falsifiable conjectures. Selected proof cores are machine-checked in Lean 4.",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "upvotes": 1
+    }
+  }
+]
