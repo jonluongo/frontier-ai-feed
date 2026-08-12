@@ -10,6 +10,8 @@ import { huggingFaceFetcher } from "./fetchers/huggingface.js";
 import { googleNewsFetcher } from "./fetchers/googlenews.js";
 import { CATALOG } from "./catalog.js";
 
+const MS_PER_HOUR = 3_600_000;
+
 export interface PrevState {
   generatedAt: string;
   engagement: Record<string, number>;
@@ -26,7 +28,13 @@ export async function runPipeline(
   ];
   const settled = await Promise.allSettled(fetchers.map(f => f(client)));
   const groups = settled.map(r => (r.status === "fulfilled" ? r.value : []));
-  const items = dedupeByTitle(dedupeByURL(groups));
+  const deduped = dedupeByTitle(dedupeByURL(groups));
+
+  // A future-dated item's age clamps to 0 in scoreFeed's decay term, pinning it at max decay
+  // forever -- a bad feed timestamp would otherwise squat at the top of the ranking. Drop
+  // anything published more than 1h ahead of "now" (a small allowance for clock skew).
+  const nowMs = now.getTime();
+  const items = deduped.filter(item => Date.parse(item.publishedAt) <= nowMs + MS_PER_HOUR);
 
   const nowISO = now.toISOString().replace(/\.\d{3}Z$/, "Z");
   const scored = scoreFeed(items, nowISO, prevState?.engagement ?? {}, prevState?.generatedAt ?? null);

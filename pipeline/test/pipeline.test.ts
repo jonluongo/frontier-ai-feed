@@ -155,3 +155,26 @@ test("state.json: version, generatedAt, and non-null engagement keyed by item id
   });
   expect(Object.hasOwn(state.engagement, researchId)).toBe(false);
 });
+
+test("an item dated tomorrow (more than 1h in the future) is dropped from the published feed", async () => {
+  const tomorrowEpochSeconds = Math.floor((NOW.getTime() + 24 * 3_600_000) / 1000);
+  const hnTopstories = JSON.stringify([1]);
+  const hnItem1 = JSON.stringify({
+    id: 1, type: "story", by: "a", time: tomorrowEpochSeconds,
+    title: "New AI model announced ahead of schedule", url: "https://x.example.com/future-item",
+    score: 500, descendants: 1,
+  });
+
+  const client = async (url: string) => {
+    if (url === `${HN_BASE}/topstories.json`) return hnTopstories;
+    if (url === `${HN_BASE}/item/1.json`) return hnItem1;
+    throw new Error(`unmapped ${url}`);
+  };
+
+  const { feed, state } = await runPipeline(client, NOW, null);
+
+  expect(feed.stories.map(s => s.title)).not.toContain("New AI model announced ahead of schedule");
+  expect(feed.stories).toEqual([]);
+  // Also absent from the engagement snapshot -- future-dated items are dropped before scoring.
+  expect(Object.hasOwn(state.engagement, itemID("https://x.example.com/future-item"))).toBe(false);
+});
