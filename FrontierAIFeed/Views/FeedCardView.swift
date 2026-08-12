@@ -90,7 +90,34 @@ struct FeedCardView: View {
                 .tracking(0.6)
                 .foregroundStyle(.secondary)
                 .lineLimit(1)
+            if let signal = item.signal {
+                Spacer(minLength: 6)
+                signalBadge(signal)
+            }
         }
+    }
+
+    private func signalBadge(_ signal: Int) -> some View {
+        let isAlert = signal >= 90
+        let isElevated = signal >= 60
+        let fill: Color = isAlert
+            ? item.category.tint
+            : isElevated ? item.category.tint.opacity(0.25) : Color.primary.opacity(0.06)
+        let textColor: Color = isAlert ? .white : isElevated ? .primary : .secondary
+
+        return HStack(spacing: 3) {
+            Text("\(signal)")
+                .font(Theme.eyebrow().weight(.bold))
+            if isAlert {
+                Text("ALERT")
+                    .font(Theme.eyebrow(9))
+                    .tracking(1)
+            }
+        }
+        .foregroundStyle(textColor)
+        .padding(.horizontal, 6)
+        .padding(.vertical, 2)
+        .background(RoundedRectangle(cornerRadius: 5, style: .continuous).fill(fill))
     }
 
     private var eyebrowText: String {
