@@ -30,6 +30,17 @@ Settings — e.g. OpenAI, Anthropic, arXiv, Hacker News, r/LocalLLaMA. An Item m
 more than one Source when the same story was surfaced from several places.
 _Avoid_: publisher, outlet, provider, feed
 
+**Story**:
+A cluster of Items that cover the same real-world event across Sources. The Feed ranks
+Stories, not raw Items; an Item that no other Source corroborates is a Story of one.
+_Avoid_: cluster (implementation word), topic, event
+
+**Signal**:
+A Story's 0–99 attention score — how much the field is talking about it right now
+(engagement percentile + corroboration, decayed by age). Computed from evidence, never
+hand-assigned. The top tier is an **Alert**.
+_Avoid_: score (too generic), importance, priority
+
 **Fetcher**:
 The behind-the-scenes adapter that pulls Items from one endpoint and normalizes them. The
 user never sees a Fetcher. Not 1-to-1 with Source: the single generic RSS Fetcher yields
