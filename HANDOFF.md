@@ -129,12 +129,25 @@ Was about to cover, still open for discussion in the next session:
   returns **~239 items across 8 sources** (arXiv, OpenAI, Google DeepMind, Google AI,
   Google Research, Hugging Face, BAIR, Hacker News, GitHub), sorted + deduped. **21 offline
   tests green** + 1 live smoke.
-- **NEXT:** SwiftUI app shell — Xcode project **Frontier AI Feed** /
-  `com.jonluongo.FrontierAIFeed` / iOS 17, depending on `FrontierFeedKit`, calling
-  `FeedRepository.live()`. Apple-News card feed + category chips + pull-to-refresh + in-app
-  reader (`SFSafariViewController`). Then: real cross-source categorization (HN defaults to
-  `.tools`, blog categories are provisional source defaults); Settings to toggle Sources;
-  Reddit via auth; the AI-summary layer (phase B).
+- **App shell BUILT + RUNNING** (slice 10 = `filterFeed`, then the UI). Hand-authored
+  Xcode 16 project (`FrontierAIFeed.xcodeproj`, synchronized root group + local package
+  ref — **no xcodegen/tuist available, no pbxproj gem; hand-written and builds clean** for
+  simulator). Design = "situation report from the edge": Category color encodes structure,
+  a **monospaced telemetry eyebrow** (`SOURCE · AGE · CATEGORY`) is the signature, category
+  ticks down each card. `FeedViewModel` (@MainActor @Observable) wraps
+  `FeedRepository.live()`; masthead + `CategoryChips` (pinned) + lead/standard `FeedCardView`
+  + `.refreshable` + `SafariReader` (SFSafariViewController sheet). **Verified in the iPhone
+  17 Pro simulator: 189 real dispatches, light + dark, cache renders instantly on relaunch.**
+  Screenshots sent 2026-08-12.
+- **Build/run:** `xcodebuild -project FrontierAIFeed.xcodeproj -scheme FrontierAIFeed -sdk
+  iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 17 Pro' -derivedDataPath
+  build/DD build`, then `simctl install/launch booted`.
+- **Not yet exercised interactively:** tapping a card → reader, and tapping chips → filter
+  (wired, but the Simulator MCP control tool needs the user's one-time "Let Claude use it"
+  device grant; verified visually via `simctl` screenshots only).
+- **NEXT:** real cross-source categorization (HN defaults to `.tools`, blog categories are
+  provisional source defaults); Settings screen to toggle Sources; Reddit via auth; saved/
+  bookmarks; the AI-summary layer (phase B). Consider a `code-review` pass over the engine.
 
 ## Open questions to resolve in spec
 - Min iOS version (proposed **17**).
