@@ -3,6 +3,7 @@ import { XMLParser } from "fast-xml-parser";
 export interface SyndicationEntry {
   title: string; link: string; summary: string | null;
   published: string | null; imageURL: string | null;
+  sourceName: string | null; // RSS <source> element text; null for Atom / missing
 }
 
 const toISO = (raw: string | undefined): string | null => {
@@ -40,6 +41,7 @@ export function parseSyndication(xml: string): SyndicationEntry[] {
       summary: text(item.description) ?? text(item.summary),
       published: toISO(text(item.pubDate) ?? undefined),
       imageURL: (enclosure?.["@_url"] ?? media?.["@_url"] ?? null) as string | null,
+      sourceName: text(item.source),
     });
   }
 
@@ -54,6 +56,7 @@ export function parseSyndication(xml: string): SyndicationEntry[] {
       summary: text(entry.summary) ?? text(entry.content),
       published: toISO(text(entry.published) ?? text(entry.updated) ?? undefined),
       imageURL: null,
+      sourceName: null,
     });
   }
 
