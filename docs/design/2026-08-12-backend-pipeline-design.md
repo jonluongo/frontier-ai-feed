@@ -51,6 +51,41 @@ composition. Interfaces (TS):
 | summarize | `summarizeTop(stories: ScoredStory[], n): Promise<SummarizedStory[]>` | batching, grounding contract, citation checks |
 | publish | `toFeedJSON(stories): FeedDocument` | the versioned wire contract |
 
+## Stage-2 amendments (2026-08-13, after prototype + aggregator research)
+
+Validated on real data (`pipeline/scripts/prototype-signal-*.ts`, run 2026-08-12) and the
+aggregator research (`docs/research/2026-08-13-how-aggregators-decide-importance.md`):
+
+1. **Percentile is per-source, not pooled.** Pooling engagement across sources lets
+   GitHub's lifetime star counts compress HN's scale (observed: a 21-point story
+   outranking a 642-point one). Each item's engagement percentile is computed against its
+   own source's engagement population in the window.
+2. **Source expansion to the practical maximum** (all live-verified 2026-08-13): +8 news
+   outlets (TechCrunch AI, Verge AI, Ars Technica AI, VentureBeat AI, Wired AI, MIT Tech
+   Review AI, IEEE Spectrum AI, The Register AI), +5 labs (Microsoft Research, NVIDIA,
+   Apple ML, AWS ML, EleutherAI), +5 practitioner blogs (Simon Willison, Import AI,
+   Interconnects, Latent Space, Ahead of AI), +2 Reddit subs via their working `.rss`
+   endpoints (r/LocalLLaMA, r/MachineLearning), **+Google News RSS query feeds** (per-lab
+   and topic queries, `when:1d`) — the free ride on Google's whole-web crawl. Google News
+   items are attributed to their real outlet via the RSS `<source>` element, and their
+   redirect URLs are decoded to the real article URL (fallback: keep the redirect URL —
+   the item survives, only cross-source dedup misses it).
+3. **Velocity term.** The pipeline reads its own previously-published `state.json`
+   (engagement per item id at the prior tick) from Pages, and boosts items whose
+   engagement is climbing: `velocity = max(0, Δengagement-percentile per hour)`. NewsWhip
+   at personal scale; two samples, no forecasting.
+4. **Signal v2:** per story,
+   `signal_raw = (engagement_pctile_per_source + k·(pickup − 1) + v·velocity) · decay`
+   with `pickup` = distinct Sources (now meaningful: curated-source ∩ Google-News hits),
+   `k = 0.5`, `v = 0.5`, `decay = 1/(age_h+2)^1.6`. Published `signal` = rank-mapped 0–99;
+   `alert = signal ≥ 90`. Stories in `feed.json` are ordered by signal.
+5. **The app displays ranked order** when signal is present (signal desc, nil-signal items
+   after, then recency) and renders the **Signal badge** (tier-tinted number, ALERT flag)
+   in the telemetry eyebrow.
+6. **GitHub fetcher parked** — its lifetime-stars measure never survives decay (observed);
+   rework to trending/recently-created in a later stage. It stays in the catalog but its
+   engagement contribution is expected ~nil.
+
 ## The Signal formula
 
 Per story (cluster), all-universal signals, **no per-source hand-weights** in the core:
