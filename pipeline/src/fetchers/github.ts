@@ -14,6 +14,7 @@ export const githubFetcher = (query = DEFAULT_GH_QUERY) =>
     for (const repo of data.items ?? []) {
       try {
         if (!repo.full_name || !repo.html_url) continue;
+        if (typeof repo.created_at !== "string") continue;
         items.push({
           id: itemID(repo.html_url),
           title: repo.full_name,
@@ -21,7 +22,7 @@ export const githubFetcher = (query = DEFAULT_GH_QUERY) =>
           url: repo.html_url,
           sources: [{ name: "GitHub" }],
           category: "tools",
-          publishedAt: repo.created_at,
+          publishedAt: repo.created_at.replace(/\.\d+Z$/, "Z"),
           imageURL: null,
           engagement: typeof repo.stargazers_count === "number" ? repo.stargazers_count : null,
         });
