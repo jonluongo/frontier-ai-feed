@@ -46,4 +46,58 @@ struct RemoteFeedFetcherTests {
         // must still decode successfully and default them to nil.
         #expect(items.allSatisfy { $0.signal == nil && $0.alert == nil })
     }
+
+    @Test("falls back to .tools for an unknown category and drops stories with unparseable URLs")
+    func toleratesUnknownCategoryAndBadURL() async throws {
+        let feedURL = URL(string: "https://example.github.io/feed.json")!
+        let json = """
+        {
+          "version": 1,
+          "generatedAt": "2026-08-12T14:00:00Z",
+          "stories": [
+            {
+              "title": "A story with a category we've never seen",
+              "snippet": null,
+              "url": "https://example.com/weird",
+              "sources": [{ "name": "Example" }],
+              "category": "weird-new-thing",
+              "publishedAt": "2026-08-12T14:00:00Z",
+              "imageURL": null
+            },
+            {
+              "title": "A story with a garbage URL",
+              "snippet": null,
+              "url": "http://[invalid",
+              "sources": [{ "name": "Example" }],
+              "category": "tools",
+              "publishedAt": "2026-08-12T14:00:00Z",
+              "imageURL": null
+            },
+            {
+              "title": "A perfectly normal story",
+              "snippet": null,
+              "url": "https://example.com/normal",
+              "sources": [{ "name": "Example" }],
+              "category": "models",
+              "publishedAt": "2026-08-12T14:00:00Z",
+              "imageURL": null
+            }
+          ]
+        }
+        """
+        let fetcher = RemoteFeedFetcher(
+            client: StubNetworkClient(responses: [feedURL: Data(json.utf8)]),
+            feedURL: feedURL
+        )
+        let items = try await fetcher.fetch()
+
+        // The garbage-URL story is dropped entirely; only the two decodable-URL stories survive.
+        #expect(items.map(\.title) == [
+            "A story with a category we've never seen",
+            "A perfectly normal story",
+        ])
+
+        let unknownCategory = try #require(items.first { $0.title == "A story with a category we've never seen" })
+        #expect(unknownCategory.category == .tools)
+    }
 }
