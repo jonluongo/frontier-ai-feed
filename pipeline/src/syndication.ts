@@ -24,7 +24,7 @@ const asArray = <T>(v: T | T[] | undefined): T[] => (v === undefined ? [] : Arra
 export function parseSyndication(xml: string): SyndicationEntry[] {
   let doc: Record<string, any>;
   try {
-    doc = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" }).parse(xml);
+    doc = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_", htmlEntities: true }).parse(xml);
   } catch { return []; }
 
   const out: SyndicationEntry[] = [];
