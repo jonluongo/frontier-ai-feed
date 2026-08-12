@@ -44,4 +44,104 @@ export const CATALOG: FeedConfig[] = [
     source: { name: "BAIR" },
     category: "research",
   },
+  {
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/",
+    source: { name: "TechCrunch" },
+    category: "models",
+  },
+  {
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    source: { name: "The Verge" },
+    category: "models",
+  },
+  {
+    url: "https://arstechnica.com/ai/feed/",
+    source: { name: "Ars Technica" },
+    category: "models",
+  },
+  {
+    url: "https://venturebeat.com/category/ai/feed/",
+    source: { name: "VentureBeat" },
+    category: "models",
+  },
+  {
+    url: "https://www.wired.com/feed/tag/ai/latest/rss",
+    source: { name: "Wired" },
+    category: "models",
+  },
+  {
+    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    source: { name: "MIT Tech Review" },
+    category: "research",
+  },
+  {
+    url: "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+    source: { name: "IEEE Spectrum" },
+    category: "research",
+  },
+  {
+    url: "https://www.theregister.com/software/ai_ml/headlines.atom",
+    source: { name: "The Register" },
+    category: "tools",
+  },
+  {
+    url: "https://www.microsoft.com/en-us/research/feed/",
+    source: { name: "Microsoft Research" },
+    category: "research",
+  },
+  {
+    url: "https://blogs.nvidia.com/feed/",
+    source: { name: "NVIDIA" },
+    category: "models",
+  },
+  {
+    url: "https://machinelearning.apple.com/rss.xml",
+    source: { name: "Apple ML" },
+    category: "research",
+  },
+  {
+    url: "https://aws.amazon.com/blogs/machine-learning/feed/",
+    source: { name: "AWS ML" },
+    category: "techniques",
+  },
+  {
+    url: "https://blog.eleuther.ai/index.xml",
+    source: { name: "EleutherAI" },
+    category: "research",
+  },
+  {
+    url: "https://simonwillison.net/atom/everything/",
+    source: { name: "Simon Willison" },
+    category: "techniques",
+  },
+  {
+    url: "https://jack-clark.net/feed/",
+    source: { name: "Import AI" },
+    category: "research",
+  },
+  {
+    url: "https://www.interconnects.ai/feed",
+    source: { name: "Interconnects" },
+    category: "research",
+  },
+  {
+    url: "https://www.latent.space/feed",
+    source: { name: "Latent Space" },
+    category: "techniques",
+  },
+  {
+    url: "https://magazine.sebastianraschka.com/feed",
+    source: { name: "Ahead of AI" },
+    category: "techniques",
+  },
+  {
+    url: "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day",
+    source: { name: "r/LocalLLaMA" },
+    category: "tools",
+  },
+  {
+    url: "https://www.reddit.com/r/MachineLearning/top/.rss?t=day",
+    source: { name: "r/MachineLearning" },
+    category: "research",
+  },
 ];
