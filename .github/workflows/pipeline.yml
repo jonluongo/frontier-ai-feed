@@ -1,0 +1,28 @@
+name: pipeline
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: pipeline/package-lock.json }
+      - run: npm ci
+        working-directory: pipeline
+      - run: npm test
+        working-directory: pipeline
+      - run: npm run pipeline
+        working-directory: pipeline
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: pipeline/dist
+          keep_files: false
