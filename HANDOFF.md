@@ -100,6 +100,29 @@ Was about to cover, still open for discussion in the next session:
    to turn this handoff + Half 2 into a formal spec, then `/implement` + `/tdd` block by block.
 4. First coding block = the **HN vertical slice** (item 1 above).
 
+## Progress log
+
+**2026-08-12 — session 2 (Opus, Matt Pocock skills).**
+- `/setup-matt-pocock-skills`, `/to-spec`, `/implement` no longer exist; the installed
+  skills are `domain-modeling`, `codebase-design`, `tdd`, `code-review`, etc. Drove with
+  those instead. Tracking kept lightweight (this doc + `CONTEXT.md` + ADRs).
+- **Domain model locked** → `CONTEXT.md`. Key sharpenings: `summary`→**Snippet** (reserve
+  "Summary" for the future AI layer); split the overloaded "source" into **Source**
+  (on-card origin, toggled in Settings) vs **Fetcher** (endpoint adapter). Settings toggles
+  individual Sources.
+- **ADR-0001**: Item identity = normalized URL (cross-source dedup), replacing the
+  handoff's `source+url` hash.
+- **Engine built + tested** as a Swift Package `FrontierFeedKit/` (so it's TDD'd headlessly
+  via `swift test`, no simulator). Seam design in `docs/design/engine-seams.md`. Slices,
+  all red→green: (1) Item identity, (2) models + `mergeFeed`, (3) `HackerNewsFetcher` via
+  `NetworkClient` seam with saved fixtures, (4) `FeedRepository` actor (concurrent fan-out,
+  failure isolation, cache). Live adapters `LiveNetworkClient` + `JSONFileCache` added.
+  **14 tests green.**
+- **NEXT:** SwiftUI app shell (Xcode project depending on the package) — Apple-News card
+  feed + category chips + in-app reader. Needs: app name, bundle id, confirm iOS 17 min.
+  Then remaining Fetchers (arXiv, RSS, HF, GitHub, Reddit) one slice each; then real
+  cross-source categorization (currently HN defaults every Item to `.tools`).
+
 ## Open questions to resolve in spec
 - Min iOS version (proposed **17**).
 - Exact starter RSS URL list (some company blogs' RSS availability varies).
