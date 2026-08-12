@@ -1,7 +1,7 @@
 import Foundation
 
 /// The four kinds of Frontier content. Exhaustive and mutually exclusive (see CONTEXT.md).
-public enum Category: String, Codable, CaseIterable, Sendable {
+public enum FeedCategory: String, Codable, CaseIterable, Sendable {
     case models
     case tools
     case techniques
@@ -27,7 +27,7 @@ public struct FeedItem: Identifiable, Codable, Hashable, Sendable {
     public let snippet: String?
     public let url: URL
     public let sources: [Source]
-    public let category: Category
+    public let category: FeedCategory
     public let publishedAt: Date
     public let imageURL: URL?
 
@@ -36,7 +36,7 @@ public struct FeedItem: Identifiable, Codable, Hashable, Sendable {
         snippet: String?,
         url: URL,
         sources: [Source],
-        category: Category,
+        category: FeedCategory,
         publishedAt: Date,
         imageURL: URL?
     ) {

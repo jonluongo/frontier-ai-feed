@@ -8,7 +8,7 @@ import Foundation
 @Suite("Filter feed")
 struct FilterFeedTests {
 
-    private func item(_ title: String, _ category: Category) -> FeedItem {
+    private func item(_ title: String, _ category: FeedCategory) -> FeedItem {
         FeedItem(title: title, snippet: nil, url: URL(string: "https://a.com/\(title)")!,
                  sources: [Source(name: "T")], category: category,
                  publishedAt: .distantPast, imageURL: nil)
@@ -17,12 +17,15 @@ struct FilterFeedTests {
     @Test("nil category returns the whole Feed unchanged")
     func nilReturnsAll() {
         let items = [item("a", .models), item("b", .research)]
-        #expect(filterFeed(items, category: nil) == items)
+        let result = filterFeed(items, category: nil)
+        #expect(result == items)
     }
 
     @Test("a category returns only its Items")
     func filtersByCategory() {
         let items = [item("a", .models), item("b", .research), item("c", .models)]
-        #expect(filterFeed(items, category: .models).map(\.title) == ["a", "c"])
+        let result = filterFeed(items, category: .models)
+        let titles = result.map(\.title)
+        #expect(titles == ["a", "c"])
     }
 }

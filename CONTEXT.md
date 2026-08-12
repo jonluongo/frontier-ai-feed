@@ -49,6 +49,8 @@ excerpt (that is a **Snippet**).
 ### Categories
 
 Every Item has exactly one Category. The four are exhaustive and mutually exclusive.
+(In code the type is `FeedCategory` — the bare name `Category` collides with the
+Objective-C runtime's `Category` type once Foundation is imported.)
 
 **Models**:
 Announcement of a new or updated AI model, or a model-bearing product release

@@ -5,9 +5,9 @@ import Foundation
 public struct FeedConfig: Sendable {
     public let url: URL
     public let source: Source
-    public let category: Category
+    public let category: FeedCategory
 
-    public init(url: URL, source: Source, category: Category) {
+    public init(url: URL, source: Source, category: FeedCategory) {
         self.url = url
         self.source = source
         self.category = category
