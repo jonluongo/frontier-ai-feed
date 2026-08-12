@@ -20,6 +20,10 @@ export async function runPipeline(client: FetchClient, now: Date): Promise<FeedD
 
 if (process.argv[1]?.endsWith("main.ts")) {
   const doc = await runPipeline(liveClient, new Date());
+  if (doc.stories.length < 20) {
+    console.error(`refusing to publish ${doc.stories.length} stories (floor 20)`);
+    process.exit(1);
+  }
   mkdirSync("dist", { recursive: true });
   writeFileSync("dist/feed.json", JSON.stringify(doc, null, 1));
   console.log(`published ${doc.stories.length} stories`);
