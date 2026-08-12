@@ -120,8 +120,10 @@ test("a velocity-boosted item (rising engagement since prevState) outranks its s
     "New AI velocity twin one",
     "New AI velocity twin two",
   ]);
-  // n=2, rank0 -> signal=99 -> alert (threshold 90).
-  expect(feed.stories[0]!.alert).toBe(true);
+  // n=2, rank0 -> signal=99, clearing the rank threshold (90), but ALERT is substance-gated:
+  // both items carry a single source (pickup=1) and pct=0.5 (engagement 500 tied against
+  // itself in the HN population, well under the 0.9 pct gate) -- so no alert either way.
+  expect(feed.stories[0]!.alert).toBe(false);
 
   // The boosted item's own signal must have genuinely risen between the two runs -- not just
   // its relative position -- confirming the velocity term (not some other side effect) moved it.

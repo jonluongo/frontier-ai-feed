@@ -140,7 +140,7 @@ test("(e) power-law age decay: a 2h-old item outranks an otherwise-identical 30h
 // (f) signal mapping: top item -> 99, bottom -> 0, alert only when signal >= 90.
 // ---------------------------------------------------------------------------
 
-test("(f) signal is rank-mapped 0..99 (top=99, bottom=0) and alert fires only >= threshold", () => {
+test("(f) signal is rank-mapped 0..99 (top=99, bottom=0); rank alone does not grant ALERT", () => {
   // Four items, all engagement=null (pct=prior for all, identical), single source each (pickup=1),
   // no velocity -> raw is purely decay(age), strictly decreasing as age grows, so order is unambiguous.
   const items = [0, 10, 20, 30].map(h =>
@@ -153,8 +153,43 @@ test("(f) signal is rank-mapped 0..99 (top=99, bottom=0) and alert fires only >=
   const scored = scoreFeed(items, NOW, {}, null);
   expect(scored.map(s => s.item.id)).toEqual(["age0", "age10", "age20", "age30"]);
   expect(scored.map(s => s.signal)).toEqual([99, 66, 33, 0]);
-  // alertThreshold defaults to 90 -> only the signal=99 item alerts.
-  expect(scored.map(s => s.alert)).toEqual([true, false, false, false]);
+  // ALERT is substance-gated (pickup>=2 or pct>=0.9): every item here has pickup=1 and
+  // pct=prior=0.4, so none alert even though "age0" clears the rank threshold (signal=99>=90).
+  expect(scored.map(s => s.alert)).toEqual([false, false, false, false]);
+});
+
+// ---------------------------------------------------------------------------
+// (h) ALERT is substance-gated: signal alone (rank) is not enough. It also requires
+//     corroboration (pickup >= alertMinPickup) or top-decile engagement (pct >= alertMinPct).
+// ---------------------------------------------------------------------------
+
+test("(h1) top-ranked item with pickup=1 and pct < 0.9 does NOT alert", () => {
+  const solo = make({ id: "solo-weak", url: "https://a/1", sources: [{ name: "S" }], engagement: null, publishedAt: NOW });
+  const scored = scoreFeed([solo], NOW, {}, null);
+  expect(scored[0]!.signal).toBe(99); // single-item feed always ranks top
+  expect(scored[0]!.alert).toBe(false);
+});
+
+test("(h2) top-ranked item with pickup >= 2 alerts even at the prior pct", () => {
+  const solo = make({
+    id: "solo-pickup2", url: "https://a/2",
+    sources: [{ name: "S1" }, { name: "S2" }], engagement: null, publishedAt: NOW,
+  });
+  const scored = scoreFeed([solo], NOW, {}, null);
+  expect(scored[0]!.signal).toBe(99);
+  expect(scored[0]!.alert).toBe(true);
+});
+
+test("(h3) top-ranked item with pct >= 0.9 alerts even at pickup=1", () => {
+  // Population of 10, all same source/age/pickup -> pct(10) = (below=9 + 0.5*equal=1)/10 = 0.95.
+  const items = Array.from({ length: 10 }, (_, i) => i + 1).map(n =>
+    make({ id: `hp${n}`, url: `https://hp/${n}`, sources: [{ name: "HP" }], engagement: n, publishedAt: NOW }));
+
+  const scored = scoreFeed(items, NOW, {}, null);
+  const top = scored[0]!;
+  expect(top.item.id).toBe("hp10");
+  expect(top.signal).toBe(99);
+  expect(top.alert).toBe(true);
 });
 
 // ---------------------------------------------------------------------------
@@ -185,6 +220,7 @@ test("(g2) raw and publishedAt both tied broken by id ascending", () => {
 test("a single-item feed scores 99 regardless of raw value", () => {
   const only = make({ id: "solo", url: "https://a/1", sources: [{ name: "S" }], engagement: null, publishedAt: NOW });
   const scored = scoreFeed([only], NOW, {}, null);
-  // signal=99 >= alertThreshold (90) -> alert is true.
-  expect(scored).toEqual([{ item: only, signal: 99, alert: true }]);
+  // signal=99 clears alertThreshold (90), but ALERT is substance-gated: pickup=1 and
+  // pct=prior=0.4 both fail the gate (see (h1)), so alert is false.
+  expect(scored).toEqual([{ item: only, signal: 99, alert: false }]);
 });

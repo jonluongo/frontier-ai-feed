@@ -1,7 +1,13 @@
 import type { Item } from "./types.js";
 
-export interface ScoreConfig { prior: number; k: number; v: number; decayExp: number; alertThreshold: number }
-export const DEFAULT_SCORE_CONFIG: ScoreConfig = { prior: 0.4, k: 0.5, v: 0.5, decayExp: 1.6, alertThreshold: 90 };
+export interface ScoreConfig {
+  prior: number; k: number; v: number; decayExp: number; alertThreshold: number;
+  alertMinPickup: number; alertMinPct: number;
+}
+export const DEFAULT_SCORE_CONFIG: ScoreConfig = {
+  prior: 0.4, k: 0.5, v: 0.5, decayExp: 1.6, alertThreshold: 90,
+  alertMinPickup: 2, alertMinPct: 0.9,
+};
 export interface ScoredItem { item: Item; signal: number; alert: boolean }
 
 const MS_PER_HOUR = 3_600_000;
@@ -61,7 +67,7 @@ export function scoreFeed(
     const decay = 1 / Math.pow(ageH + 2, config.decayExp);
     const raw = (pct + config.k * (pickup - 1) + config.v * velocity) * decay;
 
-    return { item, raw };
+    return { item, raw, pct, pickup };
   });
 
   withRaw.sort((a, b) => {
@@ -71,8 +77,10 @@ export function scoreFeed(
   });
 
   const n = withRaw.length;
-  return withRaw.map(({ item }, rank) => {
+  return withRaw.map(({ item, pct, pickup }, rank) => {
     const signal = n <= 1 ? 99 : Math.round((99 * (n - 1 - rank)) / (n - 1));
-    return { item, signal, alert: signal >= config.alertThreshold };
+    const alert =
+      signal >= config.alertThreshold && (pickup >= config.alertMinPickup || pct >= config.alertMinPct);
+    return { item, signal, alert };
   });
 }
