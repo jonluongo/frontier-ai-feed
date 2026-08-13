@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { percentile, scoreFeed } from "../src/score.js";
+import { percentile, scoreFeed, tasteFactor, DEFAULT_TASTE } from "../src/score.js";
 import type { Item } from "../src/types.js";
 
 const make = (over: Partial<Item> & { id: string; url: string }): Item => ({
@@ -223,4 +223,29 @@ test("a single-item feed scores 99 regardless of raw value", () => {
   // signal=99 clears alertThreshold (90), but ALERT is substance-gated: pickup=1 and
   // pct=prior=0.4 both fail the gate (see (h1)), so alert is false.
   expect(scored).toEqual([{ item: only, signal: 99, alert: false }]);
+});
+
+// Taste layer — "curated internet feed, not a news feed" (2026-08-13)
+test("taste: penalty terms sink an otherwise-identical item", () => {
+  const neutral = make({ id: "n", url: "https://a.com/n", title: "A quiet Wednesday post about nothing much at all" });
+  const slop = make({ id: "s", url: "https://a.com/s", title: "AI giant faces lawsuit as revenue and funding soar" });
+  const out = scoreFeed([neutral, slop], NOW, {}, null);
+  expect(out[0]!.item.title).toContain("quiet Wednesday");
+});
+
+test("taste: boost terms lift an otherwise-identical item", () => {
+  const neutral = make({ id: "n", url: "https://a.com/n", title: "A quiet Wednesday post about nothing much at all" });
+  const boosted = make({ id: "b", url: "https://a.com/b", title: "New Claude Code skill for agent workflow automation" });
+  const out = scoreFeed([neutral, boosted], NOW, {}, null);
+  expect(out[0]!.item.title).toContain("Claude Code");
+});
+
+test("tasteFactor: word boundaries — 'API' matches, 'rapid' does not", () => {
+  expect(tasteFactor(make({ id: "t1", url: "https://a.com/1", title: "A new API for everything" }))).toBe(DEFAULT_TASTE.boostFactor);
+  expect(tasteFactor(make({ id: "t2", url: "https://a.com/2", title: "rapid progress lately" }))).toBe(1);
+});
+
+test("tasteFactor: both lists multiply", () => {
+  const both = make({ id: "t3", url: "https://a.com/3", title: "Open source release amid lawsuit drama" });
+  expect(tasteFactor(both)).toBeCloseTo(DEFAULT_TASTE.boostFactor * DEFAULT_TASTE.penaltyFactor, 10);
 });

@@ -10,6 +10,44 @@ export const DEFAULT_SCORE_CONFIG: ScoreConfig = {
 };
 export interface ScoredItem { item: Item; signal: number; alert: boolean }
 
+/**
+ * The taste layer — "curated internet feed, not a news feed" (user, 2026-08-13).
+ * Practitioner-applicable content (skills, tooling, techniques, releases) is boosted;
+ * industry/business/policy coverage is penalized. Terms are matched word-boundaried,
+ * case-insensitive, against title + snippet; both factors multiply into the raw score,
+ * so an item hitting both lists gets both (e.g. a release entangled in a lawsuit).
+ */
+export interface TasteConfig { boost: string[]; penalty: string[]; boostFactor: number; penaltyFactor: number }
+export const DEFAULT_TASTE: TasteConfig = {
+  boost: [
+    "skill", "skills", "mcp", "model context protocol", "claude code", "agent", "agents",
+    "agentic", "workflow", "prompt", "prompting", "context engineering", "open source",
+    "open-source", "open weights", "fine-tune", "fine-tuning", "benchmark", "tutorial",
+    "how to", "guide", "cli", "sdk", "api", "repo", "release", "released", "launch",
+    "local llm", "inference", "eval", "evals", "rag", "coding",
+  ],
+  penalty: [
+    "stock", "shares", "market cap", "revenue", "funding", "valuation", "ipo", "invest",
+    "investor", "lawsuit", "sues", "sued", "court", "congress", "senate", "regulation",
+    "regulator", "policy", "election", "tariff", "layoff", "layoffs", "acquisition",
+    "antitrust", "nationalize", "billion", "wall street", "earnings",
+  ],
+  boostFactor: 1.4,
+  penaltyFactor: 0.35,
+};
+
+const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const tasteRegex = (terms: string[]) => new RegExp(`\\b(${terms.map(escapeRe).join("|")})\\b`, "i");
+
+/** Multiplier for an item's practitioner-relevance; exported for tests. */
+export function tasteFactor(item: Item, taste: TasteConfig = DEFAULT_TASTE): number {
+  const text = `${item.title} ${item.snippet ?? ""}`;
+  let factor = 1;
+  if (tasteRegex(taste.boost).test(text)) factor *= taste.boostFactor;
+  if (tasteRegex(taste.penalty).test(text)) factor *= taste.penaltyFactor;
+  return factor;
+}
+
 const MS_PER_HOUR = 3_600_000;
 
 /** Fraction of `population` strictly below `value`, plus half the ties. */
@@ -65,7 +103,7 @@ export function scoreFeed(
 
     const ageH = Math.max(0, (now - Date.parse(item.publishedAt)) / MS_PER_HOUR);
     const decay = 1 / Math.pow(ageH + 2, config.decayExp);
-    const raw = (pct + config.k * (pickup - 1) + config.v * velocity) * decay;
+    const raw = (pct + config.k * (pickup - 1) + config.v * velocity) * tasteFactor(item) * decay;
 
     return { item, raw, pct, pickup };
   });

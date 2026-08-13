@@ -28,19 +28,19 @@ struct RemoteFeedFetcherTests {
         let researchUpdate = try #require(items.first { $0.title == "Research update" })
         #expect(researchUpdate.snippet == "Some notes.")
         #expect(researchUpdate.url == URL(string: "https://openai.com/blog/research"))
-        #expect(researchUpdate.sources == [Source(name: "OpenAI")])
+        #expect(researchUpdate.sources == [Source(name: "OpenAI", domain: "openai.com")])
         #expect(researchUpdate.category == .models)
 
         let benchmark = try #require(items.first { $0.title == "A new LLM benchmark from DeepMind" })
         #expect(benchmark.snippet == nil)
         #expect(benchmark.url == URL(string: "https://deepmind.google/benchmark"))
-        #expect(benchmark.sources == [Source(name: "Hacker News")])
+        #expect(benchmark.sources == [Source(name: "Hacker News", domain: "news.ycombinator.com")])
         #expect(benchmark.category == .tools)
 
         let gpt5 = try #require(items.first { $0.title == "OpenAI releases GPT-5" })
         #expect(gpt5.snippet == nil)
         #expect(gpt5.url == URL(string: "https://openai.com/blog/gpt-5"))
-        #expect(Set(gpt5.sources) == Set([Source(name: "Hacker News"), Source(name: "OpenAI")]))
+        #expect(Set(gpt5.sources) == Set([Source(name: "Hacker News", domain: "news.ycombinator.com"), Source(name: "OpenAI", domain: "openai.com")]))
         #expect(gpt5.category == .tools)
 
         // signal/alert are now part of the pipeline's v1 wire format (Signal ranking + alerts).

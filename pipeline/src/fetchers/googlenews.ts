@@ -1,14 +1,18 @@
-import type { Item } from "../types.js";
+import type { Item, FeedCategory } from "../types.js";
 import type { FetchClient } from "../client.js";
 import { itemID } from "../identity.js";
 import { parseSyndication } from "../syndication.js";
 
-export const GOOGLE_NEWS_QUERIES: string[] = [
-  '"OpenAI"',
-  '"Anthropic"',
-  '"Google DeepMind" OR "Gemini"',
-  '"Meta AI" OR "Mistral" OR "xAI"',
-  '"artificial intelligence"',
+export interface GoogleNewsQuery { q: string; category: FeedCategory }
+
+/** Practitioner-aimed queries (retuned 2026-08-13 — "curated internet feed, not a news
+ *  feed"): usage, tooling, and releases rather than industry/business coverage. */
+export const GOOGLE_NEWS_QUERIES: GoogleNewsQuery[] = [
+  { q: '"Claude Code"', category: "techniques" },
+  { q: '"Model Context Protocol" OR "MCP server"', category: "tools" },
+  { q: '"prompt engineering" OR "context engineering"', category: "techniques" },
+  { q: '"open weights" OR "open-source model"', category: "models" },
+  { q: '"Claude" OR "ChatGPT" OR "Gemini"', category: "models" },
 ];
 
 const queryURL = (query: string) =>
@@ -55,7 +59,7 @@ export const googleNewsFetcher = (queries = GOOGLE_NEWS_QUERIES, perQuery = 25) 
 
     for (const query of queries) {
       try {
-        const xml = await client(queryURL(query));
+        const xml = await client(queryURL(query.q));
         for (const entry of parseSyndication(xml).slice(0, perQuery)) {
           try {
             const url = decodeGoogleNewsURL(entry.link) ?? entry.link;
@@ -71,7 +75,7 @@ export const googleNewsFetcher = (queries = GOOGLE_NEWS_QUERIES, perQuery = 25) 
                 name: entry.sourceName ?? "Google News",
                 domain: entry.sourceDomain ?? undefined, // outlet host from <source url="…">
               }],
-              category: "models",
+              category: query.category,
               publishedAt: entry.published ?? "1970-01-01T00:00:00Z",
               imageURL: entry.imageURL,
               engagement: null,

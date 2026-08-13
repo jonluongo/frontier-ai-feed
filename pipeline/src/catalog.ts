@@ -60,31 +60,6 @@ export const CATALOG: FeedConfig[] = [
     category: "models",
   },
   {
-    url: "https://venturebeat.com/category/ai/feed/",
-    source: { name: "VentureBeat" },
-    category: "models",
-  },
-  {
-    url: "https://www.wired.com/feed/tag/ai/latest/rss",
-    source: { name: "Wired" },
-    category: "models",
-  },
-  {
-    url: "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-    source: { name: "MIT Tech Review" },
-    category: "research",
-  },
-  {
-    url: "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
-    source: { name: "IEEE Spectrum" },
-    category: "research",
-  },
-  {
-    url: "https://www.theregister.com/software/ai_ml/headlines.atom",
-    source: { name: "The Register" },
-    category: "tools",
-  },
-  {
     url: "https://www.microsoft.com/en-us/research/feed/",
     source: { name: "Microsoft Research" },
     category: "research",
@@ -143,5 +118,37 @@ export const CATALOG: FeedConfig[] = [
     url: "https://www.reddit.com/r/MachineLearning/top/.rss?t=day",
     source: { name: "r/MachineLearning" },
     category: "research",
+  },
+
+  {
+    url: "https://www.reddit.com/r/ClaudeAI/top/.rss?t=day",
+    source: { name: "r/ClaudeAI" },
+    category: "techniques",
+  },
+  {
+    url: "https://www.reddit.com/r/OpenAI/top/.rss?t=day",
+    source: { name: "r/OpenAI" },
+    category: "tools",
+  },
+  {
+    url: "https://www.reddit.com/r/singularity/top/.rss?t=day",
+    source: { name: "r/singularity" },
+    category: "models",
+  },
+  // YouTube channel feeds (Atom) — channel ids verified against feed titles 2026-08-13.
+  {
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+    source: { name: "AI Explained", domain: "youtube.com" },
+    category: "techniques",
+  },
+  {
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+    source: { name: "Fireship", domain: "youtube.com" },
+    category: "techniques",
+  },
+  {
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ",
+    source: { name: "Andrej Karpathy", domain: "youtube.com" },
+    category: "techniques",
   },
 ];

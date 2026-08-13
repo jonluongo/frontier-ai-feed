@@ -1,16 +1,18 @@
 import { expect, test } from "vitest";
 import { readFileSync } from "node:fs";
-import { DEFAULT_GH_QUERY, githubFetcher } from "../src/fetchers/github.js";
+import { githubRequestURL, githubFetcher } from "../src/fetchers/github.js";
+
+const NOW = new Date("2026-08-13T00:00:00Z");
 
 const fx = (n: string) => readFileSync(new URL(`./fixtures/${n}.json`, import.meta.url), "utf8");
-const url = `https://api.github.com/search/repositories?q=${DEFAULT_GH_QUERY}&sort=stars&order=desc&per_page=30`;
+const url = githubRequestURL(NOW);
 const client = async (u: string) => {
   if (u === url) return fx("github_search");
   throw new Error(`unmapped ${u}`);
 };
 
 test("maps GitHub search results to Items with stargazers as engagement", async () => {
-  const items = await githubFetcher()(client);
+  const items = await githubFetcher(NOW)(client);
   expect(items.map(i => i.title)).toEqual(["NousResearch/hermes-agent", "Significant-Gravitas/AutoGPT"]);
   expect(items[0]!.engagement).toBe(229372);
   expect(items[0]!.category).toBe("tools");
@@ -44,7 +46,7 @@ test("skips repos missing created_at and strips fractional seconds from the rest
     throw new Error(`unmapped ${u}`);
   };
 
-  const items = await githubFetcher()(withExtra);
+  const items = await githubFetcher(NOW)(withExtra);
 
   expect(items.map(i => i.title)).not.toContain("no-date/missing-created-at");
   const fracItem = items.find(i => i.title === "frac/seconds");

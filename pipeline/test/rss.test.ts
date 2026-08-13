@@ -28,17 +28,17 @@ test("caps to maxItems keeping newest entries", async () => {
   expect(items.map(i => i.title)).toEqual(["Introducing GPT-5"]);
 });
 
-test("CATALOG has 27 entries with unique URLs and source names, all categories valid", () => {
-  expect(CATALOG).toHaveLength(27);
+test("CATALOG has 28 entries with unique URLs and source names, all categories valid", () => {
+  expect(CATALOG).toHaveLength(28);
 
   const urls = CATALOG.map(c => c.url);
   const uniqueUrls = new Set(urls);
-  expect(uniqueUrls.size).toBe(27);
+  expect(uniqueUrls.size).toBe(28);
   expect(urls.length).toBe(uniqueUrls.size);
 
   const names = CATALOG.map(c => c.source.name);
   const uniqueNames = new Set(names);
-  expect(uniqueNames.size).toBe(27);
+  expect(uniqueNames.size).toBe(28);
   expect(names.length).toBe(uniqueNames.size);
 
   const validCategories: FeedCategory[] = ["models", "tools", "techniques", "research"];

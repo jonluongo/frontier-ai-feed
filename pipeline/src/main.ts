@@ -23,7 +23,7 @@ export async function runPipeline(
   prevState: PrevState | null,
 ): Promise<{ feed: FeedDocument; state: StateDocument }> {
   const fetchers = [
-    hackerNewsFetcher(), githubFetcher(), huggingFaceFetcher(), googleNewsFetcher(),
+    hackerNewsFetcher(), githubFetcher(now), huggingFaceFetcher(), googleNewsFetcher(),
     ...CATALOG.map(c => rssFetcher(c)),
   ];
   const settled = await Promise.allSettled(fetchers.map(f => f(client)));

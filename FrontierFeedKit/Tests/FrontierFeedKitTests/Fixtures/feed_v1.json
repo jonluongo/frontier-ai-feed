@@ -9,10 +9,12 @@
       "url": "https://openai.com/blog/gpt-5",
       "sources": [
         {
-          "name": "Hacker News"
+          "name": "Hacker News",
+          "domain": "news.ycombinator.com"
         },
         {
-          "name": "OpenAI"
+          "name": "OpenAI",
+          "domain": "openai.com"
         }
       ],
       "category": "tools",
@@ -28,7 +30,8 @@
       "url": "https://openai.com/blog/research",
       "sources": [
         {
-          "name": "OpenAI"
+          "name": "OpenAI",
+          "domain": "openai.com"
         }
       ],
       "category": "models",
@@ -44,7 +47,8 @@
       "url": "https://deepmind.google/benchmark",
       "sources": [
         {
-          "name": "Hacker News"
+          "name": "Hacker News",
+          "domain": "news.ycombinator.com"
         }
       ],
       "category": "tools",

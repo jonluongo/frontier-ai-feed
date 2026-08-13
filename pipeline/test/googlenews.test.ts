@@ -20,7 +20,7 @@ test("maps a single query into Items with outlet Source names, stripped titles, 
     return fixture;
   };
 
-  const items = await googleNewsFetcher(['"OpenAI"'])(client);
+  const items = await googleNewsFetcher([{ q: '"OpenAI"', category: "models" }])(client);
 
   expect(items).toHaveLength(6);
   expect(items.map(i => i.title)).toEqual([
@@ -55,7 +55,7 @@ test("falls back to 'Google News' as source name when <source> is missing", asyn
     ""
   );
   const client = async () => noSourceFixture;
-  const items = await googleNewsFetcher(['"OpenAI"'])(client);
+  const items = await googleNewsFetcher([{ q: '"OpenAI"', category: "models" }])(client);
   expect(items[0]!.sources[0]!.name).toBe("Google News");
   // no sourceName to strip, so title is left as captured (still has " - Mashable" suffix)
   expect(items[0]!.title).toBe("OpenAI's AI smart speaker will reportedly be shaped 'like a doughnut' - Mashable");
@@ -67,7 +67,7 @@ test("dedupes across queries by item id", async () => {
     throw new Error(`unmapped ${url}`);
   };
 
-  const items = await googleNewsFetcher(['"OpenAI"', '"Anthropic"'])(client);
+  const items = await googleNewsFetcher([{ q: '"OpenAI"', category: "models" }, { q: '"Anthropic"', category: "models" }])(client);
 
   expect(items).toHaveLength(6);
   const ids = items.map(i => i.id);
@@ -81,23 +81,23 @@ test("isolates a failing query: other queries still produce items", async () => 
     throw new Error(`unmapped ${url}`);
   };
 
-  const items = await googleNewsFetcher(['"OpenAI"', '"Anthropic"'])(client);
+  const items = await googleNewsFetcher([{ q: '"OpenAI"', category: "models" }, { q: '"Anthropic"', category: "models" }])(client);
   expect(items).toHaveLength(6);
 });
 
 test("perQuery caps the number of items taken from a single query", async () => {
   const client = async () => fixture;
-  const items = await googleNewsFetcher(['"OpenAI"'], 3)(client);
+  const items = await googleNewsFetcher([{ q: '"OpenAI"', category: "models" }], 3)(client);
   expect(items).toHaveLength(3);
 });
 
 test("GOOGLE_NEWS_QUERIES has the 5 configured queries", () => {
   expect(GOOGLE_NEWS_QUERIES).toEqual([
-    '"OpenAI"',
-    '"Anthropic"',
-    '"Google DeepMind" OR "Gemini"',
-    '"Meta AI" OR "Mistral" OR "xAI"',
-    '"artificial intelligence"',
+    { q: '"Claude Code"', category: "techniques" },
+    { q: '"Model Context Protocol" OR "MCP server"', category: "tools" },
+    { q: '"prompt engineering" OR "context engineering"', category: "techniques" },
+    { q: '"open weights" OR "open-source model"', category: "models" },
+    { q: '"Claude" OR "ChatGPT" OR "Gemini"', category: "models" },
   ]);
 });
 
