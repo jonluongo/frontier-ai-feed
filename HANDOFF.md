@@ -176,3 +176,38 @@ Was about to cover, still open for discussion in the next session:
 - Exact starter RSS URL list (some company blogs' RSS availability varies).
 - Reddit subs beyond r/LocalLLaMA + r/MachineLearning?
 - Bundle id / app name (working name: **Frontier AI Feed**).
+
+---
+
+## PAUSED 2026-08-13 — read this first when resuming
+
+**State: working end-to-end, feed quality ~70% there.** Pipeline runs every 30 min on GHA
+(free), publishes `feed.json` + `state.json` to Pages; iOS app consumes it remote-first and
+renders ranked cards with Signal badges and source logos. 75 pipeline + 31 Swift tests green.
+
+**The real lesson (user's own words): "the goal was ill defined."** We built the machinery
+(fetch → dedup → cluster → score → publish → render) before pinning down what *important*
+means for this user. The answer, discovered late, is in the memory `feed-content-taste.md`:
+**practitioner-applicable content** (skills, repos, Claude/coding techniques, model updates)
+— NOT industry/business/policy news. Any future work should start from that definition, not
+from the pipeline.
+
+**Where feed quality stands (live-verified 2026-08-13):** ~10 of the top 14 are genuinely
+practitioner content; clustering works (pickup>1 on 41 stories, real cross-source merges).
+Two known defects, both diagnosed:
+1. **Crime/human-interest slop** ("teen accused of killing… used AI") — no penalty term
+   covers this class. Keyword gap.
+2. **Pickup overpowers taste** — a 3-source finance story gains `+1.0` from corroboration
+   while the taste penalty only multiplies by `0.35`, so slop with wide coverage still wins.
+   Structural, not a missing word.
+
+**Next step when resuming — the decision that was open:**
+- **(A)** more keyword tuning — cheap, last useful round, permanent ceiling.
+- **(B, recommended)** LLM taste pass: Haiku rates each item "practitioner-useful? 0–3",
+  batched + cached by item id, ~$2–4/mo. Real judgment instead of word matching; kills both
+  defects above without anticipating them. This is the spec's phase-B stage used as a filter.
+- **(C)** drop Google News entirely — narrow, high-hit-rate curated feed; loses whole-web reach.
+
+**Also parked:** `.superpowers/sdd/` holds the plan ledgers and a pre-history-rewrite backup
+bundle (`2026-08-12-pipeline-stage1/backups/pre-filter-backup.bundle`, 33MB, gitignored) —
+safe to delete once you're confident the public repo history is fine.
