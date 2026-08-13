@@ -1,6 +1,8 @@
 export type FeedCategory = "models" | "tools" | "techniques" | "research";
 
 export interface SourceRef {
+  /** favicon/attribution host, e.g. "techcrunch.com"; optional */
+  domain?: string;
   name: string;
 }
 

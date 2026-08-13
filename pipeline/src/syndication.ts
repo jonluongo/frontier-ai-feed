@@ -3,7 +3,16 @@ import { XMLParser } from "fast-xml-parser";
 export interface SyndicationEntry {
   title: string; link: string; summary: string | null;
   published: string | null; imageURL: string | null;
-  sourceName: string | null; // RSS <source> element text; null for Atom / missing
+  sourceName: string | null;   // RSS <source> element text; null for Atom / missing
+  sourceDomain: string | null; // host of the RSS <source url="…"> attribute; null when absent
+}
+
+/** Host of a URL string, lowercased, without a leading "www."; null when unparseable. */
+export function hostOf(raw: string | null | undefined): string | null {
+  if (!raw) return null;
+  try {
+    return new URL(raw).hostname.toLowerCase().replace(/^www\./, "");
+  } catch { return null; }
 }
 
 const toISO = (raw: string | undefined): string | null => {
@@ -56,6 +65,7 @@ export function parseSyndication(xml: string): SyndicationEntry[] {
       published: toISO(text(item.pubDate) ?? undefined),
       imageURL: (enclosure?.["@_url"] ?? media?.["@_url"] ?? null) as string | null,
       sourceName: text(item.source),
+      sourceDomain: hostOf(asArray<any>(item.source)[0]?.["@_url"] as string | undefined),
     });
   }
 
@@ -71,6 +81,7 @@ export function parseSyndication(xml: string): SyndicationEntry[] {
       published: toISO(text(entry.published) ?? text(entry.updated) ?? undefined),
       imageURL: null,
       sourceName: null,
+      sourceDomain: null,
     });
   }
 

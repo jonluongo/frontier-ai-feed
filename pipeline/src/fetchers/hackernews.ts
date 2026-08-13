@@ -25,7 +25,7 @@ export const hackerNewsFetcher = (maxStories = 200) =>
         if (s?.type !== "story" || !s.title || !s.url || !isAIRelevant(s.title)) continue;
         items.push({
           id: itemID(s.url), title: s.title, snippet: null, url: s.url,
-          sources: [{ name: "Hacker News" }], category: "tools",
+          sources: [{ name: "Hacker News", domain: "news.ycombinator.com" }], category: "tools",
           publishedAt: new Date((s.time ?? 0) * 1000).toISOString().replace(/\.\d{3}Z$/, "Z"),
           imageURL: null, engagement: typeof s.score === "number" ? s.score : null,
         });

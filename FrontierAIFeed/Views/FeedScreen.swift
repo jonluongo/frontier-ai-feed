@@ -9,7 +9,6 @@ struct FeedScreen: View {
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 10, pinnedViews: [.sectionHeaders]) {
-                masthead
                 Section {
                     content
                         .padding(.horizontal, 16)
@@ -27,31 +26,6 @@ struct FeedScreen: View {
     }
 
     // MARK: sections
-
-    private var masthead: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text("AI FEED")
-                .font(Theme.eyebrow(12))
-                .tracking(3)
-                .foregroundStyle(.secondary)
-            Text("Frontier")
-                .font(Theme.masthead(40))
-            Text(subtitle)
-                .font(Theme.eyebrow(12))
-                .tracking(1)
-                .foregroundStyle(.secondary)
-        }
-        .padding(.horizontal, 16)
-        .padding(.top, 8)
-    }
-
-    private var subtitle: String {
-        let date = Date().formatted(.dateTime.weekday(.wide).month().day()).uppercased()
-        if model.isRefreshing && !model.hasLoadedOnce {
-            return "\(date)  ·  SCANNING…"
-        }
-        return "\(date)  ·  \(model.visibleItems.count) DISPATCHES"
-    }
 
     @ViewBuilder
     private var content: some View {

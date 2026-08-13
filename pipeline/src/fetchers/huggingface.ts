@@ -20,7 +20,7 @@ export const huggingFaceFetcher = () =>
           title: paper.title,
           snippet: paper.summary ?? null,
           url: `https://huggingface.co/papers/${paper.id}`,
-          sources: [{ name: "Hugging Face" }],
+          sources: [{ name: "Hugging Face", domain: "huggingface.co" }],
           category: "research",
           publishedAt: stripFractionalSeconds(paper.publishedAt),
           imageURL: null,

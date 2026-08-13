@@ -6,7 +6,7 @@ export interface FeedStory {
   title: string;
   snippet: string | null;
   url: string;
-  sources: { name: string }[];
+  sources: { name: string; domain?: string }[];
   category: string;
   publishedAt: string;
   imageURL: string | null;

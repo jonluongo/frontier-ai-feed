@@ -14,7 +14,7 @@ test("maps GitHub search results to Items with stargazers as engagement", async 
   expect(items.map(i => i.title)).toEqual(["NousResearch/hermes-agent", "Significant-Gravitas/AutoGPT"]);
   expect(items[0]!.engagement).toBe(229372);
   expect(items[0]!.category).toBe("tools");
-  expect(items[0]!.sources).toEqual([{ name: "GitHub" }]);
+  expect(items[0]!.sources).toEqual([{ name: "GitHub", domain: "github.com" }]);
   expect(items[0]!.url).toBe("https://github.com/NousResearch/hermes-agent");
   expect(items[0]!.snippet).toBe("The agent that grows with you");
   expect(items[0]!.publishedAt).toBe("2025-07-22T22:22:28Z");

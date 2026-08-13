@@ -84,7 +84,7 @@ struct FeedCardView: View {
 
     private var eyebrow: some View {
         HStack(spacing: 6) {
-            Circle().fill(item.category.tint).frame(width: 6, height: 6)
+            sourceLogo
             Text(eyebrowText)
                 .font(Theme.eyebrow())
                 .tracking(0.6)
@@ -94,6 +94,28 @@ struct FeedCardView: View {
                 Spacer(minLength: 6)
                 signalBadge(signal)
             }
+        }
+    }
+
+    /// The source's favicon (via its attribution domain), falling back to the category dot
+    /// when no domain is known or the icon fails to load.
+    @ViewBuilder
+    private var sourceLogo: some View {
+        if let domain = item.sources.first?.domain,
+           let iconURL = URL(string: "https://www.google.com/s2/favicons?domain=\(domain)&sz=64") {
+            AsyncImage(url: iconURL) { phase in
+                switch phase {
+                case .success(let image):
+                    image.resizable()
+                        .frame(width: 14, height: 14)
+                        .clipShape(RoundedRectangle(cornerRadius: 3, style: .continuous))
+                default:
+                    Circle().fill(item.category.tint).frame(width: 6, height: 6)
+                }
+            }
+            .frame(width: 14, height: 14)
+        } else {
+            Circle().fill(item.category.tint).frame(width: 6, height: 6)
         }
     }
 

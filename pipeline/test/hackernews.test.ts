@@ -20,7 +20,7 @@ test("keeps only AI-relevant stories with engagement = HN score", async () => {
   const items = await hackerNewsFetcher()(client);
   expect(items.map(i => i.title)).toEqual(["OpenAI releases GPT-5", "A new LLM benchmark from DeepMind"]);
   expect(items[0]!.engagement).toBe(900);
-  expect(items[0]!.sources).toEqual([{ name: "Hacker News" }]);
+  expect(items[0]!.sources).toEqual([{ name: "Hacker News", domain: "news.ycombinator.com" }]);
   expect(items[0]!.publishedAt).toBe("2023-11-14T22:13:20Z"); // epoch 1700000000
 });
 

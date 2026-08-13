@@ -20,7 +20,7 @@ export const githubFetcher = (query = DEFAULT_GH_QUERY) =>
           title: repo.full_name,
           snippet: repo.description ?? null,
           url: repo.html_url,
-          sources: [{ name: "GitHub" }],
+          sources: [{ name: "GitHub", domain: "github.com" }],
           category: "tools",
           publishedAt: repo.created_at.replace(/\.\d+Z$/, "Z"),
           imageURL: null,

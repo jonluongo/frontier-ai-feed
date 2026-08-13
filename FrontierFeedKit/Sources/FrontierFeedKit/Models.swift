@@ -12,9 +12,12 @@ public enum FeedCategory: String, Codable, CaseIterable, Sendable {
 /// (e.g. "OpenAI", "arXiv", "Hacker News"). Not the fetch adapter — that is a Fetcher.
 public struct Source: Codable, Hashable, Sendable {
     public let name: String
+    /// Attribution host (e.g. "techcrunch.com") used for the card's favicon; optional.
+    public let domain: String?
 
-    public init(name: String) {
+    public init(name: String, domain: String? = nil) {
         self.name = name
+        self.domain = domain
     }
 }
 

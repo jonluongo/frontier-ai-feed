@@ -67,7 +67,10 @@ export const googleNewsFetcher = (queries = GOOGLE_NEWS_QUERIES, perQuery = 25) 
               title: stripSourceSuffix(entry.title, entry.sourceName),
               snippet: null, // Google News <description> is an anchor+outlet HTML block, never prose
               url,
-              sources: [{ name: entry.sourceName ?? "Google News" }],
+              sources: [{
+                name: entry.sourceName ?? "Google News",
+                domain: entry.sourceDomain ?? undefined, // outlet host from <source url="…">
+              }],
               category: "models",
               publishedAt: entry.published ?? "1970-01-01T00:00:00Z",
               imageURL: entry.imageURL,

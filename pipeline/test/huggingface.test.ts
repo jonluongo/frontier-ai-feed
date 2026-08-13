@@ -16,7 +16,7 @@ test("maps HF daily papers to Items with upvotes as engagement, stripping fracti
     "Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference",
   ]);
   expect(items[0]!.category).toBe("research");
-  expect(items[0]!.sources).toEqual([{ name: "Hugging Face" }]);
+  expect(items[0]!.sources).toEqual([{ name: "Hugging Face", domain: "huggingface.co" }]);
   expect(items[0]!.url).toBe("https://huggingface.co/papers/2608.10628");
   expect(items[0]!.engagement).toBe(5);
   expect(items[0]!.publishedAt).toBe("2026-08-11T00:00:00Z");

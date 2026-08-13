@@ -18,6 +18,7 @@ test("maps a configured feed into Items stamped with Source and Category", async
   expect(items.every(i => i.category === "models")).toBe(true);
   expect(items[0]!.snippet).toBe("The next model.");
   expect(items[0]!.engagement).toBeNull();
+  expect(items[0]!.sources[0]!.domain).toBe("openai.com"); // derived from the feed URL host
 });
 
 test("caps to maxItems keeping newest entries", async () => {

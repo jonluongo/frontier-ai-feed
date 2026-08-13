@@ -20,7 +20,7 @@ public struct RemoteFeedFetcher: Fetcher {
                 title: s.title,
                 snippet: s.snippet,
                 url: url,
-                sources: s.sources.map { Source(name: $0.name) },
+                sources: s.sources.map { Source(name: $0.name, domain: $0.domain) },
                 category: FeedCategory(rawValue: s.category) ?? .tools,
                 publishedAt: df.date(from: s.publishedAt) ?? .distantPast,
                 imageURL: s.imageURL.flatMap(URL.init(string:)),
@@ -35,7 +35,7 @@ public struct RemoteFeedFetcher: Fetcher {
         let stories: [Story]
     }
     private struct Story: Decodable {
-        struct Ref: Decodable { let name: String }
+        struct Ref: Decodable { let name: String; let domain: String? }
         let title: String; let snippet: String?; let url: String
         let sources: [Ref]; let category: String; let publishedAt: String
         let imageURL: String?; let signal: Int?; let alert: Bool?
