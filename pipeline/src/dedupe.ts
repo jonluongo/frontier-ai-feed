@@ -73,6 +73,78 @@ export function dedupeByTitle(items: Item[]): Item[] {
   return out;
 }
 
+/**
+ * Fuzzy same-story clustering v0 (Stage-3 pulled forward, conservatively): two Items merge
+ * when their titles share ≥3 DISTINCTIVE stems. Stems are normalized-title tokens with
+ * common suffixes stripped; generic AI-feed vocabulary ("ai", "model", "new", "release"…)
+ * never counts toward the match, so "OpenAI releases new AI model" cannot false-merge with
+ * "Anthropic releases new AI model" (their distinctive stems — openai vs anthropic — differ).
+ * Observed motivation: the same watermarking story from four outlets under four headlines.
+ * Runs after dedupeByTitle; same merge semantics (union sources, prefer non-Google URL,
+ * max engagement, in-place replacement preserving order).
+ */
+const GENERIC_STEMS = new Set([
+  "ai", "new", "model", "release", "launch", "update", "say", "will", "now", "everyth",
+  "get", "use", "tech", "technolog", "artifici", "intellig", "report", "announc",
+  "the", "and", "for", "with", "its", "into", "how", "why", "what", "about", "over",
+  "amid", "across", "your", "our", "their", "this", "that", "are", "has", "have",
+]);
+
+const stem = (token: string): string =>
+  token.replace(/(ing|ers|ies|ied|ed|es|s)$/g, "").replace(/(ing|er)$/g, "");
+
+/** Distinctive stems of a title (exported for tests). */
+export function distinctiveStems(title: string): Set<string> {
+  const stems = new Set<string>();
+  for (const tok of titleKey(title).split(" ")) {
+    if (tok.length < 3) continue;
+    const st = stem(tok);
+    if (st.length >= 3 && !GENERIC_STEMS.has(st)) stems.add(st);
+  }
+  return stems;
+}
+
+export function clusterByStems(items: Item[], minShared = 3): Item[] {
+  const out: Item[] = [];
+  const stemSets: (Set<string> | null)[] = [];
+
+  for (const item of items) {
+    const stems = distinctiveStems(item.title);
+    let mergedInto = -1;
+    if (stems.size >= minShared) {
+      for (let i = 0; i < out.length; i++) {
+        const other = stemSets[i];
+        if (!other || other.size < minShared) continue;
+        let shared = 0;
+        for (const s of stems) if (other.has(s)) shared++;
+        if (shared >= minShared) { mergedInto = i; break; }
+      }
+    }
+
+    if (mergedInto === -1) {
+      stemSets.push(stems);
+      out.push(item);
+      continue;
+    }
+
+    const existing = out[mergedInto]!;
+    const preferNew = isGoogleHost(existing.url) && !isGoogleHost(item.url);
+    const primary = preferNew ? item : existing;
+    const secondary = preferNew ? existing : item;
+    const sources = [...primary.sources];
+    for (const s of secondary.sources) if (!sources.some(x => x.name === s.name)) sources.push(s);
+    const engagement = [existing.engagement, item.engagement]
+      .filter((e): e is number => e !== null)
+      .reduce<number | null>((a, b) => (a === null ? b : Math.max(a, b)), null);
+    out[mergedInto] = { ...primary, sources, engagement };
+    // union the stems so later occurrences can join the grown cluster
+    const grown = stemSets[mergedInto]!;
+    for (const s of stems) grown.add(s);
+  }
+
+  return out;
+}
+
 /** Collapse duplicates by Item identity; union Sources; keep earliest rep + max engagement. */
 export function dedupeByURL(groups: Item[][]): Item[] {
   const rep = new Map<string, Item>();

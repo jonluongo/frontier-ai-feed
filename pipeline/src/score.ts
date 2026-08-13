@@ -30,14 +30,17 @@ export const DEFAULT_TASTE: TasteConfig = {
     "stock", "shares", "market cap", "revenue", "funding", "valuation", "ipo", "invest",
     "investor", "lawsuit", "sues", "sued", "court", "congress", "senate", "regulation",
     "regulator", "policy", "election", "tariff", "layoff", "layoffs", "acquisition",
-    "antitrust", "nationalize", "billion", "wall street", "earnings",
+    "antitrust", "nationalize", "billion", "wall street", "earnings", "ads", "advertis",
+    "marketing", "brand", "stocks", "securities", "trading", "obituary", "quarterly",
   ],
   boostFactor: 1.4,
   penaltyFactor: 0.35,
 };
 
 const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-const tasteRegex = (terms: string[]) => new RegExp(`\\b(${terms.map(escapeRe).join("|")})\\b`, "i");
+// Suffix-tolerant: "regulator" also hits "regulators", "invest" hits "investors" —
+// each term matches at a word start with any word-suffix ("\\w*") after it.
+const tasteRegex = (terms: string[]) => new RegExp(`\\b(${terms.map(escapeRe).join("|")})\\w*`, "i");
 
 /** Multiplier for an item's practitioner-relevance; exported for tests. */
 export function tasteFactor(item: Item, taste: TasteConfig = DEFAULT_TASTE): number {

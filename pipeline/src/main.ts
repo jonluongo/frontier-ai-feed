@@ -1,6 +1,6 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { liveClient, type FetchClient } from "./client.js";
-import { dedupeByURL, dedupeByTitle } from "./dedupe.js";
+import { dedupeByURL, dedupeByTitle, clusterByStems } from "./dedupe.js";
 import { toFeedDocument, toStateJSON, type FeedDocument, type StateDocument } from "./publish.js";
 import { scoreFeed } from "./score.js";
 import { rssFetcher } from "./fetchers/rss.js";
@@ -28,13 +28,21 @@ export async function runPipeline(
   ];
   const settled = await Promise.allSettled(fetchers.map(f => f(client)));
   const groups = settled.map(r => (r.status === "fulfilled" ? r.value : []));
-  const deduped = dedupeByTitle(dedupeByURL(groups));
+  const deduped = clusterByStems(dedupeByTitle(dedupeByURL(groups)));
 
   // A future-dated item's age clamps to 0 in scoreFeed's decay term, pinning it at max decay
   // forever -- a bad feed timestamp would otherwise squat at the top of the ranking. Drop
   // anything published more than 1h ahead of "now" (a small allowance for clock skew).
+  // Also drop predominantly non-ASCII titles: this is an English-language practitioner
+  // feed, and Google News occasionally leaks non-English outlet coverage past hl=en-US.
   const nowMs = now.getTime();
-  const items = deduped.filter(item => Date.parse(item.publishedAt) <= nowMs + MS_PER_HOUR);
+  const nonAsciiRatio = (s: string) => {
+    let n = 0;
+    for (const ch of s) if (ch.codePointAt(0)! > 0x2fff) n++;
+    return s.length === 0 ? 0 : n / s.length;
+  };
+  const items = deduped.filter(item =>
+    Date.parse(item.publishedAt) <= nowMs + MS_PER_HOUR && nonAsciiRatio(item.title) < 0.3);
 
   const nowISO = now.toISOString().replace(/\.\d{3}Z$/, "Z");
   const scored = scoreFeed(items, nowISO, prevState?.engagement ?? {}, prevState?.generatedAt ?? null);

@@ -97,3 +97,43 @@ test("dedupeByTitle merges max engagement across occurrences", () => {
   expect(out).toHaveLength(1);
   expect(out[0]!.engagement).toBe(900);
 });
+
+// clusterByStems — fuzzy same-story merge (Stage-3 v0, 2026-08-13)
+import { clusterByStems, distinctiveStems } from "../src/dedupe.js";
+
+const story = (id: string, url: string, title: string, source: string): Item => ({
+  id, title, snippet: null, url, sources: [{ name: source }],
+  category: "models", publishedAt: "2026-08-13T00:00:00Z", imageURL: null, engagement: null,
+});
+
+test("clusterByStems: watermark headlines with >=3 shared distinctive stems merge", () => {
+  const items = [
+    story("a", "https://forbes.com/1", "Explaining Anthropic's New Watermarking Of Claude AI-Generated Text", "Forbes"),
+    story("b", "https://dailystar.net/2", "Anthropic to watermark Claude-generated text", "The Daily Star"),
+    story("c", "https://indianprinter.com/3", "Anthropic embeds invisible watermarks across Claude AI products", "Indian Printer"),
+    story("d", "https://forbes.com/4", "Claude Will Now Leave A Watermark On Everything It Writes", "Forbes B"),
+  ];
+  const out = clusterByStems(items);
+  // Conservative by design: three of the four share >=3 distinctive stems and merge; the
+  // fourth ("Claude Will Now Leave A Watermark...") shares only {claude, watermark} = 2,
+  // below the false-merge-safe threshold, and stays separate.
+  expect(out).toHaveLength(2);
+  expect(Math.max(...out.map(o => o.sources.length))).toBeGreaterThanOrEqual(3);
+});
+
+test("clusterByStems: generic AI phrasing does NOT false-merge different stories", () => {
+  const items = [
+    story("a", "https://a.com/1", "OpenAI releases new AI model", "A"),
+    story("b", "https://b.com/2", "Anthropic releases new AI model", "B"),
+  ];
+  expect(clusterByStems(items)).toHaveLength(2);
+});
+
+test("distinctiveStems: strips generic vocabulary and suffixes", () => {
+  const stems = distinctiveStems("Anthropic embeds invisible watermarks across Claude AI products");
+  expect(stems.has("anthropic")).toBe(true);
+  expect(stems.has("watermark")).toBe(true);
+  expect(stems.has("claude")).toBe(true);
+  expect(stems.has("ai")).toBe(false);      // generic
+  expect(stems.has("across")).toBe(false);  // stopword
+});
