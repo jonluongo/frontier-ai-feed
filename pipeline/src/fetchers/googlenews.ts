@@ -12,7 +12,7 @@ export const GOOGLE_NEWS_QUERIES: GoogleNewsQuery[] = [
   { q: '"Model Context Protocol" OR "MCP server"', category: "tools" },
   { q: '"prompt engineering" OR "context engineering"', category: "techniques" },
   { q: '"open weights" OR "open-source model"', category: "models" },
-  { q: '"Claude" OR "ChatGPT" OR "Gemini"', category: "models" },
+  { q: '"Claude AI" OR "Claude Code" OR "ChatGPT" OR "Google Gemini" OR "Anthropic"', category: "models" },
 ];
 
 const queryURL = (query: string) =>
