@@ -1,24 +1,7 @@
 {
  "version": 1,
- "generatedAt": "2026-08-13T01:50:16Z",
+ "generatedAt": "2026-08-13T01:51:04Z",
  "stories": [
-  {
-   "id": "de5f58a57e47bd2430d21ee14b86edc95f0881ea667a0e109b286723625a38df",
-   "title": "Anthropic Said in Talks to Buy AI Startup Decart for $6 Billion",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcndiYjc4YjFtVWFuSWFlRDlpRENlLTV6R1NscU5wS2tCZW1YU1RTQlFDczBmelUxaDJDVVk4SlRuZ2t4cEtNbEw4eVJ6cnBwVGNHOHhadTVKREx2c0QyazF0bF9qeDlVLTJkY21GNjdzdXhJaGVMb1R2UnQ2eDNpSTVqcENRRE1nVWNhNm1IMUVpX0VkRDNyZzVxTmhjc181c0QtbkNCWjVGeXVEeEFic254TQ?oc=5",
-   "sources": [
-    {
-     "name": "Bloomberg.com",
-     "domain": "bloomberg.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T01:25:00Z",
-   "imageURL": null,
-   "signal": 99,
-   "alert": false
-  },
   {
    "id": "ab7a4e789ba598ab8cf97d634d0435d94a46723ef50b2c17d51200459936d655",
    "title": "Gemini is the 'GLP-1 of tech' declares Trevor Noah at Made by Google event",
@@ -39,6 +22,23 @@
    "imageURL": null,
    "signal": 99,
    "alert": true
+  },
+  {
+   "id": "de5f58a57e47bd2430d21ee14b86edc95f0881ea667a0e109b286723625a38df",
+   "title": "Anthropic Said in Talks to Buy AI Startup Decart for $6 Billion",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcndiYjc4YjFtVWFuSWFlRDlpRENlLTV6R1NscU5wS2tCZW1YU1RTQlFDczBmelUxaDJDVVk4SlRuZ2t4cEtNbEw4eVJ6cnBwVGNHOHhadTVKREx2c0QyazF0bF9qeDlVLTJkY21GNjdzdXhJaGVMb1R2UnQ2eDNpSTVqcENRRE1nVWNhNm1IMUVpX0VkRDNyZzVxTmhjc181c0QtbkNCWjVGeXVEeEFic254TQ?oc=5",
+   "sources": [
+    {
+     "name": "Bloomberg.com",
+     "domain": "bloomberg.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T01:25:00Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": false
   },
   {
    "id": "bb1dd9ee17ddd1094fa500597019b08f4b63e2a66e7e08707f49244cfd76068b",
@@ -183,7 +183,7 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWktsemdUb1ZNa0xEMFBoZkVSYVFMQjlHTlFvLXV2MW9JWE9UaENSMl9Keml3V0pYNmhrSmhTemdwOV9JNHJSbThlVnR6TWlrc0tJRFZKRHQzQm1tRFhYc1BSRjJoUTlRR1RBaUhURmxfc29mUkVkalRfZGM1aGZrRGIwRjRtczRvUFN1STlvUWttWmRTZkJMR1BoUVQzOElPMHllTHh5NA?oc=5",
    "sources": [
     {
-     "name": "siliconangle.com",
+     "name": "SiliconANGLE",
      "domain": "siliconangle.com"
     }
    ],
@@ -228,13 +228,38 @@
    "alert": false
   },
   {
+   "id": "2cadb8c4f77f348b7eb45f11983c85fcf19dd1ea98481f43ae4026774bda1534",
+   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+   "snippet": null,
+   "url": "https://arxiv.org/abs/2608.09867",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T14:17:03Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": true
+  },
+  {
    "id": "00b89681890182a1ca1c55d3e01076d6ce40482cdbe9cdcb53deaedaee330338",
    "title": "Anthropic adds invisible watermarks to output from new Claude models",
    "snippet": null,
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdE84bWpwY1lYZW9pMnRfb1UwS0N1dk5rOGo1NG9ueGh1WEdDdHpXaWxSaUFzWFA2TDF4cWJKM0JfTE9XOFptVUY5Sl91X1NGRnMycjZlQnpBVWotbjcwQzJaYjBkakVUQVpwaW1rZHpNdEVBazlNek9EcnpkVUduRU5XV3M1bm5ackRLUmkzTkItQXJ3bXBfQlB6bExZUVp3SGRKMHNFWnMzSDZSdlE?oc=5",
    "sources": [
     {
-     "name": "edtechinnovationhub.com",
+     "name": "EdTech Innovation Hub",
      "domain": "edtechinnovationhub.com"
     }
    ],
@@ -268,7 +293,7 @@
    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOFBDaEktTUJLeXFjOERKRWZtMl9GTG12Q3ZEaVBxZDE3a1FabTN3SUNVQzBya3o0SjVfMURaUGh5QlByejFSSXRKMFZfcms1bzl3YURfei1wdGRud1VhWUNWb05LZng1YmN4ejVQSTFpZjUwNExvcWxnWkVOenlPMDdwSGZuNmVKUjZwQnh3YUowVFJxM0xSSDZHelhXYVJtWHMxcFU1M0xuVVpFai1Tc05DUVlYZVJRN045Y1YwM0hfMVNMWGxFazhmNS1yUUs5emNUV0tQdy1DdGo2aFo3TUUycw?oc=5",
    "sources": [
     {
-     "name": "lufkindailynews.com",
+     "name": "The Lufkin Daily News",
      "domain": "lufkindailynews.com"
     }
    ],
@@ -292,33 +317,8 @@
    "category": "models",
    "publishedAt": "2026-08-12T23:03:17Z",
    "imageURL": null,
-   "signal": 97,
-   "alert": false
-  },
-  {
-   "id": "2cadb8c4f77f348b7eb45f11983c85fcf19dd1ea98481f43ae4026774bda1534",
-   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-   "snippet": null,
-   "url": "https://arxiv.org/abs/2608.09867",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T14:17:03Z",
-   "imageURL": null,
    "signal": 96,
-   "alert": true
+   "alert": false
   },
   {
    "id": "c5444a2d1dce457a1e30d1d1793f197ced5423fd74357505708888467a87605b",
@@ -429,7 +429,7 @@
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91SGFKUnJMeUlVRGF0ZjFLX1BleFF0U1FYVUFiajB0Unp1R2tyc2pXS25xZUZYRUJvOG5ybWxaYnVRQXFvMm1Bc1RMSW9KZHlQVTVERHFCRjhMcUR4Wi1BSkduNA?oc=5",
    "sources": [
     {
-     "name": "The New Stack",
+     "name": "thenewstack.io",
      "domain": "thenewstack.io"
     }
    ],
@@ -457,6 +457,23 @@
    "alert": false
   },
   {
+   "id": "bddf0cb6392490105fda8b591b92d3fa6054814526c58e39a5302ded8715dbba",
+   "title": "Anthropic Seeks Google's Backing For Data Center Leases Before Wall Street Debut",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tbkJjTnNjelRZSG1hU3pjQXNoY0JMTW5JSkh1Y1Vpdi1sTXUyV3lBSVFsX2dyUlN0N2QxRkhTN3hRWFBHU2NoN3Iwa2c0d2YzckM3M0NnQ25ISmRrd082QjFGRnpqZVl6NExr?oc=5",
+   "sources": [
+    {
+     "name": "Yellow.com",
+     "domain": "yellow.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-12T21:38:56Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
    "id": "60b526f45a9ce1c466e057a90575a05980f53d4e9ddbc631a53b7efee25cd908",
    "title": "EXCLUSIVE: Inside the Google executive moves that led to its big AI reshuffle",
    "snippet": null,
@@ -474,13 +491,30 @@
    "alert": false
   },
   {
+   "id": "d10ea54f06e0c3715ffbac68791074ed14d949d2d7ed8ab301e0ab4a6b8c94be",
+   "title": "AI is removing the middle class of software engineering?",
+   "snippet": null,
+   "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T13:20:05Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": true
+  },
+  {
    "id": "a062084f4eec46fd7a6c5c2d5b1ba866080ba56fc6665c9a27a45993cf90a494",
    "title": "Google launches five new Pixel devices, array of Gemini Intelligence features",
    "snippet": null,
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZEhBb29QaWZqRTBMQmhNeEw3Y3JwWFgwYUxqYlRKVlp0YXh4X1dhY0V1QmpDcTRWUGJyVnpnSEE2MkpiWXh5cHVhWkZrN1l3aVJieHFETVZxb24zTzA4ZGtlaVVxLXJNZjJSd013QmxOUzhvM1NjS1dRVXJwQnpaeGJqZm5NZ1dZMzR1MjZ3cjQxdmNGQ1c4dk9IN1NScGdFWjMzWGFoR2FDSVdkLVVF?oc=5",
    "sources": [
     {
-     "name": "siliconangle.com",
+     "name": "SiliconANGLE",
      "domain": "siliconangle.com"
     }
    ],
@@ -504,7 +538,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:08:34Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -521,7 +555,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:00:30Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg",
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -548,7 +582,7 @@
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RZE9MR0J6YTVreG40bmVfTnFUamNBVkxDVVZPcGIwaWM5bjVSZlVSX0lqWXNjc3N6SU9GV2lqTmtKMkx1UGxYTENOZ25UZXNEeHFhTHBxamx5MlNod1pkc1FJSnA2TkhZWkpmVFZKX2FrZ0duVXNZ?oc=5",
    "sources": [
     {
-     "name": "Yahoo Finance",
+     "name": "finance.yahoo.com",
      "domain": "finance.yahoo.com"
     }
    ],
@@ -621,9 +655,9 @@
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-12T20:24:45Z",
+   "publishedAt": "2026-08-12T20:26:15Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -633,14 +667,14 @@
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTVJbjB6M1lWUWxUV1I3WmxlODdHcUtoNHphelY5bTQ0MWNVSHZ6ODNNSldBSXBMRWlhUUMyN19lVU9mZ0ZVb0tNZ01ZYWVFU3U1YVk5WGVUV194QV82UHoxWHlQdFNKMV9nUkQ0US13a1pDTjhqQjlKSnl0T21SSXJUT0RJX0R0Q0pvelNXQlNIZUxIYlkteEZfZWg3ZDI3Z0lYazkzSHJacDZOS05xZA?oc=5",
    "sources": [
     {
-     "name": "Bloomberg Law News",
+     "name": "news.bloomberglaw.com",
      "domain": "news.bloomberglaw.com"
     }
    ],
    "category": "models",
    "publishedAt": "2026-08-12T20:24:00Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -656,6 +690,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-12T20:23:17Z",
+   "imageURL": null,
+   "signal": 93,
+   "alert": false
+  },
+  {
+   "id": "ed12ce78ff7d76db2060c859430b3d6cf67669479c6cf0bfe565947c181649c8",
+   "title": "OpenAI Becomes The 'Voice Of AI' 04/03/2026",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSzVwM3JfcFg1UGV0WjR2WmdxeU5JOXlER3NkbXlMbUJNN19XdFl3Mi11Y2pRMDF3c2ROcER2OTRKOFVlM3NBbnl5YXUtblB5NzlvVk5KT1NCYzd6VU1DQUlHeUIwSHJXajBhdkJYb3M5T1pBTGxSUTBsT2dZajZFSXRHZUotWllOLUFtaEVJY2NYRjA?oc=5",
+   "sources": [
+    {
+     "name": "MediaPost",
+     "domain": "mediapost.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-12T20:20:34Z",
    "imageURL": null,
    "signal": 93,
    "alert": false
@@ -701,14 +752,14 @@
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVGR2ZVhoc2dEN3hsQ2U1SDJrbXVSazVKQ0RZUmNadjRST1RnYU1tOEN6SlZZdk1tVlQ3YUR2VV9Vc21ZdHJyazBDbFhtVldmVUtmd01WTEMzNlRadDk2S190TWdHajFIRVBRTVlOUzJhYXBPZ0pHNDdxbFczQWdKanNIZ3dDbHg5U1E?oc=5",
    "sources": [
     {
-     "name": "Futurism",
+     "name": "futurism.com",
      "domain": "futurism.com"
     }
    ],
    "category": "models",
    "publishedAt": "2026-08-12T20:08:28Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 92,
    "alert": false
   },
   {
@@ -725,7 +776,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T20:07:30Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 92,
    "alert": false
   },
   {
@@ -742,7 +793,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T20:03:45Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 92,
    "alert": false
   },
   {
@@ -818,23 +869,6 @@
    "alert": false
   },
   {
-   "id": "d10ea54f06e0c3715ffbac68791074ed14d949d2d7ed8ab301e0ab4a6b8c94be",
-   "title": "AI is removing the middle class of software engineering?",
-   "snippet": null,
-   "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T13:20:05Z",
-   "imageURL": null,
-   "signal": 92,
-   "alert": true
-  },
-  {
    "id": "aec50bce133680e8ddf125ac991e61d50a8d53bb9eddfa9b035860d493aa2898",
    "title": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
    "snippet": "Learn how OneAdvanced, a UK enterprise software provider, built a UK-sovereign AI platform by self-hosting Llama 4 Maverick and Llama Guard 4 on Amazon SageMaker AI, with a RAG pipeline on pgvector and over 50 agents built with Strands Agents SDK on Amazon ECS.",
@@ -852,7 +886,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T13:46:28Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 91,
    "alert": true
   },
   {
@@ -862,14 +896,14 @@
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcEl4eU1ROVYtU3JtMVd0VFhlUE5STndOek5kN0FoWmxsMkl4MXV0OUM3Tnh3WXBOODdEOExrQWV0Yi1TMXFxS0tqY3dmY3pFUkVnQ1pXSzZDVDVhQ0M5bDVvZERST0ZjUGQ5MElWN1p4WHJlbVNVVHRZR3YxUDNqRlpuWQ?oc=5",
    "sources": [
     {
-     "name": "blog.intramind-srl.com",
+     "name": "IntraMind LLC",
      "domain": "blog.intramind-srl.com"
     }
    ],
    "category": "models",
    "publishedAt": "2026-08-12T19:15:09Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 91,
    "alert": false
   },
   {
@@ -924,30 +958,13 @@
    "alert": false
   },
   {
-   "id": "70db2a7b340d19d74c2ef350a3331ea0bfb120f9969614c88d836d8eb9962bb4",
-   "title": "Anthropic Q3 Profit Projected To Top $1B As IPO Filing Nears",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wSDRyWVZWdWNDRFpKaFg3RlZXWGU1WUpIcXdBSVRhakJ0cTFWWVBfZXp5RFFfcmVCSVJuc241OXRjb1FOTThQQUU2YnlOaXd6ZmJrRWxmVEQtMjFtWEJYVTFlYkc5NFlZdW02cHYyRQ?oc=5",
-   "sources": [
-    {
-     "name": "Yellow.com",
-     "domain": "yellow.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-12T19:05:50Z",
-   "imageURL": null,
-   "signal": 91,
-   "alert": false
-  },
-  {
    "id": "4dae80a97eb2170c6064e33aa0a5bb646c7212f5d49b6cb98e0d1b9092cd967d",
    "title": "AI was supposed to destroy jobs. Where’s the carnage?",
    "snippet": null,
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RVJfLU9XbWFoYlEzQ0hqdWxJVlJBZUxIcnk1VnZkR0JiVHNvSDVEelVmbDU4Ung2M3FJQUtncTNDUDR2NDJ0RkgxUWJEZEd4VzY5WUlJTGhGenVqOTZRcEYzcFNPc29xT2pYRUdFcF9kZFpEa2VXZQ?oc=5",
    "sources": [
     {
-     "name": "theguardian.com",
+     "name": "The Guardian",
      "domain": "theguardian.com"
     }
    ],
@@ -964,14 +981,14 @@
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV2U3cFNOS2NUV1pZVXNKaGJVM3pUcHp1VnU3REtFY3VPa0xGaktaSzBxSnhROGxHMVQ5cTlmOE5rX2xYcTdxQ1pyWWpwSHlNQWJmNXRZSVM1WDk2M3pFMk5fTU9ZRlA4djhJMUtnbW54MW9VSlA2YVB1UzFzemE4VkR4aU9ueTRvUU44UkpkNUtXQWMyTDA4aWtwNVd2VEFGLVo4UHQtaVI2Qk9UbV9hRTBROE5UNDBNbXhJY2VBajBZSjNl?oc=5",
    "sources": [
     {
-     "name": "PYMNTS.com",
+     "name": "pymnts.com",
      "domain": "pymnts.com"
     }
    ],
    "category": "models",
    "publishedAt": "2026-08-12T18:54:00Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
@@ -1032,7 +1049,7 @@
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ2dEelQ1MWU2Z3QxRGZkMFlHZVIwYUp4Tk85cUFuRUljcUREbUg5WGpvaTBiNmUza1NkWlBSUVJUbmdXOFhFMUk0UG5sTEk5ODJ2SVVwTVMzRWFxYXA0M1VaenpMVlJIVndPZlREQVVYQlNxTkRsT185bXZvQ3ZXMEdGbldoMmZNU0s1Y2NObnBwRFJMRjB5RV8tZW52TkNrdWtNLUg5bW8zWGxBS3FyTmkyWmUtaUtkSVFQR0Rjb3c?oc=5",
    "sources": [
     {
-     "name": "PYMNTS.com",
+     "name": "pymnts.com",
      "domain": "pymnts.com"
     }
    ],
@@ -1090,23 +1107,6 @@
    "category": "models",
    "publishedAt": "2026-08-12T18:19:12Z",
    "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "6e3a868b2173c0f296e3d9d30fbf6ba00f887afed1733a3f5e8561eab5a7aa5d",
-   "title": "DLLM: Minimal, clean coding agent built directly on llama.cpp without overhead",
-   "snippet": null,
-   "url": "https://github.com/DannyArends/DLLM",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T22:34:15Z",
-   "imageURL": null,
    "signal": 89,
    "alert": false
   },
@@ -1134,7 +1134,7 @@
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdmxRenRsUV8yMzdyd2JoQWVCQXBBcjFJSGxTSUEzM253SHBSZWJYT0l6ZjV3RXpZQmZlMnVyRzBWaFZheWR0NElOZ09SX0xSQ09jNVltZDFmdXZONzFLa1h5M3N3Qzd2U1A3Q05KWk82a2Z5amhvaExoRVJoNFk1eXdLOU9PQVp6dGtndWRfQUFQYmhPbWNJRFIyWHNTSTA?oc=5",
    "sources": [
     {
-     "name": "Yahoo Finance",
+     "name": "finance.yahoo.com",
      "domain": "finance.yahoo.com"
     }
    ],
@@ -1253,7 +1253,7 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeTI2azlxSHB1X1BGbWhCV3M4RDludDVVaUJwVTM1dXdlVjVkMGpud0p4UlM1VGlyeEFIQmM4REZDY01SODRfcXY4RmNwVzJ1YUh3YU50ZzM5NVM4dWUxR29TVnplT3FyZTQtMnY1Ym41eURsRVpULWR2ODg1UjNHcXhablA0eHJNdlVUTTFETW0?oc=5",
    "sources": [
     {
-     "name": "Anthropic",
+     "name": "anthropic.com",
      "domain": "anthropic.com"
     }
    ],
@@ -1332,23 +1332,6 @@
    "alert": false
   },
   {
-   "id": "4696c29464452e3c26cf828df62e61fa07115d2e52472bd8246da432de817738",
-   "title": "Twitch Is Mining Peoples' Streams to Train Amazon's AI",
-   "snippet": null,
-   "url": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T18:02:18Z",
-   "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
    "id": "65a716af85d31140d8ab62dbda0d014a414470a17de426ce80e7214b34ecf810",
    "title": "Mesh, Automattic’s CRM for everyone, comes to Android",
    "snippet": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
@@ -1379,6 +1362,23 @@
    "category": "tools",
    "publishedAt": "2026-08-12T16:57:33Z",
    "imageURL": "https://image.theregister.com/?imageId=5286886&width=800",
+   "signal": 87,
+   "alert": false
+  },
+  {
+   "id": "4696c29464452e3c26cf828df62e61fa07115d2e52472bd8246da432de817738",
+   "title": "Twitch Is Mining Peoples' Streams to Train Amazon's AI",
+   "snippet": null,
+   "url": "https://www.404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T18:02:18Z",
+   "imageURL": null,
    "signal": 87,
    "alert": false
   },
@@ -1451,13 +1451,30 @@
    "alert": false
   },
   {
+   "id": "6e3a868b2173c0f296e3d9d30fbf6ba00f887afed1733a3f5e8561eab5a7aa5d",
+   "title": "DLLM: Minimal, clean coding agent built directly on llama.cpp without overhead",
+   "snippet": null,
+   "url": "https://github.com/DannyArends/DLLM",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T22:34:15Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
    "id": "fad8ee676c972c26d43b0abb045930b71fb133dde9b70c590979889971bf78b2",
    "title": "Advanced Micro Devices vs. Alphabet: Which Artificial Intelligence Stock Is a Better Buy in 2026?",
    "snippet": null,
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPaVZBNHJGTUUzX29YZU1XTldtTVBFU2Z5TkZtY0kzTWVka2NHQ1p6cWhWSVlIYWJ1cVRjVlRZRDV2UlVjWnBNZzMycVVncmZOQWZjTVE0Qnk0M1dnd3VvWjlmZURodjFUSzhYTHdIWkptd2RKemdHNkx0RjlaYk5xLS1ncUVySmh1MTZxVm91dlVqcWdROThGaFoxRndGVFh5dWdONGdDRXEyM2cycnJFVTJWLUlNYXdacklrR2F5eUZEZDNpX244OXd2WUluNTNZZUhmblpweGJpNGhSRmJMVQ?oc=5",
    "sources": [
     {
-     "name": "fool.com",
+     "name": "The Motley Fool",
      "domain": "fool.com"
     }
    ],
@@ -1532,7 +1549,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T16:13:20Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1621,23 +1638,6 @@
    "alert": false
   },
   {
-   "id": "28f6b7f7b5805d33f93d4f3ba0a67ef860bc03f8d6340da4a0cbd4f69eee10c7",
-   "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
-   "snippet": null,
-   "url": "https://text.npr.org/nx-s1-5853571",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T18:21:09Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
    "id": "33058d62b361aefa3a1b70fb52e52b358a4653c0ce98d07754ffc8c62f68b5ef",
    "title": "Introducing Grok 4.6",
    "snippet": null,
@@ -1651,7 +1651,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T15:29:33Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1689,6 +1689,23 @@
    "alert": false
   },
   {
+   "id": "28f6b7f7b5805d33f93d4f3ba0a67ef860bc03f8d6340da4a0cbd4f69eee10c7",
+   "title": "Adults have struggled to set rules for AI in school. These teens figured it out",
+   "snippet": null,
+   "url": "https://text.npr.org/nx-s1-5853571",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T18:21:09Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
    "id": "8ce9f137579cbf5f1ee557b278298021e3b49726e3be3025d3072279863eacd8",
    "title": "Quoting Florian Herrengt",
    "snippet": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually…",
@@ -1712,7 +1729,7 @@
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZGFBZjRFYm11MUdiT2RFTjB6aEFjR1RtbUM2VVNpekhYM1Y2ZlBsaXF2VXhYM1p0bExGUnpBR0VkdlpBVGZUUzZDam83eTk0M0ZtSDYzMFNXQkF4TEUzZENMQ0lYaFNJVGJNdU5yb2NmRmd2UkVSRWdSbFVuZ1JnRVduNjY0YWNoMWhnaW1keEJHclJZanlkQ3F0TDc0cEVjWVdWdGp0ak9FVEswUFlpLWxaWkFtXzlHdVFhcWF4Mnl6TXNZREtGV0Y1R1hxR2ZpaV9NT0VoV0JZVWFKWDdQdlR3am9wM0E?oc=5",
    "sources": [
     {
-     "name": "Yahoo Finance",
+     "name": "finance.yahoo.com",
      "domain": "finance.yahoo.com"
     }
    ],
@@ -1753,23 +1770,6 @@
    "category": "tools",
    "publishedAt": "2026-08-12T19:29:34Z",
    "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "eb7be454b2fa3b50ae8ec86e7aa8a38d740fabb488d4236385a52fe3855cc520",
-   "title": "My Agent Setup",
-   "snippet": null,
-   "url": "https://chad.cm/posts/2026-8-11-my-agent-setup",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T13:56:05Z",
-   "imageURL": null,
    "signal": 83,
    "alert": false
   },
@@ -1808,6 +1808,23 @@
    "alert": false
   },
   {
+   "id": "eb7be454b2fa3b50ae8ec86e7aa8a38d740fabb488d4236385a52fe3855cc520",
+   "title": "My Agent Setup",
+   "snippet": null,
+   "url": "https://chad.cm/posts/2026-8-11-my-agent-setup",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T13:56:05Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
    "id": "245090a346396aaa6a3dffa7daba3104ad11db4ca9b0e78c6162f8bd065c865b",
    "title": "Inside the Data Bottleneck Slowing Visual and Physical AI",
    "snippet": "A survey of over 700 professionals examines how visual and physical AI teams build systems, why models fail, and where data work drives production. Download this free whitepaper now!",
@@ -1821,23 +1838,6 @@
    "category": "research",
    "publishedAt": "2026-08-12T14:18:05Z",
    "imageURL": "https://assets.rbl.ms/67607900/origin.png",
-   "signal": 83,
-   "alert": false
-  },
-  {
-   "id": "8a514fdb6390d1896f652cc976403a5b9af660c032e0de8561e2e6583f5387fd",
-   "title": "What sort of maths are LLMs good at?",
-   "snippet": null,
-   "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T10:04:25Z",
-   "imageURL": null,
    "signal": 83,
    "alert": false
   },
@@ -1882,7 +1882,7 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbEtIeUhGRW5BN25TUG9kcWZaRnRhcUZQNHVMWVpFaUhGYXFQU2J5T2NZMkdZTFNQMk1mUWNRMWFSOVlUajk2cTIwYjk3WjdCSm91RTEyU3I4UzdtcWxqYkJDZ09fUjJwbHZHWkRNSkpjeklINGpDZGRDNVRiR0ZNaFJFS19FeE0?oc=5",
    "sources": [
     {
-     "name": "theguardian.com",
+     "name": "The Guardian",
      "domain": "theguardian.com"
     }
    ],
@@ -1899,7 +1899,7 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlJoR0NzN1ByNGlBQk9tSDZzMERMVWRXMkhRekFDcXQyZjVKclppMzFQQmx5WFR1MzRGdTc0LTJBemFSMUlnMUZXUmh2RFFXVGJFMHdJamRra3ZzWXZLY2Vtcm1TdTZLS2ZOdjRKUjJ4R1lWb1NSNzRud3VSSHVReGNuVHdBRmhISlkyU2c0YjVGbzNHVzdlQnN2b0Z2Qkxsb3pjM25FWmU2X2ZWSFE?oc=5",
    "sources": [
     {
-     "name": "99bitcoins.com",
+     "name": "99Bitcoins",
      "domain": "99bitcoins.com"
     }
    ],
@@ -1922,6 +1922,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-12T14:10:49Z",
+   "imageURL": null,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "8a514fdb6390d1896f652cc976403a5b9af660c032e0de8561e2e6583f5387fd",
+   "title": "What sort of maths are LLMs good at?",
+   "snippet": null,
+   "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T10:04:25Z",
    "imageURL": null,
    "signal": 82,
    "alert": false
@@ -1974,7 +1991,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T14:01:59Z",
    "imageURL": "https://lh3.googleusercontent.com/8RcynTx1ujudyw8Fs05Pv8WJahe2FQ3z1Y7gNHm-xvOTJLdMp9hNDsIIoQbJsnav6evNLgY1iT9B9ercsyIn0U1N51pzScvSfe6IHk2SjDJx-MaVzQ=w528-h297-n-nu-rw-lo",
-   "signal": 82,
+   "signal": 81,
    "alert": false
   },
   {
@@ -2093,7 +2110,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T14:00:00Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 80,
    "alert": false
   },
   {
@@ -2165,10 +2182,10 @@
    "alert": false
   },
   {
-   "id": "544c0d8a7b87b4a6962a64b69425e1e10b2556d2e5e7ab7c9e6920765fb7ae48",
+   "id": "c63e98ff4af7a58dfbc0735ff80c19ab062d957471ef31b2d2e11ffb900b7e6e",
    "title": "Google DeepMind chief AI officer Lila Ibrahim detasseled corn in Indiana for $1 an hour",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRDYyMW9HTXlhNHpUVHhPLUxMZHBOSVFPT0N2UUpRY1VIZjYtcEhBT0xKLTltRWlOT3BDck8zRHlPWVpHcHpZV1FZWFVnUnl4eG5vUTd6UVdqdWVfU2ZXY00zWjZVQmluZFhLaTRONWNKUlBtVVV2T2Z6Z3cwemlTYm1pWDNGWlhycHJIWEp3LVJtbFlqNkkyamRUb2JuTVNQNjBIb2dEdjdFd0hIQ05SZVdCTUdnbFl3RkRsNk5JUE13MDlsRGd5SWhGeFQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPeUxaMXp2UUl0SVFSSWVLU083c0U2S01HRFIzN295OWV2S0lGZHpGMzMzQkp2bmVub1NlSVM5YzFqbXoxa1RCdmtKZWt3U0N1Wm1FeXFKc0xKdmNrNUdsbnR4bGhGcUZzQURaaFV1WWRjejd3bTdvUEc5RjVPdENQdC1Kell6T2h4eF9nS25XdWpkQnpFZTZDWkxWbzdDRWFzZjVrN0JzX0lUczdmWTF5WFZrTzUyYzBBdWowb1JvcHI2Q1c5cUV3WktRLXM2aHhtUnZmVC1TYmhxaWpYTFJyMWNqT2EzV2tPcU1PcmNqTnc1R3B2SE5FSlJqUnppek9EQjhSbA?oc=5",
    "sources": [
     {
      "name": "Fortune",
@@ -2195,7 +2212,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T13:28:04Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 79,
    "alert": false
   },
   {
@@ -2314,7 +2331,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T12:09:34Z",
    "imageURL": null,
-   "signal": 79,
+   "signal": 78,
    "alert": false
   },
   {
@@ -2358,7 +2375,7 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcVNIbWVsNHRscjJFV3F6azZlcjNuTXlsYnpPbG9yZTFaU0JYWmhZUnJwSFlOSzVRXzFZMUxWOTB1dHBZaVRyS3lqX1pxMl9TRThwNU5OQkVHc1FEMTNsOHVKR3ZaRkpfazRXWG4ydW83YWY4M0ljMUt5SHBLU0tJQkg2a2NtUTZMR1NCTUxiZDVvWWlGbUc4clRfdzhUOUtTVE1ITmdEUTJZaC1adnc?oc=5",
    "sources": [
     {
-     "name": "fiercehealthcare.com",
+     "name": "Fierce Healthcare",
      "domain": "fiercehealthcare.com"
     }
    ],
@@ -2392,7 +2409,7 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdG5wbzl6R2hXUF84NmJMWHNhYjBLMXMyd1dGOXFnTktXUTZMY3UtU2VjWGRzRXJHdjBuVF9TMGdvYmRLMDNld2FLV0w5SzVaQk9RazJTeWxMaFk2Mzh6eGVxUWY3THRCNVB1bFI2RkthdlNBVEN2Q0lOXzQzUXh2dUFJYm12UkxOanJjSTZIR2tMOUxzYXgw?oc=5",
    "sources": [
     {
-     "name": "Memeburn",
+     "name": "memeburn.com",
      "domain": "memeburn.com"
     }
    ],
@@ -2416,7 +2433,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T11:47:00Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 77,
    "alert": false
   },
   {
@@ -2426,7 +2443,7 @@
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTWkyN2kza1RRU1ZaeFczaGprd0hzRGx3TFc0cDgta1V4Y1VjSXVYaGM3Q213OU92dDdlNUt5Uk1KQ1RIaFI5WmJaTGswaV9YZzdpaUN1SjEwaFI4aENXZ1BnblF5b1lxWjBXT2tJXy03VF85YjEtODI3VWRsMFdCRm94NHpVUlEzcnFBbFhsZUFNUm5WTVBTT0FJSWY0elpobXp1Y1VnSVN4WHZJOGY5RVBQaHdMRjZ0NWhIei1aNA?oc=5",
    "sources": [
     {
-     "name": "motherjones.com",
+     "name": "Mother Jones",
      "domain": "motherjones.com"
     }
    ],
@@ -2511,7 +2528,7 @@
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdWJpZXVGV25TS2o0eWN6VHFCY3VlQmxfXzZOWDU1TExTN2syNmZMc3F3U0dyVlN0MHhsUXZhSTBNTklEMFBtMnI3QUc4VUtjc0lrYUVwVnpwdWVXa1NpTXV2Y0tEWmFZTEpMSGNKYW1TdUZ5aDFuQ2lUNXlaM21BY1Z5XzlMbTNvLUF0R0c3LV8xeXJvdVdQelFzR0ViVmVXVmRsN2RhSEFRSDVBbTB0MElxWUk1Z0pVc3FiajBTU2ZYMTk5RENDT2tRSzdXUHBOZFhpMjhYMHZqRG5pTE9JOGlRQWxES2JMdm5INGFKTQ?oc=5",
    "sources": [
     {
-     "name": "Nebraska Public Media",
+     "name": "nebraskapublicmedia.org",
      "domain": "nebraskapublicmedia.org"
     }
    ],
@@ -2535,7 +2552,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T11:00:01Z",
    "imageURL": "https://spectrum.ieee.org/media-library/illustration-of-a-translucent-gavel-against-a-background-of-legal-books.jpg?id=67600001&width=980",
-   "signal": 77,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2709,23 +2726,6 @@
    "alert": false
   },
   {
-   "id": "2a3fa2aace511e11a3d8eeb19cbd929f7939cd2676c50b44d4b8b63af8a58caf",
-   "title": "Electricity Pricing in the Age of AI",
-   "snippet": null,
-   "url": "https://power2026.ai/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T12:00:28Z",
-   "imageURL": null,
-   "signal": 75,
-   "alert": false
-  },
-  {
    "id": "ee4567687b9a3c665450c4a57948b184e0d60a73cd1893d039ed77af0b231ae9",
    "title": "You’re Thinking About Online Trends All Wrong",
    "snippet": "From pessimism around dating to AI reshaping culture, cyber-ethnographer Ruby J. Thelot tells WIRED why people are putting too much stock into things that go viral.",
@@ -2738,6 +2738,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-12T09:30:00Z",
+   "imageURL": null,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "2a3fa2aace511e11a3d8eeb19cbd929f7939cd2676c50b44d4b8b63af8a58caf",
+   "title": "Electricity Pricing in the Age of AI",
+   "snippet": null,
+   "url": "https://power2026.ai/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T12:00:28Z",
    "imageURL": null,
    "signal": 75,
    "alert": false
@@ -2756,7 +2773,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T09:00:00Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2811,6 +2828,23 @@
    "alert": false
   },
   {
+   "id": "38a4b0bf3c5184536a224d27fae7f8a2cea1fddbac544cafa2c9d316739f6bdf",
+   "title": "AI in Immigration Practice: What Attorneys Are Required to Do",
+   "snippet": null,
+   "url": "https://rafaelresearch.com/research/ai-in-immigration-practice",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T15:04:57Z",
+   "imageURL": null,
+   "signal": 74,
+   "alert": false
+  },
+  {
    "id": "dbbccdf547bbc90074ceda8590d596e3d9eda321d90ba5969caea753f9b75d1a",
    "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
    "snippet": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes. Over time, the same requirement is often restated in several branches, examples, and warnings, while common action sequences are copied rather than reused. The resulting skill becomes expensive to…",
@@ -2827,23 +2861,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-11T15:41:19Z",
-   "imageURL": null,
-   "signal": 74,
-   "alert": false
-  },
-  {
-   "id": "38a4b0bf3c5184536a224d27fae7f8a2cea1fddbac544cafa2c9d316739f6bdf",
-   "title": "AI in Immigration Practice: What Attorneys Are Required to Do",
-   "snippet": null,
-   "url": "https://rafaelresearch.com/research/ai-in-immigration-practice",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T15:04:57Z",
    "imageURL": null,
    "signal": 74,
    "alert": false
@@ -2981,7 +2998,7 @@
    "category": "tools",
    "publishedAt": "2026-08-12T22:02:12Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 72,
    "alert": false
   },
   {
@@ -3100,23 +3117,6 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T23:48:35Z",
    "imageURL": null,
-   "signal": 72,
-   "alert": false
-  },
-  {
-   "id": "7512404bef1e6c5fc775e4228ac4fe5faefda55edb6bb757230af97de32e752b",
-   "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
-   "snippet": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bring the medication. Yet neither explains whether the person forgot, is confused, has side effects, or deliberately refused, nor what support is appropriate. This reveals a structural gap in Agentic AI: Digital Agents primarily transform software states, while Embodied Agents transform physical states; neither makes a person's evolving state and agency the primary object of modeling, intervention, and evaluation. We introduce Combodied Agents, a human-centered paradigm that perceives, models, predicts, and supports individual human-state trajectories over time, using software tools, sensors, wearables, robots, and human services as action channels rather than end goals. We unify fragmented capabilities across personal assistants, health agents, AI companions, and adaptive human--AI systems into a closed loop: event-based multimodal perception reconstructs meaningful personal events; longitudinal, correctable memory provides temporal context; Personal World Models estimate future personal states and outcomes under alternative decisions and interventions; and an admissible intervention policy selects proportionate support under consent, uncertainty, safety, reversibility, and user control. Feedback from the person and environment updates the loop. Rather than requiring an exhaustive Human Digital Twin, the framework uses purpose-bounded, uncertainty-aware, user-correctable representations. We organize the design space by human-state targets, relational contexts, and agent roles, and propose scenario-centered evaluation, agency-preservation metrics, benchmark requirements, edge-native personal models, and governance directions. Combodied Agents shift Agentic AI from external task completion toward sustained human benefit.",
-   "url": "https://huggingface.co/papers/2608.10915",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
-   "imageURL": null,
    "signal": 71,
    "alert": false
   },
@@ -3155,18 +3155,18 @@
    "alert": false
   },
   {
-   "id": "8d0d80c2fad3c484dd70cef5ff96cde59a3f2c3f92d53541431d0db7e8d24746",
-   "title": "As AI eats the web, the internet’s collective memory is disappearing",
-   "snippet": null,
-   "url": "https://thewalrus.ca/google-search-is-dying/",
+   "id": "7512404bef1e6c5fc775e4228ac4fe5faefda55edb6bb757230af97de32e752b",
+   "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+   "snippet": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bring the medication. Yet neither explains whether the person forgot, is confused, has side effects, or deliberately refused, nor what support is appropriate. This reveals a structural gap in Agentic AI: Digital Agents primarily transform software states, while Embodied Agents transform physical states; neither makes a person's evolving state and agency the primary object of modeling, intervention, and evaluation. We introduce Combodied Agents, a human-centered paradigm that perceives, models, predicts, and supports individual human-state trajectories over time, using software tools, sensors, wearables, robots, and human services as action channels rather than end goals. We unify fragmented capabilities across personal assistants, health agents, AI companions, and adaptive human--AI systems into a closed loop: event-based multimodal perception reconstructs meaningful personal events; longitudinal, correctable memory provides temporal context; Personal World Models estimate future personal states and outcomes under alternative decisions and interventions; and an admissible intervention policy selects proportionate support under consent, uncertainty, safety, reversibility, and user control. Feedback from the person and environment updates the loop. Rather than requiring an exhaustive Human Digital Twin, the framework uses purpose-bounded, uncertainty-aware, user-correctable representations. We organize the design space by human-state targets, relational contexts, and agent roles, and propose scenario-centered evaluation, agency-preservation metrics, benchmark requirements, edge-native personal models, and governance directions. Combodied Agents shift Agentic AI from external task completion toward sustained human benefit.",
+   "url": "https://huggingface.co/papers/2608.10915",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-10T22:36:30Z",
+   "category": "research",
+   "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
    "signal": 71,
    "alert": false
@@ -3189,6 +3189,23 @@
    "alert": false
   },
   {
+   "id": "8d0d80c2fad3c484dd70cef5ff96cde59a3f2c3f92d53541431d0db7e8d24746",
+   "title": "As AI eats the web, the internet’s collective memory is disappearing",
+   "snippet": null,
+   "url": "https://thewalrus.ca/google-search-is-dying/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-10T22:36:30Z",
+   "imageURL": null,
+   "signal": 71,
+   "alert": false
+  },
+  {
    "id": "bdbf242a3c7e25820eae132f02889190de49dfee4d388cf4b555fbc44df7e051",
    "title": "Beyond Pixels: From Video Priors to 4D Worlds",
    "snippet": "4D generation synthesizes dynamic 3D scenes from conditions such as text or images. Existing methods either reconstruct generated RGB videos with a separate 4D model or adapt a particular video generator to predict geometry directly. The former suffers from distribution mismatch and error propagation, whereas the latter ties 4D prediction to a specific generator and may require retraining when the generator or conditioning regime changes. We ask whether the final denoised latents of video models that share a variational autoencoder (VAE) can instead provide a reusable interface to explicit 4D prediction. Building on this insight, we introduce direct latent-to-4D generation and instantiate it as Latent-to-4D, which bypasses RGB by aligning a video latent with the token grid of a pretrained 4D decoder and refining it through frame-wise and global spatiotemporal attention. Trained on roughly 1K existing reconstruction clips, a single checkpoint transfers unchanged across multiple video diffusion transformers within the same VAE family. On Text4D-200 and I4D-200, Latent-to-4D surpasses matched same-latent Wan+4RC cascades in projection-based DINO-F1 by 2.88--3.45 and 5.81 points, respectively, while also being preferred by human raters for geometry, temporal stability, and overall quality.",
@@ -3202,7 +3219,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 70,
    "alert": false
   },
   {
@@ -3321,7 +3338,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 69,
    "alert": false
   },
   {
@@ -3423,7 +3440,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T17:50:01Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 68,
    "alert": false
   },
   {
@@ -3542,7 +3559,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T17:28:52Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 67,
    "alert": false
   },
   {
@@ -3754,23 +3771,6 @@
    "alert": false
   },
   {
-   "id": "0373c2148bcf194ff580a3b810aeb9fd1d51fd1df19e54dc8b5cfff6d23b6d8e",
-   "title": "Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence",
-   "snippet": "Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain visually disembodied. We introduce Ex-Omni-2D, an omni-modal dialogue framework that generates a coordinated response comprising text, personalized speech, and reference-conditioned video. Given a multimodal query, reference image, and reference audio, the model predicts a structured Visual Thought Plan (VTP) describing scene, emotion, and motion, followed by response text and native multi-codebook speech units. These units form a shared acoustic-temporal interface: they are decoded into speech and aligned online with video frames. This interface enables the response and avatar pathways to be learned from heterogeneous speech, dialogue, and avatar-video data, avoiding the need for large-scale query--text--speech--video supervision. A full-sequence Video Generator serves as the primary Teacher. For efficient incremental generation, we further distill it into a few-step block-causal Streaming Student whose Prefix Streaming mechanism carries a clean latent across consecutive chunks to reduce cumulative late-chunk degradation. With four-step inference, the complete four-GPU pipeline achieves an end-to-end RTF of 1.293 at 400times720/720times400, providing a practical quality--efficiency operating point.",
-   "url": "https://huggingface.co/papers/2608.10720",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
-   "imageURL": null,
-   "signal": 66,
-   "alert": false
-  },
-  {
    "id": "8f6b15a4274a07ffd9920083fd581b7b9153648f96281c673ae6cae9489b906f",
    "title": "AlbumentationsX: One Augmentation Pipeline for Images and Related Annotations",
    "snippet": "Augmentation can corrupt a training example when an image and its annotations receive different random changes. A crop must use the same coordinates for the image, mask, boxes, keypoints, stereo views, video frames, or volume. Code paths that choose these values separately can silently misalign the…",
@@ -3783,23 +3783,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-11T16:34:47Z",
-   "imageURL": null,
-   "signal": 65,
-   "alert": false
-  },
-  {
-   "id": "4abc35fe150d46b71cc80e378015a31259b4f160523e84381b80cc80694c280e",
-   "title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
-   "snippet": "Large language model (LLM) agents are increasingly deployed as personal assistants. Existing evaluations, however, mostly use short, self-contained requests in static environments. Everyday life assistance is different. A task runs for weeks rather than minutes. The world keeps changing while the agent is not being prompted. Many constraints are never stated outright. An agent that merely answers the request in front of it will fail at such a task. What is needed instead is an agent that stays proactive and consistent. It decides on its own when to act, when to ask, and when to stay silent. It notices changes that nobody announced. It keeps one plan coherent from the first day to the last. No current benchmark measures this. We introduce VibeLifeBench, a benchmark of 200 long-horizon tasks across ten everyday-life domains. Each task is a scripted multi-week timeline in a simulated world of 22 mock services. The world advances on its own clock, and many of its changes are silent, so only an agent that re-inspects the world discovers them. Every task is graded by fine-grained, weighted checks that read only what the agent actually left behind, covering the end state, the timeliness of its actions, and whether it upheld the implicit constraints. We evaluate seven frontier models. All of them score low, which shows how far current agents are from assisting with real life. We will open-source all tasks, environments, and the evaluation framework.",
-   "url": "https://huggingface.co/papers/2608.10875",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
    "signal": 65,
    "alert": false
@@ -3873,23 +3856,6 @@
    "alert": false
   },
   {
-   "id": "cd354f00a936f705ca72accfa92ee52c502a35926ccad07cb5105fae8c4cd7a4",
-   "title": "Interviewing Engineers in the AI Era: Lessons from a Year of Rebuilding",
-   "snippet": null,
-   "url": "https://www.coinbase.com/en-ca/blog/interviewing-engineers-in-the-ai-era-lessons-from-a-year-of-rebuilding",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-12T10:55:50Z",
-   "imageURL": null,
-   "signal": 64,
-   "alert": false
-  },
-  {
    "id": "6aa592d3dc7a40084fc26ef49c0a2a4849efce3311e7000757ceedd84f35c52d",
    "title": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
    "snippet": "ONESTRUCTION, with technical advisory from the AWS Generative AI Innovation Center, built Ishigaki-IDS, a foundation model specialized for construction and BIM workflows. This architectural case study shows how they combined synthetic data, a three-stage training pipeline, and verifiable rewards on…",
@@ -3903,7 +3869,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T16:14:33Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 65,
+   "alert": false
+  },
+  {
+   "id": "cd354f00a936f705ca72accfa92ee52c502a35926ccad07cb5105fae8c4cd7a4",
+   "title": "Interviewing Engineers in the AI Era: Lessons from a Year of Rebuilding",
+   "snippet": null,
+   "url": "https://www.coinbase.com/en-ca/blog/interviewing-engineers-in-the-ai-era-lessons-from-a-year-of-rebuilding",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-12T10:55:50Z",
+   "imageURL": null,
+   "signal": 65,
    "alert": false
   },
   {
@@ -4005,6 +3988,23 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T15:59:22Z",
    "imageURL": null,
+   "signal": 64,
+   "alert": false
+  },
+  {
+   "id": "4abc35fe150d46b71cc80e378015a31259b4f160523e84381b80cc80694c280e",
+   "title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
+   "snippet": "Large language model (LLM) agents are increasingly deployed as personal assistants. Existing evaluations, however, mostly use short, self-contained requests in static environments. Everyday life assistance is different. A task runs for weeks rather than minutes. The world keeps changing while the agent is not being prompted. Many constraints are never stated outright. An agent that merely answers the request in front of it will fail at such a task. What is needed instead is an agent that stays proactive and consistent. It decides on its own when to act, when to ask, and when to stay silent. It notices changes that nobody announced. It keeps one plan coherent from the first day to the last. No current benchmark measures this. We introduce VibeLifeBench, a benchmark of 200 long-horizon tasks across ten everyday-life domains. Each task is a scripted multi-week timeline in a simulated world of 22 mock services. The world advances on its own clock, and many of its changes are silent, so only an agent that re-inspects the world discovers them. Every task is graded by fine-grained, weighted checks that read only what the agent actually left behind, covering the end state, the timeliness of its actions, and whether it upheld the implicit constraints. We evaluate seven frontier models. All of them score low, which shows how far current agents are from assisting with real life. We will open-source all tasks, environments, and the evaluation framework.",
+   "url": "https://huggingface.co/papers/2608.10875",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-11T00:00:00Z",
+   "imageURL": null,
    "signal": 63,
    "alert": false
   },
@@ -4060,6 +4060,23 @@
    "alert": false
   },
   {
+   "id": "0373c2148bcf194ff580a3b810aeb9fd1d51fd1df19e54dc8b5cfff6d23b6d8e",
+   "title": "Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence",
+   "snippet": "Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain visually disembodied. We introduce Ex-Omni-2D, an omni-modal dialogue framework that generates a coordinated response comprising text, personalized speech, and reference-conditioned video. Given a multimodal query, reference image, and reference audio, the model predicts a structured Visual Thought Plan (VTP) describing scene, emotion, and motion, followed by response text and native multi-codebook speech units. These units form a shared acoustic-temporal interface: they are decoded into speech and aligned online with video frames. This interface enables the response and avatar pathways to be learned from heterogeneous speech, dialogue, and avatar-video data, avoiding the need for large-scale query--text--speech--video supervision. A full-sequence Video Generator serves as the primary Teacher. For efficient incremental generation, we further distill it into a few-step block-causal Streaming Student whose Prefix Streaming mechanism carries a clean latent across consecutive chunks to reduce cumulative late-chunk degradation. With four-step inference, the complete four-GPU pipeline achieves an end-to-end RTF of 1.293 at 400times720/720times400, providing a practical quality--efficiency operating point.",
+   "url": "https://huggingface.co/papers/2608.10720",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-11T00:00:00Z",
+   "imageURL": null,
+   "signal": 63,
+   "alert": false
+  },
+  {
    "id": "60eee3fc9750e1dd241e246e952bc15311e357d080543458eec8414d4e205e22",
    "title": "Why Scaling AI Compute Performance Requires a New Power Architecture",
    "snippet": "Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more efficient, scalable power distribution. The bottleneck isn’t just wattage. It’s how power gets from the grid to the GPU. In traditional power…",
@@ -4091,74 +4108,6 @@
    "publishedAt": "2026-08-10T17:22:07Z",
    "imageURL": null,
    "signal": 63,
-   "alert": false
-  },
-  {
-   "id": "43b995806ccbc0b506665df6c636627eeadab45d888d8e1c9d22bd43d45008f9",
-   "title": "SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information",
-   "snippet": "Large language models (LLMs) are increasingly deployed as mobile assistants, where a key challenge is leveraging personal information scattered across multiple applications (apps) to complete user instructions. However, due to the lack of dedicated benchmarks, their capabilities remain poorly understood. To address this gap, we introduce SPIEval, a human-curated benchmark grounded in five cognitive capabilities (i.e., reasoning, disambiguation, integration, preference inference, and multi-intent decomposition). SPIEval comprises 250 tasks spanning 4,335 personal records distributed across 10 apps and supports multi-turn interaction through 21 tools. Analysis shows that the benchmark exhibits diverse scenarios, challenging tasks, scattered information, controllable environments, and verifiable outcomes. We evaluate nine representative LLMs and find substantial room for improvement. The best-performing model, GPT-5.5 (xhigh), achieves only 57.3% accuracy, while the weakest achieves just 16.4%. Further analysis reveals that 79% of failures stem from inaccurate information localization, as LLMs often commit to plausible but incorrect information instead of continuing retrieval for verification. We also find that fewer than 2% of retrieval actions employ advanced search methods and observe substantial variation in search efficiency across models. These findings expose fundamental limitations of current LLM-based mobile assistants and motivate future research in this direction. Data and code are available at https://huggingface.co/datasets/Junjie-Ye/SPIEval.",
-   "url": "https://huggingface.co/papers/2608.10692",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
-   "imageURL": null,
-   "signal": 62,
-   "alert": false
-  },
-  {
-   "id": "6f44dea54443a45b97aeb89fd3fd88a85b862b6caa56446fbab256bb6c1c4123",
-   "title": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
-   "snippet": "Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone to context rot. In this work, we propose InSight-doc, an agentic visual perception framework that treats visual resolution as an adaptive reasoning-time resource. InSight-doc starts from low resolution and selectively zooms into high-resolution regions for finer evidence, without relying on any external retriever. To train such an agent, we construct an active-perception corpus of 17.9K high-quality SFT examples with region-level zoom-in trajectories, accompanied by 19.2K hard RL examples. Through SFT+RL, InSight-doc-8B improves the baseline by 4.3--16.4 accuracy points over document VQA benchmarks. On long documents, it reduces hallucination by more than 40% and inference latency by 41%--68% while maintaining an accuracy lead. Our code, datasets, and model are released at https://github.com/m-Just/InSight-doc .",
-   "url": "https://huggingface.co/papers/2608.10628",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
-   "imageURL": null,
-   "signal": 62,
-   "alert": false
-  },
-  {
-   "id": "e8839390f0ea08ac862c826aa47613c2d7628f7514e30a1bfffeba1a9314f460",
-   "title": "DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation",
-   "snippet": "Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus scale and expensive to serve. Prior compression routes either train a smaller multi-vector encoder from scratch or distil only the query side; neither yields a compact single-vector retriever end-to-end. We present DistilVDR, a 524M end-to-end VDR system distilled bilaterally from a single 8B vision-language teacher under a pointwise cosine alignment loss. All supervision comes from the frozen teacher's embedding space, which was itself trained with relevance supervision, so the student objective needs no relevance labels, negative sampling, or contrastive term. We match VDR's text-query and image-document input asymmetry with an asymmetric encoder-only student that concentrates visual capacity on the document side and keeps the query side at 70M parameters. We release two variants that share the same encoders and training and differ only in the document encoder's visual-tile budget: DistilVDR-HiRes attains 61.74 average NDCG@5 on ViDoRe v1+v2+v3 (86.9% of the 8B teacher) and leads every reproduced sub-1B baseline on the high-resolution-sensitive v3 benchmark, while DistilVDR-Fast attains 59.98 at a 3 times smaller visual-token budget. Both variants store one million documents in a 15.6 times smaller index than the strongest sub-1B multi-vector baseline and index the corpus an order of magnitude faster. The code is available at https://github.com/Ryenhails/NanoVDR.",
-   "url": "https://huggingface.co/papers/2608.10636",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
-   "imageURL": null,
-   "signal": 62,
-   "alert": false
-  },
-  {
-   "id": "e90815ecc9123c32e3d22cbce8f9fc2f6b52344bf5e2cfec48302fb0d8f6cbce",
-   "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
-   "snippet": "We study reference-free post-training for multilingual machine translation with open large language models. Starting from the supervised-finetuned MiLMMT-46-v0.1 models, we apply Group Relative Policy Optimization (GRPO) with a reward that averages two reference-free quality estimation models and is gated by language identification. We then linearly interpolate the supervised fine-tuning (SFT) and reinforcement learning (RL) model checkpoints to obtain MiLMMT-46-v1.0. Across 46 languages, the resulting models consistently improve translation quality over their SFT counterparts, outperform strong recent open baselines, including Seed-X, HY-MT2, and TranslateGemma, and achieve leading reference-free scores against evaluated proprietary systems such as Google Translate, Gemini 3 Pro, and GPT-5. We further investigate on-policy distillation and find that it reaches, but does not surpass, the quality frontier achieved by RL with checkpoint interpolation. We release the models and code to facilitate future research.",
-   "url": "https://huggingface.co/papers/2608.10812",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
-   "imageURL": null,
-   "signal": 62,
    "alert": false
   },
   {
@@ -4226,7 +4175,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T13:00:25Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/raig-rolling-blog-local-ai-community-open-source.jpg",
-   "signal": 61,
+   "signal": 62,
    "alert": false
   },
   {
@@ -4243,7 +4192,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T13:00:05Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/image1.jpeg",
-   "signal": 61,
+   "signal": 62,
    "alert": false
   },
   {
@@ -4260,7 +4209,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T13:00:00Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 62,
    "alert": false
   },
   {
@@ -4315,18 +4264,69 @@
    "alert": false
   },
   {
-   "id": "ec8d2915e91170cc8c64d984b60554417e4bbf9caedbec83542ded143cec785d",
-   "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-   "snippet": null,
-   "url": "https://www.docker.com/products/docker-sandboxes/",
+   "id": "43b995806ccbc0b506665df6c636627eeadab45d888d8e1c9d22bd43d45008f9",
+   "title": "SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information",
+   "snippet": "Large language models (LLMs) are increasingly deployed as mobile assistants, where a key challenge is leveraging personal information scattered across multiple applications (apps) to complete user instructions. However, due to the lack of dedicated benchmarks, their capabilities remain poorly understood. To address this gap, we introduce SPIEval, a human-curated benchmark grounded in five cognitive capabilities (i.e., reasoning, disambiguation, integration, preference inference, and multi-intent decomposition). SPIEval comprises 250 tasks spanning 4,335 personal records distributed across 10 apps and supports multi-turn interaction through 21 tools. Analysis shows that the benchmark exhibits diverse scenarios, challenging tasks, scattered information, controllable environments, and verifiable outcomes. We evaluate nine representative LLMs and find substantial room for improvement. The best-performing model, GPT-5.5 (xhigh), achieves only 57.3% accuracy, while the weakest achieves just 16.4%. Further analysis reveals that 79% of failures stem from inaccurate information localization, as LLMs often commit to plausible but incorrect information instead of continuing retrieval for verification. We also find that fewer than 2% of retrieval actions employ advanced search methods and observe substantial variation in search efficiency across models. These findings expose fundamental limitations of current LLM-based mobile assistants and motivate future research in this direction. Data and code are available at https://huggingface.co/datasets/Junjie-Ye/SPIEval.",
+   "url": "https://huggingface.co/papers/2608.10692",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-10T06:02:38Z",
+   "category": "research",
+   "publishedAt": "2026-08-11T00:00:00Z",
+   "imageURL": null,
+   "signal": 61,
+   "alert": false
+  },
+  {
+   "id": "6f44dea54443a45b97aeb89fd3fd88a85b862b6caa56446fbab256bb6c1c4123",
+   "title": "InSight-doc: Agentic Visual Perception for Long-Document Understanding",
+   "snippet": "Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone to context rot. In this work, we propose InSight-doc, an agentic visual perception framework that treats visual resolution as an adaptive reasoning-time resource. InSight-doc starts from low resolution and selectively zooms into high-resolution regions for finer evidence, without relying on any external retriever. To train such an agent, we construct an active-perception corpus of 17.9K high-quality SFT examples with region-level zoom-in trajectories, accompanied by 19.2K hard RL examples. Through SFT+RL, InSight-doc-8B improves the baseline by 4.3--16.4 accuracy points over document VQA benchmarks. On long documents, it reduces hallucination by more than 40% and inference latency by 41%--68% while maintaining an accuracy lead. Our code, datasets, and model are released at https://github.com/m-Just/InSight-doc .",
+   "url": "https://huggingface.co/papers/2608.10628",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-11T00:00:00Z",
+   "imageURL": null,
+   "signal": 61,
+   "alert": false
+  },
+  {
+   "id": "e8839390f0ea08ac862c826aa47613c2d7628f7514e30a1bfffeba1a9314f460",
+   "title": "DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation",
+   "snippet": "Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus scale and expensive to serve. Prior compression routes either train a smaller multi-vector encoder from scratch or distil only the query side; neither yields a compact single-vector retriever end-to-end. We present DistilVDR, a 524M end-to-end VDR system distilled bilaterally from a single 8B vision-language teacher under a pointwise cosine alignment loss. All supervision comes from the frozen teacher's embedding space, which was itself trained with relevance supervision, so the student objective needs no relevance labels, negative sampling, or contrastive term. We match VDR's text-query and image-document input asymmetry with an asymmetric encoder-only student that concentrates visual capacity on the document side and keeps the query side at 70M parameters. We release two variants that share the same encoders and training and differ only in the document encoder's visual-tile budget: DistilVDR-HiRes attains 61.74 average NDCG@5 on ViDoRe v1+v2+v3 (86.9% of the 8B teacher) and leads every reproduced sub-1B baseline on the high-resolution-sensitive v3 benchmark, while DistilVDR-Fast attains 59.98 at a 3 times smaller visual-token budget. Both variants store one million documents in a 15.6 times smaller index than the strongest sub-1B multi-vector baseline and index the corpus an order of magnitude faster. The code is available at https://github.com/Ryenhails/NanoVDR.",
+   "url": "https://huggingface.co/papers/2608.10636",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-11T00:00:00Z",
+   "imageURL": null,
+   "signal": 61,
+   "alert": false
+  },
+  {
+   "id": "e90815ecc9123c32e3d22cbce8f9fc2f6b52344bf5e2cfec48302fb0d8f6cbce",
+   "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
+   "snippet": "We study reference-free post-training for multilingual machine translation with open large language models. Starting from the supervised-finetuned MiLMMT-46-v0.1 models, we apply Group Relative Policy Optimization (GRPO) with a reward that averages two reference-free quality estimation models and is gated by language identification. We then linearly interpolate the supervised fine-tuning (SFT) and reinforcement learning (RL) model checkpoints to obtain MiLMMT-46-v1.0. Across 46 languages, the resulting models consistently improve translation quality over their SFT counterparts, outperform strong recent open baselines, including Seed-X, HY-MT2, and TranslateGemma, and achieve leading reference-free scores against evaluated proprietary systems such as Google Translate, Gemini 3 Pro, and GPT-5. We further investigate on-policy distillation and find that it reaches, but does not surpass, the quality frontier achieved by RL with checkpoint interpolation. We release the models and code to facilitate future research.",
+   "url": "https://huggingface.co/papers/2608.10812",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
    "signal": 61,
    "alert": false
@@ -4383,6 +4383,23 @@
    "alert": false
   },
   {
+   "id": "ec8d2915e91170cc8c64d984b60554417e4bbf9caedbec83542ded143cec785d",
+   "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+   "snippet": null,
+   "url": "https://www.docker.com/products/docker-sandboxes/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-10T06:02:38Z",
+   "imageURL": null,
+   "signal": 60,
+   "alert": false
+  },
+  {
    "id": "dbbd1ad5c4ce641cb2612484ab4b401aed666a99f89c724592fcedc0f9b1488f",
    "title": "AI Is Helping Solve the Intricate Genetic Puzzle of Schizophrenia",
    "snippet": "Recent findings provide one of the most detailed pictures to date of the genetic architecture of schizophrenia, opening up new avenues for research into the disorder.",
@@ -4429,23 +4446,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-10T17:41:13Z",
-   "imageURL": null,
-   "signal": 60,
-   "alert": false
-  },
-  {
-   "id": "76108f919d062c906a1a84bc80eb75ff89e30f60a954983d945f9d15c6e2c1d6",
-   "title": "DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?",
-   "snippet": "Real-world data science involves long-horizon workflows that span data wrangling, exploration, modeling, visualization, and validation, and require coordinated use of tools such as notebooks, IDEs, terminals, browsers, and databases within real operating environments. Yet existing benchmarks lack real-computer interaction and do not evaluate whether agents can execute complete end-to-end data-science workflows in realistic computing environments, failing to capture the multi-stage, multi-tool nature of data-science practice. We introduce DSAgentBench, the first benchmark to evaluate whether agents can automate full data-science workflows inside real computer environments. DSAgentBench contains 275 diverse tasks covering the entire data-science life-cycle, reflecting the complexity and tool coordination required in practice. Each task requires grounding decisions in intermediate outputs and coordinated tool use, and includes a deterministic evaluator that verifies analytical correctness, visual outputs, and model performance rather than code-only execution. Our extensive experiments with 15 closed- and open-source models show that even the strongest agent, Claude-4.6-Sonnet, achieves only 56.70% task success, while all open-source agents remain below 1%, frequently failing at tool orchestration, OS grounding, and multi-step reasoning. These results reveal a substantial capability gap between current agentic systems and real data-science workflows, positioning DSAgentBench as a foundation for developing grounded, verifiable, autonomous data-science agents. We release DSAgentBench at https://github.com/vis-nlp/DSAgentBench.",
-   "url": "https://huggingface.co/papers/2608.10366",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
    "signal": 59,
    "alert": false
@@ -4502,10 +4502,10 @@
    "alert": false
   },
   {
-   "id": "75e64f37b9c30ad268c5617da9457b1329cb8b5fd468fff1c8cf81e520964afd",
-   "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
-   "snippet": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world deployments, however, complex system prompts, safety guardrails, and structural constraints continuously force models off this nominal path, driving a divergence between benchmark scores and deployment performance. To address this issue, we introduce Decoding-Level Taboo, a zero-prompt diagnostic stress test that intervenes directly in logit space at runtime, forcing models out of their nominal paths. By dynamically masking primary candidate tokens at word boundaries, Taboo forces machine circumlocution.\n  Evaluating Taboo across several open-weight model families reveals that off-path robustness is heavily influenced by both parameter scale and post-training instruction alignment, with robustness generally improving with model size and alignment. Beyond the results presented in this paper, Taboo provides a novel primitive for generating diverse synthetic datasets, stress-testing runtime safety guardrails, and auditing model reliability prior to real-world deployment.",
-   "url": "https://huggingface.co/papers/2608.09900",
+   "id": "76108f919d062c906a1a84bc80eb75ff89e30f60a954983d945f9d15c6e2c1d6",
+   "title": "DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?",
+   "snippet": "Real-world data science involves long-horizon workflows that span data wrangling, exploration, modeling, visualization, and validation, and require coordinated use of tools such as notebooks, IDEs, terminals, browsers, and databases within real operating environments. Yet existing benchmarks lack real-computer interaction and do not evaluate whether agents can execute complete end-to-end data-science workflows in realistic computing environments, failing to capture the multi-stage, multi-tool nature of data-science practice. We introduce DSAgentBench, the first benchmark to evaluate whether agents can automate full data-science workflows inside real computer environments. DSAgentBench contains 275 diverse tasks covering the entire data-science life-cycle, reflecting the complexity and tool coordination required in practice. Each task requires grounding decisions in intermediate outputs and coordinated tool use, and includes a deterministic evaluator that verifies analytical correctness, visual outputs, and model performance rather than code-only execution. Our extensive experiments with 15 closed- and open-source models show that even the strongest agent, Claude-4.6-Sonnet, achieves only 56.70% task success, while all open-source agents remain below 1%, frequently failing at tool orchestration, OS grounding, and multi-step reasoning. These results reveal a substantial capability gap between current agentic systems and real data-science workflows, positioning DSAgentBench as a foundation for developing grounded, verifiable, autonomous data-science agents. We release DSAgentBench at https://github.com/vis-nlp/DSAgentBench.",
+   "url": "https://huggingface.co/papers/2608.10366",
    "sources": [
     {
      "name": "Hugging Face",
@@ -4513,7 +4513,7 @@
     }
    ],
    "category": "research",
-   "publishedAt": "2026-08-10T00:00:00Z",
+   "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
    "signal": 59,
    "alert": false
@@ -4566,6 +4566,23 @@
    "category": "tools",
    "publishedAt": "2026-08-10T21:25:39Z",
    "imageURL": "https://image.theregister.com/?imageId=244264&width=800",
+   "signal": 58,
+   "alert": false
+  },
+  {
+   "id": "75e64f37b9c30ad268c5617da9457b1329cb8b5fd468fff1c8cf81e520964afd",
+   "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+   "snippet": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world deployments, however, complex system prompts, safety guardrails, and structural constraints continuously force models off this nominal path, driving a divergence between benchmark scores and deployment performance. To address this issue, we introduce Decoding-Level Taboo, a zero-prompt diagnostic stress test that intervenes directly in logit space at runtime, forcing models out of their nominal paths. By dynamically masking primary candidate tokens at word boundaries, Taboo forces machine circumlocution.\n  Evaluating Taboo across several open-weight model families reveals that off-path robustness is heavily influenced by both parameter scale and post-training instruction alignment, with robustness generally improving with model size and alignment. Beyond the results presented in this paper, Taboo provides a novel primitive for generating diverse synthetic datasets, stress-testing runtime safety guardrails, and auditing model reliability prior to real-world deployment.",
+   "url": "https://huggingface.co/papers/2608.09900",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
    "signal": 58,
    "alert": false
   },
@@ -4770,7 +4787,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T12:32:20Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 56,
    "alert": false
   },
   {
@@ -4859,23 +4876,6 @@
    "alert": false
   },
   {
-   "id": "fbc22f5ebd4899f90396483297fc8630c978574b5d2124d9d3a97ba199704baf",
-   "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
-   "snippet": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank. We study a deployment problem: convert that checkpoint to a smaller standard MoE under an explicit expert budget, without adding a compression-specific online module. To address this, we introduce UniMoMo, a post-training compression framework formulated as a constrained graph coarsening problem. Rather than relying on parameter distance, UniMoMo groups experts based on their functional similarity, using an unlabeled calibration set to measure how similarly experts respond to shared recommendation states. To prevent performance degradation, we introduce a layer-adaptive protection mechanism that restricts the merging of high-traffic experts based on their routing exposure. Across Amazon Beauty, KuaiRec, and TenRec with 2, 4, and 6 MoE blocks, the final four-expert checkpoints obtain source-relative five-run mean NDCG@10 ratios of 99.92%--102.30% and measured A100 speedups of 1.28times--1.63times. An aggressive two-expert, top-1 operating point obtains ratios of 98.36%--104.24% and speedups of 1.47times--2.21times. These endpoint results evaluate the complete conversion-and-adaptation workflow and show that a trained recommendation MoE can be exported at multiple serving budgets.",
-   "url": "https://huggingface.co/papers/2608.08627",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-09T00:00:00Z",
-   "imageURL": null,
-   "signal": 56,
-   "alert": false
-  },
-  {
    "id": "95a48cb6f6be3fc00d60afd66182b0d4350b8e33a498705f9d992d486be78d46",
    "title": "These startups are chasing the next big thing in LLMs",
    "snippet": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they…",
@@ -4889,7 +4889,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T09:00:00Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 56,
    "alert": false
   },
   {
@@ -4927,6 +4927,23 @@
    "alert": false
   },
   {
+   "id": "b688dfd5fcf050cd12da4774cbc6b58ac03454c309873e45ca41b9dd8dee4ba3",
+   "title": "Quoting OpenClaw (running Opus 4.6)",
+   "snippet": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. &mdash; OpenClaw (running Opus 4.6) , hacking an Australian gym-booking website Tags:…",
+   "url": "https://simonwillison.net/2026/Aug/10/openclaw/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-10T02:05:16Z",
+   "imageURL": null,
+   "signal": 55,
+   "alert": false
+  },
+  {
    "id": "d5a42cd11f2cf23dcf4403b4832370ecfa718c469859f53cd6ba60d9de469055",
    "title": "Not Worth Another Token: Marginal Value Estimation for Efficient Deep Research Agents",
    "snippet": "Long-horizon research agents solve open-ended tasks through iterative retrieval, aggregation, and synthesis, but context grows rapidly while the marginal value of additional evidence often declines. This leads to unnecessary token cost, higher latency, and noisier inputs for final report generation. We study marginal value estimation for context management in deep research agents and present the first systematic stage-aware comparison of pruning strategies across the pipeline. We evaluate lightweight heuristic criteria and a learned value model at pre-retrieval, post-retrieval, and pre-synthesis stages. Our results show that pruning effectiveness depends more on where pruning is applied than on the specific scoring rule: early pruning yields the largest end-to-end savings, while later pruning mainly refines the final synthesis context. Lightweight heuristics reduce token usage by up to 73% with little quality degradation, learned pruning remains competitive on selected trade-offs, and no single method dominates across quality, efficiency, and faithfulness. These findings provide practical guidance for designing efficient long-horizon agentic systems.",
@@ -4944,18 +4961,18 @@
    "alert": false
   },
   {
-   "id": "b688dfd5fcf050cd12da4774cbc6b58ac03454c309873e45ca41b9dd8dee4ba3",
-   "title": "Quoting OpenClaw (running Opus 4.6)",
-   "snippet": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. &mdash; OpenClaw (running Opus 4.6) , hacking an Australian gym-booking website Tags:…",
-   "url": "https://simonwillison.net/2026/Aug/10/openclaw/",
+   "id": "fbc22f5ebd4899f90396483297fc8630c978574b5d2124d9d3a97ba199704baf",
+   "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
+   "snippet": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank. We study a deployment problem: convert that checkpoint to a smaller standard MoE under an explicit expert budget, without adding a compression-specific online module. To address this, we introduce UniMoMo, a post-training compression framework formulated as a constrained graph coarsening problem. Rather than relying on parameter distance, UniMoMo groups experts based on their functional similarity, using an unlabeled calibration set to measure how similarly experts respond to shared recommendation states. To prevent performance degradation, we introduce a layer-adaptive protection mechanism that restricts the merging of high-traffic experts based on their routing exposure. Across Amazon Beauty, KuaiRec, and TenRec with 2, 4, and 6 MoE blocks, the final four-expert checkpoints obtain source-relative five-run mean NDCG@10 ratios of 99.92%--102.30% and measured A100 speedups of 1.28times--1.63times. An aggressive two-expert, top-1 operating point obtains ratios of 98.36%--104.24% and speedups of 1.47times--2.21times. These endpoint results evaluate the complete conversion-and-adaptation workflow and show that a trained recommendation MoE can be exported at multiple serving budgets.",
+   "url": "https://huggingface.co/papers/2608.08627",
    "sources": [
     {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-10T02:05:16Z",
+   "category": "research",
+   "publishedAt": "2026-08-09T00:00:00Z",
    "imageURL": null,
    "signal": 55,
    "alert": false
@@ -4974,23 +4991,6 @@
    "category": "tools",
    "publishedAt": "2026-08-10T01:32:04Z",
    "imageURL": "https://image.theregister.com/?imageId=239104&width=800",
-   "signal": 55,
-   "alert": false
-  },
-  {
-   "id": "e726fcdd5e6b698c5d3e095b586b21624906ef77b2c65aa44956fa204e4ca113",
-   "title": "360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents",
-   "snippet": "We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a photorealistic environment constructed from 360-degree videos. Existing outdoor benchmarks either lack sufficient photorealism or complexity, resulting in a considerable gap from real-world urban environments. 360CityArena is built on a realistic reconstruction of the Akihabara district in Tokyo, Japan, using 602 360-degree video segments covering 85 streets, and consists of 175 meticulously human-crafted tasks. It encompasses three task categories: Environment Understanding, Path Reasoning, and Spatial Reasoning, covering fundamental abilities required for urban exploration, such as localization, landmark search, path planning, and relational spatial reasoning, thereby enabling comprehensive evaluation in realistic urban scenes. Our evaluation using state-of-the-art LMM-based agents shows that even the strongest model, Gemini 2.5 Flash, performs far below human level (human: 77.3% vs. Gemini 2.5 Flash: 17.1%), revealing substantial challenges that remain in city-scale embodied navigation and reasoning. 360CityArena provides a necessary and challenging testbed for photorealistic urban-district navigation and spatial reasoning.",
-   "url": "https://huggingface.co/papers/2608.08814",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-09T00:00:00Z",
-   "imageURL": null,
    "signal": 55,
    "alert": false
   },
@@ -5110,7 +5110,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-09T22:05:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 54,
    "alert": false
   },
   {
@@ -5131,23 +5131,6 @@
    "alert": false
   },
   {
-   "id": "ab7da111f1b5cd567e851c608b2efbb6d322b66d4c2bd3b9297bab9075fe9395",
-   "title": "Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference",
-   "snippet": "The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention (PLGA), replace the fixed bilinear form of scaled dot-product attention (SDPA) with a learned, input-generated bilinear operator G_{LM}, built from a positive tensor A_{LM} by elementwise power laws. The architecture is fully specified, verified against pinned reference releases; claims are labeled theorem, conditional theorem, measurement, or conjecture. Unconditionally: PLGA contains SDPA exactly at G_{LM}=I; A_{LM} and A_P are strictly entrywise positive, with Perron-Frobenius structure on A_{LM}; the DAG regularizer has the NOTEARS walk-counting form and positivity obstructs exact acyclicity; and, under nonresonance (satisfied by standard rotary frequencies), a commutant criterion identifies which operators preserve relative-position dependence. An inference-collapse theorem: exact input invariance of deductive outputs collapses inference to generalized SDPA with a constant operator. Measured invariance: relative fluctuations of 10^{-6} and below; perturbation bounds quantify but do not certify cached inference; the assembled proxy misses the decoding margin. A conditional three-stage mechanism (rotary twirl, concentration, row-map contraction) is measured on a released checkpoint. Blockwise training and scoring under the global Gram are stated with explicit target exposure; on tested samples, block and sequential scoring select identical answers and agree on the published TruthfulQA probability-mass metric within 5times 10^{-5} per item. Self-organized criticality enters as a phenomenological framework with an intrinsic order parameter; open claims become falsifiable conjectures. Selected proof cores are machine-checked in Lean 4.",
-   "url": "https://huggingface.co/papers/2608.10288",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-10T00:00:00Z",
-   "imageURL": null,
-   "signal": 53,
-   "alert": false
-  },
-  {
    "id": "b6afdd4892802e0fa47c8ac2c7f1de2147b532b3392f49ab638119c15bbd4341",
    "title": "Lessons from the hacks",
    "snippet": "Musings on model alignment, what determines safety, and where we go from here.",
@@ -5161,6 +5144,23 @@
    "category": "research",
    "publishedAt": "2026-08-09T14:57:11Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/61d577fe-7a20-4a72-8158-79ddbd2ec97e_3182x1790.png",
+   "signal": 53,
+   "alert": false
+  },
+  {
+   "id": "e726fcdd5e6b698c5d3e095b586b21624906ef77b2c65aa44956fa204e4ca113",
+   "title": "360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents",
+   "snippet": "We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a photorealistic environment constructed from 360-degree videos. Existing outdoor benchmarks either lack sufficient photorealism or complexity, resulting in a considerable gap from real-world urban environments. 360CityArena is built on a realistic reconstruction of the Akihabara district in Tokyo, Japan, using 602 360-degree video segments covering 85 streets, and consists of 175 meticulously human-crafted tasks. It encompasses three task categories: Environment Understanding, Path Reasoning, and Spatial Reasoning, covering fundamental abilities required for urban exploration, such as localization, landmark search, path planning, and relational spatial reasoning, thereby enabling comprehensive evaluation in realistic urban scenes. Our evaluation using state-of-the-art LMM-based agents shows that even the strongest model, Gemini 2.5 Flash, performs far below human level (human: 77.3% vs. Gemini 2.5 Flash: 17.1%), revealing substantial challenges that remain in city-scale embodied navigation and reasoning. 360CityArena provides a necessary and challenging testbed for photorealistic urban-district navigation and spatial reasoning.",
+   "url": "https://huggingface.co/papers/2608.08814",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-09T00:00:00Z",
+   "imageURL": null,
    "signal": 53,
    "alert": false
   },
@@ -5213,6 +5213,23 @@
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
    "signal": 53,
+   "alert": false
+  },
+  {
+   "id": "ab7da111f1b5cd567e851c608b2efbb6d322b66d4c2bd3b9297bab9075fe9395",
+   "title": "Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference",
+   "snippet": "The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention (PLGA), replace the fixed bilinear form of scaled dot-product attention (SDPA) with a learned, input-generated bilinear operator G_{LM}, built from a positive tensor A_{LM} by elementwise power laws. The architecture is fully specified, verified against pinned reference releases; claims are labeled theorem, conditional theorem, measurement, or conjecture. Unconditionally: PLGA contains SDPA exactly at G_{LM}=I; A_{LM} and A_P are strictly entrywise positive, with Perron-Frobenius structure on A_{LM}; the DAG regularizer has the NOTEARS walk-counting form and positivity obstructs exact acyclicity; and, under nonresonance (satisfied by standard rotary frequencies), a commutant criterion identifies which operators preserve relative-position dependence. An inference-collapse theorem: exact input invariance of deductive outputs collapses inference to generalized SDPA with a constant operator. Measured invariance: relative fluctuations of 10^{-6} and below; perturbation bounds quantify but do not certify cached inference; the assembled proxy misses the decoding margin. A conditional three-stage mechanism (rotary twirl, concentration, row-map contraction) is measured on a released checkpoint. Blockwise training and scoring under the global Gram are stated with explicit target exposure; on tested samples, block and sequential scoring select identical answers and agree on the published TruthfulQA probability-mass metric within 5times 10^{-5} per item. Self-organized criticality enters as a phenomenological framework with an intrinsic order parameter; open claims become falsifiable conjectures. Selected proof cores are machine-checked in Lean 4.",
+   "url": "https://huggingface.co/papers/2608.10288",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
+   "signal": 52,
    "alert": false
   },
   {
@@ -5271,23 +5288,6 @@
    "alert": false
   },
   {
-   "id": "3b42b230978ba72e72ca17d44f9cd737d87b82384cb2b174a538c384154f1eb3",
-   "title": "TSDS-Toolbox: A Toolbox for Measuring Time-Series Dataset Similarity",
-   "snippet": "The rapid advancement of artificial intelligence (AI) has significantly accelerated research in time-series analysis, particularly in forecasting, classification, and generation tasks. Recent models, especially foundation models, benefit from time-series dataset similarity due to its significant role in source dataset selection for fine-tuning. However, many existing implementations for benchmarking time-series dataset similarity methods are fragmented and difficult to extend. To address this, we present a unified framework, the Time-Series Dataset Similarity Toolbox (TSDS-Toolbox). Our work enables (1) systematic and reproducible comparisons of time-series dataset similarity methods; (2) flexible extensibility for users to add customized datasets, similarity methods, and downstream time-series tasks; and (3) consistent evaluation of both dataset-level and series-level similarity methods through integrated time-series dataset reducers. The effectiveness of TSDS-Toolbox is validated through comprehensive experiments under diverse experimental settings. Our toolbox is publicly available.",
-   "url": "https://huggingface.co/papers/2608.08119",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-08T00:00:00Z",
-   "imageURL": null,
-   "signal": 52,
-   "alert": false
-  },
-  {
    "id": "10fb26e048840c61737258a54ae4b308c30b46beab051d7a03c7d0ee9d9c5ef7",
    "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
    "snippet": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face &mdash; Hacker News. I think one of the most interesting details here might be tucked away in that first bulletin point: May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they…",
@@ -5335,7 +5335,7 @@
    "category": "models",
    "publishedAt": "2026-08-08T11:05:50Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2023/12/hurricane-1152x648.jpg",
-   "signal": 51,
+   "signal": 52,
    "alert": false
   },
   {
@@ -5373,10 +5373,10 @@
    "alert": false
   },
   {
-   "id": "d79e341607cc7219fbfb6261a935e7d924328d80b4d482cee33454e97c78970a",
-   "title": "iFAN: Inference-Aware Learning for Plain Mask Transformers",
-   "snippet": "Query-based mask transformers assemble segmentation outputs through pixel-wise competition among query predictions of the final layer, yet this inference process is not explicitly optimized during training. We identify two key mismatches: the query with the highest probability-mask score does not necessarily produce the most accurate mask, and final-layer decoding may discard superior predictions from intermediate layers. To address these issues, we propose Inference-Aware Learning (iFAN), a general training framework for plain mask transformers. iFAN introduces Adjusted Probability-Mask Ranking (APMR), which aligns query competition with predicted mask quality and suppresses high-confidence but inaccurate competitors. We further employ Cross-Layer Self-Distillation (CLSD) to transfer stronger intermediate predictions to the final layer. The ranking and distillation objectives are training-only, while inference retains efficient final-layer decoding. Experiments on COCO, ADE20K, and Cityscapes demonstrate consistent improvements across panoptic, instance, and semantic segmentation, as well as across different architectures, backbone scales, and input resolutions. Overall, iFAN improves performance by an average of 1.20 PQ, 1.30 AP, and 0.63 mIoU, with negligible additional parameters, FLOPs and inference latency.",
-   "url": "https://huggingface.co/papers/2608.03216",
+   "id": "3b42b230978ba72e72ca17d44f9cd737d87b82384cb2b174a538c384154f1eb3",
+   "title": "TSDS-Toolbox: A Toolbox for Measuring Time-Series Dataset Similarity",
+   "snippet": "The rapid advancement of artificial intelligence (AI) has significantly accelerated research in time-series analysis, particularly in forecasting, classification, and generation tasks. Recent models, especially foundation models, benefit from time-series dataset similarity due to its significant role in source dataset selection for fine-tuning. However, many existing implementations for benchmarking time-series dataset similarity methods are fragmented and difficult to extend. To address this, we present a unified framework, the Time-Series Dataset Similarity Toolbox (TSDS-Toolbox). Our work enables (1) systematic and reproducible comparisons of time-series dataset similarity methods; (2) flexible extensibility for users to add customized datasets, similarity methods, and downstream time-series tasks; and (3) consistent evaluation of both dataset-level and series-level similarity methods through integrated time-series dataset reducers. The effectiveness of TSDS-Toolbox is validated through comprehensive experiments under diverse experimental settings. Our toolbox is publicly available.",
+   "url": "https://huggingface.co/papers/2608.08119",
    "sources": [
     {
      "name": "Hugging Face",
@@ -5384,7 +5384,7 @@
     }
    ],
    "category": "research",
-   "publishedAt": "2026-08-07T00:00:00Z",
+   "publishedAt": "2026-08-08T00:00:00Z",
    "imageURL": null,
    "signal": 51,
    "alert": false
@@ -5557,6 +5557,23 @@
    "publishedAt": "2026-08-07T16:18:51Z",
    "imageURL": null,
    "signal": 50,
+   "alert": false
+  },
+  {
+   "id": "d79e341607cc7219fbfb6261a935e7d924328d80b4d482cee33454e97c78970a",
+   "title": "iFAN: Inference-Aware Learning for Plain Mask Transformers",
+   "snippet": "Query-based mask transformers assemble segmentation outputs through pixel-wise competition among query predictions of the final layer, yet this inference process is not explicitly optimized during training. We identify two key mismatches: the query with the highest probability-mask score does not necessarily produce the most accurate mask, and final-layer decoding may discard superior predictions from intermediate layers. To address these issues, we propose Inference-Aware Learning (iFAN), a general training framework for plain mask transformers. iFAN introduces Adjusted Probability-Mask Ranking (APMR), which aligns query competition with predicted mask quality and suppresses high-confidence but inaccurate competitors. We further employ Cross-Layer Self-Distillation (CLSD) to transfer stronger intermediate predictions to the final layer. The ranking and distillation objectives are training-only, while inference retains efficient final-layer decoding. Experiments on COCO, ADE20K, and Cityscapes demonstrate consistent improvements across panoptic, instance, and semantic segmentation, as well as across different architectures, backbone scales, and input resolutions. Overall, iFAN improves performance by an average of 1.20 PQ, 1.30 AP, and 0.63 mIoU, with negligible additional parameters, FLOPs and inference latency.",
+   "url": "https://huggingface.co/papers/2608.03216",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-07T00:00:00Z",
+   "imageURL": null,
+   "signal": 49,
    "alert": false
   },
   {
@@ -5777,7 +5794,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T19:04:57Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2152061685-1152x648.jpg",
-   "signal": 48,
+   "signal": 47,
    "alert": false
   },
   {
@@ -5998,7 +6015,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T16:11:13Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -6219,7 +6236,7 @@
    "category": "research",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 43,
    "alert": false
   },
   {
@@ -6393,23 +6410,6 @@
    "alert": false
   },
   {
-   "id": "de68032afa027fd6efc41b78668b7ca9a64884ecb0cf085d7c2a389e44210cba",
-   "title": "JigShape: Evaluating Visual-Geometric Reasoning in VLMs through Jigsaw Puzzles",
-   "snippet": "Jigsaw puzzle solving requires jointly reasoning about visual content and geometric constraints, yet existing benchmarks use rectangular cuts that create ambiguous ground truth in texture-repeated regions. We introduce \\ours{}, a benchmark with tab-and-blank interlocking pieces where geometric constraints provide strong local compatibility requirements that, combined with visual content, yield unambiguous ground truth. Across 95K instances at four grid densities (4times4 to 16times16), we find that zero-shot VLMs largely lack geometric reasoning: only one of five frontier models (GPT-5.5) exceeds random baseline on 4times4 puzzles, while all others perform at chance level. While supervised fine-tuning achieves >97\\% on 4times4, all models collapse on larger grids: GPT-5.5 drops from 70\\% to near-random on 8times8, and even fine-tuned models fall below 5\\% on 12times12. This ``scaling cliff'' suggests current architectures cannot maintain consistent constraint satisfaction as the number of pieces increases.  establishes scalable geometric reasoning as an open challenge for vision-language models.",
-   "url": "https://huggingface.co/papers/2607.27670",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-04T00:00:00Z",
-   "imageURL": null,
-   "signal": 42,
-   "alert": false
-  },
-  {
    "id": "321af2fa263e633335f601622e8ebd12019499a7f53b944b7a92ddffe3a92ed7",
    "title": "[AINews] Megakernels are so dead and so back",
    "snippet": "A quiet day lets us highlight a Cursor launch and an engineering debate",
@@ -6559,7 +6559,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
-   "signal": 40,
+   "signal": 41,
    "alert": false
   },
   {
@@ -6593,6 +6593,23 @@
    "category": "tools",
    "publishedAt": "2026-08-04T07:30:00Z",
    "imageURL": "https://image.theregister.com/?imageId=5282473&width=800",
+   "signal": 40,
+   "alert": false
+  },
+  {
+   "id": "de68032afa027fd6efc41b78668b7ca9a64884ecb0cf085d7c2a389e44210cba",
+   "title": "JigShape: Evaluating Visual-Geometric Reasoning in VLMs through Jigsaw Puzzles",
+   "snippet": "Jigsaw puzzle solving requires jointly reasoning about visual content and geometric constraints, yet existing benchmarks use rectangular cuts that create ambiguous ground truth in texture-repeated regions. We introduce \\ours{}, a benchmark with tab-and-blank interlocking pieces where geometric constraints provide strong local compatibility requirements that, combined with visual content, yield unambiguous ground truth. Across 95K instances at four grid densities (4times4 to 16times16), we find that zero-shot VLMs largely lack geometric reasoning: only one of five frontier models (GPT-5.5) exceeds random baseline on 4times4 puzzles, while all others perform at chance level. While supervised fine-tuning achieves >97\\% on 4times4, all models collapse on larger grids: GPT-5.5 drops from 70\\% to near-random on 8times8, and even fine-tuned models fall below 5\\% on 12times12. This ``scaling cliff'' suggests current architectures cannot maintain consistent constraint satisfaction as the number of pieces increases.  establishes scalable geometric reasoning as an open challenge for vision-language models.",
+   "url": "https://huggingface.co/papers/2607.27670",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-04T00:00:00Z",
+   "imageURL": null,
    "signal": 40,
    "alert": false
   },
@@ -6780,7 +6797,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T08:30:05Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -7001,7 +7018,7 @@
    "category": "models",
    "publishedAt": "2026-07-31T15:00:00Z",
    "imageURL": null,
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -7222,7 +7239,7 @@
    "category": "research",
    "publishedAt": "2026-07-30T10:15:19Z",
    "imageURL": null,
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -7443,7 +7460,7 @@
    "category": "models",
    "publishedAt": "2026-07-28T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp",
-   "signal": 33,
+   "signal": 32,
    "alert": false
   },
   {
@@ -8004,7 +8021,7 @@
    "category": "research",
    "publishedAt": "2026-07-21T12:00:01Z",
    "imageURL": "https://spectrum.ieee.org/media-library/a-smartphone-running-a-chinese-ai-application-called-z-ai.jpg?id=67508250&width=980",
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -8076,23 +8093,6 @@
    "alert": false
   },
   {
-   "id": "1f75c660ba8909b99426ac038119f491abcd36b5a4e57e5c15ec2f5e940e8928",
-   "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
-   "snippet": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pareto frontier under low prefill latency constraints while maximizing accuracy by proposing CoinRAG (Contextualized Information Nugget KV Cache Reuse for Long-Context RAG). The name metaphorically reflects our core mechanism: much like assembling small tokens (or \"coins\") to accumulate a larger value, CoinRAG compositionally reuses offline-computed, fine-grained nugget caches to form a learned contextual representation efficiently in a more semantically relevant but compact manner. Specifically, instead of full-chunk encoding, CoinRAG identifies query-relevant semantic units within retrieved chunks through two-stage retrieval and seamlessly assembles their sliced KV representations with a chunk-level context. Extensive evaluations on LongBench multi-hop question answering tasks demonstrate that CoinRAG significantly reduces operational costs and outperforms the other baselines with a new Pareto frontier and an average 5.3% relative improvement in answer quality (F1) under a standard fast prefill latency budget.",
-   "url": "https://huggingface.co/papers/2608.07458",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-07T00:00:00Z",
-   "imageURL": null,
-   "signal": 27,
-   "alert": false
-  },
-  {
    "id": "969044f63ea6bfa4b0495f3d656aad9a813bc9f6e3bc906ea3d8ad84ca1500a6",
    "title": "Introducing Gemini 3.5 Flash Cyber",
    "snippet": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
@@ -8123,7 +8123,7 @@
    "category": "research",
    "publishedAt": "2026-08-01T00:00:00Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 27,
    "alert": false
   },
   {
@@ -8344,7 +8344,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-15T00:00:00Z",
    "imageURL": null,
-   "signal": 24,
+   "signal": 25,
    "alert": false
   },
   {
@@ -8399,6 +8399,23 @@
    "alert": false
   },
   {
+   "id": "1f75c660ba8909b99426ac038119f491abcd36b5a4e57e5c15ec2f5e940e8928",
+   "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
+   "snippet": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pareto frontier under low prefill latency constraints while maximizing accuracy by proposing CoinRAG (Contextualized Information Nugget KV Cache Reuse for Long-Context RAG). The name metaphorically reflects our core mechanism: much like assembling small tokens (or \"coins\") to accumulate a larger value, CoinRAG compositionally reuses offline-computed, fine-grained nugget caches to form a learned contextual representation efficiently in a more semantically relevant but compact manner. Specifically, instead of full-chunk encoding, CoinRAG identifies query-relevant semantic units within retrieved chunks through two-stage retrieval and seamlessly assembles their sliced KV representations with a chunk-level context. Extensive evaluations on LongBench multi-hop question answering tasks demonstrate that CoinRAG significantly reduces operational costs and outperforms the other baselines with a new Pareto frontier and an average 5.3% relative improvement in answer quality (F1) under a standard fast prefill latency budget.",
+   "url": "https://huggingface.co/papers/2608.07458",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-07T00:00:00Z",
+   "imageURL": null,
+   "signal": 24,
+   "alert": false
+  },
+  {
    "id": "5bdf902ef07cdc265042c6bbcf43f31be3552e44f18fb894a6861b242ca85940",
    "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
    "snippet": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust cryptography in SymCrypt, from standards to code appeared…",
@@ -8446,7 +8463,7 @@
    "category": "tools",
    "publishedAt": "2026-07-13T14:16:00Z",
    "imageURL": "https://image.theregister.com/?imageId=260052&width=800",
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -9228,7 +9245,7 @@
    "category": "research",
    "publishedAt": "2026-06-16T21:29:50Z",
    "imageURL": "https://lh3.googleusercontent.com/kc7RMwXGDfJAoCsgs6pUuONGMXePGbvF_q_i8i-bWBBakQ91O8VYPk8cyHfpOD1uF-lw8Mk6pd2JpXofi5n4qNoNziPol46lBMmZuxoG9NKl16CW=w528-h297-n-nu-rw-lo",
-   "signal": 17,
+   "signal": 16,
    "alert": false
   },
   {
@@ -9449,7 +9466,7 @@
    "category": "research",
    "publishedAt": "2026-06-09T14:02:33Z",
    "imageURL": null,
-   "signal": 15,
+   "signal": 14,
    "alert": false
   },
   {
@@ -10452,7 +10469,7 @@
    "category": "research",
    "publishedAt": "2024-10-10T00:00:00Z",
    "imageURL": null,
-   "signal": 6,
+   "signal": 5,
    "alert": false
   },
   {
