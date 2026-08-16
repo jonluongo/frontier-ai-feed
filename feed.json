@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-08-16T20:19:57Z",
+ "generatedAt": "2026-08-16T20:47:26Z",
  "stories": [
   {
    "id": "eb1c00b4d9183a8d84096a2ea852257525277eb42b1cf750b4e01220528724b0",
@@ -9,7 +9,7 @@
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSkhzZXZkVkxYQ1l3Ulh4ekR3dnFjQ29kMmtkdnNheVNfa1pYQUViZEFZM3FtbVNDWERyZ1lkVndTcEFtSjJYTWE1MnR2cmRKYnNpaVpQZlVDOTl0RXNRbVJ1Mkwtbk5vMkNXWUV2RGpXSlA3TV9UT0dRRDBabENHY00ybnFtcFRHaGJXeQ?oc=5",
    "sources": [
     {
-     "name": "Mashable",
+     "name": "mashable.com",
      "domain": "mashable.com"
     },
     {
@@ -26,6 +26,40 @@
    "imageURL": null,
    "signal": 99,
    "alert": true
+  },
+  {
+   "id": "c5adf37c175f060eb08819c88cd3a96f458c0927af7e847d4f7065b0fd2e73b6",
+   "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+   "snippet": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+   "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T20:32:01Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": false
+  },
+  {
+   "id": "8bee0ce8a8d432610bdd49b657305507ac5b37239b5667ff9ebcc5cd842499f8",
+   "title": "Qwen3.8 27B Q2 vs Q3 vs Qwen3.6 35B-A3B MoE on 12GB VRAM",
+   "snippet": "Did a quick local test because I wanted to see what is actually usable on my 12GB laptop GPU. I tested the newer Qwen3.8 27B dense files at Q2 and Q3, then compared them against Qwen3.6 35B-A3B MoE. Hardware: RTX 5070 Ti Laptop, 12GB VRAM Backend: llama.cpp CUDA Settings: 4k context, q8 KV, --fit…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq60on/qwen38_27b_q2_vs_q3_vs_qwen36_35ba3b_moe_on_12gb/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T19:21:58Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": false
   },
   {
    "id": "eb4edca3b5b878225e89b0a51d5393bd81f605fed4bcc93d90de2996f0823ef4",
@@ -45,7 +79,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T12:48:21Z",
    "imageURL": null,
-   "signal": 99,
+   "signal": 98,
    "alert": true
   },
   {
@@ -55,7 +89,7 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPazlkZTZjNzd1TU1YblhrODI1OUk5cklNMGp6Rm9HWVA5VDU1eWVNRFV2eVJacnVUNE5XY1NKN0tsVWpjeVFST00telpTdTE0cEpVZGh3Sm5YYk14NjhjN09NODRsenFvcjNHbEppTW00R0VKY3F5T1VVelk4RXJKcTNqSXhPY1FSWm9CLW02NFk?oc=5",
    "sources": [
     {
-     "name": "WSJ",
+     "name": "wsj.com",
      "domain": "wsj.com"
     },
     {
@@ -66,7 +100,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T16:03:00Z",
    "imageURL": null,
-   "signal": 99,
+   "signal": 98,
    "alert": true
   },
   {
@@ -82,23 +116,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T18:30:13Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": false
-  },
-  {
-   "id": "cc1397b9548dc211dd74270b01a8d211a92155a0c85e7dec5c06d8984e6eb5de",
-   "title": "Pentagon walks back order to purge Anthropic software from weapons systems",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaVFTWlhnQlNRdWxuZjQtTkhZTUZqdzBHRndULVFJRHVNeDJ5cWdBeDFNS3ZIdWt6d0xWTWhlNEZnSEFabXItVDBKZGlDeFhxcGJxeGstb0hYNm5ULXpvX3drZ1RhV0ZNZVFPcmJqRXFNcjRGR2FHVldsc21OME5PYk51a2RUN2h5RTV0VjJadG0tYTVJbHFOQVFlQzh4WXpvTUQ0ekUyY1J0ck5lRlh3bzA2ZlctN1Fx?oc=5",
-   "sources": [
-    {
-     "name": "Türkiye Today",
-     "domain": "turkiyetoday.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T18:00:36Z",
    "imageURL": null,
    "signal": 98,
    "alert": false
@@ -121,6 +138,74 @@
    "alert": false
   },
   {
+   "id": "cc1397b9548dc211dd74270b01a8d211a92155a0c85e7dec5c06d8984e6eb5de",
+   "title": "Pentagon walks back order to purge Anthropic software from weapons systems",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaVFTWlhnQlNRdWxuZjQtTkhZTUZqdzBHRndULVFJRHVNeDJ5cWdBeDFNS3ZIdWt6d0xWTWhlNEZnSEFabXItVDBKZGlDeFhxcGJxeGstb0hYNm5ULXpvX3drZ1RhV0ZNZVFPcmJqRXFNcjRGR2FHVldsc21OME5PYk51a2RUN2h5RTV0VjJadG0tYTVJbHFOQVFlQzh4WXpvTUQ0ekUyY1J0ck5lRlh3bzA2ZlctN1Fx?oc=5",
+   "sources": [
+    {
+     "name": "Türkiye Today",
+     "domain": "turkiyetoday.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T18:00:36Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "9d643cd2d1107c31eaf617c4ad2f6fe760afa094d28213104f8cb73c83cdeac2",
+   "title": "Integration of AI in business",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWnF0SDZpdFlLcmtZdkpFV0hhSl84WkN6U0RHbzYzMUdEWHFMZURpcG9ldGo1Rmt3R1hKOEptYlluMEJZb2plLXRUbDVMaXJRVTFfZmQ3QTUtaW9aWG1nWTl5ZFRGeFlFS3hfSVZ4ZnhFdUtrV29sMjdqSnFmRkVxZnVFcktVV0U1WFdYSTZGS0lYTVExTHJGMWpacko3d1N2NXfSAaIBQVVfeXFMUFpxdEg2aXRZS3JrWXZKRVdIYUpfOFpDelNER282MzFHRFhxTGVEaXBvZXRqNUZrd0dYSjhKbWJZbjBCWW9qZS10VGw1TGlyUVUxX2ZkN0E1LWlvWlhtZ1k5eWRURnhZRUt4X0lWeGZ4RXVLa1dvbDI3akpxZkZFcWZ1RXJLVVdFNVhXWEk2RktJWE1RMUxyRjFqWnJKN3dTdjV3?oc=5",
+   "sources": [
+    {
+     "name": "today.thefinancialexpress.com.bd",
+     "domain": "today.thefinancialexpress.com.bd"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T18:00:00Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "f379df3ef03ec42ebbf1973f3e5b966ff839803b7b1dcbe3c9c72ef08f518d78",
+   "title": "Qwen 3.8 2.4T at 288k tokens/s on Nvidia GB300 NVL72",
+   "snippet": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/ 4k tokens per second per GPU of which there are 72. 350 tokens per second per user &quot;Without additional model tuning, the model achieves a throughput of over 4K…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq3ssg/qwen_38_24t_at_288k_tokenss_on_nvidia_gb300_nvl72/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T17:57:26Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "00be6588a57dc6829a54647f5d9548fac19a27309038a2d2929c36c4f0118430",
+   "title": "Qwen 3.8 distillations",
+   "snippet": "https://x.com/i/status/2088993948983246906 Not tested by me in any way :) &#32; submitted by &#32; /u/jacek2023 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq3gig/qwen_38_distillations/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T17:44:28Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
+  },
+  {
    "id": "966a6de40cac3675eb75a7f66f645e3e574a2cd457e5202c9345baa071c0ebce",
    "title": "The HackerNoon Newsletter: Navigating Claude Code: The Full Workflow (8/16/2026)",
    "snippet": null,
@@ -134,8 +219,50 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T16:20:22Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": false
+  },
+  {
+   "id": "d1ffa3c3838f7ff087ff9a98a156e50ae2693f1e05fba2c8381a13a171755fc4",
+   "title": "Enjoy ChatGPT and Claude 4 for Life with This $70 Lifetime Deal",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWTE0OWRxMEZyTjhwd2JxeFNGcVVTbUNZSE9uaGJybDk4Mnh5NmZlbG9DdV9DZ0lWeWtEQjQzeUJCRGFOZE40VG92VWdBb19rUUhzNGVIeDZYWlZuVW55bG1peGQ3WmhPeWMxQWt4bjRzZWRqaGRpZWNmRUdyZmt0b1FHSmJ0WnczbURHRWtTSlhlaG13?oc=5",
+   "sources": [
+    {
+     "name": "PCMag",
+     "domain": "pcmag.com"
+    },
+    {
+     "name": "Popular Science",
+     "domain": "popsci.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T14:05:14Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": true
+  },
+  {
+   "id": "4140ceb6f2c50fc8bfa7dd9c26fe1ed979e3b8569bd56f2015a4bfd28540b23d",
+   "title": "Qwen 3.8 27b with DSH(DeepSeek Harness) is Amazing!! Experiences so far and perfomance.",
+   "snippet": "https://preview.redd.it/wkg27e152qjh1.png?width=853&amp;format=png&amp;auto=webp&amp;s=2e3f8b11ea6393041f501e95c5835f9bea0245dd So ive been trying different harnesses and coding agents with the new qwen 3.8 , and after trying out many ive been mostly impressed by deekseek harness , paired with qwen…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpv12b/qwen_38_27b_with_dshdeepseek_harness_is_amazing/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    },
+    {
+     "name": "Latent Space",
+     "domain": "latent.space"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T11:50:57Z",
+   "imageURL": null,
+   "signal": 96,
+   "alert": true
   },
   {
    "id": "5b648f714ca767a410d225aa16b48025e181455b192f0599a3ac229ebf340303",
@@ -151,24 +278,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T17:26:54Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 96,
    "alert": false
   },
   {
-   "id": "4ac5e6314dd0f34b54479c890381d53ee60959930172fca35ff06b283bac01ec",
-   "title": "Why Anthropic’s Provenance Policy Makes AI Accountability A Boardroom Imperative",
+   "id": "16ac10544a8682f6bbc9284488f186f33336e44b5be051001ab15369d082c9d6",
+   "title": "The AI Credit Resale Economy",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQlY2ZVdIc3dkTmRhZlFxbHhvTEl6ZEctdVZXcGJyYjdEajM1UTYyNXJrdmFvSmJQSTlJWXBSb3JrUU12QVNZaDVVYTRBbFlzb0luWl9mZFdwUWUxUTAwc1U2bkRaVi1aY0hNOEZTbE5ocXZtd0taRHdIMDNTeGE0RkJjYWNNOXk3czlnNlV0QmxVMmZLb2t6eHZ0bVdYZXk1elVyazRIQ2NIZzAxYjVUcXFGVmhybWNkYzVTQV9lZ0d6OGk1QkdFT2UzZkFxSm8?oc=5",
+   "url": "https://vectoral.com/blog/who-are-the-token-brokers",
    "sources": [
     {
-     "name": "Forbes",
-     "domain": "forbes.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-16T19:42:06Z",
+   "category": "tools",
+   "publishedAt": "2026-08-16T14:44:55Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -185,7 +312,24 @@
    "category": "tools",
    "publishedAt": "2026-08-16T18:17:10Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
+   "alert": false
+  },
+  {
+   "id": "6061e18d4714d8cb42fae14a7f80af15021c30c2a258b08a8ad05422b1940487",
+   "title": "Based on an accelerating frontier -> local trajectory, expect a ~30b param 'Mythos at home' by as soon as Jan 2027 (rationalisation below)",
+   "snippet": "Including the rationalisation for the data below - this is a more robust version of an earlier post I did similar to this - explaining below: How I chose the comparisons The basic question I’m trying to answer is: when did an open model small enough to run on high-end consumer hardware reach…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq279o/based_on_an_accelerating_frontier_local/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T16:55:55Z",
+   "imageURL": null,
+   "signal": 96,
    "alert": false
   },
   {
@@ -206,25 +350,8 @@
    "category": "models",
    "publishedAt": "2026-08-16T17:44:00Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 95,
    "alert": true
-  },
-  {
-   "id": "16ac10544a8682f6bbc9284488f186f33336e44b5be051001ab15369d082c9d6",
-   "title": "The AI Credit Resale Economy",
-   "snippet": null,
-   "url": "https://vectoral.com/blog/who-are-the-token-brokers",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T14:44:55Z",
-   "imageURL": null,
-   "signal": 97,
-   "alert": false
   },
   {
    "id": "c132c1e1c64dad92108c8aa05e50b4bca9b0823a6ea0f06acb2c5a74507e1b45",
@@ -240,7 +367,92 @@
    "category": "models",
    "publishedAt": "2026-08-16T16:53:51Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "4ac5e6314dd0f34b54479c890381d53ee60959930172fca35ff06b283bac01ec",
+   "title": "Why Anthropic’s Provenance Policy Makes AI Accountability A Boardroom Imperative",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQlY2ZVdIc3dkTmRhZlFxbHhvTEl6ZEctdVZXcGJyYjdEajM1UTYyNXJrdmFvSmJQSTlJWXBSb3JrUU12QVNZaDVVYTRBbFlzb0luWl9mZFdwUWUxUTAwc1U2bkRaVi1aY0hNOEZTbE5ocXZtd0taRHdIMDNTeGE0RkJjYWNNOXk3czlnNlV0QmxVMmZLb2t6eHZ0bVdYZXk1elVyazRIQ2NIZzAxYjVUcXFGVmhybWNkYzVTQV9lZ0d6OGk1QkdFT2UzZkFxSm8?oc=5",
+   "sources": [
+    {
+     "name": "Forbes",
+     "domain": "forbes.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T19:42:06Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "faf91a7f26cbc1486fc6c63c9ddde4b8ca312d5831fa0c883dd734f191b1e9ff",
+   "title": "Koboldcpp v1.119 released",
+   "snippet": "&#32; submitted by &#32; /u/Fcking_Chuck [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpztfu/koboldcpp_v1119_released/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T15:22:03Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "78b298696e125d792cab7b6aa33da93158f2e2e7cf284891285b1da7cabf08ee",
+   "title": "Why are RTX 6000 PROs still getting bought at 16000+ USD? And who are buying them?",
+   "snippet": "Hello guys, hoping you&#39;re doing well. I bring this discussion since I have noticed on internet, be USA or EU, RTX 6000 PROs at 16000USD or more are still getting bought. Even here on Chile, the other day they were in stock at 20000-21000USD post 19% tax and they lasted a few minutes. My…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq6bs5/why_are_rtx_6000_pros_still_getting_bought_at/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T19:34:08Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "79282f6bdcc15522f3ad57b21a9be14ffc3619a9f22d660e8724c2b0146754ad",
+   "title": "Let’s all thank Georgi Gerganov who gave use llama.cpp",
+   "snippet": "I was looking into the story a bit further earlier. Very interesting. Couldn’t have done it without him &#32; submitted by &#32; /u/on_line187 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq1n1l/lets_all_thank_georgi_gerganov_who_gave_use/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T16:33:45Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "38aef9b52f3f0ef15f447d02127dd43cba211cfa08dba88adb5ecfb587940cdb",
+   "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+   "snippet": null,
+   "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T20:31:16Z",
+   "imageURL": null,
+   "signal": 94,
    "alert": false
   },
   {
@@ -257,24 +469,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T19:25:30Z",
    "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "680c909a59051a837aec4d587e96b2d9bb35310a1cf54aeba6333d504dd067d7",
-   "title": "Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaGdIdzNVMzJUdUpkLVFwVXZGSkZPRzBlM1lRaHNSdFNYS0YyVUZGYXhVbUZ4bmFVNFZCYkVha0J5NWU4akswT1ZWZTVlUDVrYzBvS0FJQld4dXp0Y256X3VJa2w3RTktZVJrS2VrY1FNZ0NhOXJfaTgtaWxhcHpnbzhWRzhXMEJ2YlhvOWx4dlFkN2hKUGpTUmF2cw?oc=5",
-   "sources": [
-    {
-     "name": "Business Insider",
-     "domain": "businessinsider.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T16:30:48Z",
-   "imageURL": null,
-   "signal": 96,
+   "signal": 94,
    "alert": false
   },
   {
@@ -291,7 +486,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T14:05:18Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 94,
+   "alert": false
+  },
+  {
+   "id": "621aeb7307b6449fe6502e67e6b680d2f973e8826a3619d803af5f0a614072bb",
+   "title": "AI Agents at War: Anthropic Finds Claude Sabotaging Claude With Malware",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObkk3TEpQamNKWC1MX3lzeXgwQnZMMllpZm9vcDA0OVYxdUN5dE9Kc1hhVHVVZjNJRlNFSlNiYkFYdTd1TTBEQ29PSDZIT1lBNjVJQVFXanR0RFVQbWJOSVd5WV9VZFlpWlVYQUJGRUJIQnp4c29vV0lLNFdDUmpzT21tYTNqUUE?oc=5",
+   "sources": [
+    {
+     "name": "Pasquale Pillitteri",
+     "domain": "pasqualepillitteri.it"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T13:58:08Z",
+   "imageURL": null,
+   "signal": 94,
    "alert": false
   },
   {
@@ -308,24 +520,24 @@
    "category": "models",
    "publishedAt": "2026-08-16T15:36:50Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 94,
    "alert": false
   },
   {
-   "id": "621aeb7307b6449fe6502e67e6b680d2f973e8826a3619d803af5f0a614072bb",
-   "title": "AI Agents at War: Anthropic Finds Claude Sabotaging Claude With Malware",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObkk3TEpQamNKWC1MX3lzeXgwQnZMMllpZm9vcDA0OVYxdUN5dE9Kc1hhVHVVZjNJRlNFSlNiYkFYdTd1TTBEQ29PSDZIT1lBNjVJQVFXanR0RFVQbWJOSVd5WV9VZFlpWlVYQUJGRUJIQnp4c29vV0lLNFdDUmpzT21tYTNqUUE?oc=5",
+   "id": "7627bfb9ef5f3fbbd293f5a88a1c572d5c8668d141b3ed2a790c06afc2bc4a2b",
+   "title": "Newer commits removed the Qwen 35B",
+   "snippet": "In this commits, the 35B model was removed. Looks like it&#39;s confirming the 35B model won&#39;t get released. I think they need to be made aware how big the 35 moe is widely used. Think need to make noise on theyre X, huggingface and online places. If they dont know there&#39;s no need to…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpxbm8/newer_commits_removed_the_qwen_35b/",
    "sources": [
     {
-     "name": "pasqualepillitteri.it",
-     "domain": "pasqualepillitteri.it"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-16T13:58:08Z",
+   "category": "tools",
+   "publishedAt": "2026-08-16T13:39:26Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 93,
    "alert": false
   },
   {
@@ -342,7 +554,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T13:24:11Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 93,
+   "alert": false
+  },
+  {
+   "id": "c171e5f919edc6001c38510c3332dde28e1eadde8961f0f2cb6fa63e81ccda52",
+   "title": "Qwen3.8-27B Hybrid IQ4_XS quantization for 16GB gang",
+   "snippet": "&#32; submitted by &#32; /u/Johnny_Rell [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpzhws/qwen3827b_hybrid_iq4_xs_quantization_for_16gb_gang/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T15:09:25Z",
+   "imageURL": null,
+   "signal": 93,
    "alert": false
   },
   {
@@ -359,7 +588,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T15:05:36Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 93,
    "alert": false
   },
   {
@@ -376,24 +605,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T14:48:27Z",
    "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "96de4034aa8b8c65c726cc9ff6f3d888ddc964630c7bdedcebf4160170ebc981",
-   "title": "The AI store manager fired its first human",
-   "snippet": null,
-   "url": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T18:19:47Z",
-   "imageURL": null,
-   "signal": 95,
+   "signal": 93,
    "alert": false
   },
   {
@@ -410,24 +622,45 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T14:22:17Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 92,
    "alert": false
   },
   {
-   "id": "ca4e119e9b7a6aeea5af768de50c2c4b2c2faae54b24f8571769c3045368d143",
-   "title": "Anthropic IPO valuation hinges on $190B-$200B 2028 revenue forecast: sources",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3VxMjl4M294REZTZGszUDFEdXZCbUZHQWJvM0ZqMG9NVWhZdTdHc0FmVlBoQUhqWUpqNFpESkpkMlV3alMtT3dZLTFncE9Nc1dsZjNYYlAwRFBNTkpPWWt2MmxFTmNOQ1ZkNzVxS1dzUXRGUGZsOHZCWm4tNmk3VXBYNm1rYjgxTHNSR1J4Q21iRGowSjNSajFoM01KNlBaQk1tSEU4WlFwd1h4Z0lKUjJ3dw?oc=5",
+   "id": "685bfb82420965956bb441d7b013c198eaa6cf4db645d200abdf967dc0f30def",
+   "title": "If you are at the lowest budget, which you can think of.Which hardware would you recommend to run? qwen 3.8 27b oWith like 50 tokens per second. I currently have a RTX 5070 Ti.",
+   "snippet": "&#32; submitted by &#32; /u/InternationalGap3698 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vprm64/if_you_are_at_the_lowest_budget_which_you_can/",
    "sources": [
     {
-     "name": "New York Post",
-     "domain": "nypost.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-16T18:08:00Z",
+   "category": "tools",
+   "publishedAt": "2026-08-16T08:29:20Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 92,
+   "alert": true
+  },
+  {
+   "id": "96de4034aa8b8c65c726cc9ff6f3d888ddc964630c7bdedcebf4160170ebc981",
+   "title": "The AI store manager fired its first human",
+   "snippet": null,
+   "url": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T18:19:47Z",
+   "imageURL": null,
+   "signal": 92,
    "alert": false
   },
   {
@@ -444,7 +677,24 @@
    "category": "models",
    "publishedAt": "2026-08-16T14:02:59Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "ca4e119e9b7a6aeea5af768de50c2c4b2c2faae54b24f8571769c3045368d143",
+   "title": "Anthropic IPO valuation hinges on $190B-$200B 2028 revenue forecast: sources",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3VxMjl4M294REZTZGszUDFEdXZCbUZHQWJvM0ZqMG9NVWhZdTdHc0FmVlBoQUhqWUpqNFpESkpkMlV3alMtT3dZLTFncE9Nc1dsZjNYYlAwRFBNTkpPWWt2MmxFTmNOQ1ZkNzVxS1dzUXRGUGZsOHZCWm4tNmk3VXBYNm1rYjgxTHNSR1J4Q21iRGowSjNSajFoM01KNlBaQk1tSEU4WlFwd1h4Z0lKUjJ3dw?oc=5",
+   "sources": [
+    {
+     "name": "New York Post",
+     "domain": "nypost.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T18:08:00Z",
+   "imageURL": null,
+   "signal": 92,
    "alert": false
   },
   {
@@ -461,7 +711,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T10:31:36Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 91,
    "alert": false
   },
   {
@@ -478,7 +728,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T13:41:54Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 91,
    "alert": false
   },
   {
@@ -495,7 +745,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T13:21:45Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 91,
    "alert": false
   },
   {
@@ -512,7 +762,41 @@
    "category": "models",
    "publishedAt": "2026-08-16T17:46:30Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "7039789a0d0a40eee24d46ea22e5df55936a331da2b25e9308fa7881aba3cb99",
+   "title": "Quick PSA: Qwen3.8-27B reasoning effort vs reasoning budget in llama.cpp",
+   "snippet": "If you are using llama-server with their web-ui for testing, keep in mind, that the reasoning selector is just a reasoning budget aka a hard cap and has, at least to my knowledge, nothing at all to do with Qwen3.8-27B&#39;s native reasoning effort capability! Selecting any value for reasoning in…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpwfpe/quick_psa_qwen3827b_reasoning_effort_vs_reasoning/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T12:59:26Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "8ccf8da7d68a780079caf0c4fa7fc08377d775a55c21c6ce5956626ff92fb22b",
+   "title": "The dream is to reach 200GB VRAM",
+   "snippet": "Step 1) Find 16k ASAP before it goes up to 20k after a few months Step 2) Buy RTX PRO 6000 (MAXQ) Step 3) Remove RTX PRO 5000 in pcie_1 slot. Replace w/ RTX PRO 6000 Step 4) Buy a NVME to PCIE converter and HPPLEX 500W then move RTX PRO 5000 there Step 5) Power limit RTX PRO 6000, RTX 5090 and RTX…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpwcnf/the_dream_is_to_reach_200gb_vram/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T12:55:30Z",
+   "imageURL": null,
+   "signal": 90,
    "alert": false
   },
   {
@@ -529,7 +813,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T07:37:53Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 90,
    "alert": false
   },
   {
@@ -546,24 +830,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T12:08:06Z",
    "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "8ccd370b2e0a729360bb774036c783e9af317ab00f793cc105f32378a38a8a4d",
-   "title": "Rogue AI aren’t science fiction anymore",
-   "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's…",
-   "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T12:00:00Z",
-   "imageURL": null,
-   "signal": 93,
+   "signal": 90,
    "alert": false
   },
   {
@@ -580,7 +847,41 @@
    "category": "models",
    "publishedAt": "2026-08-16T11:59:37Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 90,
+   "alert": false
+  },
+  {
+   "id": "23e2f4aa03637218c63efd7de69b042095ddc70b2ddc4aeba6ffaf6d761ee3c1",
+   "title": "Genie-style playable world model running 720p at 16 FPS on a single 5090 in 19GB VRAM",
+   "snippet": "&#32; submitted by &#32; /u/juanviera23 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpujkc/geniestyle_playable_world_model_running_720p_at/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T11:24:36Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": false
+  },
+  {
+   "id": "a7fc4cf4cc15dc3af4928a6f16222586e2b68422c26c0a3b5dec354be1845642",
+   "title": "Paper claims RL for reasoning only changes 1-3% of tokens, and they replicate the gains without RL at ~1000x less compute",
+   "snippet": "&#32; submitted by &#32; /u/juanviera23 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpuhh1/paper_claims_rl_for_reasoning_only_changes_13_of/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T11:21:24Z",
+   "imageURL": null,
+   "signal": 89,
    "alert": false
   },
   {
@@ -597,7 +898,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T08:30:46Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 89,
    "alert": false
   },
   {
@@ -614,7 +915,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T10:48:20Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 89,
    "alert": false
   },
   {
@@ -631,7 +932,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T10:25:53Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 89,
    "alert": false
   },
   {
@@ -648,24 +949,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T02:12:53Z",
    "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
-   "id": "62ed001f3643303f92bee7e9bef14eb4e1da42a676d7f4a88d524e09cc0fee07",
-   "title": "This $49 AI book generator uses ChatGPT, Claude, Gemini, and your own research",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON00zQm9WVzFpWGhrdFB0LVp6WFdGNUxZNXhIQ04tdzBNVmdOZHB3eHBGaTFzUkhNMXRyWkg1VjJZWHgxV29zUWozekpwVzdzeGlFS0twdkUwaU5oUkNiUzNNM1hQXzhkOVFjWFZzMWJqc0tFSmRzTmJNX0pTc1ZjTmZHRjBTb2xOVzQyaGVrdHVkbEkyWXFfTE1FbXMzekJQNHZKVDhUNG1feWZkTzhlRWdkS0lwSHp4Ul8xNFh6NTRCOXkzLXNN?oc=5",
-   "sources": [
-    {
-     "name": "Popular Science",
-     "domain": "popsci.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T10:00:00Z",
-   "imageURL": null,
-   "signal": 91,
+   "signal": 89,
    "alert": false
   },
   {
@@ -682,7 +966,41 @@
    "category": "tools",
    "publishedAt": "2026-08-16T07:01:01Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "ed7ac4aa368932c2d299b9d4356f136e848d779ff5e67247307502c5370789c6",
+   "title": "I'm still running Qwen 3.5 122B. Should I switch to Qwen 3.8 27B?",
+   "snippet": "I see everyone gushing over 3.8, I get the impression people find it drastically better than previous Qwen models, but I can&#39;t believe it could be better than 3.5 122B. Is it? &#32; submitted by &#32; /u/MackThax [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpszpm/im_still_running_qwen_35_122b_should_i_switch_to/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T09:55:17Z",
+   "imageURL": null,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "b9d4fea97e48c4c38a197f48d8fa1d24b15432b632fdac42e51201666c86d395",
+   "title": "Qwen3.8-27B abliterated FP8: refusal 64–99% → 0–6%, and MMLU/GSM8K move less than 1.3 points",
+   "snippet": "Been reading the eval table on the abliterated Qwen3.8-27B FP8 build instead of the release notes. It&#39;s published as red-team material, disclaimer and all, so the numbers are the interesting part. Refusal across the usual harmful-instruction sets (AdvBench, HarmBench, StrongREJECT and friends)…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vppox6/qwen3827b_abliterated_fp8_refusal_6499_06_and/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T06:37:02Z",
+   "imageURL": null,
+   "signal": 88,
    "alert": false
   },
   {
@@ -700,7 +1018,7 @@
      "domain": "thedailystar.net"
     },
     {
-     "name": "Mashable",
+     "name": "mashable.com",
      "domain": "mashable.com"
     },
     {
@@ -723,8 +1041,8 @@
    "category": "models",
    "publishedAt": "2026-08-15T18:58:39Z",
    "imageURL": null,
-   "signal": 91,
-   "alert": true
+   "signal": 88,
+   "alert": false
   },
   {
    "id": "cc5a6ff967e2fa6c451fcdb5256a781fd22ed1fdb8094891e0d614509902361f",
@@ -740,7 +1058,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T08:00:57Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 88,
    "alert": false
   },
   {
@@ -757,7 +1075,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T07:38:41Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 87,
    "alert": false
   },
   {
@@ -774,7 +1092,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T07:06:29Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 87,
    "alert": false
   },
   {
@@ -784,14 +1102,14 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeENSNk5wMnlGV25SZ3o0X0dnTVZNdjNiUlRHVnlERGdkYWc0UF8zQVozSlFzSmh1Z01OWEQ5b0R6cmJ2dEdjNGw0NGhOVlZEc1NSOWZleEZxYkFiRE5kSnBpOWRnTEI3NXRCNHpNemRSakN2UWV5RDM0Ymdhc0ltcnVHTFk5ZUFQTjFCbm9nX1ZPN0NJRUpueNIBmAFBVV95cUxPdmhpbmEwS3NqaHFmNU1xZklSY0xUck9Dd1ZiZkFYa3ZLT29uTHNmS3dpbUJHSllQMWhMRzNwZ1pid3ZCSG9qVVU5TUswTFMyek5ockgzRVd3TnVDaVJUdjN5Mll0SDc1ZE8zQXd3OWVmWUdEc0dfSFhoUnl2emlLTmt6bW9WR0ZtWVFZeUVOdWRMQWg3LXZhdA?oc=5",
    "sources": [
     {
-     "name": "dw.com",
+     "name": "DW.com",
      "domain": "dw.com"
     }
    ],
    "category": "models",
    "publishedAt": "2026-08-16T06:50:28Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 87,
    "alert": false
   },
   {
@@ -808,8 +1126,25 @@
    "category": "tools",
    "publishedAt": "2026-08-15T18:13:02Z",
    "imageURL": null,
-   "signal": 90,
-   "alert": true
+   "signal": 87,
+   "alert": false
+  },
+  {
+   "id": "2d90e8775c4b55dfc94c72d29f07b7c2223550719bec431967a9bf36ede9d622",
+   "title": "Show-off Saturday: Intel Arc B140 build.",
+   "snippet": "My local inference build, with: ASUS WS C422 PRO/SE 10-core Xeon W-2255 64GB ECC RAM 64GB VRAM Pimped case with TurboLEDz indicating the frequencies of the 10 xeon cores. Running llama.cpp with SYCL back-end. Khronos-stack and MESA stack all built from git sources, running on Ubuntu 26.04 &#32;…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpkomt/showoff_saturday_intel_arc_b140_build/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T02:10:38Z",
+   "imageURL": null,
+   "signal": 87,
+   "alert": false
   },
   {
    "id": "752db2f2a20c7340699db0ec6ee2ec2b45e77480bff176b86c83ca743fb553cc",
@@ -818,48 +1153,14 @@
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQkFFb2wwNE8xZG1rQXNOeXFNT0hoS2ZVZ3JKYm4wMXZ1cW9Wb3g3My1TVHZGX2ppdXA2TjVsYkptM2s4SEJHbVRyYWpaNVdVZEhOYkxZWEk4Y3JNZnhjNkVaV0ZOUlg3bHAtcFpFMUQxSzEyM3liemdlaTkxR2s1MnBYZjB1TzZLOG9pZy1kUlRGUUNlRkdjc25BLURTUDVQY1BaNEw5S0VjRWFNU084bEFn?oc=5",
    "sources": [
     {
-     "name": "kucoin.com",
+     "name": "KuCoin",
      "domain": "kucoin.com"
     }
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T02:00:35Z",
    "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "0a53672abc695c65ef4877e18eac0d0870e575a6b4a2084234bf849ca50eb306",
-   "title": "Show HN: Grafana agent observability for Hermes Agent",
-   "snippet": null,
-   "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T08:40:50Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "cf5b87d94715d0914e5370e3195d5c39c44494feeb8ae14501a5d1381ed381ac",
-   "title": "A.I. Agents Are Taking Online Courses for Cheating Students",
-   "snippet": null,
-   "url": "https://www.nytimes.com/2026/08/10/us/ai-cheating-online-degrees.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T13:03:23Z",
-   "imageURL": null,
-   "signal": 89,
+   "signal": 87,
    "alert": false
   },
   {
@@ -877,14 +1178,31 @@
      "domain": "testingcatalog.com"
     },
     {
-     "name": "kucoin.com",
+     "name": "KuCoin",
      "domain": "kucoin.com"
     }
    ],
    "category": "tools",
    "publishedAt": "2026-08-14T16:15:21Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "f18e47a5c2051d35ad496d8418a2d9bd7be7a54ed129d31b6f361b3fbecc687e",
+   "title": "Qwen3.8-27B vs Qwen3.6-27B writing ray-tracers in BASIC",
+   "snippet": "one of my llm hobbies is re-creating graphics demos i used to write in BASIC in the late 1980s. i slopped together an agentic harness and a basic-to-js transpiler in a web page i&#39;ve been playing with for a few months. the agent can write basic programs, run them, examine the resulting images,…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpiyj9/qwen3827b_vs_qwen3627b_writing_raytracers_in_basic/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T00:45:04Z",
+   "imageURL": null,
+   "signal": 86,
    "alert": false
   },
   {
@@ -901,7 +1219,24 @@
    "category": "models",
    "publishedAt": "2026-08-15T23:49:46Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "daf67bcaaf51ac6cb5dfbdb454021515e4c63d7696f936e3ad7255fa692b2cc0",
+   "title": "SOTA Apple Silicon Inference (August 15, 2026)",
+   "snippet": "This is a HANDWRITTEN post. I spent way too much time trying to get fast inference on Apple Silicon. This post is for people who want to know what&#39;s the latest on running local models on their mac, and why they may not be seeing the performance others in the community claim. TL;DR I&#39;ve…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-15T23:48:29Z",
+   "imageURL": null,
+   "signal": 86,
    "alert": false
   },
   {
@@ -918,7 +1253,24 @@
    "category": "tools",
    "publishedAt": "2026-08-15T10:39:41Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "e1454556281fcaa51f2fb3373e901e488f75174a16d8ad1cfa8aa923cd3c19c1",
+   "title": "How many people have 24gb over gpu here?",
+   "snippet": "I was surprised by the fact that the qwen 3.8 27b download count is about 1 million (globally). This means that even on this subreddit, very few people have used 27b. At most 50k–100k active users, and once you break down the hardware distribution, 8GB, 16GB, 24GB, 32GB cards, Macs, whatever,…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpm70f/how_many_people_have_24gb_over_gpu_here/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T03:27:29Z",
+   "imageURL": null,
+   "signal": 85,
    "alert": false
   },
   {
@@ -935,7 +1287,41 @@
    "category": "tools",
    "publishedAt": "2026-08-15T19:12:53Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "0a53672abc695c65ef4877e18eac0d0870e575a6b4a2084234bf849ca50eb306",
+   "title": "Show HN: Grafana agent observability for Hermes Agent",
+   "snippet": null,
+   "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T08:40:50Z",
+   "imageURL": null,
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "65090f2bb9c412918bc5aee3f40f9f55bd049b6b115f7a47a5c3395c614c1b25",
+   "title": "club-5060ti refresh: tested RTX 5060 Ti presets, a proper high-context harness, and Qwen3.8 27B",
+   "snippet": "Quick update on the RTX 5060 Ti local LLM repo. It has changed quite a bit since my previous posts. The project started as a collection of practical notes and benchmark results. That was useful, but as the dataset grew it became harder to answer the question most people actually had: What…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vper67/club5060ti_refresh_tested_rtx_5060_ti_presets_a/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-15T21:32:14Z",
+   "imageURL": null,
+   "signal": 85,
    "alert": false
   },
   {
@@ -952,7 +1338,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T02:12:47Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 85,
    "alert": false
   },
   {
@@ -969,24 +1355,7 @@
    "category": "tools",
    "publishedAt": "2026-08-15T20:56:08Z",
    "imageURL": null,
-   "signal": 88,
-   "alert": false
-  },
-  {
-   "id": "015b3666d4504b20582965a3ec7ba2e0a33e89fd9aacf4ab1abc73fd67243033",
-   "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-   "snippet": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as [&#8230;]",
-   "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-15T20:45:00Z",
-   "imageURL": null,
-   "signal": 88,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1007,7 +1376,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T11:54:24Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png",
-   "signal": 88,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "015b3666d4504b20582965a3ec7ba2e0a33e89fd9aacf4ab1abc73fd67243033",
+   "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+   "snippet": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as [&#8230;]",
+   "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-15T20:45:00Z",
+   "imageURL": null,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1024,7 +1410,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T01:17:19Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1041,24 +1427,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T01:12:49Z",
    "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "19c58a1874b6eb0b8e8c470c81929d13e4c2a86bc116143cf56981db6d39e6d6",
-   "title": "AI is not just one bubble, strategist says – but a 'rolling sequence of bubbles'",
-   "snippet": null,
-   "url": "https://fortune.com/2026/08/16/ai-bubble-sequence-saas-software-stocks-silver-prices-chipmakers/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T18:05:39Z",
-   "imageURL": null,
-   "signal": 87,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1075,41 +1444,24 @@
    "category": "models",
    "publishedAt": "2026-08-15T23:17:41Z",
    "imageURL": null,
-   "signal": 87,
+   "signal": 83,
    "alert": false
   },
   {
-   "id": "70905d06e144be0a9c922226d0b3490ea7c4d5ff05d90d58aba139273c1c325d",
-   "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
-   "snippet": null,
-   "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
+   "id": "7f0e9fe649414a4621035aab40c2e4486b70c207c5db75f3e778b9c6928bacaf",
+   "title": "The perfect way for Google to screw over OAI and Anthropic is by releasing a 120B dense multimodal Gemma model",
+   "snippet": "The two leading labs are already feeling extremely threatened by Qwen &amp; friends, however I think there are tons of enterprises and organizations in the West that don&#39;t feel comfortable using Chinese models. I believe these orgs would be all over a near-frontier open-weight model with the…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpf8j1/the_perfect_way_for_google_to_screw_over_oai_and/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T12:54:31Z",
+   "publishedAt": "2026-08-15T21:53:02Z",
    "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "80316ce1298193564bbfb35b8604d41a7efe6178c53d4d7d1111943fc7ab861d",
-   "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
-   "snippet": null,
-   "url": "https://waku.sh",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T00:38:44Z",
-   "imageURL": null,
-   "signal": 87,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1126,7 +1478,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T15:46:22Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Osie!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F131d402d-63bf-4895-b5e7-b8990972a14c_1280x720.png",
-   "signal": 86,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1143,7 +1495,7 @@
    "category": "models",
    "publishedAt": "2026-08-15T21:29:19Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1164,14 +1516,14 @@
    "category": "models",
    "publishedAt": "2026-08-14T17:13:05Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/Launching-Ceremony-2-1-scaled.jpeg",
-   "signal": 86,
+   "signal": 83,
    "alert": false
   },
   {
-   "id": "307b639b5b7141e235345168e61aeb9faddd6bdfc7adbcf2914901a2b54aead7",
-   "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
+   "id": "80316ce1298193564bbfb35b8604d41a7efe6178c53d4d7d1111943fc7ab861d",
+   "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
    "snippet": null,
-   "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+   "url": "https://waku.sh",
    "sources": [
     {
      "name": "Hacker News",
@@ -1179,9 +1531,26 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-15T13:43:46Z",
+   "publishedAt": "2026-08-16T00:38:44Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "70905d06e144be0a9c922226d0b3490ea7c4d5ff05d90d58aba139273c1c325d",
+   "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
+   "snippet": null,
+   "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T12:54:31Z",
+   "imageURL": null,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1202,7 +1571,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:31:28Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1227,7 +1596,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:21:03Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1252,7 +1621,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T15:56:07Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "307b639b5b7141e235345168e61aeb9faddd6bdfc7adbcf2914901a2b54aead7",
+   "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
+   "snippet": null,
+   "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-15T13:43:46Z",
+   "imageURL": null,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1269,7 +1655,7 @@
    "category": "tools",
    "publishedAt": "2026-08-15T22:41:51Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1286,7 +1672,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T14:49:54Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1303,45 +1689,7 @@
    "category": "tools",
    "publishedAt": "2026-08-14T15:43:10Z",
    "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "40d31e46b2204daeb6e2adcec93098623e86250e02ff3292390a75d600f04d63",
-   "title": "Show HN: Widen, a native Postgres GUI using Apple's on-device LLM",
-   "snippet": null,
-   "url": "https://github.com/betocmn/widen",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T02:35:51Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "e5026bc3d2dc8fd3a568e72b95218b4fcd315d1b482aebcfb5055badc9682bf7",
-   "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
-   "snippet": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that…",
-   "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    },
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-14T16:39:32Z",
-   "imageURL": null,
-   "signal": 84,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1362,7 +1710,28 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:59:57Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 81,
+   "alert": false
+  },
+  {
+   "id": "e5026bc3d2dc8fd3a568e72b95218b4fcd315d1b482aebcfb5055badc9682bf7",
+   "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
+   "snippet": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that…",
+   "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    },
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-14T16:39:32Z",
+   "imageURL": null,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1379,7 +1748,7 @@
    "category": "tools",
    "publishedAt": "2026-08-15T04:42:07Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1396,7 +1765,7 @@
    "category": "tools",
    "publishedAt": "2026-08-14T15:58:59Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1421,7 +1790,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1438,7 +1807,7 @@
    "category": "models",
    "publishedAt": "2026-08-15T23:08:55Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1455,7 +1824,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T03:03:16Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 79,
+   "alert": false
+  },
+  {
+   "id": "19c58a1874b6eb0b8e8c470c81929d13e4c2a86bc116143cf56981db6d39e6d6",
+   "title": "AI is not just one bubble, strategist says – but a 'rolling sequence of bubbles'",
+   "snippet": null,
+   "url": "https://fortune.com/2026/08/16/ai-bubble-sequence-saas-software-stocks-silver-prices-chipmakers/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T18:05:39Z",
+   "imageURL": null,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1472,7 +1858,24 @@
    "category": "tools",
    "publishedAt": "2026-08-14T18:52:48Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 79,
+   "alert": false
+  },
+  {
+   "id": "40d31e46b2204daeb6e2adcec93098623e86250e02ff3292390a75d600f04d63",
+   "title": "Show HN: Widen, a native Postgres GUI using Apple's on-device LLM",
+   "snippet": null,
+   "url": "https://github.com/betocmn/widen",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T02:35:51Z",
+   "imageURL": null,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1501,7 +1904,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T19:22:40Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1518,7 +1921,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T03:22:00Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1535,41 +1938,7 @@
    "category": "tools",
    "publishedAt": "2026-08-13T17:23:22Z",
    "imageURL": null,
-   "signal": 82,
-   "alert": false
-  },
-  {
-   "id": "d551d175863afc120b391ddf8b9e668e3d6b674849bb97b70723a5fb13296298",
-   "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge",
-   "snippet": "In multi-turn reinforcement learning, your custom reward function decides what the model actually learns. This post shows how to design a composite multi-turn reward for Amazon Nova Forge, execute model-generated code safely inside it, and instrument each component to catch the pitfalls that…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-14T16:02:10Z",
-   "imageURL": null,
-   "signal": 82,
-   "alert": false
-  },
-  {
-   "id": "8e9d4a60984ee94c46052a2065e96ea12b8c79af46543e156599572a446f6d94",
-   "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-   "snippet": "Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-14T15:58:44Z",
-   "imageURL": null,
-   "signal": 82,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1586,7 +1955,41 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "d551d175863afc120b391ddf8b9e668e3d6b674849bb97b70723a5fb13296298",
+   "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge",
+   "snippet": "In multi-turn reinforcement learning, your custom reward function decides what the model actually learns. This post shows how to design a composite multi-turn reward for Amazon Nova Forge, execute model-generated code safely inside it, and instrument each component to catch the pitfalls that…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-14T16:02:10Z",
+   "imageURL": null,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "8e9d4a60984ee94c46052a2065e96ea12b8c79af46543e156599572a446f6d94",
+   "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
+   "snippet": "Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-14T15:58:44Z",
+   "imageURL": null,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1603,7 +2006,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T15:43:28Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1620,7 +2023,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T14:50:11Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1637,7 +2040,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T14:27:14Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285566787-1152x648.jpg",
-   "signal": 81,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1654,24 +2057,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T14:00:00Z",
    "imageURL": null,
-   "signal": 81,
-   "alert": false
-  },
-  {
-   "id": "59b40633ecf2f26730d53dfc3a1a490e490a2457b90e6adafb50014dc16ab594",
-   "title": "Choosing an AI model: one prompt, 11 models, different results",
-   "snippet": null,
-   "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T13:05:29Z",
-   "imageURL": null,
-   "signal": 80,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1692,24 +2078,24 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:54:11Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 77,
    "alert": false
   },
   {
-   "id": "4c2801492334bd061e10ebf1e05071b895f7e2f477dfef1f24328a8fb8c715a5",
-   "title": "SpaceX officially closes its Cursor acquisition",
-   "snippet": "AI coding startup Cursor is now officially a part of SpaceX.",
-   "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+   "id": "59b40633ecf2f26730d53dfc3a1a490e490a2457b90e6adafb50014dc16ab594",
+   "title": "Choosing an AI model: one prompt, 11 models, different results",
+   "snippet": null,
+   "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
    "sources": [
     {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-15T16:30:00Z",
+   "category": "tools",
+   "publishedAt": "2026-08-13T13:05:29Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1730,7 +2116,45 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:59:52Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 76,
+   "alert": false
+  },
+  {
+   "id": "4c2801492334bd061e10ebf1e05071b895f7e2f477dfef1f24328a8fb8c715a5",
+   "title": "SpaceX officially closes its Cursor acquisition",
+   "snippet": "AI coding startup Cursor is now officially a part of SpaceX.",
+   "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-15T16:30:00Z",
+   "imageURL": null,
+   "signal": 76,
+   "alert": false
+  },
+  {
+   "id": "8e77a85b47ddb894bb2602f18403a7ed30631cdaa53da09bd0dbc21a2635843a",
+   "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+   "snippet": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+   "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    },
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T15:30:52Z",
+   "imageURL": null,
+   "signal": 76,
    "alert": false
   },
   {
@@ -1747,7 +2171,7 @@
    "category": "tools",
    "publishedAt": "2026-08-13T17:05:12Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 76,
    "alert": false
   },
   {
@@ -1764,7 +2188,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T21:54:35Z",
    "imageURL": null,
-   "signal": 79,
+   "signal": 76,
    "alert": false
   },
   {
@@ -1781,24 +2205,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T21:23:35Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!_6Y2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49ade27f-0d84-40f3-840a-3c919e0bb8af_4239x2504.webp",
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "9d7bfbd4e75cd5b0d1eb5cbdd0708f1b0c401be049e85b7071e264ec4e24eda0",
-   "title": "Apple trained its own AI model for China with help from Alibaba",
-   "snippet": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-14T09:21:17Z",
-   "imageURL": null,
-   "signal": 79,
+   "signal": 75,
    "alert": false
   },
   {
@@ -1815,7 +2222,24 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 79,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "9d7bfbd4e75cd5b0d1eb5cbdd0708f1b0c401be049e85b7071e264ec4e24eda0",
+   "title": "Apple trained its own AI model for China with help from Alibaba",
+   "snippet": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-14T09:21:17Z",
+   "imageURL": null,
+   "signal": 75,
    "alert": false
   },
   {
@@ -1836,41 +2260,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "7026e608bba493358d23475ecdd890f7e98411b6ec05b570264a08b884d87b7f",
-   "title": "Show HN: Deltix – AI Driven Testing",
-   "snippet": null,
-   "url": "https://app.deltix.ai",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-15T02:42:14Z",
-   "imageURL": null,
-   "signal": 78,
-   "alert": false
-  },
-  {
-   "id": "08315995f7290e31447f434788457dba651af9ccd206ca262ecf8180fcd6ffff",
-   "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
-   "snippet": null,
-   "url": "https://hashagent.pages.dev/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T12:57:02Z",
-   "imageURL": null,
-   "signal": 78,
+   "signal": 75,
    "alert": false
   },
   {
@@ -1887,7 +2277,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T17:44:59Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 75,
    "alert": false
   },
   {
@@ -1904,14 +2294,14 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 74,
    "alert": false
   },
   {
-   "id": "b8db5a8175f3479ca45d211027ebc48d742c3902fb9349d9249fb39b3fdd9857",
-   "title": "We cut RAG costs 5x without losing quality",
+   "id": "7026e608bba493358d23475ecdd890f7e98411b6ec05b570264a08b884d87b7f",
+   "title": "Show HN: Deltix – AI Driven Testing",
    "snippet": null,
-   "url": "https://trpevski.com/blog/scaling-rag-chunking-reranking-and-cost-optimization/",
+   "url": "https://app.deltix.ai",
    "sources": [
     {
      "name": "Hacker News",
@@ -1919,9 +2309,9 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T10:08:38Z",
+   "publishedAt": "2026-08-15T02:42:14Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 74,
    "alert": false
   },
   {
@@ -1938,7 +2328,24 @@
    "category": "models",
    "publishedAt": "2026-08-14T16:54:16Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 74,
+   "alert": false
+  },
+  {
+   "id": "08315995f7290e31447f434788457dba651af9ccd206ca262ecf8180fcd6ffff",
+   "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
+   "snippet": null,
+   "url": "https://hashagent.pages.dev/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-14T12:57:02Z",
+   "imageURL": null,
+   "signal": 74,
    "alert": false
   },
   {
@@ -1955,24 +2362,7 @@
    "category": "tools",
    "publishedAt": "2026-08-13T04:53:41Z",
    "imageURL": null,
-   "signal": 77,
-   "alert": false
-  },
-  {
-   "id": "93af4f37b45128748cb0d777f43aed839e860cf4b257c82b401dad1f82843a40",
-   "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
-   "snippet": null,
-   "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T14:22:39Z",
-   "imageURL": null,
-   "signal": 77,
+   "signal": 74,
    "alert": false
   },
   {
@@ -1989,7 +2379,24 @@
    "category": "models",
    "publishedAt": "2026-08-14T14:05:00Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 73,
+   "alert": false
+  },
+  {
+   "id": "93af4f37b45128748cb0d777f43aed839e860cf4b257c82b401dad1f82843a40",
+   "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
+   "snippet": null,
+   "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-14T14:22:39Z",
+   "imageURL": null,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2006,7 +2413,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T23:53:47Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2023,28 +2430,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 76,
-   "alert": false
-  },
-  {
-   "id": "6f1aff3b3569adfc5f736898176bfbc51e61d919ab9e079ccb7032fc4c55f6da",
-   "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
-   "snippet": "Streaming platform says user-generated content \"may be used for future Gen AI model improvements.\"",
-   "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    },
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-12T21:00:30Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg",
-   "signal": 76,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2061,7 +2447,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T21:42:38Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2078,7 +2464,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T21:13:24Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2095,7 +2481,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T20:11:29Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2112,24 +2498,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T19:37:34Z",
    "imageURL": null,
-   "signal": 75,
-   "alert": false
-  },
-  {
-   "id": "f38d5471684be968773bc812c1f12234508cee75365852bde88acaee467aab31",
-   "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-   "snippet": null,
-   "url": "https://www.codewithbullet.com",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T08:14:30Z",
-   "imageURL": null,
-   "signal": 75,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2150,7 +2519,24 @@
    "category": "models",
    "publishedAt": "2026-08-11T17:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp",
-   "signal": 75,
+   "signal": 72,
+   "alert": false
+  },
+  {
+   "id": "f38d5471684be968773bc812c1f12234508cee75365852bde88acaee467aab31",
+   "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+   "snippet": null,
+   "url": "https://www.codewithbullet.com",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T08:14:30Z",
+   "imageURL": null,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2167,7 +2553,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:59:40Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2184,7 +2570,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:59:17Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2201,7 +2587,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:57:20Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2218,7 +2604,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:41:27Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2235,7 +2621,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:38:13Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2252,7 +2638,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:34:41Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2269,7 +2655,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:24:23Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2286,7 +2672,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T17:16:04Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2303,41 +2689,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T17:00:13Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-4-1152x648.jpg",
-   "signal": 73,
-   "alert": false
-  },
-  {
-   "id": "e6ff31bf972841a7ae1cfb1f4d8ccf4b04f9c0563add5c89392d3b50e81d1912",
-   "title": "Text AI watermarks will always be trivial to remove",
-   "snippet": null,
-   "url": "https://www.seangoedecke.com/text-ai-watermarks/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T15:07:10Z",
-   "imageURL": null,
-   "signal": 73,
-   "alert": false
-  },
-  {
-   "id": "e546c9507c4bdece8e78a9938c5519585e0b65f749ccceed110f32b1026fe6bd",
-   "title": "Bring your spreadsheet data to life with Sheets canvas",
-   "snippet": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
-   "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-   "sources": [
-    {
-     "name": "Google AI",
-     "domain": "blog.google"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T16:45:00Z",
-   "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
-   "signal": 73,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2354,7 +2706,24 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 70,
+   "alert": false
+  },
+  {
+   "id": "e546c9507c4bdece8e78a9938c5519585e0b65f749ccceed110f32b1026fe6bd",
+   "title": "Bring your spreadsheet data to life with Sheets canvas",
+   "snippet": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
+   "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+   "sources": [
+    {
+     "name": "Google AI",
+     "domain": "blog.google"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T16:45:00Z",
+   "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
+   "signal": 70,
    "alert": false
   },
   {
@@ -2371,7 +2740,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2388,7 +2757,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T16:02:10Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 69,
+   "alert": false
+  },
+  {
+   "id": "e6ff31bf972841a7ae1cfb1f4d8ccf4b04f9c0563add5c89392d3b50e81d1912",
+   "title": "Text AI watermarks will always be trivial to remove",
+   "snippet": null,
+   "url": "https://www.seangoedecke.com/text-ai-watermarks/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T15:07:10Z",
+   "imageURL": null,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2405,7 +2791,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T15:48:15Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2422,7 +2808,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T14:34:43Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2439,7 +2825,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T05:30:39Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!dQiQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d28d24c-21c5-4e67-a9e6-00b50421ddfe_2112x1214.png",
-   "signal": 72,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2456,24 +2842,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T14:10:31Z",
    "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
-   "id": "b751336a146d13c75715ed1266eea9d975406556b68b756ffb3763cee6af6864",
-   "title": "AI At Home Part 1: A Box Of Scraps",
-   "snippet": null,
-   "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T16:22:05Z",
-   "imageURL": null,
-   "signal": 71,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2490,7 +2859,24 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 68,
+   "alert": false
+  },
+  {
+   "id": "b751336a146d13c75715ed1266eea9d975406556b68b756ffb3763cee6af6864",
+   "title": "AI At Home Part 1: A Box Of Scraps",
+   "snippet": null,
+   "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T16:22:05Z",
+   "imageURL": null,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2507,7 +2893,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T11:00:00Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2524,7 +2910,7 @@
    "category": "tools",
    "publishedAt": "2026-08-12T07:51:20Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2541,24 +2927,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 70,
-   "alert": false
-  },
-  {
-   "id": "1f4b5a6f6647514e22fcbde02556308bafc5792ff4c863267ca243a259b2849a",
-   "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
-   "snippet": null,
-   "url": "https://arxiv.org/abs/2608.12700",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T16:57:14Z",
-   "imageURL": null,
-   "signal": 70,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2579,7 +2948,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2596,7 +2965,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2617,7 +2986,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:37:53Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2638,7 +3007,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T21:38:06Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2655,7 +3024,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T03:03:17Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 66,
+   "alert": false
+  },
+  {
+   "id": "1f4b5a6f6647514e22fcbde02556308bafc5792ff4c863267ca243a259b2849a",
+   "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
+   "snippet": null,
+   "url": "https://arxiv.org/abs/2608.12700",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-14T16:57:14Z",
+   "imageURL": null,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2672,7 +3058,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T19:19:49Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2689,7 +3075,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:59:35Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2706,7 +3092,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T23:59:23Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 65,
    "alert": false
   },
   {
@@ -2723,7 +3109,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:43:44Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 65,
    "alert": false
   },
   {
@@ -2740,7 +3126,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:40:39Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 65,
    "alert": false
   },
   {
@@ -2757,7 +3143,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:40:17Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 65,
    "alert": false
   },
   {
@@ -2774,7 +3160,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:36:49Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 65,
    "alert": false
   },
   {
@@ -2791,7 +3177,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:36:49Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2808,7 +3194,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:35:37Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2825,7 +3211,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:32:45Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2842,7 +3228,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T17:32:10Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/instagram-2026-wordmark.png",
-   "signal": 67,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2859,7 +3245,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:31:27Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2876,7 +3262,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:13:41Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2893,7 +3279,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:12:04Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2910,7 +3296,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:04:18Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2927,24 +3313,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T16:00:00Z",
    "imageURL": null,
-   "signal": 66,
-   "alert": false
-  },
-  {
-   "id": "8e77a85b47ddb894bb2602f18403a7ed30631cdaa53da09bd0dbc21a2635843a",
-   "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
-   "snippet": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
-   "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T15:30:52Z",
-   "imageURL": null,
-   "signal": 66,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2961,7 +3330,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T15:30:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2978,7 +3347,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T15:08:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 62,
    "alert": false
   },
   {
@@ -2995,7 +3364,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T19:51:30Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3016,7 +3385,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3033,7 +3402,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T13:00:33Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-13-blog-1920x1080-logo.jpg",
-   "signal": 65,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3050,7 +3419,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T17:45:20Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3067,24 +3436,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 64,
-   "alert": false
-  },
-  {
-   "id": "44f5ffd58af3459600364f528eebcbb65634a0807515a1c5ba0d8c1c842bf399",
-   "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
-   "snippet": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
-   "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-14T17:26:53Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
-   "signal": 64,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3101,7 +3453,24 @@
    "category": "research",
    "publishedAt": "2026-08-12T16:00:00Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 61,
+   "alert": false
+  },
+  {
+   "id": "44f5ffd58af3459600364f528eebcbb65634a0807515a1c5ba0d8c1c842bf399",
+   "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+   "snippet": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+   "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-14T17:26:53Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
+   "signal": 61,
    "alert": false
   },
   {
@@ -3118,7 +3487,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T11:10:18Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg",
-   "signal": 64,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3135,7 +3504,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T15:08:47Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3152,7 +3521,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T14:00:00Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/GlassdoorBestCEOs2026_16x9.png",
-   "signal": 63,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3169,7 +3538,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T13:46:28Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3186,7 +3555,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T13:42:48Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3203,7 +3572,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3220,7 +3589,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T07:11:08Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!nQZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPcJLMtagAAx07t.jpg",
-   "signal": 62,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3237,7 +3606,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T06:00:00Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3254,7 +3623,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T01:53:47Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!HIbH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2087221157787525120.jpg",
-   "signal": 62,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3271,7 +3640,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3288,7 +3657,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3305,7 +3674,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3322,7 +3691,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T22:02:25Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261896328-1152x648.jpg",
-   "signal": 61,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3339,7 +3708,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:43:21Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
-   "signal": 61,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3356,7 +3725,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T22:40:45Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 58,
+   "alert": false
+  },
+  {
+   "id": "6f1aff3b3569adfc5f736898176bfbc51e61d919ab9e079ccb7032fc4c55f6da",
+   "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
+   "snippet": "Streaming platform says user-generated content \"may be used for future Gen AI model improvements.\"",
+   "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-12T21:00:30Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg",
+   "signal": 58,
    "alert": false
   },
   {
@@ -3373,7 +3759,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T21:03:50Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3390,7 +3776,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3407,7 +3793,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T19:48:12Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg",
-   "signal": 60,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3424,7 +3810,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T18:29:41Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3441,7 +3827,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T16:14:36Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3458,7 +3844,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T16:14:33Z",
    "imageURL": null,
-   "signal": 59,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3475,7 +3861,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T16:00:00Z",
    "imageURL": null,
-   "signal": 59,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3492,7 +3878,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T15:59:22Z",
    "imageURL": null,
-   "signal": 59,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3509,7 +3895,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
-   "signal": 59,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3526,7 +3912,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T15:19:17Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-162426304-1152x648.jpg",
-   "signal": 59,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3543,7 +3929,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T14:01:59Z",
    "imageURL": "https://lh3.googleusercontent.com/8RcynTx1ujudyw8Fs05Pv8WJahe2FQ3z1Y7gNHm-xvOTJLdMp9hNDsIIoQbJsnav6evNLgY1iT9B9ercsyIn0U1N51pzScvSfe6IHk2SjDJx-MaVzQ=w528-h297-n-nu-rw-lo",
-   "signal": 58,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3560,7 +3946,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T14:00:51Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3577,7 +3963,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3594,7 +3980,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3611,7 +3997,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T13:00:05Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/image1.jpeg",
-   "signal": 58,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3628,7 +4014,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T13:01:16Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/815ecb78-309c-4ca3-9ceb-a3329100ae64_3182x1790.png",
-   "signal": 57,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3645,7 +4031,7 @@
    "category": "research",
    "publishedAt": "2026-08-09T00:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3662,7 +4048,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T10:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3679,7 +4065,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T05:16:41Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!k-nI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPWkSuDbkAExHc7.png",
-   "signal": 57,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3696,7 +4082,7 @@
    "category": "research",
    "publishedAt": "2026-08-07T00:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3713,7 +4099,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T20:45:52Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2267221283-1152x648.jpg",
-   "signal": 56,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3730,7 +4116,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:56:12Z",
    "imageURL": null,
-   "signal": 56,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3747,7 +4133,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-10T16:34:37Z",
    "imageURL": null,
-   "signal": 56,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3764,7 +4150,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T16:10:08Z",
    "imageURL": null,
-   "signal": 56,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3781,24 +4167,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T15:00:06Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/800vdc.jpg",
-   "signal": 56,
-   "alert": false
-  },
-  {
-   "id": "077b61a0fed02bcc2a083d299a0c55e24311ad526ecaa535f96d02762c586c8f",
-   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-   "snippet": null,
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-11T13:37:10Z",
-   "imageURL": null,
-   "signal": 55,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3815,7 +4184,7 @@
    "category": "research",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3832,7 +4201,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-10T02:05:16Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3849,7 +4218,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3866,7 +4235,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-09T22:48:05Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3883,7 +4252,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3904,7 +4273,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T19:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3921,7 +4290,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T20:14:39Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3938,7 +4307,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T22:13:03Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg",
-   "signal": 54,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3955,7 +4324,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T19:28:39Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 51,
    "alert": false
   },
   {
@@ -3972,7 +4341,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 51,
    "alert": false
   },
   {
@@ -3989,7 +4358,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T17:07:13Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 51,
    "alert": false
   },
   {
@@ -4006,7 +4375,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T14:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 51,
    "alert": false
   },
   {
@@ -4023,41 +4392,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T13:02:42Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!ccYc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4468909c-7481-4b27-9566-6fc838b95743_1074x731.jpeg",
-   "signal": 53,
-   "alert": false
-  },
-  {
-   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
-   "title": "Anthropic could be worth $2 trillion when it goes public",
-   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
-   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T13:58:56Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
-   "signal": 53,
-   "alert": false
-  },
-  {
-   "id": "1e076a5ca6b4bdc0e280dce57f982b805cf3c21702d9acb413ce4e5bbb76c123",
-   "title": "Peer review is overwhelmed—can it survive in the AI era?",
-   "snippet": "As research and AI-assisted papers surge, volunteer reviewers struggle to keep up.",
-   "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-10T11:00:47Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg",
-   "signal": 52,
+   "signal": 51,
    "alert": false
   },
   {
@@ -4074,7 +4409,41 @@
    "category": "techniques",
    "publishedAt": "2026-08-08T22:36:03Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 50,
+   "alert": false
+  },
+  {
+   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
+   "title": "Anthropic could be worth $2 trillion when it goes public",
+   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
+   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T13:58:56Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
+   "signal": 50,
+   "alert": false
+  },
+  {
+   "id": "1e076a5ca6b4bdc0e280dce57f982b805cf3c21702d9acb413ce4e5bbb76c123",
+   "title": "Peer review is overwhelmed—can it survive in the AI era?",
+   "snippet": "As research and AI-assisted papers surge, volunteer reviewers struggle to keep up.",
+   "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-10T11:00:47Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg",
+   "signal": 50,
    "alert": false
   },
   {
@@ -4091,7 +4460,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-10T10:05:36Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4108,7 +4477,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T10:00:00Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4125,7 +4494,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4142,24 +4511,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 51,
-   "alert": false
-  },
-  {
-   "id": "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669",
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "snippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T09:00:00Z",
-   "imageURL": null,
-   "signal": 51,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4176,24 +4528,24 @@
    "category": "models",
    "publishedAt": "2026-08-08T11:05:50Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2023/12/hurricane-1152x648.jpg",
-   "signal": 51,
+   "signal": 49,
    "alert": false
   },
   {
-   "id": "3813ab0c787dcbe8829b87bf52927950675c3bcd3c1b0f8d5030c15420138e79",
-   "title": "How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review",
-   "snippet": "As large language models increasingly participate in scientific evaluation, we investigate a potential form of reward hacking: how rhetorical choices shape AI-review judgments when reported scientific content is preserved and how these effects vary across evaluation conditions. We construct a controlled corpus of 4,200 full-paper manuscripts derived from 120 anonymized ICLR 2026 submissions. Two LLM rewriters transform six rhetorical dimensions in opposing directions, and five LLM reviewers evaluate the resulting manuscripts under standard and strict protocols. We also test joint, recursive, and reviewer-guided rewriting. Our results show that rhetorical sensitivity is structured rather than uniform. Evidence framing and novelty stance produce the largest positive-negative contrasts in overall assessment, with scope framing forming a weaker second tier; the remaining dimensions have smaller or less stable effects. This hierarchy persists across human-assessed quality levels, but score movement depends strongly on the AI reviewer's original score: lower scores tend to rise, higher scores tend to fall, and directional contrasts are clearest in the middle ranges. More elaborate workflows do not reliably yield larger gains. Joint rewriting is strongly rewriter-dependent, reviewer guidance does not consistently outperform an unguided second pass, and repeated rewriting yields diminishing, configuration-dependent returns. Across conditions, the rewriter primarily determines the separation between opposing variants, whereas the reviewer determines the magnitude and sign of their score effects. Strict review lowers mean OA by 1.36 points without consistently changing rhetorical sensitivity. These findings identify when rhetorical presentation influences AI scientific review and motivate evaluation systems robust to content-preserving variation in scientific writing.",
-   "url": "https://huggingface.co/papers/2608.08975",
+   "id": "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669",
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "snippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
    "sources": [
     {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
+     "name": "OpenAI",
+     "domain": "openai.com"
     }
    ],
-   "category": "research",
-   "publishedAt": "2026-08-10T00:00:00Z",
+   "category": "models",
+   "publishedAt": "2026-08-13T09:00:00Z",
    "imageURL": null,
-   "signal": 51,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4210,7 +4562,24 @@
    "category": "models",
    "publishedAt": "2026-08-08T10:24:54Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/5559253-Firebird-AI-Factory-Armenia-social-1920x1080-1.jpg",
-   "signal": 51,
+   "signal": 49,
+   "alert": false
+  },
+  {
+   "id": "3813ab0c787dcbe8829b87bf52927950675c3bcd3c1b0f8d5030c15420138e79",
+   "title": "How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review",
+   "snippet": "As large language models increasingly participate in scientific evaluation, we investigate a potential form of reward hacking: how rhetorical choices shape AI-review judgments when reported scientific content is preserved and how these effects vary across evaluation conditions. We construct a controlled corpus of 4,200 full-paper manuscripts derived from 120 anonymized ICLR 2026 submissions. Two LLM rewriters transform six rhetorical dimensions in opposing directions, and five LLM reviewers evaluate the resulting manuscripts under standard and strict protocols. We also test joint, recursive, and reviewer-guided rewriting. Our results show that rhetorical sensitivity is structured rather than uniform. Evidence framing and novelty stance produce the largest positive-negative contrasts in overall assessment, with scope framing forming a weaker second tier; the remaining dimensions have smaller or less stable effects. This hierarchy persists across human-assessed quality levels, but score movement depends strongly on the AI reviewer's original score: lower scores tend to rise, higher scores tend to fall, and directional contrasts are clearest in the middle ranges. More elaborate workflows do not reliably yield larger gains. Joint rewriting is strongly rewriter-dependent, reviewer guidance does not consistently outperform an unguided second pass, and repeated rewriting yields diminishing, configuration-dependent returns. Across conditions, the rewriter primarily determines the separation between opposing variants, whereas the reviewer determines the magnitude and sign of their score effects. Strict review lowers mean OA by 1.36 points without consistently changing rhetorical sensitivity. These findings identify when rhetorical presentation influences AI scientific review and motivate evaluation systems robust to content-preserving variation in scientific writing.",
+   "url": "https://huggingface.co/papers/2608.08975",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4227,7 +4596,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4244,24 +4613,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
-   "signal": 50,
-   "alert": false
-  },
-  {
-   "id": "00169e9c4d8fbb2c66aad8e7329060b46fd5afe0ef64ed87e3502c706d26144a",
-   "title": "TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement",
-   "snippet": "Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disruptions with substantial operational, economic, and safety costs. Such events are rare in historical records, leaving insufficient training signal for machine learning models. Synthetic data augmentation offers a principled solution, but conventional generative models under-represent distributional tails and give no guarantee against operationally infeasible instances, such as a short air time paired with a long flight distance. No existing approach addresses both limitations for mixed-type tabular records. We propose TailBooster, a dual-layer generative framework combining generative modelling with two anomaly detection layers. A statistical layer extracts extremes via the interquartile range, supplying tail-concentrated training signal to dedicated generative models, here a Tabular Variational Autoencoder. A deep learning layer then applies autoencoder-based cleaning, discarding synthetic records that violate the operational envelope learned from historical data. The framework was evaluated on US flight records across five dimensions: diversity, statistical similarity, fidelity, operational validity, and utility, the latter two being the primary improvement targets. Data-driven cleaning markedly improved operational validity, while targeted augmentation enhanced utility for extreme-event prediction. Across six regression algorithms, training on the framework's records reduced Mean Absolute Error by 47-49% on extreme air time and 29-57% on extreme arrival delay prediction relative to conventional synthetic data, with comparable gains when real records were enriched with synthetic extremes. Being fully data-driven and model-agnostic, TailBooster extends to domains where extreme-event prediction is critical and domain-specific rules are unavailable.",
-   "url": "https://huggingface.co/papers/2608.11951",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-12T00:00:00Z",
-   "imageURL": null,
-   "signal": 50,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4278,7 +4630,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-09T22:05:00Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 48,
+   "alert": false
+  },
+  {
+   "id": "00169e9c4d8fbb2c66aad8e7329060b46fd5afe0ef64ed87e3502c706d26144a",
+   "title": "TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement",
+   "snippet": "Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disruptions with substantial operational, economic, and safety costs. Such events are rare in historical records, leaving insufficient training signal for machine learning models. Synthetic data augmentation offers a principled solution, but conventional generative models under-represent distributional tails and give no guarantee against operationally infeasible instances, such as a short air time paired with a long flight distance. No existing approach addresses both limitations for mixed-type tabular records. We propose TailBooster, a dual-layer generative framework combining generative modelling with two anomaly detection layers. A statistical layer extracts extremes via the interquartile range, supplying tail-concentrated training signal to dedicated generative models, here a Tabular Variational Autoencoder. A deep learning layer then applies autoencoder-based cleaning, discarding synthetic records that violate the operational envelope learned from historical data. The framework was evaluated on US flight records across five dimensions: diversity, statistical similarity, fidelity, operational validity, and utility, the latter two being the primary improvement targets. Data-driven cleaning markedly improved operational validity, while targeted augmentation enhanced utility for extreme-event prediction. Across six regression algorithms, training on the framework's records reduced Mean Absolute Error by 47-49% on extreme air time and 29-57% on extreme arrival delay prediction relative to conventional synthetic data, with comparable gains when real records were enriched with synthetic extremes. Being fully data-driven and model-agnostic, TailBooster extends to domains where extreme-event prediction is critical and domain-specific rules are unavailable.",
+   "url": "https://huggingface.co/papers/2608.11951",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-12T00:00:00Z",
+   "imageURL": null,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4295,7 +4664,7 @@
    "category": "research",
    "publishedAt": "2026-08-09T14:57:11Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/61d577fe-7a20-4a72-8158-79ddbd2ec97e_3182x1790.png",
-   "signal": 50,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4312,7 +4681,7 @@
    "category": "models",
    "publishedAt": "2026-08-07T17:36:22Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/openai-logo-1152x648-1784833184.jpg",
-   "signal": 49,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4329,7 +4698,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T16:21:00Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4346,7 +4715,7 @@
    "category": "models",
    "publishedAt": "2026-08-07T15:20:00Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4363,7 +4732,7 @@
    "category": "models",
    "publishedAt": "2026-08-07T13:49:37Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mentalhealthaichat-1152x648.jpg",
-   "signal": 49,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4380,7 +4749,7 @@
    "category": "models",
    "publishedAt": "2026-08-07T09:00:00Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4397,7 +4766,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T05:13:46Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!qA0L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3b60b0e-d47f-4723-bb40-be9594e9bab4_786x754.png",
-   "signal": 48,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4414,7 +4783,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T20:35:13Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4431,7 +4800,7 @@
    "category": "research",
    "publishedAt": "2026-08-05T00:00:00Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4448,7 +4817,7 @@
    "category": "research",
    "publishedAt": "2026-08-07T00:00:00Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4465,7 +4834,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-08T14:06:41Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4482,7 +4851,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T13:00:00Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/nv-ov-ito-social-1920x1080-1.jpg",
-   "signal": 47,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4499,7 +4868,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4516,7 +4885,7 @@
    "category": "research",
    "publishedAt": "2026-07-31T00:00:00Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4533,7 +4902,7 @@
    "category": "research",
    "publishedAt": "2026-08-09T00:00:00Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4550,7 +4919,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4567,7 +4936,7 @@
    "category": "research",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4584,7 +4953,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-08T01:12:07Z",
    "imageURL": "https://substackcdn.com/image/youtube/w_728,c_limit/87DyyMV0kCY",
-   "signal": 46,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4601,7 +4970,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-08T00:10:40Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4618,7 +4987,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4635,7 +5004,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T19:18:09Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4652,7 +5021,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T16:18:51Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4669,7 +5038,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-10T23:56:03Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4686,7 +5055,7 @@
    "category": "models",
    "publishedAt": "2026-08-07T13:29:22Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/bytedance-1152x648.jpg",
-   "signal": 45,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4703,7 +5072,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T00:38:21Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/jhh-support-blog-visual-logo-lock-up-3x4-1.png",
-   "signal": 45,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4720,7 +5089,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T23:48:35Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4737,7 +5106,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-05T01:21:47Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Gpou!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNw6xyYaUAA_BVO.jpg",
-   "signal": 44,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4754,7 +5123,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T14:30:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp",
-   "signal": 44,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4771,7 +5140,7 @@
    "category": "research",
    "publishedAt": "2026-08-07T00:00:00Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4788,7 +5157,7 @@
    "category": "research",
    "publishedAt": "2026-08-07T00:00:00Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4805,7 +5174,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T16:00:56Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/regionalhubnsf.webp",
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4822,7 +5191,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:47Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-press-osaia-5518050-1280x680-r2.png",
-   "signal": 43,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4839,7 +5208,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T20:17:36Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/singing_robot_hero-1152x648.jpg",
-   "signal": 43,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4856,7 +5225,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T20:03:44Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2025/01/amodei_header_1-1152x648.jpg",
-   "signal": 43,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4873,7 +5242,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T16:09:06Z",
    "imageURL": null,
-   "signal": 43,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4890,7 +5259,7 @@
    "category": "research",
    "publishedAt": "2026-08-06T15:06:15Z",
    "imageURL": "https://lh3.googleusercontent.com/Mj8GyJnsjROScr1hYl7PL_QCAaLGukliPCTMUlpKiQtZuVkmh2ouydYh80ibejg9vWgKkg2dYPx2jCJOOohKid5P-dLzwvIyB4-fZjWXYIx0ImZd=w528-h297-n-nu-rw-lo",
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4907,7 +5276,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T15:02:06Z",
    "imageURL": null,
-   "signal": 42,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4924,7 +5293,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T13:00:11Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-6-nv-blog-1280x680-logo.jpg",
-   "signal": 42,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4941,7 +5310,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 42,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4958,7 +5327,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T10:00:00Z",
    "imageURL": null,
-   "signal": 42,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4975,7 +5344,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-03T21:44:03Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4992,7 +5361,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T10:00:00Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5009,7 +5378,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5026,7 +5395,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T06:00:00Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5043,7 +5412,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T04:34:11Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!1S7v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57c9d273-aa50-4bc7-a7c4-caaf9b4952c2_1540x1624.png",
-   "signal": 41,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5060,7 +5429,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T16:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5077,7 +5446,7 @@
    "category": "models",
    "publishedAt": "2026-08-03T15:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp",
-   "signal": 40,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5094,7 +5463,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5111,7 +5480,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5128,7 +5497,7 @@
    "category": "research",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5145,7 +5514,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-05T18:08:46Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5162,7 +5531,7 @@
    "category": "models",
    "publishedAt": "2026-08-03T00:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5179,7 +5548,7 @@
    "category": "research",
    "publishedAt": "2026-08-07T00:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5196,7 +5565,7 @@
    "category": "research",
    "publishedAt": "2026-08-05T00:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5213,7 +5582,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T17:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5230,7 +5599,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T15:00:49Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/alpamayo-launch-kv-blog-1920x1080-1.jpg",
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5247,7 +5616,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T15:00:47Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/ai-storage-fms-1920x1080-1.jpg",
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5264,7 +5633,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T12:32:20Z",
    "imageURL": null,
-   "signal": 38,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5281,7 +5650,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
-   "signal": 38,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5298,7 +5667,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T00:00:00Z",
    "imageURL": null,
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5315,24 +5684,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T16:28:07Z",
    "imageURL": null,
-   "signal": 37,
-   "alert": false
-  },
-  {
-   "id": "ce255845e5529cebfc2d6cdeadba913e920247b6dc71639665cc70e6ac5cf6a1",
-   "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
-   "snippet": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, update state, and emit the next effect. We ask when this control path exposes enough concurrent work for GPU execution, and what changes when a GPU-computed route decision remains on device. We formalize the ready-cohort boundary using fixed-partition share F, exact offline share P*, local upper bound U, and online achieved share A. Under zero service time, unlimited capacity, and equal relative launch deadlines, a specialized dynamic program computes P* exactly. In a stationary Poisson replay of one pinned 851-session public trace panel, the primary condition at 100,000 target active sessions, K=256, and a 50 ms launch deadline gives F=30.19%, P*=43.00%, and U=45.85%. Exact packing recovers 81.83% of the opportunity lost at fixed window boundaries. The outcome-derived route key is a conditioning proxy, not proof of executable identity. A separate mechanism study keeps a GPU-computed binary decision on device instead of returning four bytes to the host and redispatching. Across four named GPU placements, the device-resident path is faster in all 36 configurations; within-placement row-median ratios range from 1.19x to 2.39x. Across both admissible mechanisms, all 14,557,440 tested batched invocations match a separately implemented host oracle. A fixed nested device graph that removes no host decision is slower in all 60 configurations across five placements. Together, the studies establish two measurable gates for GPU agent control: deadline-feasible cohort supply and observation placement. A joined finite online runtime is required to measure A, CPU displacement, and service-level benefit.",
-   "url": "https://huggingface.co/papers/2608.12123",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-12T00:00:00Z",
-   "imageURL": null,
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5349,7 +5701,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T14:03:08Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/dff5e29d-7c81-4f81-a64b-10d9b9bbecbc_2856x1577.png",
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5366,7 +5718,24 @@
    "category": "research",
    "publishedAt": "2026-08-03T13:31:22Z",
    "imageURL": null,
-   "signal": 37,
+   "signal": 35,
+   "alert": false
+  },
+  {
+   "id": "ce255845e5529cebfc2d6cdeadba913e920247b6dc71639665cc70e6ac5cf6a1",
+   "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
+   "snippet": "LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, update state, and emit the next effect. We ask when this control path exposes enough concurrent work for GPU execution, and what changes when a GPU-computed route decision remains on device. We formalize the ready-cohort boundary using fixed-partition share F, exact offline share P*, local upper bound U, and online achieved share A. Under zero service time, unlimited capacity, and equal relative launch deadlines, a specialized dynamic program computes P* exactly. In a stationary Poisson replay of one pinned 851-session public trace panel, the primary condition at 100,000 target active sessions, K=256, and a 50 ms launch deadline gives F=30.19%, P*=43.00%, and U=45.85%. Exact packing recovers 81.83% of the opportunity lost at fixed window boundaries. The outcome-derived route key is a conditioning proxy, not proof of executable identity. A separate mechanism study keeps a GPU-computed binary decision on device instead of returning four bytes to the host and redispatching. Across four named GPU placements, the device-resident path is faster in all 36 configurations; within-placement row-median ratios range from 1.19x to 2.39x. Across both admissible mechanisms, all 14,557,440 tested batched invocations match a separately implemented host oracle. A fixed nested device graph that removes no host decision is slower in all 60 configurations across five placements. Together, the studies establish two measurable gates for GPU agent control: deadline-feasible cohort supply and observation placement. A joined finite online runtime is required to measure A, CPU displacement, and service-level benefit.",
+   "url": "https://huggingface.co/papers/2608.12123",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-12T00:00:00Z",
+   "imageURL": null,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5383,7 +5752,7 @@
    "category": "models",
    "publishedAt": "2026-08-03T07:00:00Z",
    "imageURL": null,
-   "signal": 36,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5400,7 +5769,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T00:00:00Z",
    "imageURL": null,
-   "signal": 36,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5417,7 +5786,7 @@
    "category": "research",
    "publishedAt": "2026-07-30T16:00:00Z",
    "imageURL": null,
-   "signal": 36,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5434,7 +5803,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-30T11:17:55Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!180z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F33011df5-c14f-4770-9b91-efa55618b6eb_1672x941.png",
-   "signal": 36,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5451,7 +5820,7 @@
    "category": "research",
    "publishedAt": "2026-08-02T13:01:40Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!RSM6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a71a4f9-5ac5-447e-82ff-899915627512_2048x1152.jpeg",
-   "signal": 36,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5468,7 +5837,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T16:22:50Z",
    "imageURL": null,
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5485,7 +5854,7 @@
    "category": "research",
    "publishedAt": "2026-07-30T00:00:00Z",
    "imageURL": null,
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5502,7 +5871,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-29T23:32:12Z",
    "imageURL": "https://substackcdn.com/image/youtube/w_728,c_limit/L1hB6Nz16Fw",
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5519,24 +5888,7 @@
    "category": "research",
    "publishedAt": "2026-07-29T16:02:10Z",
    "imageURL": null,
-   "signal": 35,
-   "alert": false
-  },
-  {
-   "id": "77ffa887e18e21f2c333dedd50e129e99fdec857c1f9cf8535901971d6cb87af",
-   "title": "RibAssist 3D: Biplanar Rib-Fracture Detection, Addressing, and Selective 3D Localization from CT-Derived Projections",
-   "snippet": "Rib fractures are common and time-consuming to localize on computed tomography (CT). We ask whether fractures detected independently in two orthogonal CT-derived projections (anteroposterior and lateral) can be paired across views and triangulated into reliable 3D points at a controlled rate of false outputs, and we answer it with a staged diagnostic study. The projection geometry is exact, and given correct correspondence, localization is accurate (median 4.0 mm, 88% within 10 mm, 93.6% rib-exact). On a sealed 55-case cohort, a large share of fractures is in principle recoverable (61.1% dual-view availability, and a correct pair present in the candidate graph for 58.4% of fractures), yet the binding limitation is neither geometry nor localization but confidence-limited cross-view correspondence. A controlled detector-by-correspondence factorial attributes the operational gain to lateral-detector quality rather than the tested matching methods; retraining the lateral detector produces the first nonzero controlled-budget reconstructions. Under a deliberately conservative commitment policy, a pre-specified sealed pass promotes 15 of 601 fractures to correct 3D localizations at 0.436 false points per case (2.50% end-to-end commitment yield), and committed points are accurate (median 1.49 mm, 93% rib-exact). The low yield is a consequence of confidence-gated abstention, not of geometry or detection: the study establishes a reproducible framework for selective 3D localization and identifies cross-view correspondence as the dominant operational bottleneck.",
-   "url": "https://huggingface.co/papers/2608.06914",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-10T00:00:00Z",
-   "imageURL": null,
-   "signal": 35,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5553,7 +5905,7 @@
    "category": "models",
    "publishedAt": "2026-07-28T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp",
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5570,7 +5922,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-01T01:38:09Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!1adH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOiugSLbQAAck-3.jpg",
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5587,7 +5939,7 @@
    "category": "research",
    "publishedAt": "2026-07-31T00:00:00Z",
    "imageURL": null,
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5604,7 +5956,7 @@
    "category": "research",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5621,7 +5973,24 @@
    "category": "research",
    "publishedAt": "2026-07-27T13:30:53Z",
    "imageURL": null,
-   "signal": 34,
+   "signal": 32,
+   "alert": false
+  },
+  {
+   "id": "77ffa887e18e21f2c333dedd50e129e99fdec857c1f9cf8535901971d6cb87af",
+   "title": "RibAssist 3D: Biplanar Rib-Fracture Detection, Addressing, and Selective 3D Localization from CT-Derived Projections",
+   "snippet": "Rib fractures are common and time-consuming to localize on computed tomography (CT). We ask whether fractures detected independently in two orthogonal CT-derived projections (anteroposterior and lateral) can be paired across views and triangulated into reliable 3D points at a controlled rate of false outputs, and we answer it with a staged diagnostic study. The projection geometry is exact, and given correct correspondence, localization is accurate (median 4.0 mm, 88% within 10 mm, 93.6% rib-exact). On a sealed 55-case cohort, a large share of fractures is in principle recoverable (61.1% dual-view availability, and a correct pair present in the candidate graph for 58.4% of fractures), yet the binding limitation is neither geometry nor localization but confidence-limited cross-view correspondence. A controlled detector-by-correspondence factorial attributes the operational gain to lateral-detector quality rather than the tested matching methods; retraining the lateral detector produces the first nonzero controlled-budget reconstructions. Under a deliberately conservative commitment policy, a pre-specified sealed pass promotes 15 of 601 fractures to correct 3D localizations at 0.436 false points per case (2.50% end-to-end commitment yield), and committed points are accurate (median 1.49 mm, 93% rib-exact). The low yield is a consequence of confidence-gated abstention, not of geometry or detection: the study establishes a reproducible framework for selective 3D localization and identifies cross-view correspondence as the dominant operational bottleneck.",
+   "url": "https://huggingface.co/papers/2608.06914",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
+   "signal": 32,
    "alert": false
   },
   {
@@ -5638,7 +6007,7 @@
    "category": "models",
    "publishedAt": "2026-07-27T09:00:07Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/07/osaia-logo-garden_press-kit_1920x1080-1.png",
-   "signal": 33,
+   "signal": 32,
    "alert": false
   },
   {
@@ -5655,7 +6024,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-31T04:40:54Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!gT87!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOfg3rSWsAACTkR.png",
-   "signal": 33,
+   "signal": 32,
    "alert": false
   },
   {
@@ -5672,7 +6041,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-27T00:00:00Z",
    "imageURL": null,
-   "signal": 33,
+   "signal": 32,
    "alert": false
   },
   {
@@ -5689,7 +6058,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-30T15:09:09Z",
    "imageURL": null,
-   "signal": 33,
+   "signal": 31,
    "alert": false
   },
   {
@@ -5706,7 +6075,7 @@
    "category": "models",
    "publishedAt": "2026-07-30T13:00:20Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/07/gfn-thursday-7-30-bts-nv-blog-1280x680-logo.jpg",
-   "signal": 33,
+   "signal": 31,
    "alert": false
   },
   {
@@ -5723,7 +6092,7 @@
    "category": "models",
    "publishedAt": "2026-08-05T13:00:47Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/07/made-in-america-still-1920x1080-1.jpg",
-   "signal": 32,
+   "signal": 31,
    "alert": false
   },
   {
@@ -5740,7 +6109,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-29T16:33:51Z",
    "imageURL": null,
-   "signal": 32,
+   "signal": 31,
    "alert": false
   },
   {
@@ -5757,7 +6126,7 @@
    "category": "research",
    "publishedAt": "2026-07-29T09:00:00Z",
    "imageURL": null,
-   "signal": 32,
+   "signal": 31,
    "alert": false
   },
   {
@@ -5774,7 +6143,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-04T18:20:14Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Lavj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f4e59a2-820f-4225-abfd-6720ef85df8e_1315x1196.png",
-   "signal": 32,
+   "signal": 30,
    "alert": false
   },
   {
@@ -5791,7 +6160,7 @@
    "category": "models",
    "publishedAt": "2026-07-28T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp",
-   "signal": 32,
+   "signal": 30,
    "alert": false
   },
   {
@@ -5808,7 +6177,7 @@
    "category": "models",
    "publishedAt": "2026-07-28T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp",
-   "signal": 31,
+   "signal": 30,
    "alert": false
   },
   {
@@ -5825,7 +6194,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-23T00:00:00Z",
    "imageURL": null,
-   "signal": 31,
+   "signal": 30,
    "alert": false
   },
   {
@@ -5842,7 +6211,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-27T09:32:20Z",
    "imageURL": null,
-   "signal": 31,
+   "signal": 30,
    "alert": false
   },
   {
@@ -5859,7 +6228,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-23T16:53:37Z",
    "imageURL": null,
-   "signal": 31,
+   "signal": 29,
    "alert": false
   },
   {
@@ -5876,7 +6245,7 @@
    "category": "models",
    "publishedAt": "2026-08-03T22:00:00Z",
    "imageURL": null,
-   "signal": 31,
+   "signal": 29,
    "alert": false
   },
   {
@@ -5893,7 +6262,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-22T17:43:52Z",
    "imageURL": null,
-   "signal": 30,
+   "signal": 29,
    "alert": false
   },
   {
@@ -5910,7 +6279,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-22T16:36:53Z",
    "imageURL": null,
-   "signal": 30,
+   "signal": 29,
    "alert": false
   },
   {
@@ -5927,7 +6296,7 @@
    "category": "research",
    "publishedAt": "2026-07-22T13:38:54Z",
    "imageURL": null,
-   "signal": 30,
+   "signal": 29,
    "alert": false
   },
   {
@@ -5944,7 +6313,7 @@
    "category": "models",
    "publishedAt": "2026-07-22T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp",
-   "signal": 30,
+   "signal": 29,
    "alert": false
   },
   {
@@ -5961,7 +6330,7 @@
    "category": "research",
    "publishedAt": "2026-08-07T00:00:00Z",
    "imageURL": null,
-   "signal": 30,
+   "signal": 28,
    "alert": false
   },
   {
@@ -5978,7 +6347,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-21T00:00:00Z",
    "imageURL": null,
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -5995,7 +6364,7 @@
    "category": "research",
    "publishedAt": "2026-07-20T15:48:28Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/b7967fef-8d08-4180-a3fd-8c2239bc9619_3182x1790.png",
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -6012,7 +6381,7 @@
    "category": "research",
    "publishedAt": "2026-07-13T12:37:28Z",
    "imageURL": "https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w528-h297-n-nu-rw-lo",
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -6029,7 +6398,7 @@
    "category": "research",
    "publishedAt": "2026-07-12T16:47:42Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/2e40ce14-a532-4db6-a855-caee778250f7_3182x1790.png",
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -6050,7 +6419,7 @@
    "category": "research",
    "publishedAt": "2026-07-22T14:09:04Z",
    "imageURL": null,
-   "signal": 29,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6067,7 +6436,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-18T11:16:09Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png",
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6084,7 +6453,7 @@
    "category": "research",
    "publishedAt": "2026-07-09T16:46:22Z",
    "imageURL": null,
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6101,7 +6470,7 @@
    "category": "models",
    "publishedAt": "2026-07-16T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp",
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6118,7 +6487,7 @@
    "category": "models",
    "publishedAt": "2026-07-16T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp",
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6135,7 +6504,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-16T11:49:48Z",
    "imageURL": null,
-   "signal": 28,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6152,7 +6521,7 @@
    "category": "research",
    "publishedAt": "2026-07-16T09:30:42Z",
    "imageURL": "https://lh3.googleusercontent.com/ZRyQg91pjea8kXXaGSlnZIJF90-VwnKHSBxo22e2RedCvCCszsurR8W9NHw80e1V6HtWXccbU1MI27Rtjjf963rD673XgkWK7cZe_1ekfruPgdHHVEc=w528-h297-n-nu-rw-lo",
-   "signal": 27,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6169,7 +6538,7 @@
    "category": "research",
    "publishedAt": "2026-07-08T16:00:00Z",
    "imageURL": null,
-   "signal": 27,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6186,7 +6555,7 @@
    "category": "research",
    "publishedAt": "2026-07-19T00:00:00Z",
    "imageURL": null,
-   "signal": 27,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6203,7 +6572,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-15T17:39:02Z",
    "imageURL": null,
-   "signal": 27,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6220,7 +6589,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-15T17:27:01Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 25,
    "alert": false
   },
   {
@@ -6237,7 +6606,7 @@
    "category": "research",
    "publishedAt": "2026-07-07T09:00:00Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 25,
    "alert": false
   },
   {
@@ -6254,7 +6623,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-15T00:00:00Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 25,
    "alert": false
   },
   {
@@ -6271,7 +6640,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-15T00:00:00Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 25,
    "alert": false
   },
   {
@@ -6288,7 +6657,7 @@
    "category": "models",
    "publishedAt": "2026-07-14T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp",
-   "signal": 26,
+   "signal": 25,
    "alert": false
   },
   {
@@ -6305,7 +6674,7 @@
    "category": "research",
    "publishedAt": "2026-07-13T16:00:00Z",
    "imageURL": null,
-   "signal": 25,
+   "signal": 24,
    "alert": false
   },
   {
@@ -6322,7 +6691,7 @@
    "category": "research",
    "publishedAt": "2026-07-13T00:00:00Z",
    "imageURL": null,
-   "signal": 25,
+   "signal": 24,
    "alert": false
   },
   {
@@ -6339,7 +6708,7 @@
    "category": "models",
    "publishedAt": "2026-07-28T15:00:19Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/07/SarahGuo_Jetson_FeaturedImage.png",
-   "signal": 25,
+   "signal": 24,
    "alert": false
   },
   {
@@ -6356,7 +6725,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-10T12:40:15Z",
    "imageURL": null,
-   "signal": 25,
+   "signal": 24,
    "alert": false
   },
   {
@@ -6373,7 +6742,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-10T00:00:00Z",
    "imageURL": null,
-   "signal": 25,
+   "signal": 24,
    "alert": false
   },
   {
@@ -6390,7 +6759,7 @@
    "category": "research",
    "publishedAt": "2026-06-30T16:50:02Z",
    "imageURL": null,
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -6407,7 +6776,7 @@
    "category": "research",
    "publishedAt": "2026-06-29T21:14:22Z",
    "imageURL": null,
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -6424,7 +6793,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-08T17:53:47Z",
    "imageURL": null,
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -6441,7 +6810,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-08T00:00:00Z",
    "imageURL": null,
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -6458,7 +6827,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-07T15:20:06Z",
    "imageURL": null,
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -6475,7 +6844,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-27T11:21:58Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png",
-   "signal": 23,
+   "signal": 22,
    "alert": false
   },
   {
@@ -6492,7 +6861,7 @@
    "category": "research",
    "publishedAt": "2026-07-06T12:31:05Z",
    "imageURL": null,
-   "signal": 23,
+   "signal": 22,
    "alert": false
   },
   {
@@ -6509,7 +6878,7 @@
    "category": "models",
    "publishedAt": "2026-06-25T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp",
-   "signal": 23,
+   "signal": 22,
    "alert": false
   },
   {
@@ -6526,7 +6895,7 @@
    "category": "research",
    "publishedAt": "2026-06-22T14:52:45Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/267cdc82-6fbc-4f68-bcba-160091396dfd_3182x1790.png",
-   "signal": 23,
+   "signal": 22,
    "alert": false
   },
   {
@@ -6543,7 +6912,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-02T16:27:26Z",
    "imageURL": null,
-   "signal": 23,
+   "signal": 22,
    "alert": false
   },
   {
@@ -6560,7 +6929,7 @@
    "category": "models",
    "publishedAt": "2026-07-01T18:15:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp",
-   "signal": 22,
+   "signal": 21,
    "alert": false
   },
   {
@@ -6577,7 +6946,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-01T16:33:28Z",
    "imageURL": null,
-   "signal": 22,
+   "signal": 21,
    "alert": false
   },
   {
@@ -6594,7 +6963,7 @@
    "category": "models",
    "publishedAt": "2026-07-01T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp",
-   "signal": 22,
+   "signal": 21,
    "alert": false
   },
   {
@@ -6611,7 +6980,7 @@
    "category": "research",
    "publishedAt": "2026-07-01T09:00:00Z",
    "imageURL": null,
-   "signal": 22,
+   "signal": 21,
    "alert": false
   },
   {
@@ -6628,7 +6997,7 @@
    "category": "research",
    "publishedAt": "2026-06-19T13:02:47Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/2cf763f4-5f1e-47ec-b6e1-b14a69443d00_3182x1790.png",
-   "signal": 22,
+   "signal": 21,
    "alert": false
   },
   {
@@ -6662,7 +7031,7 @@
    "category": "research",
    "publishedAt": "2026-06-29T13:03:27Z",
    "imageURL": null,
-   "signal": 21,
+   "signal": 20,
    "alert": false
   },
   {
@@ -6683,7 +7052,7 @@
    "category": "research",
    "publishedAt": "2026-05-08T09:00:00Z",
    "imageURL": null,
-   "signal": 21,
+   "signal": 20,
    "alert": false
   },
   {
@@ -6700,7 +7069,7 @@
    "category": "research",
    "publishedAt": "2026-06-16T15:46:31Z",
    "imageURL": "https://lh3.googleusercontent.com/X6w_t9eA7TLFiq3JMp1kXlon25qi9N6O0AxPyp7j0qOIu8oz-QDsaOP-oKz7FIuqlA3W1evDbeLYssDJM_fjkqeyscPO_fHJd0xeD0IoDlHkiUQW1w=w528-h297-n-nu-rw-lo",
-   "signal": 21,
+   "signal": 20,
    "alert": false
   },
   {
@@ -6717,7 +7086,7 @@
    "category": "research",
    "publishedAt": "2026-06-15T11:30:53Z",
    "imageURL": null,
-   "signal": 21,
+   "signal": 20,
    "alert": false
   },
   {
@@ -6751,7 +7120,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-23T16:46:50Z",
    "imageURL": null,
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -6768,7 +7137,7 @@
    "category": "research",
    "publishedAt": "2026-06-08T13:04:59Z",
    "imageURL": "https://lh3.googleusercontent.com/5g2RQPPxqVGuOzfaYj1-8r_6B-Ytp79c9mpWXzBIrk2vUhtxZmA7bMywH41h-8b0EJAdW_K4l7kqHZlfS-QTFk8kFB5MA2bgxZ4hxbuAiOuDIn3ohA=w528-h297-n-nu-rw-lo",
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -6785,7 +7154,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-17T17:56:42Z",
    "imageURL": null,
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -6802,7 +7171,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-19T17:24:47Z",
    "imageURL": null,
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -6836,7 +7205,7 @@
    "category": "research",
    "publishedAt": "2026-06-16T21:29:50Z",
    "imageURL": "https://lh3.googleusercontent.com/kc7RMwXGDfJAoCsgs6pUuONGMXePGbvF_q_i8i-bWBBakQ91O8VYPk8cyHfpOD1uF-lw8Mk6pd2JpXofi5n4qNoNziPol46lBMmZuxoG9NKl16CW=w528-h297-n-nu-rw-lo",
-   "signal": 19,
+   "signal": 18,
    "alert": false
   },
   {
@@ -6853,7 +7222,7 @@
    "category": "research",
    "publishedAt": "2026-06-14T17:43:42Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/74e1df37-06b8-444e-a5a4-fbc1ead00360_3182x1790.png",
-   "signal": 19,
+   "signal": 18,
    "alert": false
   },
   {
@@ -6870,7 +7239,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-14T14:52:27Z",
    "imageURL": null,
-   "signal": 19,
+   "signal": 18,
    "alert": false
   },
   {
@@ -6887,7 +7256,7 @@
    "category": "research",
    "publishedAt": "2026-05-26T15:39:02Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!-711!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F723ba9cb-c351-4b89-8860-2ac4eda7f335_2288x1584.png",
-   "signal": 19,
+   "signal": 18,
    "alert": false
   },
   {
@@ -6921,7 +7290,7 @@
    "category": "research",
    "publishedAt": "2026-06-10T16:24:11Z",
    "imageURL": null,
-   "signal": 18,
+   "signal": 17,
    "alert": false
   },
   {
@@ -6938,7 +7307,7 @@
    "category": "research",
    "publishedAt": "2026-06-09T22:59:35Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/b9a6c144-02b3-4a08-947c-c517667d2249_3182x1790.png",
-   "signal": 18,
+   "signal": 17,
    "alert": false
   },
   {
@@ -6955,7 +7324,7 @@
    "category": "research",
    "publishedAt": "2026-06-09T15:16:25Z",
    "imageURL": null,
-   "signal": 18,
+   "signal": 17,
    "alert": false
   },
   {
@@ -6972,7 +7341,7 @@
    "category": "research",
    "publishedAt": "2026-06-09T14:10:19Z",
    "imageURL": null,
-   "signal": 18,
+   "signal": 17,
    "alert": false
   },
   {
@@ -7006,7 +7375,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 17,
+   "signal": 16,
    "alert": false
   },
   {
@@ -7023,7 +7392,7 @@
    "category": "research",
    "publishedAt": "2026-05-21T19:46:42Z",
    "imageURL": null,
-   "signal": 17,
+   "signal": 16,
    "alert": false
   },
   {
@@ -7040,7 +7409,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-06T11:16:22Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/8630eb02-eeac-4411-bef3-1865c1920b03_2912x1632.png",
-   "signal": 17,
+   "signal": 16,
    "alert": false
   },
   {
@@ -7057,7 +7426,7 @@
    "category": "models",
    "publishedAt": "2026-06-30T06:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp",
-   "signal": 17,
+   "signal": 16,
    "alert": false
   },
   {
@@ -7091,7 +7460,7 @@
    "category": "research",
    "publishedAt": "2026-06-01T13:31:56Z",
    "imageURL": null,
-   "signal": 16,
+   "signal": 15,
    "alert": false
   },
   {
@@ -7108,7 +7477,7 @@
    "category": "research",
    "publishedAt": "2026-06-01T13:03:48Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/6b994b97-89a2-4101-ad81-aa3ffe274b75_3182x1790.png",
-   "signal": 16,
+   "signal": 15,
    "alert": false
   },
   {
@@ -7125,7 +7494,7 @@
    "category": "techniques",
    "publishedAt": "2026-05-29T15:07:35Z",
    "imageURL": null,
-   "signal": 16,
+   "signal": 15,
    "alert": false
   },
   {
@@ -7176,7 +7545,7 @@
    "category": "research",
    "publishedAt": "2026-05-17T19:53:18Z",
    "imageURL": null,
-   "signal": 15,
+   "signal": 14,
    "alert": false
   },
   {
@@ -7193,7 +7562,7 @@
    "category": "techniques",
    "publishedAt": "2026-05-16T11:33:51Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/2b841d26-5b2d-4be9-9710-d89d4f023f0c_1600x900.png",
-   "signal": 15,
+   "signal": 14,
    "alert": false
   },
   {
@@ -7210,7 +7579,7 @@
    "category": "techniques",
    "publishedAt": "2026-04-18T11:24:36Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/43071df5-b297-42f2-b875-36915f5e33a2_1826x1020.png",
-   "signal": 15,
+   "signal": 14,
    "alert": false
   },
   {
@@ -7261,7 +7630,7 @@
    "category": "techniques",
    "publishedAt": "2026-04-08T17:39:20Z",
    "imageURL": null,
-   "signal": 14,
+   "signal": 13,
    "alert": false
   },
   {
@@ -7278,7 +7647,7 @@
    "category": "techniques",
    "publishedAt": "2026-04-04T11:45:37Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/49b97718-57f4-4977-99c8-8ad5c4d32af3_1548x862.png",
-   "signal": 14,
+   "signal": 13,
    "alert": false
   },
   {
@@ -7295,7 +7664,7 @@
    "category": "techniques",
    "publishedAt": "2026-04-24T18:45:02Z",
    "imageURL": null,
-   "signal": 14,
+   "signal": 13,
    "alert": false
   },
   {
@@ -7346,7 +7715,7 @@
    "category": "techniques",
    "publishedAt": "2026-04-17T18:07:46Z",
    "imageURL": null,
-   "signal": 13,
+   "signal": 12,
    "alert": false
   },
   {
@@ -7363,7 +7732,7 @@
    "category": "techniques",
    "publishedAt": "2026-02-25T13:26:56Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/380ad0cc-566e-4e54-8862-00e2de6f269b_2670x1398.png",
-   "signal": 13,
+   "signal": 12,
    "alert": false
   },
   {
@@ -7380,7 +7749,7 @@
    "category": "techniques",
    "publishedAt": "2026-03-26T20:15:12Z",
    "imageURL": null,
-   "signal": 13,
+   "signal": 12,
    "alert": false
   },
   {
@@ -7448,7 +7817,7 @@
    "category": "techniques",
    "publishedAt": "2026-02-27T14:57:29Z",
    "imageURL": null,
-   "signal": 12,
+   "signal": 11,
    "alert": false
   },
   {
@@ -7465,7 +7834,7 @@
    "category": "techniques",
    "publishedAt": "2025-12-30T12:22:26Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/dfad3fc4-b195-4e7e-a6a7-7701b59ed57b_1394x918.png",
-   "signal": 12,
+   "signal": 11,
    "alert": false
   },
   {
@@ -7533,7 +7902,7 @@
    "category": "techniques",
    "publishedAt": "2025-12-03T12:03:33Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/0c867bba-a952-4285-849e-e70a5555622c_1990x1576.png",
-   "signal": 11,
+   "signal": 10,
    "alert": false
   },
   {
@@ -7550,7 +7919,7 @@
    "category": "techniques",
    "publishedAt": "2025-11-04T13:06:07Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/e1732960-2119-429d-96e7-bafee7f79283_5862x3699.jpeg",
-   "signal": 11,
+   "signal": 10,
    "alert": false
   },
   {
@@ -7622,7 +7991,7 @@
    "category": "research",
    "publishedAt": "2025-08-12T20:00:00Z",
    "imageURL": null,
-   "signal": 10,
+   "signal": 9,
    "alert": false
   },
   {
@@ -7639,7 +8008,7 @@
    "category": "techniques",
    "publishedAt": "2025-08-09T11:23:07Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/529c4cc7-161c-4d7c-b186-06e68c771776_1564x926.png",
-   "signal": 10,
+   "signal": 9,
    "alert": false
   },
   {
@@ -7707,7 +8076,7 @@
    "category": "research",
    "publishedAt": "2025-06-12T00:00:00Z",
    "imageURL": null,
-   "signal": 9,
+   "signal": 8,
    "alert": false
   },
   {
@@ -7724,7 +8093,7 @@
    "category": "research",
    "publishedAt": "2025-06-05T20:00:00Z",
    "imageURL": null,
-   "signal": 9,
+   "signal": 8,
    "alert": false
   },
   {
@@ -7796,7 +8165,7 @@
    "category": "research",
    "publishedAt": "2024-10-14T05:39:43Z",
    "imageURL": null,
-   "signal": 8,
+   "signal": 7,
    "alert": false
   },
   {
@@ -7813,7 +8182,7 @@
    "category": "techniques",
    "publishedAt": "2025-02-05T18:23:47Z",
    "imageURL": null,
-   "signal": 8,
+   "signal": 7,
    "alert": false
   },
   {
@@ -7881,7 +8250,7 @@
    "category": "research",
    "publishedAt": "2024-10-10T00:00:00Z",
    "imageURL": null,
-   "signal": 7,
+   "signal": 6,
    "alert": false
   },
   {
@@ -7898,7 +8267,7 @@
    "category": "research",
    "publishedAt": "2024-03-20T20:54:00Z",
    "imageURL": null,
-   "signal": 7,
+   "signal": 6,
    "alert": false
   },
   {
@@ -7966,7 +8335,7 @@
    "category": "research",
    "publishedAt": "2024-05-22T17:00:00Z",
    "imageURL": null,
-   "signal": 6,
+   "signal": 5,
    "alert": false
   },
   {
@@ -7983,7 +8352,7 @@
    "category": "research",
    "publishedAt": "2024-04-14T17:00:00Z",
    "imageURL": null,
-   "signal": 6,
+   "signal": 5,
    "alert": false
   },
   {
@@ -8051,7 +8420,7 @@
    "category": "research",
    "publishedAt": "2024-03-19T20:15:00Z",
    "imageURL": null,
-   "signal": 5,
+   "signal": 4,
    "alert": false
   },
   {
