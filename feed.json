@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-08-16T22:19:09Z",
+ "generatedAt": "2026-08-16T22:46:49Z",
  "stories": [
   {
    "id": "1b4b1216de83a61f7b22a1344b63d608351942e7d3126e12f94d7918bd923c26",
@@ -40,23 +40,6 @@
    "alert": true
   },
   {
-   "id": "45cd7975f6d2c6418eaabda25630ee7978fc5057c7c4c3fb49d80c01153df5f6",
-   "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
-   "snippet": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's…",
-   "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-16T22:00:39Z",
-   "imageURL": null,
-   "signal": 99,
-   "alert": false
-  },
-  {
    "id": "eb1c00b4d9183a8d84096a2ea852257525277eb42b1cf750b4e01220528724b0",
    "title": "Just $69.97 gets you lifetime access to ChatGPT, Gemini, and more",
    "snippet": null,
@@ -80,6 +63,40 @@
    "imageURL": null,
    "signal": 99,
    "alert": true
+  },
+  {
+   "id": "45cd7975f6d2c6418eaabda25630ee7978fc5057c7c4c3fb49d80c01153df5f6",
+   "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+   "snippet": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's…",
+   "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T22:00:39Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": false
+  },
+  {
+   "id": "6394edc0adb68c28530a23f6b11b03178680ff8dbfb46fd0c436e9d7d2c67d80",
+   "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdUFoSTRXenA2LWo3RksxNG9TMzI3dG1ydUpRempMTVFBZVBNb3N5Qi1Kbi10WlkwcUZ5OFVfTkdpZDB5eU1CZUV1dlBDc0UtQ2FJRTBERE42elFjQXhfcmlqN2U3aWhhT0pxZjFtc0p3V2VRNWxLaWZyYjlhLUF3WmpYS1oxU3BGMkctbTlrbXNzekxCYUpJb1JvXzVlMjk4OHdtSWMxLTFuZzZqWmVVek9CYVpvT1FtMUtvc0pmUkNwaEFLa2ZObU9TOGtfWWpFcnVlS0xVNA?oc=5",
+   "sources": [
+    {
+     "name": "BleepingComputer",
+     "domain": "bleepingcomputer.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T22:28:57Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
   },
   {
    "id": "d1b7ed52e00e3aef4b112b08d87b91d5723cf90f068efffe2dc3cf53af331171",
@@ -116,23 +133,6 @@
    "alert": false
   },
   {
-   "id": "fa916b10a0663ec4a46d75df47ee1f65bb2a1f6cafab2171853a73367a9746e8",
-   "title": "Welcome to August 16, 2026",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pb2twSk1jNm8wVUZuMVAyRGd2ZVN4bDVOOEFoTVAzeGpiWTFGVTN3QUZnb2JvWUJQTE1OTEtac0IyRlBOam1seG0wTkJpVVBZblFzYmY3Mm90QU9uREl1TnpHQmkxcGVoel9uRkRrdl9TZ3M?oc=5",
-   "sources": [
-    {
-     "name": "theinnermostloop.substack.com",
-     "domain": "theinnermostloop.substack.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T21:39:41Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": false
-  },
-  {
    "id": "345b81487115ab847afe1a1bff3a2e69d23b6e93ee4f6ac1a7ca30cd425228f9",
    "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
    "snippet": "OpenRouter's CEO recently described the startup as Stripe for AI.",
@@ -150,20 +150,54 @@
    "alert": false
   },
   {
-   "id": "cd2c9c4d034f9142388f0d4321182c04bb7d6f084b39a57891e892166cb4dd41",
-   "title": "Claude AI Surpasses ChatGPT in User Experience, Design Tasks",
+   "id": "fa916b10a0663ec4a46d75df47ee1f65bb2a1f6cafab2171853a73367a9746e8",
+   "title": "Welcome to August 16, 2026",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdzNDR3pWUkVaYjdFWllTZHRteTd2clMydVY2V21XN2phMTd1Q0s3TUc1ZUQ4TVYydU5NVzNRVjZHMldMYXZ5dDhkekpIa0t3b2lmYlI3RzV6ZXlabnlPeVdlaFRqWDhLXzJZV3ItTUUycEVwX0w0TmZtd214WHpDVS12S1BTS1ZiOENycmxiZTZ3dXlxZlFNZ0ZFd0wyR2ZVMTdLSlhBY1NJdUlFal9vUDFPaUU0SDU3c21sWWZpWQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pb2twSk1jNm8wVUZuMVAyRGd2ZVN4bDVOOEFoTVAzeGpiWTFGVTN3QUZnb2JvWUJQTE1OTEtac0IyRlBOam1seG0wTkJpVVBZblFzYmY3Mm90QU9uREl1TnpHQmkxcGVoel9uRkRrdl9TZ3M?oc=5",
    "sources": [
     {
-     "name": "StartupHub.ai",
-     "domain": "startuphub.ai"
+     "name": "theinnermostloop.substack.com",
+     "domain": "theinnermostloop.substack.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-16T21:31:37Z",
+   "publishedAt": "2026-08-16T21:39:41Z",
    "imageURL": null,
    "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "b33db50a64506b60bacb598ae3b475ad679222f93ef41cd8b4f163b82c2e5b65",
+   "title": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
+   "snippet": null,
+   "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T21:34:06Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "26bd90e3963a58803eca6272d1e5516e9e91a3e281d6506ef5255333f206599a",
+   "title": "Anthropic | History, Controversies, & Claude AI",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41Q1h2QkF0SGRpMFZSMVN5al9RNkhQLTR4MDc0cHJNbndmdndTbHE5cGswRFk4SS1JbVhmXzdWNm5KRDlJa3FiUkt6T01MZUNiTjhON2R6cFJtQQ?oc=5",
+   "sources": [
+    {
+     "name": "britannica.com",
+     "domain": "britannica.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T21:10:43Z",
+   "imageURL": null,
+   "signal": 97,
    "alert": false
   },
   {
@@ -179,40 +213,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T21:05:01Z",
-   "imageURL": null,
-   "signal": 97,
-   "alert": false
-  },
-  {
-   "id": "146fa17c61d40722599de946b57f348076cee037a7c07c46de4eaefeb5966333",
-   "title": "Claude Is Down",
-   "snippet": null,
-   "url": "https://claude.ai/new",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T21:51:25Z",
-   "imageURL": null,
-   "signal": 97,
-   "alert": false
-  },
-  {
-   "id": "c5adf37c175f060eb08819c88cd3a96f458c0927af7e847d4f7065b0fd2e73b6",
-   "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
-   "snippet": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
-   "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T20:32:01Z",
    "imageURL": null,
    "signal": 97,
    "alert": false
@@ -235,18 +235,18 @@
    "alert": false
   },
   {
-   "id": "8b4fd6a694cd43b37e738029798e3e5fd865c464821df21e4ce215a02167b000",
-   "title": "Saber CEO Apologizes To Lead Writer Replaced With ChatGPT After Weeklong Crashout",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSXFuRURRM29SSmJ1dl9tWmQ5LWlfeGpGR2dSaXBNaGlwUzJ4Y3pENVdFWFI2RVpyaTJLVFlZREJNQlBISk5zWUhWUkZMU25nTXBOUHg2azVHQjctTDZsNUtvaGs0N0h6NnFhU1NpVEFkYy1sTVB1aTFORFdkdy1mNmFTbEtTM3gyYXFGbl9jb1FaR2VkY3BNcnZKOEVzZG42TzFtUHNZalpWSFNGRUpuSg?oc=5",
+   "id": "c5adf37c175f060eb08819c88cd3a96f458c0927af7e847d4f7065b0fd2e73b6",
+   "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+   "snippet": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+   "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
    "sources": [
     {
-     "name": "Kotaku",
-     "domain": "kotaku.com"
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-16T20:04:11Z",
+   "publishedAt": "2026-08-16T20:32:01Z",
    "imageURL": null,
    "signal": 97,
    "alert": false
@@ -273,25 +273,21 @@
    "alert": true
   },
   {
-   "id": "e59bb40dc46905cdb18abea903a1637adb594f129a2d9ef482aee1d509fe3347",
-   "title": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
+   "id": "8b4fd6a694cd43b37e738029798e3e5fd865c464821df21e4ce215a02167b000",
+   "title": "Saber CEO Apologizes To Lead Writer Replaced With ChatGPT After Weeklong Crashout",
    "snippet": null,
-   "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSXFuRURRM29SSmJ1dl9tWmQ5LWlfeGpGR2dSaXBNaGlwUzJ4Y3pENVdFWFI2RVpyaTJLVFlZREJNQlBISk5zWUhWUkZMU25nTXBOUHg2azVHQjctTDZsNUtvaGs0N0h6NnFhU1NpVEFkYy1sTVB1aTFORFdkdy1mNmFTbEtTM3gyYXFGbl9jb1FaR2VkY3BNcnZKOEVzZG42TzFtUHNZalpWSFNGRUpuSg?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "New York Post",
-     "domain": "nypost.com"
+     "name": "Kotaku",
+     "domain": "kotaku.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T21:00:25Z",
+   "category": "models",
+   "publishedAt": "2026-08-16T20:04:11Z",
    "imageURL": null,
    "signal": 96,
-   "alert": true
+   "alert": false
   },
   {
    "id": "99f79a191e7351c97c8dd35ea075db0e8fbc17d959473beed10ced187818541c",
@@ -315,6 +311,82 @@
    "alert": true
   },
   {
+   "id": "e59bb40dc46905cdb18abea903a1637adb594f129a2d9ef482aee1d509fe3347",
+   "title": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
+   "snippet": null,
+   "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "New York Post",
+     "domain": "nypost.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T21:00:25Z",
+   "imageURL": null,
+   "signal": 96,
+   "alert": true
+  },
+  {
+   "id": "f38fe0bec67ed2f9cafc55ca5fdf774ba856942b33ebc9cf78eac1dec740af1f",
+   "title": "How AI Models From OpenAI and Anthropic Went Rogue",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPazlkZTZjNzd1TU1YblhrODI1OUk5cklNMGp6Rm9HWVA5VDU1eWVNRFV2eVJacnVUNE5XY1NKN0tsVWpjeVFST00telpTdTE0cEpVZGh3Sm5YYk14NjhjN09NODRsenFvcjNHbEppTW00R0VKY3F5T1VVelk4RXJKcTNqSXhPY1FSWm9CLW02NFk?oc=5",
+   "sources": [
+    {
+     "name": "WSJ",
+     "domain": "wsj.com"
+    },
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T16:03:00Z",
+   "imageURL": null,
+   "signal": 96,
+   "alert": true
+  },
+  {
+   "id": "966a6de40cac3675eb75a7f66f645e3e574a2cd457e5202c9345baa071c0ebce",
+   "title": "The HackerNoon Newsletter: Navigating Claude Code: The Full Workflow (8/16/2026)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWQU5KMmFpN0dudVJSY21sUjJ2NkFwSmVnd2ktY1RTbi1KSlBOS0JOS0t3THR3eHZPMjZCbFRsRHdvbjFGRFlpRDE3QmlkaEVaWnY2UXFR?oc=5",
+   "sources": [
+    {
+     "name": "HackerNoon",
+     "domain": "hackernoon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T18:04:21Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "0faeb54e0b9dcf3f20c83ca9f673e389998ef01fb3cf916d2a153f46f67fa5e2",
+   "title": "Claude Code, Codex, and Cursor are all overkill — here’s the lightweight tool I use instead",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZU9XUHhyNlREdFVfaHZYLTB6OGphY2JzZnlhTUliSmVZeHJoUVFCYjdLSThueDF5c21XdEJKOGszY3BUTFlHWDNtem1qdTlUOVFndk9mcmZERVZ3MzVnNnhQODdka2kxaFJIT21rYXhvNEJ2YjBkRHJ3cVEwdnVnUjVxTFJsUXltalU3ajhkcUJLZENjdzd3Qy1DeWNSRkFV?oc=5",
+   "sources": [
+    {
+     "name": "XDA",
+     "domain": "xda-developers.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T18:00:10Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
    "id": "375e4244794c92833fe70256b6674df3b32935baa8f08522f88941ef32f88ce7",
    "title": "Anthropic Touts 14-Fold Jump in Revenue for Would-Be Investors",
    "snippet": null,
@@ -328,7 +400,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T21:45:47Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
    "alert": false
   },
   {
@@ -344,40 +416,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T18:30:13Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "15d023cc990b17f70448810a077fddeb01e140417ec11a8b0efb63a34c13f108",
-   "title": "MathCode, Mathematical Coding Agent",
-   "snippet": null,
-   "url": "https://math-ai-org.github.io/mathcode/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T18:17:10Z",
-   "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "37c7006552c0e327080246e1035fe96bb46054796c8258195d961c15e69426dd",
-   "title": "Claude Watermark (Are We Screwed?) West Ham Score (A0YYuwFaGn)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CWk5TV0Q5NEduTTJfbk5zT1pEVmU2TjYxeHo5X2RGcU8tdUdqMm1ZUVlJWng0SlR0VDduY013Zl9rNzBVOUd1MWJiZGVuSjF1RlBuLU02bmFjZw?oc=5",
-   "sources": [
-    {
-     "name": "Mshale",
-     "domain": "mshale.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-16T18:22:35Z",
    "imageURL": null,
    "signal": 95,
    "alert": false
@@ -400,20 +438,37 @@
    "alert": false
   },
   {
-   "id": "cc1397b9548dc211dd74270b01a8d211a92155a0c85e7dec5c06d8984e6eb5de",
-   "title": "Pentagon walks back order to purge Anthropic software from weapons systems",
+   "id": "37c7006552c0e327080246e1035fe96bb46054796c8258195d961c15e69426dd",
+   "title": "Claude Watermark (Are We Screwed?) West Ham Score (A0YYuwFaGn)",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaVFTWlhnQlNRdWxuZjQtTkhZTUZqdzBHRndULVFJRHVNeDJ5cWdBeDFNS3ZIdWt6d0xWTWhlNEZnSEFabXItVDBKZGlDeFhxcGJxeGstb0hYNm5ULXpvX3drZ1RhV0ZNZVFPcmJqRXFNcjRGR2FHVldsc21OME5PYk51a2RUN2h5RTV0VjJadG0tYTVJbHFOQVFlQzh4WXpvTUQ0ekUyY1J0ck5lRlh3bzA2ZlctN1Fx?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CWk5TV0Q5NEduTTJfbk5zT1pEVmU2TjYxeHo5X2RGcU8tdUdqMm1ZUVlJWng0SlR0VDduY013Zl9rNzBVOUd1MWJiZGVuSjF1RlBuLU02bmFjZw?oc=5",
    "sources": [
     {
-     "name": "Türkiye Today",
-     "domain": "turkiyetoday.com"
+     "name": "Mshale",
+     "domain": "mshale.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-16T18:00:36Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-16T18:22:35Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
+   "alert": false
+  },
+  {
+   "id": "15d023cc990b17f70448810a077fddeb01e140417ec11a8b0efb63a34c13f108",
+   "title": "MathCode, Mathematical Coding Agent",
+   "snippet": null,
+   "url": "https://math-ai-org.github.io/mathcode/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T18:17:10Z",
+   "imageURL": null,
+   "signal": 94,
    "alert": false
   },
   {
@@ -429,40 +484,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T18:00:00Z",
-   "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "966a6de40cac3675eb75a7f66f645e3e574a2cd457e5202c9345baa071c0ebce",
-   "title": "The HackerNoon Newsletter: Navigating Claude Code: The Full Workflow (8/16/2026)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWQU5KMmFpN0dudVJSY21sUjJ2NkFwSmVnd2ktY1RTbi1KSlBOS0JOS0t3THR3eHZPMjZCbFRsRHdvbjFGRFlpRDE3QmlkaEVaWnY2UXFR?oc=5",
-   "sources": [
-    {
-     "name": "HackerNoon",
-     "domain": "hackernoon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-16T16:20:22Z",
-   "imageURL": null,
-   "signal": 94,
-   "alert": false
-  },
-  {
-   "id": "0fc0c2397918b3d681c2db8f24f77a6374d5e3f7aa66eecbf17b87fa6399e6b9",
-   "title": "Does Nutanix's (NTNX) New MCP Server Clarify Its Edge in Secure AI-Driven Cloud Automation?",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSmJzWk1TNjBNV2dVVFg4aFh1eXdlRDVtbmlSZy13Q2ppbmIxN2d0bnhHNE5lcDZuaExQbmk2MDA3MV9ja1EwQ1FTelExSEtza0pka0l2bEVYNnpya1VidW9wbUt2eEFMVFNFQXgyWDhXalBjVWxYWklON1JZenZQeWo3NXBtNWdVMDZPNHlvNUVfanJjeXN2OG5odFdmanRDWlUwODBtazF6bzFxWkN1Ukx5UWRrYXZJYUxEWC1odHJIVURTVld5TElsMHBYcXJZcE5iUUVR?oc=5",
-   "sources": [
-    {
-     "name": "Sahm",
-     "domain": "sahmcapital.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T16:13:36Z",
    "imageURL": null,
    "signal": 94,
    "alert": false
@@ -485,6 +506,23 @@
    "alert": false
   },
   {
+   "id": "0fc0c2397918b3d681c2db8f24f77a6374d5e3f7aa66eecbf17b87fa6399e6b9",
+   "title": "Does Nutanix's (NTNX) New MCP Server Clarify Its Edge in Secure AI-Driven Cloud Automation?",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSmJzWk1TNjBNV2dVVFg4aFh1eXdlRDVtbmlSZy13Q2ppbmIxN2d0bnhHNE5lcDZuaExQbmk2MDA3MV9ja1EwQ1FTelExSEtza0pka0l2bEVYNnpya1VidW9wbUt2eEFMVFNFQXgyWDhXalBjVWxYWklON1JZenZQeWo3NXBtNWdVMDZPNHlvNUVfanJjeXN2OG5odFdmanRDWlUwODBtazF6bzFxWkN1Ukx5UWRrYXZJYUxEWC1odHJIVURTVld5TElsMHBYcXJZcE5iUUVR?oc=5",
+   "sources": [
+    {
+     "name": "Sahm",
+     "domain": "sahmcapital.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T16:13:36Z",
+   "imageURL": null,
+   "signal": 94,
+   "alert": false
+  },
+  {
    "id": "5b648f714ca767a410d225aa16b48025e181455b192f0599a3ac229ebf340303",
    "title": "The SIMPLEST Claude AI Business Ideas For Beginners (Overlooked) Slime Rng Codes (uQ85Drm44r)",
    "snippet": null,
@@ -498,7 +536,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T17:26:54Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -515,7 +553,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T16:53:51Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -531,23 +569,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-16T16:30:48Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "f38fe0bec67ed2f9cafc55ca5fdf774ba856942b33ebc9cf78eac1dec740af1f",
-   "title": "How AI Models From OpenAI and Anthropic Went Rogue",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPazlkZTZjNzd1TU1YblhrODI1OUk5cklNMGp6Rm9HWVA5VDU1eWVNRFV2eVJacnVUNE5XY1NKN0tsVWpjeVFST00telpTdTE0cEpVZGh3Sm5YYk14NjhjN09NODRsenFvcjNHbEppTW00R0VKY3F5T1VVelk4RXJKcTNqSXhPY1FSWm9CLW02NFk?oc=5",
-   "sources": [
-    {
-     "name": "WSJ",
-     "domain": "wsj.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T16:03:00Z",
    "imageURL": null,
    "signal": 93,
    "alert": false
@@ -600,23 +621,6 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T13:24:11Z",
    "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "4ac5e6314dd0f34b54479c890381d53ee60959930172fca35ff06b283bac01ec",
-   "title": "Why Anthropic’s Provenance Policy Makes AI Accountability A Boardroom Imperative",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQlY2ZVdIc3dkTmRhZlFxbHhvTEl6ZEctdVZXcGJyYjdEajM1UTYyNXJrdmFvSmJQSTlJWXBSb3JrUU12QVNZaDVVYTRBbFlzb0luWl9mZFdwUWUxUTAwc1U2bkRaVi1aY0hNOEZTbE5ocXZtd0taRHdIMDNTeGE0RkJjYWNNOXk3czlnNlV0QmxVMmZLb2t6eHZ0bVdYZXk1elVyazRIQ2NIZzAxYjVUcXFGVmhybWNkYzVTQV9lZ0d6OGk1QkdFT2UzZkFxSm8?oc=5",
-   "sources": [
-    {
-     "name": "forbes.com",
-     "domain": "forbes.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T19:42:06Z",
-   "imageURL": null,
    "signal": 92,
    "alert": false
   },
@@ -638,18 +642,18 @@
    "alert": false
   },
   {
-   "id": "3dbcd8f46681e41a1c599fb8e83651513c186bdcdf77af2280201995faa99f50",
-   "title": "The hyping of Anthropic’s IPO",
+   "id": "4ac5e6314dd0f34b54479c890381d53ee60959930172fca35ff06b283bac01ec",
+   "title": "Why Anthropic’s Provenance Policy Makes AI Accountability A Boardroom Imperative",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xalAzMmNyWUxzTHBEMjZpMmtDUVJsN2l6NVpBNTlDbkJKQjlvLTZmN01ZZmtrQTdQV3FIMWtVMXQ1ZER6MHF5TXdxUWY3ZTMtQWJiaXlxeDBQSF9OcEFGWndmVEp6dmpISEh1cVdFaw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQlY2ZVdIc3dkTmRhZlFxbHhvTEl6ZEctdVZXcGJyYjdEajM1UTYyNXJrdmFvSmJQSTlJWXBSb3JrUU12QVNZaDVVYTRBbFlzb0luWl9mZFdwUWUxUTAwc1U2bkRaVi1aY0hNOEZTbE5ocXZtd0taRHdIMDNTeGE0RkJjYWNNOXk3czlnNlV0QmxVMmZLb2t6eHZ0bVdYZXk1elVyazRIQ2NIZzAxYjVUcXFGVmhybWNkYzVTQV9lZ0d6OGk1QkdFT2UzZkFxSm8?oc=5",
    "sources": [
     {
-     "name": "Marcus on AI | Substack",
-     "domain": "garymarcus.substack.com"
+     "name": "Forbes",
+     "domain": "forbes.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-16T19:25:30Z",
+   "publishedAt": "2026-08-16T19:42:06Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
@@ -672,6 +676,23 @@
    "alert": false
   },
   {
+   "id": "3dbcd8f46681e41a1c599fb8e83651513c186bdcdf77af2280201995faa99f50",
+   "title": "The hyping of Anthropic’s IPO",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1xalAzMmNyWUxzTHBEMjZpMmtDUVJsN2l6NVpBNTlDbkJKQjlvLTZmN01ZZmtrQTdQV3FIMWtVMXQ1ZER6MHF5TXdxUWY3ZTMtQWJiaXlxeDBQSF9OcEFGWndmVEp6dmpISEh1cVdFaw?oc=5",
+   "sources": [
+    {
+     "name": "Marcus on AI | Substack",
+     "domain": "garymarcus.substack.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T19:25:30Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": false
+  },
+  {
    "id": "5b1192903d684a21b0134b563ec7f2820e566ef830f4a97caa3001e1a1e40e1d",
    "title": "AI Coding Without the Vibes",
    "snippet": null,
@@ -685,22 +706,22 @@
    "category": "tools",
    "publishedAt": "2026-08-16T10:31:36Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 91,
    "alert": false
   },
   {
-   "id": "0f936c6ac0576220b3a2be46c2581d7a0df6ba10fbec0389e07447e2933cc240",
-   "title": "Show HN: A public AI whose memory is shared across all users",
+   "id": "2a94f852d2ba20010161adc9f52dcae622d3875ead9e136ee92d3120d371fcd5",
+   "title": "Anthropic develops Slack-like features for Claude Desktop",
    "snippet": null,
-   "url": "https://wildstatic.com/",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMGJEWnlxcFNpb2NNZ3FkcTNTVlNzWjBmMGo2QU03V0Q2SjJSWVp4MV9SYjFOWDVpMkZjbTFBT3l3cjVWWFRIZEdXS0t0UVFyaTRMTDBkeC0xRjNOU0taSDAxbkVGX0Q0QzVrc01UbE5BV3l5MVFmMzNOMWxIV3pPY1lXZFBISVo3QzJyZ0RtdUN4dw?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "TestingCatalog AI News",
+     "domain": "testingcatalog.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T13:21:45Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-16T14:24:09Z",
    "imageURL": null,
    "signal": 91,
    "alert": false
@@ -718,6 +739,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T14:22:17Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "0f936c6ac0576220b3a2be46c2581d7a0df6ba10fbec0389e07447e2933cc240",
+   "title": "Show HN: A public AI whose memory is shared across all users",
+   "snippet": null,
+   "url": "https://wildstatic.com/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T13:21:45Z",
    "imageURL": null,
    "signal": 91,
    "alert": false
@@ -753,7 +791,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T07:37:53Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
@@ -770,7 +808,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T12:08:06Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
@@ -808,10 +846,27 @@
    "alert": false
   },
   {
-   "id": "96de4034aa8b8c65c726cc9ff6f3d888ddc964630c7bdedcebf4160170ebc981",
-   "title": "The AI store manager fired its first human",
+   "id": "a10cf18eb8e1590ce08a636fdb359cadd1989c76a4e2aaf1dae46bb189e3d360",
+   "title": "Cloudflare Gateway blocks MCP calls that bypass approved portals",
    "snippet": null,
-   "url": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcS00NkIxUW1pajY2d2ZsY0l3TTN3UllPcHIyY19MNFA4NW9DV21EcFJaT2cwUHo5aW1YV3IxcklYQlVCOWQ4Z19PWVJYeEt6UTUxaTVDcGYwS2VPRDNVaHFoY0tGQk1XY0N2X1Z6dXBiQmZfT2NMdUZvS1hOTURWSmFLOE5NOE1jQ0E?oc=5",
+   "sources": [
+    {
+     "name": "PPC Land",
+     "domain": "ppc.land"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T08:30:46Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": false
+  },
+  {
+   "id": "f87e14ef06b6e708ed2ec4dc1cf5561507442e867a0745a56aedc9a255b2cc3c",
+   "title": "Patterns and problems in emerging multi-agent systems",
+   "snippet": null,
+   "url": "https://www.anthropic.com/research/multiagent-systems",
    "sources": [
     {
      "name": "Hacker News",
@@ -819,26 +874,9 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T18:19:47Z",
+   "publishedAt": "2026-08-16T02:12:53Z",
    "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "1798db6e7978c3ebf111aaa42b626d1cd60d60c2020c528a38ef53cbd4d49f3a",
-   "title": "Anthropic and OpenAI Revenues Soar, But a New Threat is Emerging",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQl9qUnJ0cUhkV3ZzRFo3THFTZGdSY1MtSkN4b3Z0dGl4bmNmZzNrSDBQaEpPQVB4ZkZqSWNvdV9WdktKQzVCbER2OUhNVlA5aUpnWTd3QTRZcFFEUXd0eXBJMUNCZUlhWldkb0Z4WkF0SE5DUS1GcTBfYmlrWldvN1FWaUJIMHpBaTJ2RlhpRHFqZFZPdXN2X3hqdFpBb2JZZU15dG96cGdYRmdqN2x5VXJHOEdZTHFEdEFSeVFrSHA?oc=5",
-   "sources": [
-    {
-     "name": "Benzinga",
-     "domain": "benzinga.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T17:46:30Z",
-   "imageURL": null,
-   "signal": 90,
+   "signal": 89,
    "alert": false
   },
   {
@@ -855,39 +893,38 @@
    "category": "models",
    "publishedAt": "2026-08-16T17:44:00Z",
    "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "a10cf18eb8e1590ce08a636fdb359cadd1989c76a4e2aaf1dae46bb189e3d360",
-   "title": "Cloudflare Gateway blocks MCP calls that bypass approved portals",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcS00NkIxUW1pajY2d2ZsY0l3TTN3UllPcHIyY19MNFA4NW9DV21EcFJaT2cwUHo5aW1YV3IxcklYQlVCOWQ4Z19PWVJYeEt6UTUxaTVDcGYwS2VPRDNVaHFoY0tGQk1XY0N2X1Z6dXBiQmZfT2NMdUZvS1hOTURWSmFLOE5NOE1jQ0E?oc=5",
-   "sources": [
-    {
-     "name": "PPC Land",
-     "domain": "ppc.land"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T08:30:46Z",
-   "imageURL": null,
    "signal": 89,
    "alert": false
   },
   {
-   "id": "f87e14ef06b6e708ed2ec4dc1cf5561507442e867a0745a56aedc9a255b2cc3c",
-   "title": "Patterns and problems in emerging multi-agent systems",
+   "id": "df53bf562276fa1e5e6d50793c0afe7c3cc0e2f689bf8f5452621c9f1232ece8",
+   "title": "Maximizing the value of your Claude Code sessions",
    "snippet": null,
-   "url": "https://www.anthropic.com/research/multiagent-systems",
+   "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
    "sources": [
     {
      "name": "Hacker News",
      "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Mshale",
+     "domain": "mshale.com"
+    },
+    {
+     "name": "MakeUseOf",
+     "domain": "makeuseof.com"
+    },
+    {
+     "name": "KuCoin",
+     "domain": "kucoin.com"
+    },
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T02:12:53Z",
+   "publishedAt": "2026-08-14T16:15:21Z",
    "imageURL": null,
    "signal": 89,
    "alert": false
@@ -940,7 +977,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T07:01:01Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 88,
    "alert": false
   },
   {
@@ -950,7 +987,7 @@
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeExQUy1GNFc0TTR3VHN3YXV4SG9yWmNQN1FzdE83ZmV2Q0xYRVcyYzRKQUdGXzRrcFRrY0lLdk9vY1hzZnBYeVlWdnJoc0VNektwbFNiem5YcGlxYW9IVFMyT0RSNElaN3BXX3ZETnZ6N2tnRjZGNC03LVZlT2pWa2Z5UFQ1V0F2VGk2VUx2QzJISHRCN0FQU1FPeWRDU3hlYTQzTWZaY0J2RGpmZ0EzMVMwek5PUHho?oc=5",
    "sources": [
     {
-     "name": "investinglive.com",
+     "name": "investingLive",
      "domain": "investinglive.com"
     }
    ],
@@ -978,10 +1015,10 @@
    "alert": false
   },
   {
-   "id": "19c58a1874b6eb0b8e8c470c81929d13e4c2a86bc116143cf56981db6d39e6d6",
-   "title": "AI is not just one bubble, strategist says – but a 'rolling sequence of bubbles'",
+   "id": "96de4034aa8b8c65c726cc9ff6f3d888ddc964630c7bdedcebf4160170ebc981",
+   "title": "The AI store manager fired its first human",
    "snippet": null,
-   "url": "https://fortune.com/2026/08/16/ai-bubble-sequence-saas-software-stocks-silver-prices-chipmakers/",
+   "url": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
    "sources": [
     {
      "name": "Hacker News",
@@ -989,7 +1026,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T18:05:39Z",
+   "publishedAt": "2026-08-16T18:19:47Z",
    "imageURL": null,
    "signal": 88,
    "alert": false
@@ -1025,7 +1062,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T07:49:41Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 87,
    "alert": false
   },
   {
@@ -1063,48 +1100,6 @@
    "alert": false
   },
   {
-   "id": "0a53672abc695c65ef4877e18eac0d0870e575a6b4a2084234bf849ca50eb306",
-   "title": "Show HN: Grafana agent observability for Hermes Agent",
-   "snippet": null,
-   "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T08:40:50Z",
-   "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "df53bf562276fa1e5e6d50793c0afe7c3cc0e2f689bf8f5452621c9f1232ece8",
-   "title": "Maximizing the value of your Claude Code sessions",
-   "snippet": null,
-   "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "TestingCatalog AI News",
-     "domain": "testingcatalog.com"
-    },
-    {
-     "name": "KuCoin",
-     "domain": "kucoin.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T16:15:21Z",
-   "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
    "id": "752db2f2a20c7340699db0ec6ee2ec2b45e77480bff176b86c83ca743fb553cc",
    "title": "Rails creator DHH rewrites Python library in Rust using Claude Code in 3 hours",
    "snippet": null,
@@ -1135,7 +1130,7 @@
    "category": "tools",
    "publishedAt": "2026-08-15T10:39:41Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 87,
    "alert": false
   },
   {
@@ -1224,7 +1219,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T01:17:19Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 86,
    "alert": false
   },
   {
@@ -1240,23 +1235,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-16T01:12:49Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "b33db50a64506b60bacb598ae3b475ad679222f93ef41cd8b4f163b82c2e5b65",
-   "title": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
-   "snippet": null,
-   "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T21:34:06Z",
    "imageURL": null,
    "signal": 85,
    "alert": false
@@ -1279,23 +1257,6 @@
    "alert": false
   },
   {
-   "id": "80316ce1298193564bbfb35b8604d41a7efe6178c53d4d7d1111943fc7ab861d",
-   "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
-   "snippet": null,
-   "url": "https://waku.sh",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T00:38:44Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
    "id": "8a940043da46a71f0edfa03e9353de52617e15cd0f10d0b41c88d3dbc5ee250a",
    "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
    "snippet": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
@@ -1309,24 +1270,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T15:46:22Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Osie!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F131d402d-63bf-4895-b5e7-b8990972a14c_1280x720.png",
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "f939cd8244044d7aab1012d04edb14996c440815729f0150df7a40909d92be68",
-   "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-   "snippet": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
-   "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-15T21:29:19Z",
-   "imageURL": null,
-   "signal": 84,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1347,6 +1291,40 @@
    "category": "models",
    "publishedAt": "2026-08-14T17:13:05Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/Launching-Ceremony-2-1-scaled.jpeg",
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "f939cd8244044d7aab1012d04edb14996c440815729f0150df7a40909d92be68",
+   "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+   "snippet": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+   "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-15T21:29:19Z",
+   "imageURL": null,
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "0a53672abc695c65ef4877e18eac0d0870e575a6b4a2084234bf849ca50eb306",
+   "title": "Show HN: Grafana agent observability for Hermes Agent",
+   "snippet": null,
+   "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T08:40:50Z",
+   "imageURL": null,
    "signal": 84,
    "alert": false
   },
@@ -1363,23 +1341,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-15T13:43:46Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "623bfefcef89120183c6c1caced482c29533acff8cefbe8e8f5d6171a41c8f20",
-   "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
-   "snippet": null,
-   "url": "https://arxiv.org/abs/2608.13122",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-15T22:41:51Z",
    "imageURL": null,
    "signal": 84,
    "alert": false
@@ -1402,7 +1363,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:31:28Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1427,39 +1388,14 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:21:03Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 84,
    "alert": false
   },
   {
-   "id": "0b3298a080c8194d1f16addde55334222afe83ec147132a41c06a9f76007d3af",
-   "title": "Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool",
-   "snippet": "Learn how to automate legacy web applications that need human-like interaction using Amazon Bedrock AgentCore Browser Tool and Strands Agents. This walkthrough covers a reference architecture for an AI-powered digital worker that drives legacy interfaces through secure, isolated browser sessions…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    },
-    {
-     "name": "XDA",
-     "domain": "xda-developers.com"
-    },
-    {
-     "name": "MakeUseOf",
-     "domain": "makeuseof.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-13T15:56:07Z",
-   "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
-   "id": "8ad8cdf20609a5f098ffbf35682e55a125ecb37cc42d07697f36b53825d9a87b",
-   "title": "Google is making private AI practical with homomorphic encryption",
+   "id": "80316ce1298193564bbfb35b8604d41a7efe6178c53d4d7d1111943fc7ab861d",
+   "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
    "snippet": null,
-   "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+   "url": "https://waku.sh",
    "sources": [
     {
      "name": "Hacker News",
@@ -1467,7 +1403,24 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-14T15:43:10Z",
+   "publishedAt": "2026-08-16T00:38:44Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "623bfefcef89120183c6c1caced482c29533acff8cefbe8e8f5d6171a41c8f20",
+   "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+   "snippet": null,
+   "url": "https://arxiv.org/abs/2608.13122",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-15T22:41:51Z",
    "imageURL": null,
    "signal": 83,
    "alert": false
@@ -1494,20 +1447,20 @@
    "alert": false
   },
   {
-   "id": "3b81110dcd9b3a7b4bc1d0c207caf573e1376e879f67abb41f902421726d952d",
-   "title": "CORS Chat",
-   "snippet": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option…",
-   "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+   "id": "8ad8cdf20609a5f098ffbf35682e55a125ecb37cc42d07697f36b53825d9a87b",
+   "title": "Google is making private AI practical with homomorphic encryption",
+   "snippet": null,
+   "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
    "sources": [
     {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-15T14:49:54Z",
+   "category": "tools",
+   "publishedAt": "2026-08-14T15:43:10Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1527,6 +1480,40 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-14T16:39:32Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
+   "id": "3b81110dcd9b3a7b4bc1d0c207caf573e1376e879f67abb41f902421726d952d",
+   "title": "CORS Chat",
+   "snippet": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option…",
+   "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-15T14:49:54Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
+   "id": "70905d06e144be0a9c922226d0b3490ea7c4d5ff05d90d58aba139273c1c325d",
+   "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
+   "snippet": null,
+   "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T12:54:31Z",
    "imageURL": null,
    "signal": 82,
    "alert": false
@@ -1604,6 +1591,23 @@
    "category": "tools",
    "publishedAt": "2026-08-14T18:52:48Z",
    "imageURL": null,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "19c58a1874b6eb0b8e8c470c81929d13e4c2a86bc116143cf56981db6d39e6d6",
+   "title": "AI is not just one bubble, strategist says – but a 'rolling sequence of bubbles'",
+   "snippet": null,
+   "url": "https://fortune.com/2026/08/16/ai-bubble-sequence-saas-software-stocks-silver-prices-chipmakers/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T18:05:39Z",
+   "imageURL": null,
    "signal": 81,
    "alert": false
   },
@@ -1641,23 +1645,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T03:03:16Z",
-   "imageURL": null,
-   "signal": 81,
-   "alert": false
-  },
-  {
-   "id": "70905d06e144be0a9c922226d0b3490ea7c4d5ff05d90d58aba139273c1c325d",
-   "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
-   "snippet": null,
-   "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T12:54:31Z",
    "imageURL": null,
    "signal": 81,
    "alert": false
@@ -1705,6 +1692,23 @@
    "category": "tools",
    "publishedAt": "2026-08-13T17:23:22Z",
    "imageURL": null,
+   "signal": 81,
+   "alert": false
+  },
+  {
+   "id": "78559cf0d7c615037612bfa49eef443492eba4f9e2ccda9506508743a90d83ad",
+   "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+   "snippet": "Interactive world models must support persistent memory, responsive interaction, and long-horizon generation, yet these requirements place conflicting demands on the model. Maintaining history in the denoiser context or key-value cache incurs growing cost, forcing a trade-off between session length and retained memory, while low-latency interaction relies on few-step generation whose capabilities are bounded by its teacher. Evoke addresses both limitations by externalizing persistent world state and redesigning the teacher for long-horizon interactive generation. Scene geometry is maintained in an external, camera-indexed world state bank, from which only view-relevant information is retrieved, keeping the denoiser context bounded as the session grows. Rather than treating the teacher as a fixed generator, we design it for long-horizon supervision: its sparse attention combines chunk-wise grouping, retrieval of selected distant frames, and a linear-attention global state, yielding linear growth in memory and compute while enabling supervision over long horizons. Such supervision exposes content drift that stays locally plausible within short windows, while per-chunk conditioning enables prompt changes and event control throughout the sequence. A 30-second distribution-matching objective, applied under self-forced rollouts, transfers both capabilities to a three-step student that uses no classifier-free guidance, improving resistance to long-term drift while preserving responsive conditioning. With bounded context and recurrent external memory, Evoke supports open-ended, continuously evolving generation; on a single H200 at 384times 640, each 1.5,s chunk is generated in 2.11,s. As a three-step world model, Evoke achieves state-of-the-art performance on WBench while remaining competitive on VBench-Long and VBench-2.0.",
+   "url": "https://huggingface.co/papers/2608.13546",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
    "signal": 80,
    "alert": false
   },
@@ -1721,23 +1725,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-15T03:22:00Z",
-   "imageURL": null,
-   "signal": 80,
-   "alert": false
-  },
-  {
-   "id": "78559cf0d7c615037612bfa49eef443492eba4f9e2ccda9506508743a90d83ad",
-   "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
-   "snippet": "Interactive world models must support persistent memory, responsive interaction, and long-horizon generation, yet these requirements place conflicting demands on the model. Maintaining history in the denoiser context or key-value cache incurs growing cost, forcing a trade-off between session length and retained memory, while low-latency interaction relies on few-step generation whose capabilities are bounded by its teacher. Evoke addresses both limitations by externalizing persistent world state and redesigning the teacher for long-horizon interactive generation. Scene geometry is maintained in an external, camera-indexed world state bank, from which only view-relevant information is retrieved, keeping the denoiser context bounded as the session grows. Rather than treating the teacher as a fixed generator, we design it for long-horizon supervision: its sparse attention combines chunk-wise grouping, retrieval of selected distant frames, and a linear-attention global state, yielding linear growth in memory and compute while enabling supervision over long horizons. Such supervision exposes content drift that stays locally plausible within short windows, while per-chunk conditioning enables prompt changes and event control throughout the sequence. A 30-second distribution-matching objective, applied under self-forced rollouts, transfers both capabilities to a three-step student that uses no classifier-free guidance, improving resistance to long-term drift while preserving responsive conditioning. With bounded context and recurrent external memory, Evoke supports open-ended, continuously evolving generation; on a single H200 at 384times 640, each 1.5,s chunk is generated in 2.11,s. As a three-step world model, Evoke achieves state-of-the-art performance on WBench while remaining competitive on VBench-Long and VBench-2.0.",
-   "url": "https://huggingface.co/papers/2608.13546",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
    "signal": 80,
    "alert": false
@@ -1777,23 +1764,6 @@
    "alert": false
   },
   {
-   "id": "59b40633ecf2f26730d53dfc3a1a490e490a2457b90e6adafb50014dc16ab594",
-   "title": "Choosing an AI model: one prompt, 11 models, different results",
-   "snippet": null,
-   "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T13:05:29Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
    "id": "23be1c8a10c016b60ce614b44eb03457262d5ac1f4a52aaae9fa56726448db38",
    "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
    "snippet": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark…",
@@ -1806,6 +1776,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-14T15:43:28Z",
+   "imageURL": null,
+   "signal": 80,
+   "alert": false
+  },
+  {
+   "id": "59b40633ecf2f26730d53dfc3a1a490e490a2457b90e6adafb50014dc16ab594",
+   "title": "Choosing an AI model: one prompt, 11 models, different results",
+   "snippet": null,
+   "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T13:05:29Z",
    "imageURL": null,
    "signal": 79,
    "alert": false
@@ -1879,7 +1866,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T14:00:00Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1955,20 +1942,20 @@
    "alert": false
   },
   {
-   "id": "08315995f7290e31447f434788457dba651af9ccd206ca262ecf8180fcd6ffff",
-   "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
-   "snippet": null,
-   "url": "https://hashagent.pages.dev/",
+   "id": "70e8d5a6785496605ad014fe5ac53c1fc118c9d5d53588874c238d71e59bcccf",
+   "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
+   "snippet": "Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants. To improve the spatial reasoning ability of VLM agents, existing work has mainly followed two lines. One line uses post-training methods, such as supervised fine-tuning and reinforcement learning. Another line adopts an agentic paradigm in which the model calls external spatial tools, such as depth estimation and 3D reconstruction tools, to gather intermediate spatial evidence. We study a complementary and underexplored route: Can a frozen VLM agent improve its spatial reasoning through parameter-update-free self-evolution, without depending on external expert spatial tools at inference time? We present Spatial Memory Agent (SMA), an experience-grounded runtime framework that converts verified spatial experience into reusable transferable lessons. In a verifiable spatial environment, SMA queries the frozen VLM, obtains a predicted answer and reward, and uses verifier-guided reflection to distill compact transferable lessons from spatial experience. SMA further assigns each lesson a Transfer Reliability Score (TRS), which is initialized uniformly and calibrated from later retrieval outcomes as visit evidence of future transfer reliability. During read-only deployment, SMA retrieves lessons by semantic filter and similarity-TRS combined ranking, allowing the retrieved memory to guide frozen model inference. Across five representative spatial benchmarks and four base VLMs, SMA achieves the highest macro average in every base-model block and the best accuracy among the evaluated methods in most of the 20 evaluations, establishing a practical parameter-update-free path for spatial self-evolution across the evaluated frozen model scales and environments.",
+   "url": "https://huggingface.co/papers/2608.12743",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T12:57:02Z",
+   "category": "research",
+   "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1984,23 +1971,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-14T21:54:35Z",
-   "imageURL": null,
-   "signal": 77,
-   "alert": false
-  },
-  {
-   "id": "70e8d5a6785496605ad014fe5ac53c1fc118c9d5d53588874c238d71e59bcccf",
-   "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
-   "snippet": "Spatial intelligence is becoming a foundation for embodied agents, robotic planning, and multimodal assistants. To improve the spatial reasoning ability of VLM agents, existing work has mainly followed two lines. One line uses post-training methods, such as supervised fine-tuning and reinforcement learning. Another line adopts an agentic paradigm in which the model calls external spatial tools, such as depth estimation and 3D reconstruction tools, to gather intermediate spatial evidence. We study a complementary and underexplored route: Can a frozen VLM agent improve its spatial reasoning through parameter-update-free self-evolution, without depending on external expert spatial tools at inference time? We present Spatial Memory Agent (SMA), an experience-grounded runtime framework that converts verified spatial experience into reusable transferable lessons. In a verifiable spatial environment, SMA queries the frozen VLM, obtains a predicted answer and reward, and uses verifier-guided reflection to distill compact transferable lessons from spatial experience. SMA further assigns each lesson a Transfer Reliability Score (TRS), which is initialized uniformly and calibrated from later retrieval outcomes as visit evidence of future transfer reliability. During read-only deployment, SMA retrieves lessons by semantic filter and similarity-TRS combined ranking, allowing the retrieved memory to guide frozen model inference. Across five representative spatial benchmarks and four base VLMs, SMA achieves the highest macro average in every base-model block and the best accuracy among the evaluated methods in most of the 20 evaluations, establishing a practical parameter-update-free path for spatial self-evolution across the evaluated frozen model scales and environments.",
-   "url": "https://huggingface.co/papers/2608.12743",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
    "signal": 77,
    "alert": false
@@ -2040,6 +2010,23 @@
    "alert": false
   },
   {
+   "id": "08315995f7290e31447f434788457dba651af9ccd206ca262ecf8180fcd6ffff",
+   "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
+   "snippet": null,
+   "url": "https://hashagent.pages.dev/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-14T12:57:02Z",
+   "imageURL": null,
+   "signal": 77,
+   "alert": false
+  },
+  {
    "id": "8d52fea70f4736aeff0948065b9bdb15f7fec3637e2b3c9c5da0bbfe0eac2b2e",
    "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
    "snippet": "Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model weights but also on the skills, context, action interfaces, and execution harness surrounding the model. While supervised fine-tuning and reinforcement learning can adapt agents to new environments, they require additional data, rewards, and training runs; meanwhile, many train-free code-centric approaches rely on programmable robot APIs that may be unavailable in fixed-interface settings. We propose SHAPER, a self-evolving framework for train-free embodied adaptation that keeps model parameters frozen and improves the non-parametric agent system by evolving reusable skills and a context-code harness through target-environment rollouts. In SHAPER, the same frozen model can serve as both planner and optimizer, refining its external skills and context-code harness without parameter updates. We evaluate SHAPER on VLABench and ESI-Bench, covering embodied agents with different low-level action interfaces, and compare against pure execution, supervised fine-tuning, and test-time-scaling baselines such as verifier-free selection and voting. Our results suggest that skill-and-harness optimization is a practical route to self-evolving embodied agents when model training is expensive, unavailable, or undesirable.",
@@ -2057,24 +2044,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 76,
-   "alert": false
-  },
-  {
-   "id": "93af4f37b45128748cb0d777f43aed839e860cf4b257c82b401dad1f82843a40",
-   "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
-   "snippet": null,
-   "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T14:22:39Z",
-   "imageURL": null,
-   "signal": 76,
+   "signal": 77,
    "alert": false
   },
   {
@@ -2090,23 +2060,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
-   "imageURL": null,
-   "signal": 76,
-   "alert": false
-  },
-  {
-   "id": "ef6e31b77c28644dc2f143dee2cd1bb7f75f5b47656fc7cd89253af53212826c",
-   "title": "Codex in ChatGPT desktop app for Linux is now in preview",
-   "snippet": null,
-   "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T04:53:41Z",
    "imageURL": null,
    "signal": 76,
    "alert": false
@@ -2129,6 +2082,23 @@
    "alert": false
   },
   {
+   "id": "ef6e31b77c28644dc2f143dee2cd1bb7f75f5b47656fc7cd89253af53212826c",
+   "title": "Codex in ChatGPT desktop app for Linux is now in preview",
+   "snippet": null,
+   "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T04:53:41Z",
+   "imageURL": null,
+   "signal": 76,
+   "alert": false
+  },
+  {
    "id": "ac19fc1cc3a0a9154fac254928af82bcaf1f3ff6d05f511aaa102c3ea0030fd2",
    "title": "Mark Zuckerberg has an Instagzam",
    "snippet": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do…",
@@ -2142,14 +2112,14 @@
    "category": "models",
    "publishedAt": "2026-08-14T16:54:16Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
-   "id": "40d31e46b2204daeb6e2adcec93098623e86250e02ff3292390a75d600f04d63",
-   "title": "Show HN: Widen, a native Postgres GUI using Apple's on-device LLM",
+   "id": "93af4f37b45128748cb0d777f43aed839e860cf4b257c82b401dad1f82843a40",
+   "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
    "snippet": null,
-   "url": "https://github.com/betocmn/widen",
+   "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
    "sources": [
     {
      "name": "Hacker News",
@@ -2157,9 +2127,9 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T02:35:51Z",
+   "publishedAt": "2026-08-14T14:22:39Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2175,23 +2145,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-14T14:05:00Z",
-   "imageURL": null,
-   "signal": 75,
-   "alert": false
-  },
-  {
-   "id": "f38d5471684be968773bc812c1f12234508cee75365852bde88acaee467aab31",
-   "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-   "snippet": null,
-   "url": "https://www.codewithbullet.com",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T08:14:30Z",
    "imageURL": null,
    "signal": 75,
    "alert": false
@@ -2227,7 +2180,24 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "f38d5471684be968773bc812c1f12234508cee75365852bde88acaee467aab31",
+   "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+   "snippet": null,
+   "url": "https://www.codewithbullet.com",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T08:14:30Z",
+   "imageURL": null,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2244,7 +2214,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T21:42:38Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2260,23 +2230,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-13T21:13:24Z",
-   "imageURL": null,
-   "signal": 74,
-   "alert": false
-  },
-  {
-   "id": "e6ff31bf972841a7ae1cfb1f4d8ccf4b04f9c0563add5c89392d3b50e81d1912",
-   "title": "Text AI watermarks will always be trivial to remove",
-   "snippet": null,
-   "url": "https://www.seangoedecke.com/text-ai-watermarks/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T15:07:10Z",
    "imageURL": null,
    "signal": 74,
    "alert": false
@@ -2299,23 +2252,6 @@
    "alert": false
   },
   {
-   "id": "21203a15a22ffd95a2a10a5d593940f5cf4f76c859aea1e965e09a799a4c97b3",
-   "title": "llm-gemini 0.33",
-   "snippet": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also…",
-   "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-13T19:37:34Z",
-   "imageURL": null,
-   "signal": 73,
-   "alert": false
-  },
-  {
    "id": "89df3427e525131aaaac50888389b5a09475c7e1001e5ab9fb1744efb73cc88b",
    "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
    "snippet": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
@@ -2333,6 +2269,57 @@
    "category": "models",
    "publishedAt": "2026-08-11T17:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp",
+   "signal": 74,
+   "alert": false
+  },
+  {
+   "id": "21203a15a22ffd95a2a10a5d593940f5cf4f76c859aea1e965e09a799a4c97b3",
+   "title": "llm-gemini 0.33",
+   "snippet": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also…",
+   "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-13T19:37:34Z",
+   "imageURL": null,
+   "signal": 74,
+   "alert": false
+  },
+  {
+   "id": "e6ff31bf972841a7ae1cfb1f4d8ccf4b04f9c0563add5c89392d3b50e81d1912",
+   "title": "Text AI watermarks will always be trivial to remove",
+   "snippet": null,
+   "url": "https://www.seangoedecke.com/text-ai-watermarks/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T15:07:10Z",
+   "imageURL": null,
+   "signal": 73,
+   "alert": false
+  },
+  {
+   "id": "40d31e46b2204daeb6e2adcec93098623e86250e02ff3292390a75d600f04d63",
+   "title": "Show HN: Widen, a native Postgres GUI using Apple's on-device LLM",
+   "snippet": null,
+   "url": "https://github.com/betocmn/widen",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T02:35:51Z",
+   "imageURL": null,
    "signal": 73,
    "alert": false
   },
@@ -2439,23 +2426,6 @@
    "alert": false
   },
   {
-   "id": "b751336a146d13c75715ed1266eea9d975406556b68b756ffb3763cee6af6864",
-   "title": "AI At Home Part 1: A Box Of Scraps",
-   "snippet": null,
-   "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T16:22:05Z",
-   "imageURL": null,
-   "signal": 72,
-   "alert": false
-  },
-  {
    "id": "3b858e49f89e53c25a39fb4b1ee54390a88d6dace0334b0f1c2e4129eb94d4ab",
    "title": "TraVEL: Trajectory-Guided Video Embedding Learning for Driving-Video Retrieval",
    "snippet": "Efficiently retrieving relevant clips from large-scale driving logs is essential for data curation, model development, and safety analysis. Structured and rule-based retrieval systems can explicitly target driving events, but typically require expert-defined rules, auxiliary data, and multi-stage…",
@@ -2485,6 +2455,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-13T17:16:04Z",
+   "imageURL": null,
+   "signal": 72,
+   "alert": false
+  },
+  {
+   "id": "f9380600cd78c4bc96e2c9bb7c6a320dd9e597fa7fc12f0f8709fbe3499b1429",
+   "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+   "snippet": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attention layers, giving rise to inter-spike plateaus (ISP). As full attention becomes denser, successive PAS become increasingly connected through ISP, ultimately recovering the stable MA morphology of full attention LLMs. We establish the recurrence of this organization across five linear attention architectures, six hybridization configurations, five data domains, and representative open-source hybrid models spanning 1.2B to 397B total parameters. Controlled pretraining of GDN-based hybrids at scales up to 1.3B shows that both morphologies emerge early and respond asymmetrically to output gating: full attention output gating strongly attenuates their absolute magnitudes without eliminating their layerwise organization, whereas removing GDN gates yields comparatively modest amplification. Mechanistically, our systematic-outlier analysis supports a shared lifecycle account governed by the timing of MA cancellation. PAS follows a localized write-sink-cancel process, while the extended persistence of ISP is consistent with delayed cancellation. At the full attention limit, this account recovers the stable MA morphology characteristic of full attention LLMs. Our code is available at https://github.com/StartluxLabs/Massive-Activations-HLA.",
+   "url": "https://huggingface.co/papers/2608.12149",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
    "signal": 71,
    "alert": false
@@ -2524,23 +2511,6 @@
    "alert": false
   },
   {
-   "id": "f9380600cd78c4bc96e2c9bb7c6a320dd9e597fa7fc12f0f8709fbe3499b1429",
-   "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
-   "snippet": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attention layers, giving rise to inter-spike plateaus (ISP). As full attention becomes denser, successive PAS become increasingly connected through ISP, ultimately recovering the stable MA morphology of full attention LLMs. We establish the recurrence of this organization across five linear attention architectures, six hybridization configurations, five data domains, and representative open-source hybrid models spanning 1.2B to 397B total parameters. Controlled pretraining of GDN-based hybrids at scales up to 1.3B shows that both morphologies emerge early and respond asymmetrically to output gating: full attention output gating strongly attenuates their absolute magnitudes without eliminating their layerwise organization, whereas removing GDN gates yields comparatively modest amplification. Mechanistically, our systematic-outlier analysis supports a shared lifecycle account governed by the timing of MA cancellation. PAS follows a localized write-sink-cancel process, while the extended persistence of ISP is consistent with delayed cancellation. At the full attention limit, this account recovers the stable MA morphology characteristic of full attention LLMs. Our code is available at https://github.com/StartluxLabs/Massive-Activations-HLA.",
-   "url": "https://huggingface.co/papers/2608.12149",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-12T00:00:00Z",
-   "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
    "id": "e546c9507c4bdece8e78a9938c5519585e0b65f749ccceed110f32b1026fe6bd",
    "title": "Bring your spreadsheet data to life with Sheets canvas",
    "snippet": "Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
@@ -2554,6 +2524,23 @@
    "category": "models",
    "publishedAt": "2026-08-13T16:45:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
+   "signal": 71,
+   "alert": false
+  },
+  {
+   "id": "b751336a146d13c75715ed1266eea9d975406556b68b756ffb3763cee6af6864",
+   "title": "AI At Home Part 1: A Box Of Scraps",
+   "snippet": null,
+   "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T16:22:05Z",
+   "imageURL": null,
    "signal": 71,
    "alert": false
   },
@@ -2587,23 +2574,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-13T15:48:15Z",
-   "imageURL": null,
-   "signal": 70,
-   "alert": false
-  },
-  {
-   "id": "1f4b5a6f6647514e22fcbde02556308bafc5792ff4c863267ca243a259b2849a",
-   "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
-   "snippet": null,
-   "url": "https://arxiv.org/abs/2608.12700",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T16:57:14Z",
    "imageURL": null,
    "signal": 70,
    "alert": false
@@ -2643,6 +2613,23 @@
    "alert": false
   },
   {
+   "id": "c1def19a79a6afb426558828ec1bf894b10f7c21b44bc9acc91a3dfed9db3cec",
+   "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
+   "snippet": "Long-horizon LLM agents must preserve information from past interactions to support future tasks. Existing memory systems typically rely on eager consolidation, invoking LLMs after each interaction to extract, summarize, or update memories. This design makes memory construction increasingly costly as conversations grow. Coarse summarization can reduce construction cost but risks discarding fine-grained contextual evidence, whereas larger retrieval contexts or multi-hop LLM reasoning shift the overhead to query time. We present LycheeMemory V2, an efficient long-term memory framework that replaces turn-level consolidation with semantic segment-level consolidation. Instead of consolidating every interaction, LycheeMemory batches multiple exchanges into segments and encodes each finalized segment into context-independent typed memory records. Segment-level batching lowers LLM encoding frequency, while semantic boundary detection helps preserve coherent event-level and temporal evidence compared with fixed-window batching. The resulting records are organized with lightweight structured indexes for query-planned evidence retrieval. Experiments using GPT-4.1-Mini show that LycheeMemory achieves state-of-the-art performance, reaching 89.22% on LoCoMo and 92.20% on LongMemEval-S. Compared with A-Mem, it reduces construction tokens by 86.0% on LoCoMo and 75.9% on LongMemEval-S without increasing query-time token usage. More broadly, our results suggest that the accuracy--cost trade-off of long-term agent memory depends not only on what information is retained, but also on the granularity at which it is consolidated.",
+   "url": "https://huggingface.co/papers/2608.12990",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
+   "signal": 70,
+   "alert": false
+  },
+  {
    "id": "8c9036c9e0f0cff78118ce90ea3f16d8b3be66ca20712fadb922a35b9f8722d3",
    "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
    "snippet": null,
@@ -2660,18 +2647,18 @@
    "alert": false
   },
   {
-   "id": "c1def19a79a6afb426558828ec1bf894b10f7c21b44bc9acc91a3dfed9db3cec",
-   "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
-   "snippet": "Long-horizon LLM agents must preserve information from past interactions to support future tasks. Existing memory systems typically rely on eager consolidation, invoking LLMs after each interaction to extract, summarize, or update memories. This design makes memory construction increasingly costly as conversations grow. Coarse summarization can reduce construction cost but risks discarding fine-grained contextual evidence, whereas larger retrieval contexts or multi-hop LLM reasoning shift the overhead to query time. We present LycheeMemory V2, an efficient long-term memory framework that replaces turn-level consolidation with semantic segment-level consolidation. Instead of consolidating every interaction, LycheeMemory batches multiple exchanges into segments and encodes each finalized segment into context-independent typed memory records. Segment-level batching lowers LLM encoding frequency, while semantic boundary detection helps preserve coherent event-level and temporal evidence compared with fixed-window batching. The resulting records are organized with lightweight structured indexes for query-planned evidence retrieval. Experiments using GPT-4.1-Mini show that LycheeMemory achieves state-of-the-art performance, reaching 89.22% on LoCoMo and 92.20% on LongMemEval-S. Compared with A-Mem, it reduces construction tokens by 86.0% on LoCoMo and 75.9% on LongMemEval-S without increasing query-time token usage. More broadly, our results suggest that the accuracy--cost trade-off of long-term agent memory depends not only on what information is retained, but also on the granularity at which it is consolidated.",
-   "url": "https://huggingface.co/papers/2608.12990",
+   "id": "1f4b5a6f6647514e22fcbde02556308bafc5792ff4c863267ca243a259b2849a",
+   "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
+   "snippet": null,
+   "url": "https://arxiv.org/abs/2608.12700",
    "sources": [
     {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "research",
-   "publishedAt": "2026-08-13T00:00:00Z",
+   "category": "tools",
+   "publishedAt": "2026-08-14T16:57:14Z",
    "imageURL": null,
    "signal": 69,
    "alert": false
@@ -2694,23 +2681,6 @@
    "alert": false
   },
   {
-   "id": "bc290ba394fd0d9149bf5cc4c18c982babca081925fc413d9da2b9ba7a12002f",
-   "title": "State of Open Models: Summer 2026 Observations",
-   "snippet": null,
-   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-14T00:00:00Z",
-   "imageURL": null,
-   "signal": 69,
-   "alert": false
-  },
-  {
    "id": "9bafa93fe08b847d5d92140912eaaad9a7a6da1c55940aa1439e6fdd8c2d3c44",
    "title": "How RingCentral builds AI-native work from engineering to ops",
    "snippet": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
@@ -2727,6 +2697,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-12T00:00:00Z",
+   "imageURL": null,
+   "signal": 69,
+   "alert": false
+  },
+  {
+   "id": "bc290ba394fd0d9149bf5cc4c18c982babca081925fc413d9da2b9ba7a12002f",
+   "title": "State of Open Models: Summer 2026 Observations",
+   "snippet": null,
+   "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
    "signal": 69,
    "alert": false
@@ -3169,23 +3156,6 @@
    "alert": false
   },
   {
-   "id": "d32c0bf04e2be3095c4643d40ed55b0940f3fccabc840095d15b52755c8a75f7",
-   "title": "Class Is in Session: GeForce NOW Levels Up Linux, Chromebooks and More",
-   "snippet": "GeForce NOW is giving cloud gaming an extra-credit upgrade just in time for back-to-school season. The native Linux app for GeForce NOW is officially out of beta. GeForce NOW is also delivering new cloud optimizations that make Frame Generation feel even more responsive while streaming. On top of…",
-   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-linux-native-app/",
-   "sources": [
-    {
-     "name": "NVIDIA",
-     "domain": "blogs.nvidia.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T13:00:33Z",
-   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-13-blog-1920x1080-logo.jpg",
-   "signal": 63,
-   "alert": false
-  },
-  {
    "id": "6c4c921c5150088046a1717fa780a4e8a4e39833830b64529ae818b226344451",
    "title": "Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models",
    "snippet": "Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap in a single forward pass without per-scene optimization, achieving strong generalization. However, enforcing explicit multi-view geometric consistency, e.g., through bundle adjustment, is computationally costly and is thus not imposed during VFM pretraining, so such inconsistency can arise. To address this, implicit self-consistency derived from model outputs (e.g., pointmaps, features), though enforced at test-time in prior work, delivers inherently limited performance gain, especially on scenes where the pretrained VFM is highly inaccurate. In contrast to this implicit signal, we propose Self-Geometry, a plug-and-play test-time adaptation pipeline that directly imposes explicit multi-view geometric constraints using 2D pixel correspondences as pseudo ground-truth. Our proposed Self-Geometry consists of Geometric Disentanglement Optimization, which combines Multi-View Consistency and Epipolar Consistency losses with Gradient Disentanglement to prevent gradient conflict; Frame Angular-Neighbor, a view sampler based on SO(3) geodesic distances for lightly imposing these constraints; and Lightweight TTA, which adapts VFMs via LoRA. Our method achieves consistent improvements in both pose and geometry estimation across six VFMs (VGGT, π^3, DA3-Giant/Large/Base/Small) and four benchmarks (7Scenes, ETH3D, ScanNet++, HiRoom).",
@@ -3199,6 +3169,23 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
+   "signal": 63,
+   "alert": false
+  },
+  {
+   "id": "d32c0bf04e2be3095c4643d40ed55b0940f3fccabc840095d15b52755c8a75f7",
+   "title": "Class Is in Session: GeForce NOW Levels Up Linux, Chromebooks and More",
+   "snippet": "GeForce NOW is giving cloud gaming an extra-credit upgrade just in time for back-to-school season. The native Linux app for GeForce NOW is officially out of beta. GeForce NOW is also delivering new cloud optimizations that make Frame Generation feel even more responsive while streaming. On top of…",
+   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-linux-native-app/",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "domain": "blogs.nvidia.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T13:00:33Z",
+   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-13-blog-1920x1080-logo.jpg",
    "signal": 63,
    "alert": false
   },
@@ -3220,23 +3207,6 @@
    "alert": false
   },
   {
-   "id": "00fddd522fad501a98f375cc3ffb26379b769eb0d9d26ab1c1dfd45f2b9d22de",
-   "title": "Claude's new Scarlet Letter watermark is invisible—for now",
-   "snippet": "The mark flags anything Claude processed, even human writing it only edited.",
-   "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T11:10:18Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg",
-   "signal": 63,
-   "alert": false
-  },
-  {
    "id": "8ce9f137579cbf5f1ee557b278298021e3b49726e3be3025d3072279863eacd8",
    "title": "Quoting Florian Herrengt",
    "snippet": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually…",
@@ -3250,6 +3220,23 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T15:08:47Z",
    "imageURL": null,
+   "signal": 63,
+   "alert": false
+  },
+  {
+   "id": "00fddd522fad501a98f375cc3ffb26379b769eb0d9d26ab1c1dfd45f2b9d22de",
+   "title": "Claude's new Scarlet Letter watermark is invisible—for now",
+   "snippet": "The mark flags anything Claude processed, even human writing it only edited.",
+   "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T11:10:18Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg",
    "signal": 63,
    "alert": false
   },
@@ -3628,23 +3615,6 @@
    "alert": false
   },
   {
-   "id": "249a5e1ede4df4c078023a6f0eb49ede54fb5bdd187586ea50eee351b3c1007c",
-   "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-   "snippet": null,
-   "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-12T16:14:36Z",
-   "imageURL": null,
-   "signal": 58,
-   "alert": false
-  },
-  {
    "id": "de797b2bad9d5be7db9881efde5f367de52b9566f291cd8f0d81fe612caf38c0",
    "title": "Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning",
    "snippet": "The world evolves following its dynamics, i.e., its laws of motion. However, leading video diffusion models largely fit the pixels without modeling how the pixels transit over time. Thus, they render visually plausible frames but may not accurately obey the laws. To capture the dynamics purely from pixels, we introduce Latent Dynamics Reasoning (LDR). LDR casts the latent transition as an explicit kinematic integration, where the lower-order dynamics are integrated numerically and the model regresses only the third- and higher-order residual that drives the rollout. For this integration to extrapolate better, LDR runs it on a structured latent rather than dense convolutional features. Following PhyWorld, we validate LDR on a controlled white-box physics benchmark spanning five tasks (uniform motion, parabola, collision, bouncing, looming), focusing on out-of-distribution scenarios that reveal whether a model has truly learned the underlying dynamics. LDR extrapolates the learned dynamics far better: the gap between its in- and out-of-distribution error is over 20times smaller than the video diffusion baseline's, under both single- and joint-task training at 256^2 resolution, while using 26times fewer parameters and running 143times faster. LDR can even generalize under severe shift: for example, trained only on red balls moving left-to-right, it correctly predicts the motion of a blue square moving right-to-left. To our knowledge, this is the first video world model that extrapolates learned dynamics beyond its training distribution. Project page: https://lat-dyn-reason.github.io/",
@@ -3657,6 +3627,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
+   "signal": 58,
+   "alert": false
+  },
+  {
+   "id": "249a5e1ede4df4c078023a6f0eb49ede54fb5bdd187586ea50eee351b3c1007c",
+   "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+   "snippet": null,
+   "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-12T16:14:36Z",
    "imageURL": null,
    "signal": 58,
    "alert": false
@@ -4091,23 +4078,6 @@
    "alert": false
   },
   {
-   "id": "32bc4b8d7d79ba6daa574e41f59b048a4688471157c135ef1c7a234b4399ae84",
-   "title": "OpenAI is losing its second executive this week",
-   "snippet": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she said in a team note posted to LinkedIn. Dali Rajic, president and COO of Wiz,…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T19:28:39Z",
-   "imageURL": null,
-   "signal": 53,
-   "alert": false
-  },
-  {
    "id": "685d960aab52aa9a29dd24efb6ba7d9315c2261d003fd95b6de31163d5b6c27e",
    "title": "From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs",
    "snippet": "Large audio-language models (LALMs) have demonstrated strong capabilities in understanding diverse audio inputs. This diversity includes low-frequency signals that are inaudible to humans but can still enter the model and influence its generation. However, the practical impact of such low-frequency inputs on LALMs remains largely unexplored. In this paper, we propose Intermittent Low-Frequency Lockout (ILL), an inaudible red teaming method that evaluates this risk using a universal waveform template in a black box setting. ILL uses Sentence Attention Scale Estimation to determine active intervals and Frequency Confusion Transfer to construct a low-frequency waveform with continuous phase from corpus spectral variation. To mitigate this risk, we propose Distributional Requery Guard (DRG) to detect low-frequency distribution shifts and conditionally request a second recording for semantic recovery. Across six LALMs and multiple audio understanding tasks, ILL reduces accuracy by up to 67 percentage points while receiving a mean human audibility rating of 1.33, close to 1.17 for clean audio; DRG raises mean attacked accuracy from 28.5\\% to 46.1\\% after clean reacquisition. These findings identify a previously overlooked safety risk for LALMs and provide a foundation for future research on robust audio understanding.",
@@ -4120,6 +4090,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
+   "signal": 53,
+   "alert": false
+  },
+  {
+   "id": "32bc4b8d7d79ba6daa574e41f59b048a4688471157c135ef1c7a234b4399ae84",
+   "title": "OpenAI is losing its second executive this week",
+   "snippet": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she said in a team note posted to LinkedIn. Dali Rajic, president and COO of Wiz,…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T19:28:39Z",
    "imageURL": null,
    "signal": 52,
    "alert": false
@@ -4346,23 +4333,6 @@
    "alert": false
   },
   {
-   "id": "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669",
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "snippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T09:00:00Z",
-   "imageURL": null,
-   "signal": 50,
-   "alert": false
-  },
-  {
    "id": "0e82d8998833621ad9c9d4a868b3fa853ac8b7bff6ddfee6c0a999eed463befc",
    "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
    "snippet": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
@@ -4376,7 +4346,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4392,6 +4362,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
+   "signal": 49,
+   "alert": false
+  },
+  {
+   "id": "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669",
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "snippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T09:00:00Z",
    "imageURL": null,
    "signal": 49,
    "alert": false
@@ -4444,7 +4431,7 @@
    "category": "research",
    "publishedAt": "2026-08-09T14:57:11Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/61d577fe-7a20-4a72-8158-79ddbd2ec97e_3182x1790.png",
-   "signal": 48,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4529,7 +4516,7 @@
    "category": "models",
    "publishedAt": "2026-08-07T09:00:00Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4614,7 +4601,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-08T14:06:41Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4699,7 +4686,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4784,7 +4771,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T19:18:09Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4839,6 +4826,23 @@
    "alert": false
   },
   {
+   "id": "321af2fa263e633335f601622e8ebd12019499a7f53b944b7a92ddffe3a92ed7",
+   "title": "[AINews] Megakernels are so dead and so back",
+   "snippet": "A quiet day lets us highlight a Cursor launch and an engineering debate",
+   "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "domain": "latent.space"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-05T01:21:47Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!Gpou!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNw6xyYaUAA_BVO.jpg",
+   "signal": 44,
+   "alert": false
+  },
+  {
    "id": "852b8aca396645168ecc07d335abcbe42b63f04d43396471c33a32432f50a276",
    "title": "There are no lossless transformations of natural-language text",
    "snippet": "There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule…",
@@ -4856,23 +4860,6 @@
    "alert": false
   },
   {
-   "id": "321af2fa263e633335f601622e8ebd12019499a7f53b944b7a92ddffe3a92ed7",
-   "title": "[AINews] Megakernels are so dead and so back",
-   "snippet": "A quiet day lets us highlight a Cursor launch and an engineering debate",
-   "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-   "sources": [
-    {
-     "name": "Latent Space",
-     "domain": "latent.space"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-05T01:21:47Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!Gpou!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNw6xyYaUAA_BVO.jpg",
-   "signal": 43,
-   "alert": false
-  },
-  {
    "id": "4bf3719663bf4c01f8b37cea2b9ea20b95932a0be332050caac38c5263c7284b",
    "title": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
    "snippet": "NVIDIA is participating in the U.S. National Science Foundation’s (NSF) State and Regional Artificial Intelligence Infrastructure Hubs program, an effort launching today to expand access to the advanced computing, data, software and expertise needed for AI-enabled research and education. Consistent…",
@@ -4886,23 +4873,6 @@
    "category": "models",
    "publishedAt": "2026-08-04T16:00:56Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/regionalhubnsf.webp",
-   "signal": 43,
-   "alert": false
-  },
-  {
-   "id": "013cf06e857ce80e8c35cee5cc798d8411a0b5b9696bdfe840b80c5705f56dc0",
-   "title": "Evolve your marketing with new AI tools",
-   "snippet": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
-   "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-   "sources": [
-    {
-     "name": "Google AI",
-     "domain": "blog.google"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-10T14:30:00Z",
-   "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp",
    "signal": 43,
    "alert": false
   },
@@ -4941,6 +4911,23 @@
    "alert": false
   },
   {
+   "id": "013cf06e857ce80e8c35cee5cc798d8411a0b5b9696bdfe840b80c5705f56dc0",
+   "title": "Evolve your marketing with new AI tools",
+   "snippet": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+   "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+   "sources": [
+    {
+     "name": "Google AI",
+     "domain": "blog.google"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-10T14:30:00Z",
+   "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp",
+   "signal": 43,
+   "alert": false
+  },
+  {
    "id": "f2fd2516f26ac23135c7bbdac65dd21c65bf2382266948cc8666bb8f2d90b016",
    "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
    "snippet": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared AI Findings…",
@@ -4954,7 +4941,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:47Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-press-osaia-5518050-1280x680-r2.png",
-   "signal": 42,
+   "signal": 43,
    "alert": false
   },
   {
@@ -5039,7 +5026,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T15:02:06Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 42,
    "alert": false
   },
   {
@@ -5124,7 +5111,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T06:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 41,
    "alert": false
   },
   {
@@ -5209,7 +5196,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 40,
    "alert": false
   },
   {
@@ -5294,7 +5281,7 @@
    "category": "models",
    "publishedAt": "2026-08-03T00:00:00Z",
    "imageURL": null,
-   "signal": 38,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5379,7 +5366,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T15:00:47Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/ai-storage-fms-1920x1080-1.jpg",
-   "signal": 37,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5464,7 +5451,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T14:03:08Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/dff5e29d-7c81-4f81-a64b-10d9b9bbecbc_2856x1577.png",
-   "signal": 36,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5549,7 +5536,7 @@
    "category": "research",
    "publishedAt": "2026-07-30T16:00:00Z",
    "imageURL": null,
-   "signal": 35,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5634,7 +5621,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-29T23:32:12Z",
    "imageURL": "https://substackcdn.com/image/youtube/w_728,c_limit/L1hB6Nz16Fw",
-   "signal": 34,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5719,7 +5706,7 @@
    "category": "research",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 33,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5804,7 +5791,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-30T15:09:09Z",
    "imageURL": null,
-   "signal": 32,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5889,7 +5876,7 @@
    "category": "research",
    "publishedAt": "2026-07-29T09:00:00Z",
    "imageURL": null,
-   "signal": 31,
+   "signal": 32,
    "alert": false
   },
   {
@@ -5974,7 +5961,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-27T09:32:20Z",
    "imageURL": null,
-   "signal": 30,
+   "signal": 31,
    "alert": false
   },
   {
@@ -6059,7 +6046,7 @@
    "category": "research",
    "publishedAt": "2026-07-22T13:38:54Z",
    "imageURL": null,
-   "signal": 29,
+   "signal": 30,
    "alert": false
   },
   {
@@ -6144,7 +6131,7 @@
    "category": "research",
    "publishedAt": "2026-07-13T12:37:28Z",
    "imageURL": "https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w528-h297-n-nu-rw-lo",
-   "signal": 28,
+   "signal": 29,
    "alert": false
   },
   {
@@ -6233,7 +6220,7 @@
    "category": "models",
    "publishedAt": "2026-07-16T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp",
-   "signal": 27,
+   "signal": 28,
    "alert": false
   },
   {
@@ -6318,7 +6305,7 @@
    "category": "research",
    "publishedAt": "2026-07-19T00:00:00Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6403,7 +6390,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-15T00:00:00Z",
    "imageURL": null,
-   "signal": 25,
+   "signal": 26,
    "alert": false
   },
   {
@@ -7142,23 +7129,6 @@
    "alert": false
   },
   {
-   "id": "be26b2ee43c936169e77dee6d709670a6da92397c6b9d7315d6e56d3a818c174",
-   "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
-   "snippet": "Hand Pose Estimation (HPE) is a fundamental technology for various applications such as AR/VR and robotics. In these applications, the visibility of each hand joint in the image is crucial for assessing the reliability of estimation results under occlusion. However, most existing HPE methods output joint positions without explicitly indicating their visibility. Although some methods account for occlusion or visibility, visibility estimation has mainly been used as an auxiliary signal for improving pose estimation. To our knowledge, per-joint hand visibility estimation has not been systematically studied as a standalone task. In this work, we propose Hand Visibility Detector, a model for estimating the visibility of individual hand joints, and present the first systematic investigation of visibility estimation as an independent task. We show that leveraging the prior knowledge of HPE models pretrained on large-scale data as a backbone yields high performance in this task. We further demonstrate the utility of Hand Visibility Detector on a downstream task of 3D hand pose annotation via multi-view triangulation of 2D keypoints, showing that visibility-weighted triangulation reduces reprojection error. Our method is released as a ready-to-use package, and the code and demo are available at https://github.com/ryhara/hand_visibility_detector .",
-   "url": "https://huggingface.co/papers/2608.11574",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-12T00:00:00Z",
-   "imageURL": null,
-   "signal": 17,
-   "alert": false
-  },
-  {
    "id": "31775d7bc5032529ae2de841331612c827e3cbf196dbad8e6f3cbb055ee4108a",
    "title": "LLM Research Papers: The 2026 List (January to May)",
    "snippet": "A curated roundup of notable LLM research papers that came out this year",
@@ -7172,6 +7142,23 @@
    "category": "techniques",
    "publishedAt": "2026-06-06T11:16:22Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/8630eb02-eeac-4411-bef3-1865c1920b03_2912x1632.png",
+   "signal": 17,
+   "alert": false
+  },
+  {
+   "id": "be26b2ee43c936169e77dee6d709670a6da92397c6b9d7315d6e56d3a818c174",
+   "title": "Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands",
+   "snippet": "Hand Pose Estimation (HPE) is a fundamental technology for various applications such as AR/VR and robotics. In these applications, the visibility of each hand joint in the image is crucial for assessing the reliability of estimation results under occlusion. However, most existing HPE methods output joint positions without explicitly indicating their visibility. Although some methods account for occlusion or visibility, visibility estimation has mainly been used as an auxiliary signal for improving pose estimation. To our knowledge, per-joint hand visibility estimation has not been systematically studied as a standalone task. In this work, we propose Hand Visibility Detector, a model for estimating the visibility of individual hand joints, and present the first systematic investigation of visibility estimation as an independent task. We show that leveraging the prior knowledge of HPE models pretrained on large-scale data as a backbone yields high performance in this task. We further demonstrate the utility of Hand Visibility Detector on a downstream task of 3D hand pose annotation via multi-view triangulation of 2D keypoints, showing that visibility-weighted triangulation reduces reprojection error. Our method is released as a ready-to-use package, and the code and demo are available at https://github.com/ryhara/hand_visibility_detector .",
+   "url": "https://huggingface.co/papers/2608.11574",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-12T00:00:00Z",
+   "imageURL": null,
    "signal": 16,
    "alert": false
   },
