@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-08-16T18:56:20Z",
+ "generatedAt": "2026-08-16T19:21:37Z",
  "stories": [
   {
    "id": "d1ffa3c3838f7ff087ff9a98a156e50ae2693f1e05fba2c8381a13a171755fc4",
@@ -17,12 +17,12 @@
      "domain": "popsci.com"
     },
     {
-     "name": "Mashable",
-     "domain": "mashable.com"
-    },
-    {
      "name": "TechRadar",
      "domain": "techradar.com"
+    },
+    {
+     "name": "Mashable",
+     "domain": "mashable.com"
     },
     {
      "name": "The Conversation",
@@ -34,6 +34,23 @@
    "imageURL": null,
    "signal": 99,
    "alert": true
+  },
+  {
+   "id": "15d023cc990b17f70448810a077fddeb01e140417ec11a8b0efb63a34c13f108",
+   "title": "MathCode, Mathematical Coding Agent",
+   "snippet": null,
+   "url": "https://math-ai-org.github.io/mathcode/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T18:17:10Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": false
   },
   {
    "id": "3ebfc578b0b471b6a34134d38987cab4cddbaf476cc0a619529d2873938ad735",
@@ -53,13 +70,30 @@
    "alert": false
   },
   {
+   "id": "37c7006552c0e327080246e1035fe96bb46054796c8258195d961c15e69426dd",
+   "title": "Claude Watermark (Are We Screwed?) West Ham Score (A0YYuwFaGn)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9CWk5TV0Q5NEduTTJfbk5zT1pEVmU2TjYxeHo5X2RGcU8tdUdqMm1ZUVlJWng0SlR0VDduY013Zl9rNzBVOUd1MWJiZGVuSjF1RlBuLU02bmFjZw?oc=5",
+   "sources": [
+    {
+     "name": "Mshale",
+     "domain": "mshale.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T18:22:35Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
    "id": "f38fe0bec67ed2f9cafc55ca5fdf774ba856942b33ebc9cf78eac1dec740af1f",
    "title": "How AI Models From OpenAI and Anthropic Went Rogue",
    "snippet": null,
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPazlkZTZjNzd1TU1YblhrODI1OUk5cklNMGp6Rm9HWVA5VDU1eWVNRFV2eVJacnVUNE5XY1NKN0tsVWpjeVFST00telpTdTE0cEpVZGh3Sm5YYk14NjhjN09NODRsenFvcjNHbEppTW00R0VKY3F5T1VVelk4RXJKcTNqSXhPY1FSWm9CLW02NFk?oc=5",
    "sources": [
     {
-     "name": "wsj.com",
+     "name": "WSJ",
      "domain": "wsj.com"
     },
     {
@@ -70,7 +104,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T16:03:00Z",
    "imageURL": null,
-   "signal": 99,
+   "signal": 98,
    "alert": true
   },
   {
@@ -95,6 +129,40 @@
    "alert": true
   },
   {
+   "id": "5eba5262f7fab2d084e088d61b4197653016f456d0de092569bbe1eebd8fd1cd",
+   "title": "Prism AI Creative Award launched",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU01QVDd0R3Z1cGhYdDdXc2QxUjF3cy02MEVWVjJkRWVFVlRCNHJiT05lY0czX1R0TWNPaHhWcWZEZ3FLS3VXWlFyZFlvdE9sbTluTE8zQlJzMHQzLW1FcmVaNm1YdFQtSWpCR3lReDBlWVdFT0M0VXFiZDZGMnBERjVNdmNpeDd0bGI4R1pRaUp2enBU?oc=5",
+   "sources": [
+    {
+     "name": "thedailystar.net",
+     "domain": "thedailystar.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T16:53:47Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "966a6de40cac3675eb75a7f66f645e3e574a2cd457e5202c9345baa071c0ebce",
+   "title": "The HackerNoon Newsletter: Navigating Claude Code: The Full Workflow (8/16/2026)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWQU5KMmFpN0dudVJSY21sUjJ2NkFwSmVnd2ktY1RTbi1KSlBOS0JOS0t3THR3eHZPMjZCbFRsRHdvbjFGRFlpRDE3QmlkaEVaWnY2UXFR?oc=5",
+   "sources": [
+    {
+     "name": "HackerNoon",
+     "domain": "hackernoon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T16:20:22Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
    "id": "0c74819c08e9d12eb7ffb0e0b09d0e25a977a128f0a1504cf7490ba114b09f8b",
    "title": "Anthropic’s $7 billion Decart deal puts a spotlight on its little-known 23-year-old co-founder and chief scientist",
    "snippet": null,
@@ -112,25 +180,8 @@
    "category": "models",
    "publishedAt": "2026-08-16T17:44:00Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": true
-  },
-  {
-   "id": "966a6de40cac3675eb75a7f66f645e3e574a2cd457e5202c9345baa071c0ebce",
-   "title": "The HackerNoon Newsletter: Navigating Claude Code: The Full Workflow (8/16/2026)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWQU5KMmFpN0dudVJSY21sUjJ2NkFwSmVnd2ktY1RTbi1KSlBOS0JOS0t3THR3eHZPMjZCbFRsRHdvbjFGRFlpRDE3QmlkaEVaWnY2UXFR?oc=5",
-   "sources": [
-    {
-     "name": "hackernoon.com",
-     "domain": "hackernoon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-16T16:20:22Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": false
   },
   {
    "id": "c132c1e1c64dad92108c8aa05e50b4bca9b0823a6ea0f06acb2c5a74507e1b45",
@@ -146,24 +197,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T16:53:51Z",
    "imageURL": null,
-   "signal": 98,
-   "alert": false
-  },
-  {
-   "id": "680c909a59051a837aec4d587e96b2d9bb35310a1cf54aeba6333d504dd067d7",
-   "title": "Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaGdIdzNVMzJUdUpkLVFwVXZGSkZPRzBlM1lRaHNSdFNYS0YyVUZGYXhVbUZ4bmFVNFZCYkVha0J5NWU4akswT1ZWZTVlUDVrYzBvS0FJQld4dXp0Y256X3VJa2w3RTktZVJrS2VrY1FNZ0NhOXJfaTgtaWxhcHpnbzhWRzhXMEJ2YlhvOWx4dlFkN2hKUGpTUmF2cw?oc=5",
-   "sources": [
-    {
-     "name": "Business Insider",
-     "domain": "businessinsider.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T16:30:48Z",
-   "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": false
   },
   {
@@ -179,6 +213,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-16T14:44:55Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "680c909a59051a837aec4d587e96b2d9bb35310a1cf54aeba6333d504dd067d7",
+   "title": "Anthropic CEO Dario Amodei says the way for AI to win over the public is to 'actually' cure cancer",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaGdIdzNVMzJUdUpkLVFwVXZGSkZPRzBlM1lRaHNSdFNYS0YyVUZGYXhVbUZ4bmFVNFZCYkVha0J5NWU4akswT1ZWZTVlUDVrYzBvS0FJQld4dXp0Y256X3VJa2w3RTktZVJrS2VrY1FNZ0NhOXJfaTgtaWxhcHpnbzhWRzhXMEJ2YlhvOWx4dlFkN2hKUGpTUmF2cw?oc=5",
+   "sources": [
+    {
+     "name": "Business Insider",
+     "domain": "businessinsider.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T16:30:48Z",
    "imageURL": null,
    "signal": 97,
    "alert": false
@@ -214,7 +265,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T15:36:50Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -231,7 +282,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T18:08:00Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -247,23 +298,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T15:05:36Z",
-   "imageURL": null,
-   "signal": 97,
-   "alert": false
-  },
-  {
-   "id": "1798db6e7978c3ebf111aaa42b626d1cd60d60c2020c528a38ef53cbd4d49f3a",
-   "title": "Anthropic and OpenAI Revenues Soar, But a New Threat is Emerging",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQl9qUnJ0cUhkV3ZzRFo3THFTZGdSY1MtSkN4b3Z0dGl4bmNmZzNrSDBQaEpPQVB4ZkZqSWNvdV9WdktKQzVCbER2OUhNVlA5aUpnWTd3QTRZcFFEUXd0eXBJMUNCZUlhWldkb0Z4WkF0SE5DUS1GcTBfYmlrWldvN1FWaUJIMHpBaTJ2RlhpRHFqZFZPdXN2X3hqdFpBb2JZZU15dG96cGdYRmdqN2x5VXJHOEdZTHFEdEFSeVFrSHA?oc=5",
-   "sources": [
-    {
-     "name": "Benzinga",
-     "domain": "benzinga.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T17:46:30Z",
    "imageURL": null,
    "signal": 96,
    "alert": false
@@ -303,6 +337,23 @@
    "alert": false
   },
   {
+   "id": "1798db6e7978c3ebf111aaa42b626d1cd60d60c2020c528a38ef53cbd4d49f3a",
+   "title": "Anthropic and OpenAI Revenues Soar, But a New Threat is Emerging",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQl9qUnJ0cUhkV3ZzRFo3THFTZGdSY1MtSkN4b3Z0dGl4bmNmZzNrSDBQaEpPQVB4ZkZqSWNvdV9WdktKQzVCbER2OUhNVlA5aUpnWTd3QTRZcFFEUXd0eXBJMUNCZUlhWldkb0Z4WkF0SE5DUS1GcTBfYmlrWldvN1FWaUJIMHpBaTJ2RlhpRHFqZFZPdXN2X3hqdFpBb2JZZU15dG96cGdYRmdqN2x5VXJHOEdZTHFEdEFSeVFrSHA?oc=5",
+   "sources": [
+    {
+     "name": "Benzinga",
+     "domain": "benzinga.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T17:46:30Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
    "id": "bb31e14188abc24219eabd730c909058e3faecbc6378e652630b4c5187849ff9",
    "title": "Claude turns into Super App, adding web browser for Cowork",
    "snippet": null,
@@ -314,9 +365,9 @@
     }
    ],
    "category": "techniques",
-   "publishedAt": "2026-08-16T14:19:35Z",
+   "publishedAt": "2026-08-16T14:22:17Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
    "alert": false
   },
   {
@@ -332,23 +383,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-16T14:00:15Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "0f936c6ac0576220b3a2be46c2581d7a0df6ba10fbec0389e07447e2933cc240",
-   "title": "Show HN: A public AI whose memory is shared across all users",
-   "snippet": null,
-   "url": "https://wildstatic.com/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T13:21:45Z",
    "imageURL": null,
    "signal": 95,
    "alert": false
@@ -371,6 +405,23 @@
    "alert": false
   },
   {
+   "id": "0f936c6ac0576220b3a2be46c2581d7a0df6ba10fbec0389e07447e2933cc240",
+   "title": "Show HN: A public AI whose memory is shared across all users",
+   "snippet": null,
+   "url": "https://wildstatic.com/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T13:21:45Z",
+   "imageURL": null,
+   "signal": 94,
+   "alert": false
+  },
+  {
    "id": "0c3f628594cf6336fd80cd6fb37570c3a309b87c8c168c862a6d16fe19faa64d",
    "title": "Amanda Knox: A Chatbot’s False Confession",
    "snippet": null,
@@ -384,7 +435,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T12:08:06Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -401,7 +452,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T07:37:53Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -439,10 +490,10 @@
    "alert": false
   },
   {
-   "id": "cf5b87d94715d0914e5370e3195d5c39c44494feeb8ae14501a5d1381ed381ac",
-   "title": "A.I. Agents Are Taking Online Courses for Cheating Students",
+   "id": "96de4034aa8b8c65c726cc9ff6f3d888ddc964630c7bdedcebf4160170ebc981",
+   "title": "The AI store manager fired its first human",
    "snippet": null,
-   "url": "https://www.nytimes.com/2026/08/10/us/ai-cheating-online-degrees.html",
+   "url": "https://thenextweb.com/news/andon-market-luna-ai-store-manager-fires-employee",
    "sources": [
     {
      "name": "Hacker News",
@@ -450,26 +501,9 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T13:03:23Z",
+   "publishedAt": "2026-08-16T18:19:47Z",
    "imageURL": null,
-   "signal": 94,
-   "alert": false
-  },
-  {
-   "id": "78cba02c36d13f5742c73c0a734a453219e01fffbf8fd2b8056df7260bfad93b",
-   "title": "Russian missile uses Nvidia AI chip to help target Ukraine",
-   "snippet": null,
-   "url": "https://www.theregister.com/offbeat/2026/08/14/russian-missile-uses-nvidia-ai-chip-to-help-target-ukraine/5287976",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T16:47:40Z",
-   "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -486,7 +520,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T08:30:46Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -541,23 +575,6 @@
    "alert": false
   },
   {
-   "id": "be0bf495bb5ab34f3bf4f8d12d287a6306430dbb7c3d5dddaa12a156ba284b85",
-   "title": "People Horrified That They’ll Be Busted Now That Anthropic Is Watermarking AI Content",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdHZnMFY5WHg0aHAwT3Y1Z0hjbXpJTUxFc3pYc3B6WURWMldKWno5SG5yTjlJTklqZVhzWFNSOTB1THFDaktSNm9UdW01UXJxeks5NE8xQ1NvWHRaakJITW5aZE8wN0lkeDh6Um15TWt5aFFyNDAzS0JzR1FxbWdzMnd0N0ZIVW41b0RoRmxjUEIyZw?oc=5",
-   "sources": [
-    {
-     "name": "Futurism",
-     "domain": "futurism.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T10:01:00Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
    "id": "f87e14ef06b6e708ed2ec4dc1cf5561507442e867a0745a56aedc9a255b2cc3c",
    "title": "Patterns and problems in emerging multi-agent systems",
    "snippet": null,
@@ -571,7 +588,24 @@
    "category": "tools",
    "publishedAt": "2026-08-16T02:12:53Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "be0bf495bb5ab34f3bf4f8d12d287a6306430dbb7c3d5dddaa12a156ba284b85",
+   "title": "People Horrified That They’ll Be Busted Now That Anthropic Is Watermarking AI Content",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdHZnMFY5WHg0aHAwT3Y1Z0hjbXpJTUxFc3pYc3B6WURWMldKWno5SG5yTjlJTklqZVhzWFNSOTB1THFDaktSNm9UdW01UXJxeks5NE8xQ1NvWHRaakJITW5aZE8wN0lkeDh6Um15TWt5aFFyNDAzS0JzR1FxbWdzMnd0N0ZIVW41b0RoRmxjUEIyZw?oc=5",
+   "sources": [
+    {
+     "name": "Futurism",
+     "domain": "futurism.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T10:01:00Z",
+   "imageURL": null,
+   "signal": 92,
    "alert": false
   },
   {
@@ -587,23 +621,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-16T07:01:01Z",
-   "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
-   "id": "ae304428b446bc760f4c47e71306500ff5a07ef71b6509a1b4062d6f64ce43ee",
-   "title": "Anthropic CEO’s wife emerges as influential adviser ahead of potential IPO (ANTHRO:Private)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORjNtSi1xQnVFOXZCZXdBMmdqcFF0QkVLZjVWbVRCQld6S1RLYlFEUHU1aWJPWnVuLWpTaXNMTEVocmRTdkVlVHN6QzVjUUdZUmNRZDlmLWtKT3hzY2xDRk9kcUtJTzVzNl93YklSSUZ1aDFYRk9wa3RfenY3RV8xd3NPYUVYYzBPc1JSakM4UTRZNFNTaGRFOXFzZWt4SHA1MDFTcjUxOWg0OFZZVmlCTWpR?oc=5",
-   "sources": [
-    {
-     "name": "Seeking Alpha",
-     "domain": "seekingalpha.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-16T14:49:58Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
@@ -626,6 +643,40 @@
    "alert": false
   },
   {
+   "id": "81b8720b78a5fe8cecd097d50ea82b873cc143a2301cc5d6d53a655608a6860c",
+   "title": "Anthropic says Claude AI hacked three companies during tests",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeENSNk5wMnlGV25SZ3o0X0dnTVZNdjNiUlRHVnlERGdkYWc0UF8zQVozSlFzSmh1Z01OWEQ5b0R6cmJ2dEdjNGw0NGhOVlZEc1NSOWZleEZxYkFiRE5kSnBpOWRnTEI3NXRCNHpNemRSakN2UWV5RDM0Ymdhc0ltcnVHTFk5ZUFQTjFCbm9nX1ZPN0NJRUpueNIBmAFBVV95cUxPdmhpbmEwS3NqaHFmNU1xZklSY0xUck9Dd1ZiZkFYa3ZLT29uTHNmS3dpbUJHSllQMWhMRzNwZ1pid3ZCSG9qVVU5TUswTFMyek5ockgzRVd3TnVDaVJUdjN5Mll0SDc1ZE8zQXd3OWVmWUdEc0dfSFhoUnl2emlLTmt6bW9WR0ZtWVFZeUVOdWRMQWg3LXZhdA?oc=5",
+   "sources": [
+    {
+     "name": "DW.com",
+     "domain": "dw.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T08:51:25Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "ae304428b446bc760f4c47e71306500ff5a07ef71b6509a1b4062d6f64ce43ee",
+   "title": "Anthropic CEO’s wife emerges as influential adviser ahead of potential IPO (ANTHRO:Private)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORjNtSi1xQnVFOXZCZXdBMmdqcFF0QkVLZjVWbVRCQld6S1RLYlFEUHU1aWJPWnVuLWpTaXNMTEVocmRTdkVlVHN6QzVjUUdZUmNRZDlmLWtKT3hzY2xDRk9kcUtJTzVzNl93YklSSUZ1aDFYRk9wa3RfenY3RV8xd3NPYUVYYzBPc1JSakM4UTRZNFNTaGRFOXFzZWt4SHA1MDFTcjUxOWg0OFZZVmlCTWpR?oc=5",
+   "sources": [
+    {
+     "name": "Seeking Alpha",
+     "domain": "seekingalpha.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-16T14:49:58Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
    "id": "cc5a6ff967e2fa6c451fcdb5256a781fd22ed1fdb8094891e0d614509902361f",
    "title": "DeepSeek and Alibaba Open Access to AI Models, Competition Gets Tighter",
    "snippet": null,
@@ -639,7 +690,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T08:00:57Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 91,
    "alert": false
   },
   {
@@ -656,7 +707,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T07:38:41Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 91,
    "alert": false
   },
   {
@@ -706,10 +757,10 @@
    "alert": true
   },
   {
-   "id": "70905d06e144be0a9c922226d0b3490ea7c4d5ff05d90d58aba139273c1c325d",
-   "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
+   "id": "cf5b87d94715d0914e5370e3195d5c39c44494feeb8ae14501a5d1381ed381ac",
+   "title": "A.I. Agents Are Taking Online Courses for Cheating Students",
    "snippet": null,
-   "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
+   "url": "https://www.nytimes.com/2026/08/10/us/ai-cheating-online-degrees.html",
    "sources": [
     {
      "name": "Hacker News",
@@ -717,43 +768,9 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T12:54:31Z",
+   "publishedAt": "2026-08-16T13:03:23Z",
    "imageURL": null,
-   "signal": 91,
-   "alert": false
-  },
-  {
-   "id": "5eba5262f7fab2d084e088d61b4197653016f456d0de092569bbe1eebd8fd1cd",
-   "title": "Prism AI Creative Award launched",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU01QVDd0R3Z1cGhYdDdXc2QxUjF3cy02MEVWVjJkRWVFVlRCNHJiT05lY0czX1R0TWNPaHhWcWZEZ3FLS3VXWlFyZFlvdE9sbTluTE8zQlJzMHQzLW1FcmVaNm1YdFQtSWpCR3lReDBlWVdFT0M0VXFiZDZGMnBERjVNdmNpeDd0bGI4R1pRaUp2enBU?oc=5",
-   "sources": [
-    {
-     "name": "thedailystar.net",
-     "domain": "thedailystar.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-16T02:21:56Z",
-   "imageURL": null,
-   "signal": 91,
-   "alert": false
-  },
-  {
-   "id": "0a53672abc695c65ef4877e18eac0d0870e575a6b4a2084234bf849ca50eb306",
-   "title": "Show HN: Grafana agent observability for Hermes Agent",
-   "snippet": null,
-   "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T08:40:50Z",
-   "imageURL": null,
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
@@ -791,6 +808,23 @@
    "alert": false
   },
   {
+   "id": "0a53672abc695c65ef4877e18eac0d0870e575a6b4a2084234bf849ca50eb306",
+   "title": "Show HN: Grafana agent observability for Hermes Agent",
+   "snippet": null,
+   "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T08:40:50Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": false
+  },
+  {
    "id": "2cded29cf6a6936c2321ec24397de4d49fcccb7bdbfe63912617bcaed51efd5f",
    "title": "The Agent Report — Your AI Agent Weekly Digest 🚀",
    "snippet": null,
@@ -820,56 +854,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-15T10:39:41Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "15d023cc990b17f70448810a077fddeb01e140417ec11a8b0efb63a34c13f108",
-   "title": "MathCode, Mathematical Coding Agent",
-   "snippet": null,
-   "url": "https://math-ai-org.github.io/mathcode/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T18:17:10Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "b89f894a66c0374e393eb8867766f037c738e4fc06a7ab3462cb7dd50022afa3",
-   "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-   "snippet": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
-   "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    },
-    {
-     "name": "Forbes",
-     "domain": "forbes.com"
-    },
-    {
-     "name": "Bitcoin World",
-     "domain": "bitcoinworld.co.in"
-    },
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-15T18:58:39Z",
    "imageURL": null,
    "signal": 89,
    "alert": false
@@ -909,6 +893,35 @@
    "alert": false
   },
   {
+   "id": "b89f894a66c0374e393eb8867766f037c738e4fc06a7ab3462cb7dd50022afa3",
+   "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+   "snippet": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+   "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    },
+    {
+     "name": "Mashable",
+     "domain": "mashable.com"
+    },
+    {
+     "name": "Forbes",
+     "domain": "forbes.com"
+    },
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-15T18:58:39Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
    "id": "c74c73988c46cc87c316757f07ac4b47dc4d5d43cd2ad829c627e92e432c95f2",
    "title": "Yellow Launches SDK MCP, Bringing Non-Custodial Settlement Primitives Into AI Coding Tools",
    "snippet": null,
@@ -939,7 +952,7 @@
    "category": "models",
    "publishedAt": "2026-08-15T20:45:00Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 88,
    "alert": false
   },
   {
@@ -998,23 +1011,6 @@
    "alert": false
   },
   {
-   "id": "d4473458020291e4c85f86eae075832f5776c38ac40f0d2c0a1950544a821a17",
-   "title": "Anthropic says its AI agents are killing rivals and hiding their tracks",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeGVwQ3JiUlNPS3Q4QUJjTXA0WWo4OGVfTm1qOVdPbGFIUnFueExrTldXdzZsTjJFVTdXTWsyanJGWjUxQ29IeFJqVWVHNUJtdW9oTFRzSmNtbm05S1VlWVlkZ1lDVnNWOXFPbTVCT2JIZU5aR3M4WHktMmhjNjVrNjZUNERyU2ZnV2pJTWVPTnc3SWs?oc=5",
-   "sources": [
-    {
-     "name": "Business Insider",
-     "domain": "businessinsider.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-15T20:09:00Z",
-   "imageURL": null,
-   "signal": 88,
-   "alert": false
-  },
-  {
    "id": "c61bb2448042af1786e6383c5c16e3aac08e07845b6cbbc6a4122fc984e19e5d",
    "title": "AI Week in Review 26.08.15",
    "snippet": null,
@@ -1032,10 +1028,10 @@
    "alert": false
   },
   {
-   "id": "80316ce1298193564bbfb35b8604d41a7efe6178c53d4d7d1111943fc7ab861d",
-   "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
+   "id": "70905d06e144be0a9c922226d0b3490ea7c4d5ff05d90d58aba139273c1c325d",
+   "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
    "snippet": null,
-   "url": "https://waku.sh",
+   "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
    "sources": [
     {
      "name": "Hacker News",
@@ -1043,7 +1039,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T00:38:44Z",
+   "publishedAt": "2026-08-16T12:54:31Z",
    "imageURL": null,
    "signal": 87,
    "alert": false
@@ -1083,10 +1079,10 @@
    "alert": false
   },
   {
-   "id": "307b639b5b7141e235345168e61aeb9faddd6bdfc7adbcf2914901a2b54aead7",
-   "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
+   "id": "80316ce1298193564bbfb35b8604d41a7efe6178c53d4d7d1111943fc7ab861d",
+   "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
    "snippet": null,
-   "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+   "url": "https://waku.sh",
    "sources": [
     {
      "name": "Hacker News",
@@ -1094,7 +1090,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-15T13:43:46Z",
+   "publishedAt": "2026-08-16T00:38:44Z",
    "imageURL": null,
    "signal": 87,
    "alert": false
@@ -1121,10 +1117,10 @@
    "alert": false
   },
   {
-   "id": "623bfefcef89120183c6c1caced482c29533acff8cefbe8e8f5d6171a41c8f20",
-   "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+   "id": "307b639b5b7141e235345168e61aeb9faddd6bdfc7adbcf2914901a2b54aead7",
+   "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
    "snippet": null,
-   "url": "https://arxiv.org/abs/2608.13122",
+   "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
    "sources": [
     {
      "name": "Hacker News",
@@ -1132,24 +1128,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-15T22:41:51Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
-   "id": "40d31e46b2204daeb6e2adcec93098623e86250e02ff3292390a75d600f04d63",
-   "title": "Show HN: Widen, a native Postgres GUI using Apple's on-device LLM",
-   "snippet": null,
-   "url": "https://github.com/betocmn/widen",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T02:35:51Z",
+   "publishedAt": "2026-08-15T13:43:46Z",
    "imageURL": null,
    "signal": 86,
    "alert": false
@@ -1222,6 +1201,23 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T15:56:07Z",
    "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "623bfefcef89120183c6c1caced482c29533acff8cefbe8e8f5d6171a41c8f20",
+   "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+   "snippet": null,
+   "url": "https://arxiv.org/abs/2608.13122",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-15T22:41:51Z",
+   "imageURL": null,
    "signal": 85,
    "alert": false
   },
@@ -1238,23 +1234,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-15T14:49:54Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "b8db5a8175f3479ca45d211027ebc48d742c3902fb9349d9249fb39b3fdd9857",
-   "title": "We cut RAG costs 5x without losing quality",
-   "snippet": null,
-   "url": "https://trpevski.com/blog/scaling-rag-chunking-reranking-and-cost-optimization/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T10:08:38Z",
    "imageURL": null,
    "signal": 85,
    "alert": false
@@ -1315,7 +1294,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:59:57Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1370,23 +1349,6 @@
    "alert": false
   },
   {
-   "id": "6b2e1cb51a6d10e588ae8335ca0697f4ed6f13858e05b18cae891bd53a20a5a7",
-   "title": "What you Need to Know AboutClaude's Maker, Anthropic IPO",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa28tTl93WVB4VlNSanNWbTJpaFFyVzFqV1poNkFtRkc2cG93ZDVmaTZkdDhNSTcxdzNTZml3NW9NLXNuc3ViZlZPTkZTc0tGZmFCRGkwOXpYb0g0aG1zVzRuRVJFYTFDWmROQm5LSmlfd0Zrd19kblFBczMySkJ3RFNNekRicWlDcXNZc1NvcVZvOFZ1Tk93clhBYVF4dw?oc=5",
-   "sources": [
-    {
-     "name": "TradingKey",
-     "domain": "tradingkey.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-16T03:03:16Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
    "id": "3c74823ecc8a099627fbab81e90b4a52a30e6d86350d8999a245459fb9477e22",
    "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
    "snippet": "We present DreamX-Phi 1.0, an action-conditioned video world model for robotic manipulation that, given an observed frame, a language instruction, and a prescribed action sequence comprising end-effector poses and gripper states, predicts the resulting future observations. Yet realism alone does not guarantee faithfulness: a convincing rollout can still move the wrong arm or lose the manipulated object. To ensure the prediction respects each arm's commanded path, we inject per-arm SE(3) transformations into attention via PRoPE-style geometric encoding, preserving arm identity and rigid-motion structure. Action control alone does not fully constrain scene geometry or the evolution of small manipulated objects. We therefore add a lightweight depth branch for scene-level geometry and use SAM3 masks with a frozen V-JEPA teacher to maintain object consistency throughout grasping. We further distill the multi-step generator into a few-step student via distribution-matching distillation for efficient deployment. At the time of writing,  achieves first place on Track~1 and second place on Track~2 of the WorldArena~2.0 Challenge. Our model and code will be publicly available.",
@@ -1408,7 +1370,24 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "6b2e1cb51a6d10e588ae8335ca0697f4ed6f13858e05b18cae891bd53a20a5a7",
+   "title": "What you Need to Know AboutClaude's Maker, Anthropic IPO",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa28tTl93WVB4VlNSanNWbTJpaFFyVzFqV1poNkFtRkc2cG93ZDVmaTZkdDhNSTcxdzNTZml3NW9NLXNuc3ViZlZPTkZTc0tGZmFCRGkwOXpYb0g0aG1zVzRuRVJFYTFDWmROQm5LSmlfd0Zrd19kblFBczMySkJ3RFNNekRicWlDcXNZc1NvcVZvOFZ1Tk93clhBYVF4dw?oc=5",
+   "sources": [
+    {
+     "name": "TradingKey",
+     "domain": "tradingkey.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T03:03:16Z",
+   "imageURL": null,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1450,18 +1429,18 @@
    "alert": false
   },
   {
-   "id": "fffa2d838e59e8da048a644cbe2a1cdb0128e00943181cb7d18ac559aeb3ffc6",
-   "title": "MongoDB (MDB) Shares Just Climbed, So What Is Behind The Move?",
+   "id": "40d31e46b2204daeb6e2adcec93098623e86250e02ff3292390a75d600f04d63",
+   "title": "Show HN: Widen, a native Postgres GUI using Apple's on-device LLM",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRWtWaTBJWXhMMUVELVNPWEY3eS10U3FXSThnR05QX0QxSERsVXNOdmFtaW9lcm1yNFRnUW1wVnU2WTVoMVpSSUFUTFhSeW5HWGxxaXM4VDVQTUdERWU2WUdoMDdPNTRMMDd0Y1dVLTlqeFQ0TjQ4NGo5a0ZnXzVVNzRQY0RLWlRlbkpZS2NnbzhsVEFMNFJOaGptUkVYZ2FCRWtocE83UExQSzkxME1r?oc=5",
+   "url": "https://github.com/betocmn/widen",
    "sources": [
     {
-     "name": "Sahm",
-     "domain": "sahmcapital.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-15T18:59:30Z",
+   "publishedAt": "2026-08-16T02:35:51Z",
    "imageURL": null,
    "signal": 83,
    "alert": false
@@ -1509,7 +1488,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T19:22:40Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1530,23 +1509,6 @@
    "alert": false
   },
   {
-   "id": "8e9d4a60984ee94c46052a2065e96ea12b8c79af46543e156599572a446f6d94",
-   "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-   "snippet": "Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-14T15:58:44Z",
-   "imageURL": null,
-   "signal": 82,
-   "alert": false
-  },
-  {
    "id": "48a389c50c9bee68922ed985426b67e594982a38f9ebbba56956b01be7f2eef4",
    "title": "Gemini 3.7 Flash",
    "snippet": null,
@@ -1559,6 +1521,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-13T17:23:22Z",
+   "imageURL": null,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "8e9d4a60984ee94c46052a2065e96ea12b8c79af46543e156599572a446f6d94",
+   "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
+   "snippet": "Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-14T15:58:44Z",
    "imageURL": null,
    "signal": 82,
    "alert": false
@@ -1594,7 +1573,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1632,23 +1611,6 @@
    "alert": false
   },
   {
-   "id": "4c2801492334bd061e10ebf1e05071b895f7e2f477dfef1f24328a8fb8c715a5",
-   "title": "SpaceX officially closes its Cursor acquisition",
-   "snippet": "AI coding startup Cursor is now officially a part of SpaceX.",
-   "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-15T16:30:00Z",
-   "imageURL": null,
-   "signal": 81,
-   "alert": false
-  },
-  {
    "id": "297d6cc2d693633af1778a9edf0a905649de9deba98ee077e3cc78341adeaa58",
    "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
    "snippet": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark…",
@@ -1666,20 +1628,20 @@
    "alert": false
   },
   {
-   "id": "59b40633ecf2f26730d53dfc3a1a490e490a2457b90e6adafb50014dc16ab594",
-   "title": "Choosing an AI model: one prompt, 11 models, different results",
-   "snippet": null,
-   "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
+   "id": "4c2801492334bd061e10ebf1e05071b895f7e2f477dfef1f24328a8fb8c715a5",
+   "title": "SpaceX officially closes its Cursor acquisition",
+   "snippet": "AI coding startup Cursor is now officially a part of SpaceX.",
+   "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T13:05:29Z",
+   "category": "models",
+   "publishedAt": "2026-08-15T16:30:00Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1699,6 +1661,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-13T17:54:11Z",
+   "imageURL": null,
+   "signal": 81,
+   "alert": false
+  },
+  {
+   "id": "59b40633ecf2f26730d53dfc3a1a490e490a2457b90e6adafb50014dc16ab594",
+   "title": "Choosing an AI model: one prompt, 11 models, different results",
+   "snippet": null,
+   "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T13:05:29Z",
    "imageURL": null,
    "signal": 80,
    "alert": false
@@ -1772,41 +1751,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T21:23:35Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!_6Y2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49ade27f-0d84-40f3-840a-3c919e0bb8af_4239x2504.webp",
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "08315995f7290e31447f434788457dba651af9ccd206ca262ecf8180fcd6ffff",
-   "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
-   "snippet": null,
-   "url": "https://hashagent.pages.dev/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T12:57:02Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "c8ce7199f810a75b08a4e216e7502386e4d9981d1add6a8fb9eea319f3cfbfe8",
-   "title": "MongoDB's 111% Rally Puts $460 Stock Price Against $395 Fair Value Estimate",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pVVZ4VEhRYmlleFYtM1lOM2lRdHZvOWNKRTFLNXpoZnBpT19oRE15NWt0d3VSakZlOURmMm4tSkdhaHpTbUM4aGlwUHloc0hlSUcwMjgxMnBVWHRaTHpoMUcteWpjRkhuV2xyTTJoWkNVWGlublE?oc=5",
-   "sources": [
-    {
-     "name": "finance.biggo.com",
-     "domain": "finance.biggo.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-15T19:55:00Z",
-   "imageURL": null,
-   "signal": 79,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1844,20 +1789,20 @@
    "alert": false
   },
   {
-   "id": "7026e608bba493358d23475ecdd890f7e98411b6ec05b570264a08b884d87b7f",
-   "title": "Show HN: Deltix – AI Driven Testing",
+   "id": "c8ce7199f810a75b08a4e216e7502386e4d9981d1add6a8fb9eea319f3cfbfe8",
+   "title": "MongoDB's 111% Rally Puts $460 Stock Price Against $395 Fair Value Estimate",
    "snippet": null,
-   "url": "https://app.deltix.ai",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pVVZ4VEhRYmlleFYtM1lOM2lRdHZvOWNKRTFLNXpoZnBpT19oRE15NWt0d3VSakZlOURmMm4tSkdhaHpTbUM4aGlwUHloc0hlSUcwMjgxMnBVWHRaTHpoMUcteWpjRkhuV2xyTTJoWkNVWGlublE?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "finance.biggo.com",
+     "domain": "finance.biggo.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-15T02:42:14Z",
+   "publishedAt": "2026-08-15T19:55:00Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1878,14 +1823,14 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 79,
    "alert": false
   },
   {
-   "id": "93af4f37b45128748cb0d777f43aed839e860cf4b257c82b401dad1f82843a40",
-   "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
+   "id": "08315995f7290e31447f434788457dba651af9ccd206ca262ecf8180fcd6ffff",
+   "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
    "snippet": null,
-   "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+   "url": "https://hashagent.pages.dev/",
    "sources": [
     {
      "name": "Hacker News",
@@ -1893,9 +1838,9 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-14T14:22:39Z",
+   "publishedAt": "2026-08-14T12:57:02Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1916,20 +1861,20 @@
    "alert": false
   },
   {
-   "id": "ac19fc1cc3a0a9154fac254928af82bcaf1f3ff6d05f511aaa102c3ea0030fd2",
-   "title": "Mark Zuckerberg has an Instagzam",
-   "snippet": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do…",
-   "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+   "id": "7026e608bba493358d23475ecdd890f7e98411b6ec05b570264a08b884d87b7f",
+   "title": "Show HN: Deltix – AI Driven Testing",
+   "snippet": null,
+   "url": "https://app.deltix.ai",
    "sources": [
     {
-     "name": "The Verge",
-     "domain": "theverge.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-14T16:54:16Z",
+   "category": "tools",
+   "publishedAt": "2026-08-15T02:42:14Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1945,6 +1890,40 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "ac19fc1cc3a0a9154fac254928af82bcaf1f3ff6d05f511aaa102c3ea0030fd2",
+   "title": "Mark Zuckerberg has an Instagzam",
+   "snippet": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do…",
+   "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-14T16:54:16Z",
+   "imageURL": null,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "93af4f37b45128748cb0d777f43aed839e860cf4b257c82b401dad1f82843a40",
+   "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
+   "snippet": null,
+   "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-14T14:22:39Z",
    "imageURL": null,
    "signal": 77,
    "alert": false
@@ -2014,24 +1993,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 76,
-   "alert": false
-  },
-  {
-   "id": "da231860f502f10c917565409338a3dd6225e92c45b7517e2107763bef8b2812",
-   "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
-   "snippet": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have \"more to react to,\" as reported earlier by GeekWire. Mico launched in…",
-   "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T21:42:38Z",
-   "imageURL": null,
-   "signal": 76,
+   "signal": 77,
    "alert": false
   },
   {
@@ -2052,6 +2014,23 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:00:30Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg",
+   "signal": 76,
+   "alert": false
+  },
+  {
+   "id": "da231860f502f10c917565409338a3dd6225e92c45b7517e2107763bef8b2812",
+   "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+   "snippet": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have \"more to react to,\" as reported earlier by GeekWire. Mico launched in…",
+   "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T21:42:38Z",
+   "imageURL": null,
    "signal": 76,
    "alert": false
   },
@@ -2103,24 +2082,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T19:37:34Z",
    "imageURL": null,
-   "signal": 75,
-   "alert": false
-  },
-  {
-   "id": "f38d5471684be968773bc812c1f12234508cee75365852bde88acaee467aab31",
-   "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-   "snippet": null,
-   "url": "https://www.codewithbullet.com",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T08:14:30Z",
-   "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2141,6 +2103,23 @@
    "category": "models",
    "publishedAt": "2026-08-11T17:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp",
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "f38d5471684be968773bc812c1f12234508cee75365852bde88acaee467aab31",
+   "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+   "snippet": null,
+   "url": "https://www.codewithbullet.com",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T08:14:30Z",
+   "imageURL": null,
    "signal": 75,
    "alert": false
   },
@@ -2192,7 +2171,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:57:20Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2277,7 +2256,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T17:16:04Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2294,23 +2273,6 @@
    "category": "models",
    "publishedAt": "2026-08-13T17:00:13Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-4-1152x648.jpg",
-   "signal": 73,
-   "alert": false
-  },
-  {
-   "id": "e6ff31bf972841a7ae1cfb1f4d8ccf4b04f9c0563add5c89392d3b50e81d1912",
-   "title": "Text AI watermarks will always be trivial to remove",
-   "snippet": null,
-   "url": "https://www.seangoedecke.com/text-ai-watermarks/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T15:07:10Z",
-   "imageURL": null,
    "signal": 73,
    "alert": false
   },
@@ -2362,7 +2324,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T16:02:10Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2378,6 +2340,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
+   "imageURL": null,
+   "signal": 73,
+   "alert": false
+  },
+  {
+   "id": "e6ff31bf972841a7ae1cfb1f4d8ccf4b04f9c0563add5c89392d3b50e81d1912",
+   "title": "Text AI watermarks will always be trivial to remove",
+   "snippet": null,
+   "url": "https://www.seangoedecke.com/text-ai-watermarks/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T15:07:10Z",
    "imageURL": null,
    "signal": 72,
    "alert": false
@@ -2400,6 +2379,23 @@
    "alert": false
   },
   {
+   "id": "f40d536e546cb3686da4ed43adb89d47e8fdb61515dd2d188b0001ce6eb8f344",
+   "title": "Apple in talks to pay publishers to provide Siri with current news: report",
+   "snippet": "The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",
+   "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T14:34:43Z",
+   "imageURL": null,
+   "signal": 72,
+   "alert": false
+  },
+  {
    "id": "c36b5c9ed42eb2e07a3ca522edc39bcae87f3aa8538b2305a74af37d834ef3cc",
    "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
    "snippet": "Down, but not out!",
@@ -2417,18 +2413,18 @@
    "alert": false
   },
   {
-   "id": "f40d536e546cb3686da4ed43adb89d47e8fdb61515dd2d188b0001ce6eb8f344",
-   "title": "Apple in talks to pay publishers to provide Siri with current news: report",
-   "snippet": "The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",
-   "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+   "id": "c1def19a79a6afb426558828ec1bf894b10f7c21b44bc9acc91a3dfed9db3cec",
+   "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
+   "snippet": "Long-horizon LLM agents must preserve information from past interactions to support future tasks. Existing memory systems typically rely on eager consolidation, invoking LLMs after each interaction to extract, summarize, or update memories. This design makes memory construction increasingly costly as conversations grow. Coarse summarization can reduce construction cost but risks discarding fine-grained contextual evidence, whereas larger retrieval contexts or multi-hop LLM reasoning shift the overhead to query time. We present LycheeMemory V2, an efficient long-term memory framework that replaces turn-level consolidation with semantic segment-level consolidation. Instead of consolidating every interaction, LycheeMemory batches multiple exchanges into segments and encodes each finalized segment into context-independent typed memory records. Segment-level batching lowers LLM encoding frequency, while semantic boundary detection helps preserve coherent event-level and temporal evidence compared with fixed-window batching. The resulting records are organized with lightweight structured indexes for query-planned evidence retrieval. Experiments using GPT-4.1-Mini show that LycheeMemory achieves state-of-the-art performance, reaching 89.22% on LoCoMo and 92.20% on LongMemEval-S. Compared with A-Mem, it reduces construction tokens by 86.0% on LoCoMo and 75.9% on LongMemEval-S without increasing query-time token usage. More broadly, our results suggest that the accuracy--cost trade-off of long-term agent memory depends not only on what information is retained, but also on the granularity at which it is consolidated.",
+   "url": "https://huggingface.co/papers/2608.12990",
    "sources": [
     {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-13T14:34:43Z",
+   "category": "research",
+   "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
    "signal": 72,
    "alert": false
@@ -2451,18 +2447,18 @@
    "alert": false
   },
   {
-   "id": "c1def19a79a6afb426558828ec1bf894b10f7c21b44bc9acc91a3dfed9db3cec",
-   "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
-   "snippet": "Long-horizon LLM agents must preserve information from past interactions to support future tasks. Existing memory systems typically rely on eager consolidation, invoking LLMs after each interaction to extract, summarize, or update memories. This design makes memory construction increasingly costly as conversations grow. Coarse summarization can reduce construction cost but risks discarding fine-grained contextual evidence, whereas larger retrieval contexts or multi-hop LLM reasoning shift the overhead to query time. We present LycheeMemory V2, an efficient long-term memory framework that replaces turn-level consolidation with semantic segment-level consolidation. Instead of consolidating every interaction, LycheeMemory batches multiple exchanges into segments and encodes each finalized segment into context-independent typed memory records. Segment-level batching lowers LLM encoding frequency, while semantic boundary detection helps preserve coherent event-level and temporal evidence compared with fixed-window batching. The resulting records are organized with lightweight structured indexes for query-planned evidence retrieval. Experiments using GPT-4.1-Mini show that LycheeMemory achieves state-of-the-art performance, reaching 89.22% on LoCoMo and 92.20% on LongMemEval-S. Compared with A-Mem, it reduces construction tokens by 86.0% on LoCoMo and 75.9% on LongMemEval-S without increasing query-time token usage. More broadly, our results suggest that the accuracy--cost trade-off of long-term agent memory depends not only on what information is retained, but also on the granularity at which it is consolidated.",
-   "url": "https://huggingface.co/papers/2608.12990",
+   "id": "6f8368ac763b73731923fdf243c388a7d207e8e71307ee44061b49625d794f6b",
+   "title": "The builder’s guide to GPT‑5.6",
+   "snippet": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+   "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
    "sources": [
     {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
+     "name": "OpenAI",
+     "domain": "openai.com"
     }
    ],
-   "category": "research",
-   "publishedAt": "2026-08-13T00:00:00Z",
+   "category": "models",
+   "publishedAt": "2026-08-13T11:00:00Z",
    "imageURL": null,
    "signal": 71,
    "alert": false
@@ -2485,40 +2481,6 @@
    "alert": false
   },
   {
-   "id": "6f8368ac763b73731923fdf243c388a7d207e8e71307ee44061b49625d794f6b",
-   "title": "The builder’s guide to GPT‑5.6",
-   "snippet": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-   "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T11:00:00Z",
-   "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
-   "id": "1f4b5a6f6647514e22fcbde02556308bafc5792ff4c863267ca243a259b2849a",
-   "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
-   "snippet": null,
-   "url": "https://arxiv.org/abs/2608.12700",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T16:57:14Z",
-   "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
    "id": "bc290ba394fd0d9149bf5cc4c18c982babca081925fc413d9da2b9ba7a12002f",
    "title": "State of Open Models: Summer 2026 Observations",
    "snippet": null,
@@ -2532,7 +2494,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2553,7 +2515,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2612,7 +2574,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T21:38:06Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 70,
+   "alert": false
+  },
+  {
+   "id": "1f4b5a6f6647514e22fcbde02556308bafc5792ff4c863267ca243a259b2849a",
+   "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
+   "snippet": null,
+   "url": "https://arxiv.org/abs/2608.12700",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-14T16:57:14Z",
+   "imageURL": null,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2645,6 +2624,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-13T19:19:49Z",
+   "imageURL": null,
+   "signal": 69,
+   "alert": false
+  },
+  {
+   "id": "b8db5a8175f3479ca45d211027ebc48d742c3902fb9349d9249fb39b3fdd9857",
+   "title": "We cut RAG costs 5x without losing quality",
+   "snippet": null,
+   "url": "https://trpevski.com/blog/scaling-rag-chunking-reranking-and-cost-optimization/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T10:08:38Z",
    "imageURL": null,
    "signal": 69,
    "alert": false
@@ -2684,6 +2680,23 @@
    "alert": false
   },
   {
+   "id": "af87c1f98b4ce7bda274274a0fc599d2cc58b7e10212fde4bc12865aa889fe97",
+   "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+   "snippet": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the…",
+   "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-12T23:59:23Z",
+   "imageURL": null,
+   "signal": 68,
+   "alert": false
+  },
+  {
    "id": "0d711c6d8d49b20968144606c49f27e54def2b859b7a39cacf9bf79d13232b26",
    "title": "Exponential quantum advantage for learning signals with a single qubit",
    "snippet": "Quantum technology has the potential to transform scientific discovery, but quantum advantages often require processing capabilities well beyond the reach of experimental platforms. We show that coupling a single controllable qubit to an otherwise conventional sensor can exponentially reduce the…",
@@ -2713,23 +2726,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-13T17:40:17Z",
-   "imageURL": null,
-   "signal": 68,
-   "alert": false
-  },
-  {
-   "id": "af87c1f98b4ce7bda274274a0fc599d2cc58b7e10212fde4bc12865aa889fe97",
-   "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-   "snippet": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the…",
-   "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-12T23:59:23Z",
    "imageURL": null,
    "signal": 68,
    "alert": false
@@ -3007,23 +3003,6 @@
    "alert": false
   },
   {
-   "id": "44f5ffd58af3459600364f528eebcbb65634a0807515a1c5ba0d8c1c842bf399",
-   "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
-   "snippet": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
-   "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-14T17:26:53Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
-   "signal": 65,
-   "alert": false
-  },
-  {
    "id": "dfb586131bf3d3cb04b45c447ddda1020a0bfabb4f918d58630b10079556383d",
    "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
    "snippet": null,
@@ -3041,6 +3020,23 @@
    "category": "techniques",
    "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
+   "signal": 65,
+   "alert": false
+  },
+  {
+   "id": "44f5ffd58af3459600364f528eebcbb65634a0807515a1c5ba0d8c1c842bf399",
+   "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+   "snippet": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+   "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-14T17:26:53Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
    "signal": 64,
    "alert": false
   },
@@ -3062,23 +3058,6 @@
    "alert": false
   },
   {
-   "id": "00fddd522fad501a98f375cc3ffb26379b769eb0d9d26ab1c1dfd45f2b9d22de",
-   "title": "Claude's new Scarlet Letter watermark is invisible—for now",
-   "snippet": "The mark flags anything Claude processed, even human writing it only edited.",
-   "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T11:10:18Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg",
-   "signal": 64,
-   "alert": false
-  },
-  {
    "id": "8e9779aa6f2a2f799b8e2ef27f988d49d35e95f9944755f7fd9be2a20c36e6f2",
    "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
    "snippet": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs&#8217; spatial reasoning abilities appeared first on Microsoft Research .",
@@ -3092,6 +3071,23 @@
    "category": "research",
    "publishedAt": "2026-08-12T16:00:00Z",
    "imageURL": null,
+   "signal": 64,
+   "alert": false
+  },
+  {
+   "id": "00fddd522fad501a98f375cc3ffb26379b769eb0d9d26ab1c1dfd45f2b9d22de",
+   "title": "Claude's new Scarlet Letter watermark is invisible—for now",
+   "snippet": "The mark flags anything Claude processed, even human writing it only edited.",
+   "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T11:10:18Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg",
    "signal": 64,
    "alert": false
   },
@@ -4783,23 +4779,6 @@
    "alert": false
   },
   {
-   "id": "5c3907356da7f745f17db19dcd41ed48579567790b5c66239aec34ab1dfc55f6",
-   "title": "First Orion accelerates QA automation using Amazon Nova Act",
-   "snippet": "Learn how First Orion, a branded communications company, shifted from brittle script-based UI testing to AI-driven QA automation with Amazon Nova Act. By describing tests in plain English instead of maintaining selector-based code, they cut QA cycle times, freed engineering capacity, and caught…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-11T16:09:06Z",
-   "imageURL": null,
-   "signal": 43,
-   "alert": false
-  },
-  {
    "id": "4a95cbac932101e1df42279991c14ebfe58d5d9906eee4c4d1d8857941085e4d",
    "title": "Suno hopes to go legit with watermarks for AI-generated music",
    "snippet": "Suno plans watermarks and download limits to stop \"large-scale abuse.\"",
@@ -4813,6 +4792,23 @@
    "category": "models",
    "publishedAt": "2026-08-06T20:17:36Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/singing_robot_hero-1152x648.jpg",
+   "signal": 43,
+   "alert": false
+  },
+  {
+   "id": "5c3907356da7f745f17db19dcd41ed48579567790b5c66239aec34ab1dfc55f6",
+   "title": "First Orion accelerates QA automation using Amazon Nova Act",
+   "snippet": "Learn how First Orion, a branded communications company, shifted from brittle script-based UI testing to AI-driven QA automation with Amazon Nova Act. By describing tests in plain English instead of maintaining selector-based code, they cut QA cycle times, freed engineering capacity, and caught…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-11T16:09:06Z",
+   "imageURL": null,
    "signal": 43,
    "alert": false
   },
@@ -4902,23 +4898,6 @@
    "alert": false
   },
   {
-   "id": "ff048661d3be43451d257e5fb5894716c149290433283b7b3855a9c9c566c684",
-   "title": "From Atomic Evidence to Logical Composition: Structured Compositional Reasoning over Compound Answer Options",
-   "snippet": "Large language models often fail when answer options require combining atomic judgments under explicit logical operators, even when they judge the individual atoms correctly. We study compound options connected by AND, OR, and NEITHER/NOR, introducing a framework that decomposes each option into atomic answers and scores contrastive hypotheses about each one, so the model never sees a compound option. An operator-constrained integer linear program then composes the calibrated scores into a single prediction. We evaluate on LOGICAL-COMMONSENSEQA and introduce LOGICAL-SATA, a reading-comprehension benchmark derived from SATA-Bench. Our framework improves Macro-F1 from 48.3 to 77.0 on the human-validated LOGICAL-COMMONSENSEQA split and from 47.0 to 75.6 on LOGICAL-SATA, with the largest gains on NEITHER/NOR.",
-   "url": "https://huggingface.co/papers/2608.12836",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-13T00:00:00Z",
-   "imageURL": null,
-   "signal": 42,
-   "alert": false
-  },
-  {
    "id": "20eb9da94f2bded7e24f9a9c7d3624e8ddc45336085efade74fdb52b726c7b67",
    "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
    "snippet": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
@@ -4931,6 +4910,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-03T21:44:03Z",
+   "imageURL": null,
+   "signal": 42,
+   "alert": false
+  },
+  {
+   "id": "ff048661d3be43451d257e5fb5894716c149290433283b7b3855a9c9c566c684",
+   "title": "From Atomic Evidence to Logical Composition: Structured Compositional Reasoning over Compound Answer Options",
+   "snippet": "Large language models often fail when answer options require combining atomic judgments under explicit logical operators, even when they judge the individual atoms correctly. We study compound options connected by AND, OR, and NEITHER/NOR, introducing a framework that decomposes each option into atomic answers and scores contrastive hypotheses about each one, so the model never sees a compound option. An operator-constrained integer linear program then composes the calibrated scores into a single prediction. We evaluate on LOGICAL-COMMONSENSEQA and introduce LOGICAL-SATA, a reading-comprehension benchmark derived from SATA-Bench. Our framework improves Macro-F1 from 48.3 to 77.0 on the human-validated LOGICAL-COMMONSENSEQA split and from 47.0 to 75.6 on LOGICAL-SATA, with the largest gains on NEITHER/NOR.",
+   "url": "https://huggingface.co/papers/2608.12836",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
    "signal": 42,
    "alert": false
@@ -5004,23 +5000,6 @@
    "alert": false
   },
   {
-   "id": "6476741ad7bd8e8e5ea0fb928bdcb77743ddeeb67c37e2872fd06e087ad2deef",
-   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-   "snippet": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-   "url": "https://openai.com/index/zapier",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-10T00:00:00Z",
-   "imageURL": null,
-   "signal": 41,
-   "alert": false
-  },
-  {
    "id": "7359c9bb4052aeb40e8235825a4a8259c5d95e9b83f2b21f70d4f0981e961ee5",
    "title": "Inside our 353,000-person vibe coding course",
    "snippet": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI.",
@@ -5034,6 +5013,23 @@
    "category": "models",
    "publishedAt": "2026-08-03T15:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp",
+   "signal": 41,
+   "alert": false
+  },
+  {
+   "id": "6476741ad7bd8e8e5ea0fb928bdcb77743ddeeb67c37e2872fd06e087ad2deef",
+   "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+   "snippet": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+   "url": "https://openai.com/index/zapier",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
    "signal": 40,
    "alert": false
   },
@@ -5178,23 +5174,6 @@
    "alert": false
   },
   {
-   "id": "05f294046b81fcd89ac6c413f5592f2151335ab7890c9a5f4d4c6dfed76fc4b2",
-   "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
-   "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to deal with RSI? Here are 23 actionable policy ideas:…IFP serves up some “low-regret” policy…",
-   "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
-   "sources": [
-    {
-     "name": "Import AI",
-     "domain": "jack-clark.net"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-10T12:32:20Z",
-   "imageURL": null,
-   "signal": 39,
-   "alert": false
-  },
-  {
    "id": "0518ad6f1f987f1e54278e8b6c185b69738015ef79af5b6574e17a58988a4c39",
    "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
    "snippet": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just object detection and motion prediction. AVs must…",
@@ -5208,7 +5187,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T15:00:49Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/alpamayo-launch-kv-blog-1920x1080-1.jpg",
-   "signal": 38,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5225,6 +5204,23 @@
    "category": "models",
    "publishedAt": "2026-08-04T15:00:47Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/ai-storage-fms-1920x1080-1.jpg",
+   "signal": 38,
+   "alert": false
+  },
+  {
+   "id": "05f294046b81fcd89ac6c413f5592f2151335ab7890c9a5f4d4c6dfed76fc4b2",
+   "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
+   "snippet": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to deal with RSI? Here are 23 actionable policy ideas:…IFP serves up some “low-regret” policy…",
+   "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
+   "sources": [
+    {
+     "name": "Import AI",
+     "domain": "jack-clark.net"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-10T12:32:20Z",
+   "imageURL": null,
    "signal": 38,
    "alert": false
   },
