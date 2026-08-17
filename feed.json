@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-08-17T20:24:23Z",
+ "generatedAt": "2026-08-17T20:53:59Z",
  "stories": [
   {
    "id": "e82fdf6a1f9efd8e27216305b7930c580a26a8fcfee030234a3104957d551aa0",
@@ -92,18 +92,43 @@
    "alert": true
   },
   {
+   "id": "3d74e0a386405b459445bbe2033204f64b2e102f8361a2c08184a158ef60dcbc",
+   "title": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUi05NkI4cXl6M3ZhcWx2QlFuYjNJa2xTN3pIUER6YWZ6bGc3TTBUb0VIV3ppTXBXdG5pbEo2b19kRFQ3MW1SR3p3eFQ2RGNlQUdwUFRJRXJtS0ZCemxjZmRRRWl3Y3M0VXo0dU5nZE0tTXVsZ2xGVXZXa1czZWo3alFiTm9GTWtXVHVoOW1FOVY4ZDJWZzN6MHN0SWtPQXRRQlHSAacBQVVfeXFMUGd5Q3JMSFMxclFGaVNzTFFuXzBZR19PeVJkRVNSU2J4eWd6cVlwX2hTT0kzSnJ3cUE0RlA0TVJxWmVjTm00UHMwWHVrSDhraVFnZTdJbE9sR2pPV2NtOGRxZ0oxR0hEd1J0MWpLYzdnX0VmZUx3cFlOU1pwZ3V5V3hha21LT2hGSS14c2dNa1BHRTlDZ0FRQkR3ZkJ0WGhNdVM4dldOb0k?oc=5",
+   "sources": [
+    {
+     "name": "CNBC",
+     "domain": "cnbc.com"
+    },
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
+    },
+    {
+     "name": "Bloomberg.com",
+     "domain": "bloomberg.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T20:33:35Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": true
+  },
+  {
    "id": "bf9241800bcd0946d27427fbdb52946493fd87e9f3986b842f6e4d1a327a9053",
    "title": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
    "snippet": "Amazon’s team uses a T. rex preparing to devour a book as its logo.",
    "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
      "name": "Ars Technica",
      "domain": "arstechnica.com"
+    },
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     },
     {
      "name": "TechCrunch",
@@ -121,20 +146,45 @@
    "alert": true
   },
   {
-   "id": "ce17b9e74be07f282fbe0405a185f87dc9632de7b6de4924c5015d6d05fa7e53",
-   "title": "Context Engineering: The Key to Better AI Agents",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWHN2eXZpSThPcEh4QTE3by0yT2pkRDlKcXdyNXF2WUk0X2lObWI0Zjl4ZzVKZ3haRFFZMjYzRUoydmNYY3Q0MGhFcU1uZnRDZGE5N3pfc0RJS2lmcDkzVEpSVjlwb3Fac3NvSlREdEhILXJQbEU2b0lMY3pGUm9BTS1ZaExBaVhNbjhyMUZWVFNOeVAyd3JOQ0dPWmZNcldmSWRaQ1RDLXhGdUxScGdF?oc=5",
+   "id": "0eadff1b96c5b07c2a9da2a0da496ae04560f4cb6ca0e8a54de3a0e7ebbe46bc",
+   "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
+   "snippet": "NVIDIA Nemotron 3.5 Lightning, an open model built for high-volume agentic workloads, is now available in Amazon SageMaker JumpStart. This post shows how to deploy the 30B Mixture-of-Experts model (3B active), which delivers up to 4x higher throughput and up to 30% faster task completion for…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
    "sources": [
     {
-     "name": "StartupHub.ai",
-     "domain": "startuphub.ai"
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    },
+    {
+     "name": "Campus Technology",
+     "domain": "campustechnology.com"
+    },
+    {
+     "name": "NVIDIA",
+     "domain": "blogs.nvidia.com"
     }
    ],
    "category": "techniques",
-   "publishedAt": "2026-08-17T20:10:25Z",
+   "publishedAt": "2026-08-17T18:06:33Z",
    "imageURL": null,
-   "signal": 99,
+   "signal": 98,
+   "alert": true
+  },
+  {
+   "id": "7d49aacaa67b4da8958ea8aea392b8b1ce31d191d2da72537a9068dc4e2c3965",
+   "title": "AI;DR (AI; Didn't Read)",
+   "snippet": null,
+   "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T19:47:15Z",
+   "imageURL": null,
+   "signal": 98,
    "alert": false
   },
   {
@@ -163,6 +213,40 @@
    "alert": true
   },
   {
+   "id": "ce17b9e74be07f282fbe0405a185f87dc9632de7b6de4924c5015d6d05fa7e53",
+   "title": "Context Engineering: The Key to Better AI Agents",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWHN2eXZpSThPcEh4QTE3by0yT2pkRDlKcXdyNXF2WUk0X2lObWI0Zjl4ZzVKZ3haRFFZMjYzRUoydmNYY3Q0MGhFcU1uZnRDZGE5N3pfc0RJS2lmcDkzVEpSVjlwb3Fac3NvSlREdEhILXJQbEU2b0lMY3pGUm9BTS1ZaExBaVhNbjhyMUZWVFNOeVAyd3JOQ0dPWmZNcldmSWRaQ1RDLXhGdUxScGdF?oc=5",
+   "sources": [
+    {
+     "name": "StartupHub.ai",
+     "domain": "startuphub.ai"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-17T20:10:25Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "11fd082b0c6927aa7ea7a6c66d136b7caf43c2fff8aa0a9df19234c9767f8311",
+   "title": "From Google to ChatGPT, physics students increasingly seek answers through conversational AI",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMkdZekF4ZTVoMjVnak9uRWNjWVFtTU9qUG1fWm1xUVdrQldtSFBQeGpTeFNtdi1YakpuTE5QWDc3LUdybUlUSkhleXFFd0lybi1JdzJBaVpqOTFQVUphRDIzVWRiaE9FTHowR3dBRWs5VUJxMVlyMjNES2NMX2xzSmQwSGRXNjd1?oc=5",
+   "sources": [
+    {
+     "name": "Phys.org",
+     "domain": "phys.org"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T20:40:01Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
    "id": "799cffe5c4ed02e6db94f572b13d1c4b1935d5f92dd5cc785e2f94098e22db0e",
    "title": "GLM-5.3: +50% Coding From Post-Training Alone, Same Base",
    "snippet": null,
@@ -176,46 +260,8 @@
    "category": "models",
    "publishedAt": "2026-08-17T20:02:07Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": false
-  },
-  {
-   "id": "7d49aacaa67b4da8958ea8aea392b8b1ce31d191d2da72537a9068dc4e2c3965",
-   "title": "AI;DR (AI; Didn't Read)",
-   "snippet": null,
-   "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T19:47:15Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": false
-  },
-  {
-   "id": "0eadff1b96c5b07c2a9da2a0da496ae04560f4cb6ca0e8a54de3a0e7ebbe46bc",
-   "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
-   "snippet": "NVIDIA Nemotron 3.5 Lightning, an open model built for high-volume agentic workloads, is now available in Amazon SageMaker JumpStart. This post shows how to deploy the 30B Mixture-of-Experts model (3B active), which delivers up to 4x higher throughput and up to 30% faster task completion for…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    },
-    {
-     "name": "NVIDIA",
-     "domain": "blogs.nvidia.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-17T18:06:33Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": true
   },
   {
    "id": "1ebfe03779ec4ee1d3cd28f5eb59d5a305a6ffb5d80a0ebbb7bf94b9862221ab",
@@ -231,8 +277,37 @@
    "category": "models",
    "publishedAt": "2026-08-17T20:14:21Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": false
+  },
+  {
+   "id": "b847787c0b44747e7a8b1e284b5927ccaa03539a96fb3b5a7e1cc4197f77a08a",
+   "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+   "snippet": null,
+   "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    },
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    },
+    {
+     "name": "Fireship",
+     "domain": "youtube.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T12:09:42Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": true
   },
   {
    "id": "44d6aff7f18b8aa26d285e250eb38b0af4a083016f92a853866a1438d22b40ff",
@@ -269,33 +344,21 @@
    "alert": false
   },
   {
-   "id": "b847787c0b44747e7a8b1e284b5927ccaa03539a96fb3b5a7e1cc4197f77a08a",
-   "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
-   "snippet": null,
-   "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+   "id": "d61491bb6ba78d730dfdd0df54cde927ee79b8f1ce5d15767242359caa0cb964",
+   "title": "\"Opus 4.8 thinks too much\", \"Muse Glimmer sits between Gemma and Qwen, that's boring\", \"Gemma 4 is too lazy\"",
+   "snippet": "I&#39;m starting to think there&#39;s no way to make a reasoning model that won&#39;t draw persistent vocal complaints on here. EDIT: Qwen 3.8 not Opus 4.8*, freudian slip lol &#32; submitted by &#32; /u/MerePotato [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vr2oq8/opus_48_thinks_too_much_muse_glimmer_sits_between/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    },
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    },
-    {
-     "name": "Fireship",
-     "domain": "youtube.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-17T12:09:42Z",
+   "publishedAt": "2026-08-17T19:45:37Z",
    "imageURL": null,
    "signal": 97,
-   "alert": true
+   "alert": false
   },
   {
    "id": "a14ddf6ec5f4e7f2779576a457779ad257dee62ea8c825a06e11ccb24f0d2c5c",
@@ -304,7 +367,7 @@
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ21ueTV0Sl9WX3BDNjR5cVBGVzIzeVJnOXJ1R1lQY0J4Z0x1YzIwTjAzcmJaV1NNV0RWNlctdVpuSUQ5cWk4bTRkdHVtU2x6eE5URXlNUGxtemxRV1JzcUlYWDlfTTFUbEJJRmhaM2g0VE1sZHBuZzJhNGF3NkdaWWhfdlJzcXd6dGpZT2pRMHhkUFU3YWN4N2dDSzk4SXNuM29sUldVSVhkTUVNdTQ0NF9WWFhIcVlwczJONHBnU0Vmdw?oc=5",
    "sources": [
     {
-     "name": "PRLog",
+     "name": "prlog.org",
      "domain": "prlog.org"
     },
     {
@@ -315,7 +378,7 @@
    "category": "tools",
    "publishedAt": "2026-08-17T16:27:15Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": true
   },
   {
@@ -336,7 +399,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T17:17:00Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": true
   },
   {
@@ -357,7 +420,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T15:56:07Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": true
   },
   {
@@ -408,7 +471,24 @@
    "category": "tools",
    "publishedAt": "2026-08-17T18:21:02Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "cee0fd004bf790fb1d6c5a422769abb2b3ef7005f2008101111b169c12d3e7ec",
+   "title": "Robinhood Rolls Out Agentic Accounts for Crypto Trading",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUppa0RyRkZtUTFuNmVGb0ZWLXVvZFlZZ0txbkpLeWtOLWxNOFFZOXM4d3Uwak5sLUdTRUt0ckZIX0F0WXN6MHJJbDZMVjBCQXdDbDIzX0NyUlRBYW14ZmdBdktDc3Azbl9nNkFzOGpHRE84cDd0R1JVUk1sZ3dSY2xqdDNHWXFOZ1FlTlJEcmlvTTU0T0lTQm9B?oc=5",
+   "sources": [
+    {
+     "name": "The Crypto Times",
+     "domain": "cryptotimes.io"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T20:28:54Z",
+   "imageURL": null,
+   "signal": 95,
    "alert": false
   },
   {
@@ -425,7 +505,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T19:00:12Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
    "alert": false
   },
   {
@@ -442,7 +522,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T18:33:09Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
    "alert": false
   },
   {
@@ -458,23 +538,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-17T18:31:08Z",
-   "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "7ab374b72fb5657fb04061df781f44a057a59bb4c9254ec75978115dce3a3d83",
-   "title": "Anthropic’s Fight With the Pentagon Shows How AI Could Threaten a Crucial Safeguard of Democracy",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdUd1Tk53MzJDZ1RBOGpITU1ZWUNGcndZRG5vbFdPcFc4V3NOYTRyY0xBc0VVQlBwd2IwZjlWMjRXWEpVNzNYRkN1bFNlSFhUelRlVURmMk12czNBYUJzUzcydUZYMFJhZUZBTVh4ZUFuaGVHVTNUUVRPWUtNS1h3eFU5akdHemZnQVNuOGFJS2pPZXplNkxhOEhrWWc2amhpNnVKVl92UnNsVVZhZGxsRGhxTVBSWXhpTGx5S0xLaE05bnpwNVZ3OTNn?oc=5",
-   "sources": [
-    {
-     "name": "Talking Points Memo",
-     "domain": "talkingpointsmemo.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T18:20:00Z",
    "imageURL": null,
    "signal": 95,
    "alert": false
@@ -497,73 +560,39 @@
    "category": "tools",
    "publishedAt": "2026-08-17T15:36:49Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": true
   },
   {
-   "id": "d7c37a56ecb56ea9f687f85f38d0d3f995eaab3b2e95107d82f122ebf04e863a",
-   "title": "Amazon's Stake in Anthropic Is Now Big Enough to Move Its Earnings. Here's How That Compares to Alphabet's Stake in SpaceX.",
+   "id": "cd848ded15b3a8171c76d37f11b1d332449deb816eda1e4e596b627244c4ece8",
+   "title": "Tim O'Reilly – Why Open Source Matters for AI",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzU3RjREWHdkTFRjVlJtVlJMdzc3MXVJdVJrQ0ljZlhWZk1PZGFQUjgxRjdGTElJYjNiejdMajFycnFpU1A4WThnY3ozcnFLSGxobEdJUVp2aTl3LUdwR3pIY3NXc1dlZHpOaWp5MldpMzBKaVIwOHVfOUhNSnZ5SEtGVFZOTE5uai1LcVAteDRZNGxSWjFuaA?oc=5",
+   "url": "https://oreillyradar.substack.com/p/why-open-source-matters-for-ai",
    "sources": [
     {
-     "name": "The Motley Fool",
-     "domain": "fool.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T20:14:26Z",
-   "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "a0bbad1889601ef6148ef828804ab084a7bbc07cbabc511426233bd869ca482e",
-   "title": "Hostinger weekly product updates: Week 33, 2026",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zR2VBQzhFOVNrelFCUF9YQ3l5X2prczNpczFGbE1SS0x2RE56SnBDT0x6N1QtaHplQnN0RnhjNmFtWDRITVJobmlCUHFEMTZJVUFSSWJKd3FkZzhRYXUtX205dHF1blZwVHh0cQ?oc=5",
-   "sources": [
-    {
-     "name": "Hostinger",
-     "domain": "hostinger.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-17T18:12:05Z",
-   "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "0bb9da4452c70dfc9924a45a507b13d1742d6158e28b879e800cf0e8850acd06",
-   "title": "Adobe's single ChatGPT plugin now covers 70+ creative tools, from Photoshop to Premiere",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcE9kSVFfSi1zSFdnZzE0bmlMU2ZpZHpkaThFWDR3T20xdzgxd0lxWk96NlRTaXdCU0ZHVzdMTWhvdHI1eG1NS2dhdTBnWjgyTl84dXZnWTM1UnB5RS02SVlva2xBbkY5WENzdjFJSjJLLVRPU25PY29WTXE0NERWWXVvMVQzUVhPbEhDYUp2QmY1OTJtR3AwVWlnb2xPanpwV00yb3NpY1NNaF9vam4wSXRtOFdLbnVnLUs5Z2hFWTZmOUd0Si12WS0xMEpWQ2VTNHdyNWxUNDFxcjFnU1ZmRg?oc=5",
-   "sources": [
-    {
-     "name": "MarketScale",
-     "domain": "marketscale.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T18:10:59Z",
+   "publishedAt": "2026-08-17T18:25:53Z",
    "imageURL": null,
    "signal": 94,
    "alert": false
   },
   {
-   "id": "d94ec5b473ea46613290a88984238141c852a0da08e1f70a73e1fa6f3ff01e36",
-   "title": "llama.cpp adaptive MTP PR#27210",
-   "snippet": "Just wanted to raise some attention to this PR I filed if anyone would like to try it out. This adds an adaptive MTP mode to llama.cpp which employs a fairly simple counting-style state machine to determine the appropriate depth to set the MTP depth to dynamically. The goal here was to make it so…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqzud4/llamacpp_adaptive_mtp_pr27210/",
+   "id": "7ab374b72fb5657fb04061df781f44a057a59bb4c9254ec75978115dce3a3d83",
+   "title": "Anthropic’s Fight With the Pentagon Shows How AI Could Threaten a Crucial Safeguard of Democracy",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdUd1Tk53MzJDZ1RBOGpITU1ZWUNGcndZRG5vbFdPcFc4V3NOYTRyY0xBc0VVQlBwd2IwZjlWMjRXWEpVNzNYRkN1bFNlSFhUelRlVURmMk12czNBYUJzUzcydUZYMFJhZUZBTVh4ZUFuaGVHVTNUUVRPWUtNS1h3eFU5akdHemZnQVNuOGFJS2pPZXplNkxhOEhrWWc2amhpNnVKVl92UnNsVVZhZGxsRGhxTVBSWXhpTGx5S0xLaE05bnpwNVZ3OTNn?oc=5",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
+     "name": "talkingpointsmemo.com",
+     "domain": "talkingpointsmemo.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T18:05:12Z",
+   "category": "models",
+   "publishedAt": "2026-08-17T18:20:00Z",
    "imageURL": null,
    "signal": 94,
    "alert": false
@@ -590,6 +619,23 @@
    "alert": true
   },
   {
+   "id": "a0bbad1889601ef6148ef828804ab084a7bbc07cbabc511426233bd869ca482e",
+   "title": "Hostinger weekly product updates: Week 33, 2026",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zR2VBQzhFOVNrelFCUF9YQ3l5X2prczNpczFGbE1SS0x2RE56SnBDT0x6N1QtaHplQnN0RnhjNmFtWDRITVJobmlCUHFEMTZJVUFSSWJKd3FkZzhRYXUtX205dHF1blZwVHh0cQ?oc=5",
+   "sources": [
+    {
+     "name": "Hostinger",
+     "domain": "hostinger.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T18:12:05Z",
+   "imageURL": null,
+   "signal": 94,
+   "alert": false
+  },
+  {
    "id": "184971af9e8c51b7c64c0426c1d887afc4a29ece13f7cd03341e86b31a4e1759",
    "title": "After pushing 1M+ tokens through Qwen 3.8 27B, here is my optimal llama.cpp config for 16GB VRAM (73k Context, Agentic Coding)",
    "snippet": "Following up on my previous post about my budget server setup (Intel N100 + RTX 5060 Ti 16GB), a few of you asked for a deeper dive into my actual inference config and real-world agentic performance. Like many of you, I was refreshing the page waiting to download Qwen 3.8 27B the second it dropped.…",
@@ -607,24 +653,24 @@
    "category": "tools",
    "publishedAt": "2026-08-17T13:05:26Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": true
   },
   {
-   "id": "3fa94f9b3ff7db6a96171a17c43261846c66ca77654aef93c115002a2131c3ae",
-   "title": "How to disable or avoid intrusive AI",
-   "snippet": null,
-   "url": "https://www.librarian.net/notoai/",
+   "id": "d94ec5b473ea46613290a88984238141c852a0da08e1f70a73e1fa6f3ff01e36",
+   "title": "llama.cpp adaptive MTP PR#27210",
+   "snippet": "Just wanted to raise some attention to this PR I filed if anyone would like to try it out. This adds an adaptive MTP mode to llama.cpp which employs a fairly simple counting-style state machine to determine the appropriate depth to set the MTP depth to dynamically. The goal here was to make it so…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vqzud4/llamacpp_adaptive_mtp_pr27210/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-17T14:07:56Z",
+   "publishedAt": "2026-08-17T18:05:12Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -645,10 +691,10 @@
    "alert": false
   },
   {
-   "id": "cd848ded15b3a8171c76d37f11b1d332449deb816eda1e4e596b627244c4ece8",
-   "title": "Tim O'Reilly – Why Open Source Matters for AI",
+   "id": "3fa94f9b3ff7db6a96171a17c43261846c66ca77654aef93c115002a2131c3ae",
+   "title": "How to disable or avoid intrusive AI",
    "snippet": null,
-   "url": "https://oreillyradar.substack.com/p/why-open-source-matters-for-ai",
+   "url": "https://www.librarian.net/notoai/",
    "sources": [
     {
      "name": "Hacker News",
@@ -656,7 +702,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-17T18:25:53Z",
+   "publishedAt": "2026-08-17T14:07:56Z",
    "imageURL": null,
    "signal": 93,
    "alert": false
@@ -674,40 +720,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-17T17:35:56Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "245056c4c0a38fbd1a7e0a754221aa1deeaf7da8ea5e5fe455810cf26dc31d0e",
-   "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
-   "snippet": "Give an autonomous agent a wallet and spending guardrails so it can pay for paywalled APIs, MCP servers, and web content. This post connects OpenClaw to Amazon Bedrock AgentCore payments and the x402 protocol, using the aws-agents-pay plugin to make bounded, human-approved testnet payments.",
-   "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-17T16:19:56Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "58602faa717f97c60d74ee829510665a807e0777c95ce8571379a65b0478136f",
-   "title": "PRAN-RFL launches national AI creative content competition",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWk5mcmhIa0hmWjdGUUdzOE55aUgzYjZtNWkxcndFTngtVnB2c25lOWhFbWkyRDc5RVE5WE9EVXh4UDUxbGVQeGEzX2JZQUVIaEFHYkFvUTNfbWVIVGpJbGNmQ015WTlpNjhKc1gtVktfOG00d052dFJiTHFvWmxnajRFR20wODIwYk5Lam42RFNyX3RFSWVDdVJrbC1fazNzZ3MzZUVNcDdBYnJTc0HSAbMBQVVfeXFMTkJ0dmhUTkRWTlJSOE5jUkRzNzFEeGRKWk1oS0xxQWlnNEpCZW9aSERzLVU0aUJCdXd5blVOZlFoeXh1T0J4bXotYVZKM3VOMGo1aGVyTmYyZmY3RERlQ2xKSDFsaDJVWlJpVGI5RWVmUWtTTzgxQVB4SkVHQTliWkxKWUFhZXUwNjZLaDRnbmZyM2xCTkxTT3Q2d2l4dldrRGNQYlpUYldNS0NIMEdRUk9hMWs?oc=5",
-   "sources": [
-    {
-     "name": "The Business Standard",
-     "domain": "tbsnews.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-17T16:13:47Z",
    "imageURL": null,
    "signal": 93,
    "alert": false
@@ -734,18 +746,18 @@
    "alert": true
   },
   {
-   "id": "76963b852e28c23f9b1be3422b8479721b08b01ceba4d5d7b05c2ce8fe7e09c4",
-   "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-   "snippet": null,
-   "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+   "id": "245056c4c0a38fbd1a7e0a754221aa1deeaf7da8ea5e5fe455810cf26dc31d0e",
+   "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
+   "snippet": "Give an autonomous agent a wallet and spending guardrails so it can pay for paywalled APIs, MCP servers, and web content. This post connects OpenClaw to Amazon Bedrock AgentCore payments and the x402 protocol, using the aws-agents-pay plugin to make bounded, human-approved testnet payments.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T14:18:38Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-17T16:19:56Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
@@ -770,6 +782,61 @@
    "imageURL": null,
    "signal": 92,
    "alert": true
+  },
+  {
+   "id": "58602faa717f97c60d74ee829510665a807e0777c95ce8571379a65b0478136f",
+   "title": "PRAN-RFL launches national AI creative content competition",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWk5mcmhIa0hmWjdGUUdzOE55aUgzYjZtNWkxcndFTngtVnB2c25lOWhFbWkyRDc5RVE5WE9EVXh4UDUxbGVQeGEzX2JZQUVIaEFHYkFvUTNfbWVIVGpJbGNmQ015WTlpNjhKc1gtVktfOG00d052dFJiTHFvWmxnajRFR20wODIwYk5Lam42RFNyX3RFSWVDdVJrbC1fazNzZ3MzZUVNcDdBYnJTc0HSAbMBQVVfeXFMTkJ0dmhUTkRWTlJSOE5jUkRzNzFEeGRKWk1oS0xxQWlnNEpCZW9aSERzLVU0aUJCdXd5blVOZlFoeXh1T0J4bXotYVZKM3VOMGo1aGVyTmYyZmY3RERlQ2xKSDFsaDJVWlJpVGI5RWVmUWtTTzgxQVB4SkVHQTliWkxKWUFhZXUwNjZLaDRnbmZyM2xCTkxTT3Q2d2l4dldrRGNQYlpUYldNS0NIMEdRUk9hMWs?oc=5",
+   "sources": [
+    {
+     "name": "The Business Standard",
+     "domain": "tbsnews.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-17T16:13:47Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "4f164b7e0d7a941a8b13bfdfcbfe3ef2f8691f1e54fcff9078d93271df9d578c",
+   "title": "Codex 3.0 (New Upgrades): OPENAI HAS COOKED AGAIN! RIP Claude Code! Elon Musk Children (EBmYUM7qVL)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHLVd0NkZTY1RvS0JzeV85LXd6emt5U0lVSVhEeDNGMi1nTUZOTUpZU3hHd2J6ZURaR3pFYkNqUFZuX2QwaG90YS1PSHBzd1Q5a0ZDRzctVXROaFk?oc=5",
+   "sources": [
+    {
+     "name": "Mshale",
+     "domain": "mshale.com"
+    },
+    {
+     "name": "geeky-gadgets.com",
+     "domain": "geeky-gadgets.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-17T11:44:39Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": true
+  },
+  {
+   "id": "76963b852e28c23f9b1be3422b8479721b08b01ceba4d5d7b05c2ce8fe7e09c4",
+   "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+   "snippet": null,
+   "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T14:18:38Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": false
   },
   {
    "id": "edd24dd0fb800932eb2642a8b9187d9b469205b43e249307750a2acf60fa1b0e",
@@ -797,80 +864,8 @@
    "category": "models",
    "publishedAt": "2026-08-17T15:16:24Z",
    "imageURL": null,
-   "signal": 92,
-   "alert": true
-  },
-  {
-   "id": "4f164b7e0d7a941a8b13bfdfcbfe3ef2f8691f1e54fcff9078d93271df9d578c",
-   "title": "Codex 3.0 (New Upgrades): OPENAI HAS COOKED AGAIN! RIP Claude Code! Elon Musk Children (EBmYUM7qVL)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHLVd0NkZTY1RvS0JzeV85LXd6emt5U0lVSVhEeDNGMi1nTUZOTUpZU3hHd2J6ZURaR3pFYkNqUFZuX2QwaG90YS1PSHBzd1Q5a0ZDRzctVXROaFk?oc=5",
-   "sources": [
-    {
-     "name": "Mshale",
-     "domain": "mshale.com"
-    },
-    {
-     "name": "Geeky Gadgets",
-     "domain": "geeky-gadgets.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-17T11:44:39Z",
-   "imageURL": null,
-   "signal": 92,
-   "alert": true
-  },
-  {
-   "id": "13e90243fbe3b65bdd3e8d4bc1ddf079f34a7d28313af4814c679b2f833c2941",
-   "title": "Synchrony wants your Amazon and Walmart store cards inside ChatGPT",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDJyTDNBY2dWdEMyLTF6Q3VHdlFmektTTjJXYm5HdV9lMG4wamxnYS03VWNieXZlaHhkSUNRam5lbWdHbEViTWYzeWdnVFlnck5GNFJEd3RwdjRFMTB5VlZRdXNjZHEtQ0c0XzdyUU41bDA5UGFreE5xdTNCVFc0cTREa1FDTHFScUVHUw?oc=5",
-   "sources": [
-    {
-     "name": "The Next Web",
-     "domain": "thenextweb.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T17:06:05Z",
-   "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
-   "id": "a708c04783cd5bbdb3a27fbb0fa0cfb15edd7ff5e6e797911e5fa3cdd2fb1973",
-   "title": "Anthropic Revenue Run Rate Surpasses $65 Billion Ahead of IPO",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVktR0ZGanRzYkMwQjBWRkhfbmVfLTVxR3JpYWtRbk1HemlQbjRab2EzTmN1VDNmYmk5Z0xIWGYzVmU2b3VTRENNTy00d1RrLXBoWjFPVE5hNEQyVDdrZ1ZuTzFaczRGODM0VnpycFpDa0tTZWpFSzYyU3d1dVNwQzlicGJPTm9WdlFHczFUMzNOalhjdDIwSWZZcVltMHdsVDY2OXE4QnZOQ2laUlU4Xw?oc=5",
-   "sources": [
-    {
-     "name": "Bloomberg.com",
-     "domain": "bloomberg.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T19:37:45Z",
-   "imageURL": null,
    "signal": 91,
-   "alert": false
-  },
-  {
-   "id": "731c6eec67301f558c02a1016e69e6ad90541e0900d99a951b7913c60526a34c",
-   "title": "System1 Pushes Adjusted Gross Margin To 85% As MapQuest And Dogpile Become Infrastructure For AI Agents",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcDVWS3p4YmstTWx0eGM0WGVLWTgtLUtpMmJ6ZnMwQW9TelZFMWVyaktiVDgzclBONkdXby1ERk5oZ2ZzTEZodHRIdGRYdDBTdUxTZnlLREUyV1NEMmtydDg5QzFNekZaaXd4NDhuaFI1ZlVMdnZhRjctazJEUUpVYkhkbUctUklCbHRXYkhZRHBVVUoyVmktMGptQUV1MzV4YTlnUDZ3RGxmY1VJTzhHdm0yNDkzSjhXWmsxeVBuQdIBxAFBVV95cUxOZEVpamtlUHNpaThpS1o1My1xR3NSVkpMZlp5Y2RQdEFZNGdtRE93TUxrSzl5elhYS3hpNTZSSld0djlPVHhoTEtQSGIxaU13aTVSb01fYWR3MFlocUR2TXBSMFRTSldVX3BDUDNmZk8tM284ZVRHYm5SZEw0TFJWUmt1SkY2RjRMY3pWdmtadmVyVW9hLUp3Q2lnaG1faEozWU5OR1ZjX2NKWThZdC1KTWlNZnQ3VTVqaF8wM2cwTXVVNWZI?oc=5",
-   "sources": [
-    {
-     "name": "Pulse 2.0",
-     "domain": "pulse2.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T15:45:14Z",
-   "imageURL": null,
-   "signal": 91,
-   "alert": false
+   "alert": true
   },
   {
    "id": "35ba3f49dfd1cb25d80bb3c2d6b81ba5e64d07c687b69353270a252f7a09d58c",
@@ -911,6 +906,57 @@
    "alert": false
   },
   {
+   "id": "731c6eec67301f558c02a1016e69e6ad90541e0900d99a951b7913c60526a34c",
+   "title": "System1 Pushes Adjusted Gross Margin To 85% As MapQuest And Dogpile Become Infrastructure For AI Agents",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcDVWS3p4YmstTWx0eGM0WGVLWTgtLUtpMmJ6ZnMwQW9TelZFMWVyaktiVDgzclBONkdXby1ERk5oZ2ZzTEZodHRIdGRYdDBTdUxTZnlLREUyV1NEMmtydDg5QzFNekZaaXd4NDhuaFI1ZlVMdnZhRjctazJEUUpVYkhkbUctUklCbHRXYkhZRHBVVUoyVmktMGptQUV1MzV4YTlnUDZ3RGxmY1VJTzhHdm0yNDkzSjhXWmsxeVBuQdIBxAFBVV95cUxOZEVpamtlUHNpaThpS1o1My1xR3NSVkpMZlp5Y2RQdEFZNGdtRE93TUxrSzl5elhYS3hpNTZSSld0djlPVHhoTEtQSGIxaU13aTVSb01fYWR3MFlocUR2TXBSMFRTSldVX3BDUDNmZk8tM284ZVRHYm5SZEw0TFJWUmt1SkY2RjRMY3pWdmtadmVyVW9hLUp3Q2lnaG1faEozWU5OR1ZjX2NKWThZdC1KTWlNZnQ3VTVqaF8wM2cwTXVVNWZI?oc=5",
+   "sources": [
+    {
+     "name": "Pulse 2.0",
+     "domain": "pulse2.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T15:45:14Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "13e90243fbe3b65bdd3e8d4bc1ddf079f34a7d28313af4814c679b2f833c2941",
+   "title": "Synchrony wants your Amazon and Walmart store cards inside ChatGPT",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDJyTDNBY2dWdEMyLTF6Q3VHdlFmektTTjJXYm5HdV9lMG4wamxnYS03VWNieXZlaHhkSUNRam5lbWdHbEViTWYzeWdnVFlnck5GNFJEd3RwdjRFMTB5VlZRdXNjZHEtQ0c0XzdyUU41bDA5UGFreE5xdTNCVFc0cTREa1FDTHFScUVHUw?oc=5",
+   "sources": [
+    {
+     "name": "The Next Web",
+     "domain": "thenextweb.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T17:06:05Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "3f286e44764b51b87d9366baf92b07032b3842f55125a4b387d00677ba737ed9",
+   "title": "Amazon's Stake in Anthropic Is Now Big Enough to Move Its Earnings. Here's How That Compares to Alphabet's Stake in SpaceX.",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdG1MU1VJdEpOWHp3RFRfYW1GTDNxNi1QeHY1c0pFcHhLSlpvY2sySXY4ZGw4YV9ud1d5QlZaR2dJcTlhMDRRNWFOM3dqSEs1UmVOSEhROWxwNkREcDBXWC1sSkhFT1k0djN4c1BPc3NvZ3VCYlF0aEF4Wk9zcnl1S0FwRmxMUVdnRXVzcXJqeTVLTFlCOWk3OExZek4?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T19:48:00Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": false
+  },
+  {
    "id": "b3aa16fa9a842b0904859e2f858d6cbe62034248715e5ef9ead346effd63c359",
    "title": "Ling 3.0 Tiny is the strongest, fastest and greatest model on my low end PC!",
    "snippet": "This Ling 3.0 Tiny 8b param with 1.3b active is the fastest, smartest model I can run on my poor old pc, with 4gb vram. It actually runs lightning fast, like 36 token / sec, as smart as Qwen 3.5 9b / Gemma 12, (Very close), and even faster because of 1.3b active parameters. The Qwen 3.5 9b is…",
@@ -924,7 +970,7 @@
    "category": "tools",
    "publishedAt": "2026-08-17T16:34:29Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
@@ -940,6 +986,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-17T14:54:57Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": false
+  },
+  {
+   "id": "5d25860f9729e7b691bf719a0f166b7c7cca5f7dccfd2e1b14715446de3647a9",
+   "title": "Llama.cpp v0.1.0",
+   "snippet": null,
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.0",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T17:56:06Z",
    "imageURL": null,
    "signal": 90,
    "alert": false
@@ -975,24 +1038,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T14:20:45Z",
    "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "f3dae4e49cc9924b404c8015be1a73e4f08e285113edbece18a321be4bdd6715",
-   "title": "I Tested ChatGPT, Gemini, Perplexity, and Grok on Deep Research. One Clear Winner Emerged",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcHZndmpNZTE3UTMzNzh2NlNKQWVtazFZRDhBMjNBMWZaZWZDemtVbVVRQ2k5VEF2N1RjNm5XdUwtR0NvQ1dnd0YxYkRkNHRnWUd3NnliRWFzLWV6X09uYnRmR0pMMEdVY2VxZ3ZKWHJQeEI3dkptaWhZdmNGR19hRmxOYzJNZGtid3VOdHMyZXpRSWY5U01KMQ?oc=5",
-   "sources": [
-    {
-     "name": "PCMag",
-     "domain": "pcmag.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T15:49:15Z",
-   "imageURL": null,
-   "signal": 90,
+   "signal": 89,
    "alert": false
   },
   {
@@ -1008,23 +1054,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-17T15:42:46Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "0c3f628594cf6336fd80cd6fb37570c3a309b87c8c168c862a6d16fe19faa64d",
-   "title": "Amanda Knox: A Chatbot’s False Confession",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BMGdlbktkUDI4ZGN1Vzd5RDAtcGl0Mi1HaG5QZmlUTGk2RzN5N00xRWpIdVRDX0d6TndQMDk5WDBqU1FUMUFYN2txMWVtcjlmMUdFUFdJQjVtSXdEbW5yWHFZNTdKV2xKT2ZKZA?oc=5",
-   "sources": [
-    {
-     "name": "The Free Press",
-     "domain": "thefp.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T15:32:47Z",
    "imageURL": null,
    "signal": 89,
    "alert": false
@@ -1047,18 +1076,18 @@
    "alert": false
   },
   {
-   "id": "f5cf108ba0ce9aa084cd22b4a1412bac85bc0be5a4913480b8629fa7e1a3056e",
-   "title": "Exclusive: AI agents inch toward interoperability",
+   "id": "0c3f628594cf6336fd80cd6fb37570c3a309b87c8c168c862a6d16fe19faa64d",
+   "title": "Amanda Knox: A Chatbot’s False Confession",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSk12S1p0VmZEYlJQakZaWU41YzdrMGNiZmZjSDJ4dHdFcUwway1DRVhZRms5Q0s2QnV6RzJjSTJ1THV1ei1seFJBV3c4Ymx4ZllXMVNTRnlxN1g1Z3dQVGwzQkdyN0VWXzZKNEZEQ0c4Nm5uU3VZTUdFLWVyRmZJeWJB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BMGdlbktkUDI4ZGN1Vzd5RDAtcGl0Mi1HaG5QZmlUTGk2RzN5N00xRWpIdVRDX0d6TndQMDk5WDBqU1FUMUFYN2txMWVtcjlmMUdFUFdJQjVtSXdEbW5yWHFZNTdKV2xKT2ZKZA?oc=5",
    "sources": [
     {
-     "name": "Axios",
-     "domain": "axios.com"
+     "name": "The Free Press",
+     "domain": "thefp.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T13:53:28Z",
+   "category": "models",
+   "publishedAt": "2026-08-17T15:32:47Z",
    "imageURL": null,
    "signal": 89,
    "alert": false
@@ -1098,26 +1127,22 @@
    "category": "models",
    "publishedAt": "2026-08-17T15:00:00Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 88,
    "alert": false
   },
   {
-   "id": "3c0eda88434513ec8cecc90479198bd0899dd4dd3b5e5f6fb374da6d8c19a5c0",
-   "title": "Expert Witness Used ChatGPT to Write Report Defending Company in Lawsuit",
+   "id": "f5cf108ba0ce9aa084cd22b4a1412bac85bc0be5a4913480b8629fa7e1a3056e",
+   "title": "Exclusive: AI agents inch toward interoperability",
    "snippet": null,
-   "url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSk12S1p0VmZEYlJQakZaWU41YzdrMGNiZmZjSDJ4dHdFcUwway1DRVhZRms5Q0s2QnV6RzJjSTJ1THV1ei1seFJBV3c4Ymx4ZllXMVNTRnlxN1g1Z3dQVGwzQkdyN0VWXzZKNEZEQ0c4Nm5uU3VZTUdFLWVyRmZJeWJB?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "404 Media",
-     "domain": "404media.co"
+     "name": "Axios",
+     "domain": "axios.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-17T15:40:12Z",
+   "publishedAt": "2026-08-17T13:01:32Z",
    "imageURL": null,
    "signal": 88,
    "alert": false
@@ -1140,35 +1165,22 @@
    "alert": false
   },
   {
-   "id": "db1fdf1c8cc15df03f3d8bcbf1bf6dfc41194d00b89b483e76936e3bf6981ed4",
-   "title": "Cloudflare Gateway MCP Detection Makes Shadow MCP Visible — and Blockable",
+   "id": "3c0eda88434513ec8cecc90479198bd0899dd4dd3b5e5f6fb374da6d8c19a5c0",
+   "title": "Expert Witness Used ChatGPT to Write Report Defending Company in Lawsuit",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUXFJSVB2d3FEb3AzcWlESXZ2NFBnZXZ0dGE1RUM1bUZ5ajVFSktROEVhMjBzUlVSMHR1MDBjU21PcDFwZWlyZC1xRVdKLWlranpUSWlSRXBHdy0yZW9jc3Q5aV9DN3RNZTVpX3J5X3FMMVN0b055UVF3M3VxTkIteC0wUmRrVUl1VmxqNXRwSmMwNFpNSE5WRQ?oc=5",
+   "url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
    "sources": [
     {
-     "name": "forkast.news",
-     "domain": "forkast.news"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "404 Media",
+     "domain": "404media.co"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-17T11:23:57Z",
-   "imageURL": null,
-   "signal": 88,
-   "alert": false
-  },
-  {
-   "id": "9da76a090dcb600b1fde37efe0378ef63b7ffaba99327cb7a9dc8769584d3670",
-   "title": "‘Boring, Not Broken’ – Claude AI Just Bought Uber (UBER). Should You?",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWElFUWk0X2tMeDZRWllUb1hlNzA2WElIN1lvREVUTm5fRkdFZUgyZkdfNUxUWTNoVnMzSGIxMFhKX0FoUEpBLVo1b1Z1b2RZUGI4NXZabFVxUWtPMzBUUXdJMUQzX29DTHJWOFBDVi1OdU1IVHdfV3ZreFNxY1dWOWFTODZOQnF2NW9QWEQ3WFpxLXBvUWtj?oc=5",
-   "sources": [
-    {
-     "name": "Yahoo Finance",
-     "domain": "finance.yahoo.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T13:28:04Z",
+   "publishedAt": "2026-08-17T15:40:12Z",
    "imageURL": null,
    "signal": 88,
    "alert": false
@@ -1204,7 +1216,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T11:11:14Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 87,
    "alert": false
   },
   {
@@ -1344,23 +1356,6 @@
    "alert": false
   },
   {
-   "id": "dc715c58093cf1d8199efaaf4c548ad406a616b916ac44e330cd69a19a1e1afc",
-   "title": "Why Big Tech's AI Spending Is $3T Higher Than It Seems",
-   "snippet": null,
-   "url": "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T15:25:40Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
    "id": "dba902fe07a0b34ea5ad04c37d3141ea81581423a39d8106cf5e09d3ccb6ec08",
    "title": "Alibaba Challenges Meta’s Open-AI Push With New Models for Consumer Devices",
    "snippet": null,
@@ -1378,6 +1373,40 @@
    "alert": false
   },
   {
+   "id": "dc715c58093cf1d8199efaaf4c548ad406a616b916ac44e330cd69a19a1e1afc",
+   "title": "Why Big Tech's AI Spending Is $3T Higher Than It Seems",
+   "snippet": null,
+   "url": "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T15:25:40Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "a66e93cb466e052b901c4c022e60c7a92c329c56c6c0724e6000bbd63a5f5330",
+   "title": "LLM City – 3D render of all Kimi K3's weights as 2.5mm tiles",
+   "snippet": null,
+   "url": "https://magik.net/llmcity/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T16:01:07Z",
+   "imageURL": null,
+   "signal": 85,
+   "alert": false
+  },
+  {
    "id": "b5dcd09bb66d838fa835cb590d857a3954d2882cd01f417c526b319156626689",
    "title": "100$ worth of gpu runs qwen 3.8 27b at 7.39 t/s",
    "snippet": "Qwen 27b Q3_K_M 2x rx 580 8gb (~50$ each in my country, edge cases 60$ per gpu) gives us 16gb vram We used it on an old already existing ddr3 motherboard with 2 gpu slots(you can buy it ror around 200$ with 32 gb of ddr3 ram, a workstation xeon cpu and a workstation motherboard, used) Its not the…",
@@ -1390,23 +1419,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-17T11:11:37Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "3db162b1e6ca81c4674bbab3ea887c767c2287903d358d4f46da7654e9b0e3e6",
-   "title": "The beautiful mathematics behind OpenAI's sphere packing result",
-   "snippet": null,
-   "url": "https://www.empirical.health/blog/ai-math-sphere-packing/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T14:02:40Z",
    "imageURL": null,
    "signal": 85,
    "alert": false
@@ -1446,18 +1458,22 @@
    "alert": false
   },
   {
-   "id": "d3491d6f12c50e39d397271595df1e1992abf4027c15b4f62bb17482408eb520",
-   "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
-   "snippet": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
-   "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+   "id": "eb4edca3b5b878225e89b0a51d5393bd81f605fed4bcc93d90de2996f0823ef4",
+   "title": "Claude: System Prompts",
+   "snippet": null,
+   "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
    "sources": [
     {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-17T16:15:12Z",
+   "category": "tools",
+   "publishedAt": "2026-08-16T12:48:21Z",
    "imageURL": null,
    "signal": 85,
    "alert": false
@@ -1480,22 +1496,35 @@
    "alert": false
   },
   {
-   "id": "eb4edca3b5b878225e89b0a51d5393bd81f605fed4bcc93d90de2996f0823ef4",
-   "title": "Claude: System Prompts",
-   "snippet": null,
-   "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+   "id": "d3491d6f12c50e39d397271595df1e1992abf4027c15b4f62bb17482408eb520",
+   "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+   "snippet": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+   "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T16:15:12Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "000cd7cf51666df665626a393853ba274c4bd25aa3ee5f5c0ec9244fc0cfbe41",
+   "title": "AgenticsPulse Unveils 2026 Production Benchmark Suite",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX2xRSDVEYWFYYXhUdGRlUzlUTWl5MXViZWdBbDl0RFJGOXhGSFYxb1R1cHZfWGN2Ujlua1VfdUJyUm44Q2UtUjdzbnZodU5vSUtRNG9mTVNOTkJKajM5cUNnYlEzS3I3UHdQYS05ZHFxMnpLLWluTktZa2MtRmc2WFh4QVYzdmJFZ3U5UU1HTE5SR3c?oc=5",
+   "sources": [
     {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
+     "name": "openPR.com",
+     "domain": "openpr.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-16T12:48:21Z",
+   "publishedAt": "2026-08-17T06:59:59Z",
    "imageURL": null,
    "signal": 84,
    "alert": false
@@ -1518,23 +1547,6 @@
    "alert": false
   },
   {
-   "id": "a66e93cb466e052b901c4c022e60c7a92c329c56c6c0724e6000bbd63a5f5330",
-   "title": "LLM City – 3D render of all Kimi K3's weights as 2.5mm tiles",
-   "snippet": null,
-   "url": "https://magik.net/llmcity/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T16:01:07Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
    "id": "bef185116d98ed9601f3d8a1e3d3d0f87c33282563b3072960fdbdb8922e5ec1",
    "title": "LLM's can't \"jump\" - a paper by Deepmind showing LLMs can't generate novel explanatory hypotheses",
    "snippet": "&#32; submitted by &#32; /u/juanviera23 [link] &#32; [comments]",
@@ -1549,23 +1561,6 @@
    "publishedAt": "2026-08-17T09:58:16Z",
    "imageURL": null,
    "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "000cd7cf51666df665626a393853ba274c4bd25aa3ee5f5c0ec9244fc0cfbe41",
-   "title": "AgenticsPulse Unveils 2026 Production Benchmark Suite",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX2xRSDVEYWFYYXhUdGRlUzlUTWl5MXViZWdBbDl0RFJGOXhGSFYxb1R1cHZfWGN2Ujlua1VfdUJyUm44Q2UtUjdzbnZodU5vSUtRNG9mTVNOTkJKajM5cUNnYlEzS3I3UHdQYS05ZHFxMnpLLWluTktZa2MtRmc2WFh4QVYzdmJFZ3U5UU1HTE5SR3c?oc=5",
-   "sources": [
-    {
-     "name": "openPR.com",
-     "domain": "openpr.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T06:59:59Z",
-   "imageURL": null,
-   "signal": 83,
    "alert": false
   },
   {
@@ -1620,23 +1615,6 @@
    "alert": false
   },
   {
-   "id": "331c0c6ff0047c8cca17076d671c7b58ea256ad235eafe3e2c13a9d8a85b5a5a",
-   "title": "Show HN: A community library for Claude Code status lines",
-   "snippet": null,
-   "url": "https://statuslin.es",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T13:12:07Z",
-   "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
    "id": "3aca82d56d54fd7c01e7de7e7e84434a4975606e52a81db4d50ec34ea8b5ff18",
    "title": "Get closer to the game with Gemini and Pixel",
    "snippet": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
@@ -1654,23 +1632,6 @@
    "alert": false
   },
   {
-   "id": "1678f51168072428b8d6569eb071ed0d2dd1712e58167675c7725c935b24d9c9",
-   "title": "Anthropic’s Groundbreaking Second Quarter Delivers $11.5B In Revenue",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWHM2Y1Z2ZE9vWWloeE00N0hsUE53d1RkQXc1Y3hGMHcxbklvZDJOVmZUc1Z6emxsNUU0c0lGT3kxOWltaFJ5Tmp2Q0JTeURlNnp4SS13a0c4R0ljSG9uU2Q1TnBCYkZCbV92Z1c4RmJUUm0yOVdKUnd0SGlQaTYxNjFQT0cwSUdDeURqVExOajZxS0tyMk50Z2x1STVzdm1NWGxRRU9KdmFGSE5PT0MtakduMWdQMER1?oc=5",
-   "sources": [
-    {
-     "name": "Forbes",
-     "domain": "forbes.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T14:51:10Z",
-   "imageURL": null,
-   "signal": 82,
-   "alert": false
-  },
-  {
    "id": "e946a73bce98af32b321789243395fd12a0581c2251246b0493f9f31e5897ece",
    "title": "Opinion: Learning stream: A practical entry point into the world of AI",
    "snippet": null,
@@ -1683,6 +1644,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-17T07:25:35Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
+   "id": "1678f51168072428b8d6569eb071ed0d2dd1712e58167675c7725c935b24d9c9",
+   "title": "Anthropic’s Groundbreaking Second Quarter Delivers $11.5B In Revenue",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWHM2Y1Z2ZE9vWWloeE00N0hsUE53d1RkQXc1Y3hGMHcxbklvZDJOVmZUc1Z6emxsNUU0c0lGT3kxOWltaFJ5Tmp2Q0JTeURlNnp4SS13a0c4R0ljSG9uU2Q1TnBCYkZCbV92Z1c4RmJUUm0yOVdKUnd0SGlQaTYxNjFQT0cwSUdDeURqVExOajZxS0tyMk50Z2x1STVzdm1NWGxRRU9KdmFGSE5PT0MtakduMWdQMER1?oc=5",
+   "sources": [
+    {
+     "name": "Forbes",
+     "domain": "forbes.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T14:51:10Z",
    "imageURL": null,
    "signal": 82,
    "alert": false
@@ -1705,27 +1683,10 @@
    "alert": false
   },
   {
-   "id": "503401cfc2a24c255f6a78ee89e40913821cb7000520b2549a17b53dcd0ca7f2",
-   "title": "Canary Data and Perplexity Partner to Bring World-Class Investment Research into Perplexity Workflows",
+   "id": "3db162b1e6ca81c4674bbab3ea887c767c2287903d358d4f46da7654e9b0e3e6",
+   "title": "The beautiful mathematics behind OpenAI's sphere packing result",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVldVTHBvV29LUE9DUUdHVTFidUhYelFOSm1uYW9hRG9TMl9uOWx3QmJtSE1QTXZTcjRlWlFSX1ZqRXcwR08wY0N2YUFtRDlUaUdzNlN2NWpWS1QteTRhU2ZPYmVMSlg1eGt3LU4xWExsTXl5MG0tdTlpR3VpNkhtSzVjVVRRc2lOWkxaUHFPbUgwNmFBZGFTUXNaMFA0bVduSXhSTDRQQ21QbXBmLS1FRDAzSk5aWS1xa3pwM2dSYjNkZjZQUGpGSUc0X3luX1NBc2owMXlMbGlIdWJUWkhGSWdJdTM3ZEJGYTdaa1B3WFZRUQ?oc=5",
-   "sources": [
-    {
-     "name": "FinancialContent",
-     "domain": "financialcontent.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T12:30:00Z",
-   "imageURL": null,
-   "signal": 82,
-   "alert": false
-  },
-  {
-   "id": "49a07d9b9700055b137eb71113233b0276e1c8720bef2c0c09c4c54832715c1e",
-   "title": "A million dollars over asking: AI wealth is fueling housing market frenzy in SF",
-   "snippet": null,
-   "url": "https://www.cnn.com/2026/08/17/economy/sf-real-estate-ai-wealth",
+   "url": "https://www.empirical.health/blog/ai-math-sphere-packing/",
    "sources": [
     {
      "name": "Hacker News",
@@ -1733,7 +1694,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-17T17:23:20Z",
+   "publishedAt": "2026-08-17T14:02:40Z",
    "imageURL": null,
    "signal": 82,
    "alert": false
@@ -1752,7 +1713,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T06:43:33Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "503401cfc2a24c255f6a78ee89e40913821cb7000520b2549a17b53dcd0ca7f2",
+   "title": "Canary Data and Perplexity Partner to Bring World-Class Investment Research into Perplexity Workflows",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVldVTHBvV29LUE9DUUdHVTFidUhYelFOSm1uYW9hRG9TMl9uOWx3QmJtSE1QTXZTcjRlWlFSX1ZqRXcwR08wY0N2YUFtRDlUaUdzNlN2NWpWS1QteTRhU2ZPYmVMSlg1eGt3LU4xWExsTXl5MG0tdTlpR3VpNkhtSzVjVVRRc2lOWkxaUHFPbUgwNmFBZGFTUXNaMFA0bVduSXhSTDRQQ21QbXBmLS1FRDAzSk5aWS1xa3pwM2dSYjNkZjZQUGpGSUc0X3luX1NBc2owMXlMbGlIdWJUWkhGSWdJdTM3ZEJGYTdaa1B3WFZRUQ?oc=5",
+   "sources": [
+    {
+     "name": "FinancialContent",
+     "domain": "financialcontent.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T12:30:00Z",
+   "imageURL": null,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1769,7 +1747,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T02:49:21Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1837,7 +1815,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T05:30:00Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1853,6 +1831,27 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-17T13:10:05Z",
+   "imageURL": null,
+   "signal": 81,
+   "alert": false
+  },
+  {
+   "id": "f87e14ef06b6e708ed2ec4dc1cf5561507442e867a0745a56aedc9a255b2cc3c",
+   "title": "Patterns and problems in emerging multi-agent systems",
+   "snippet": null,
+   "url": "https://www.anthropic.com/research/multiagent-systems",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T02:12:53Z",
    "imageURL": null,
    "signal": 80,
    "alert": false
@@ -1892,27 +1891,6 @@
    "alert": false
   },
   {
-   "id": "f87e14ef06b6e708ed2ec4dc1cf5561507442e867a0745a56aedc9a255b2cc3c",
-   "title": "Patterns and problems in emerging multi-agent systems",
-   "snippet": null,
-   "url": "https://www.anthropic.com/research/multiagent-systems",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T02:12:53Z",
-   "imageURL": null,
-   "signal": 80,
-   "alert": false
-  },
-  {
    "id": "15d023cc990b17f70448810a077fddeb01e140417ec11a8b0efb63a34c13f108",
    "title": "MathCode, Mathematical Coding Agent",
    "snippet": null,
@@ -1926,24 +1904,24 @@
    "category": "tools",
    "publishedAt": "2026-08-16T18:17:10Z",
    "imageURL": null,
-   "signal": 79,
+   "signal": 80,
    "alert": false
   },
   {
-   "id": "b83997df209ee9990ae6c6983c161b701f6db13394f82aa3011eb4a31bbc1cae",
-   "title": "Securing the Infrastructure of Intelligence",
-   "snippet": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical resources: advanced chips, packaging,…",
-   "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+   "id": "49a07d9b9700055b137eb71113233b0276e1c8720bef2c0c09c4c54832715c1e",
+   "title": "A million dollars over asking: AI wealth is fueling housing market frenzy in SF",
+   "snippet": null,
+   "url": "https://www.cnn.com/2026/08/17/economy/sf-real-estate-ai-wealth",
    "sources": [
     {
-     "name": "NVIDIA",
-     "domain": "blogs.nvidia.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-17T12:34:51Z",
-   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
-   "signal": 79,
+   "category": "tools",
+   "publishedAt": "2026-08-17T17:23:20Z",
+   "imageURL": null,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1959,6 +1937,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-17T03:16:00Z",
+   "imageURL": null,
+   "signal": 79,
+   "alert": false
+  },
+  {
+   "id": "331c0c6ff0047c8cca17076d671c7b58ea256ad235eafe3e2c13a9d8a85b5a5a",
+   "title": "Show HN: A community library for Claude Code status lines",
+   "snippet": null,
+   "url": "https://statuslin.es",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T13:12:07Z",
    "imageURL": null,
    "signal": 79,
    "alert": false
@@ -1981,6 +1976,23 @@
    "alert": false
   },
   {
+   "id": "b83997df209ee9990ae6c6983c161b701f6db13394f82aa3011eb4a31bbc1cae",
+   "title": "Securing the Infrastructure of Intelligence",
+   "snippet": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical resources: advanced chips, packaging,…",
+   "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "domain": "blogs.nvidia.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T12:34:51Z",
+   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
+   "signal": 79,
+   "alert": false
+  },
+  {
    "id": "16ac10544a8682f6bbc9284488f186f33336e44b5be051001ab15369d082c9d6",
    "title": "The AI Credit Resale Economy",
    "snippet": null,
@@ -1993,23 +2005,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-16T14:44:55Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "141540a0c81860763b2cddd222d1f7189a5a57709a1a41fff3f2318dba1c7e0f",
-   "title": "Anyone else get a kick out of Qwen 3.8 27B Reasoning Dialogue?",
-   "snippet": "I&#39;ve been paying attention to the reasoning because I&#39;m still evaluating the model, and I&#39;ve just noticed that sometimes I get a kick out of the way this model&#39;s internal monologue seems to play out sometimes. Like I&#39;ve seen it get genuinely frustrated with itself and express…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vq9lsl/anyone_else_get_a_kick_out_of_qwen_38_27b/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T21:45:44Z",
    "imageURL": null,
    "signal": 79,
    "alert": false
@@ -2189,23 +2184,6 @@
    "alert": false
   },
   {
-   "id": "5b1192903d684a21b0134b563ec7f2820e566ef830f4a97caa3001e1a1e40e1d",
-   "title": "AI Coding Without the Vibes",
-   "snippet": null,
-   "url": "https://peterbloem.nl/blog/craft-coding",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T10:31:36Z",
-   "imageURL": null,
-   "signal": 76,
-   "alert": false
-  },
-  {
    "id": "358bcc07fa09e7a69f981ed66c64dd24e0507897bef264699b20d00a03945307",
    "title": "On AI regulation and messaging",
    "snippet": null,
@@ -2219,14 +2197,14 @@
    "category": "tools",
    "publishedAt": "2026-08-17T01:59:56Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 77,
    "alert": false
   },
   {
-   "id": "c6f2bd1a204016a5684be4ebb365e50148138f8c9892d6dcbbad736a4e3ed4d5",
-   "title": "Anthropic becomes the 'Apple of AI': Most revenue despite being most expensive",
+   "id": "5b1192903d684a21b0134b563ec7f2820e566ef830f4a97caa3001e1a1e40e1d",
+   "title": "AI Coding Without the Vibes",
    "snippet": null,
-   "url": "https://www.techradar.com/pro/anthropic-becomes-the-apple-of-ai-as-it-grabs-most-revenue-despite-being-the-most-expensive",
+   "url": "https://peterbloem.nl/blog/craft-coding",
    "sources": [
     {
      "name": "Hacker News",
@@ -2234,7 +2212,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-17T10:56:45Z",
+   "publishedAt": "2026-08-16T10:31:36Z",
    "imageURL": null,
    "signal": 76,
    "alert": false
@@ -2295,7 +2273,7 @@
    "category": "tools",
    "publishedAt": "2026-08-15T10:39:41Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2312,7 +2290,7 @@
    "category": "tools",
    "publishedAt": "2026-08-15T18:13:02Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2328,6 +2306,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T15:05:36Z",
+   "imageURL": null,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "c6f2bd1a204016a5684be4ebb365e50148138f8c9892d6dcbbad736a4e3ed4d5",
+   "title": "Anthropic becomes the 'Apple of AI': Most revenue despite being most expensive",
+   "snippet": null,
+   "url": "https://www.techradar.com/pro/anthropic-becomes-the-apple-of-ai-as-it-grabs-most-revenue-despite-being-the-most-expensive",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T10:56:45Z",
    "imageURL": null,
    "signal": 75,
    "alert": false
@@ -2380,24 +2375,7 @@
    "category": "models",
    "publishedAt": "2026-08-16T12:00:00Z",
    "imageURL": null,
-   "signal": 74,
-   "alert": false
-  },
-  {
-   "id": "a0da090f6caf6520539083f6b3cabe67814edce65ac68a15c1ff877a9b9ce263",
-   "title": "What 15M Gemini conversations tell us about AI at work",
-   "snippet": null,
-   "url": "https://leaddev.com/ai/what-15-million-gemini-conversations-tell-us-about-ai-at-work",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T14:05:00Z",
-   "imageURL": null,
-   "signal": 74,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2452,23 +2430,6 @@
    "alert": false
   },
   {
-   "id": "6431206a83dfc5ca25a03ab67aebe66164faf87cb5fd0c9cc9d7fa98998e8f07",
-   "title": "Canva cuts internal value by $10B amid AI market fears",
-   "snippet": null,
-   "url": "https://www.smh.com.au/technology/sobering-markdown-canva-slashes-valuation-by-10b-as-ai-reality-bites-20260814-p60of9.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T17:28:45Z",
-   "imageURL": null,
-   "signal": 74,
-   "alert": false
-  },
-  {
    "id": "4f0c5d91cfad6210be30c432d11dbdde653871031d06dc798d593f9fdcd819d1",
    "title": "How Investors May Respond To PTC (PTC) Expanding AI Automation Across Its Product Lifecycle Platforms",
    "snippet": null,
@@ -2482,7 +2443,7 @@
    "category": "tools",
    "publishedAt": "2026-08-17T00:31:37Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2503,7 +2464,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T17:48:16Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2575,7 +2536,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T16:39:32Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2592,7 +2553,7 @@
    "category": "tools",
    "publishedAt": "2026-08-14T15:43:10Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2664,7 +2625,24 @@
    "category": "tools",
    "publishedAt": "2026-08-15T22:41:51Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 72,
+   "alert": false
+  },
+  {
+   "id": "5a94dd163bfbe84dfb5aa6c717fee69ebc413bfaa20911d48bba58408b38e2c3",
+   "title": "Show HN: Mole – Deep research agent for your terminal",
+   "snippet": null,
+   "url": "https://github.com/lajosdeme/mole",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-14T18:52:48Z",
+   "imageURL": null,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2681,7 +2659,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T14:49:54Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2719,23 +2697,6 @@
    "alert": false
   },
   {
-   "id": "59b40633ecf2f26730d53dfc3a1a490e490a2457b90e6adafb50014dc16ab594",
-   "title": "Choosing an AI model: one prompt, 11 models, different results",
-   "snippet": null,
-   "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-13T13:05:29Z",
-   "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
    "id": "fec51d95d54dbb564f125578b356238b0c84ed2b2842e71aa1496f5a72909de7",
    "title": "Building an AI Text Detector From Scratch",
    "snippet": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
@@ -2749,7 +2710,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T11:54:24Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png",
-   "signal": 70,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2766,7 +2727,24 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 71,
+   "alert": false
+  },
+  {
+   "id": "59b40633ecf2f26730d53dfc3a1a490e490a2457b90e6adafb50014dc16ab594",
+   "title": "Choosing an AI model: one prompt, 11 models, different results",
+   "snippet": null,
+   "url": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-13T13:05:29Z",
+   "imageURL": null,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2851,7 +2829,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T17:06:00Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2936,7 +2914,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T16:18:11Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 69,
    "alert": false
   },
   {
@@ -3021,7 +2999,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T14:00:00Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 68,
    "alert": false
   },
   {
@@ -3076,31 +3054,6 @@
    "alert": false
   },
   {
-   "id": "dfb586131bf3d3cb04b45c447ddda1020a0bfabb4f918d58630b10079556383d",
-   "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-   "snippet": null,
-   "url": "https://huggingface.co/blog/muse-glimmer",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    },
-    {
-     "name": "TradingView",
-     "domain": "tradingview.com"
-    },
-    {
-     "name": "investingLive",
-     "domain": "investinglive.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-10T00:00:00Z",
-   "imageURL": null,
-   "signal": 67,
-   "alert": false
-  },
-  {
    "id": "7b2b8c8dceac1edc36443a5cbc3843df05015551a4ed9f75dc369b4116b1562f",
    "title": "Context-Matched Distillation: Teacher Causality for Autoregressive Video Distillation",
    "snippet": "Interactive autoregressive video generation demands both low-latency rollouts and precise online control. Few-step distillation accelerates generation by reducing denoising steps, while online control imposes a causal constraint: frames and blocks should depend on history and controls available during generation. Existing video distribution matching distillation (DMD) pipelines, however, often supervise causal few-step students using bidirectional teachers that score complete clips. The score for a target can therefore depend on future frames and controls that were unavailable when the student generated it, misaligning teacher supervision with the student's causal information set. We introduce Context-Matched Distillation (CMD), a causal DMD framework that aligns teacher supervision with the information available when each target is generated. CMD replaces bidirectional full-clip scoring with a causal teacher that evaluates each target without access to future frames or controls. The same causal teacher initializes the few-step student, establishing a consistent causal formulation across teacher training, student distillation, and inference. Beyond aligning the temporal information boundary, Prefix Scoring matches supervision to the student's realized rollout context by evaluating each target under the cached student-generated prefix that produced it. Prefix Corruption further stabilizes training by perturbing unreliable prefixes produced early in training while preserving this target-context alignment. With a simple causal formulation, CMD naturally extends to frame-wise and chunk-wise generation, long video distillation, and camera-conditioned distillation. Experiments demonstrate state-of-the-art aggregate performance among autoregressive methods on both short- and long-video benchmarks, together with substantially improved adherence to time-varying camera controls.",
@@ -3114,7 +3067,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 67,
    "alert": false
   },
   {
@@ -3131,7 +3084,7 @@
    "category": "tools",
    "publishedAt": "2026-08-13T08:14:30Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 67,
    "alert": false
   },
   {
@@ -3148,7 +3101,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T21:54:35Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 67,
    "alert": false
   },
   {
@@ -3203,24 +3156,24 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 66,
    "alert": false
   },
   {
-   "id": "a7a521734664ebcadc62c5d7dbd58241ab8cf75985524d7966bce2a2b88dcb8d",
-   "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
-   "snippet": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional…",
-   "url": "https://arxiv.org/abs/2608.14539v1",
+   "id": "a0da090f6caf6520539083f6b3cabe67814edce65ac68a15c1ff877a9b9ce263",
+   "title": "What 15M Gemini conversations tell us about AI at work",
+   "snippet": null,
+   "url": "https://leaddev.com/ai/what-15-million-gemini-conversations-tell-us-about-ai-at-work",
    "sources": [
     {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "research",
-   "publishedAt": "2026-08-14T17:51:30Z",
+   "category": "tools",
+   "publishedAt": "2026-08-17T14:05:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 66,
    "alert": false
   },
   {
@@ -3236,6 +3189,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-13T23:53:47Z",
+   "imageURL": null,
+   "signal": 66,
+   "alert": false
+  },
+  {
+   "id": "a7a521734664ebcadc62c5d7dbd58241ab8cf75985524d7966bce2a2b88dcb8d",
+   "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+   "snippet": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional…",
+   "url": "https://arxiv.org/abs/2608.14539v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-14T17:51:30Z",
    "imageURL": null,
    "signal": 65,
    "alert": false
@@ -3305,7 +3275,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T17:16:27Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3390,7 +3360,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T16:44:35Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3475,7 +3445,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T21:13:24Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 63,
    "alert": false
   },
   {
@@ -3560,7 +3530,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T17:00:13Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-4-1152x648.jpg",
-   "signal": 61,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3577,7 +3547,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T16:45:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
-   "signal": 61,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3666,7 +3636,7 @@
    "category": "research",
    "publishedAt": "2026-08-11T00:00:00Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3737,6 +3707,27 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
+   "imageURL": null,
+   "signal": 60,
+   "alert": false
+  },
+  {
+   "id": "dfb586131bf3d3cb04b45c447ddda1020a0bfabb4f918d58630b10079556383d",
+   "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+   "snippet": null,
+   "url": "https://huggingface.co/blog/muse-glimmer",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    },
+    {
+     "name": "TradingView",
+     "domain": "tradingview.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
    "signal": 60,
    "alert": false
@@ -3831,23 +3822,6 @@
    "alert": false
   },
   {
-   "id": "1aa8177eff493655fa76f31c0b174c538a83593215275636c46097875eb76f08",
-   "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
-   "snippet": "LLM agents in the ReAct paradigm alternate between reasoning, acting, and observing, but deliberate reasoning is confined to the Thought phase: while the agent serializes an action and waits for the environment, its reasoning is frozen. We identify this recurring interval for Action and Observation as a reasoning idle window and ask whether it can host additional reasoning in parallel that serves future turns. Therefore, we propose Second Thought, a training-free inference framework that forks four auxiliary branches the instant each Thought phase concludes, decodes them concurrently with the main loop, and merges the generated thoughts back when the environment observation arrives. In this way, Second Thought relocates the added reasoning off the main thread's sequential decoding path. Across three agentic benchmarks and three reasoning LLMs, Second Thought lowers the average turn count in all nine (model,benchmark) pairs and reduces main thread decoding in six of them by up to 43% (roughly 20% on average among those settings), while leaving it essentially unchanged in a seventh; Pass@1 shows no significant change in seven of nine pairs and the two significant differences are +12.4 and +10.2 points. Against a compute-matched control that forces an equivalent budget onto the main thread's own reasoning, it attains strictly higher Pass@1 with 1.3 to 3.2 less sequential decoding in all four settings where the control applies.",
-   "url": "https://huggingface.co/papers/2608.13667",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-13T18:04:53Z",
-   "imageURL": null,
-   "signal": 58,
-   "alert": false
-  },
-  {
    "id": "af87c1f98b4ce7bda274274a0fc599d2cc58b7e10212fde4bc12865aa889fe97",
    "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
    "snippet": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the…",
@@ -3865,10 +3839,10 @@
    "alert": false
   },
   {
-   "id": "8298a9628b3db544ec38aa7c0c94863534ac13a5d0dfaa9337a8bb120bfe8204",
-   "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
-   "snippet": "This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding agent under a specification-first protocol, with no human review of the generated code and no pre-existing oracle to validate the target behaviour. The task, dismantling a central invariant across a large interdependent codebase, was assessed by the author as effectively infeasible through incremental refactoring, the kind of change that conventionally calls for a rewrite instead. Under the protocol described here, the agent completed it successfully.\n  The system is a 717,725-line production TypeScript application across 3,648 files. The task required dismantling a core lifetime invariant: the guarantee that a UI panel remains open for the duration of an AI request. The target behaviour was that a streaming generation survives the closing of its panel and can be reattached, on reopening, to the same live stream with no loss or duplication.\n  The protocol: formal specification by the agent, 14 refinement cycles auditing that specification against the source code, atomic implementation, a compile/test feedback loop, then 17 verification cycles auditing the code against the frozen specification. Across 31 audit passes, 201 defects were corrected before any human executed the program. The convergence criterion was empirical: two consecutive verification passes returning zero findings.\n  The change touched 189 files (31 new); with the extraction phase, the two commits total 288 files, 34,770 insertions, 16,422 deletions. Across the first and roughly thirty later sessions, the software behaved as specified, no bug observed. Elapsed: three days; cost: USD 2,430.\n  The full specification and raw session logs, 1,500+ pages in French, are published as evidence, allowing inspection of the process and submission to a language model for consistency checking.",
-   "url": "https://huggingface.co/papers/2608.12440",
+   "id": "1aa8177eff493655fa76f31c0b174c538a83593215275636c46097875eb76f08",
+   "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
+   "snippet": "LLM agents in the ReAct paradigm alternate between reasoning, acting, and observing, but deliberate reasoning is confined to the Thought phase: while the agent serializes an action and waits for the environment, its reasoning is frozen. We identify this recurring interval for Action and Observation as a reasoning idle window and ask whether it can host additional reasoning in parallel that serves future turns. Therefore, we propose Second Thought, a training-free inference framework that forks four auxiliary branches the instant each Thought phase concludes, decodes them concurrently with the main loop, and merges the generated thoughts back when the environment observation arrives. In this way, Second Thought relocates the added reasoning off the main thread's sequential decoding path. Across three agentic benchmarks and three reasoning LLMs, Second Thought lowers the average turn count in all nine (model,benchmark) pairs and reduces main thread decoding in six of them by up to 43% (roughly 20% on average among those settings), while leaving it essentially unchanged in a seventh; Pass@1 shows no significant change in seven of nine pairs and the two significant differences are +12.4 and +10.2 points. Against a compute-matched control that forces an equivalent budget onto the main thread's own reasoning, it attains strictly higher Pass@1 with 1.3 to 3.2 less sequential decoding in all four settings where the control applies.",
+   "url": "https://huggingface.co/papers/2608.13667",
    "sources": [
     {
      "name": "Hugging Face",
@@ -3876,24 +3850,7 @@
     }
    ],
    "category": "research",
-   "publishedAt": "2026-08-12T00:00:00Z",
-   "imageURL": null,
-   "signal": 58,
-   "alert": false
-  },
-  {
-   "id": "ce191501bdb45f202b05ed96edc62f07d577c662f3308d87f86c2a400e3ae5d2",
-   "title": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
-   "snippet": "We propose claim-level falsification as a principle for test-time scaling and instantiate it through Claim-Level Reliability Assessment (CLR), a training-free framework that reallocates test-time compute from additional solution sampling to targeted verification. Since whole-trace evaluation often obscures decisive errors due to signal dilution from routine tokens, CLR condenses each reasoning trace into a compact set of decision-critical claims, thereby isolating its logical anchors. Furthermore, recognizing the inherent difficulty of generating entirely correct solutions under fixed model capabilities, CLR shifts the focus to semantic falsification. This approach exploits a fundamental asymmetry between solution construction and claim refutation. Constructing a valid solution requires a flawless reasoning path, whereas refuting an incorrect claim requires identifying only a single decisive flaw. This targeted search for negative evidence systematically compresses the survival space of high-confidence incorrect traces, effectively suppressing erroneous consensus via nonlinear reliability scoring. Across four LLMs and four reasoning benchmarks under matched budgets, CLR generally improves upon pass@1 and self-consistency. On GPT-OSS-20B/CMIMC25, for instance, CLR exceeds pass@1 by 27.15 percentage-points and raises self-consistency accuracy from 77.50\\% to 82.19\\% with 37.0\\% fewer tokens.",
-   "url": "https://huggingface.co/papers/2608.11994",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-12T00:00:00Z",
+   "publishedAt": "2026-08-13T18:04:53Z",
    "imageURL": null,
    "signal": 58,
    "alert": false
@@ -3929,7 +3886,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T19:51:30Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3945,6 +3902,40 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
+   "signal": 58,
+   "alert": false
+  },
+  {
+   "id": "8298a9628b3db544ec38aa7c0c94863534ac13a5d0dfaa9337a8bb120bfe8204",
+   "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
+   "snippet": "This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding agent under a specification-first protocol, with no human review of the generated code and no pre-existing oracle to validate the target behaviour. The task, dismantling a central invariant across a large interdependent codebase, was assessed by the author as effectively infeasible through incremental refactoring, the kind of change that conventionally calls for a rewrite instead. Under the protocol described here, the agent completed it successfully.\n  The system is a 717,725-line production TypeScript application across 3,648 files. The task required dismantling a core lifetime invariant: the guarantee that a UI panel remains open for the duration of an AI request. The target behaviour was that a streaming generation survives the closing of its panel and can be reattached, on reopening, to the same live stream with no loss or duplication.\n  The protocol: formal specification by the agent, 14 refinement cycles auditing that specification against the source code, atomic implementation, a compile/test feedback loop, then 17 verification cycles auditing the code against the frozen specification. Across 31 audit passes, 201 defects were corrected before any human executed the program. The convergence criterion was empirical: two consecutive verification passes returning zero findings.\n  The change touched 189 files (31 new); with the extraction phase, the two commits total 288 files, 34,770 insertions, 16,422 deletions. Across the first and roughly thirty later sessions, the software behaved as specified, no bug observed. Elapsed: three days; cost: USD 2,430.\n  The full specification and raw session logs, 1,500+ pages in French, are published as evidence, allowing inspection of the process and submission to a language model for consistency checking.",
+   "url": "https://huggingface.co/papers/2608.12440",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-12T00:00:00Z",
+   "imageURL": null,
+   "signal": 57,
+   "alert": false
+  },
+  {
+   "id": "ce191501bdb45f202b05ed96edc62f07d577c662f3308d87f86c2a400e3ae5d2",
+   "title": "Claim-Level Reliability Assessment for Efficient Test-Time Reasoning",
+   "snippet": "We propose claim-level falsification as a principle for test-time scaling and instantiate it through Claim-Level Reliability Assessment (CLR), a training-free framework that reallocates test-time compute from additional solution sampling to targeted verification. Since whole-trace evaluation often obscures decisive errors due to signal dilution from routine tokens, CLR condenses each reasoning trace into a compact set of decision-critical claims, thereby isolating its logical anchors. Furthermore, recognizing the inherent difficulty of generating entirely correct solutions under fixed model capabilities, CLR shifts the focus to semantic falsification. This approach exploits a fundamental asymmetry between solution construction and claim refutation. Constructing a valid solution requires a flawless reasoning path, whereas refuting an incorrect claim requires identifying only a single decisive flaw. This targeted search for negative evidence systematically compresses the survival space of high-confidence incorrect traces, effectively suppressing erroneous consensus via nonlinear reliability scoring. Across four LLMs and four reasoning benchmarks under matched budgets, CLR generally improves upon pass@1 and self-consistency. On GPT-OSS-20B/CMIMC25, for instance, CLR exceeds pass@1 by 27.15 percentage-points and raises self-consistency accuracy from 77.50\\% to 82.19\\% with 37.0\\% fewer tokens.",
+   "url": "https://huggingface.co/papers/2608.11994",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
    "signal": 57,
    "alert": false
@@ -4014,7 +4005,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T16:00:00Z",
    "imageURL": null,
-   "signal": 56,
+   "signal": 57,
    "alert": false
   },
   {
@@ -4311,23 +4302,6 @@
    "alert": false
   },
   {
-   "id": "44f5ffd58af3459600364f528eebcbb65634a0807515a1c5ba0d8c1c842bf399",
-   "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
-   "snippet": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
-   "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-14T17:26:53Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
-   "signal": 53,
-   "alert": false
-  },
-  {
    "id": "6cb7ea29a44cc5eb02e31f7628b7be61a2b06be2bdefd6a3245e6de2508979d0",
    "title": "The web’s newest weapon against AI scrapers is a font",
    "snippet": "“ShieldFont” aims to poison AI training data without making pages unreadable for people.",
@@ -4345,19 +4319,19 @@
    "alert": false
   },
   {
-   "id": "c526209d097344d51d94b4e66313a66dcb21a7c53acdc2f8c222194a27f701df",
-   "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
-   "snippet": "Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor…",
-   "url": "https://arxiv.org/abs/2608.14498v1",
+   "id": "44f5ffd58af3459600364f528eebcbb65634a0807515a1c5ba0d8c1c842bf399",
+   "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+   "snippet": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+   "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
    "sources": [
     {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
     }
    ],
-   "category": "research",
-   "publishedAt": "2026-08-14T17:13:34Z",
-   "imageURL": null,
+   "category": "models",
+   "publishedAt": "2026-08-14T17:26:53Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
    "signal": 53,
    "alert": false
   },
@@ -4375,6 +4349,23 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:43:21Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
+   "signal": 53,
+   "alert": false
+  },
+  {
+   "id": "c526209d097344d51d94b4e66313a66dcb21a7c53acdc2f8c222194a27f701df",
+   "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
+   "snippet": "Vision-language models (VLMs) enable embodied agents to reason and act from visual observations and language instructions. Reinforcement learning (RL) post-training enhances these capabilities using task feedback, but current on-policy RL runtimes execute rollout, reference scoring, and actor…",
+   "url": "https://arxiv.org/abs/2608.14498v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-14T17:13:34Z",
+   "imageURL": null,
    "signal": 52,
    "alert": false
   },
@@ -4549,23 +4540,6 @@
    "alert": false
   },
   {
-   "id": "25a822d30af5922f8fd37b730431a309fe0bf3090ad9b9b953565bccb3e337a7",
-   "title": "Scaling Domain Data Repetition in LLM Pretraining",
-   "snippet": "As large language models scale, their training-token budgets must also increase to maintain an appropriate tokens-per-parameter ratio (\\(TPP\\)). However, high-quality domain data is much harder to scale than general web data. As model size and the training-token budget increase, its fraction in the training mixture tends to decrease. Repeating the available high-quality data provides an effective way to counteract this dilution, but excessive repetition may lead to overfitting. We study this trade-off under practical LLM scaling, where the training-token budget grows proportionally with model size. For a fixed domain, we first find that, surprisingly at a fixed \\(TPP\\), the optimal repetition count mildly increases with model size. Across different domains, we find that the optimal repetition count is strongly negatively correlated with the final validation loss of a domain: domains with lower loss can generally benefit from more repetitions. In contrast, the amount of unique domain data is only weakly related to the optimal repetition count. These findings suggest that repetition counts tuned on smaller proxy models with the same \\(TPP\\) can provide a practical estimate for larger models.",
-   "url": "https://huggingface.co/papers/2608.14071",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-14T00:00:00Z",
-   "imageURL": null,
-   "signal": 50,
-   "alert": false
-  },
-  {
    "id": "e637baf27472b99cac5abfa840f8208c0479525e8468c804b9b926c03396a2d3",
    "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
    "snippet": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
@@ -4579,6 +4553,23 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T05:16:41Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!k-nI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPWkSuDbkAExHc7.png",
+   "signal": 50,
+   "alert": false
+  },
+  {
+   "id": "25a822d30af5922f8fd37b730431a309fe0bf3090ad9b9b953565bccb3e337a7",
+   "title": "Scaling Domain Data Repetition in LLM Pretraining",
+   "snippet": "As large language models scale, their training-token budgets must also increase to maintain an appropriate tokens-per-parameter ratio (\\(TPP\\)). However, high-quality domain data is much harder to scale than general web data. As model size and the training-token budget increase, its fraction in the training mixture tends to decrease. Repeating the available high-quality data provides an effective way to counteract this dilution, but excessive repetition may lead to overfitting. We study this trade-off under practical LLM scaling, where the training-token budget grows proportionally with model size. For a fixed domain, we first find that, surprisingly at a fixed \\(TPP\\), the optimal repetition count mildly increases with model size. Across different domains, we find that the optimal repetition count is strongly negatively correlated with the final validation loss of a domain: domains with lower loss can generally benefit from more repetitions. In contrast, the amount of unique domain data is only weakly related to the optimal repetition count. These findings suggest that repetition counts tuned on smaller proxy models with the same \\(TPP\\) can provide a practical estimate for larger models.",
+   "url": "https://huggingface.co/papers/2608.14071",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-14T00:00:00Z",
+   "imageURL": null,
    "signal": 50,
    "alert": false
   },
@@ -4668,6 +4659,23 @@
    "alert": false
   },
   {
+   "id": "afa8170a1d42017e76d1e8cd502cf7128410ff28a39e95167c3802f3e18c967a",
+   "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
+   "snippet": "Apollo did not reach the Moon merely because its engineers could solve difficult equations. It succeeded by turning a distant ambition into a mission architecture of explicit objectives, simulation, verification, and repeated correction. AI now faces a similar transition: frontier models can solve difficult tasks once the problem, tools, and success criteria are specified, yet consequential real-world challenges rarely arrive in an executable or verifiable form.\n  We introduce Apodex Discovery, a framework for building and evaluating discoverative AI through the heavy-duty solver, a system comprising a foundation model, harness, tools, and control policies that pursues extended, stateful, verifiable investigations. It has three core components. First, a problem-scouting process surveyed 561 industries across 16 sectors, assembled 423 high-value real-world problems, and selected 20 for the initial release. Second, a common environment-task-episode abstraction provides data, tools, constraints, feedback, trajectory recording, and verification of intermediate artifacts and final submissions. Third, HDS6 evaluates Tools, Repair, Alternatives, Coherence, Evidence, and Scope independently of final-task success.\n  In AAV capsid design, Apodex surpassed the published state of the art by 7% across viability, tropism, structure prediction, and generative design. In drug repurposing and reformulation, a task-specific biomedical environment improved the mean normalized prediction score of GPT-5.5 and GPT-5.6-sol by 2.5 and 7.6 points over the same closed-book backbone. Controlled ablations show that the fixed TRACES episode interface enables attribution of performance differences to specific solver components. Apodex Discovery moves AI evaluation beyond predefined benchmarks toward verifiable investigations aimed at genuine discovery.",
+   "url": "https://huggingface.co/papers/2608.11341",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-11T00:00:00Z",
+   "imageURL": null,
+   "signal": 49,
+   "alert": false
+  },
+  {
    "id": "b688dfd5fcf050cd12da4774cbc6b58ac03454c309873e45ca41b9dd8dee4ba3",
    "title": "Quoting OpenClaw (running Opus 4.6)",
    "snippet": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. &mdash; OpenClaw (running Opus 4.6) , hacking an Australian gym-booking website Tags:…",
@@ -4680,40 +4688,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-10T02:05:16Z",
-   "imageURL": null,
-   "signal": 49,
-   "alert": false
-  },
-  {
-   "id": "a6a545d61c4560064ebe789e5c17009f5d9ddaf81b7c9dc2b28092b6cfdc1b6d",
-   "title": "A Pathway to General-Purpose Scientific AI: Multimodal Comprehension of Scientific Images",
-   "snippet": "Scientific figures and tables encode essential experimental evidence, yet remain difficult for digital libraries and multimodal AI systems to retrieve and interpret. The ALD/E-ImageMiner benchmark and ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching Scientific Figures provide 1,951 figures from 205 publications, expert-annotated for classification, data table extraction, summarization, and visual question answering. In these companion proceedings, we present a forward-looking perspective on how the benchmark can guide future scientific-image challenges. We examine how its tasks probe capabilities from visual and quantitative reading to domain-grounded reasoning and evidential justification, and how Bloom-informed question design can support deeper scientific understanding. We propose \"scientific conceptual understanding from images\" as a long-term benchmark objective, with future directions including broader domains and figure types, contextual and cross-document synthesis, hypothesis evaluation, provenance, uncertainty, counterfactual grounding, and open-ended multimodal research. This perspective connects the ICDAR 2026 challenge to a broader agenda for machine-actionable scientific visual knowledge and verifiable multimodal scientific AI.",
-   "url": "https://huggingface.co/papers/2608.14075",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-14T08:34:33Z",
-   "imageURL": null,
-   "signal": 49,
-   "alert": false
-  },
-  {
-   "id": "077b61a0fed02bcc2a083d299a0c55e24311ad526ecaa535f96d02762c586c8f",
-   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-   "snippet": null,
-   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-11T13:37:10Z",
    "imageURL": null,
    "signal": 49,
    "alert": false
@@ -4739,6 +4713,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-04T00:00:00Z",
+   "imageURL": null,
+   "signal": 49,
+   "alert": false
+  },
+  {
+   "id": "077b61a0fed02bcc2a083d299a0c55e24311ad526ecaa535f96d02762c586c8f",
+   "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+   "snippet": null,
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-11T13:37:10Z",
    "imageURL": null,
    "signal": 48,
    "alert": false
@@ -4782,23 +4773,6 @@
    "alert": false
   },
   {
-   "id": "afa8170a1d42017e76d1e8cd502cf7128410ff28a39e95167c3802f3e18c967a",
-   "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
-   "snippet": "Apollo did not reach the Moon merely because its engineers could solve difficult equations. It succeeded by turning a distant ambition into a mission architecture of explicit objectives, simulation, verification, and repeated correction. AI now faces a similar transition: frontier models can solve difficult tasks once the problem, tools, and success criteria are specified, yet consequential real-world challenges rarely arrive in an executable or verifiable form.\n  We introduce Apodex Discovery, a framework for building and evaluating discoverative AI through the heavy-duty solver, a system comprising a foundation model, harness, tools, and control policies that pursues extended, stateful, verifiable investigations. It has three core components. First, a problem-scouting process surveyed 561 industries across 16 sectors, assembled 423 high-value real-world problems, and selected 20 for the initial release. Second, a common environment-task-episode abstraction provides data, tools, constraints, feedback, trajectory recording, and verification of intermediate artifacts and final submissions. Third, HDS6 evaluates Tools, Repair, Alternatives, Coherence, Evidence, and Scope independently of final-task success.\n  In AAV capsid design, Apodex surpassed the published state of the art by 7% across viability, tropism, structure prediction, and generative design. In drug repurposing and reformulation, a task-specific biomedical environment improved the mean normalized prediction score of GPT-5.5 and GPT-5.6-sol by 2.5 and 7.6 points over the same closed-book backbone. Controlled ablations show that the fixed TRACES episode interface enables attribution of performance differences to specific solver components. Apodex Discovery moves AI evaluation beyond predefined benchmarks toward verifiable investigations aimed at genuine discovery.",
-   "url": "https://huggingface.co/papers/2608.11341",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-11T00:00:00Z",
-   "imageURL": null,
-   "signal": 48,
-   "alert": false
-  },
-  {
    "id": "63715b7aed3b5bbc79dfa78bb1e89a92c32749f91f0c237be517530a75c86f1c",
    "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
    "snippet": "Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a framework for learning agent-native video representations via agentic auto-encoding.\n  AVA-Encoder transforms a video into a knowledge graph (KG) representation and then reconstructs it back into video. Its hierarchy and state nodes store structured text, while a linked asset layer holds generated images, audio, and video. Typed edges preserve the relations between these text descriptions and assets in a form that agents can easily understand, query, and edit. The video reconstruction differences drive a textual-gradient optimization framework, which expresses evaluation feedback as natural-language update directions for Data-Independent Encoding Policy Pseudo-Training in the outer loop and optional Data-Dependent KG Representation Refinement in the test-time inner loop.\n  Extensive experiments show that AVA-Encoder improves by 20.7 percentage points over the strongest external baseline. In the controlled policy-only setting, its pseudo-trained shot-level Agentic Video Encoder policy also outperforms a carefully human-tuned policy while using 74.3% fewer system-prompt tokens. We release the complete AVA-Encoder framework, a reliable agentic video reconstruction benchmark, and the first dataset of high-quality film KG representations.",
@@ -4811,6 +4785,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-12T00:00:00Z",
+   "imageURL": null,
+   "signal": 48,
+   "alert": false
+  },
+  {
+   "id": "a6a545d61c4560064ebe789e5c17009f5d9ddaf81b7c9dc2b28092b6cfdc1b6d",
+   "title": "A Pathway to General-Purpose Scientific AI: Multimodal Comprehension of Scientific Images",
+   "snippet": "Scientific figures and tables encode essential experimental evidence, yet remain difficult for digital libraries and multimodal AI systems to retrieve and interpret. The ALD/E-ImageMiner benchmark and ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching Scientific Figures provide 1,951 figures from 205 publications, expert-annotated for classification, data table extraction, summarization, and visual question answering. In these companion proceedings, we present a forward-looking perspective on how the benchmark can guide future scientific-image challenges. We examine how its tasks probe capabilities from visual and quantitative reading to domain-grounded reasoning and evidential justification, and how Bloom-informed question design can support deeper scientific understanding. We propose \"scientific conceptual understanding from images\" as a long-term benchmark objective, with future directions including broader domains and figure types, contextual and cross-document synthesis, hypothesis evaluation, provenance, uncertainty, counterfactual grounding, and open-ended multimodal research. This perspective connects the ICDAR 2026 challenge to a broader agenda for machine-actionable scientific visual knowledge and verifiable multimodal scientific AI.",
+   "url": "https://huggingface.co/papers/2608.14075",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-14T08:34:33Z",
    "imageURL": null,
    "signal": 48,
    "alert": false
@@ -4833,23 +4824,6 @@
    "alert": false
   },
   {
-   "id": "969d83ddde37005b1a9b43a3b3e13f581c7d2a0fa7dbd5aa4d14bf4f7b4c5674",
-   "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
-   "snippet": "Nanbeige4.2-3B is a 3B-parameter agentic model built around a Looped Transformer (LT) that reuses one stack of layers for a second forward pass, adding effective depth without additional parameters. Evaluated on Apple Silicon (MPS), we identify five independent bugs which prevent the released checkpoint from running via Hugging Face transformers out of the box (including a silently-zeroed RoPE buffer and calls to removed transformers cache APIs). Furthermore, we show that fixing these bugs is still not sufficient for agentic tasks, due to the LT's layer-reuse strategy (which effectively doubles peak attention memory) used to achieve parameter efficiency. We thus introduce a chunked-prefill strategy which alleviates the incurred memory-capacity penalty, extending allowable context width by 2.7 times on 32~GiB shared memory. However, even with the reduced memory overhead, we show that patches are required to render Nanbeige4.2-3B usable; resolving both system prompt and MPS-native memory bugs finally allows reliable evaluation on standard MCP and tool-calling benchmarks. On a subset of MCPMark, the debugged model completes up to 30\\% of real agentic tasks (up from the original's 0\\%), while, on BFCL, it is near-perfect at single tool calls (yet fails the majority of multi-tool tests). We release the patched checkpoint, system prompt optimizer, and evaluation harnesses at https://github.com/johnhalloran321/Nanbeige4.2-3B-mps-fix.",
-   "url": "https://huggingface.co/papers/2608.13987",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-14T00:00:00Z",
-   "imageURL": null,
-   "signal": 47,
-   "alert": false
-  },
-  {
    "id": "f071c32e1acba4bfd6c63a43bdf6eeba1984ef5369f5b5e18984fb8d5827a6e8",
    "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
    "snippet": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
@@ -4867,23 +4841,6 @@
    "alert": false
   },
   {
-   "id": "3d196224ab27a2df369cbcf0994d8b85125e1e44f774a26b897579f4f210801c",
-   "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-   "snippet": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-   "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-10T14:00:00Z",
-   "imageURL": null,
-   "signal": 47,
-   "alert": false
-  },
-  {
    "id": "d4a990545fd84f6c6d4e2e95372c920bc92edb22243378757e9b461b12a53975",
    "title": "Maglev: Sliding Recurrent Memory",
    "snippet": "We introduce , a recurrent Transformer architecture with fixed-size memory that generalizes sliding-window attention while remaining parallelizable during training.  consists of two coupled models: a prefiller Q, which leverages full attentionIn practice, we use interleaved full and sliding-window attention for Q, as this yields stronger performance. The essential requirement is that Q be more expressive than P, with access to the full history. to produce memory targets m'_t, and a decoder P, which uses only sliding-window attention and recurrent K/V injection to produce decoder memories m_t for next-token prediction. We train  with a memory consistency loss that aligns m_t with m'_t, allowing inference to use P alone. Empirically,  improves validation loss and downstream pretraining benchmarks over sliding-window and latent recurrent transformer baselines. Moreover, sharing parameters between P and Q reduces parameter memory while preserving most of the gains.",
@@ -4896,6 +4853,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-05T00:00:00Z",
+   "imageURL": null,
+   "signal": 47,
+   "alert": false
+  },
+  {
+   "id": "3d196224ab27a2df369cbcf0994d8b85125e1e44f774a26b897579f4f210801c",
+   "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+   "snippet": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+   "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-10T14:00:00Z",
    "imageURL": null,
    "signal": 47,
    "alert": false
@@ -4931,6 +4905,23 @@
    "category": "models",
    "publishedAt": "2026-08-10T11:00:47Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/peer-review-difficulties-1152x648.jpg",
+   "signal": 47,
+   "alert": false
+  },
+  {
+   "id": "969d83ddde37005b1a9b43a3b3e13f581c7d2a0fa7dbd5aa4d14bf4f7b4c5674",
+   "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
+   "snippet": "Nanbeige4.2-3B is a 3B-parameter agentic model built around a Looped Transformer (LT) that reuses one stack of layers for a second forward pass, adding effective depth without additional parameters. Evaluated on Apple Silicon (MPS), we identify five independent bugs which prevent the released checkpoint from running via Hugging Face transformers out of the box (including a silently-zeroed RoPE buffer and calls to removed transformers cache APIs). Furthermore, we show that fixing these bugs is still not sufficient for agentic tasks, due to the LT's layer-reuse strategy (which effectively doubles peak attention memory) used to achieve parameter efficiency. We thus introduce a chunked-prefill strategy which alleviates the incurred memory-capacity penalty, extending allowable context width by 2.7 times on 32~GiB shared memory. However, even with the reduced memory overhead, we show that patches are required to render Nanbeige4.2-3B usable; resolving both system prompt and MPS-native memory bugs finally allows reliable evaluation on standard MCP and tool-calling benchmarks. On a subset of MCPMark, the debugged model completes up to 30\\% of real agentic tasks (up from the original's 0\\%), while, on BFCL, it is near-perfect at single tool calls (yet fails the majority of multi-tool tests). We release the patched checkpoint, system prompt optimizer, and evaluation harnesses at https://github.com/johnhalloran321/Nanbeige4.2-3B-mps-fix.",
+   "url": "https://huggingface.co/papers/2608.13987",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-14T00:00:00Z",
+   "imageURL": null,
    "signal": 46,
    "alert": false
   },
@@ -5156,23 +5147,6 @@
    "alert": false
   },
   {
-   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
-   "title": "Anthropic could be worth $2 trillion when it goes public",
-   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
-   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T13:58:56Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
-   "signal": 44,
-   "alert": false
-  },
-  {
    "id": "4fad8f89db5e075b17cd0c3d885e102dad74dc0b540de869af3dcdb404882463",
    "title": "AI chatbots have failed people in crisis. Can that be fixed?",
    "snippet": "Clinicians and researchers say AI companies need to open up their safety data.",
@@ -5186,6 +5160,23 @@
    "category": "models",
    "publishedAt": "2026-08-07T13:49:37Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/mentalhealthaichat-1152x648.jpg",
+   "signal": 44,
+   "alert": false
+  },
+  {
+   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
+   "title": "Anthropic could be worth $2 trillion when it goes public",
+   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
+   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T13:58:56Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
    "signal": 43,
    "alert": false
   },
@@ -5220,23 +5211,6 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T05:13:46Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!qA0L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3b60b0e-d47f-4723-bb40-be9594e9bab4_786x754.png",
-   "signal": 43,
-   "alert": false
-  },
-  {
-   "id": "8ee229e99787cf48cde9188a15ef6131871f65f32dddcb33f6a19933f5ad93df",
-   "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
-   "snippet": "Which reasoning behaviors are associated with correct answers in reasoning models, and does reasoning-oriented training amplify those behaviors? This distinction is important because reasoning-oriented training can make traces look more deliberative without amplifying the behaviors most tied to model correctness. We quantify this mismatch with Behavioral Lift, a metric that measures how much correctness changes when a behavior is present versus absent in a model's reasoning trace. Across 15 models and 6 benchmarks spanning text-only and vision-language reasoning, we annotate 15,282 traces with a taxonomy whose core behaviors are defined for both LLM and VLM traces. We find evidence for an Amplification-Lift Gap, in which thinking models strongly amplify self-correction, hypothesis testing, and uncertainty acknowledgment, while the highest-lift behaviors are confidence calibration, knowledge alignment, and self-awareness. Confidence calibration is among the strongest positive signals of correctness in both modalities, yet is barely amplified; uncertainty acknowledgment is amplified by 3--7times, yet is weakly or negatively associated with correctness. We find that reasoning-oriented training does not preferentially amplify the highest-Lift behaviors, motivating process-level objectives that reward calibrated and grounded reasoning rather than surface form alone.",
-   "url": "https://huggingface.co/papers/2608.13760",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-13T00:00:00Z",
-   "imageURL": null,
    "signal": 43,
    "alert": false
   },
@@ -5355,6 +5329,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-08T14:06:41Z",
+   "imageURL": null,
+   "signal": 42,
+   "alert": false
+  },
+  {
+   "id": "8ee229e99787cf48cde9188a15ef6131871f65f32dddcb33f6a19933f5ad93df",
+   "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
+   "snippet": "Which reasoning behaviors are associated with correct answers in reasoning models, and does reasoning-oriented training amplify those behaviors? This distinction is important because reasoning-oriented training can make traces look more deliberative without amplifying the behaviors most tied to model correctness. We quantify this mismatch with Behavioral Lift, a metric that measures how much correctness changes when a behavior is present versus absent in a model's reasoning trace. Across 15 models and 6 benchmarks spanning text-only and vision-language reasoning, we annotate 15,282 traces with a taxonomy whose core behaviors are defined for both LLM and VLM traces. We find evidence for an Amplification-Lift Gap, in which thinking models strongly amplify self-correction, hypothesis testing, and uncertainty acknowledgment, while the highest-lift behaviors are confidence calibration, knowledge alignment, and self-awareness. Confidence calibration is among the strongest positive signals of correctness in both modalities, yet is barely amplified; uncertainty acknowledgment is amplified by 3--7times, yet is weakly or negatively associated with correctness. We find that reasoning-oriented training does not preferentially amplify the highest-Lift behaviors, motivating process-level objectives that reward calibrated and grounded reasoning rather than surface form alone.",
+   "url": "https://huggingface.co/papers/2608.13760",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
    "signal": 42,
    "alert": false
@@ -5649,23 +5640,6 @@
    "alert": false
   },
   {
-   "id": "6ae5efd1aaa57ef3abf3b24a667c26b87c37d32bd8807d484bd24820bbf0e32e",
-   "title": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
-   "snippet": "We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure over time. This is a major milestone for NVIDIA and…",
-   "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
-   "sources": [
-    {
-     "name": "NVIDIA",
-     "domain": "blogs.nvidia.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-12T00:38:21Z",
-   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/jhh-support-blog-visual-logo-lock-up-3x4-1.png",
-   "signal": 38,
-   "alert": false
-  },
-  {
    "id": "9b7f3dec51df76dbebd5f1f3fb66f7e022b936d23982ccb83a38ad1947fdaf5c",
    "title": "GeForce NOW Shakes Up August With 26 New Games",
    "snippet": "August is here, bringing 26 new games for GeForce NOW members. Command the seas in World of Warships: Legends and discover what’s next in the GeForce NOW library, starting with the eight newly added games this week. In addition, GeForce NOW is at the QuakeCon gaming conference this week in…",
@@ -5679,6 +5653,23 @@
    "category": "models",
    "publishedAt": "2026-08-06T13:00:11Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-6-nv-blog-1280x680-logo.jpg",
+   "signal": 38,
+   "alert": false
+  },
+  {
+   "id": "6ae5efd1aaa57ef3abf3b24a667c26b87c37d32bd8807d484bd24820bbf0e32e",
+   "title": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
+   "snippet": "We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure over time. This is a major milestone for NVIDIA and…",
+   "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "domain": "blogs.nvidia.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-12T00:38:21Z",
+   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/jhh-support-blog-visual-logo-lock-up-3x4-1.png",
    "signal": 38,
    "alert": false
   },
@@ -5713,7 +5704,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T14:30:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp",
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5887,23 +5878,6 @@
    "alert": false
   },
   {
-   "id": "b450d0dac3eae0b4cf98b4e2d4295fab1c470978b930f0043b82bf4584d9b729",
-   "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
-   "snippet": "Spatial perception and reasoning from visual observations require recovering geometric structure, establishing correspondences, and understanding spatial relations. Existing approaches typically address these capabilities separately using task-specific architectures or external geometric modules, limiting knowledge transfer among complementary representations of the same physical scene. We introduce SPARGen, a unified multimodal framework that casts 3D reconstruction, dense correspondence, and spatial reasoning as instruction-conditioned generation tasks. SPARGen serializes compact structured and linguistic outputs as token sequences while generating dense geometric fields in image-aligned forms, enabling spatial supervision to jointly shape shared representations within a native multimodal generative model. Experiments across benchmarks for 3D reconstruction, correspondence, and spatial reasoning show that SPARGen achieves competitive performance across heterogeneous spatial tasks within a single native multimodal generative framework.",
-   "url": "https://huggingface.co/papers/2608.14138",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-14T00:00:00Z",
-   "imageURL": null,
-   "signal": 35,
-   "alert": false
-  },
-  {
    "id": "b19ec562c455e753267b0e04107e2217c787cdc2a4884378a6d93cdc79d11f47",
    "title": "Testing ads in ChatGPT",
    "snippet": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
@@ -5938,19 +5912,19 @@
    "alert": false
   },
   {
-   "id": "0518ad6f1f987f1e54278e8b6c185b69738015ef79af5b6574e17a58988a4c39",
-   "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
-   "snippet": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just object detection and motion prediction. AVs must…",
-   "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+   "id": "b7ad0738983293452d3e44364239c48cd9d9770b7d66b2b49a070ddaf8b7241a",
+   "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
+   "snippet": "Parliamentary proceedings are a primary record of democratic deliberation, yet their volume and fragmentation make multi-perspective access difficult for citizens, journalists, and researchers. Applying Retrieval-Augmented Generation (RAG) to parliamentary transcripts introduces three specific risks: dominance of the most frequent speakers, inability to weight speakers according to topical expertise, and citation misattribution in politically sensitive text. We present ParliamentRAG, a RAG system for the Italian Chamber of Deputies that addresses these risks jointly. Its core contribution is a topic-dependent authority model that estimates each speaker's authority as a function of the current query, combining interpretable components such as profession, education, and previous interventions. Given a user query, the system retrieves relevant speech chunks, identifies topic-relevant experts across parliamentary groups, and generates a summary synthesizing their perspectives, accompanied by supporting quotations. ParliamentRAG is evaluated against Google NotebookLM on 15 policy topics via a two-level protocol combining automated metrics and blind A/B human evaluation by six domain experts. The system achieves higher coverage across political groups (0.97 vs. 0.95), perfect quotation faithfulness (1.00 vs. 0.95), and stronger expert preferences on source-related dimensions, while NotebookLM remains stronger on prose-oriented dimensions.",
+   "url": "https://huggingface.co/papers/2608.13410",
    "sources": [
     {
-     "name": "NVIDIA",
-     "domain": "blogs.nvidia.com"
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-04T15:00:49Z",
-   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/alpamayo-launch-kv-blog-1920x1080-1.jpg",
+   "category": "research",
+   "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
    "signal": 35,
    "alert": false
   },
@@ -5985,7 +5959,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
-   "signal": 34,
+   "signal": 35,
    "alert": false
   },
   {
@@ -6018,23 +5992,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-10T17:00:00Z",
-   "imageURL": null,
-   "signal": 34,
-   "alert": false
-  },
-  {
-   "id": "fb77c2c1ffe555a86c0588c7e931bca8e179dbe360f09bdeadaedc5f92b2588f",
-   "title": "UNMASK: Discovering and Causally Verifying Spurious Shortcuts in Text Classifiers",
-   "snippet": "Neural language models trained on large crowdsourced corpora frequently exploit spurious surface patterns tied to target labels without true linguistic or causal relevance, boosting benchmark performance while failing on adversarial or out-of-distribution inputs. Existing approaches either require manual specification of the feature vocabulary or automate discovery only partially, leaving the gap between dataset-level correlation and model-level exploitation unaddressed. We present U N M ASK, a fully automated pipeline that discovers, causally verifies, and mitigates spurious correlations in text classifiers without additional human annotation. Given unlabeled training examples, U N M ASK generates candidate surface patterns as executable boolean expressions, filters them through a statistical validation protocol with independent replication, and establishes causal model dependence via verified counterfactual interventions. Causally confirmed features then serve as annotation-free group definitions for Deep Feature Reweighting, eliminating the group labels that standard DFR requires. Applied to BERT and RoBERTa trained on MNLI, our pipeline independently rediscovers established lexical-overlap and negation biases, verifying 9 of 10 features on BERT and 6 on RoBERTa, and improving HANS accuracy by up to 12.58 pp. On CivilComments-WILDS, programmatic groups match the 70.1% worst- group accuracy of hand-labeled DFR (Kirichenko et al., 2023) without demographic annotation. We further demonstrate that the discovery and validation stages generalize to reward model preference data, surfacing interpretable spurious correlations in RewardBench2.",
-   "url": "https://huggingface.co/papers/2608.09209",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-10T00:00:00Z",
    "imageURL": null,
    "signal": 34,
    "alert": false
@@ -6087,7 +6044,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T13:31:22Z",
    "imageURL": null,
-   "signal": 33,
+   "signal": 34,
    "alert": false
   },
   {
@@ -6142,6 +6099,23 @@
    "alert": false
   },
   {
+   "id": "b450d0dac3eae0b4cf98b4e2d4295fab1c470978b930f0043b82bf4584d9b729",
+   "title": "SPARGen: Unifying Spatial Perception and Reasoning through Native Multimodal Generation",
+   "snippet": "Spatial perception and reasoning from visual observations require recovering geometric structure, establishing correspondences, and understanding spatial relations. Existing approaches typically address these capabilities separately using task-specific architectures or external geometric modules, limiting knowledge transfer among complementary representations of the same physical scene. We introduce SPARGen, a unified multimodal framework that casts 3D reconstruction, dense correspondence, and spatial reasoning as instruction-conditioned generation tasks. SPARGen serializes compact structured and linguistic outputs as token sequences while generating dense geometric fields in image-aligned forms, enabling spatial supervision to jointly shape shared representations within a native multimodal generative model. Experiments across benchmarks for 3D reconstruction, correspondence, and spatial reasoning show that SPARGen achieves competitive performance across heterogeneous spatial tasks within a single native multimodal generative framework.",
+   "url": "https://huggingface.co/papers/2608.14138",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-14T00:00:00Z",
+   "imageURL": null,
+   "signal": 33,
+   "alert": false
+  },
+  {
    "id": "6bb3f934048965cc8fe40ff7286bc1d73fdff5cc902619e78dc98b0f853d7216",
    "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
    "snippet": "Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored. Similar to language models, MLLMs for image understanding tasks encounter challenges like…",
@@ -6172,6 +6146,23 @@
    "category": "techniques",
    "publishedAt": "2026-07-30T11:17:55Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!180z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F33011df5-c14f-4770-9b91-efa55618b6eb_1672x941.png",
+   "signal": 32,
+   "alert": false
+  },
+  {
+   "id": "fb77c2c1ffe555a86c0588c7e931bca8e179dbe360f09bdeadaedc5f92b2588f",
+   "title": "UNMASK: Discovering and Causally Verifying Spurious Shortcuts in Text Classifiers",
+   "snippet": "Neural language models trained on large crowdsourced corpora frequently exploit spurious surface patterns tied to target labels without true linguistic or causal relevance, boosting benchmark performance while failing on adversarial or out-of-distribution inputs. Existing approaches either require manual specification of the feature vocabulary or automate discovery only partially, leaving the gap between dataset-level correlation and model-level exploitation unaddressed. We present U N M ASK, a fully automated pipeline that discovers, causally verifies, and mitigates spurious correlations in text classifiers without additional human annotation. Given unlabeled training examples, U N M ASK generates candidate surface patterns as executable boolean expressions, filters them through a statistical validation protocol with independent replication, and establishes causal model dependence via verified counterfactual interventions. Causally confirmed features then serve as annotation-free group definitions for Deep Feature Reweighting, eliminating the group labels that standard DFR requires. Applied to BERT and RoBERTa trained on MNLI, our pipeline independently rediscovers established lexical-overlap and negation biases, verifying 9 of 10 features on BERT and 6 on RoBERTa, and improving HANS accuracy by up to 12.58 pp. On CivilComments-WILDS, programmatic groups match the 70.1% worst- group accuracy of hand-labeled DFR (Kirichenko et al., 2023) without demographic annotation. We further demonstrate that the discovery and validation stages generalize to reward model preference data, surfacing interpretable spurious correlations in RewardBench2.",
+   "url": "https://huggingface.co/papers/2608.09209",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-10T00:00:00Z",
+   "imageURL": null,
    "signal": 32,
    "alert": false
   },
@@ -6512,7 +6503,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-27T09:32:20Z",
    "imageURL": null,
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -6597,7 +6588,7 @@
    "category": "models",
    "publishedAt": "2026-07-22T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp",
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6669,23 +6660,6 @@
    "alert": false
   },
   {
-   "id": "b7ad0738983293452d3e44364239c48cd9d9770b7d66b2b49a070ddaf8b7241a",
-   "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
-   "snippet": "Parliamentary proceedings are a primary record of democratic deliberation, yet their volume and fragmentation make multi-perspective access difficult for citizens, journalists, and researchers. Applying Retrieval-Augmented Generation (RAG) to parliamentary transcripts introduces three specific risks: dominance of the most frequent speakers, inability to weight speakers according to topical expertise, and citation misattribution in politically sensitive text. We present ParliamentRAG, a RAG system for the Italian Chamber of Deputies that addresses these risks jointly. Its core contribution is a topic-dependent authority model that estimates each speaker's authority as a function of the current query, combining interpretable components such as profession, education, and previous interventions. Given a user query, the system retrieves relevant speech chunks, identifies topic-relevant experts across parliamentary groups, and generates a summary synthesizing their perspectives, accompanied by supporting quotations. ParliamentRAG is evaluated against Google NotebookLM on 15 policy topics via a two-level protocol combining automated metrics and blind A/B human evaluation by six domain experts. The system achieves higher coverage across political groups (0.97 vs. 0.95), perfect quotation faithfulness (1.00 vs. 0.95), and stronger expert preferences on source-related dimensions, while NotebookLM remains stronger on prose-oriented dimensions.",
-   "url": "https://huggingface.co/papers/2608.13410",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-13T00:00:00Z",
-   "imageURL": null,
-   "signal": 27,
-   "alert": false
-  },
-  {
    "id": "1e95bee9c26709cbd166106f0eb98f06dc88836406d25f663409006ca3e49173",
    "title": "Controlling Reasoning Effort in LLMs",
    "snippet": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
@@ -6699,7 +6673,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-18T11:16:09Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png",
-   "signal": 26,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6788,7 +6762,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-16T11:49:48Z",
    "imageURL": null,
-   "signal": 25,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6962,6 +6936,23 @@
    "alert": false
   },
   {
+   "id": "aaf3c15492a54cc6c62b101b1a8a757d4cb07505ea764ae2bd47f8d324cc0d2e",
+   "title": "Modular Cognitive Architecture Emerges in Large Language Models",
+   "snippet": "The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this modular organization a fundamental principle of how intelligent systems must be built, or an evolutionary accident specific to biological brains? Here, we test whether a similar organization emerges in Large Language Models--another class of intelligent systems created through a very different optimization process. Using circuit analyses across N=46 tasks spanning four cognitive domains (language, formal reasoning, social reasoning, physical reasoning), we find that LLMs develop a modular architecture that mirrors the human brain: tasks drawing on the same network in humans recruit overlapping neurons in LLMs, whereas tasks drawing on different networks recruit distinct neurons. The convergent emergence of modularity in brains and neural networks suggests that it may be a fundamental property of intelligent systems.",
+   "url": "https://huggingface.co/papers/2608.13567",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-06-27T01:56:22Z",
+   "imageURL": null,
+   "signal": 23,
+   "alert": false
+  },
+  {
    "id": "9dd06ff2acc7e68a149ec535f0847946c774790bb534c02265acc5bab4ca247a",
    "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
    "snippet": null,
@@ -7042,23 +7033,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-07-08T17:53:47Z",
-   "imageURL": null,
-   "signal": 23,
-   "alert": false
-  },
-  {
-   "id": "aaf3c15492a54cc6c62b101b1a8a757d4cb07505ea764ae2bd47f8d324cc0d2e",
-   "title": "Modular Cognitive Architecture Emerges in Large Language Models",
-   "snippet": "The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this modular organization a fundamental principle of how intelligent systems must be built, or an evolutionary accident specific to biological brains? Here, we test whether a similar organization emerges in Large Language Models--another class of intelligent systems created through a very different optimization process. Using circuit analyses across N=46 tasks spanning four cognitive domains (language, formal reasoning, social reasoning, physical reasoning), we find that LLMs develop a modular architecture that mirrors the human brain: tasks drawing on the same network in humans recruit overlapping neurons in LLMs, whereas tasks drawing on different networks recruit distinct neurons. The convergent emergence of modularity in brains and neural networks suggests that it may be a fundamental property of intelligent systems.",
-   "url": "https://huggingface.co/papers/2608.13567",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-06-27T01:56:22Z",
    "imageURL": null,
    "signal": 22,
    "alert": false
@@ -7145,7 +7119,7 @@
    "category": "research",
    "publishedAt": "2026-07-31T00:00:00Z",
    "imageURL": null,
-   "signal": 21,
+   "signal": 22,
    "alert": false
   },
   {
@@ -7230,7 +7204,7 @@
    "category": "models",
    "publishedAt": "2026-07-01T18:15:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp",
-   "signal": 20,
+   "signal": 21,
    "alert": false
   },
   {
@@ -7591,7 +7565,7 @@
    "category": "research",
    "publishedAt": "2026-06-10T16:24:11Z",
    "imageURL": null,
-   "signal": 16,
+   "signal": 17,
    "alert": false
   },
   {
@@ -8037,7 +8011,7 @@
    "category": "techniques",
    "publishedAt": "2026-02-20T17:01:21Z",
    "imageURL": null,
-   "signal": 11,
+   "signal": 12,
    "alert": false
   },
   {
