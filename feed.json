@@ -1,7 +1,28 @@
 {
  "version": 1,
- "generatedAt": "2026-08-19T23:20:57Z",
+ "generatedAt": "2026-08-19T23:46:42Z",
  "stories": [
+  {
+   "id": "9d321051f4147de8d941ae4317f65d897a573b42f6e5dedb16e0405ac219e732",
+   "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+   "snippet": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+   "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    },
+    {
+     "name": "Latent Space",
+     "domain": "latent.space"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T23:32:00Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": true
+  },
   {
    "id": "b9baf2db0326703e7e96d7eda02b91350d4f3d4265940e4942c9af8fcb7c2bf2",
    "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
@@ -24,18 +45,18 @@
    "alert": true
   },
   {
-   "id": "aba702fa45c8ed7604a54eb3cbae1468d60b8951810235e34076c3764ebeab42",
-   "title": "TCAI Guide to ‘ChatGPT For Teens’: The good, the bad, and the law",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWGEzLXNvQ3p1QldvQ0p1VUpjUmJPTWtFbUhwQmpCRVdlMWtsVklpSFk2Z2x3cUdTVlhMb2NUMDZFdTFuM2tWUXBwUUdIbkYzZnE0N1U1Z1B1cGgzSm5UMmIwbVdvVkZpVE0yMUIxTUduSTlpZGRSelZNOHo1QnJzLU1EMDZVSFdQeUdLdUQzSFNVODdpYkpIeWtnYW4yZw?oc=5",
+   "id": "f7dc95732d84964cc7133b30e7fa035a07a59cd1991bfabcce119d887729298e",
+   "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+   "snippet": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run…",
+   "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
    "sources": [
     {
-     "name": "Transparency Coalition",
-     "domain": "transparencycoalition.ai"
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-19T23:02:27Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-19T23:16:00Z",
    "imageURL": null,
    "signal": 99,
    "alert": false
@@ -58,25 +79,8 @@
    "category": "models",
    "publishedAt": "2026-08-19T22:10:46Z",
    "imageURL": null,
-   "signal": 99,
-   "alert": true
-  },
-  {
-   "id": "74bc92f4a17f4147b867818fcee07abb715f8116206a95e8530d82129de411a8",
-   "title": "Claude Code Helps Ransomware Operator Steal LDAP Passwords, Backdoor VPNs and Exfiltrate SQL Databases",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TMHVDQW1pU2hhWmtYcG84WktmQm84cWM4TEI0YnREYVRNVFo3bHhLZkdXeFFDR3prWDB1T1pGdjZpYU1PczVoUVU4aE5OZWJZclR2dWlLVXZLWnpQUWJPNk5vb2VIa0ZTcDlEcTI0c2l4YVJrakVj0gF8QVVfeXFMTTZzYXFfY010a3o5RExtM19keWZ0dnpJOE1vbXl4cHM1MVpqT2tUNXV6NUxSYlJGMzcyelRBVm5lci1DS2hwd1ZoOEdPcGJNS0V3djFVcHpHbXJGekc1cjZXTjVXOWR3S3dERTNnMXNfX3VpNjlDclRuaUxKbA?oc=5",
-   "sources": [
-    {
-     "name": "cybersecuritynews.com",
-     "domain": "cybersecuritynews.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T22:49:10Z",
-   "imageURL": null,
    "signal": 98,
-   "alert": false
+   "alert": true
   },
   {
    "id": "eaeed06cc80cde1d53538b48a24ff2b4e4886c0c118be228a8e59cc2e9bba3c5",
@@ -112,6 +116,40 @@
    "alert": true
   },
   {
+   "id": "aba702fa45c8ed7604a54eb3cbae1468d60b8951810235e34076c3764ebeab42",
+   "title": "TCAI Guide to ‘ChatGPT For Teens’: The good, the bad, and the law",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWGEzLXNvQ3p1QldvQ0p1VUpjUmJPTWtFbUhwQmpCRVdlMWtsVklpSFk2Z2x3cUdTVlhMb2NUMDZFdTFuM2tWUXBwUUdIbkYzZnE0N1U1Z1B1cGgzSm5UMmIwbVdvVkZpVE0yMUIxTUduSTlpZGRSelZNOHo1QnJzLU1EMDZVSFdQeUdLdUQzSFNVODdpYkpIeWtnYW4yZw?oc=5",
+   "sources": [
+    {
+     "name": "Transparency Coalition",
+     "domain": "transparencycoalition.ai"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T23:02:27Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "74bc92f4a17f4147b867818fcee07abb715f8116206a95e8530d82129de411a8",
+   "title": "Claude Code Helps Ransomware Operator Steal LDAP Passwords, Backdoor VPNs and Exfiltrate SQL Databases",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TMHVDQW1pU2hhWmtYcG84WktmQm84cWM4TEI0YnREYVRNVFo3bHhLZkdXeFFDR3prWDB1T1pGdjZpYU1PczVoUVU4aE5OZWJZclR2dWlLVXZLWnpQUWJPNk5vb2VIa0ZTcDlEcTI0c2l4YVJrakVj0gF8QVVfeXFMTTZzYXFfY010a3o5RExtM19keWZ0dnpJOE1vbXl4cHM1MVpqT2tUNXV6NUxSYlJGMzcyelRBVm5lci1DS2hwd1ZoOEdPcGJNS0V3djFVcHpHbXJGekc1cjZXTjVXOWR3S3dERTNnMXNfX3VpNjlDclRuaUxKbA?oc=5",
+   "sources": [
+    {
+     "name": "cybersecuritynews.com",
+     "domain": "cybersecuritynews.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T22:49:10Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
    "id": "7a66fcf62cc50c40e038dd2ad7d31717f2ff4d813a9436de62524f92b4fc922e",
    "title": "Conceptual integrity and counting lines of code",
    "snippet": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove…",
@@ -124,23 +162,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-19T22:46:07Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": false
-  },
-  {
-   "id": "3c042057ca5b7cce008ea1df5127e03c8de336bcb0d350855d44c94c737fb303",
-   "title": "Feature Request: Support AGENTS.md",
-   "snippet": null,
-   "url": "https://github.com/anthropics/claude-code/issues/6235",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T21:19:50Z",
    "imageURL": null,
    "signal": 98,
    "alert": false
@@ -163,7 +184,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T20:40:45Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": true
   },
   {
@@ -256,14 +277,14 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T22:06:09Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
-   "id": "b50674804e745fe62ee5d3051c4151de11fe16a0ffca297095e550a2526a387b",
-   "title": "Collaborative Human Agent Protocol (CHAP)",
+   "id": "3c042057ca5b7cce008ea1df5127e03c8de336bcb0d350855d44c94c737fb303",
+   "title": "Feature Request: Support AGENTS.md",
    "snippet": null,
-   "url": "https://github.com/BrightbeamAI/chap",
+   "url": "https://github.com/anthropics/claude-code/issues/6235",
    "sources": [
     {
      "name": "Hacker News",
@@ -271,7 +292,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-19T22:09:16Z",
+   "publishedAt": "2026-08-19T21:19:50Z",
    "imageURL": null,
    "signal": 96,
    "alert": false
@@ -289,23 +310,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-19T22:09:56Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "4ebb64f9b8f0eb0df1318d53f58bcbfe5a8bb979a8c0a2111f9700a0a4631fb8",
-   "title": "Expert urges caution as OpenAI launches ChatGPT for teenagers",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeHZ0amMyQmhtMXlvU01zcF9MWkk2ZEMwWlZ4ZEhoM3ljaWFnYnRoaGdBbGJZU0NIdFQySDBSZXROTEx1LUpXUGNPTTlkUHpUNEhGSmRhR0pVX2NDcHFCYzhod21jNlpzcjRtVE9oekRvRzhfdFhwRXQzNFplNzNEbFI0NjJrLUZKWHptOXZCaTEtYkE?oc=5",
-   "sources": [
-    {
-     "name": "KUTV",
-     "domain": "kutv.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T21:24:51Z",
    "imageURL": null,
    "signal": 96,
    "alert": false
@@ -345,18 +349,18 @@
    "alert": false
   },
   {
-   "id": "f094cd25243c43526e456ca276b0eb92dd246f8ad2dabdfff60300faafcb357a",
-   "title": "US Lead in the AI Race With China Is Rapidly Narrowing",
+   "id": "b50674804e745fe62ee5d3051c4151de11fe16a0ffca297095e550a2526a387b",
+   "title": "Collaborative Human Agent Protocol (CHAP)",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBidzZzbzRJcEtnaUtHR3lrUjdkWTRLenFWR0lrUS1wb0F5VEcySTBsQURrclVQUTlsUWtCWDZTUzZuTktXcUFwcVFYQlExSWh4czRtUUZocXlGSVU4U0g5Q3Q4SEluU1BT?oc=5",
+   "url": "https://github.com/BrightbeamAI/chap",
    "sources": [
     {
-     "name": "Bloomberg",
-     "domain": "bloomberg.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-19T21:00:00Z",
+   "category": "tools",
+   "publishedAt": "2026-08-19T22:09:16Z",
    "imageURL": null,
    "signal": 95,
    "alert": false
@@ -384,7 +388,7 @@
      "domain": "makeuseof.com"
     },
     {
-     "name": "Mshale",
+     "name": "mshale.com",
      "domain": "mshale.com"
     },
     {
@@ -423,71 +427,20 @@
    "alert": true
   },
   {
-   "id": "2dd0688c07677e495169440a0695f2c1eced80124fe0403f3d5c3e8bbc59da7a",
-   "title": "Prosecutors say AI influenced a teen accused of killing mother, brother",
+   "id": "f094cd25243c43526e456ca276b0eb92dd246f8ad2dabdfff60300faafcb357a",
+   "title": "US Lead in the AI Race With China Is Rapidly Narrowing",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05dkVaZEtVeWNGSUdoVU1NeWlSYzZkX3ZmSDlCSE10VUZzUVM0ejdmZW00S3NiRHV3TG85YlBZcXcwbHpNSFp6OS1uZUp5ZlhqOW5KUFpfb0ExYkJ0cjd0c05R?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBidzZzbzRJcEtnaUtHR3lrUjdkWTRLenFWR0lrUS1wb0F5VEcySTBsQURrclVQUTlsUWtCWDZTUzZuTktXcUFwcVFYQlExSWh4czRtUUZocXlGSVU4U0g5Q3Q4SEluU1BT?oc=5",
    "sources": [
     {
-     "name": "Mashable",
-     "domain": "mashable.com"
+     "name": "Bloomberg.com",
+     "domain": "bloomberg.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-19T20:36:50Z",
+   "publishedAt": "2026-08-19T21:00:00Z",
    "imageURL": null,
    "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "b7dd99284a0453af1cc9f97fd2a0ccfaa9556a2245de5f973a7d1c776ec69e1c",
-   "title": "KnowledgeForge: mining gold from the ITSM ticket graveyard",
-   "snippet": "KnowledgeForge mines resolved ITSM incident tickets into new knowledge base articles and automatically curates the existing library by deduplicating, quality-scoring, and improving content, using Amazon Bedrock, Amazon S3 Vectors, and AWS Step Functions in a multi-tenant, closed-loop pipeline.",
-   "url": "https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T20:36:50Z",
-   "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "6e8c760f46fa76cad4b3b4662d656bb393e2c3133a3d44709b019d11608e39b3",
-   "title": "What parents should know about ChatGPT for Teens",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NRFVWcVhLUjdwTXdFLURGcm9jYkhzSlhRS2NTSUt6Mi04M2wtSkhQV3Nsa29IZjFubERjUzRRY1h5aC1XWkN5cGZINUZJLUx2aXhBWkk2dTMtYXlRZXpkY1I2anVhajA?oc=5",
-   "sources": [
-    {
-     "name": "Mashable",
-     "domain": "mashable.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T20:36:41Z",
-   "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "20e3437ce23a8dd7d82053480766e26ef580123bf0666979c836eeec5dd4954b",
-   "title": "Japan to require AI firms to disclose training data",
-   "snippet": null,
-   "url": "https://www.japantimes.co.jp/news/2026/08/19/japan/ai-training-data-disclosure/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T22:12:52Z",
-   "imageURL": null,
-   "signal": 94,
    "alert": false
   },
   {
@@ -508,7 +461,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T19:11:40Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 95,
    "alert": true
   },
   {
@@ -518,7 +471,7 @@
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeHlqdk1fMzR0V2M2NDdOejYtU3NCZEFNdE5icVZKdDNBU1dCMk9teExmRHEzNExGTVBDQ3FQT2QxZ2Y4UXJ5cjd6RXYwb0hvZ1pVNjcxcml1SWZLZ2c3bUJud0REbE5BNjB0Rk5EREtiSEUwSnpQUEVKSDMwUER4cHdNdGVQSi0xM1hZZ1BCSTRsRXpFRnMxRXZIRnUtemlGWlVBb1plS3B6ZG9tSUVlVHFpbXNwMF9nRDNWZVVBZEtBU3AxVmY4MGVhOThNeFFWVk5pQnR1MTZzQ0hPd0NGVzYxV2Q?oc=5",
    "sources": [
     {
-     "name": "ACCESS Newswire",
+     "name": "accessnewswire.com",
      "domain": "accessnewswire.com"
     },
     {
@@ -533,29 +486,76 @@
    "category": "tools",
    "publishedAt": "2026-08-19T12:04:12Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 95,
    "alert": true
   },
   {
-   "id": "976cca10b6529fa8fc1bdbccbe672605f10503d223cf6e256c8b6d6101174091",
-   "title": "Why I Wouldn't Bother With the Anthropic or OpenAI IPOs",
+   "id": "e068380f450b8134d40eb6801c83dd8833ce571b0c94059e25ab5e6d16c251a6",
+   "title": "Man who used ChatGPT to plan Omaha bank robbery sentenced",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdHNaTUdFellBOFg5aFltSEZLZldxMGJuOFBCaHpJTjhjVzUxcVVQal9mTlFiRjZRTjQwUnBLMS1LdVl5TXhTUVUtWWxBQjVpOUpPMTJ5SDFHdHQwZmVKSDdaMEFyWjJsQ2ZHcXhaM2RxbkNxQ0I0NVpzRGJ2TXRJQjljTHp4RThvVkhZc3VBZjc5cWRud2pv?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUlBibTRWRzQ1WGhVUXhJTHNqTnlZMzdEUWNkTTZzc2ljRmtaYzNDUTNpMTVxbHVYTkQteHVOLXlraDRhSUphdzB3MU9fQXE3N0tPT1FZSHZYSDR1RGdySmhSRkJKcnJVcFVBSGlkT0pNZTdYODFzeFR1UkVILVpRQ3VQNk44N2ZxZDAzd01acGjSAaQBQVVfeXFMT1dhX1dvSERzNXFzRHBSbEZUeFF2XzJaeVhZTHh0d09DbmhCeTZhWW96RFowa0V3LWNvcEhOX3VEbURvVWZuSS1NTjNmbkxJUW9CTE84V2dRVmRzc3pTdzBaTWktZXNET2RzN29RdS03MzVJNmRvTUwtS0dYckdPM3V6ekIwNWhiMmI1bUFXdEttZDhzMTFtTHItWllGaGw5Vk9hbmQ?oc=5",
    "sources": [
     {
-     "name": "The Motley Fool",
-     "domain": "fool.com"
-    },
-    {
-     "name": "Yahoo Finance",
-     "domain": "finance.yahoo.com"
+     "name": "WOWT",
+     "domain": "wowt.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-19T20:55:35Z",
+   "publishedAt": "2026-08-19T20:40:00Z",
    "imageURL": null,
    "signal": 94,
-   "alert": true
+   "alert": false
+  },
+  {
+   "id": "2dd0688c07677e495169440a0695f2c1eced80124fe0403f3d5c3e8bbc59da7a",
+   "title": "Prosecutors say AI influenced a teen accused of killing mother, brother",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05dkVaZEtVeWNGSUdoVU1NeWlSYzZkX3ZmSDlCSE10VUZzUVM0ejdmZW00S3NiRHV3TG85YlBZcXcwbHpNSFp6OS1uZUp5ZlhqOW5KUFpfb0ExYkJ0cjd0c05R?oc=5",
+   "sources": [
+    {
+     "name": "Mashable",
+     "domain": "mashable.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T20:36:50Z",
+   "imageURL": null,
+   "signal": 94,
+   "alert": false
+  },
+  {
+   "id": "b7dd99284a0453af1cc9f97fd2a0ccfaa9556a2245de5f973a7d1c776ec69e1c",
+   "title": "KnowledgeForge: mining gold from the ITSM ticket graveyard",
+   "snippet": "KnowledgeForge mines resolved ITSM incident tickets into new knowledge base articles and automatically curates the existing library by deduplicating, quality-scoring, and improving content, using Amazon Bedrock, Amazon S3 Vectors, and AWS Step Functions in a multi-tenant, closed-loop pipeline.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T20:36:50Z",
+   "imageURL": null,
+   "signal": 94,
+   "alert": false
+  },
+  {
+   "id": "6e8c760f46fa76cad4b3b4662d656bb393e2c3133a3d44709b019d11608e39b3",
+   "title": "What parents should know about ChatGPT for Teens",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NRFVWcVhLUjdwTXdFLURGcm9jYkhzSlhRS2NTSUt6Mi04M2wtSkhQV3Nsa29IZjFubERjUzRRY1h5aC1XWkN5cGZINUZJLUx2aXhBWkk2dTMtYXlRZXpkY1I2anVhajA?oc=5",
+   "sources": [
+    {
+     "name": "Mashable",
+     "domain": "mashable.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T20:36:41Z",
+   "imageURL": null,
+   "signal": 94,
+   "alert": false
   },
   {
    "id": "3ce595e677a9ba3ce63f71f3d37fd7ba8bb4b3aa5b3350f3116e8b3171a5d2c4",
@@ -609,21 +609,25 @@
    "alert": false
   },
   {
-   "id": "b525b75212132ef5a21b909408c0bc32f30ef4e8b44ff9a5aef931f00cc59c29",
-   "title": "Flight attendants freaked out that Google is buying tons of Spirit employee data",
-   "snippet": "Bankrupt Spirit accused of selling out workers in massive data sale to Google.",
-   "url": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
+   "id": "976cca10b6529fa8fc1bdbccbe672605f10503d223cf6e256c8b6d6101174091",
+   "title": "Why I Wouldn't Bother With the Anthropic or OpenAI IPOs",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdHNaTUdFellBOFg5aFltSEZLZldxMGJuOFBCaHpJTjhjVzUxcVVQal9mTlFiRjZRTjQwUnBLMS1LdVl5TXhTUVUtWWxBQjVpOUpPMTJ5SDFHdHQwZmVKSDdaMEFyWjJsQ2ZHcXhaM2RxbkNxQ0I0NVpzRGJ2TXRJQjljTHp4RThvVkhZc3VBZjc5cWRud2pv?oc=5",
    "sources": [
     {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
+     "name": "The Motley Fool",
+     "domain": "fool.com"
+    },
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-19T20:04:41Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2273586740-1024x648.jpg",
+   "publishedAt": "2026-08-19T20:55:35Z",
+   "imageURL": null,
    "signal": 93,
-   "alert": false
+   "alert": true
   },
   {
    "id": "cecb3fc11f3582b851774e45d62093acee653544ae22b896f9ddea16730bcbcd",
@@ -643,27 +647,27 @@
    "alert": false
   },
   {
-   "id": "d82a5f366dbf037eea03a02625e6f6e5b13914209cf8814d9e83ba8312f7a9c5",
-   "title": "Can Your Replace $100 Claude Code Subscription With Kimi K3 Allenatore Barcellona (GxtQXBzrNK)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKWGl3UXdYWDIzQXhqV1JTR3RJTDVyTVMyR1M0VXdxY2tuRVBROWE1YWdkOXJNMjBETHM4dy01RGJpVVlfbTBlR2V1NllCUUdybWxsVXhhYi00ZGM?oc=5",
+   "id": "b525b75212132ef5a21b909408c0bc32f30ef4e8b44ff9a5aef931f00cc59c29",
+   "title": "Flight attendants freaked out that Google is buying tons of Spirit employee data",
+   "snippet": "Bankrupt Spirit accused of selling out workers in massive data sale to Google.",
+   "url": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
    "sources": [
     {
-     "name": "Mshale",
-     "domain": "mshale.com"
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T18:42:31Z",
-   "imageURL": null,
+   "category": "models",
+   "publishedAt": "2026-08-19T20:04:41Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2273586740-1024x648.jpg",
    "signal": 93,
    "alert": false
   },
   {
-   "id": "6b541e2c30cf891c028841afa38d40db3866b282b82206991da6ef053465e114",
-   "title": "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
+   "id": "f72bcfad498e31be1c6ae33d476551a0e6502a4925f79b726ad92ec13982d234",
+   "title": "OpenAI's Unraveling Has Begun",
    "snippet": null,
-   "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
+   "url": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun",
    "sources": [
     {
      "name": "Hacker News",
@@ -671,7 +675,24 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-19T19:42:35Z",
+   "publishedAt": "2026-08-19T21:00:57Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "d82a5f366dbf037eea03a02625e6f6e5b13914209cf8814d9e83ba8312f7a9c5",
+   "title": "Can Your Replace $100 Claude Code Subscription With Kimi K3 Allenatore Barcellona (GxtQXBzrNK)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKWGl3UXdYWDIzQXhqV1JTR3RJTDVyTVMyR1M0VXdxY2tuRVBROWE1YWdkOXJNMjBETHM4dy01RGJpVVlfbTBlR2V1NllCUUdybWxsVXhhYi00ZGM?oc=5",
+   "sources": [
+    {
+     "name": "mshale.com",
+     "domain": "mshale.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T18:42:31Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
@@ -683,30 +704,13 @@
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhYUpPMWkwTk14WkJjeGJsVnhrclVTbVpXX18waGxsLVlNeDlIMDRkcGZ3NllqOHhDYXhsWXNDckdIMkloOXg4TnVoNEpwM0swWGlzckJBUkFKMVE?oc=5",
    "sources": [
     {
-     "name": "Mshale",
+     "name": "mshale.com",
      "domain": "mshale.com"
     }
    ],
    "category": "techniques",
    "publishedAt": "2026-08-19T17:44:31Z",
    "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
-   "id": "d96b4129d44ca7f6a2f5011273cddcf5eaf2d08ba9d94228da4952ec404c0d84",
-   "title": "5 new ways to level up your learning with Search",
-   "snippet": "Here’s how you can use Google Search tools to study for classes and standardized tests.",
-   "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-   "sources": [
-    {
-     "name": "Google AI",
-     "domain": "blog.google"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T19:00:00Z",
-   "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp",
    "signal": 92,
    "alert": false
   },
@@ -732,6 +736,40 @@
    "alert": true
   },
   {
+   "id": "aca7847db12030b3da7ae0dda9403c40917066f5e8b9a7330a49e7296b49b294",
+   "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+   "snippet": null,
+   "url": "https://github.com/onecli/onecli",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T16:29:02Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "20e3437ce23a8dd7d82053480766e26ef580123bf0666979c836eeec5dd4954b",
+   "title": "Japan to require AI firms to disclose training data",
+   "snippet": null,
+   "url": "https://www.japantimes.co.jp/news/2026/08/19/japan/ai-training-data-disclosure/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T22:12:52Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
    "id": "032c00eda46478d68e91758107d9edd66e249321d8d100dc145b9c9efac8e048",
    "title": "Monex Securities launches Japan-first ChatGPT MCP server plugin",
    "snippet": null,
@@ -753,23 +791,23 @@
    "category": "tools",
    "publishedAt": "2026-08-19T16:17:02Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 91,
    "alert": true
   },
   {
-   "id": "aca7847db12030b3da7ae0dda9403c40917066f5e8b9a7330a49e7296b49b294",
-   "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-   "snippet": null,
-   "url": "https://github.com/onecli/onecli",
+   "id": "d96b4129d44ca7f6a2f5011273cddcf5eaf2d08ba9d94228da4952ec404c0d84",
+   "title": "5 new ways to level up your learning with Search",
+   "snippet": "Here’s how you can use Google Search tools to study for classes and standardized tests.",
+   "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Google AI",
+     "domain": "blog.google"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T16:29:02Z",
-   "imageURL": null,
+   "category": "models",
+   "publishedAt": "2026-08-19T19:00:00Z",
+   "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp",
    "signal": 91,
    "alert": false
   },
@@ -821,7 +859,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T18:31:10Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
@@ -838,14 +876,14 @@
    "category": "tools",
    "publishedAt": "2026-08-19T17:07:35Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
-   "id": "f72bcfad498e31be1c6ae33d476551a0e6502a4925f79b726ad92ec13982d234",
-   "title": "OpenAI's Unraveling Has Begun",
+   "id": "a45deb3bead5aafecd91bce520c05eccb04bbff023c1567253d0bd8e647265ea",
+   "title": "PINE64 halts their open-source hardware manufacturing until the AI bubble bursts",
    "snippet": null,
-   "url": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun",
+   "url": "https://www.hackster.io/news/pine64-calls-time-on-the-linux-hardware-market-ceases-production-until-the-ai-bubble-bursts-a865c8345041",
    "sources": [
     {
      "name": "Hacker News",
@@ -853,24 +891,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-19T21:00:57Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "0b2f0e299a3f28e7e66939d24bdbd9b45c8585b1871b0f6a0cc351300d3890a7",
-   "title": "Dheemanth Reddy Is Building the Voice Interface His Family Never Had",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2hCQUQxbHV6WC1TZ05ua2xZM0FtbWx0dWlIZ1o5RUxlcTlxc2lpaWtORVl3VE5vYkhhMDNCMUx6SFZUOHhpaXFzMWtvSXd3S0U5MkVCYWZuVEg0WmNVc3ZBZkc0SWowQUt1UWtWUFd0cFA0WUhKWmJiNC1QeTdZQlFWYV9JZlhXMDZBV0hSNm9SblNMdmhabm5oQUp5VjA?oc=5",
-   "sources": [
-    {
-     "name": "Distractify",
-     "domain": "distractify.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T18:03:00Z",
+   "publishedAt": "2026-08-19T22:20:14Z",
    "imageURL": null,
    "signal": 90,
    "alert": false
@@ -893,71 +914,20 @@
    "alert": false
   },
   {
-   "id": "e407e5dccb60702f1b742ba9c8391182efed3f2a2a657d5563543d60f0963048",
-   "title": "Onshape is bracing for an AI explosion",
+   "id": "0b2f0e299a3f28e7e66939d24bdbd9b45c8585b1871b0f6a0cc351300d3890a7",
+   "title": "Dheemanth Reddy Is Building the Voice Interface His Family Never Had",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HbGluU1Z6cjlaVHVTS1A4LU1jenpXTV92QWt4TlhvZUVkU0hra1pyeEcxbndZSkNRTWJiclpsSDZwWFFNbTBYVjFweElIdUNBTm9PT2dDQk84OTdjMXNUdGdtdUZYTWQ4SXQtZDJDNWF2dW9Oenc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2hCQUQxbHV6WC1TZ05ua2xZM0FtbWx0dWlIZ1o5RUxlcTlxc2lpaWtORVl3VE5vYkhhMDNCMUx6SFZUOHhpaXFzMWtvSXd3S0U5MkVCYWZuVEg0WmNVc3ZBZkc0SWowQUt1UWtWUFd0cFA0WUhKWmJiNC1QeTdZQlFWYV9JZlhXMDZBV0hSNm9SblNMdmhabm5oQUp5VjA?oc=5",
    "sources": [
     {
-     "name": "Engineering.com",
-     "domain": "engineering.com"
+     "name": "distractify.com",
+     "domain": "distractify.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T17:46:09Z",
+   "category": "models",
+   "publishedAt": "2026-08-19T18:03:00Z",
    "imageURL": null,
    "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "b7f63063288e06f9182149ee1ee6adf9e6cdeb111caf03e027ce1bae01868baf",
-   "title": "ICE boss to agents: Leave the Meta spy glasses at home",
-   "snippet": null,
-   "url": "https://www.theregister.com/security/2026/08/19/ice-boss-to-agents-leave-the-meta-spy-glasses-at-home/5289826",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T21:47:36Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "8873b05e3a0c26b729a8282d3f3b8b51207d317f8e34a34607c4eae5f4485473",
-   "title": "This Is The Anthropic Team's Greatest Advice Saiqa Ali Green Party Suspension (nXtWCuPnVi)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BVzRxc3JKcVlzYUJRU0t1QkFZcU9sMVpZaVBQRUNhdWRpenpsOE9IclphLXN5ajgzbGFHLWp4aVNwUUo1TFFYeXB1X3NEVngwaVpUay1nUWpYZw?oc=5",
-   "sources": [
-    {
-     "name": "Mshale",
-     "domain": "mshale.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T17:32:32Z",
-   "imageURL": null,
-   "signal": 89,
-   "alert": false
-  },
-  {
-   "id": "d7b7c036c55d78d748972e8287e20479b287336add6d081b454a6ea876c7dd5d",
-   "title": "Students need more than AI skills—they need accountable AI literacy",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCM2o0Y1A0SmctZzFYSXltbFR6dVAtYUNTR3lqc3A3SDZ1UnV2VHVQX2VkRjcyZTYyMjBNZjdQVFFaOHJtUFltRFN4M2JCa1lzYW5yMHNlVmFyV0hCR1p3X0ZXM0VkR0J2ZldRVkJ1ZjhvTV9idkh5YXRqUm1tU1E?oc=5",
-   "sources": [
-    {
-     "name": "phys.org",
-     "domain": "phys.org"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T15:20:09Z",
-   "imageURL": null,
-   "signal": 89,
    "alert": false
   },
   {
@@ -978,6 +948,91 @@
    "alert": false
   },
   {
+   "id": "62e86e418e6b2761d55c3b7122ae279797b908ac4d7d2793a68b80002d3a566a",
+   "title": "ChatGPT for Teens Is an Immediate, Dismal Failure",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RcTJ4WHZDMXlWcTJCSlJLU2V4bmo0WVRmakpocTVlRmVkZlIzTGVnV1lRbjNXZU1pQlN2WWkyMWpWWDZRLV83aDZGLWJtdXM1YmVheDUxd0NVNk5xb0pVZ01WVEs5QUkzZnkxWFI2X3JQOVhk?oc=5",
+   "sources": [
+    {
+     "name": "Futurism",
+     "domain": "futurism.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T17:56:07Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
+   "id": "e407e5dccb60702f1b742ba9c8391182efed3f2a2a657d5563543d60f0963048",
+   "title": "Onshape is bracing for an AI explosion",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HbGluU1Z6cjlaVHVTS1A4LU1jenpXTV92QWt4TlhvZUVkU0hra1pyeEcxbndZSkNRTWJiclpsSDZwWFFNbTBYVjFweElIdUNBTm9PT2dDQk84OTdjMXNUdGdtdUZYTWQ4SXQtZDJDNWF2dW9Oenc?oc=5",
+   "sources": [
+    {
+     "name": "Engineering.com",
+     "domain": "engineering.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T17:46:09Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
+   "id": "8873b05e3a0c26b729a8282d3f3b8b51207d317f8e34a34607c4eae5f4485473",
+   "title": "This Is The Anthropic Team's Greatest Advice Saiqa Ali Green Party Suspension (nXtWCuPnVi)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BVzRxc3JKcVlzYUJRU0t1QkFZcU9sMVpZaVBQRUNhdWRpenpsOE9IclphLXN5ajgzbGFHLWp4aVNwUUo1TFFYeXB1X3NEVngwaVpUay1nUWpYZw?oc=5",
+   "sources": [
+    {
+     "name": "mshale.com",
+     "domain": "mshale.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T17:32:32Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
+   "id": "6b541e2c30cf891c028841afa38d40db3866b282b82206991da6ef053465e114",
+   "title": "OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees",
+   "snippet": null,
+   "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T19:42:35Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
+   "id": "d7b7c036c55d78d748972e8287e20479b287336add6d081b454a6ea876c7dd5d",
+   "title": "Students need more than AI skills—they need accountable AI literacy",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCM2o0Y1A0SmctZzFYSXltbFR6dVAtYUNTR3lqc3A3SDZ1UnV2VHVQX2VkRjcyZTYyMjBNZjdQVFFaOHJtUFltRFN4M2JCa1lzYW5yMHNlVmFyV0hCR1p3X0ZXM0VkR0J2ZldRVkJ1ZjhvTV9idkh5YXRqUm1tU1E?oc=5",
+   "sources": [
+    {
+     "name": "phys.org",
+     "domain": "phys.org"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T15:20:09Z",
+   "imageURL": null,
+   "signal": 88,
+   "alert": false
+  },
+  {
    "id": "881da4afba2dc4242aef9b316db846fd7bdc2652c0be038dbe9ef476cf1bbe83",
    "title": "OpenAI says it doesn't need to store customer's business data to keep models safe",
    "snippet": null,
@@ -991,44 +1046,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T17:01:52Z",
    "imageURL": null,
-   "signal": 89,
-   "alert": false
-  },
-  {
-   "id": "7aa778327f7a42031ccaf2a54f181402f2c25b6cd757e409b0f7ba86ed3fc423",
-   "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
-   "snippet": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",
-   "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    },
-    {
-     "name": "Channel 3000",
-     "domain": "channel3000.com"
-    },
-    {
-     "name": "kqed.org",
-     "domain": "kqed.org"
-    },
-    {
-     "name": "WUSA9",
-     "domain": "wusa9.com"
-    },
-    {
-     "name": "WFSB",
-     "domain": "wfsb.com"
-    },
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T13:50:30Z",
-   "imageURL": null,
-   "signal": 89,
+   "signal": 88,
    "alert": false
   },
   {
@@ -1083,52 +1101,18 @@
    "alert": false
   },
   {
-   "id": "a8f767965ab1402abe139a851d22f9fd086aea0e7fc471c19340cd7a02c64bdb",
-   "title": "Anthropic’s earnings overtake OpenAI’s for the first time: ‘revenue engine’",
+   "id": "40d95f5d2f5988d6d6f43bbbfff2c6389cf8db90c1da6ee316f0d51c17f14131",
+   "title": "Salesforce boosts Headless 360 AI agents",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSkxPalBnbWFFMElUX0ZNcXpEZndyUGFLUVRWUEZ0b1RxU0tkX2dMWWFISTZPSm5WSDBCU3I2V0dVckctbzE5ZnJpeFl5M2J1bUcxWkk3V1hnZER2OVZ3OGtEZVRfalV6YmtCMzdjZWdHOXhaTVI2WkhUa3dXVGVCNFFpcGxMWm00MWhPMTFyUjdXQXB6TEhOM1UyRXY3NGJuMzdRUEhoTTE2bGNMQlpR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTk4wcHh2WFdoemR0ZHlCTEFXS0p5NUN5Z0I2alFyb2Z1VjlaZm45blMxZmVqcmp3Qm9JLUZKeDJXalpWV1pZVGFPbkxoYkR6UWt1NWotMU56azV3d3E4eGVnZ2pwTU9lMkV6cTJQSDNTdkFjVVBWQmI4TkxoYjc1eHVwMkdrUEh0U0Q1Qi13?oc=5",
    "sources": [
     {
-     "name": "New York Post",
-     "domain": "nypost.com"
+     "name": "Breakingthenews.net",
+     "domain": "breakingthenews.net"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-19T19:53:00Z",
-   "imageURL": null,
-   "signal": 88,
-   "alert": false
-  },
-  {
-   "id": "bf0e5a0c7ddaf000891b39cf193edfa6de7db08dde8f2afe5db3585b1c981d41",
-   "title": "Calendly throws its hat into meeting note-taker circus",
-   "snippet": "Calendly is also releasing a meeting scheduling assistant called Callie.",
-   "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T14:09:39Z",
-   "imageURL": null,
-   "signal": 88,
-   "alert": false
-  },
-  {
-   "id": "b351daf880a28a5ce56de2fd97f821767482c866255be5f6d0a47882f389efa9",
-   "title": "Chittagong University holds AI workshop for students",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMGJxNVQ2ZDg5OXZIbUNCQUhvSEg2SnlhN1RSczdYS0toYzU4blFXUGxWYXgtcGlJV2FlWUlObERkOC1Oa1BnQ0tHN0l1T3d3eEtjS0c0czZCZGRLUUpEbmN6dUlPTVkxZkxzLS00a2VQVVdwTk9vcDRzeUcza2tuV0hkSWhCbDFhRGZHR0tzQkpBSXJzZkRBNzJXa9IBmwFBVV95cUxQMGJxNVQ2ZDg5OXZIbUNCQUhvSEg2SnlhN1RSczdYS0toYzU4blFXUGxWYXgtcGlJV2FlWUlObERkOC1Oa1BnQ0tHN0l1T3d3eEtjS0c0czZCZGRLUUpEbmN6dUlPTVkxZkxzLS00a2VQVVdwTk9vcDRzeUcza2tuV0hkSWhCbDFhRGZHR0tzQkpBSXJzZkRBNzJXaw?oc=5",
-   "sources": [
-    {
-     "name": "The Business Standard",
-     "domain": "tbsnews.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T14:00:00Z",
+   "category": "tools",
+   "publishedAt": "2026-08-19T12:17:00Z",
    "imageURL": null,
    "signal": 87,
    "alert": false
@@ -1155,6 +1139,40 @@
    "alert": false
   },
   {
+   "id": "bf0e5a0c7ddaf000891b39cf193edfa6de7db08dde8f2afe5db3585b1c981d41",
+   "title": "Calendly throws its hat into meeting note-taker circus",
+   "snippet": "Calendly is also releasing a meeting scheduling assistant called Callie.",
+   "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T14:09:39Z",
+   "imageURL": null,
+   "signal": 87,
+   "alert": false
+  },
+  {
+   "id": "b351daf880a28a5ce56de2fd97f821767482c866255be5f6d0a47882f389efa9",
+   "title": "Chittagong University holds AI workshop for students",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMGJxNVQ2ZDg5OXZIbUNCQUhvSEg2SnlhN1RSczdYS0toYzU4blFXUGxWYXgtcGlJV2FlWUlObERkOC1Oa1BnQ0tHN0l1T3d3eEtjS0c0czZCZGRLUUpEbmN6dUlPTVkxZkxzLS00a2VQVVdwTk9vcDRzeUcza2tuV0hkSWhCbDFhRGZHR0tzQkpBSXJzZkRBNzJXa9IBmwFBVV95cUxQMGJxNVQ2ZDg5OXZIbUNCQUhvSEg2SnlhN1RSczdYS0toYzU4blFXUGxWYXgtcGlJV2FlWUlObERkOC1Oa1BnQ0tHN0l1T3d3eEtjS0c0czZCZGRLUUpEbmN6dUlPTVkxZkxzLS00a2VQVVdwTk9vcDRzeUcza2tuV0hkSWhCbDFhRGZHR0tzQkpBSXJzZkRBNzJXaw?oc=5",
+   "sources": [
+    {
+     "name": "The Business Standard",
+     "domain": "tbsnews.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T14:00:00Z",
+   "imageURL": null,
+   "signal": 87,
+   "alert": false
+  },
+  {
    "id": "f56fb1ee13437f3d1c1d8f00ac5022fe0f8999facb1f47e0532e714861148c87",
    "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
    "snippet": null,
@@ -1167,23 +1185,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-19T13:48:49Z",
-   "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "b5fa8fed1e2d9581d27b602caed8dbce55a79d114371aac881750dfef3e65db5",
-   "title": "Salesforce is giving away the interface to claim the layer beneath it",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHNnTlJzTG9MVDlsZmxJd1gxeW9ac094VHo3eXlOLTNFZ1BIMWI3TnNkTm9RcXFIeHNId1d0UWtEZDNBS2hOdEFqendVZnltU0otcWNweVozcEs3WloxM2ZCb1U5Y0h2WXhjLVQxVFE0V1U0em5qdEtMR1FuZ18xQzBCakROY3dsWHNyMlVBb2JYWUhlbkJoam5UZjBfWEI5azdNTXFBeFliNEtLZUg4TjZaZ1VGd2pj?oc=5",
-   "sources": [
-    {
-     "name": "Techzine Global",
-     "domain": "techzine.eu"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T13:43:10Z",
    "imageURL": null,
    "signal": 87,
    "alert": false
@@ -1202,7 +1203,41 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T10:54:13Z",
    "imageURL": null,
-   "signal": 87,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "b5fa8fed1e2d9581d27b602caed8dbce55a79d114371aac881750dfef3e65db5",
+   "title": "Salesforce is giving away the interface to claim the layer beneath it",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHNnTlJzTG9MVDlsZmxJd1gxeW9ac094VHo3eXlOLTNFZ1BIMWI3TnNkTm9RcXFIeHNId1d0UWtEZDNBS2hOdEFqendVZnltU0otcWNweVozcEs3WloxM2ZCb1U5Y0h2WXhjLVQxVFE0V1U0em5qdEtMR1FuZ18xQzBCakROY3dsWHNyMlVBb2JYWUhlbkJoam5UZjBfWEI5azdNTXFBeFliNEtLZUg4TjZaZ1VGd2pj?oc=5",
+   "sources": [
+    {
+     "name": "Techzine Global",
+     "domain": "techzine.eu"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T13:43:10Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "b7f63063288e06f9182149ee1ee6adf9e6cdeb111caf03e027ce1bae01868baf",
+   "title": "ICE boss to agents: Leave the Meta spy glasses at home",
+   "snippet": null,
+   "url": "https://www.theregister.com/security/2026/08/19/ice-boss-to-agents-leave-the-meta-spy-glasses-at-home/5289826",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T21:47:36Z",
+   "imageURL": null,
+   "signal": 86,
    "alert": false
   },
   {
@@ -1218,23 +1253,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-19T10:42:00Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
-   "id": "ad3cb468d260ecab6cf8dac85b6015702fe49cddca0cb32881bde3101ffa24dd",
-   "title": "SignWell Expands eSignature Platform With AI-Ready Developer Suite",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMTMwRnFwbjAzNkVPTUpEOG0xSjBmQ0FJaWxacFdCN29mclJEMkdieXN6Z0J5S3lLWmhRRzg0ZXo4ZEl2b0pRWXRTdWMtYko3STkxUTF3ZHdIZ3N4ZDBUcmU4bzVJRl9wUmFwUzMxQjVlenlkZ1ZYMF9WLWw4Wk5HbVRkbVUtbloteTdLZlRuNXV3aXRpek92X3BBWUZBS21WWktBVmJVaHBlLWJZdWd0d2tMWmpoc0FyRXRHdjEyaFJreUNkQ1Z6OFpyckN1STVVTDRNSUpBVFFzSGlB0gHcAUFVX3lxTE4xMzBGcXBuMDM2RU9NSkQ4bTFKMGZDQUlpbFpwV0I3b2ZyUkQyR2J5c3pnQnlLeUtaaFFHODRlejhkSXZvSlFZdFN1Yy1iSjdJOTFRMXdkd0hnc3hkMFRyZThvNUlGX3BSYXBTMzFCNWV6eWRnVlgwX1YtbDhaTkdtVGRtVS1uWi15N0tmVG41dXdpdGl6T3ZfcEFZRkFLbVZaS0FWYlVocGUtYll1Z3R3a0xaamhzQXJFdEd2MTJoUmt5Q2RDVno4WnJyQ3VJNVVMNE1JSkFUUXNIaUE?oc=5",
-   "sources": [
-    {
-     "name": "The Manila Times",
-     "domain": "manilatimes.net"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T13:16:27Z",
    "imageURL": null,
    "signal": 86,
    "alert": false
@@ -1269,6 +1287,23 @@
    "alert": false
   },
   {
+   "id": "ad3cb468d260ecab6cf8dac85b6015702fe49cddca0cb32881bde3101ffa24dd",
+   "title": "SignWell Expands eSignature Platform With AI-Ready Developer Suite",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMTMwRnFwbjAzNkVPTUpEOG0xSjBmQ0FJaWxacFdCN29mclJEMkdieXN6Z0J5S3lLWmhRRzg0ZXo4ZEl2b0pRWXRTdWMtYko3STkxUTF3ZHdIZ3N4ZDBUcmU4bzVJRl9wUmFwUzMxQjVlenlkZ1ZYMF9WLWw4Wk5HbVRkbVUtbloteTdLZlRuNXV3aXRpek92X3BBWUZBS21WWktBVmJVaHBlLWJZdWd0d2tMWmpoc0FyRXRHdjEyaFJreUNkQ1Z6OFpyckN1STVVTDRNSUpBVFFzSGlB0gHcAUFVX3lxTE4xMzBGcXBuMDM2RU9NSkQ4bTFKMGZDQUlpbFpwV0I3b2ZyUkQyR2J5c3pnQnlLeUtaaFFHODRlejhkSXZvSlFZdFN1Yy1iSjdJOTFRMXdkd0hnc3hkMFRyZThvNUlGX3BSYXBTMzFCNWV6eWRnVlgwX1YtbDhaTkdtVGRtVS1uWi15N0tmVG41dXdpdGl6T3ZfcEFZRkFLbVZaS0FWYlVocGUtYll1Z3R3a0xaamhzQXJFdEd2MTJoUmt5Q2RDVno4WnJyQ3VJNVVMNE1JSkFUUXNIaUE?oc=5",
+   "sources": [
+    {
+     "name": "The Manila Times",
+     "domain": "manilatimes.net"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T13:16:27Z",
+   "imageURL": null,
+   "signal": 85,
+   "alert": false
+  },
+  {
    "id": "a8829c00bbbd7a3d80a24a1f017a991e192e9137bc0b6e85f5b9d921eeaccab1",
    "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
    "snippet": "Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize…",
@@ -1286,7 +1321,40 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:59:01Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "c3b0ed374d41680783fa20fc63770995e488c58603f5ef9d743356c3fd37e97e",
+   "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+   "snippet": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+   "url": "https://openai.com/index/chatgpt-for-teens",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    },
+    {
+     "name": "kqed.org",
+     "domain": "kqed.org"
+    },
+    {
+     "name": "WUSA9",
+     "domain": "wusa9.com"
+    },
+    {
+     "name": "WFSB",
+     "domain": "wfsb.com"
+    },
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T11:00:00Z",
+   "imageURL": null,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1303,7 +1371,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T12:51:04Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1324,6 +1392,23 @@
    "alert": false
   },
   {
+   "id": "60bf28adb64a2bafded7f2c30bb8414eedb28645e59fd532cc0d63fc0011f946",
+   "title": "Perk integrates AI assistants to book trips, manage expenses, and organize events",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFZpX0hfWE5FZU1YNnc0bnpIVnpTZ1JBd1Jrd0VoMDlpRVQtdFRIMlo4NDNwT19kV3NUSnhVNkNqaUNFR1lNNEFGbUQwVVMwVHlrbDI3YUM4RFZDNEhpWFFfdG1nUUhlUk05TTVWeHRkMnlXb1FkNm9fMTBhZzdxRWdyVWtCdmRVa3d3a1pvLUNGZTFGalFtSFlVUnQ3VXdhTnJPc3NYTnFFRDFvZzRRUEVvdVNXYjYyY0p4cNIBvAFBVV95cUxOSFZpX0hfWE5FZU1YNnc0bnpIVnpTZ1JBd1Jrd0VoMDlpRVQtdFRIMlo4NDNwT19kV3NUSnhVNkNqaUNFR1lNNEFGbUQwVVMwVHlrbDI3YUM4RFZDNEhpWFFfdG1nUUhlUk05TTVWeHRkMnlXb1FkNm9fMTBhZzdxRWdyVWtCdmRVa3d3a1pvLUNGZTFGalFtSFlVUnQ3VXdhTnJPc3NYTnFFRDFvZzRRUEVvdVNXYjYyY0p4cA?oc=5",
+   "sources": [
+    {
+     "name": "Demócrata",
+     "domain": "democrata.es"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T12:32:29Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
    "id": "313073ed0e9d35697e6cce03baa3b15ea3b7da0c98c1955708d7e04046bb985d",
    "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
    "snippet": "It's the data, stupid.",
@@ -1337,24 +1422,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T12:00:00Z",
    "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "26abc1950a12af9bbdc170fe7ec2a5bf18ef0535e821e6584bc76a1fcda2cdca",
-   "title": "Meet the startup helping Wall Street put a price on AI compute",
-   "snippet": "The AI buildout shows no signs of slowing. And&#160;with&#160;hundreds of&#160;billions of dollars a year going into data centers and GPUs,&#160;compute has&#160;become the single biggest cost for anyone building AI products. But for all that spending, there still&#160;isn’t&#160;a straightforward…",
-   "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T17:26:48Z",
-   "imageURL": null,
-   "signal": 85,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1371,7 +1439,24 @@
    "category": "models",
    "publishedAt": "2026-08-19T10:00:00Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "26abc1950a12af9bbdc170fe7ec2a5bf18ef0535e821e6584bc76a1fcda2cdca",
+   "title": "Meet the startup helping Wall Street put a price on AI compute",
+   "snippet": "The AI buildout shows no signs of slowing. And&#160;with&#160;hundreds of&#160;billions of dollars a year going into data centers and GPUs,&#160;compute has&#160;become the single biggest cost for anyone building AI products. But for all that spending, there still&#160;isn’t&#160;a straightforward…",
+   "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T17:26:48Z",
+   "imageURL": null,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1388,7 +1473,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T17:10:09Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1405,41 +1490,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T09:01:47Z",
    "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "ba95d914fde6e76182c5d848678742cea127715f48a97c3058723d3ab901a374",
-   "title": "Robinhood Launches AI-Powered Crypto Trading via MCP Server",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCRU1CQ2xiaWdYWXY4UEltTjJBT0FpZVFfazZPWHJfOGt2TFQ3UktiQWV1aFFIU0huRmdzOHRha3ppNlRFOFVWUExlamVCVVlCZlNjMmFmRktzbmt4bVFRUzh6RFJRSkEtWi1zckE5dzktWGcxU3VVc2Y4S1Q5a2c?oc=5",
-   "sources": [
-    {
-     "name": "HOKANEWS.COM",
-     "domain": "hokanews.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T14:52:00Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "5ce0d6f8cf61a5ba7e2c1201e2530da1136baea86bdc6911dc304a1b9d69d175",
-   "title": "[AINews] Memory prices up 500% in 12 months",
-   "snippet": "the Memory crunch continues - Moore&#8217;s Law reversed to 2007 levels",
-   "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-   "sources": [
-    {
-     "name": "Latent Space",
-     "domain": "latent.space"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T08:44:52Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!-PTb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95b5b0b3-9bd4-4c08-9c91-ad68807850fc_2272x1434.png",
-   "signal": 84,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1456,7 +1507,41 @@
    "category": "tools",
    "publishedAt": "2026-08-19T13:28:44Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 83,
+   "alert": false
+  },
+  {
+   "id": "5ce0d6f8cf61a5ba7e2c1201e2530da1136baea86bdc6911dc304a1b9d69d175",
+   "title": "[AINews] Memory prices up 500% in 12 months",
+   "snippet": "the Memory crunch continues - Moore&#8217;s Law reversed to 2007 levels",
+   "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "domain": "latent.space"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T08:44:52Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!-PTb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95b5b0b3-9bd4-4c08-9c91-ad68807850fc_2272x1434.png",
+   "signal": 83,
+   "alert": false
+  },
+  {
+   "id": "ba95d914fde6e76182c5d848678742cea127715f48a97c3058723d3ab901a374",
+   "title": "Robinhood Launches AI-Powered Crypto Trading via MCP Server",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCRU1CQ2xiaWdYWXY4UEltTjJBT0FpZVFfazZPWHJfOGt2TFQ3UktiQWV1aFFIU0huRmdzOHRha3ppNlRFOFVWUExlamVCVVlCZlNjMmFmRktzbmt4bVFRUzh6RFJRSkEtWi1zckE5dzktWGcxU3VVc2Y4S1Q5a2c?oc=5",
+   "sources": [
+    {
+     "name": "HOKANEWS.COM",
+     "domain": "hokanews.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T14:52:00Z",
+   "imageURL": null,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1473,7 +1558,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T08:13:01Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1490,45 +1575,24 @@
    "category": "models",
    "publishedAt": "2026-08-19T04:02:46Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 82,
    "alert": false
   },
   {
-   "id": "5918a741bcb0759ee135e7f073e2fda721ee3db491e2a24b011bb85e279c4fa7",
-   "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-   "snippet": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model,…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    },
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T19:28:30Z",
-   "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
-   "id": "203ce5b0ab4062acdc039c0f60c72065a8a333f80850fda9538fe7c5431f718a",
-   "title": "Stock winners and losers as Anthropic passes OpenAI as hottest AI upstart",
+   "id": "c9fa86056c4d1127a81e54e4c85ee7615069a1c7b5c94ddf1ea1fb3e49b6fc06",
+   "title": "AI is less likely to launch a nuclear strike when it reasons in Japanese",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmFhYU5mVjhXb0FnQ0NHTk1CMXE1azlabnZiN1pnZVN6aXhqUkdNLTVsMU9DTDJVVWVxVGxVMHFtaGx5QmRNWlc4ODljVnJYOXgxZEpUV1ZrYXBJUFplSXhHeDJKN293TXRUUHh4c1ZkVDFvdFBzSXJ0WXg0OVZVWUJFdVJmUmdlTFB5NjFJV0xQTWloM1lGZEQ4aFFWMDlYRkVFTGxiVDdLYmZCVVYw?oc=5",
+   "url": "https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/",
    "sources": [
     {
-     "name": "CNBC",
-     "domain": "cnbc.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-19T16:00:07Z",
+   "category": "tools",
+   "publishedAt": "2026-08-19T21:02:31Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1549,7 +1613,28 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "5918a741bcb0759ee135e7f073e2fda721ee3db491e2a24b011bb85e279c4fa7",
+   "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+   "snippet": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model,…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    },
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T19:28:30Z",
+   "imageURL": null,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1566,7 +1651,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T07:00:00Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1583,7 +1668,24 @@
    "category": "models",
    "publishedAt": "2026-08-19T06:58:29Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 81,
+   "alert": false
+  },
+  {
+   "id": "203ce5b0ab4062acdc039c0f60c72065a8a333f80850fda9538fe7c5431f718a",
+   "title": "Stock winners and losers as Anthropic passes OpenAI as hottest AI upstart",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmFhYU5mVjhXb0FnQ0NHTk1CMXE1azlabnZiN1pnZVN6aXhqUkdNLTVsMU9DTDJVVWVxVGxVMHFtaGx5QmRNWlc4ODljVnJYOXgxZEpUV1ZrYXBJUFplSXhHeDJKN293TXRUUHh4c1ZkVDFvdFBzSXJ0WXg0OVZVWUJFdVJmUmdlTFB5NjFJV0xQTWloM1lGZEQ4aFFWMDlYRkVFTGxiVDdLYmZCVVYw?oc=5",
+   "sources": [
+    {
+     "name": "CNBC",
+     "domain": "cnbc.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T16:00:07Z",
+   "imageURL": null,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1600,7 +1702,7 @@
    "category": "tools",
    "publishedAt": "2026-08-19T13:31:46Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1617,24 +1719,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T15:45:29Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2250404047-1152x648.jpg",
-   "signal": 82,
-   "alert": false
-  },
-  {
-   "id": "539ac45affd694ddb49305e569543a67c97c5f3ddb71c527ab6ebdb9a64a030d",
-   "title": "Harvey unveils Tenet, its first in-house legal AI model",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYWVhZFFGRlRPT1ZBSzVyTGZKd0V0TXFHZEdZSl9PNDFTTnFTWFM4ZTAtbUJZSXNIYkZTYkhtTVlrRWxpdUdaOTBCV0Q4MmlWTGJfaTJuYTl2QW1OdDdzd09KWmRqZ25ocUlLblFMU1AyWG1xV2dIUXB5cEtWWkZzVUZrWWJPYmh1M0JkOEVjMDRLaWc?oc=5",
-   "sources": [
-    {
-     "name": "디지털투데이",
-     "domain": "digitaltoday.co.kr"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T05:54:55Z",
-   "imageURL": null,
-   "signal": 82,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1668,24 +1753,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T01:19:00Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 80,
    "alert": false
   },
   {
-   "id": "ae9ff81d78c6e4280d28d0b531d39ce98e7413a1eeed08f291fd5bf9d812e104",
-   "title": "Show HN: Interactive, animated architecture of any HuggingFace models",
+   "id": "539ac45affd694ddb49305e569543a67c97c5f3ddb71c527ab6ebdb9a64a030d",
+   "title": "Harvey unveils Tenet, its first in-house legal AI model",
    "snippet": null,
-   "url": "https://modelmap.cc",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYWVhZFFGRlRPT1ZBSzVyTGZKd0V0TXFHZEdZSl9PNDFTTnFTWFM4ZTAtbUJZSXNIYkZTYkhtTVlrRWxpdUdaOTBCV0Q4MmlWTGJfaTJuYTl2QW1OdDdzd09KWmRqZ25ocUlLblFMU1AyWG1xV2dIUXB5cEtWWkZzVUZrWWJPYmh1M0JkOEVjMDRLaWc?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "디지털투데이",
+     "domain": "digitaltoday.co.kr"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-18T23:57:36Z",
+   "category": "models",
+   "publishedAt": "2026-08-19T05:54:55Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1702,7 +1787,7 @@
    "category": "tools",
    "publishedAt": "2026-08-18T19:30:29Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1719,7 +1804,24 @@
    "category": "models",
    "publishedAt": "2026-08-19T05:08:58Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 80,
+   "alert": false
+  },
+  {
+   "id": "ae9ff81d78c6e4280d28d0b531d39ce98e7413a1eeed08f291fd5bf9d812e104",
+   "title": "Show HN: Interactive, animated architecture of any HuggingFace models",
+   "snippet": null,
+   "url": "https://modelmap.cc",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-18T23:57:36Z",
+   "imageURL": null,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1736,7 +1838,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1753,7 +1855,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1770,7 +1872,7 @@
    "category": "tools",
    "publishedAt": "2026-08-18T23:50:00Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1791,24 +1893,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 80,
-   "alert": false
-  },
-  {
-   "id": "47b57fe9ee426cc062ce1375dc630f7bc59728db815ffc46e2e46888728836db",
-   "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-   "snippet": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
-   "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T22:14:25Z",
-   "imageURL": null,
-   "signal": 80,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1829,54 +1914,20 @@
    "alert": false
   },
   {
-   "id": "add56c51d0f1cd1d6a80ca3e0fa442b6e6244dc79702cb108e9b5d893dfa6443",
-   "title": "The U.S. is discussing restrictions on Chinese AI models",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYTZ0OXNKRXU1dzF5WUNUYkVsTlpKdnF6Z3VOa3RDLWgtcEdSa0Jlb1VoUzhUOWpqOUNsTkN3eWpVN0daX09SLXJZWTlQWVdBSmpxYlY5ampSX3V4RU9TSFlWUjc1aWdYNkI2WHk2Vk5JeTRkV1QwLVhXWTBoWF9ZYkw1bWY3ZGVCVVZ5dg?oc=5",
+   "id": "47b57fe9ee426cc062ce1375dc630f7bc59728db815ffc46e2e46888728836db",
+   "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+   "snippet": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+   "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
    "sources": [
     {
-     "name": "UA.NEWS",
-     "domain": "ua.news"
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-19T02:57:15Z",
+   "publishedAt": "2026-08-18T22:14:25Z",
    "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "74b7cfe17cd9d51443796bc38b3bd052981529f9a274952f7fafb28a6313ee69",
-   "title": "Mojo🔥 is now open source",
-   "snippet": "Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched…",
-   "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-18T21:39:20Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "1522856afaf2c1f24227d2140339c84a8788b3957a80ac30456b8aff539f391f",
-   "title": "I Made A Profitable AI Polymarket Trading Bot With Claude Code Zionist (Oq5nc3K4aB)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kT3lCV1ljc3B4QlVIQjl0bjF4Y3A3SkFDcXNmSG1MY0E1MnNnNWZydmotelk4MG1LMmpxVjNIR21TOWMzMTA1eWlpamh1SXRoYU01U2gzWGFLYjQ?oc=5",
-   "sources": [
-    {
-     "name": "Mshale",
-     "domain": "mshale.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T10:57:20Z",
-   "imageURL": null,
-   "signal": 79,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1901,7 +1952,58 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T23:58:14Z",
    "imageURL": null,
-   "signal": 79,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "74b7cfe17cd9d51443796bc38b3bd052981529f9a274952f7fafb28a6313ee69",
+   "title": "Mojo🔥 is now open source",
+   "snippet": "Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched…",
+   "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-18T21:39:20Z",
+   "imageURL": null,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "add56c51d0f1cd1d6a80ca3e0fa442b6e6244dc79702cb108e9b5d893dfa6443",
+   "title": "The U.S. is discussing restrictions on Chinese AI models",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYTZ0OXNKRXU1dzF5WUNUYkVsTlpKdnF6Z3VOa3RDLWgtcEdSa0Jlb1VoUzhUOWpqOUNsTkN3eWpVN0daX09SLXJZWTlQWVdBSmpxYlY5ampSX3V4RU9TSFlWUjc1aWdYNkI2WHk2Vk5JeTRkV1QwLVhXWTBoWF9ZYkw1bWY3ZGVCVVZ5dg?oc=5",
+   "sources": [
+    {
+     "name": "UA.NEWS",
+     "domain": "ua.news"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T02:57:15Z",
+   "imageURL": null,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "1522856afaf2c1f24227d2140339c84a8788b3957a80ac30456b8aff539f391f",
+   "title": "I Made A Profitable AI Polymarket Trading Bot With Claude Code Zionist (Oq5nc3K4aB)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kT3lCV1ljc3B4QlVIQjl0bjF4Y3A3SkFDcXNmSG1MY0E1MnNnNWZydmotelk4MG1LMmpxVjNIR21TOWMzMTA1eWlpamh1SXRoYU01U2gzWGFLYjQ?oc=5",
+   "sources": [
+    {
+     "name": "mshale.com",
+     "domain": "mshale.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T10:57:20Z",
+   "imageURL": null,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1922,7 +2024,7 @@
    "category": "tools",
    "publishedAt": "2026-08-17T12:09:42Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1939,7 +2041,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T19:48:26Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1956,7 +2058,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T19:00:00Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1973,7 +2075,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1989,40 +2091,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-18T18:09:38Z",
-   "imageURL": null,
-   "signal": 78,
-   "alert": false
-  },
-  {
-   "id": "1ac2575b272540613441fc17f131ab9bafded6b7c53df42f19debe9bc0f46122",
-   "title": "I asked ChatGPT which stocks to buy in a crash and it said…",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZUIyVjB5NE1tV3BFYVlzc3lmbkI4bktDdGZFb1RmNzFlaTJwMTdnbjFOR1o3Q3ZDbDZqMnhPaHJyZnFUREJTXy1qeGUwWnVPb2xzbWhXVVhpSjU3eEdPM0NsZ01uZG5RUkd4M3FrS1QxcW5JYzRDV0NtT09KRHNORXRIOTdBdw?oc=5",
-   "sources": [
-    {
-     "name": "Yahoo Finance UK",
-     "domain": "uk.finance.yahoo.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T12:12:00Z",
-   "imageURL": null,
-   "signal": 77,
-   "alert": false
-  },
-  {
-   "id": "c9fa86056c4d1127a81e54e4c85ee7615069a1c7b5c94ddf1ea1fb3e49b6fc06",
-   "title": "AI is less likely to launch a nuclear strike when it reasons in Japanese",
-   "snippet": null,
-   "url": "https://www.unite.ai/ai-is-less-likely-to-launch-a-nuclear-strike-when-it-reasons-in-japanese/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T21:02:31Z",
    "imageURL": null,
    "signal": 77,
    "alert": false
@@ -2041,7 +2109,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:55:07Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2058,7 +2126,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:52:52Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2075,7 +2143,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:51:16Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2096,35 +2164,18 @@
    "alert": false
   },
   {
-   "id": "9d8a9b8bf88a2be11484a45e1885a4b24bbbec5006ba89d079d8c34ea955d5a8",
-   "title": "Nvidia’s new financial strategy does not compute",
-   "snippet": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+   "id": "1ac2575b272540613441fc17f131ab9bafded6b7c53df42f19debe9bc0f46122",
+   "title": "I asked ChatGPT which stocks to buy in a crash and it said…",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZUIyVjB5NE1tV3BFYVlzc3lmbkI4bktDdGZFb1RmNzFlaTJwMTdnbjFOR1o3Q3ZDbDZqMnhPaHJyZnFUREJTXy1qeGUwWnVPb2xzbWhXVVhpSjU3eEdPM0NsZ01uZG5RUkd4M3FrS1QxcW5JYzRDV0NtT09KRHNORXRIOTdBdw?oc=5",
    "sources": [
     {
-     "name": "The Verge",
-     "domain": "theverge.com"
+     "name": "Yahoo Finance UK",
+     "domain": "uk.finance.yahoo.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-19T12:00:00Z",
-   "imageURL": null,
-   "signal": 76,
-   "alert": false
-  },
-  {
-   "id": "8e9733f3cd495bee468d79291c38fa66d98c8e01640c84b9301222d7fec9bb3f",
-   "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSEJSZDdISm14bXNZd2tPY1pWeERoNHlINGZhLWVZamRxUWJMZER4S2hqYlU1dWtqLWRyRll6dEhjNDZwUjQzYi15VDNGcEI5M04tWDh3MGdNLUprNjJpVE5OQjNJMEJBOGRqRWxWcl9NdEgyMDFtTVYydjBPYzl5R2d5cElCYUN6VURtT2ZRMEMwejdEVnliX1lEUlRaRWVoU180?oc=5",
-   "sources": [
-    {
-     "name": "github.blog",
-     "domain": "github.blog"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-18T23:33:07Z",
+   "publishedAt": "2026-08-19T12:12:00Z",
    "imageURL": null,
    "signal": 76,
    "alert": false
@@ -2143,7 +2194,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:28:01Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2160,7 +2211,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:22:54Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2198,6 +2249,23 @@
    "alert": false
   },
   {
+   "id": "9d8a9b8bf88a2be11484a45e1885a4b24bbbec5006ba89d079d8c34ea955d5a8",
+   "title": "Nvidia’s new financial strategy does not compute",
+   "snippet": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T12:00:00Z",
+   "imageURL": null,
+   "signal": 75,
+   "alert": false
+  },
+  {
    "id": "23175baf57ad5026547af3abcfb31f2c7f218715fd572fa7a02537d4f616a2f4",
    "title": "Composing Flow-Matching Energies with Known Physics: Generation, OOD Detection, and Inversion on PDE Fields",
    "snippet": "Probabilistic modeling of physical fields benefits from both a data-driven prior and known physical structure such as the governing equations. Energy-based models (EBMs) are a natural fit since energies compose additively, which enables augmenting physics information during inference. However, EBMs…",
@@ -2211,7 +2279,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T16:53:08Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2228,7 +2296,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T16:42:02Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2249,7 +2317,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T18:06:33Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2283,7 +2351,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T21:41:10Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!mpso!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ac64fa7-87ce-4106-816c-5811822047e1_1280x720.png",
-   "signal": 74,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2300,7 +2368,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2317,7 +2385,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T13:00:04Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2242817595-1152x648.jpg",
-   "signal": 74,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2338,7 +2406,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2372,41 +2440,7 @@
    "category": "tools",
    "publishedAt": "2026-08-17T19:47:15Z",
    "imageURL": null,
-   "signal": 73,
-   "alert": false
-  },
-  {
-   "id": "6d4ec902c728a02128d0e9d0f2d97315b31b6e3516e9601be6e9577b06f5790c",
-   "title": "Partnering with CodeAI to prepare the first AI generation",
-   "snippet": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-   "url": "https://openai.com/index/partnering-with-codeai",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T11:00:00Z",
-   "imageURL": null,
-   "signal": 73,
-   "alert": false
-  },
-  {
-   "id": "ba537370f7532a789e1d7272148b63ee52cdf38ab26c2bdf8656c3e9e49ce881",
-   "title": "ChatGPT is getting a dedicated mode for teens",
-   "snippet": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T11:00:00Z",
-   "imageURL": null,
-   "signal": 73,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2423,7 +2457,41 @@
    "category": "tools",
    "publishedAt": "2026-08-17T21:03:18Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 72,
+   "alert": false
+  },
+  {
+   "id": "6d4ec902c728a02128d0e9d0f2d97315b31b6e3516e9601be6e9577b06f5790c",
+   "title": "Partnering with CodeAI to prepare the first AI generation",
+   "snippet": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+   "url": "https://openai.com/index/partnering-with-codeai",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T11:00:00Z",
+   "imageURL": null,
+   "signal": 72,
+   "alert": false
+  },
+  {
+   "id": "ba537370f7532a789e1d7272148b63ee52cdf38ab26c2bdf8656c3e9e49ce881",
+   "title": "ChatGPT is getting a dedicated mode for teens",
+   "snippet": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T11:00:00Z",
+   "imageURL": null,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2457,7 +2525,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:49:27Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2474,7 +2542,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:48:22Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2491,7 +2559,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:34:25Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2508,7 +2576,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:33:00Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2542,7 +2610,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T17:20:12Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2558,108 +2626,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-18T17:14:01Z",
-   "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
-   "id": "fb22a1b92cabad920f840e39d11d46404e81d9f892ffcd61cf24f969a4aedafe",
-   "title": "How Jumio built a real-time feature store on AWS",
-   "snippet": "Learn how Jumio built a centralized, real-time feature store on AWS with Amazon SageMaker Feature Store, Amazon Managed Service for Apache Flink, and Amazon Kinesis Data Streams. The architecture delivers sub-100ms feature serving for fraud detection and saves approximately $120,000 annually.",
-   "url": "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-18T17:05:48Z",
-   "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
-   "id": "412212f92aaf567f9a25ce7b56b88254c5c2a76252b819e4d4e994ee8053551d",
-   "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
-   "snippet": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts, under the right legal context, and within the right access boundaries. Specifically, we explore how AIDA uses implicit and explicit filtering, along with…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-18T17:02:52Z",
-   "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
-   "id": "c800ef7ac306f2759573752c72e82ec9c2cea5261eb1bae82347b7457295d219",
-   "title": "The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning",
-   "snippet": "Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems…",
-   "url": "https://arxiv.org/abs/2608.18011v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-18T17:00:43Z",
-   "imageURL": null,
-   "signal": 70,
-   "alert": false
-  },
-  {
-   "id": "e35e3d855c8113b586f9053a1384db6bd0d210763e861ed57598f3ab68b89421",
-   "title": "Traceable Trust for action-ready artificial intelligence in bioscience",
-   "snippet": "Artificial intelligence (AI) is becoming part of the working infrastructure of the biosciences. AI models can predict biomolecular structures, design proteins, rank variants, annotate images, recommend strains and optimise experimental conditions. We argue that the decision to use an AI output to…",
-   "url": "https://arxiv.org/abs/2608.17997v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-18T16:44:39Z",
-   "imageURL": null,
-   "signal": 70,
-   "alert": false
-  },
-  {
-   "id": "2359953e5a857aa0ce7b956eb96ed06c946fc3dc23d327bb6a2ddef13a578a82",
-   "title": "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
-   "snippet": "The rapid growth of social media has greatly influenced political discourse, highlighting the need to understand individual political ideologies and their temporal dynamics. This task faces challenges such as data scarcity, abundant non-political content, costly and bias-prone manual annotation,…",
-   "url": "https://arxiv.org/abs/2608.17987v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-18T16:33:32Z",
-   "imageURL": null,
-   "signal": 70,
-   "alert": false
-  },
-  {
-   "id": "b8ecc51d8d48a9aa11f72418cb3a40cde0dbf2918d1b8196c61f99643627bdb7",
-   "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
-   "snippet": "Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.",
-   "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T16:19:10Z",
    "imageURL": null,
    "signal": 70,
    "alert": false
@@ -2679,6 +2645,108 @@
    "publishedAt": "2026-08-18T15:21:29Z",
    "imageURL": null,
    "signal": 70,
+   "alert": false
+  },
+  {
+   "id": "fb22a1b92cabad920f840e39d11d46404e81d9f892ffcd61cf24f969a4aedafe",
+   "title": "How Jumio built a real-time feature store on AWS",
+   "snippet": "Learn how Jumio built a centralized, real-time feature store on AWS with Amazon SageMaker Feature Store, Amazon Managed Service for Apache Flink, and Amazon Kinesis Data Streams. The architecture delivers sub-100ms feature serving for fraud detection and saves approximately $120,000 annually.",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-18T17:05:48Z",
+   "imageURL": null,
+   "signal": 70,
+   "alert": false
+  },
+  {
+   "id": "412212f92aaf567f9a25ce7b56b88254c5c2a76252b819e4d4e994ee8053551d",
+   "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
+   "snippet": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts, under the right legal context, and within the right access boundaries. Specifically, we explore how AIDA uses implicit and explicit filtering, along with…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-18T17:02:52Z",
+   "imageURL": null,
+   "signal": 70,
+   "alert": false
+  },
+  {
+   "id": "c800ef7ac306f2759573752c72e82ec9c2cea5261eb1bae82347b7457295d219",
+   "title": "The IOL-AI Challenge: An Open Challenge towards Advancing Linguistic Reasoning",
+   "snippet": "Reasoning in LLMs is overwhelmingly studied in domains that provide a model with rules: mathematics and code. Linguistic puzzles invert this: the solver must first discover the system before reasoning within it. We present the IOL-AI Challenge, an open-science competition run on the unseen problems…",
+   "url": "https://arxiv.org/abs/2608.18011v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-18T17:00:43Z",
+   "imageURL": null,
+   "signal": 69,
+   "alert": false
+  },
+  {
+   "id": "e35e3d855c8113b586f9053a1384db6bd0d210763e861ed57598f3ab68b89421",
+   "title": "Traceable Trust for action-ready artificial intelligence in bioscience",
+   "snippet": "Artificial intelligence (AI) is becoming part of the working infrastructure of the biosciences. AI models can predict biomolecular structures, design proteins, rank variants, annotate images, recommend strains and optimise experimental conditions. We argue that the decision to use an AI output to…",
+   "url": "https://arxiv.org/abs/2608.17997v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-18T16:44:39Z",
+   "imageURL": null,
+   "signal": 69,
+   "alert": false
+  },
+  {
+   "id": "2359953e5a857aa0ce7b956eb96ed06c946fc3dc23d327bb6a2ddef13a578a82",
+   "title": "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
+   "snippet": "The rapid growth of social media has greatly influenced political discourse, highlighting the need to understand individual political ideologies and their temporal dynamics. This task faces challenges such as data scarcity, abundant non-political content, costly and bias-prone manual annotation,…",
+   "url": "https://arxiv.org/abs/2608.17987v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-18T16:33:32Z",
+   "imageURL": null,
+   "signal": 69,
+   "alert": false
+  },
+  {
+   "id": "b8ecc51d8d48a9aa11f72418cb3a40cde0dbf2918d1b8196c61f99643627bdb7",
+   "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
+   "snippet": "Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.",
+   "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T16:19:10Z",
+   "imageURL": null,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2720,7 +2788,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T16:55:46Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2737,41 +2805,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 69,
-   "alert": false
-  },
-  {
-   "id": "171f975911a6f8570d3801bf512ac3cb796b90a7ee9e5634dcca6dc1b6f6794d",
-   "title": "Warp’s new system is an out-of-the-box software factory for AI development",
-   "snippet": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
-   "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T14:00:00Z",
-   "imageURL": null,
-   "signal": 69,
-   "alert": false
-  },
-  {
-   "id": "76963b852e28c23f9b1be3422b8479721b08b01ceba4d5d7b05c2ce8fe7e09c4",
-   "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-   "snippet": null,
-   "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T14:18:38Z",
-   "imageURL": null,
-   "signal": 69,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2792,6 +2826,40 @@
    "alert": false
   },
   {
+   "id": "171f975911a6f8570d3801bf512ac3cb796b90a7ee9e5634dcca6dc1b6f6794d",
+   "title": "Warp’s new system is an out-of-the-box software factory for AI development",
+   "snippet": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
+   "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T14:00:00Z",
+   "imageURL": null,
+   "signal": 68,
+   "alert": false
+  },
+  {
+   "id": "76963b852e28c23f9b1be3422b8479721b08b01ceba4d5d7b05c2ce8fe7e09c4",
+   "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+   "snippet": null,
+   "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T14:18:38Z",
+   "imageURL": null,
+   "signal": 68,
+   "alert": false
+  },
+  {
    "id": "4b0347068bfee99d5fd272c84879ea01358ae1d053c1cf57e4a2e6cada480e3a",
    "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
    "snippet": "Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the full serving stack, including model layout and loading, expert residency, CPU--GPU execution, agentic state reuse, and runtime memory management, around two realities of local AI: agent workloads continuously change their execution pattern, and edge hardware exposes heterogeneous resources whose balance differs from machine to machine. Rather than committing to a fixed offloading strategy, FreeToken continuously maps computation and model state onto the resources actually available. FreeToken supports more than 20 MoE models and real coding and tool-using agents across hardware ranging from an 8GB laptop GPU to a single workstation GPU. More importantly, it changes what these machines can practically serve, from a 35B model on a laptop to a 284B model on a gaming desktop and the 753B GLM-5.2 on a single workstation GPU. FreeToken turns open weights into deployable local software, making the machines users already own a practical platform for frontier-scale intelligence. We release the system at flashml.ai.",
@@ -2805,7 +2873,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2822,7 +2890,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T13:00:00Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2839,7 +2907,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2856,7 +2924,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2894,7 +2962,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T16:31:08Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2911,7 +2979,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T11:00:00Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2928,7 +2996,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T11:00:00Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2945,7 +3013,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2966,23 +3034,6 @@
    "alert": false
   },
   {
-   "id": "d68239847d75e067ab5c39ab68611eced662a1728008f6f3f68f4cdcf4f11dc3",
-   "title": "[AINews] Stripe buys OpenRouter for $7B",
-   "snippet": "No GPUs, no Agents, just really, really, really good infra and distribution.",
-   "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-   "sources": [
-    {
-     "name": "Latent Space",
-     "domain": "latent.space"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-17T23:13:41Z",
-   "imageURL": "https://substackcdn.com/image/youtube/w_728,c_limit/QHBjufYK8TA",
-   "signal": 66,
-   "alert": false
-  },
-  {
    "id": "6023038a8912cd08a228ab148d313f6cbcbb616de2e9ed683b2e7118ab009ee0",
    "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
    "snippet": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
@@ -2996,7 +3047,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T07:00:00Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3013,7 +3064,7 @@
    "category": "tools",
    "publishedAt": "2026-08-16T21:53:43Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3030,7 +3081,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3093,7 +3144,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3110,7 +3161,24 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 64,
+   "alert": false
+  },
+  {
+   "id": "bd9770a9b818aa9fce9b73c702e317b9fe482816704f119ec8730154df9df4ea",
+   "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
+   "snippet": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and little diagnostic value. Recognizing that diverse multi-reference tasks share a common set of atomic operations, we adopt a capability-oriented perspective and formalize four operators: Anchor (f), Disentangle (g), Apply (oplus), and Compose (C). Any multi-reference prompt can then be represented as a compositional formula over these operators, whose structural complexity is quantified by the number of operator slots. Building on this formulation, we construct TRACE-Bench, comprising approximately 1,600 evaluation cases across slot counts 1--8, built from 631 formula templates and around 4,000 reference images spanning diverse artistic styles and real-world subjects. The formula structure directly drives an operator-aligned evaluation protocol for per-capability scoring and a diagnostic tree analysis for recursive failure localization. Evaluating 9 leading models reveals insights invisible to holistic scoring: the primary bottleneck lies in disentanglement (g) and attribute binding (oplus) rather than scene-level composition (C), with even the best model scoring only 0.74 on attribute fidelity. Project page: https://amuseum-whr.github.io/TraceBench",
+   "url": "https://huggingface.co/papers/2608.16765",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-17T00:00:00Z",
+   "imageURL": null,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3127,7 +3195,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3161,24 +3229,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 64,
-   "alert": false
-  },
-  {
-   "id": "bd9770a9b818aa9fce9b73c702e317b9fe482816704f119ec8730154df9df4ea",
-   "title": "TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation",
-   "snippet": "Despite recent advances in unified multimodal models for multi-reference image generation, existing benchmarks remain organized around predefined task types (e.g., \"subject composition\"), which are ill-suited to this combinatorial setting and lead to fragmented coverage, uncontrolled complexity, and little diagnostic value. Recognizing that diverse multi-reference tasks share a common set of atomic operations, we adopt a capability-oriented perspective and formalize four operators: Anchor (f), Disentangle (g), Apply (oplus), and Compose (C). Any multi-reference prompt can then be represented as a compositional formula over these operators, whose structural complexity is quantified by the number of operator slots. Building on this formulation, we construct TRACE-Bench, comprising approximately 1,600 evaluation cases across slot counts 1--8, built from 631 formula templates and around 4,000 reference images spanning diverse artistic styles and real-world subjects. The formula structure directly drives an operator-aligned evaluation protocol for per-capability scoring and a diagnostic tree analysis for recursive failure localization. Evaluating 9 leading models reveals insights invisible to holistic scoring: the primary bottleneck lies in disentanglement (g) and attribute binding (oplus) rather than scene-level composition (C), with even the best model scoring only 0.74 on attribute fidelity. Project page: https://amuseum-whr.github.io/TraceBench",
-   "url": "https://huggingface.co/papers/2608.16765",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-17T00:00:00Z",
-   "imageURL": null,
-   "signal": 64,
+   "signal": 63,
    "alert": false
   },
   {
@@ -3195,7 +3246,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T17:13:13Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 63,
    "alert": false
   },
   {
@@ -3216,7 +3267,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 63,
    "alert": false
   },
   {
@@ -3236,23 +3287,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
-   "imageURL": null,
-   "signal": 63,
-   "alert": false
-  },
-  {
-   "id": "65be739f4b8bdbbb5b91b52a9f873bcd3dc3c42b30eca326bbfd70b270fd26dc",
-   "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
-   "snippet": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
-   "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T21:27:05Z",
    "imageURL": null,
    "signal": 63,
    "alert": false
@@ -3288,7 +3322,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T22:00:00Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3305,7 +3339,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T19:46:21Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3373,7 +3407,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T13:05:36Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3390,7 +3424,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T22:00:39Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3449,23 +3483,6 @@
    "alert": false
   },
   {
-   "id": "ab70204cacdfd6028c2c6c287cd84467afadf9b5ba78ca8386d6beb3b4f3f4ee",
-   "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
-   "snippet": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval offers flexible access to external knowledge, but adds retrieval latency, context overhead, and only shallow integration with the backbone. Parametric adaptation is efficient at inference time, but entangles knowledge with model weights and can be hard to update, audit, or transfer. Engram-style hashed memory occupies a middle regime: it stores learned information in an external, addressable table, yet consumes that table through a small learned reader. This raises a basic question: when such a memory is moved across backbones, what matters more, the frozen memory itself or the target-side reader? We study this question through cross-model frozen-memory extraction, in which a memory trained on a source model is frozen and attached to a different target model, with only a lightweight reader trained. Ablations show that learned memory content and correct addressing both matter, but the transferred table becomes useful only through a reader aligned to the target model. In downstream question answering tasks, a dual-layer, four-branch reader nearly closes the gap between same-model and cross-model reuse, achieving an average score of 38.8 under our controlled evaluation protocol. Moreover, when the provider reader is directly compatible with the target interface, the frozen artifact can provide substantial utility without target-side training, while optional reader adaptation yields further improvement. These results suggest that Engram can serve as a reusable external knowledge artifact, provided that the target has access to a compatible reader interface; target-side adaptation can further improve alignment when direct reader reuse is insufficient.",
-   "url": "https://huggingface.co/papers/2608.17050",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-17T00:00:00Z",
-   "imageURL": null,
-   "signal": 61,
-   "alert": false
-  },
-  {
    "id": "3aca82d56d54fd7c01e7de7e7e84434a4975606e52a81db4d50ec34ea8b5ff18",
    "title": "Get closer to the game with Gemini and Pixel",
    "snippet": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
@@ -3479,7 +3496,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T08:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp",
-   "signal": 61,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3500,6 +3517,44 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T11:54:24Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png",
+   "signal": 60,
+   "alert": false
+  },
+  {
+   "id": "ab70204cacdfd6028c2c6c287cd84467afadf9b5ba78ca8386d6beb3b4f3f4ee",
+   "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+   "snippet": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval offers flexible access to external knowledge, but adds retrieval latency, context overhead, and only shallow integration with the backbone. Parametric adaptation is efficient at inference time, but entangles knowledge with model weights and can be hard to update, audit, or transfer. Engram-style hashed memory occupies a middle regime: it stores learned information in an external, addressable table, yet consumes that table through a small learned reader. This raises a basic question: when such a memory is moved across backbones, what matters more, the frozen memory itself or the target-side reader? We study this question through cross-model frozen-memory extraction, in which a memory trained on a source model is frozen and attached to a different target model, with only a lightweight reader trained. Ablations show that learned memory content and correct addressing both matter, but the transferred table becomes useful only through a reader aligned to the target model. In downstream question answering tasks, a dual-layer, four-branch reader nearly closes the gap between same-model and cross-model reuse, achieving an average score of 38.8 under our controlled evaluation protocol. Moreover, when the provider reader is directly compatible with the target interface, the frozen artifact can provide substantial utility without target-side training, while optional reader adaptation yields further improvement. These results suggest that Engram can serve as a reusable external knowledge artifact, provided that the target has access to a compatible reader interface; target-side adaptation can further improve alignment when direct reader reuse is insufficient.",
+   "url": "https://huggingface.co/papers/2608.17050",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-17T00:00:00Z",
+   "imageURL": null,
+   "signal": 60,
+   "alert": false
+  },
+  {
+   "id": "831cecf77f86d870106408393f9623040adf02e96f9a86aa83c7e8829c5e961b",
+   "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
+   "snippet": "Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. Existing systems add inference-time memory, retrieval, and compression, yet a training-free sliding-window baseline already matches them. We therefore fix a memory-free recent-window protocol and ask how far post-training alone can go. Reinforcement learning with verifiable rewards fits this regime poorly, encouraging long ``think-then-answer'' generations, while on-policy distillation (OPD) supplies dense token-level teacher supervision on student trajectories but is stable only when both models train in thinking mode. These observations lead to StreamOPD, a recipe combining verifiable streaming-video data, thinking-mode OPD, and instruct-mode deployment. It raises StreamingBench from 77.9% to 83.9%---within 0.3 points of the 9B teacher---and improves OVO-Bench excluding its hallucination-detection subtask (HLD) by 9.1 points under unchanged inference. As a teacher-privilege extension, Spatio-Temporal CueGate (ST-CueGate) aggregates cue-versus-no-cue teacher likelihood ratios into a group-relative response score that reweights OPD. It reaches 71.9% on OVO-Bench (excluding HLD) and 64.9% on Video-MME, and is the only variant that stays above the base model on all four benchmarks. Replacing the teacher with a frozen copy of the student's initial policy---on-policy self-distillation---retains most of these gains and lifts HLD to 57.0%, above both the untrained student and the 9B teacher, so abstention loss is not intrinsic to the recipe. We provide a transparent and reproducible reference for open-source streaming-video research.",
+   "url": "https://huggingface.co/papers/2608.16320",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    },
+    {
+     "name": "Interconnects",
+     "domain": "interconnects.ai"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-17T00:00:00Z",
+   "imageURL": null,
    "signal": 60,
    "alert": false
   },
@@ -3534,7 +3589,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3551,28 +3606,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T13:45:40Z",
    "imageURL": null,
-   "signal": 60,
-   "alert": false
-  },
-  {
-   "id": "831cecf77f86d870106408393f9623040adf02e96f9a86aa83c7e8829c5e961b",
-   "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
-   "snippet": "Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. Existing systems add inference-time memory, retrieval, and compression, yet a training-free sliding-window baseline already matches them. We therefore fix a memory-free recent-window protocol and ask how far post-training alone can go. Reinforcement learning with verifiable rewards fits this regime poorly, encouraging long ``think-then-answer'' generations, while on-policy distillation (OPD) supplies dense token-level teacher supervision on student trajectories but is stable only when both models train in thinking mode. These observations lead to StreamOPD, a recipe combining verifiable streaming-video data, thinking-mode OPD, and instruct-mode deployment. It raises StreamingBench from 77.9% to 83.9%---within 0.3 points of the 9B teacher---and improves OVO-Bench excluding its hallucination-detection subtask (HLD) by 9.1 points under unchanged inference. As a teacher-privilege extension, Spatio-Temporal CueGate (ST-CueGate) aggregates cue-versus-no-cue teacher likelihood ratios into a group-relative response score that reweights OPD. It reaches 71.9% on OVO-Bench (excluding HLD) and 64.9% on Video-MME, and is the only variant that stays above the base model on all four benchmarks. Replacing the teacher with a frozen copy of the student's initial policy---on-policy self-distillation---retains most of these gains and lifts HLD to 57.0%, above both the untrained student and the 9B teacher, so abstention loss is not intrinsic to the recipe. We provide a transparent and reproducible reference for open-source streaming-video research.",
-   "url": "https://huggingface.co/papers/2608.16320",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    },
-    {
-     "name": "Interconnects",
-     "domain": "interconnects.ai"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-17T00:00:00Z",
-   "imageURL": null,
-   "signal": 60,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3588,6 +3622,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T23:59:37Z",
+   "imageURL": null,
+   "signal": 59,
+   "alert": false
+  },
+  {
+   "id": "d560bc7ee6562f5d6d6096a6684fbb9f1ae6ddf10bc9aa38158335cb9b8c4c17",
+   "title": "If your agent commits a crime, who is responsible?",
+   "snippet": null,
+   "url": "https://www.signalbloom.ai/posts/if-your-agent-commits-a-crime-who-is-responsible/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-16T15:46:23Z",
    "imageURL": null,
    "signal": 59,
    "alert": false
@@ -3623,7 +3674,7 @@
    "category": "research",
    "publishedAt": "2026-08-16T00:00:00Z",
    "imageURL": null,
-   "signal": 59,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3640,24 +3691,7 @@
    "category": "research",
    "publishedAt": "2026-08-15T00:00:00Z",
    "imageURL": null,
-   "signal": 59,
-   "alert": false
-  },
-  {
-   "id": "d560bc7ee6562f5d6d6096a6684fbb9f1ae6ddf10bc9aa38158335cb9b8c4c17",
-   "title": "If your agent commits a crime, who is responsible?",
-   "snippet": null,
-   "url": "https://www.signalbloom.ai/posts/if-your-agent-commits-a-crime-who-is-responsible/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-16T15:46:23Z",
-   "imageURL": null,
-   "signal": 59,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3673,23 +3707,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-16T15:05:36Z",
-   "imageURL": null,
-   "signal": 58,
-   "alert": false
-  },
-  {
-   "id": "1da4b310da81348936cf2d41dfaf4d0e2af5bcba87e80adb2918457d91791f78",
-   "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
-   "snippet": "We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver controlled taint, execute DSH, collect traces, and judge outcomes. The study covers 14,560 controlled executions over 16 indirect-content channels, text and file carrier modes, 35 payload objectives, one unmodified baseline, and 12 attack methods. The experiment preserves DSH's agent loop, tool registry, model adapter, and session-event path; source tools and sensitive sinks are local fixtures, so attempted actions are recorded without external side effects. We evaluate each trace with a deterministic rule-based judge,  (RuleJudge), and a semantic LLM-based judge,  (LLMJudge). The strongest observed attack success rates are 17.0% under  for fake-completion attack in text mode, 25.5% under  for hidden Unicode in file mode, and 16.0% under  for the skills channel in file mode.  also assigns partial compliance more often than  (7.3% versus 2.0%). We relate these results to DSH's treatment of tool results, additional contexts, and tool-call policy hooks, then identify controls that should sit between untrusted content and sensitive actions. Our code is available at https://github.com/Tencent/AI-Infra-Guard/tree/main/Research/deepseek-harness-security-assessment .",
-   "url": "https://huggingface.co/papers/2608.16393",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
    "signal": 58,
    "alert": false
@@ -3712,6 +3729,23 @@
    "alert": false
   },
   {
+   "id": "1da4b310da81348936cf2d41dfaf4d0e2af5bcba87e80adb2918457d91791f78",
+   "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
+   "snippet": "We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver controlled taint, execute DSH, collect traces, and judge outcomes. The study covers 14,560 controlled executions over 16 indirect-content channels, text and file carrier modes, 35 payload objectives, one unmodified baseline, and 12 attack methods. The experiment preserves DSH's agent loop, tool registry, model adapter, and session-event path; source tools and sensitive sinks are local fixtures, so attempted actions are recorded without external side effects. We evaluate each trace with a deterministic rule-based judge,  (RuleJudge), and a semantic LLM-based judge,  (LLMJudge). The strongest observed attack success rates are 17.0% under  for fake-completion attack in text mode, 25.5% under  for hidden Unicode in file mode, and 16.0% under  for the skills channel in file mode.  also assigns partial compliance more often than  (7.3% versus 2.0%). We relate these results to DSH's treatment of tool results, additional contexts, and tool-call policy hooks, then identify controls that should sit between untrusted content and sensitive actions. Our code is available at https://github.com/Tencent/AI-Infra-Guard/tree/main/Research/deepseek-harness-security-assessment .",
+   "url": "https://huggingface.co/papers/2608.16393",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-18T00:00:00Z",
+   "imageURL": null,
+   "signal": 58,
+   "alert": false
+  },
+  {
    "id": "8fec95351fe6329c61bcb32e85cc3305e82f8eb38f2dd1309686047b27dcfe95",
    "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
    "snippet": "AI systems are increasingly capable of contributing to mathematical research. In research practice, frontier-model reasoning is a limited resource, and expert mathematical review is even more sharply constrained. Allocating these scarce resources well is therefore central to making AI-assisted mathematical discovery efficient. In most current AI-for-math workflows, human effort is concentrated at the beginning and end, in selecting suitable research problems and later reviewing the resulting artifacts. These two stages are becoming bottlenecks for research-level mathematics. We address them by proposing a new human-AI discovery paradigm. The human input is no longer a single problem selected in advance, but a research direction in which the experts have interest and expertise. The system then searches a broad literature corpus for candidate problems in that direction. Inspired by search and recommender systems, we build Find, Attempt, and Recommend (FAR), a literature-to-review cascade that automates the search for suitable problems and focuses human attention on artifacts that have passed several stages of filtering. In a combinatorics pilot, the pipeline starts from 5,245 combinatorics papers, recovers 6,453 candidate conjectures or open problems, and filters them to 4,717 apparently well-posed and still-open conjectures. Subsequent reasoning and automated triage stages surface 598 potential resolutions and select 77 items for author-team review. Among them, we identify many interesting discoveries, including results on conjectures and questions of Davies--Jenssen--Perkins--Roberts, Erdős--Straus, Ikenmeyer--Pak--Panova, and Lund--Saraf--Wolf. These results demonstrate the effectiveness of this new mode of human-AI collaboration for mathematical discovery.",
@@ -3725,24 +3759,24 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 57,
    "alert": false
   },
   {
-   "id": "1b555e620b3576f24f15fcd669e7f4a7d191269cd47a4d21b232e7194d040769",
-   "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
-   "snippet": "Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models but current studies remain heavily English-centric. We conduct a large-scale…",
-   "url": "https://machinelearning.apple.com/research/grpo-beyond-english",
+   "id": "358bcc07fa09e7a69f981ed66c64dd24e0507897bef264699b20d00a03945307",
+   "title": "On AI regulation and messaging",
+   "snippet": null,
+   "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
    "sources": [
     {
-     "name": "Apple ML",
-     "domain": "machinelearning.apple.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "research",
-   "publishedAt": "2026-08-18T00:00:00Z",
+   "category": "tools",
+   "publishedAt": "2026-08-17T01:59:56Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3767,18 +3801,18 @@
    "alert": false
   },
   {
-   "id": "358bcc07fa09e7a69f981ed66c64dd24e0507897bef264699b20d00a03945307",
-   "title": "On AI regulation and messaging",
-   "snippet": null,
-   "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+   "id": "1b555e620b3576f24f15fcd669e7f4a7d191269cd47a4d21b232e7194d040769",
+   "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
+   "snippet": "Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models but current studies remain heavily English-centric. We conduct a large-scale…",
+   "url": "https://machinelearning.apple.com/research/grpo-beyond-english",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Apple ML",
+     "domain": "machinelearning.apple.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-17T01:59:56Z",
+   "category": "research",
+   "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
    "signal": 57,
    "alert": false
@@ -3818,7 +3852,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3835,7 +3869,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3903,7 +3937,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 56,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3920,7 +3954,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T12:34:51Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
-   "signal": 56,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3975,6 +4009,23 @@
    "alert": false
   },
   {
+   "id": "259a5cb9c21209707486ede5564feb76d112d7f51bc91c0a860ca2e247432893",
+   "title": "Baking a Model: A Metaphor for LLM Training",
+   "snippet": null,
+   "url": "https://newsletter.kentbeck.com/p/baking-a-model",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-14T23:46:45Z",
+   "imageURL": null,
+   "signal": 54,
+   "alert": false
+  },
+  {
    "id": "21203a15a22ffd95a2a10a5d593940f5cf4f76c859aea1e965e09a799a4c97b3",
    "title": "llm-gemini 0.33",
    "snippet": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also…",
@@ -3988,7 +4039,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T19:37:34Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 54,
    "alert": false
   },
   {
@@ -4005,7 +4056,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T17:16:04Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 54,
    "alert": false
   },
   {
@@ -4056,24 +4107,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T15:48:15Z",
    "imageURL": null,
-   "signal": 54,
-   "alert": false
-  },
-  {
-   "id": "259a5cb9c21209707486ede5564feb76d112d7f51bc91c0a860ca2e247432893",
-   "title": "Baking a Model: A Metaphor for LLM Training",
-   "snippet": null,
-   "url": "https://newsletter.kentbeck.com/p/baking-a-model",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-14T23:46:45Z",
-   "imageURL": null,
-   "signal": 54,
+   "signal": 53,
    "alert": false
   },
   {
@@ -4090,7 +4124,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T17:44:59Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 53,
    "alert": false
   },
   {
@@ -4106,23 +4140,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-13T11:00:00Z",
-   "imageURL": null,
-   "signal": 53,
-   "alert": false
-  },
-  {
-   "id": "54a092b3d0aa2639e12a7154f85a2f7dc70edc7573a991f430e229e144dd559e",
-   "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
-   "snippet": "AI co-scientists that generate hypotheses, retrieve related work, design experiments, execute code, and draft full papers are beginning to change how research is carried out. Despite this rapid progress, state-of-the-art systems remain researcher-agnostic: given a research goal, they optimize novelty, validity, or reviewer score while ignoring the individual scientist who will use the output. This overlooks a fundamental fact about research, namely, that what counts as novel, valuable, or feasible depends on the researcher, including their prior work, methodological repertoire, and the collaborators and communities in which they are embedded. In this work, we introduce the problem of personalized auto-research, which conditions every stage of the research process on a representation of the individual researcher. We argue that personalization is not a convenience layer, but rather the fundamental property that allows an AI system to serve as a genuine co-scientist rather than a generic instrument. To address this problem, we propose a general and flexible framework that threads a graph-grounded researcher context through retrieval, hypothesis search, experimentation, writing, and review. The framework consists of three fundamental components: (i) graph-grounded researcher representations, (ii) personalization across the full research pipeline, and (iii) evaluation grounded in the individual. Notably, we highlight a one-size-fits-all failure mode where distinct researchers issuing the same goal receive essentially the same research, erasing the tacit knowledge through which novel ideas arise. Finally, we discuss fundamental open problems and challenges.",
-   "url": "https://huggingface.co/papers/2608.14881",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
    "signal": 53,
    "alert": false
@@ -4145,6 +4162,23 @@
    "alert": false
   },
   {
+   "id": "54a092b3d0aa2639e12a7154f85a2f7dc70edc7573a991f430e229e144dd559e",
+   "title": "Personalized Auto-Research: Towards a True AI Co-Scientist",
+   "snippet": "AI co-scientists that generate hypotheses, retrieve related work, design experiments, execute code, and draft full papers are beginning to change how research is carried out. Despite this rapid progress, state-of-the-art systems remain researcher-agnostic: given a research goal, they optimize novelty, validity, or reviewer score while ignoring the individual scientist who will use the output. This overlooks a fundamental fact about research, namely, that what counts as novel, valuable, or feasible depends on the researcher, including their prior work, methodological repertoire, and the collaborators and communities in which they are embedded. In this work, we introduce the problem of personalized auto-research, which conditions every stage of the research process on a representation of the individual researcher. We argue that personalization is not a convenience layer, but rather the fundamental property that allows an AI system to serve as a genuine co-scientist rather than a generic instrument. To address this problem, we propose a general and flexible framework that threads a graph-grounded researcher context through retrieval, hypothesis search, experimentation, writing, and review. The framework consists of three fundamental components: (i) graph-grounded researcher representations, (ii) personalization across the full research pipeline, and (iii) evaluation grounded in the individual. Notably, we highlight a one-size-fits-all failure mode where distinct researchers issuing the same goal receive essentially the same research, erasing the tacit knowledge through which novel ideas arise. Finally, we discuss fundamental open problems and challenges.",
+   "url": "https://huggingface.co/papers/2608.14881",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-14T00:00:00Z",
+   "imageURL": null,
+   "signal": 53,
+   "alert": false
+  },
+  {
    "id": "22405ea1e27b33a112e5993768ccd8037502e8807b567c66afebae15a259b5d8",
    "title": "OpenAI joins PORTS-Pike project",
    "snippet": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
@@ -4158,7 +4192,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T05:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 52,
    "alert": false
   },
   {
@@ -4175,7 +4209,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T03:03:17Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 52,
    "alert": false
   },
   {
@@ -4243,7 +4277,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T19:51:30Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 51,
    "alert": false
   },
   {
@@ -4260,7 +4294,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T17:45:20Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 51,
    "alert": false
   },
   {
@@ -4328,7 +4362,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T14:00:00Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/GlassdoorBestCEOs2026_16x9.png",
-   "signal": 51,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4345,7 +4379,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 51,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4362,23 +4396,6 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T07:11:08Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!nQZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPcJLMtagAAx07t.jpg",
-   "signal": 50,
-   "alert": false
-  },
-  {
-   "id": "c2387aa897345cef2ced913c54250641c518863338608bb6b7e7a0267f9b2e0e",
-   "title": "The new Instagram logo is the perfect embodiment of AI slop",
-   "snippet": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
-   "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T17:32:10Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/instagram-2026-wordmark.png",
    "signal": 50,
    "alert": false
   },
@@ -4400,6 +4417,23 @@
    "alert": false
   },
   {
+   "id": "c2387aa897345cef2ced913c54250641c518863338608bb6b7e7a0267f9b2e0e",
+   "title": "The new Instagram logo is the perfect embodiment of AI slop",
+   "snippet": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
+   "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T17:32:10Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/instagram-2026-wordmark.png",
+   "signal": 50,
+   "alert": false
+  },
+  {
    "id": "d8531b3bebbaf6641750e3efb410170dc9d4eacb196bd3e1d8ae895c0bc27335",
    "title": "Introducing Gemini 3.7 Flash",
    "snippet": null,
@@ -4413,7 +4447,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:04:18Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4430,7 +4464,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4498,7 +4532,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T21:03:50Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4583,7 +4617,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4668,7 +4702,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:00:30Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg",
-   "signal": 47,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4753,7 +4787,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T14:01:59Z",
    "imageURL": "https://lh3.googleusercontent.com/8RcynTx1ujudyw8Fs05Pv8WJahe2FQ3z1Y7gNHm-xvOTJLdMp9hNDsIIoQbJsnav6evNLgY1iT9B9ercsyIn0U1N51pzScvSfe6IHk2SjDJx-MaVzQ=w528-h297-n-nu-rw-lo",
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4841,23 +4875,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-09T23:31:39Z",
-   "imageURL": null,
-   "signal": 45,
-   "alert": false
-  },
-  {
-   "id": "3cc0e82c60b9214c6b80db0619aab4bd876578bfc107f437934026d9822404a2",
-   "title": "GitHub Models is now retired",
-   "snippet": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled retirement brownout. That message is already stale, because the retirement has…",
-   "url": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-09T22:48:05Z",
    "imageURL": null,
    "signal": 44,
    "alert": false
@@ -6533,23 +6550,6 @@
    "alert": false
   },
   {
-   "id": "c5045cb86592967e80fb6f96599079878176c4fd17f4344e2f7c6267cab890bc",
-   "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift",
-   "snippet": "Audio-Text Foundation Models (ATMs) fail catastrophically under severe acoustic noise, yet existing adaptation strategies either rely on gradient-based Test-Time Adaptation (TTA), which reinforces noise rather than signal, or on prompt tuning that requires privileged noise annotations unavailable at inference. We address these failures with PRISM (Prototype-Rectified Iterative Self-supervised Manifold Denoising), a training-free, source-free TTA framework grounded in the Affine Noise Hypothesis: severe acoustic noise induces a low-rank affine shift in the multimodal latent space, with more than 90% of distortion energy confined to the leading 60 principal components. PRISM estimates and reverses this distortion from an unlabeled target batch using frozen text prototypes as geometric anchors via three closed-form geometric corrections compiled into a single static projection matrix by Affine Bias Regression. At inference, adaptation reduces to one matrix-vector multiplication in 0.0009 ms, making it substantially faster than gradient-based TTA while requiring no additional training. On UrbanSound8K, PRISM improves over the zero-shot baseline by 12.94 percentage points and surpasses an oracle-assisted TTA baseline by 9.41 percentage points, despite never observing its privileged augmented noise prompts. We further identify the Polyphonic Trap, a principled failure mode of subspace deflation for broadband classes, and resolve it via Confidence-Aware Regression (CAR), recovering up to 8.16 percentage points for the worst-affected class.",
-   "url": "https://huggingface.co/papers/2608.15037",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-15T00:00:00Z",
-   "imageURL": null,
-   "signal": 25,
-   "alert": false
-  },
-  {
    "id": "76e640128a63f6c915ee0af9ebaf8ac9efb3a1ad559d9036a4169d02ee4ed7fc",
    "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
    "snippet": "Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rather than as an object of analysis. Consequently, little is known about the harmful outputs produced during model misbehavior, partly because large-scale, high-quality collections of frontier-LLM misbehavior are difficult to obtain. To address this gap, we introduce HarmProfile, a content-centric benchmark dataset that collects model misbehavior across diverse harm categories and model families, and defines the resulting harmful-output distribution as a model-level risk profile. The premise is that, just as linguistic behavior can be characterized from an utterance corpus, model risk can be characterized from the content, severity, and variation of its safety failures. HarmProfile contains over 80,000 validated artifacts from 23 frontier LLMs across 13 model families, organized into 15 harm categories and 57 subcategories. Using this corpus, we find that frontier LLMs reliably produce harmful content at scale, yet exhibit distinct risk profiles; both harmfulness and diversity grow with model capability, suggesting that frontier LLMs may appear safe yet harbor increasingly dangerous knowledge beneath the alignment surface. Our source code is available at https://github.com/fresh-ma/HarmProfile .",
@@ -6562,6 +6562,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-06-11T00:00:00Z",
+   "imageURL": null,
+   "signal": 24,
+   "alert": false
+  },
+  {
+   "id": "c5045cb86592967e80fb6f96599079878176c4fd17f4344e2f7c6267cab890bc",
+   "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift",
+   "snippet": "Audio-Text Foundation Models (ATMs) fail catastrophically under severe acoustic noise, yet existing adaptation strategies either rely on gradient-based Test-Time Adaptation (TTA), which reinforces noise rather than signal, or on prompt tuning that requires privileged noise annotations unavailable at inference. We address these failures with PRISM (Prototype-Rectified Iterative Self-supervised Manifold Denoising), a training-free, source-free TTA framework grounded in the Affine Noise Hypothesis: severe acoustic noise induces a low-rank affine shift in the multimodal latent space, with more than 90% of distortion energy confined to the leading 60 principal components. PRISM estimates and reverses this distortion from an unlabeled target batch using frozen text prototypes as geometric anchors via three closed-form geometric corrections compiled into a single static projection matrix by Affine Bias Regression. At inference, adaptation reduces to one matrix-vector multiplication in 0.0009 ms, making it substantially faster than gradient-based TTA while requiring no additional training. On UrbanSound8K, PRISM improves over the zero-shot baseline by 12.94 percentage points and surpasses an oracle-assisted TTA baseline by 9.41 percentage points, despite never observing its privileged augmented noise prompts. We further identify the Polyphonic Trap, a principled failure mode of subspace deflation for broadband classes, and resolve it via Confidence-Aware Regression (CAR), recovering up to 8.16 percentage points for the worst-affected class.",
+   "url": "https://huggingface.co/papers/2608.15037",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-15T00:00:00Z",
    "imageURL": null,
    "signal": 24,
    "alert": false
@@ -6631,7 +6648,7 @@
    "category": "research",
    "publishedAt": "2026-06-29T21:14:22Z",
    "imageURL": null,
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -6716,7 +6733,7 @@
    "category": "research",
    "publishedAt": "2026-07-06T12:31:05Z",
    "imageURL": null,
-   "signal": 23,
+   "signal": 22,
    "alert": false
   },
   {
@@ -6801,7 +6818,7 @@
    "category": "models",
    "publishedAt": "2026-07-01T18:15:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp",
-   "signal": 22,
+   "signal": 21,
    "alert": false
   },
   {
@@ -6890,7 +6907,7 @@
    "category": "research",
    "publishedAt": "2026-05-08T09:00:00Z",
    "imageURL": null,
-   "signal": 21,
+   "signal": 20,
    "alert": false
   },
   {
@@ -6975,7 +6992,7 @@
    "category": "research",
    "publishedAt": "2026-07-06T00:00:00Z",
    "imageURL": null,
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -7060,7 +7077,7 @@
    "category": "research",
    "publishedAt": "2026-06-16T21:29:50Z",
    "imageURL": "https://lh3.googleusercontent.com/kc7RMwXGDfJAoCsgs6pUuONGMXePGbvF_q_i8i-bWBBakQ91O8VYPk8cyHfpOD1uF-lw8Mk6pd2JpXofi5n4qNoNziPol46lBMmZuxoG9NKl16CW=w528-h297-n-nu-rw-lo",
-   "signal": 19,
+   "signal": 18,
    "alert": false
   },
   {
@@ -7145,7 +7162,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-10T18:43:12Z",
    "imageURL": null,
-   "signal": 18,
+   "signal": 17,
    "alert": false
   },
   {
@@ -7230,7 +7247,7 @@
    "category": "research",
    "publishedAt": "2026-06-09T14:02:33Z",
    "imageURL": null,
-   "signal": 17,
+   "signal": 16,
    "alert": false
   },
   {
