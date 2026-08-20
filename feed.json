@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-08-20T23:25:06Z",
+ "generatedAt": "2026-08-20T23:50:11Z",
  "stories": [
   {
    "id": "5139cb7756590ae9be3293d16b6342235b0cea4dc1dfaf616282a23090379c6d",
@@ -13,8 +13,8 @@
      "domain": "techcrunch.com"
     },
     {
-     "name": "Bloomberg.com",
-     "domain": "bloomberg.com"
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
     },
     {
      "name": "9to5Mac",
@@ -49,6 +49,35 @@
    "alert": true
   },
   {
+   "id": "da9d91cfb8d4282b2cf7e478de652deb6526344916d21724a09eb38efc7cfdcc",
+   "title": "TrueForge – The open-source agent harness",
+   "snippet": null,
+   "url": "https://github.com/truefoundry/trueforge",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Passionate In Marketing",
+     "domain": "passionateinmarketing.com"
+    },
+    {
+     "name": "NVIDIA",
+     "domain": "blogs.nvidia.com"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T18:36:07Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": true
+  },
+  {
    "id": "f4be18b46597191058a45ce3cc9f19c3214c5f86d1671f5ebe33b3d480031b36",
    "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
    "snippet": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
@@ -70,7 +99,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T22:36:37Z",
    "imageURL": null,
-   "signal": 99,
+   "signal": 98,
    "alert": true
   },
   {
@@ -99,35 +128,6 @@
    "alert": true
   },
   {
-   "id": "da9d91cfb8d4282b2cf7e478de652deb6526344916d21724a09eb38efc7cfdcc",
-   "title": "TrueForge – The open-source agent harness",
-   "snippet": null,
-   "url": "https://github.com/truefoundry/trueforge",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "Passionate In Marketing",
-     "domain": "passionateinmarketing.com"
-    },
-    {
-     "name": "NVIDIA",
-     "domain": "blogs.nvidia.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T18:36:07Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": true
-  },
-  {
    "id": "a9f0044edd6fada438dce6310b4e72b5911228fb169aba2857c86f2816e1c4e6",
    "title": "Slack is launching collaborative vibe-coding channels",
    "snippet": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and…",
@@ -148,10 +148,6 @@
     {
      "name": "en.ain.ua",
      "domain": "en.ain.ua"
-    },
-    {
-     "name": "dev.ua",
-     "domain": "dev.ua"
     },
     {
      "name": "Unite.AI",
@@ -176,60 +172,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-20T12:00:00Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": true
-  },
-  {
-   "id": "421d3d4ae5e9313b852eccc873c03db932ae871573c0a48aef88a07665376146",
-   "title": "How to Build an App With Claude Code in 2026: Steps, Requirements, and More",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ENGx4SFozbWxiclFrTmM3N2owRWVzbE5hVmFmQ21GOXJvYUtqOVNibGR1WFNhckNDR3pwemJLWlVNRjJtOGViOEZSUGJWOGFkdHpheENVYjRxcF93OThCeThuOHpaMFBEOHNZ?oc=5",
-   "sources": [
-    {
-     "name": "appinventiv.com",
-     "domain": "appinventiv.com"
-    },
-    {
-     "name": "The News International",
-     "domain": "thenews.com.pk"
-    },
-    {
-     "name": "36 Kr",
-     "domain": "eu.36kr.com"
-    },
-    {
-     "name": "tech-insider.org",
-     "domain": "tech-insider.org"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T17:18:52Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": true
-  },
-  {
-   "id": "826cd05f6e193bc806169ed1789cf10ccd26183b7c89bdebe0aeeca6fc629a32",
-   "title": "Anthropic Plans to Tweak Data Retention Rules After Enterprise Concerns",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc25HcURLSnRDbktvYmZ6TGZsQjBVWktGTXVmalNqYndsVXhOM0tnUTEwZ3R6OWFBSlM5ZWU1UlBDckx0LXBReEQwZE5ycnVub3Z6bUJsMmpHc1Btc21CVW1tOU9PdXpweldwbGVBQ1N6LUx0ekpvNW00VVBHeXFTb01GaDhCYnJSS1ZmZ19QVzdDSDZDb0NPdVk0NzdBVmdrczFlRUw0Q0h1XzdpSGRIcGh4RzVCbUpKbURQbERYWW1WOGllZkFhbg?oc=5",
-   "sources": [
-    {
-     "name": "PYMNTS.com",
-     "domain": "pymnts.com"
-    },
-    {
-     "name": "Reuters",
-     "domain": "reuters.com"
-    },
-    {
-     "name": "Bloomberg.com",
-     "domain": "bloomberg.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T19:56:49Z",
    "imageURL": null,
    "signal": 98,
    "alert": true
@@ -288,58 +230,96 @@
    "category": "models",
    "publishedAt": "2026-08-20T09:30:00Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 98,
    "alert": true
   },
   {
-   "id": "f73aa2c347e28a072addbf03493a40ce19adcd63d52035e8a874bc589356aee8",
-   "title": "Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing",
+   "id": "421d3d4ae5e9313b852eccc873c03db932ae871573c0a48aef88a07665376146",
+   "title": "How to Build an App With Claude Code in 2026: Steps, Requirements, and More",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWmxjOG1BdGVuUVRmMURhcXdNRlVLNEwxem91eW4xWDBiV0Q4emN5Z2lzdVpVZ3NaeHFnZGM3bUtmdndQWVNBamFnMng4Y2JPclpuNWFVMmItbnJydkVyT3NvTnVVWkhuYjhieDQzZ3VxQzhCYzE2TWdCY2YwOEZ0akY4QzFUMndfRGxmS3BLS051SDl2M2c?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ENGx4SFozbWxiclFrTmM3N2owRWVzbE5hVmFmQ21GOXJvYUtqOVNibGR1WFNhckNDR3pwemJLWlVNRjJtOGViOEZSUGJWOGFkdHpheENVYjRxcF93OThCeThuOHpaMFBEOHNZ?oc=5",
    "sources": [
     {
-     "name": "AdvisorHub",
-     "domain": "advisorhub.com"
+     "name": "appinventiv.com",
+     "domain": "appinventiv.com"
+    },
+    {
+     "name": "The News International",
+     "domain": "thenews.com.pk"
+    },
+    {
+     "name": "36 Kr",
+     "domain": "eu.36kr.com"
+    },
+    {
+     "name": "tech-insider.org",
+     "domain": "tech-insider.org"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T17:18:52Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": true
+  },
+  {
+   "id": "826cd05f6e193bc806169ed1789cf10ccd26183b7c89bdebe0aeeca6fc629a32",
+   "title": "Anthropic Plans to Tweak Data Retention Rules After Enterprise Concerns",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc25HcURLSnRDbktvYmZ6TGZsQjBVWktGTXVmalNqYndsVXhOM0tnUTEwZ3R6OWFBSlM5ZWU1UlBDckx0LXBReEQwZE5ycnVub3Z6bUJsMmpHc1Btc21CVW1tOU9PdXpweldwbGVBQ1N6LUx0ekpvNW00VVBHeXFTb01GaDhCYnJSS1ZmZ19QVzdDSDZDb0NPdVk0NzdBVmdrczFlRUw0Q0h1XzdpSGRIcGh4RzVCbUpKbURQbERYWW1WOGllZkFhbg?oc=5",
+   "sources": [
+    {
+     "name": "PYMNTS.com",
+     "domain": "pymnts.com"
+    },
+    {
+     "name": "Reuters",
+     "domain": "reuters.com"
     },
     {
      "name": "Bloomberg.com",
      "domain": "bloomberg.com"
-    },
-    {
-     "name": "qz.com",
-     "domain": "qz.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-20T22:17:30Z",
+   "publishedAt": "2026-08-20T19:56:49Z",
    "imageURL": null,
    "signal": 97,
    "alert": true
   },
   {
-   "id": "95f39820428a5c6b99b9076e859bd19ca8961ff914723140c850074508ae2b88",
-   "title": "OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face",
+   "id": "beb93f8dd84517daf26a6bbcfde132a2606e98d002efb38e533ff89f1c43f062",
+   "title": "Fortinet buys Virtue AI to boost AI security tools",
    "snippet": null,
-   "url": "https://www.wired.com/story/openais-rogue-ai-agent-hacked-more-than-just-hugging-face/",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQjBDSU9KYXVaNjN5LWFESDl3d3JZam1kNFlHSDU0aHZaMWlYRnZPZkY2dVFyandXX01DVlpqTUs0LTR3WDdyUk00VjZzd2NZQlNJUVIwSEVoS1dfVzBGbTVxLWs0OWRxTDIxb2Judmp5US05N2dRMFVMTExMc0VvUkNBUGVweUNtOXZBRQ?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
+     "name": "SecurityBrief New Zealand",
+     "domain": "securitybrief.co.nz"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T18:58:25Z",
+   "publishedAt": "2026-08-20T23:07:00Z",
    "imageURL": null,
    "signal": 97,
-   "alert": true
+   "alert": false
+  },
+  {
+   "id": "a86a5b107732e96be925df516562d1de6459587df2bbf4f111404bfad263c112",
+   "title": "Slack Brings AI Agents To Workspaces. But Can It Take On Teams?",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd0RUSS1sM0pYRU93MU9rUGpIYUtURUFNV1doMFF3NF8zbnlUTEw3Q3lvOTdtV1p5VkxzLUR2cmVMZndHR1VFcEdFdU1nYWRpNzhWWUdqT0JFN3hwbkprR3FLTENSTU1keWZSeW1oa1V4bHcxUjFMQ052WTNJQVc5VFR6TU1Eemc?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo",
+     "domain": "malaysia.news.yahoo.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T22:14:08Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
   },
   {
    "id": "5abe1b16819873d13507625a631a8dbc07a0a5c0e586d0f31acf533951b6615b",
@@ -376,6 +356,23 @@
    "alert": false
   },
   {
+   "id": "807ef9c2e44da735451da31e0cba2e6f21a1f03f150031d7c549ae00832ff86d",
+   "title": "Show HN: Huzzah – a novel approach to coding with AI",
+   "snippet": null,
+   "url": "https://www.danielvaughn.dev/posts/huzzah/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T19:05:36Z",
+   "imageURL": null,
+   "signal": 96,
+   "alert": false
+  },
+  {
    "id": "b1d4c6cfcf5ba4873c1d5ab7628a5dc106404025cc7e19fd4bbb681fcb3db11c",
    "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 1: Setting up your Snowflake environment",
    "snippet": "Healthcare, retail, and life sciences teams store large volumes of operational data in Snowflake, but turning it into predictions is hard. In Part 1 of this series, you set up your AWS account and Snowflake environment for a no-code ML workflow with Amazon SageMaker Canvas, laying the foundation…",
@@ -393,19 +390,19 @@
    "alert": false
   },
   {
-   "id": "807ef9c2e44da735451da31e0cba2e6f21a1f03f150031d7c549ae00832ff86d",
-   "title": "Show HN: Huzzah – a novel approach to coding with AI",
-   "snippet": null,
-   "url": "https://www.danielvaughn.dev/posts/huzzah/",
+   "id": "9a7583fc09aea8e9643baca9e1eae3c38434ba7a8bd3bdf0d8b40b3c73c4020a",
+   "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+   "snippet": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+   "url": "https://www.latent.space/p/wayfinder-skill",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Latent Space",
+     "domain": "latent.space"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T19:05:36Z",
-   "imageURL": null,
+   "category": "techniques",
+   "publishedAt": "2026-08-20T20:59:09Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!gjWE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png",
    "signal": 96,
    "alert": false
   },
@@ -444,21 +441,25 @@
    "alert": false
   },
   {
-   "id": "9a7583fc09aea8e9643baca9e1eae3c38434ba7a8bd3bdf0d8b40b3c73c4020a",
-   "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-   "snippet": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-   "url": "https://www.latent.space/p/wayfinder-skill",
+   "id": "f73aa2c347e28a072addbf03493a40ce19adcd63d52035e8a874bc589356aee8",
+   "title": "Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWmxjOG1BdGVuUVRmMURhcXdNRlVLNEwxem91eW4xWDBiV0Q4emN5Z2lzdVpVZ3NaeHFnZGM3bUtmdndQWVNBamFnMng4Y2JPclpuNWFVMmItbnJydkVyT3NvTnVVWkhuYjhieDQzZ3VxQzhCYzE2TWdCY2YwOEZ0akY4QzFUMndfRGxmS3BLS051SDl2M2c?oc=5",
    "sources": [
     {
-     "name": "Latent Space",
-     "domain": "latent.space"
+     "name": "AdvisorHub",
+     "domain": "advisorhub.com"
+    },
+    {
+     "name": "Bloomberg.com",
+     "domain": "bloomberg.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T20:59:09Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!gjWE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png",
+   "category": "models",
+   "publishedAt": "2026-08-20T22:17:30Z",
+   "imageURL": null,
    "signal": 96,
-   "alert": false
+   "alert": true
   },
   {
    "id": "30ed338aa1befde7ba5753342c042ff3cdde49eb0087d7cab3d38674244fb3ac",
@@ -482,8 +483,25 @@
    "category": "models",
    "publishedAt": "2026-08-20T16:07:26Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
    "alert": true
+  },
+  {
+   "id": "9953931b8b915d25777d4825652c2a4496e21043a3937237cba1062e2174fb8d",
+   "title": "Protesters haul a guillotine to city council meeting about an AI data center",
+   "snippet": null,
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/protesters-haul-a-guillotine-to-city-council-meeting-about-a-potential-ai-data-center-company-rep-cornered-by-protestors-it-no-longer-felt-safe-to-stay-developer-escorted-out-by-police",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T21:53:37Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
   },
   {
    "id": "29ff6fb816f0a351bd1a1252a6955c5bc79a2b35ce5021f7712d565ceb357988",
@@ -550,7 +568,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T19:23:17Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -567,7 +585,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T19:18:21Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -643,50 +661,25 @@
    "category": "models",
    "publishedAt": "2026-08-20T19:42:54Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
-   "id": "ba350cd349681c3b47aac2b99cfd2092d97f0bae8239a7346e4db94e9262b4e4",
-   "title": "Karnataka CM Shivakumar to launch KEO AI computer August 21",
+   "id": "09523f683853cee9bea6d54d2e9d4b30c60ede5c01d348f3f8655a4a2bc40baa",
+   "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU1B1Vy1XWjNMV1RIUGVxUjBVZG51b0VMeV93dE1FMkRzNGpiZHlUVHJRbjl5dllOSTg3XzBxXzlMWHlULUx5b3NUY3RYdWFXVXhjcEVtOF9pa241M0hJS3gxTGlSbzlFeE5ZT25LUXcxM3Q0S1pXRGZyMkRyVHJwMFp2aWpYQ0lVTVIybTVsOURvN05OS2JkR2QtOUhNWlVWQmxsQ2VnZl9mZw?oc=5",
+   "url": "https://github.com/zachahn/vomit",
    "sources": [
     {
-     "name": "NewsBytes",
-     "domain": "newsbytesapp.com"
-    },
-    {
-     "name": "Moneycontrol.com",
-     "domain": "moneycontrol.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T13:11:55Z",
-   "imageURL": null,
-   "signal": 94,
-   "alert": true
-  },
-  {
-   "id": "96c305305c840173e825b434d03da53cc9700188eccd95da458916faa8a9b802",
-   "title": "Salesforce Bets the Platform on Headless 360",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkY4Vm1VYy1oNGNYR09oR0lVNmJLSl9VVmpXcVptSTF2VVRsSDZsbFl0aUljc3JKTmFGX0FuNmVkcjh2YnZOUmZLZFNQTWxMaVdjR2NaWVZUNW10d3I5aUM3RU9Fd1NBRXRYSHpRSTR6a280VTUzYlRZMktyNTR3Y0tadGJZdw?oc=5",
-   "sources": [
-    {
-     "name": "The Futurum Group",
-     "domain": "futurumgroup.com"
-    },
-    {
-     "name": "Diginomica",
-     "domain": "diginomica.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T15:10:45Z",
+   "publishedAt": "2026-08-20T15:26:02Z",
    "imageURL": null,
    "signal": 93,
-   "alert": true
+   "alert": false
   },
   {
    "id": "e6b7137c5e272f11a6d3521e3e3c10b80bb93e37ba6592fe578174451fa320bd",
@@ -740,23 +733,6 @@
    "alert": false
   },
   {
-   "id": "09523f683853cee9bea6d54d2e9d4b30c60ede5c01d348f3f8655a4a2bc40baa",
-   "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
-   "snippet": null,
-   "url": "https://github.com/zachahn/vomit",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T15:26:02Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
    "id": "eab5285cfdebeb65a8ef35d4bffcfc39f4434e5c4addfd2ea652e42de6b3fb15",
    "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
    "snippet": null,
@@ -774,6 +750,23 @@
    "alert": false
   },
   {
+   "id": "f2c41c03f24945a5516d28b47a3245e9d958fc45e15bf05489d8b5e635bef631",
+   "title": "AI at Home Part 2: Multi-GPU Drifting",
+   "snippet": null,
+   "url": "https://jdagostino.github.io/ai-pt2-multi-gpu-drifting/index.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T16:53:55Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": false
+  },
+  {
    "id": "3766519138678db67479a9dd78b265077494c381a437956c1e5998a0d33f3797",
    "title": "Ramp launches its own AI model router, called Router",
    "snippet": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
@@ -786,6 +779,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-20T16:46:00Z",
+   "imageURL": null,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
+   "title": "Anti-AI fonts are useless and harmful",
+   "snippet": null,
+   "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T15:06:53Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
@@ -821,57 +831,6 @@
    "category": "models",
    "publishedAt": "2026-08-20T16:43:38Z",
    "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
-   "id": "161fa86044d10b9dd62d1c75ead49300614e876572d9381373fa65998875f7fc",
-   "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-   "snippet": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
-   "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T18:20:35Z",
-   "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
-   "id": "f2c41c03f24945a5516d28b47a3245e9d958fc45e15bf05489d8b5e635bef631",
-   "title": "AI at Home Part 2: Multi-GPU Drifting",
-   "snippet": null,
-   "url": "https://jdagostino.github.io/ai-pt2-multi-gpu-drifting/index.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T16:53:55Z",
-   "imageURL": null,
-   "signal": 91,
-   "alert": false
-  },
-  {
-   "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
-   "title": "Anti-AI fonts are useless and harmful",
-   "snippet": null,
-   "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T15:06:53Z",
-   "imageURL": null,
    "signal": 91,
    "alert": false
   },
@@ -893,18 +852,18 @@
    "alert": false
   },
   {
-   "id": "abcbe97e82c2ae8a4fe5f9bbf124189ea75b00ae35bb5b1de24b1ec0dcd7d6cf",
-   "title": "Ladies and gentlemen I present to you Qwen3.8 27b 1bit brain damage quant",
-   "snippet": "I wanted to just test the unsloth 1bit quant of qwen 3.8 27b as I have just 8gb vram and ngl it gave me a good laugh &#32; submitted by &#32; /u/Ok-Health-7096 [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtr3h0/ladies_and_gentlemen_i_present_to_you_qwen38_27b/",
+   "id": "161fa86044d10b9dd62d1c75ead49300614e876572d9381373fa65998875f7fc",
+   "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+   "snippet": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+   "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T18:08:26Z",
+   "category": "models",
+   "publishedAt": "2026-08-20T18:20:35Z",
    "imageURL": null,
    "signal": 91,
    "alert": false
@@ -927,20 +886,20 @@
    "alert": false
   },
   {
-   "id": "947a0d0033e0975927b3579cebda78f66e84c180d79d73633894766ea53ea8c9",
-   "title": "DeepSeek is back... and Silicon Valley is terrified",
-   "snippet": null,
-   "url": "https://www.youtube.com/watch?v=xBByvFrqmWU",
+   "id": "abcbe97e82c2ae8a4fe5f9bbf124189ea75b00ae35bb5b1de24b1ec0dcd7d6cf",
+   "title": "Ladies and gentlemen I present to you Qwen3.8 27b 1bit brain damage quant",
+   "snippet": "I wanted to just test the unsloth 1bit quant of qwen 3.8 27b as I have just 8gb vram and ngl it gave me a good laugh &#32; submitted by &#32; /u/Ok-Health-7096 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtr3h0/ladies_and_gentlemen_i_present_to_you_qwen38_27b/",
    "sources": [
     {
-     "name": "Fireship",
-     "domain": "youtube.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T17:53:37Z",
+   "category": "tools",
+   "publishedAt": "2026-08-20T18:08:26Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 91,
    "alert": false
   },
   {
@@ -956,6 +915,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-20T16:06:06Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "947a0d0033e0975927b3579cebda78f66e84c180d79d73633894766ea53ea8c9",
+   "title": "DeepSeek is back... and Silicon Valley is terrified",
+   "snippet": null,
+   "url": "https://www.youtube.com/watch?v=xBByvFrqmWU",
+   "sources": [
+    {
+     "name": "Fireship",
+     "domain": "youtube.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T17:53:37Z",
    "imageURL": null,
    "signal": 90,
    "alert": false
@@ -995,40 +971,6 @@
    "alert": false
   },
   {
-   "id": "3e25c33330e7022b45977557aef7bcf3532ff26e9edc62e34aa05baac7640229",
-   "title": "Grok keeps sending gibberish responses to users",
-   "snippet": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
-   "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T17:32:16Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "9c053eef9018983766db16140a84552406fab558221fb276e5c7ae5c819f10e9",
-   "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-   "snippet": "Research: A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering…",
-   "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T15:37:00Z",
-   "imageURL": null,
-   "signal": 89,
-   "alert": false
-  },
-  {
    "id": "57ef8f90eee76bcb8c77196bfc350b34ebf77f0aa0ee5ce33f05a4a6fe3f3846",
    "title": "CANoe Automates Development and Testing Workflows with AI Agents",
    "snippet": null,
@@ -1045,6 +987,40 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-20T09:03:19Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": true
+  },
+  {
+   "id": "9c053eef9018983766db16140a84552406fab558221fb276e5c7ae5c819f10e9",
+   "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+   "snippet": "Research: A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering…",
+   "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T15:37:00Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": false
+  },
+  {
+   "id": "3e25c33330e7022b45977557aef7bcf3532ff26e9edc62e34aa05baac7640229",
+   "title": "Grok keeps sending gibberish responses to users",
+   "snippet": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+   "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T17:32:16Z",
    "imageURL": null,
    "signal": 89,
    "alert": false
@@ -1067,10 +1043,10 @@
    "alert": false
   },
   {
-   "id": "a8e31a57d58b8b544ac5f9b7ae3b2ca83fcab668111c63d0d38bbc2d0bea5bce",
-   "title": "Is AI Entering Its NFT Era?",
+   "id": "acf4cd57263162cdc871398f61cedd56af2cb56108e197fd483a733501f8fb8a",
+   "title": "Hacking with Claude on a $27 smart watch",
    "snippet": null,
-   "url": "https://aboard.com/is-ai-entering-its-nft-era/",
+   "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
    "sources": [
     {
      "name": "Hacker News",
@@ -1078,7 +1054,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T19:30:06Z",
+   "publishedAt": "2026-08-20T14:08:09Z",
    "imageURL": null,
    "signal": 89,
    "alert": false
@@ -1101,37 +1077,24 @@
    "alert": false
   },
   {
-   "id": "acf4cd57263162cdc871398f61cedd56af2cb56108e197fd483a733501f8fb8a",
-   "title": "Hacking with Claude on a $27 smart watch",
+   "id": "12112810c48655ab44c9d38728b5fd357a7fae4630aaec7a68781e8a6d3deebe",
+   "title": "Dutch data protection authority advises Twitch users to opt out from Amazon AI",
    "snippet": null,
-   "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+   "url": "https://www.autoriteitpersoonsgegevens.nl/en/current/ap-advises-twitch-users-opt-out-from-sharing-data-with-amazon-ai",
    "sources": [
     {
      "name": "Hacker News",
      "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T14:08:09Z",
+   "publishedAt": "2026-08-20T10:36:14Z",
    "imageURL": null,
    "signal": 89,
-   "alert": false
-  },
-  {
-   "id": "2a2e8830761c1deb82f215090d03e1cb4236b571eb3e2cf9c1cb1d13ee4b3a8e",
-   "title": "QwenMix-3.7: Kept seeing posts about Qwen3.8 and 3.6 sharing the same structure.. so I had Qwen3.8 combine them.",
-   "snippet": "I chose to do this thing, not because it was hard, but because it was silly. Posts kept discussing how 3.8 and 3.6 were functionally the same, but based on training (3.8 does have seven new tokens!).. so I figured I&#39;d see if they could be merged. They can. I used `Qwen3.8-27B-UD-Q6_K_XL.gguf`…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtozjq/qwenmix37_kept_seeing_posts_about_qwen38_and_36/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T16:52:33Z",
-   "imageURL": null,
-   "signal": 88,
    "alert": false
   },
   {
@@ -1152,31 +1115,27 @@
    "alert": false
   },
   {
-   "id": "12112810c48655ab44c9d38728b5fd357a7fae4630aaec7a68781e8a6d3deebe",
-   "title": "Dutch data protection authority advises Twitch users to opt out from Amazon AI",
-   "snippet": null,
-   "url": "https://www.autoriteitpersoonsgegevens.nl/en/current/ap-advises-twitch-users-opt-out-from-sharing-data-with-amazon-ai",
+   "id": "2a2e8830761c1deb82f215090d03e1cb4236b571eb3e2cf9c1cb1d13ee4b3a8e",
+   "title": "QwenMix-3.7: Kept seeing posts about Qwen3.8 and 3.6 sharing the same structure.. so I had Qwen3.8 combine them.",
+   "snippet": "I chose to do this thing, not because it was hard, but because it was silly. Posts kept discussing how 3.8 and 3.6 were functionally the same, but based on training (3.8 does have seven new tokens!).. so I figured I&#39;d see if they could be merged. They can. I used `Qwen3.8-27B-UD-Q6_K_XL.gguf`…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtozjq/qwenmix37_kept_seeing_posts_about_qwen38_and_36/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T10:36:14Z",
+   "publishedAt": "2026-08-20T16:52:33Z",
    "imageURL": null,
    "signal": 88,
    "alert": false
   },
   {
-   "id": "9953931b8b915d25777d4825652c2a4496e21043a3937237cba1062e2174fb8d",
-   "title": "Protesters haul a guillotine to city council meeting about an AI data center",
+   "id": "a8e31a57d58b8b544ac5f9b7ae3b2ca83fcab668111c63d0d38bbc2d0bea5bce",
+   "title": "Is AI Entering Its NFT Era?",
    "snippet": null,
-   "url": "https://www.tomshardware.com/tech-industry/data-centers/protesters-haul-a-guillotine-to-city-council-meeting-about-a-potential-ai-data-center-company-rep-cornered-by-protestors-it-no-longer-felt-safe-to-stay-developer-escorted-out-by-police",
+   "url": "https://aboard.com/is-ai-entering-its-nft-era/",
    "sources": [
     {
      "name": "Hacker News",
@@ -1184,7 +1143,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T21:53:37Z",
+   "publishedAt": "2026-08-20T19:30:06Z",
    "imageURL": null,
    "signal": 88,
    "alert": false
@@ -1220,41 +1179,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T14:00:00Z",
    "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "dec78951bccde4746f48f3dc753fe0044512c0198bf1e5d98dc93075cb3b2ca7",
-   "title": "Any speculation on whether or not Google will announce a new Gemma model at the Gemma SF Celebration tonight?",
-   "snippet": "From the Digg article ( https://digg.com/tech/3pf3046j ) “Google Gemma posted that the family of open models has achieved 1 billion downloads. The account is hosting an exclusive evening in San Francisco on August 20 to honor open-source builders, researchers, and contributors. Space at the event…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vttdss/any_speculation_on_whether_or_not_google_will/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T19:27:12Z",
-   "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "c53b19f017d333a726844383e99bf462bf8116b1a9080fa6c8ff86965ccaa59e",
-   "title": "Anthropic IPO: What to know before you buy the stock",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUm4tUU1EYW9YS3lLVTNhNWRkcHJIZmJ6STByXzU4SVU1V2R5Q3NvQUprWkJQSWdabGpVd0xzcTNfMlpwd0N0U0lGLXpMX1Nnd19LS0txYVhPSzEyTzB4cVBSMFgzZWZLWUZSMUpIWnUxeXpPMmFIZDdGczZnc2prOFBwdjJXMTFVYXVMUW1XcUVJa0hsSG1RTGpnQ0h2dmRWcnk1ZDF2MGNaRzdsRnVWVG5adXJkQ3ZDMWJTVlU3Nm1tY0VTMlE?oc=5",
-   "sources": [
-    {
-     "name": "Yahoo Finance",
-     "domain": "finance.yahoo.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T20:34:36Z",
-   "imageURL": null,
-   "signal": 87,
+   "signal": 88,
    "alert": false
   },
   {
@@ -1292,23 +1217,6 @@
    "alert": false
   },
   {
-   "id": "f62463775f097cf0ffb121a2d06469b7ed028ac4eecb33a0a176b03ada97fe13",
-   "title": "How Much of the Internet Is Written With AI?",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNXhPWV9EU19HV0VaWWxDSVY4T0RuV09LVFg2MnJoUjFOVndvbVFZR3U5SjNybUFoQy1NeFIyVnMzUEJNajBvenRYa3Vja3JLckpGU3JoQ0hpc2h2MTIyUkxhOU9QTnJiSTgxUTVVMkEwNHh1UGFwV2hhR3p4TUQtQldlaUwwSktxWWI3UDNVZkU4S3lKbFc4bA?oc=5",
-   "sources": [
-    {
-     "name": "Pew Research Center",
-     "domain": "pewresearch.org"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T15:55:49Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
    "id": "22bc845755c614ff892f0fa3c16ebe00d80ba9858de68e3be4be744a50d1b61d",
    "title": "Don't paste the AI, please",
    "snippet": null,
@@ -1322,24 +1230,41 @@
    "category": "tools",
    "publishedAt": "2026-08-20T08:20:44Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 87,
    "alert": false
   },
   {
-   "id": "fcf949627271cb9d7f81e2add8c43c53c5d0b729936688701cfc22a00105021e",
-   "title": "Moonshot AI's Kimi K3 Undercuts GPT and Claude While Proving Its Numbers",
+   "id": "f62463775f097cf0ffb121a2d06469b7ed028ac4eecb33a0a176b03ada97fe13",
+   "title": "How Much of the Internet Is Written With AI?",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU1ZQcldieEMtWVlIaDhmTFI2RTg4dFNhUk5NbndLbnhJT2daZWZkdV9hdEpTMlY5bm0wNkg1aVc1WFJrQ01NSGp5LUFoblQ0V09sREtMX1dxM05sdWhQVGFyZ3Vna28ySnZKbFZkem5TOHNPTXl6QVVUcU83WXJpdEREbzFJRTE4STlQUXVZOE5YWG4zaTQ4RjBlZDNkMkFR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNXhPWV9EU19HV0VaWWxDSVY4T0RuV09LVFg2MnJoUjFOVndvbVFZR3U5SjNybUFoQy1NeFIyVnMzUEJNajBvenRYa3Vja3JLckpGU3JoQ0hpc2h2MTIyUkxhOU9QTnJiSTgxUTVVMkEwNHh1UGFwV2hhR3p4TUQtQldlaUwwSktxWWI3UDNVZkU4S3lKbFc4bA?oc=5",
    "sources": [
     {
-     "name": "Startup Fortune",
-     "domain": "startupfortune.com"
+     "name": "Pew Research Center",
+     "domain": "pewresearch.org"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-20T15:43:43Z",
+   "publishedAt": "2026-08-20T15:55:49Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 87,
+   "alert": false
+  },
+  {
+   "id": "dec78951bccde4746f48f3dc753fe0044512c0198bf1e5d98dc93075cb3b2ca7",
+   "title": "Any speculation on whether or not Google will announce a new Gemma model at the Gemma SF Celebration tonight?",
+   "snippet": "From the Digg article ( https://digg.com/tech/3pf3046j ) “Google Gemma posted that the family of open models has achieved 1 billion downloads. The account is hosting an exclusive evening in San Francisco on August 20 to honor open-source builders, researchers, and contributors. Space at the event…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vttdss/any_speculation_on_whether_or_not_google_will/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T19:27:12Z",
+   "imageURL": null,
+   "signal": 87,
    "alert": false
   },
   {
@@ -1355,6 +1280,57 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-20T15:43:01Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "c53b19f017d333a726844383e99bf462bf8116b1a9080fa6c8ff86965ccaa59e",
+   "title": "Anthropic IPO: What to know before you buy the stock",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUm4tUU1EYW9YS3lLVTNhNWRkcHJIZmJ6STByXzU4SVU1V2R5Q3NvQUprWkJQSWdabGpVd0xzcTNfMlpwd0N0U0lGLXpMX1Nnd19LS0txYVhPSzEyTzB4cVBSMFgzZWZLWUZSMUpIWnUxeXpPMmFIZDdGczZnc2prOFBwdjJXMTFVYXVMUW1XcUVJa0hsSG1RTGpnQ0h2dmRWcnk1ZDF2MGNaRzdsRnVWVG5adXJkQ3ZDMWJTVlU3Nm1tY0VTMlE?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T20:34:36Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "ff670618e23ec6624bbb191648c4a5166a2881837e003df74208e040521dda3c",
+   "title": "CM DK Shivakumar to launch Karnataka’s affordable AI computer KEO on August 21",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY1pEU0ptaFNBWVotMEs5WW1fWWRxc3pFeFBaNjF6Wm1QWm56STVtZ1hLRmtBS2RFRnM1dENvYUtKWElReFRYdjM2TGRQRjJzUEkxU05Wd25pSzhfUTAyVHkwOUFYbHktMVRnTlhTcS1LYjVPMGt5YkFwWmlxZW84U3dtSkwyWXdYTk9OU0JhbGtydHlrekFZemN1WkMzY1U2a3AyUWtFNnpsZXZVbW82cEFpbUw0MXZVX3NMb2dIQlE5OVlJZUxGWHkwMzk4aHE50gHWAUFVX3lxTFA1Y1hab0dVOF9aalRNLU1fYll1LWZlMmVPRHNUT2NtWnBfRkp4RUVpRmswRHBiV3dWOHMxeFVyV0h3clVIZ1JoTC1KOEFXN2Nhc056dVBlTTRqeWphX2F6SVpEZ05KYzZkd3RUNk1xSG5HMlVTM3BWRVR2cmNkeWhXR1B1cjZaQ25kZTlLTTAzWWQtc1c3enhZdmg0NDF2NVRyOUJ6dHpSY3VjbGR0VWRSYy1zTUd3ZDhyeFN1Rkh2Y09jZnl2Q0JCMEJMR2hZVUg5Vmk1OFE?oc=5",
+   "sources": [
+    {
+     "name": "Moneycontrol.com",
+     "domain": "moneycontrol.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T12:44:01Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "96c305305c840173e825b434d03da53cc9700188eccd95da458916faa8a9b802",
+   "title": "Salesforce Bets the Platform on Headless 360",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNkY4Vm1VYy1oNGNYR09oR0lVNmJLSl9VVmpXcVptSTF2VVRsSDZsbFl0aUljc3JKTmFGX0FuNmVkcjh2YnZOUmZLZFNQTWxMaVdjR2NaWVZUNW10d3I5aUM3RU9Fd1NBRXRYSHpRSTR6a280VTUzYlRZMktyNTR3Y0tadGJZdw?oc=5",
+   "sources": [
+    {
+     "name": "The Futurum Group",
+     "domain": "futurumgroup.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T15:10:45Z",
    "imageURL": null,
    "signal": 86,
    "alert": false
@@ -1390,7 +1366,7 @@
    "category": "tools",
    "publishedAt": "2026-08-20T12:00:00Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 86,
    "alert": false
   },
   {
@@ -1462,23 +1438,6 @@
    "alert": false
   },
   {
-   "id": "fcc46b5aab2b7d66bb76b59f0e32a7c20a8e66347a7dbe1a0f7844fef76f0f14",
-   "title": "Anthropic could publicly file IPO paperwork as soon as this month",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3lodmhZY0w3R0VINU1YNnh4d1JiYl9teXdqN0FnOVdnWXpnMTlLdWkxRDRva1AzbkhIZkNHR2lIbHZHWGg2MjlOUWZYaXJhRFNoRGZFU1BtMWZkVkhPU1JtX3JiZV9DVjRBZVljOVdOd1R0MnFXYTl1TlU0cVVwVXQxcjBSanFhTUNYTTVWY3AyTklKd3BQeDV0Wk9HVER4NGI0WEVZclVBNUludGdKQUVFQmVwMFljT0NleXRGQmhSUWs?oc=5",
-   "sources": [
-    {
-     "name": "Yahoo Finance",
-     "domain": "finance.yahoo.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T19:20:26Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
    "id": "65a270c2f827b0e8b280355363692064f50a85c4d2dbfe7776b18e5d8a3f4d02",
    "title": "Google's AI photoscanner can determine body fat through selfies",
    "snippet": null,
@@ -1492,41 +1451,7 @@
    "category": "tools",
    "publishedAt": "2026-08-20T12:06:37Z",
    "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "37a2deb028a080cb16865abcb9770e0d791f4e088f115863ebae4b91eec57b7d",
-   "title": "AirLLM - Recent Updates - with Qwen3.8-27B, Kimi-K3 too",
-   "snippet": "AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run 405B Llama 3.1 on 8GB , DeepSeek-V3 (671B) on ~12GB , and Kimi K3 (2.8T) — the largest open-source model released to…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfzjc/airllm_recent_updates_with_qwen3827b_kimik3_too/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T10:45:55Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "79fdd08ae106be4e0fa4301e31aecc93c0209a765101228c16338175c66d6e1a",
-   "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
-   "snippet": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
-   "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T19:15:05Z",
-   "imageURL": null,
-   "signal": 84,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1551,6 +1476,95 @@
    "alert": false
   },
   {
+   "id": "37a2deb028a080cb16865abcb9770e0d791f4e088f115863ebae4b91eec57b7d",
+   "title": "AirLLM - Recent Updates - with Qwen3.8-27B, Kimi-K3 too",
+   "snippet": "AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run 405B Llama 3.1 on 8GB , DeepSeek-V3 (671B) on ~12GB , and Kimi K3 (2.8T) — the largest open-source model released to…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfzjc/airllm_recent_updates_with_qwen3827b_kimik3_too/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T10:45:55Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "fcc46b5aab2b7d66bb76b59f0e32a7c20a8e66347a7dbe1a0f7844fef76f0f14",
+   "title": "Anthropic could publicly file IPO paperwork as soon as this month",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3lodmhZY0w3R0VINU1YNnh4d1JiYl9teXdqN0FnOVdnWXpnMTlLdWkxRDRva1AzbkhIZkNHR2lIbHZHWGg2MjlOUWZYaXJhRFNoRGZFU1BtMWZkVkhPU1JtX3JiZV9DVjRBZVljOVdOd1R0MnFXYTl1TlU0cVVwVXQxcjBSanFhTUNYTTVWY3AyTklKd3BQeDV0Wk9HVER4NGI0WEVZclVBNUludGdKQUVFQmVwMFljT0NleXRGQmhSUWs?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T19:20:26Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "fc1a9abd82b35a9c86d54b1fb0f68bd137a90ec86cea086cc68200bb6a148bdd",
+   "title": "Introducing AI Futures",
+   "snippet": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+   "url": "https://openai.com/index/introducing-ai-futures",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T07:00:00Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "b6430b81f34d2ad2da6727a81cc8a31d1a1e062e68e517df562ad22dafa24683",
+   "title": "New benchmark just dropped!",
+   "snippet": "The pelican on a bicycle is sooo outdated, so I came up with a new, improved version. Qwen3.8-27b medium (UD-Q4_K_XL) vs. Sol 5.6 high vs. Qwen3.6-35B (UD-Q6_K_XL) Prompt (only real with typo!): &quot;Create a svg of a horse on a blue bycicle in the desert, with a camel in the background.&quot;…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfcpu/new_benchmark_just_dropped/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T10:11:55Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "79fdd08ae106be4e0fa4301e31aecc93c0209a765101228c16338175c66d6e1a",
+   "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+   "snippet": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+   "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T19:15:05Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
    "id": "2a4c85c6c2e234d6e70993436b345175c90d617f6f8f1f677ff92087a2f2a960",
    "title": "Vision Insights announces new AI-friendly capability",
    "snippet": null,
@@ -1568,10 +1582,10 @@
    "alert": false
   },
   {
-   "id": "b6430b81f34d2ad2da6727a81cc8a31d1a1e062e68e517df562ad22dafa24683",
-   "title": "New benchmark just dropped!",
-   "snippet": "The pelican on a bicycle is sooo outdated, so I came up with a new, improved version. Qwen3.8-27b medium (UD-Q4_K_XL) vs. Sol 5.6 high vs. Qwen3.6-35B (UD-Q6_K_XL) Prompt (only real with typo!): &quot;Create a svg of a horse on a blue bycicle in the desert, with a camel in the background.&quot;…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtfcpu/new_benchmark_just_dropped/",
+   "id": "f1cb99ccd847012f7268b31067a0361cd6fd388356e529de7c2987bf8b7d2c95",
+   "title": "TinySearch v0.6.1 - still a lightweight web research tool for local LLMs, now with bring-your-own-browser support",
+   "snippet": "Hey everyone, Posted TinySearch here a few versions ago and got a bunch of useful feedback, so figured I&#39;d post an update because the thing has changed quite a bit since then. Repo: [ https://github.com/TinySuiteHQ/TinySearch]() The basic idea is still the same: TinySearch is a small…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtf7mi/tinysearch_v061_still_a_lightweight_web_research/",
    "sources": [
     {
      "name": "r/LocalLLaMA",
@@ -1579,7 +1593,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T10:11:55Z",
+   "publishedAt": "2026-08-20T10:04:20Z",
    "imageURL": null,
    "signal": 83,
    "alert": false
@@ -1632,24 +1646,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T13:00:00Z",
    "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
-   "id": "f1cb99ccd847012f7268b31067a0361cd6fd388356e529de7c2987bf8b7d2c95",
-   "title": "TinySearch v0.6.1 - still a lightweight web research tool for local LLMs, now with bring-your-own-browser support",
-   "snippet": "Hey everyone, Posted TinySearch here a few versions ago and got a bunch of useful feedback, so figured I&#39;d post an update because the thing has changed quite a bit since then. Repo: [ https://github.com/TinySuiteHQ/TinySearch]() The basic idea is still the same: TinySearch is a small…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtf7mi/tinysearch_v061_still_a_lightweight_web_research/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T10:04:20Z",
-   "imageURL": null,
-   "signal": 83,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1674,23 +1671,6 @@
    "alert": false
   },
   {
-   "id": "5dcfcf4d358c73bdb2e4ca1414c2e5259603368134592d99e7d37c1693ac4bd5",
-   "title": "New DISCO Auto Review Capability Puts Legal Teams in Control of AI-Powered Review",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUDlTQVNlZi1jcWpJb18wclFJWF9ZLU9jbUZsWHA4ZTRJZm1iR3JTT0h5STAtYmYyWi03ZDB1UWp5NnFSSFQzbDF5UTNlcnd1cjF1WHpfOG5lUThRX2JydE0xa2Rvbkd6enUzcDBQZTF2eEtVQWJYZjR4eXVXSUo4MzBReXNxYjVHUlFUWERuZ2pmaWQ3cGRLdjJnZzdFckFwRHd6Qm5HMk1jLS1TQmdpZjdfZjFQeng4ckZ5TmtkZWRzcW5RLWpJa3k5Z2hwRXV5ZG5xMQ?oc=5",
-   "sources": [
-    {
-     "name": "Business Wire",
-     "domain": "businesswire.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T12:46:00Z",
-   "imageURL": null,
-   "signal": 82,
-   "alert": false
-  },
-  {
    "id": "43815858733e533ade4102e120b137123bf05e923bfa78043bb8422fb8e6ccb5",
    "title": "LinkedIn cracks down on automated content with AI detection button",
    "snippet": null,
@@ -1708,35 +1688,18 @@
    "alert": false
   },
   {
-   "id": "e08e8c1c18909f5b232d4f400e12caca6aa4db4ae4e219e9aff5051e5316cd6e",
-   "title": "Beijing Signals Tiered Governance of Open-Weight Models",
+   "id": "5dcfcf4d358c73bdb2e4ca1414c2e5259603368134592d99e7d37c1693ac4bd5",
+   "title": "New DISCO Auto Review Capability Puts Legal Teams in Control of AI-Powered Review",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qdXBxR1hhVDlrcjBQZXRqbmI0OHZhWjlTQ1F3d192LXJFeGJLaTBoVjlYUk1BektLT28zOWdWLXB6Y1h6OWdqLWhwSndqSnB6TC1mbEJ6d2pLQ3lkOHowR0hfaUpTa2tTQl8yZFFJWlFHVDFr?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUDlTQVNlZi1jcWpJb18wclFJWF9ZLU9jbUZsWHA4ZTRJZm1iR3JTT0h5STAtYmYyWi03ZDB1UWp5NnFSSFQzbDF5UTNlcnd1cjF1WHpfOG5lUThRX2JydE0xa2Rvbkd6enUzcDBQZTF2eEtVQWJYZjR4eXVXSUo4MzBReXNxYjVHUlFUWERuZ2pmaWQ3cGRLdjJnZzdFckFwRHd6Qm5HMk1jLS1TQmdpZjdfZjFQeng4ckZ5TmtkZWRzcW5RLWpJa3k5Z2hwRXV5ZG5xMQ?oc=5",
    "sources": [
     {
-     "name": "Substack",
-     "domain": "jamestown.substack.com"
+     "name": "Business Wire",
+     "domain": "businesswire.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-20T12:31:12Z",
-   "imageURL": null,
-   "signal": 82,
-   "alert": false
-  },
-  {
-   "id": "7d8ab6f63d559658625ead6d227e9edf03b28b1d470854e1c7bfd3f9eebee636",
-   "title": "Guess which of these LLM outputs is watermarked",
-   "snippet": null,
-   "url": "https://sgoedecke.github.io/watermark-quiz/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T14:03:58Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-20T12:46:00Z",
    "imageURL": null,
    "signal": 82,
    "alert": false
@@ -1754,6 +1717,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-19T21:19:50Z",
+   "imageURL": null,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "e08e8c1c18909f5b232d4f400e12caca6aa4db4ae4e219e9aff5051e5316cd6e",
+   "title": "Beijing Signals Tiered Governance of Open-Weight Models",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qdXBxR1hhVDlrcjBQZXRqbmI0OHZhWjlTQ1F3d192LXJFeGJLaTBoVjlYUk1BektLT28zOWdWLXB6Y1h6OWdqLWhwSndqSnB6TC1mbEJ6d2pLQ3lkOHowR0hfaUpTa2tTQl8yZFFJWlFHVDFr?oc=5",
+   "sources": [
+    {
+     "name": "Substack",
+     "domain": "jamestown.substack.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T12:31:12Z",
    "imageURL": null,
    "signal": 81,
    "alert": false
@@ -1775,6 +1755,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-19T20:40:45Z",
+   "imageURL": null,
+   "signal": 81,
+   "alert": false
+  },
+  {
+   "id": "7d8ab6f63d559658625ead6d227e9edf03b28b1d470854e1c7bfd3f9eebee636",
+   "title": "Guess which of these LLM outputs is watermarked",
+   "snippet": null,
+   "url": "https://sgoedecke.github.io/watermark-quiz/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T14:03:58Z",
    "imageURL": null,
    "signal": 81,
    "alert": false
@@ -1824,7 +1821,7 @@
      "domain": "buttondown.com"
     }
    ],
-   "category": "techniques",
+   "category": "models",
    "publishedAt": "2026-08-20T11:57:42Z",
    "imageURL": null,
    "signal": 81,
@@ -1865,23 +1862,6 @@
    "alert": false
   },
   {
-   "id": "13c6b8a9d4ea944c51fd5e30ad2ef86c2645b4f87eff7877c858595503fc8161",
-   "title": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
-   "snippet": "AI agents can take actions that do not match your organization's policies. Policy in Amazon Bedrock AgentCore lets teams enforce controls across agents, now including time-based constraints. This post shows how Policy Authoring turns natural-language policy documents into correct Dogwood policies,…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T16:31:28Z",
-   "imageURL": null,
-   "signal": 80,
-   "alert": false
-  },
-  {
    "id": "8897df1b1b96ee7e7e6e433516a9c154e02a76bce29593fe87dba6691ec2d57c",
    "title": "Do Chatbot LLMs Talk Too Much?",
    "snippet": null,
@@ -1894,6 +1874,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-20T13:01:03Z",
+   "imageURL": null,
+   "signal": 80,
+   "alert": false
+  },
+  {
+   "id": "13c6b8a9d4ea944c51fd5e30ad2ef86c2645b4f87eff7877c858595503fc8161",
+   "title": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
+   "snippet": "AI agents can take actions that do not match your organization's policies. Policy in Amazon Bedrock AgentCore lets teams enforce controls across agents, now including time-based constraints. This post shows how Policy Authoring turns natural-language policy documents into correct Dogwood policies,…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T16:31:28Z",
    "imageURL": null,
    "signal": 80,
    "alert": false
@@ -1950,6 +1947,23 @@
    "alert": false
   },
   {
+   "id": "82a940cddb6fdff431aae34146b611c00ab28fc7dc3fc7637a7299f4bf930e7a",
+   "title": "12 Ways To Use Claude So Well It Feels Illegal (Tutorial) Atp Live Ranking (1UtO26vCI7)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XQWNNMWdSbnhna1ptX2gyV0dPeHRubU90RWprd0JtN0FWeVRhYjhnbUVLZTJaOTRhSTg2Zm10MTFjSl9CTVRscnZNSUZaUEJGM1drc1I1aXFid2dsMnJjYg?oc=5",
+   "sources": [
+    {
+     "name": "Mshale",
+     "domain": "mshale.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T06:23:48Z",
+   "imageURL": null,
+   "signal": 79,
+   "alert": false
+  },
+  {
    "id": "b2f919b586c9ee42d1e6b9e1e98abd7aef0a6acab86ce7af83bba46acb8c0bb9",
    "title": "ChatGPT Is a Huge Snitch",
    "snippet": null,
@@ -1997,7 +2011,24 @@
    "category": "models",
    "publishedAt": "2026-08-20T05:40:49Z",
    "imageURL": null,
-   "signal": 79,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "8403d1865de1554f69735741881a16898cb21584dfd8173606695a296ce3f78f",
+   "title": "Loop Engineering Explained: How It Differs from Prompt Engineering",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcEtuVVkwWGcwOVBPbGxoaDJwXzRickRlNTNab3RBRUFMMUtyN2pYTXJONjdTbzlLZ0h3eEU2YlBtckF1Skx2dFEtM0VrYXY5Ni1kc2UxbkVJR2d1bGNkOVdNSGF0anI4cTlnb0Z6M3pvc2ZEZWkwemxIa1Bjdy04VjFLWlNIaURxUTJCMnpOcVFDWmktcmZfcl9oTzkwYlB3ejlrMEpYTQ?oc=5",
+   "sources": [
+    {
+     "name": "Nasscom",
+     "domain": "community.nasscom.in"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T05:39:01Z",
+   "imageURL": null,
+   "signal": 78,
    "alert": false
   },
   {
@@ -2017,23 +2048,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-20T11:38:22Z",
-   "imageURL": null,
-   "signal": 78,
-   "alert": false
-  },
-  {
-   "id": "8403d1865de1554f69735741881a16898cb21584dfd8173606695a296ce3f78f",
-   "title": "Loop Engineering Explained: How It Differs from Prompt Engineering",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcEtuVVkwWGcwOVBPbGxoaDJwXzRickRlNTNab3RBRUFMMUtyN2pYTXJONjdTbzlLZ0h3eEU2YlBtckF1Skx2dFEtM0VrYXY5Ni1kc2UxbkVJR2d1bGNkOVdNSGF0anI4cTlnb0Z6M3pvc2ZEZWkwemxIa1Bjdy04VjFLWlNIaURxUTJCMnpOcVFDWmktcmZfcl9oTzkwYlB3ejlrMEpYTQ?oc=5",
-   "sources": [
-    {
-     "name": "Nasscom",
-     "domain": "community.nasscom.in"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T05:39:01Z",
    "imageURL": null,
    "signal": 78,
    "alert": false
@@ -2086,7 +2100,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T08:28:51Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 77,
    "alert": false
   },
   {
@@ -2141,23 +2155,6 @@
    "alert": false
   },
   {
-   "id": "fc1a9abd82b35a9c86d54b1fb0f68bd137a90ec86cea086cc68200bb6a148bdd",
-   "title": "Introducing AI Futures",
-   "snippet": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-   "url": "https://openai.com/index/introducing-ai-futures",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T07:00:00Z",
-   "imageURL": null,
-   "signal": 77,
-   "alert": false
-  },
-  {
    "id": "84f68b8d8c1c82fb41fd97e739f19ea10dfebf1afd607bce3b535c4ae5be55d1",
    "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
    "snippet": "Anticipating how scenes evolve under ego actions is fundamental to safe autonomous driving, yet the full potential of world models for decision-making remains unrealized. The critical challenge lies in ensuring that future modeling is not merely predictive, but decision-informative: the predicted…",
@@ -2176,23 +2173,6 @@
    "publishedAt": "2026-08-19T16:33:02Z",
    "imageURL": null,
    "signal": 77,
-   "alert": false
-  },
-  {
-   "id": "08dde364f7c2aa81deceb06a6c8ce901d8606e0997a093f37052fc2807681451",
-   "title": "It’s Greg Brockman’s OpenAI now",
-   "snippet": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T15:45:55Z",
-   "imageURL": null,
-   "signal": 76,
    "alert": false
   },
   {
@@ -2217,35 +2197,18 @@
    "alert": false
   },
   {
-   "id": "92bd93c6f13fb983fd9866d8deb62fa9737583707e9108746fd09df9ba50bd49",
-   "title": "Code Factories Without Quality: The AI Development Blind Spot",
-   "snippet": null,
-   "url": "https://www.qawolf.com/blog/code-factories-without-quality",
+   "id": "08dde364f7c2aa81deceb06a6c8ce901d8606e0997a093f37052fc2807681451",
+   "title": "It’s Greg Brockman’s OpenAI now",
+   "snippet": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T14:39:10Z",
-   "imageURL": null,
-   "signal": 76,
-   "alert": false
-  },
-  {
-   "id": "12e7a08d577c488012b0bdbb24e474e10be1569a7d81bd3b57b373f7e37ca20c",
-   "title": "China advances global AI governance in a comprehensive manner",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVZlVE9fYV9ZbUVaZXZqNGdENFFfMldFNHBtWUlHekVrYjBmdDZnV1g3ZlJUVnpUbEd3MjM2ODVKdGJ0enRzNFNlbDVMNk1VbWh4cl94M3dwWGpERjRrcnUyd2F4dUpBSlBjajFwVmJKTDNheGFiNHRNWEpXSmgwU2VGYlMxSU9Td19rT0FHT184ZW9GNWZhbExVVEM3d1hCLTJlYjlR0gGmAUFVX3lxTFBFVmVUT19hX1ltRVpldmo0Z0Q0UV8yV0U0cG1ZSUd6RWtiMGZ0NmdXWDdmUlRWelRsR3cyMzY4NUp0YnR6dHM0U2VsNUw2TVVtaHhyX3gzd3BYakRGNGtydTJ3YXh1SkFKUGNqMXBWYkpMM2F4YWI0dE1YSldKaDBTZUZiUzFJT1N3X2tPQUdPXzhlb0Y1ZmFsTFVUQzd3WEItMmViOVE?oc=5",
-   "sources": [
-    {
-     "name": "ANTARA News",
-     "domain": "en.antaranews.com"
+     "name": "The Verge",
+     "domain": "theverge.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-20T06:04:33Z",
+   "publishedAt": "2026-08-20T15:45:55Z",
    "imageURL": null,
    "signal": 76,
    "alert": false
@@ -2263,6 +2226,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-19T16:29:02Z",
+   "imageURL": null,
+   "signal": 76,
+   "alert": false
+  },
+  {
+   "id": "12e7a08d577c488012b0bdbb24e474e10be1569a7d81bd3b57b373f7e37ca20c",
+   "title": "China advances global AI governance in a comprehensive manner",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVZlVE9fYV9ZbUVaZXZqNGdENFFfMldFNHBtWUlHekVrYjBmdDZnV1g3ZlJUVnpUbEd3MjM2ODVKdGJ0enRzNFNlbDVMNk1VbWh4cl94M3dwWGpERjRrcnUyd2F4dUpBSlBjajFwVmJKTDNheGFiNHRNWEpXSmgwU2VGYlMxSU9Td19rT0FHT184ZW9GNWZhbExVVEM3d1hCLTJlYjlR0gGmAUFVX3lxTFBFVmVUT19hX1ltRVpldmo0Z0Q0UV8yV0U0cG1ZSUd6RWtiMGZ0NmdXWDdmUlRWelRsR3cyMzY4NUp0YnR6dHM0U2VsNUw2TVVtaHhyX3gzd3BYakRGNGtydTJ3YXh1SkFKUGNqMXBWYkpMM2F4YWI0dE1YSldKaDBTZUZiUzFJT1N3X2tPQUdPXzhlb0Y1ZmFsTFVUQzd3WEItMmViOVE?oc=5",
+   "sources": [
+    {
+     "name": "ANTARA News",
+     "domain": "en.antaranews.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T06:04:33Z",
    "imageURL": null,
    "signal": 76,
    "alert": false
@@ -2298,7 +2278,7 @@
    "category": "tools",
    "publishedAt": "2026-08-20T01:00:00Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2319,23 +2299,6 @@
    "alert": false
   },
   {
-   "id": "ad89fb510e3c78c26282cfd40541dc61653b3d8c142b323e38b2c22c1766bfa5",
-   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-   "snippet": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-   "url": "https://openai.com/index/stampli",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T00:00:00Z",
-   "imageURL": null,
-   "signal": 75,
-   "alert": false
-  },
-  {
    "id": "449eb5097b8951a21aa50bc7748fb024a879afd3c0a486726502d4205b85e1e0",
    "title": "Universality of Gradient Descent Neural Network Training",
    "snippet": null,
@@ -2348,6 +2311,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-20T00:05:12Z",
+   "imageURL": null,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "ad89fb510e3c78c26282cfd40541dc61653b3d8c142b323e38b2c22c1766bfa5",
+   "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+   "snippet": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+   "url": "https://openai.com/index/stampli",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
    "signal": 75,
    "alert": false
@@ -2383,7 +2363,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T23:16:00Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2399,23 +2379,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-19T22:46:07Z",
-   "imageURL": null,
-   "signal": 74,
-   "alert": false
-  },
-  {
-   "id": "d348a67dbd20da89ffb463b002aae74e98bf83a7baa08fee620713fbae02aaf6",
-   "title": "Extensible Software in the age of LLMs",
-   "snippet": null,
-   "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T16:26:05Z",
    "imageURL": null,
    "signal": 74,
    "alert": false
@@ -2438,10 +2401,10 @@
    "alert": false
   },
   {
-   "id": "8abf894c01d531a3a28a57428ee7a6676cea3deb1078bd0b9c2d64365f27c8bb",
-   "title": "DDD matters more when AI writes your code",
+   "id": "d348a67dbd20da89ffb463b002aae74e98bf83a7baa08fee620713fbae02aaf6",
+   "title": "Extensible Software in the age of LLMs",
    "snippet": null,
-   "url": "https://threedots.tech/post/ddd-and-ai-coding/",
+   "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
    "sources": [
     {
      "name": "Hacker News",
@@ -2449,7 +2412,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T11:12:28Z",
+   "publishedAt": "2026-08-19T16:26:05Z",
    "imageURL": null,
    "signal": 74,
    "alert": false
@@ -2468,7 +2431,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T21:51:23Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2485,7 +2448,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2510,10 +2473,10 @@
    "alert": false
   },
   {
-   "id": "84eaebeb3a3bc7e5982981c34732ee3b2b04a8eb8e1dbddb32058cd6fcdbbf5b",
-   "title": "Single-User Inference Card",
+   "id": "8abf894c01d531a3a28a57428ee7a6676cea3deb1078bd0b9c2d64365f27c8bb",
+   "title": "DDD matters more when AI writes your code",
    "snippet": null,
-   "url": "https://markohaberl.substack.com/p/single-user-inference-card",
+   "url": "https://threedots.tech/post/ddd-and-ai-coding/",
    "sources": [
     {
      "name": "Hacker News",
@@ -2521,7 +2484,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-20T21:06:36Z",
+   "publishedAt": "2026-08-20T11:12:28Z",
    "imageURL": null,
    "signal": 73,
    "alert": false
@@ -2557,7 +2520,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T19:00:00Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2574,7 +2537,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T19:00:00Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2599,6 +2562,23 @@
    "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
    "snippet": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scarce but valuable target data with abundant generic data, which presents a…",
    "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
+   "sources": [
+    {
+     "name": "Apple ML",
+     "domain": "machinelearning.apple.com"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T00:00:00Z",
+   "imageURL": null,
+   "signal": 72,
+   "alert": false
+  },
+  {
+   "id": "e4e1cd054e2498443ba52e80c9341b57224e5525893d6468803b3f819650abfe",
+   "title": "Progressive Refinement: An Iterative Pseudo-Labeling Approach for Mandarin-English Code-Switching ASR",
+   "snippet": "Code-switching (CS), alternating languages within the same utterance, poses significant challenges for automatic speech recognition (ASR) due to limited CS training data. This paper applies an iterative pseudo-labeling training approach to CS-ASR for the first time, demonstrating its effectiveness…",
+   "url": "https://machinelearning.apple.com/research/progressive-refinement-pseudo-labeling",
    "sources": [
     {
      "name": "Apple ML",
@@ -2642,7 +2622,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T17:44:58Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2658,6 +2638,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-19T17:43:22Z",
+   "imageURL": null,
+   "signal": 71,
+   "alert": false
+  },
+  {
+   "id": "92bd93c6f13fb983fd9866d8deb62fa9737583707e9108746fd09df9ba50bd49",
+   "title": "Code Factories Without Quality: The AI Development Blind Spot",
+   "snippet": null,
+   "url": "https://www.qawolf.com/blog/code-factories-without-quality",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T14:39:10Z",
    "imageURL": null,
    "signal": 71,
    "alert": false
@@ -2731,6 +2728,23 @@
    "alert": false
   },
   {
+   "id": "f1859c5bfd11aefc83793b622280016e5136569a4a33fd9cf73976befe774a5d",
+   "title": "Quoting Jeremy Morrell",
+   "snippet": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow…",
+   "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T22:56:31Z",
+   "imageURL": null,
+   "signal": 70,
+   "alert": false
+  },
+  {
    "id": "465477e14fdddf3cff7d67a1965a9ba1ccdaaecf01ef36593b42b0bf749b6b69",
    "title": "Tencent begins testing its new flagship model Hunyuan Hy4",
    "snippet": "From the screenshots: Hy4 is now live, labeled &quot;Expert-Level Model&quot; + &quot;Use Tools to Solve Problems&quot; Hy3 is tagged with &quot;New Upgrade,&quot; positioned as a brand-new general-purpose model DeepSeek, focused on reasoning, is listed alongside it From SuSu_酥酥👅on 𝕏:…",
@@ -2748,18 +2762,18 @@
    "alert": false
   },
   {
-   "id": "f1859c5bfd11aefc83793b622280016e5136569a4a33fd9cf73976befe774a5d",
-   "title": "Quoting Jeremy Morrell",
-   "snippet": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow…",
-   "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+   "id": "84eaebeb3a3bc7e5982981c34732ee3b2b04a8eb8e1dbddb32058cd6fcdbbf5b",
+   "title": "Single-User Inference Card",
+   "snippet": null,
+   "url": "https://markohaberl.substack.com/p/single-user-inference-card",
    "sources": [
     {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T22:56:31Z",
+   "category": "tools",
+   "publishedAt": "2026-08-20T21:06:36Z",
    "imageURL": null,
    "signal": 70,
    "alert": false
@@ -2901,7 +2915,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T18:45:57Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2973,57 +2987,6 @@
    "alert": false
   },
   {
-   "id": "067a20726ec013344d7104a7d80699b3861eaab62b5c458d52a337220f181891",
-   "title": "Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval",
-   "snippet": "Decoding visual information from brain signals probes neural representations and enables neuro-rehabilitation and dream decoding. Recent brain-to-image retrieval approaches have achieved promising performance, typically by averaging many (up to 80) neural trials per image, requiring repeated…",
-   "url": "https://arxiv.org/abs/2608.19128v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T17:23:30Z",
-   "imageURL": null,
-   "signal": 68,
-   "alert": false
-  },
-  {
-   "id": "00a12863d65425862ae43352fa1e9d411712d85e4fbf94d3a1618d855c5b472b",
-   "title": "Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles",
-   "snippet": "A gradient-boosted ensemble predicts by summing one leaf value per tree. Read those values as coordinates rather than as intermediate results, and every instance becomes a point in R^M on which the model acts linearly: the score is the sum of the coordinates. This small change of view makes…",
-   "url": "https://arxiv.org/abs/2608.19127v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T17:20:33Z",
-   "imageURL": null,
-   "signal": 67,
-   "alert": false
-  },
-  {
-   "id": "1a4c321f484f9ce045644ad957df9695a9658528505a3d0f8157a349b5c81124",
-   "title": "Enhancing EBSD throughput of battery electrode materials using super-resolution generative adversarial networks",
-   "snippet": "Quantitative microstructural characterization of Li-ion battery electrode materials using electron backscatter diffraction (EBSD) has been proven as a critical method for optimizing cell performance. However, the inherently slow nature of EBSD can hinder the throughput of analyses needed for…",
-   "url": "https://arxiv.org/abs/2608.19117v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T17:14:20Z",
-   "imageURL": null,
-   "signal": 67,
-   "alert": false
-  },
-  {
    "id": "75bb8d6c5587bf665d9f3c2fb1fce40cea3992ed8d3323a88e6e7658dac45adb",
    "title": "AI usage patterns in software teams",
    "snippet": null,
@@ -3041,18 +3004,35 @@
    "alert": false
   },
   {
-   "id": "84094e0b79bbb899edb2fd90ffea48e61d20b5ac9d4931b1a1cf1f642c61d90c",
-   "title": "Show HN: Sentrint, a security scanner for projects build with LLMs",
-   "snippet": null,
-   "url": "https://sentrint.com/",
+   "id": "067a20726ec013344d7104a7d80699b3861eaab62b5c458d52a337220f181891",
+   "title": "Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval",
+   "snippet": "Decoding visual information from brain signals probes neural representations and enables neuro-rehabilitation and dream decoding. Recent brain-to-image retrieval approaches have achieved promising performance, typically by averaging many (up to 80) neural trials per image, requiring repeated…",
+   "url": "https://arxiv.org/abs/2608.19128v1",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T12:46:22Z",
+   "category": "research",
+   "publishedAt": "2026-08-19T17:23:30Z",
+   "imageURL": null,
+   "signal": 67,
+   "alert": false
+  },
+  {
+   "id": "00a12863d65425862ae43352fa1e9d411712d85e4fbf94d3a1618d855c5b472b",
+   "title": "Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles",
+   "snippet": "A gradient-boosted ensemble predicts by summing one leaf value per tree. Read those values as coordinates rather than as intermediate results, and every instance becomes a point in R^M on which the model acts linearly: the score is the sum of the coordinates. This small change of view makes…",
+   "url": "https://arxiv.org/abs/2608.19127v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-19T17:20:33Z",
    "imageURL": null,
    "signal": 67,
    "alert": false
@@ -3074,6 +3054,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
+   "imageURL": null,
+   "signal": 67,
+   "alert": false
+  },
+  {
+   "id": "1a4c321f484f9ce045644ad957df9695a9658528505a3d0f8157a349b5c81124",
+   "title": "Enhancing EBSD throughput of battery electrode materials using super-resolution generative adversarial networks",
+   "snippet": "Quantitative microstructural characterization of Li-ion battery electrode materials using electron backscatter diffraction (EBSD) has been proven as a critical method for optimizing cell performance. However, the inherently slow nature of EBSD can hinder the throughput of analyses needed for…",
+   "url": "https://arxiv.org/abs/2608.19117v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-19T17:14:20Z",
    "imageURL": null,
    "signal": 67,
    "alert": false
@@ -3266,7 +3263,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T21:39:20Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3351,7 +3348,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T18:09:38Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3367,6 +3364,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-18T17:10:37Z",
+   "imageURL": null,
+   "signal": 63,
+   "alert": false
+  },
+  {
+   "id": "84094e0b79bbb899edb2fd90ffea48e61d20b5ac9d4931b1a1cf1f642c61d90c",
+   "title": "Show HN: Sentrint, a security scanner for projects build with LLMs",
+   "snippet": null,
+   "url": "https://sentrint.com/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T12:46:22Z",
    "imageURL": null,
    "signal": 63,
    "alert": false
@@ -3440,7 +3454,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T17:51:50Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3478,6 +3492,23 @@
    "alert": false
   },
   {
+   "id": "5918a741bcb0759ee135e7f073e2fda721ee3db491e2a24b011bb85e279c4fa7",
+   "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+   "snippet": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model,…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T19:28:30Z",
+   "imageURL": null,
+   "signal": 62,
+   "alert": false
+  },
+  {
    "id": "fb22a1b92cabad920f840e39d11d46404e81d9f892ffcd61cf24f969a4aedafe",
    "title": "How Jumio built a real-time feature store on AWS",
    "snippet": "Learn how Jumio built a centralized, real-time feature store on AWS with Amazon SageMaker Feature Store, Amazon Managed Service for Apache Flink, and Amazon Kinesis Data Streams. The architecture delivers sub-100ms feature serving for fraud detection and saves approximately $120,000 annually.",
@@ -3508,7 +3539,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T17:02:52Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3525,7 +3556,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3593,7 +3624,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T17:26:48Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3609,23 +3640,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-19T17:17:31Z",
-   "imageURL": null,
-   "signal": 61,
-   "alert": false
-  },
-  {
-   "id": "e24875277dd9c8e666419966f80685bdf143ba728da7ff394a8cbababd5601e4",
-   "title": "OpenAI hit the brakes. Now what?",
-   "snippet": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-19T17:10:09Z",
    "imageURL": null,
    "signal": 60,
    "alert": false
@@ -3716,6 +3730,23 @@
    "alert": false
   },
   {
+   "id": "e24875277dd9c8e666419966f80685bdf143ba728da7ff394a8cbababd5601e4",
+   "title": "OpenAI hit the brakes. Now what?",
+   "snippet": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T17:10:09Z",
+   "imageURL": null,
+   "signal": 59,
+   "alert": false
+  },
+  {
    "id": "7709dc1801faf5d5f5cf987309117e4555951b082fd44f74c4f1330150a767bd",
    "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
    "snippet": "Language model agents now execute bounded tasks reliably. Whether they can sustain effective decision-making over long horizons, where actions have cumulative consequences and the environment responds to their choices, remains largely unmeasured. FM-Bench (Football Management Benchmark) measures this. An LLM agent runs a football club for 20 in-game years through 26 tools and roughly 340 to 400 decision stops. It drafts a squad on the same budget as every rival, trades players, negotiates contracts, invests in facilities and youth, sets lineups, and answers to a board that can fire it, while a deterministic engine accumulates every year into one final score with no LLM judge or human rater. The solo track plays each of 15 frontier models against a frozen scripted world, and the Arena places the same models plus a scripted anchor in one shared 20-year world; to our knowledge, the first head-to-head evaluation at this scale. We measure six behavioral capabilities behind the score. Across three seeds, all 15 models complete every horizon while the blind scripted baselines die out in most of theirs, and claude-fable-5 tops the solo board on mean score and the Arena, where the title nonetheless rotates among ten models. Neither scale, price, nor vendor predicts the order; the order settles only late in the horizon, and the best first-play human lands only at the bottom of the model board. What separates the models is managerial behavior rather than computation. Higher-scoring models reduce slow-payoff investment near the end, keep cash invested rather than idle, and open renewals well before the deadline, while token spend predicts nothing. No model learns the market's hidden prices from hundreds of rejected bids, and self-managed memory fails in two opposite modes: an archive that only grows or a plan rewritten every season. Code is available at https://github.com/Analogy-AI/fm-bench.",
@@ -3780,7 +3811,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 59,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3869,7 +3900,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3924,23 +3955,6 @@
    "alert": false
   },
   {
-   "id": "bf50ec5ce617ac83f0c8191a946860d3cb0cd0d2aa8f71d8bb07d1b2c9c687ea",
-   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-   "snippet": null,
-   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-17T19:46:21Z",
-   "imageURL": null,
-   "signal": 57,
-   "alert": false
-  },
-  {
    "id": "d1200519beb92e885adda6b42f792cf64ab61134d8bbf96732102759861aa8f1",
    "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
    "snippet": "Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured packages of knowledge. However, existing evaluations largely measure whether skills improve aggregated task success, leaving a more fundamental question underexplored: \\textbf{When do skills help, why do they work, and where do they fail?} Through controlled experiments across various benchmarks, agent harnesses and LLMs, we isolate the effects of representation, outcome annotation, retrieval difficulty, and cross-framework robustness of skills. To further answer this question, we design a contrastive study that combines controlled quantitative experiments with paired trajectory analysis. We normalize 8,135 trial records from controlled experiments and retain 238 valid unique labels from 240 open-coded records. We consolidate these observations into a taxonomy of three high-level categories and twelve skill-use modes: skills work when noisy trajectories become procedural anchors that stabilize execution. Skills improve over Workflow Memory by 6.06 points in matched comparisons. Procedural anchoring accounts for 65.7\\% of skill cases, versus 4.5\\% for explicit knowledge injection, showing that skills stabilize action rather than inject missing facts. Retrieval is a separate bottleneck: as pools grow from 5 to 100, actual-use precision falls from 29.6\\% to 3.3\\%. Confusable distractors impair offline identification, yet downstream success remains stable; exact ground-truth invocation is neither sufficient nor necessary. Skills fail under brittle assumptions, incompatible contexts, or insufficient adaptation. These findings move evaluation beyond aggregate success rates and guide reliable self-evolving agents.",
@@ -3955,6 +3969,23 @@
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
    "signal": 57,
+   "alert": false
+  },
+  {
+   "id": "bf50ec5ce617ac83f0c8191a946860d3cb0cd0d2aa8f71d8bb07d1b2c9c687ea",
+   "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+   "snippet": null,
+   "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-17T19:46:21Z",
+   "imageURL": null,
+   "signal": 56,
    "alert": false
   },
   {
@@ -4039,7 +4070,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 56,
+   "signal": 55,
    "alert": false
   },
   {
@@ -4056,7 +4087,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T08:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp",
-   "signal": 56,
+   "signal": 55,
    "alert": false
   },
   {
@@ -4077,23 +4108,6 @@
    "alert": false
   },
   {
-   "id": "4001997cead0d165c6275f361d3be08e4571b4e546fac51b6c7ebf57740c72ce",
-   "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
-   "snippet": "Many scalable latent 3D generators operate on structured tensors, whereas pre-optimized 3D Gaussian Splatting (3DGS) reconstructions are unordered, spatially irregular, and vary widely in primitive count. We present GS-Voxel, a fitting-free structured latent framework, and evaluate it for large-scale aerial 3D Gaussian scene generation. GS-Voxel deterministically converts a compatible pre-optimized 3DGS reconstruction into sparse active voxels without additional per-scene optimization, retaining the sub-voxel positions and rendering attributes of the selected primitives. A GS-specific factorized VAE then separately encodes voxel geometry and local Gaussian attributes into sparse 3D latents whose size grows with the number of occupied voxels rather than being limited by a fixed scene-wide primitive count. We train image-conditioned flow models in the GS-Voxel latent space to generate aerial 3DGS scenes. A key application enabled by GS-Voxel is large-area scene generation: overlap-aware tiled inference extends synthesis beyond a single training crop conditioned on satellite-view images. Our results show that GS-Voxel provides structured latents for pre-optimized aerial 3DGS reconstructions, with latent capacity that grows with the number of occupied voxels.",
-   "url": "https://huggingface.co/papers/2608.17988",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-18T00:00:00Z",
-   "imageURL": null,
-   "signal": 55,
-   "alert": false
-  },
-  {
    "id": "dd475a40b23538739e525bf7d9a9d9dd84511f7905cd123123cf7b94730d5522",
    "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
    "snippet": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, omni-modal AI scientist that conducts multidisciplinary research directly from heterogeneous raw evidence. A perception layer and 3 autonomous agents for ideation, experiment, and writeup operate within a deterministic pipeline, allowing observations to shape research questions, experimental decisions, and final claims throughout the research lifecycle. By running idea, rigour, and claim checks in code, the system enforces novelty screening, statistical validity, execution provenance, and numerical traceability. We evaluate OmniScientist on 36 real-data cases spanning 5 discipline families, 4 families of scientific evidence, and modalities including images, signals, audio, video, 3-D structures, trajectories, tables, formulae, and graphs. The system completes the full path from raw data to a compiled manuscript in all 36 cases and achieves a mean overall paper score of 6.3 with the reference reasoning backbone. In paired comparisons against a blind variant that receives only precomputed scalar features, direct perception improves all 7 evaluation dimensions and wins 85% of head-to-head judgments. These results show that lifecycle-wide perception is essential for evidence-grounded scientific discovery and provides a practical path toward broadly capable AI scientists.",
@@ -4106,6 +4120,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
+   "signal": 55,
+   "alert": false
+  },
+  {
+   "id": "4001997cead0d165c6275f361d3be08e4571b4e546fac51b6c7ebf57740c72ce",
+   "title": "GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation",
+   "snippet": "Many scalable latent 3D generators operate on structured tensors, whereas pre-optimized 3D Gaussian Splatting (3DGS) reconstructions are unordered, spatially irregular, and vary widely in primitive count. We present GS-Voxel, a fitting-free structured latent framework, and evaluate it for large-scale aerial 3D Gaussian scene generation. GS-Voxel deterministically converts a compatible pre-optimized 3DGS reconstruction into sparse active voxels without additional per-scene optimization, retaining the sub-voxel positions and rendering attributes of the selected primitives. A GS-specific factorized VAE then separately encodes voxel geometry and local Gaussian attributes into sparse 3D latents whose size grows with the number of occupied voxels rather than being limited by a fixed scene-wide primitive count. We train image-conditioned flow models in the GS-Voxel latent space to generate aerial 3DGS scenes. A key application enabled by GS-Voxel is large-area scene generation: overlap-aware tiled inference extends synthesis beyond a single training crop conditioned on satellite-view images. Our results show that GS-Voxel provides structured latents for pre-optimized aerial 3DGS reconstructions, with latent capacity that grows with the number of occupied voxels.",
+   "url": "https://huggingface.co/papers/2608.17988",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
    "signal": 55,
    "alert": false
@@ -4141,7 +4172,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T23:59:37Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 54,
    "alert": false
   },
   {
@@ -4179,23 +4210,6 @@
    "alert": false
   },
   {
-   "id": "ab70204cacdfd6028c2c6c287cd84467afadf9b5ba78ca8386d6beb3b4f3f4ee",
-   "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
-   "snippet": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval offers flexible access to external knowledge, but adds retrieval latency, context overhead, and only shallow integration with the backbone. Parametric adaptation is efficient at inference time, but entangles knowledge with model weights and can be hard to update, audit, or transfer. Engram-style hashed memory occupies a middle regime: it stores learned information in an external, addressable table, yet consumes that table through a small learned reader. This raises a basic question: when such a memory is moved across backbones, what matters more, the frozen memory itself or the target-side reader? We study this question through cross-model frozen-memory extraction, in which a memory trained on a source model is frozen and attached to a different target model, with only a lightweight reader trained. Ablations show that learned memory content and correct addressing both matter, but the transferred table becomes useful only through a reader aligned to the target model. In downstream question answering tasks, a dual-layer, four-branch reader nearly closes the gap between same-model and cross-model reuse, achieving an average score of 38.8 under our controlled evaluation protocol. Moreover, when the provider reader is directly compatible with the target interface, the frozen artifact can provide substantial utility without target-side training, while optional reader adaptation yields further improvement. These results suggest that Engram can serve as a reusable external knowledge artifact, provided that the target has access to a compatible reader interface; target-side adaptation can further improve alignment when direct reader reuse is insufficient.",
-   "url": "https://huggingface.co/papers/2608.17050",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-17T00:00:00Z",
-   "imageURL": null,
-   "signal": 54,
-   "alert": false
-  },
-  {
    "id": "2d3f8890a9148172f964d566e777d892416f6f463c7543a725344b38813c52dc",
    "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
    "snippet": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although video autoencoder architectures have evolved substantially, their latent spaces are still optimized primarily for pixel-level reconstruction and provide limited high-level semantic organization. A reconstruction-optimal latent space, however, need not be well suited to generative modeling. We propose V-RAE, a video representation autoencoder that builds compact generative latents on top of frozen vision foundation model representations. A lightweight temporal pooling module removes temporal redundancy while preserving semantic structure, and a video decoder reconstructs continuous motion from the compressed features. We evaluate V-RAE with four representative frozen encoders on video reconstruction, semantic probing, and class-conditional generation. V-RAE achieves 2.13 rFVD on K600, outperforming all evaluated large-scale pretrained video VAEs. Its latents retain substantially more semantic information than conventional video tokenizer latents. Under matched generation settings, our best variant achieves gFVD scores of 117.86 and 19.16 on UCF101 and K600, respectively, while converging up to 6x faster}. We further show that reconstruction quality alone is insufficient to characterize generative utility and introduce tFVD, a temporal-coherence diagnostic that correlates more reliably with downstream generation quality. Beyond video generation, V-RAE also improves future video prediction on Cityscapes over the Wan 2.2 VAE latent space under matched prediction settings. Taken together, the experiments show that frozen semantic representations can support video reconstruction, generation, and predictive modeling. The project page: https://v-rae.github.io/.",
@@ -4208,6 +4222,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
+   "signal": 54,
+   "alert": false
+  },
+  {
+   "id": "ab70204cacdfd6028c2c6c287cd84467afadf9b5ba78ca8386d6beb3b4f3f4ee",
+   "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+   "snippet": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval offers flexible access to external knowledge, but adds retrieval latency, context overhead, and only shallow integration with the backbone. Parametric adaptation is efficient at inference time, but entangles knowledge with model weights and can be hard to update, audit, or transfer. Engram-style hashed memory occupies a middle regime: it stores learned information in an external, addressable table, yet consumes that table through a small learned reader. This raises a basic question: when such a memory is moved across backbones, what matters more, the frozen memory itself or the target-side reader? We study this question through cross-model frozen-memory extraction, in which a memory trained on a source model is frozen and attached to a different target model, with only a lightweight reader trained. Ablations show that learned memory content and correct addressing both matter, but the transferred table becomes useful only through a reader aligned to the target model. In downstream question answering tasks, a dual-layer, four-branch reader nearly closes the gap between same-model and cross-model reuse, achieving an average score of 38.8 under our controlled evaluation protocol. Moreover, when the provider reader is directly compatible with the target interface, the frozen artifact can provide substantial utility without target-side training, while optional reader adaptation yields further improvement. These results suggest that Engram can serve as a reusable external knowledge artifact, provided that the target has access to a compatible reader interface; target-side adaptation can further improve alignment when direct reader reuse is insufficient.",
+   "url": "https://huggingface.co/papers/2608.17050",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
    "signal": 54,
    "alert": false
@@ -4226,7 +4257,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 53,
    "alert": false
   },
   {
@@ -4315,7 +4346,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 52,
    "alert": false
   },
   {
@@ -4408,7 +4439,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T14:49:54Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 51,
    "alert": false
   },
   {
@@ -4493,7 +4524,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T19:37:34Z",
    "imageURL": null,
-   "signal": 51,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4526,6 +4557,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-15T03:22:00Z",
+   "imageURL": null,
+   "signal": 50,
+   "alert": false
+  },
+  {
+   "id": "353217afc4f706b5339de407629065a4820f98bc0f70c28c174d08c10ec6ab52",
+   "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+   "snippet": null,
+   "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-13T17:16:04Z",
    "imageURL": null,
    "signal": 50,
    "alert": false
@@ -4578,7 +4626,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4595,7 +4643,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4663,7 +4711,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T21:23:35Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!_6Y2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49ade27f-0d84-40f3-840a-3c919e0bb8af_4239x2504.webp",
-   "signal": 49,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4680,7 +4728,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T10:00:00Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4756,7 +4804,7 @@
    "category": "research",
    "publishedAt": "2026-08-16T00:00:00Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4773,7 +4821,32 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T23:59:23Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 47,
+   "alert": false
+  },
+  {
+   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
+   "title": "Anthropic could be worth $2 trillion when it goes public",
+   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
+   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    },
+    {
+     "name": "SiliconANGLE",
+     "domain": "siliconangle.com"
+    },
+    {
+     "name": "Bloomberg.com",
+     "domain": "bloomberg.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T13:58:56Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
+   "signal": 47,
    "alert": false
   },
   {
@@ -4811,6 +4884,23 @@
    "alert": false
   },
   {
+   "id": "8ce9f137579cbf5f1ee557b278298021e3b49726e3be3025d3072279863eacd8",
+   "title": "Quoting Florian Herrengt",
+   "snippet": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually…",
+   "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-12T15:08:47Z",
+   "imageURL": null,
+   "signal": 46,
+   "alert": false
+  },
+  {
    "id": "b83997df209ee9990ae6c6983c161b701f6db13394f82aa3011eb4a31bbc1cae",
    "title": "Securing the Infrastructure of Intelligence",
    "snippet": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical resources: advanced chips, packaging, memory…",
@@ -4824,7 +4914,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T12:34:51Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
-   "signal": 47,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4841,24 +4931,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T05:30:39Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!dQiQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d28d24c-21c5-4e67-a9e6-00b50421ddfe_2112x1214.png",
-   "signal": 47,
-   "alert": false
-  },
-  {
-   "id": "8ce9f137579cbf5f1ee557b278298021e3b49726e3be3025d3072279863eacd8",
-   "title": "Quoting Florian Herrengt",
-   "snippet": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually…",
-   "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-12T15:08:47Z",
-   "imageURL": null,
-   "signal": 47,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4909,7 +4982,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T07:11:08Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!nQZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPcJLMtagAAx07t.jpg",
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4926,7 +4999,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T06:00:00Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4943,7 +5016,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T17:32:10Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/instagram-2026-wordmark.png",
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4981,23 +5054,6 @@
    "alert": false
   },
   {
-   "id": "22405ea1e27b33a112e5993768ccd8037502e8807b567c66afebae15a259b5d8",
-   "title": "OpenAI joins PORTS-Pike project",
-   "snippet": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
-   "url": "https://openai.com/index/openai-joins-ports-pike-project",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T05:00:00Z",
-   "imageURL": null,
-   "signal": 45,
-   "alert": false
-  },
-  {
    "id": "05a48f17b2b87f756af271de1721b7df45e769c842282ec4f681dba5e9d11277",
    "title": "🔬The BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
    "snippet": "Pharma is suddenly paying for Bio &#215; AI tools, and Chai is leading the pack with four deals closed this summer. Cofounder Matt McPartlon and Product leader Neil Patil explain why.",
@@ -5011,7 +5067,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T21:03:50Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 44,
+   "alert": false
+  },
+  {
+   "id": "22405ea1e27b33a112e5993768ccd8037502e8807b567c66afebae15a259b5d8",
+   "title": "OpenAI joins PORTS-Pike project",
+   "snippet": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+   "url": "https://openai.com/index/openai-joins-ports-pike-project",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T05:00:00Z",
+   "imageURL": null,
+   "signal": 44,
    "alert": false
   },
   {
@@ -5028,7 +5101,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 44,
    "alert": false
   },
   {
@@ -5096,7 +5169,24 @@
    "category": "models",
    "publishedAt": "2026-08-13T11:10:18Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg",
-   "signal": 44,
+   "signal": 43,
+   "alert": false
+  },
+  {
+   "id": "5b866070a509b183dd36dff2fc80418eacfed5bde8ea814c9543380a7e4c535e",
+   "title": "In Which I Lose My Mind over Embeddings (HPLM Chapter 2)",
+   "snippet": null,
+   "url": "https://www.maayanroth.com/blog/posts/hundred-page-lm-book-chapter-2.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-17T18:26:53Z",
+   "imageURL": null,
+   "signal": 43,
    "alert": false
   },
   {
@@ -5113,7 +5203,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T10:00:00Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 43,
    "alert": false
   },
   {
@@ -5164,7 +5254,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -5181,7 +5271,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -5198,7 +5288,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T22:02:25Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261896328-1152x648.jpg",
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -5215,7 +5305,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:43:21Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -5249,7 +5339,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T16:14:36Z",
    "imageURL": null,
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -5266,7 +5356,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T15:19:17Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-162426304-1152x648.jpg",
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -5283,7 +5373,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T14:01:59Z",
    "imageURL": "https://lh3.googleusercontent.com/8RcynTx1ujudyw8Fs05Pv8WJahe2FQ3z1Y7gNHm-xvOTJLdMp9hNDsIIoQbJsnav6evNLgY1iT9B9ercsyIn0U1N51pzScvSfe6IHk2SjDJx-MaVzQ=w528-h297-n-nu-rw-lo",
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -5300,7 +5390,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T13:01:16Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/815ecb78-309c-4ca3-9ceb-a3329100ae64_3182x1790.png",
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -5334,7 +5424,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -5351,7 +5441,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T16:10:08Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -5368,7 +5458,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T15:00:06Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/800vdc.jpg",
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -5385,7 +5475,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T13:37:10Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -5419,7 +5509,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T22:13:03Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg",
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5436,7 +5526,7 @@
    "category": "models",
    "publishedAt": "2026-08-08T10:24:54Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/5559253-Firebird-AI-Factory-Armenia-social-1920x1080-1.jpg",
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5453,7 +5543,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T14:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5470,7 +5560,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T12:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5521,7 +5611,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T10:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5538,7 +5628,7 @@
    "category": "research",
    "publishedAt": "2026-08-07T00:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5555,7 +5645,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T05:13:46Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!qA0L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3b60b0e-d47f-4723-bb40-be9594e9bab4_786x754.png",
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5606,7 +5696,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5623,7 +5713,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-05T01:21:47Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Gpou!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNw6xyYaUAA_BVO.jpg",
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5640,7 +5730,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-08T01:12:07Z",
    "imageURL": "https://substackcdn.com/image/youtube/w_728,c_limit/87DyyMV0kCY",
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5691,7 +5781,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:47Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/agentic-ai-press-osaia-5518050-1280x680-r2.png",
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5708,7 +5798,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-03T21:44:03Z",
    "imageURL": null,
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5716,23 +5806,6 @@
    "title": "Scaling Categorical Flow Maps",
    "snippet": "Continuous diffusion and flow matching models could represent a powerful alternative to autoregressive approaches for language modelling (LM), as they unlock a host of advantages currently reserved for continuous modalities, including accelerated sampling and tilting. Recently, several works have…",
    "url": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
-   "sources": [
-    {
-     "name": "Apple ML",
-     "domain": "machinelearning.apple.com"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-07T00:00:00Z",
-   "imageURL": null,
-   "signal": 37,
-   "alert": false
-  },
-  {
-   "id": "c797381f6cd4b45af698941ec3ddb6aebb6d0308654d793fecd6d6ea1d0d1e69",
-   "title": "Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models",
-   "snippet": "Large Language Models (LLMs) have achieved state-of-the-art performance on a broad range of Natural Language Processing (NLP) tasks, including document processing and code generation. Autoregressive Language Models (ARMs), which generate tokens sequentially conditioned on all previous tokens, have…",
-   "url": "https://machinelearning.apple.com/research/diffusion-autoregressive-performance",
    "sources": [
     {
      "name": "Apple ML",
@@ -5793,24 +5866,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T20:35:13Z",
    "imageURL": null,
-   "signal": 36,
-   "alert": false
-  },
-  {
-   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
-   "title": "Anthropic could be worth $2 trillion when it goes public",
-   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
-   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T13:58:56Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
-   "signal": 36,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5827,7 +5883,7 @@
    "category": "research",
    "publishedAt": "2026-08-06T15:06:15Z",
    "imageURL": "https://lh3.googleusercontent.com/Mj8GyJnsjROScr1hYl7PL_QCAaLGukliPCTMUlpKiQtZuVkmh2ouydYh80ibejg9vWgKkg2dYPx2jCJOOohKid5P-dLzwvIyB4-fZjWXYIx0ImZd=w528-h297-n-nu-rw-lo",
-   "signal": 36,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5895,7 +5951,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T04:34:11Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!1S7v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57c9d273-aa50-4bc7-a7c4-caaf9b4952c2_1540x1624.png",
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5912,7 +5968,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-05T18:08:46Z",
    "imageURL": null,
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5997,7 +6053,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -6082,7 +6138,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T23:48:35Z",
    "imageURL": null,
-   "signal": 33,
+   "signal": 32,
    "alert": false
   },
   {
@@ -6167,7 +6223,7 @@
    "category": "models",
    "publishedAt": "2026-07-28T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp",
-   "signal": 32,
+   "signal": 31,
    "alert": false
   },
   {
@@ -6252,7 +6308,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-01T01:38:09Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!1adH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHOiugSLbQAAck-3.jpg",
-   "signal": 31,
+   "signal": 30,
    "alert": false
   },
   {
@@ -6337,7 +6393,7 @@
    "category": "research",
    "publishedAt": "2026-07-30T15:00:59Z",
    "imageURL": null,
-   "signal": 30,
+   "signal": 29,
    "alert": false
   },
   {
@@ -6354,7 +6410,7 @@
    "category": "models",
    "publishedAt": "2026-07-30T13:00:20Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/07/gfn-thursday-7-30-bts-nv-blog-1280x680-logo.jpg",
-   "signal": 30,
+   "signal": 29,
    "alert": false
   },
   {
@@ -6439,7 +6495,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-23T00:00:00Z",
    "imageURL": null,
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -6524,7 +6580,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-22T17:43:52Z",
    "imageURL": null,
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6609,7 +6665,7 @@
    "category": "research",
    "publishedAt": "2026-07-13T12:37:28Z",
    "imageURL": "https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w528-h297-n-nu-rw-lo",
-   "signal": 27,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6698,7 +6754,7 @@
    "category": "research",
    "publishedAt": "2026-07-09T16:46:22Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 25,
    "alert": false
   },
   {
@@ -6783,7 +6839,7 @@
    "category": "research",
    "publishedAt": "2026-07-16T09:30:42Z",
    "imageURL": "https://lh3.googleusercontent.com/ZRyQg91pjea8kXXaGSlnZIJF90-VwnKHSBxo22e2RedCvCCszsurR8W9NHw80e1V6HtWXccbU1MI27Rtjjf963rD673XgkWK7cZe_1ekfruPgdHHVEc=w528-h297-n-nu-rw-lo",
-   "signal": 25,
+   "signal": 24,
    "alert": false
   },
   {
@@ -6868,7 +6924,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-15T00:00:00Z",
    "imageURL": null,
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -6970,7 +7026,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-10T12:40:15Z",
    "imageURL": null,
-   "signal": 23,
+   "signal": 22,
    "alert": false
   },
   {
@@ -7055,7 +7111,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-27T11:21:58Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png",
-   "signal": 22,
+   "signal": 21,
    "alert": false
   },
   {
@@ -7140,7 +7196,7 @@
    "category": "models",
    "publishedAt": "2026-07-01T18:15:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp",
-   "signal": 21,
+   "signal": 20,
    "alert": false
   },
   {
@@ -7229,7 +7285,7 @@
    "category": "research",
    "publishedAt": "2026-05-08T09:00:00Z",
    "imageURL": null,
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -7314,7 +7370,7 @@
    "category": "research",
    "publishedAt": "2026-06-08T13:04:59Z",
    "imageURL": "https://lh3.googleusercontent.com/5g2RQPPxqVGuOzfaYj1-8r_6B-Ytp79c9mpWXzBIrk2vUhtxZmA7bMywH41h-8b0EJAdW_K4l7kqHZlfS-QTFk8kFB5MA2bgxZ4hxbuAiOuDIn3ohA=w528-h297-n-nu-rw-lo",
-   "signal": 19,
+   "signal": 18,
    "alert": false
   },
   {
@@ -7501,7 +7557,7 @@
    "category": "research",
    "publishedAt": "2026-06-09T22:59:35Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/b9a6c144-02b3-4a08-947c-c517667d2249_3182x1790.png",
-   "signal": 17,
+   "signal": 16,
    "alert": false
   },
   {
@@ -7586,7 +7642,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-06T11:16:22Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/8630eb02-eeac-4411-bef3-1865c1920b03_2912x1632.png",
-   "signal": 16,
+   "signal": 15,
    "alert": false
   },
   {
@@ -7671,7 +7727,7 @@
    "category": "techniques",
    "publishedAt": "2026-05-20T16:50:34Z",
    "imageURL": null,
-   "signal": 15,
+   "signal": 14,
    "alert": false
   },
   {
@@ -7756,7 +7812,7 @@
    "category": "research",
    "publishedAt": "2026-06-30T00:00:00Z",
    "imageURL": null,
-   "signal": 14,
+   "signal": 13,
    "alert": false
   },
   {
@@ -8113,7 +8169,7 @@
    "category": "research",
    "publishedAt": "2025-09-01T09:00:00Z",
    "imageURL": null,
-   "signal": 10,
+   "signal": 9,
    "alert": false
   },
   {
@@ -8202,7 +8258,7 @@
    "category": "techniques",
    "publishedAt": "2025-07-19T11:11:10Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/45c50202-0e8b-4e64-8296-4e2ccf4cb287_1756x1227.png",
-   "signal": 9,
+   "signal": 8,
    "alert": false
   },
   {
