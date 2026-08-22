@@ -1,71 +1,87 @@
 {
  "version": 1,
- "generatedAt": "2026-08-22T18:59:25Z",
+ "generatedAt": "2026-08-22T19:28:54Z",
  "stories": [
   {
-   "id": "d9718395b7e7ce97b4c91cff1a95917a60ad3188586425552f39f6eb31b8cfdf",
-   "title": "Introducing Slack Code: Agentic Coding for Teams",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxSHpTTGdnZ2JUYS01X3Y0Vm1MSkw2eUFvVXRDZGI0U2Flc3pNUHBzSjRkZFZ2ODBybUljd3FHUWxLTE8xa2d4U0MwdENyd2l3MU1MVmRKeTJYSlJCajQ0?oc=5",
+   "id": "68b7957e2a48f5971cce92104aeb6e6a40fdf2276406aa6000451bfdbaf3f6cd",
+   "title": "How Misconfigured Admin System Prompts Can Invert Every Single LLM Safety Layer",
+   "snippet": "I’m a cybersecurity researcher at a lab and ran an experiment, which led to a genuinely catastrophic outcome that I fully wasn’t expecting. There’s around 25 images in my report that show how Claude generated pretty much everything, without any sort of guardrails, with a prompt style that’s no…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvjcjb/how_misconfigured_admin_system_prompts_can_invert/",
    "sources": [
     {
-     "name": "Salesforce",
-     "domain": "salesforce.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T17:47:08Z",
-   "imageURL": null,
-   "signal": 99,
-   "alert": false
-  },
-  {
-   "id": "ebf6264c3c48d22f903ac3416fd7b1a486edd60c92d4af1cd41c5b5abeb18c1d",
-   "title": "Israeli scientists: AI can make personality tests, predict responses",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBsc3U3ZHNHRE1Wa0JrbkQ2Wjc2U2tkRDNSdHNuNlNHSnd0dk9JbU14OEVrUC1WOTZITWlZLW42ZnI3VFpiMDBMeUZJNDFtR2ZTMzcySkdlOA?oc=5",
-   "sources": [
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    },
     {
-     "name": "The Jerusalem Post",
-     "domain": "jpost.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T18:10:03Z",
-   "imageURL": null,
-   "signal": 99,
-   "alert": false
-  },
-  {
-   "id": "33e354a2033bc20bc8f5451efbca42b8d364b08b079a645f30329b93df8e976d",
-   "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-   "snippet": null,
-   "url": "https://twitter.com/argofowl/status/2091150597374537729",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Apple ML",
+     "domain": "machinelearning.apple.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T16:58:49Z",
+   "publishedAt": "2026-08-22T18:04:43Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": true
+  },
+  {
+   "id": "e0cf4087263d4676e0505f98e8da3f156c40b91d5dedcd955dfb80bcbbdf948f",
+   "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+   "snippet": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+   "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T19:00:00Z",
    "imageURL": null,
    "signal": 99,
    "alert": false
   },
   {
-   "id": "fb43a74b9f23a0e0bf6ae11b17815eeab886ff2a9446b836d7115199505b50b9",
-   "title": "5 ways ChatGPT can become your secret weapon for the new school year",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbmJFS0ROckVON3JTWk5mWUpaRjdQamVaMkVRcnNWLXJ4bXBRdWk3ajc4ejEtMExTMTE2eUVlUDJDVnhrVjNGSWhfb2txOWVrSWpBTmZFMTRxNzAwQmlpS2RFQ3g2NEJBWHNwZm5wTFRCeE1ocTlhbG5wY3ZOdXZ4SUpObVg0dHNQMUxZUlpycTZQV0MzMHdxWW9DVXYxbE9mM2p1Qzl3clBKU19m?oc=5",
+   "id": "6711cbde369328829005db0304baf0b97dfb352ca8ff97b7f6b05f789a8797b7",
+   "title": "Working on a accessible creative production suite featuring a OpenAI voice-first multi-agent assistant. All core tools are completely free for hands-on use, while AI-powered automated generation runs on a flexible credit system with no subs.",
+   "snippet": "So what started out as a text based chatbot project 8 months ago as my first ever project as a self taught coder is developing into something different. I&#39;ve created an agent within my chat bot to help users create a product, using OpenAI Realtime voice that works on a conversational basis…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvd1yi/working_on_a_accessible_creative_production_suite/",
    "sources": [
     {
-     "name": "TechRadar",
-     "domain": "techradar.com"
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    },
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    },
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-22T18:00:00Z",
+   "category": "tools",
+   "publishedAt": "2026-08-22T13:53:28Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": true
+  },
+  {
+   "id": "0146699c6e574910e94921a3b353c2c41f9fc9ed9f6f5237c3134d9a751eaaf8",
+   "title": "GPT Images has gone off the rails",
+   "snippet": "&#32; submitted by &#32; /u/JustRuss79 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvkdnd/gpt_images_has_gone_off_the_rails/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T18:44:29Z",
    "imageURL": null,
    "signal": 98,
    "alert": false
@@ -100,6 +116,74 @@
    "alert": true
   },
   {
+   "id": "ebf6264c3c48d22f903ac3416fd7b1a486edd60c92d4af1cd41c5b5abeb18c1d",
+   "title": "Israeli scientists: AI can make personality tests, predict responses",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBsc3U3ZHNHRE1Wa0JrbkQ2Wjc2U2tkRDNSdHNuNlNHSnd0dk9JbU14OEVrUC1WOTZITWlZLW42ZnI3VFpiMDBMeUZJNDFtR2ZTMzcySkdlOA?oc=5",
+   "sources": [
+    {
+     "name": "The Jerusalem Post",
+     "domain": "jpost.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T18:10:03Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "33e354a2033bc20bc8f5451efbca42b8d364b08b079a645f30329b93df8e976d",
+   "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+   "snippet": null,
+   "url": "https://twitter.com/argofowl/status/2091150597374537729",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T16:58:49Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "906b7b708c21d954a2fc6b9b86eab6310b8061086469fea0b0bf2585cff874ab",
+   "title": "I just wanted a workout guide for my wall",
+   "snippet": "Wasn&#39;t expecting this! Must be a new kind of exercise for the truly gifted. &#32; submitted by &#32; /u/user2776632 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvi428/i_just_wanted_a_workout_guide_for_my_wall/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T17:17:18Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "fb43a74b9f23a0e0bf6ae11b17815eeab886ff2a9446b836d7115199505b50b9",
+   "title": "5 ways ChatGPT can become your secret weapon for the new school year",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbmJFS0ROckVON3JTWk5mWUpaRjdQamVaMkVRcnNWLXJ4bXBRdWk3ajc4ejEtMExTMTE2eUVlUDJDVnhrVjNGSWhfb2txOWVrSWpBTmZFMTRxNzAwQmlpS2RFQ3g2NEJBWHNwZm5wTFRCeE1ocTlhbG5wY3ZOdXZ4SUpObVg0dHNQMUxZUlpycTZQV0MzMHdxWW9DVXYxbE9mM2p1Qzl3clBKU19m?oc=5",
+   "sources": [
+    {
+     "name": "TechRadar",
+     "domain": "techradar.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T18:00:00Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
+  },
+  {
    "id": "97c4e9cb8b163ddb829e9b6bdfc0535a9bc8913bcaaadf5140ef1d2b19f333f7",
    "title": "llm 0.33",
    "snippet": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept…",
@@ -113,7 +197,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T17:01:16Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": false
   },
   {
@@ -130,7 +214,24 @@
    "category": "models",
    "publishedAt": "2026-08-22T17:00:28Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "89c443404eb192aaf4443833a4fb7d3875b0d9443ec1c1df6ffc6b19163f6a6a",
+   "title": "Frontier Coding Agents Have a Communication Problem",
+   "snippet": "&#32; submitted by &#32; /u/SupPandaHugger [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvh07t/frontier_coding_agents_have_a_communication/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T16:33:48Z",
+   "imageURL": null,
+   "signal": 97,
    "alert": false
   },
   {
@@ -147,7 +248,24 @@
    "category": "models",
    "publishedAt": "2026-08-22T17:26:32Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "db726b5f4fd389bc4a440a1077de6f5ead6adb05c04290cabbef0f58b571bac4",
+   "title": "AI prompt was:",
+   "snippet": "&#32; submitted by &#32; /u/Humble_maple [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvgs2o/ai_prompt_was/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T16:24:45Z",
+   "imageURL": null,
+   "signal": 96,
    "alert": false
   },
   {
@@ -164,7 +282,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T17:05:00Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -181,41 +299,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T15:56:54Z",
    "imageURL": null,
-   "signal": 97,
-   "alert": false
-  },
-  {
-   "id": "efbde8355f8fb85d54559aa4b3bc1823e5221c35c7b6d7976b22ce1bd2c445b2",
-   "title": "OpenAI says California should strengthen its AI safety bill",
-   "snippet": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
-   "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T16:30:34Z",
-   "imageURL": null,
-   "signal": 97,
-   "alert": false
-  },
-  {
-   "id": "cf6ea0309b5eaff550d5c830f90fb92f504ebda221a537e302eec31fee9be8b0",
-   "title": "How to remove trendy speech from llms?",
-   "snippet": "For example: Instead of saying: &quot;I created this new ID&quot; It says: &quot;I minted this new ID&quot; Instead of: &quot;This alternative path is available&quot; It says: &quot;this escape hatch is available&quot; This speech is so nonsensical and annoying. Just. Speek. Literally ... OR…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvfbde/how_to_remove_trendy_speech_from_llms/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T15:26:22Z",
-   "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -236,14 +320,14 @@
    "category": "tools",
    "publishedAt": "2026-08-22T11:24:54Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": true
   },
   {
-   "id": "058d495cab2c8c26823cb4785ec59c56b412ceec76fa81bc79e4442d41ab0efb",
-   "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
-   "snippet": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
-   "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+   "id": "efbde8355f8fb85d54559aa4b3bc1823e5221c35c7b6d7976b22ce1bd2c445b2",
+   "title": "OpenAI says California should strengthen its AI safety bill",
+   "snippet": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+   "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
    "sources": [
     {
      "name": "TechCrunch",
@@ -251,24 +335,7 @@
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-22T16:00:00Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "fb93a742d2a1d2ab4d8792ff91c44aa9d1ad77ef90496fdef0f3d190e195e3ca",
-   "title": "This is a great sub, regardless of what complaints people have about it.",
-   "snippet": "This is a genuine community of real generally respectful adult human beings. Despite the enthusiasm all of you have for local AI, you can recognize that there are times when local LLMs are flawed, and even how practical they are to use for the majority of people to use. Go over to r/linux and…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vveabg/this_is_a_great_sub_regardless_of_what_complaints/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T14:44:56Z",
+   "publishedAt": "2026-08-22T16:30:34Z",
    "imageURL": null,
    "signal": 96,
    "alert": false
@@ -295,80 +362,38 @@
    "alert": true
   },
   {
-   "id": "7168adf94fa8add0a5ec8f8b7c4e7098aa09774aeb302c0cd4628640a8fc4fb0",
-   "title": "Fixed the MTP head on Ornith1.5 35B A3B. +3% TPS -33% wall clock",
-   "snippet": "I love the Ornith 35B local models, 1.0 has been running my HAM radio rig for me. I have a hackRF receiver and a 5 watt quansheng portable the both run headless through the PC. I tried out the new Ornith1.5 build and it was faster and more accurate than 1.0. I read the threads that talked about the…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvft7b/fixed_the_mtp_head_on_ornith15_35b_a3b_3_tps_33/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T15:46:27Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "4449d44580bfd5315f6de6dcf3d3edc5867ab0f661fdcd6cfec2701ff494f79e",
-   "title": "Artificial Analysis \"Intelligence\": A meaningless benchmark",
-   "snippet": "https://preview.redd.it/84zi5nsdawkh1.png?width=2368&amp;format=png&amp;auto=webp&amp;s=1109e69db807b153064b1f5b61d22cf1e9fbca05 Another user posted the benchmarks for Qwen 3.8 27B today, and while I think Qwen 27B is a really powerful model, I can&#39;t help but notice just how meaningless these…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    },
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T09:43:38Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": true
-  },
-  {
-   "id": "d8cf43d22a20e508a0f4db864f390bc771ac3691a8defeb401cc4d2bc8eedd34",
-   "title": "Your own GGUF",
-   "snippet": "Hello, I have a few questions that I can&#39;t seem to find a clear answer to. Does it make sense to make your own GGUF? I noticed that when I compile llamacpp (vulkan or rocm), the processing and generation is a bit better, does it work similarly with doing GGUF yourself? If I use Vulkan, is it…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvf7tk/your_own_gguf/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T15:22:23Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "79189f209600a18c2fb79849ab81f7e088dbdf4dc660c1addf5fef4f0ffb79bb",
-   "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+   "id": "d9718395b7e7ce97b4c91cff1a95917a60ad3188586425552f39f6eb31b8cfdf",
+   "title": "Introducing Slack Code: Agentic Coding for Teams",
    "snippet": null,
-   "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxSHpTTGdnZ2JUYS01X3Y0Vm1MSkw2eUFvVXRDZGI0U2Flc3pNUHBzSjRkZFZ2ODBybUljd3FHUWxLTE8xa2d4U0MwdENyd2l3MU1MVmRKeTJYSlJCajQ0?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "CNBC",
-     "domain": "cnbc.com"
+     "name": "Salesforce",
+     "domain": "salesforce.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T16:23:09Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-22T14:44:27Z",
    "imageURL": null,
    "signal": 95,
-   "alert": true
+   "alert": false
+  },
+  {
+   "id": "058d495cab2c8c26823cb4785ec59c56b412ceec76fa81bc79e4442d41ab0efb",
+   "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+   "snippet": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+   "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T16:00:00Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
   },
   {
    "id": "ec1dae1d3407b62bf780e54bb648e5672afb2b5d0cad6ca830c7d3de1da2319c",
@@ -392,6 +417,27 @@
    "alert": true
   },
   {
+   "id": "79189f209600a18c2fb79849ab81f7e088dbdf4dc660c1addf5fef4f0ffb79bb",
+   "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+   "snippet": null,
+   "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "CNBC",
+     "domain": "cnbc.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T16:23:09Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": true
+  },
+  {
    "id": "c248308cd463dc290e0378a0d932538f197ecf2b15d1250a8a933eab93c54012",
    "title": "Munder Difflin – Agent harness to run an office of your clones",
    "snippet": null,
@@ -409,20 +455,37 @@
    "alert": false
   },
   {
-   "id": "295d51d1e4acfc6437b3c43a9c581c6938b509b848936d836d16d88d528c6741",
-   "title": "NVIDIA AVO Hits 100% on ARC-AGI-3: The Same Claude Opus 5 That Scores 30% Alone",
+   "id": "ed066fd3cc7554ccf997abfe5a01e87bef5a01d45267c2a42aa9cc68d0cb0c01",
+   "title": "What Is AGENTS.md? AI Coding File Guide (2026)",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTlhwWWp5RHpubTBLS2ptZXd0OHdMUWNwN1BnMjNGUjJCUHJ1Mks0S0FfVnBMZDNlTzZLQXl2bGhGUnNtM0ZCUl9Vc3BHWWxZSkw4Mk03SlJsbXlPYXlDTVpQcHNJNjRObmVSSHV3ZzBiRjQwQ2hMbEtNQ3lZbmVFdHUtcUVRcHVuUVE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWZxSlU0alBETzExQXl6TU8ySzBmaEdjcnQwM0I0MWZFMjVmZ1hRUERrVUpZdnlIUk1DcmxULUg5Mk9ud29NQkcyWERaWk93UkFxUHY0WDdKcHJjRGVzOVMydGpPUTFaYmtDcXoyTjZOSldVN3RWTUxZeEpXSEJWLVJ1SXIwb21ib1R2dTdfdVNkOXkwVkhOYnJDUU9HbVZhOE8wZktZRVMxdw?oc=5",
    "sources": [
     {
-     "name": "Pasquale Pillitteri",
-     "domain": "pasqualepillitteri.it"
+     "name": "StartupHub.ai",
+     "domain": "startuphub.ai"
     }
    ],
    "category": "techniques",
-   "publishedAt": "2026-08-22T13:47:43Z",
+   "publishedAt": "2026-08-22T13:04:49Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
+   "alert": false
+  },
+  {
+   "id": "0a6042d69c1ccf389e9d20012cb791d5007e67de5e59f8e841677b3295ffdc24",
+   "title": "\"One robot could infect other vulnerable robots nearby ... Attackers could take control of entire fleets of robots.\"",
+   "snippet": "Report: https://boschko.ca/unitree-go2-rce/Report: https://boschko.ca/unitree-go2-rce/ &#32; submitted by &#32; /u/Malor777 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvbe8s/one_robot_could_infect_other_vulnerable_robots/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T12:40:01Z",
+   "imageURL": null,
+   "signal": 94,
    "alert": false
   },
   {
@@ -439,58 +502,62 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T12:01:30Z",
    "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "819d0665fdcf3ab1f100cd6666e047216e07bac2f45b4fae8ad93e6c0f2eba04",
-   "title": "Qwen 3.5 4B IQ2_XS: +16.67% Reasoning Performance From Tensor-Level Allocation",
-   "snippet": "I was finally able to replicate tensor level allocation outside the Gemma family. https://huggingface.co/ByteOtter/Qwen3.5-4B-CADA-IQ2_XS After the Gemma 4 12b, e4b and gemma 3 4b results, I attempted to expand into qwen and ran into a few walls. After 2 version updates and a slightly different…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvc6pw/qwen_35_4b_iq2_xs_1667_reasoning_performance_from/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T13:15:55Z",
-   "imageURL": null,
    "signal": 94,
    "alert": false
   },
   {
-   "id": "f47828225c5c4bb2a4381394a1b240b9b54207f6e1bd67b22246cb6a95498a2c",
-   "title": "Claude's watermark leads paying users to cancel",
+   "id": "295d51d1e4acfc6437b3c43a9c581c6938b509b848936d836d16d88d528c6741",
+   "title": "NVIDIA AVO Hits 100% on ARC-AGI-3: The Same Claude Opus 5 That Scores 30% Alone",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9RRkZRR29rSWlWTFJDNGFXQUdkaC1GdFZXT0VXVkFNVW9fcDhRVDBJdGVtd203OEtscmRWbVJ4QlJiV3JocUJHTXNoT1V4ZE5kQUZNdDFFODRiOThvR0pRbVY1VnNtblludkNmejVtMmFGWldkdmpxRDd4aw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTlhwWWp5RHpubTBLS2ptZXd0OHdMUWNwN1BnMjNGUjJCUHJ1Mks0S0FfVnBMZDNlTzZLQXl2bGhGUnNtM0ZCUl9Vc3BHWWxZSkw4Mk03SlJsbXlPYXlDTVpQcHNJNjRObmVSSHV3ZzBiRjQwQ2hMbEtNQ3lZbmVFdHUtcUVRcHVuUVE?oc=5",
    "sources": [
     {
-     "name": "BetaNews",
-     "domain": "betanews.com"
+     "name": "Pasquale Pillitteri",
+     "domain": "pasqualepillitteri.it"
     }
    ],
    "category": "techniques",
-   "publishedAt": "2026-08-22T13:14:53Z",
+   "publishedAt": "2026-08-22T13:47:43Z",
    "imageURL": null,
    "signal": 94,
    "alert": false
   },
   {
-   "id": "1a45e28259b8fbc1b702de334474f1ec0a0496a421fc2ff749ede4fde01d4f1d",
-   "title": "Anyone else tried out KV cache blending?",
-   "snippet": "Idea is simple-ish in abstract: instead of running normal prefill over all of a given prompt, split it into parts - generates caches for part A and part B in isolation, concatenate the result, feed it into decode like normal. I honestly thought it&#39;d totally fail. But I&#39;ve been trying it out…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv9oe2/anyone_else_tried_out_kv_cache_blending/",
+   "id": "0802e5036fe4786632869ef642ff12a9b6e8396fd62cc81856d34b2ddd32871a",
+   "title": "AWS AgentCore Harness Bypass Exposed a Cross-Platform Vulnerability Class in Agent Runtimes",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWFORmk3ckdOYXlxdy1SUHdqbzlyVDg3ejFwTXBlWHFyVUhNWjd0N1J2Q1cyejBlSmVVREt4Z1JQUzV3TFY5d01ZRHVJSFZmZTNqdTBZWWx3RWs1MThRNGJFLV83czhFT29HRTZyc1lDLUpUSjAwYnJ6NWRwMEl6UmNpVW5PTFNzUFVEazJUNmdjNWQya3RpZEFXWTFNZzZ4cHNPWXV1LWMyb05OeWpsd2t2RjBtZ2xwMFdPQ2t6cVl0RE9sc1o2dg?oc=5",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
+     "name": "CryptoRank",
+     "domain": "cryptorank.io"
+    },
+    {
+     "name": "forkast.news",
+     "domain": "forkast.news"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T05:31:28Z",
+   "imageURL": null,
+   "signal": 94,
+   "alert": true
+  },
+  {
+   "id": "29ae95537f899110ff9c59003f92f427620a969474973b8d1ab2af32064acb30",
+   "title": "Resets on the $20 plan only?",
+   "snippet": "Got hit with a workspace limit in the middle of a project. Was hoping for a reset but never came (no workspace resets) so I ended up going to the $100 plan figuring at least the next reset will give me more to work with, but then, that never came either. Maybe I missed the memo. Did OpenAI nix…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvbrej/resets_on_the_20_plan_only/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
      "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T11:14:40Z",
+   "publishedAt": "2026-08-22T12:57:10Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -507,24 +574,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T12:51:49Z",
    "imageURL": null,
-   "signal": 94,
-   "alert": false
-  },
-  {
-   "id": "8df515e7c3278eb7af58ba862ff16cd4fdf14fdafc5319e46869acee0e9c29e2",
-   "title": "What Claude's AI text watermark actually does",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3QXVSLWxia3VqbkVfbkgtbGVENU1ERjRqMnotR0w1bklDS2xXRHFzTG9JNFNsenBMRVpMb2t5aWVmR1VYNjduTTlfclRCdE5qZlhxRVFSTTNSd3V6dlN3NTdEOFlabjByZmRWZlpCekkxSmtOejN2Mw?oc=5",
-   "sources": [
-    {
-     "name": "Mashable",
-     "domain": "mashable.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T12:46:07Z",
-   "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
@@ -557,18 +607,35 @@
    "alert": true
   },
   {
-   "id": "c0a38f4a33c8cce4bfd8896e3e698546d353bdf791d5a0bdb3381740fbce3107",
-   "title": "How to Get a ChatGPT API Key: 12 Steps, 90 Min [2026]",
+   "id": "8df515e7c3278eb7af58ba862ff16cd4fdf14fdafc5319e46869acee0e9c29e2",
+   "title": "What Claude's AI text watermark actually does",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qeUZ4TTAtX2pWRjJ3WktaOW1IX2FYYWVKY2xIZ3FxNnFvaHd6amFqVjdabVdMZW9BOXNabGJ1SG85cHNBdENKYXFoNTJ0ay11Q0w3Ylp1bVZWNWItTTZITzBIdWdHQlpm?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3QXVSLWxia3VqbkVfbkgtbGVENU1ERjRqMnotR0w1bklDS2xXRHFzTG9JNFNsenBMRVpMb2t5aWVmR1VYNjduTTlfclRCdE5qZlhxRVFSTTNSd3V6dlN3NTdEOFlabjByZmRWZlpCekkxSmtOejN2Mw?oc=5",
    "sources": [
     {
-     "name": "tech-insider.org",
-     "domain": "tech-insider.org"
+     "name": "Mashable",
+     "domain": "mashable.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-22T10:11:19Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-22T12:46:07Z",
+   "imageURL": null,
+   "signal": 93,
+   "alert": false
+  },
+  {
+   "id": "2850fd46afb5cf359644650dc98cb809a1c410d847cc2e80dbfb4d2885f33eae",
+   "title": "I recently changed to Chatgpt pro, and I am super happy about it.",
+   "snippet": "Like most of the builders I was using Claude and lovable for work and after fable everything was fantastic until it started little by little. My work flow uses an adversarial council to hammer the subjects. It started with Sol finding problems in Claude design, one or two. Then things got worse,…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vvajqz/i_recently_changed_to_chatgpt_pro_and_i_am_super/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:59:38Z",
    "imageURL": null,
    "signal": 93,
    "alert": false
@@ -586,57 +653,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T16:24:09Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "665a5de225b51c85accbe57fd8046958bf4a663c557d1bedd7f067e73f47c7d5",
-   "title": "US stock markets set to open mostly unchanged. Eyes on Meta after open model release",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeExQUy1GNFc0TTR3VHN3YXV4SG9yWmNQN1FzdE83ZmV2Q0xYRVcyYzRKQUdGXzRrcFRrY0lLdk9vY1hzZnBYeVlWdnJoc0VNektwbFNiem5YcGlxYW9IVFMyT0RSNElaN3BXX3ZETnZ6N2tnRjZGNC03LVZlT2pWa2Z5UFQ1V0F2VGk2VUx2QzJISHRCN0FQU1FPeWRDU3hlYTQzTWZaY0J2RGpmZ0EzMVMwek5PUHho?oc=5",
-   "sources": [
-    {
-     "name": "investingLive",
-     "domain": "investinglive.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T15:02:53Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "0a8ccfc666fa944d33d85c5586a1ff9974d83867d59413ac172c003e83ac918e",
-   "title": "Round Hill Music Sues Suno and Anthropic Over AI Training Practices",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQmVldzE0NWJJZHZjc3hyWlk5UFR2U0tUTHpTLXFlUmZkbkpKSzJVM1hiMFZ6bF9rYk4wZTBhRXF1cThaUTdRMV9sQjh6U3RoWVBVWFItWkllQVF6NTRuR0Z3NXMzeHlzRFBRYmdsVnlIVXVRVzNPSVhja1BsMnMzVFpIeFFoYmM?oc=5",
-   "sources": [
-    {
-     "name": "edm.com",
-     "domain": "edm.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T16:09:14Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "ba316fae322eae6bd97d4789d0aa8f2059070a649168e10429e7c6d7e9591d00",
-   "title": "I gave ChatGPT, Claude, and NotebookLM my entire semester — one was built for the way students study",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQanlxcHBwQ3M2cTJGeWxhTV80Snc5QnlJbE1iSG9EWGJaci0wMm5GVEZ2VTJOVHRwMk9ZMS1Ea3Bqb091eFY1Z3hYTi00UHE2ZnlvLXRBT1ZmTkZvREcwVHhpci1wRl9GYnFyMk01MkYzSndOYTJCSm9wVXlfaURFeS1TTlI1cFRFZUtmcG9B?oc=5",
-   "sources": [
-    {
-     "name": "XDA",
-     "domain": "xda-developers.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T11:30:15Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
@@ -663,59 +679,89 @@
    "alert": true
   },
   {
-   "id": "d7994a94036ab5c4f9cc2816f403e4526a887107c0d3d60932ac6dd7d2b8dcbf",
-   "title": "AntLing released a dspark draft model for Ling-3.0-flash",
-   "snippet": "No GGUFs yet on Huggingface though. &#32; submitted by &#32; /u/Ihtien [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv71pg/antling_released_a_dspark_draft_model_for/",
+   "id": "ba316fae322eae6bd97d4789d0aa8f2059070a649168e10429e7c6d7e9591d00",
+   "title": "I gave ChatGPT, Claude, and NotebookLM my entire semester — one was built for the way students study",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQanlxcHBwQ3M2cTJGeWxhTV80Snc5QnlJbE1iSG9EWGJaci0wMm5GVEZ2VTJOVHRwMk9ZMS1Ea3Bqb091eFY1Z3hYTi00UHE2ZnlvLXRBT1ZmTkZvREcwVHhpci1wRl9GYnFyMk01MkYzSndOYTJCSm9wVXlfaURFeS1TTlI1cFRFZUtmcG9B?oc=5",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
+     "name": "XDA",
+     "domain": "xda-developers.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T08:46:11Z",
+   "category": "models",
+   "publishedAt": "2026-08-22T11:30:15Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
   },
   {
-   "id": "bd51def575ec344dbe32362fb1c4b50c24b1209ce9fe94014000744372faba4b",
-   "title": "Freetokens project is impressive",
-   "snippet": "A new project was released yesterday and I have the opportunity to test it today. Papper: https://arxiv.org/abs/2608.16157 Github: https://github.com/FlashML-org/FreeToken My initial tests with the following setup: RTX 5080 (16 GB) DDR6 64GB AMD Ryzen 9 9950X3D I got 100tok/s on QWEN3.6-35B-A3B…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv6v00/freetokens_project_is_impressive/",
+   "id": "665a5de225b51c85accbe57fd8046958bf4a663c557d1bedd7f067e73f47c7d5",
+   "title": "US stock markets set to open mostly unchanged. Eyes on Meta after open model release",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeExQUy1GNFc0TTR3VHN3YXV4SG9yWmNQN1FzdE83ZmV2Q0xYRVcyYzRKQUdGXzRrcFRrY0lLdk9vY1hzZnBYeVlWdnJoc0VNektwbFNiem5YcGlxYW9IVFMyT0RSNElaN3BXX3ZETnZ6N2tnRjZGNC03LVZlT2pWa2Z5UFQ1V0F2VGk2VUx2QzJISHRCN0FQU1FPeWRDU3hlYTQzTWZaY0J2RGpmZ0EzMVMwek5PUHho?oc=5",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
+     "name": "investingLive",
+     "domain": "investinglive.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T08:34:53Z",
+   "category": "models",
+   "publishedAt": "2026-08-22T15:02:53Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
   },
   {
-   "id": "f0ee3c50ea05ba89a8918deed9b3c574898e766909692bdb09b638628e16012a",
-   "title": "I tried to do agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours, but amazingly, the flight simulator worked.",
-   "snippet": "I used LM Studio Bionic with Qwen 3.8 27B Q3_K_S with 57k context. It took a staggering 63 hours to finish coding. After the first prompt &quot;Create a beautiful, relaxing flight simulator in a single HTML page&quot; taking 47.8 hours, it created an html file that showed the title screen that said…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/",
+   "id": "90cb261e26e6d237ee9ec4deca80360cd09c6b099e8fe798566b6a1f52fdcc2b",
+   "title": "Row-Bot v4.8.0 is live",
+   "snippet": "Row-Bot v4.8.0 is now available. This release adds provider-aware reasoning controls, letting each chat keep a valid reasoning choice for the exact model in use. Depending on model support, you can select Provider default, an effort level, Thinking On or Off, or a bounded token budget from desktop,…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv7b2s/rowbot_v480_is_live/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
+     "name": "r/OpenAI",
      "domain": "reddit.com"
-    },
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-21T23:19:10Z",
+   "publishedAt": "2026-08-22T09:01:46Z",
    "imageURL": null,
    "signal": 92,
-   "alert": true
+   "alert": false
+  },
+  {
+   "id": "0a8ccfc666fa944d33d85c5586a1ff9974d83867d59413ac172c003e83ac918e",
+   "title": "Round Hill Music Sues Suno and Anthropic Over AI Training Practices",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQmVldzE0NWJJZHZjc3hyWlk5UFR2U0tUTHpTLXFlUmZkbkpKSzJVM1hiMFZ6bF9rYk4wZTBhRXF1cThaUTdRMV9sQjh6U3RoWVBVWFItWkllQVF6NTRuR0Z3NXMzeHlzRFBRYmdsVnlIVXVRVzNPSVhja1BsMnMzVFpIeFFoYmM?oc=5",
+   "sources": [
+    {
+     "name": "edm.com",
+     "domain": "edm.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T16:09:14Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "583dc81965e5ada6895e67cea80bd5f7116fb75108858fc1a277f956ff47095d",
+   "title": "13 students were arrested after occupying OpenAI’s new D.C. lobbying office for 2 hours.",
+   "snippet": "Wild &#32; submitted by &#32; /u/ImaginaryRea1ity [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv9glb/13_students_were_arrested_after_occupying_openais/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:03:29Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
   },
   {
    "id": "24f2f949a5a2735fd36971b89f1a69b85089def5043578efd841da1e68e335ef",
@@ -752,6 +798,23 @@
    "alert": false
   },
   {
+   "id": "48f4ef089509eb0d1991507651a3c94ce5b85321e4cc4fa4dcfa5f21c7ee55cd",
+   "title": "Feral Flame 狼子-rowshi-",
+   "snippet": "&#32; submitted by &#32; /u/Thin_Ad_8068 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv8hi1/feral_flame_狼子rowshi/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T10:09:53Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
    "id": "df63102a57f71f085d8b9dbe7056b2d1b805bd6c719be0b04c95c0aae862e661",
    "title": "The Evolution of the Agent Harness",
    "snippet": "Models keep absorbing the harness into their weights &#8212; soon, it will be a harness for human attention rather than for the model.",
@@ -765,77 +828,39 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T07:30:52Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!bUv7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F758de9a0-631f-43a0-a331-fd871432a60b_1280x720.png",
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
-   "id": "c43f305bff02a71d3a5ae4eed8b7739ffd27c412baf22affe1176987a9c500ce",
-   "title": "Think you're going to get cheap DDR5 RAM? Think again, even if prices fall, scalper bots now outnumber shoppers 10 to 1 and will keep prices high",
-   "snippet": "&#32; submitted by &#32; /u/DeltaSqueezer [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv86lm/think_youre_going_to_get_cheap_ddr5_ram_think/",
+   "id": "681738846c5891036464ba6466788e741bf886ec69914aa0bad72d17f5b2b72e",
+   "title": "Has anyone else gotten crushed by API costs because of agent context bloat?",
+   "snippet": "I was debugging a customer support agent that kept getting stuck in recursive tool-call loops (e.g., retrying the same failed SQL query 15 times before hitting the max iteration cap), and I realized how brutal the underlying math is. Because frameworks like LangChain append the entire conversation…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv4mwa/has_anyone_else_gotten_crushed_by_api_costs/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
+     "name": "r/OpenAI",
      "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T09:52:52Z",
+   "publishedAt": "2026-08-22T06:24:47Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 90,
    "alert": false
   },
   {
-   "id": "d1829425ff1bd6fe6f80accb5f087bc4820cc24c3682db24266b665315289517",
-   "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
-   "snippet": "Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
+   "id": "f8d053d4a597ac758bf944b53fe68a570b2eb9caebe2efe538f057ec6c1afeb9",
+   "title": "DeepSeek Jailbreak Test: A New Prompt, New Results Concita De Gregorio Malattia (QlyaXrpkQm)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zeHJBT1Jmdnc2MEp3VXRoaVViOTE5Q0lKNkJDa1l6ZG5ja2hDblZwT08wcXBDQ1ViWlVBdGMzalRKbktMcDYwZ0hyeVlkaWtDcS1MVWt1Nzd2S0k?oc=5",
    "sources": [
     {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
+     "name": "Mshale",
+     "domain": "mshale.com"
     }
    ],
    "category": "techniques",
-   "publishedAt": "2026-08-21T17:02:35Z",
-   "imageURL": null,
-   "signal": 91,
-   "alert": true
-  },
-  {
-   "id": "063c55db94213397f2addab39c065b2c70fc667887f1010b15f5d34fe1f783d3",
-   "title": "Llama.cpp version 0.2.0 is out!",
-   "snippet": "You can find the changelog and source code here: https://github.com/ggml-org/llama.cpp/releases/tag/v0.2.0 Associated pre-build is here: https://github.com/ggml-org/llama.cpp/releases/tag/b10566 &#32; submitted by &#32; /u/PhilippeEiffel [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv4mei/llamacpp_version_020_is_out/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T06:23:58Z",
-   "imageURL": null,
-   "signal": 91,
-   "alert": false
-  },
-  {
-   "id": "40b068d0d8a37dcfa8b14acabe37edcc507a4a181942e07c5ae44f70c9967450",
-   "title": "Anthropic’s mega-IPO prep is forcing enterprise buyers to treat AI vendors like long-term critical infrastructure",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUXJmOTNvZUx2MzE0NmVhVFBHaDVkWHoxekw4MWpmVE92bDhMeDBCZWF2Sl9UeWNmSVZwNzhLbUlZemMtNWFnOVRyZk1KMTh6WFFERko2ZWJvTTI1OHY4S01CTTZVZTYydWFQRzFlellIa3JTNHptSWhXNnlsWm9HSVhzUVJfUU9uWUhQeThHd3l4UVlVT2FBYWpXNFpxU2ptR0FxWmpyNmZBX0xoellDNHJSSTJVN01ZQWFDZXRheko5b0pCOHJrVWtuZW52cjE0VVFzUzM3RkdPcFlkWDJZd200M3h3RG9UZjEyR0t3ZkFzcHhjTy0wRnJGNmpHWS1oTjRqWUhR?oc=5",
-   "sources": [
-    {
-     "name": "MarketScale",
-     "domain": "marketscale.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T14:50:42Z",
+   "publishedAt": "2026-08-22T06:24:11Z",
    "imageURL": null,
    "signal": 90,
    "alert": false
@@ -858,87 +883,74 @@
    "alert": false
   },
   {
-   "id": "5978f2c8c66c0d836d3a1a72bcff40b21e8eaa94de8989efb299d97d1818361b",
-   "title": "Need support for llama.cpp with multi GPU",
-   "snippet": "Using llama.cpp I seem to be unable to get my to GPUs working tougether correclty, so I need help somehow. Setup: 96GB RAM, one Blackwell 5000 (48GB) and one 3090 (24GB). I am trying to run the UD-Q3_K_XL quant of Deepseek4 flash which has about 120GB size. Using just the Blackwell I would put most…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv76b7/need_support_for_llamacpp_with_multi_gpu/",
+   "id": "3f53ce8cf4586aac635b2980d516b3f270f8252d4912b514c1f8714bc6c07974",
+   "title": "Encountering Error in ChatGPT Classic on MacOS: approval_policy = \"untrusted\"",
+   "snippet": "Hello, I wanted to report a technical issue, but could not find how, so I decided to post it here. I am currently running a Tahoe 26.6.2 and ChatGPT 26.818.41509. I wanted to do an update to the app, but now the app does not open. I get this message: &quot;ChatGPT failed to start (code = 1, signal…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv41lr/encountering_error_in_chatgpt_classic_on_macos/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
+     "name": "r/OpenAI",
      "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T08:53:58Z",
+   "publishedAt": "2026-08-22T05:52:10Z",
    "imageURL": null,
    "signal": 90,
    "alert": false
   },
   {
-   "id": "5db81ff54bc4f2a15b8e5e722fb17bfa67e15adac885d346b8aff3cd04ff7533",
-   "title": "Florida Man Shares Plans with ChatGPT to Kill His Wife, OpenAI Alerts FBI",
+   "id": "40b068d0d8a37dcfa8b14acabe37edcc507a4a181942e07c5ae44f70c9967450",
+   "title": "Anthropic’s mega-IPO prep is forcing enterprise buyers to treat AI vendors like long-term critical infrastructure",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMWwxbDQ2X2xuMXRxNGU2bEVkbVJiMlcyUkE5U09abkgzWmxxTndSeTR3S3oyVG5GN1phVGlmbGU2azVnMTdLODJnTk5fbWVfUzhQaTVOU280QzM4VHEzbjhuZ09oYmtjZjV1NHloQXRYQUJJRjdyRE9jNzd2V01yY2F6ZWdITXdGaU5IZER4OA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUXJmOTNvZUx2MzE0NmVhVFBHaDVkWHoxekw4MWpmVE92bDhMeDBCZWF2Sl9UeWNmSVZwNzhLbUlZemMtNWFnOVRyZk1KMTh6WFFERko2ZWJvTTI1OHY4S01CTTZVZTYydWFQRzFlellIa3JTNHptSWhXNnlsWm9HSVhzUVJfUU9uWUhQeThHd3l4UVlVT2FBYWpXNFpxU2ptR0FxWmpyNmZBX0xoellDNHJSSTJVN01ZQWFDZXRheko5b0pCOHJrVWtuZW52cjE0VVFzUzM3RkdPcFlkWDJZd200M3h3RG9UZjEyR0t3ZkFzcHhjTy0wRnJGNmpHWS1oTjRqWUhR?oc=5",
    "sources": [
     {
-     "name": "Yahoo",
-     "domain": "yahoo.com"
+     "name": "MarketScale",
+     "domain": "marketscale.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-22T14:30:12Z",
+   "publishedAt": "2026-08-22T14:50:42Z",
    "imageURL": null,
    "signal": 90,
    "alert": false
   },
   {
-   "id": "5d62831769fb32635647dfa3b4e89b4c807c4586c982d9757afef2e6b8eab82f",
-   "title": "Sharp template to NInfer: -42% output tokens, same speed",
-   "snippet": "Sharp is u/peculiar-ragdoll &#39;s system prompt that makes Qwen answer way more tersely without losing correctness. It&#39;s built on top of froggeric&#39;s fixed chat templates for Qwen; several fixes now in the v22.x templates (error-escalation tiers, false retry-loop kills, multi-system…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv3b6o/sharp_template_to_ninfer_42_output_tokens_same/",
+   "id": "d1829425ff1bd6fe6f80accb5f087bc4820cc24c3682db24266b665315289517",
+   "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+   "snippet": "Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T05:12:58Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "50e25805631eb44b0a293d9afdfd8d6db3598e5b3a66a42fa062a1c3a02fb02b",
-   "title": "Netflix tests language model as alternative to hand-built recommendation logic",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOU9tX0tYbjdhU2VxQjZVa2IxVlVkeVJtM2s4Qk9NQURmY1UzaFdFY3pSYk5jR3FIcUE2VWc0alJGeVRSQldjSWR0bXFILW40dlZBN05aVktIUXl0TUlRczIwNFlDbmpSZjdubENuZnFUc001UXkxX1FUejFBLV9SVGNhQ0J5d3puYS1VWlhJM19rVlFxNkl6ek52OGxacUo1ekZjU3JB?oc=5",
-   "sources": [
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    },
     {
-     "name": "the-decoder.com",
-     "domain": "the-decoder.com"
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
    "category": "techniques",
-   "publishedAt": "2026-08-22T07:41:16Z",
+   "publishedAt": "2026-08-21T17:02:35Z",
    "imageURL": null,
    "signal": 89,
    "alert": false
   },
   {
-   "id": "07d19bb9a7b34d164f51a3e18b4847454fcac62833be271f8e746caa9159171c",
-   "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-   "snippet": "Did you think RSI stopped at model training?",
-   "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+   "id": "5a24da06e894b7ad5552d6e9f27cc22ee6883069f652f9e95ffacc3be4ff8cfd",
+   "title": "Desktop projects in mobile",
+   "snippet": "I&#39;m not happy that we can&#39;t view our desktop projects on our mobile devices. Could we maybe suggest that this feature be changed? &#32; submitted by &#32; /u/jiggloopuff [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv6hv0/desktop_projects_in_mobile/",
    "sources": [
     {
-     "name": "Latent Space",
-     "domain": "latent.space"
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T07:36:00Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!Vw9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc661e612-544b-4eaa-9603-78e5f28276b7_1956x1228.png",
+   "category": "tools",
+   "publishedAt": "2026-08-22T08:12:25Z",
+   "imageURL": null,
    "signal": 89,
    "alert": false
   },
@@ -960,20 +972,88 @@
    "alert": false
   },
   {
-   "id": "02e2c04236bdcc24ceffb57a7d339141767c48c63df929a8468a877d90733b1e",
-   "title": "AWS AgentCore Harness Bypass Exposed a Cross-Platform Vulnerability Class in Agent Runtimes",
+   "id": "5db81ff54bc4f2a15b8e5e722fb17bfa67e15adac885d346b8aff3cd04ff7533",
+   "title": "Florida Man Shares Plans with ChatGPT to Kill His Wife, OpenAI Alerts FBI",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcW5iMGZWVXpnanFvemQ0QTFOcE5fbEJnd202SGJSZENjazJFaW5PS3V4WVlwR0N2WmxiT2RJQU1jZm1STmNKMXZGM0VldDE1S29nSW1aZlA2b0hCQ3BNUmtBMUZhRkZySWE0Tm52MUl4ZjF2djFjZnBJeVB5bVhIbDdJLXF0ZXNrcHBELUNFM0FSRWZ4ZlJTR090cFhfdk12VkFUdHdzQmY3X0tkc3Z2cUxUQQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMWwxbDQ2X2xuMXRxNGU2bEVkbVJiMlcyUkE5U09abkgzWmxxTndSeTR3S3oyVG5GN1phVGlmbGU2azVnMTdLODJnTk5fbWVfUzhQaTVOU280QzM4VHEzbjhuZ09oYmtjZjV1NHloQXRYQUJJRjdyRE9jNzd2V01yY2F6ZWdITXdGaU5IZER4OA?oc=5",
    "sources": [
     {
-     "name": "forkast.news",
-     "domain": "forkast.news"
+     "name": "Yahoo",
+     "domain": "yahoo.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T14:30:12Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
+   "id": "ea68b0b8e722bf5e07e72de8a4379eafa690bd6dec4283254cd94173499fc746",
+   "title": "API Discussion: GPT-5.4 Extraction & Judge Loop Dropping Output Consistency from 85% to less than 62%",
+   "snippet": "Looking for architecture and reliability advice regarding structured extraction and evaluation loops with the OpenAI API. Background &amp; Setup: Models: GPT-5.4 for extraction and a separate GPT-5.4 instance as the LLM judge. Hyperparameters: Running on default settings yielded very low…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv2ia3/api_discussion_gpt54_extraction_judge_loop/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T03:14:00Z",
+   "publishedAt": "2026-08-22T04:31:44Z",
    "imageURL": null,
    "signal": 89,
+   "alert": false
+  },
+  {
+   "id": "50e25805631eb44b0a293d9afdfd8d6db3598e5b3a66a42fa062a1c3a02fb02b",
+   "title": "Netflix tests language model as alternative to hand-built recommendation logic",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOU9tX0tYbjdhU2VxQjZVa2IxVlVkeVJtM2s4Qk9NQURmY1UzaFdFY3pSYk5jR3FIcUE2VWc0alJGeVRSQldjSWR0bXFILW40dlZBN05aVktIUXl0TUlRczIwNFlDbmpSZjdubENuZnFUc001UXkxX1FUejFBLV9SVGNhQ0J5d3puYS1VWlhJM19rVlFxNkl6ek52OGxacUo1ekZjU3JB?oc=5",
+   "sources": [
+    {
+     "name": "the-decoder.com",
+     "domain": "the-decoder.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-22T07:41:16Z",
+   "imageURL": null,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "07d19bb9a7b34d164f51a3e18b4847454fcac62833be271f8e746caa9159171c",
+   "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+   "snippet": "Did you think RSI stopped at model training?",
+   "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "domain": "latent.space"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-22T07:36:00Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!Vw9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc661e612-544b-4eaa-9603-78e5f28276b7_1956x1228.png",
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "11e9e1ade4b20b9a081b4090d631bbbec240985030a32f2dda8dfa8f77c4a2d2",
+   "title": "Is this level of Codex usage normal for active software development?",
+   "snippet": "Hello everyone, I’ve been using Codex pretty heavily to build a fairly large software project, and I’m trying to understand whether the amount of usage I’m consuming is normal or if my workflow is unnecessarily expensive. I’m not just using it for occasional coding questions. I use Codex for actual…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv1fws/is_this_level_of_codex_usage_normal_for_active/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T03:36:54Z",
+   "imageURL": null,
+   "signal": 88,
    "alert": false
   },
   {
@@ -990,7 +1070,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T03:14:00Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 88,
    "alert": false
   },
   {
@@ -1011,44 +1091,6 @@
    "alert": false
   },
   {
-   "id": "42eec241c4461931c4d8724d72176f1441701319f3b7b51779b9711a0abc901d",
-   "title": "LFM2.5-DSpark: Up to 3.2x Faster Inference from H100 to MacB",
-   "snippet": null,
-   "url": "https://www.liquid.ai/blog/lfm2.5-dspark",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T17:36:03Z",
-   "imageURL": null,
-   "signal": 88,
-   "alert": false
-  },
-  {
-   "id": "98eb2e54982166b2892539a9038099c685c06335508a4b3a193b17f4a3e869e8",
-   "title": "Embedded AI",
-   "snippet": null,
-   "url": "https://nostarch.com/embedded-ai",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T09:07:26Z",
-   "imageURL": null,
-   "signal": 88,
-   "alert": false
-  },
-  {
    "id": "07d8e627bd3b761a3a18967abda9f7a49b9e9b3e38a7dbdbf4edf47306ca5d6e",
    "title": "Google’s A2A Protocol Joins AAIF, Consolidating the Agent Economy’s Protocol Layer Under One Roof",
    "snippet": null,
@@ -1062,7 +1104,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T02:05:00Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 87,
    "alert": false
   },
   {
@@ -1079,39 +1121,39 @@
    "category": "tools",
    "publishedAt": "2026-08-21T23:09:06Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 87,
    "alert": false
   },
   {
-   "id": "c3bdaf2f6dd5aea9f94e3f93e5e54f83ad8c2a972fa7fa54bb1f66e71694ba2e",
-   "title": "How to give a local LLM/agent access to a \"real\" web browser",
-   "snippet": "I can&#39;t seem to find a good answer to this, my Hermes agent has access to Firecrawl and some other web scrapers for content extraction, but anyone know of a way to let a local LLM drive a &quot;real&quot; web browser? My wife asked me to have Hermes go and look at her LinkedIn profile,…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuykgj/how_to_give_a_local_llmagent_access_to_a_real_web/",
+   "id": "3ca20b09ef8bf2fc353c7dce8f1833fba4489a9c969d6d80f00c576405342c02",
+   "title": "INSTANT suddenly gone?",
+   "snippet": "Got to say, not overly impressed with Sol Light/Med/High on 1.5x for chat, considering that INSTANT is now randomly gone for me... and neither are as snappy... which I depended on for bouncing random stuff into chat as whiteboard... it even got me to accidentally switch to Terra (where the old…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv3cxw/instant_suddenly_gone/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
+     "name": "r/OpenAI",
      "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T01:17:29Z",
+   "publishedAt": "2026-08-22T05:15:33Z",
    "imageURL": null,
    "signal": 87,
    "alert": false
   },
   {
-   "id": "661ee36a579bb854e0178f232078ca565eb14d485fd98c953c04b1b14fe8687b",
-   "title": "How to Set Up an MCP Server for Claude: 13 Steps [2026]",
+   "id": "98eb2e54982166b2892539a9038099c685c06335508a4b3a193b17f4a3e869e8",
+   "title": "Embedded AI",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sdTZoMmxJcUtBVDMwZFRrVVUwUTNTYXg5TkNQWVJhNW9veFZNSFphZmdfMVYwWXozbzFGSmJzUnZhQlFtc194ZzlXM2VhT2cybTRqeHFoWE8xdS1jYWp0Njh3Rkhpc0dKS1FySFhaeEZheHc?oc=5",
+   "url": "https://nostarch.com/embedded-ai",
    "sources": [
     {
-     "name": "tech-insider.org",
-     "domain": "tech-insider.org"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T00:57:55Z",
+   "category": "tools",
+   "publishedAt": "2026-08-22T09:07:26Z",
    "imageURL": null,
    "signal": 87,
    "alert": false
@@ -1142,20 +1184,92 @@
    "alert": false
   },
   {
-   "id": "ca0440614c509f3f83d9a36ab1b5c0be94887426aa86ca2c643b5046b161ced9",
-   "title": "Qwen 3.8 27b - PI AGENT vs OPENCODE - another smaple",
-   "snippet": "That is the second comparison and the last one. I will not be spamming again ;) Continuation from: https://www.reddit.com/r/LocalLLaMA/comments/1vu0u2v/qwen_38_27b_pi_agent_vs_opencode/ That is one of my many tests I make comparing output quality. What is more interesting using a PI Agent results…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuwwww/qwen_38_27b_pi_agent_vs_opencode_another_smaple/",
+   "id": "661ee36a579bb854e0178f232078ca565eb14d485fd98c953c04b1b14fe8687b",
+   "title": "How to Set Up an MCP Server for Claude: 13 Steps [2026]",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sdTZoMmxJcUtBVDMwZFRrVVUwUTNTYXg5TkNQWVJhNW9veFZNSFphZmdfMVYwWXozbzFGSmJzUnZhQlFtc194ZzlXM2VhT2cybTRqeHFoWE8xdS1jYWp0Njh3Rkhpc0dKS1FySFhaeEZheHc?oc=5",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
+     "name": "tech-insider.org",
+     "domain": "tech-insider.org"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-22T00:57:55Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "cc775b5be97286317ee9e4c6b0ea6b6645ed73e64d2098cd1824cba22115e66b",
+   "title": "Ipad app seems to have a bug. Anybody else face this? OS 26.6. But this has been like this at least for half a year. I hate it.",
+   "snippet": "The space gets occupied with blank black space nonetheless even when using the floating keyboard. &#32; submitted by &#32; /u/Potential_Lie_No1 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv2thw/ipad_app_seems_to_have_a_bug_anybody_else_face/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
      "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T00:02:12Z",
+   "publishedAt": "2026-08-22T04:47:54Z",
    "imageURL": null,
-   "signal": 87,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "42eec241c4461931c4d8724d72176f1441701319f3b7b51779b9711a0abc901d",
+   "title": "LFM2.5-DSpark: Up to 3.2x Faster Inference from H100 to MacB",
+   "snippet": null,
+   "url": "https://www.liquid.ai/blog/lfm2.5-dspark",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T17:36:03Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "c3ac0a8c9413873c1dbefc1f5777b95f6d81794e46f781be2d541af1ef3da5e7",
+   "title": "Never Again by Design",
+   "snippet": "&#32; submitted by &#32; /u/Advanced-Cat9927 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv2kuo/never_again_by_design/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T04:35:30Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "5916dd71317de0075571dc92d1dad0438056ba39942e6d77e540edfb0b773ad0",
+   "title": "API Price cut > 20%",
+   "snippet": "I’m sure a price reduction will be welcomed by all but it’ll be interesting to see what the new Google and Grok 4.7 cost. I’m finding that mini 5.4 is still better at following instructions than luna high and terra. &#32; submitted by &#32; /u/Babayaga1664 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vuxlw7/api_price_cut_20/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T00:33:33Z",
+   "imageURL": null,
+   "signal": 86,
    "alert": false
   },
   {
@@ -1172,24 +1286,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T12:07:30Z",
    "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "b518b1bb1b4168ef4670a4fe39fe8fed35c04e37f8da624acf572ac4718e9df1",
-   "title": "This is why I run locally.",
-   "snippet": "It was only a matter of time... &#32; submitted by &#32; /u/Retumbo77 [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv1qfs/this_is_why_i_run_locally/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T03:52:00Z",
-   "imageURL": null,
-   "signal": 86,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1206,7 +1303,24 @@
    "category": "models",
    "publishedAt": "2026-08-22T02:56:11Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "d71dd3e753f3c528411f40bfd6aa687dad44321b96dbd6fe28941b50749a888e",
+   "title": "Changes in Sol High across Chat/Codex",
+   "snippet": "To preface, I am not a member in any of the subreddits but I get constantly shown similar stuff on my feed. So. Can we get a baseline of where things are, collectively, without insulting anyone&#39;s use-cases and the rest? As of now, which light years away from July, my experience: Chat (Sol…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv0fkz/changes_in_sol_high_across_chatcodex/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T02:47:10Z",
+   "imageURL": null,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1227,56 +1341,22 @@
    "category": "tools",
    "publishedAt": "2026-08-21T02:37:47Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 85,
    "alert": false
   },
   {
-   "id": "94017a79c7807101b92cb4e38aa9751d9f9afb2bfeaf5f048c0d4c894557903c",
-   "title": "16 GB VRAM purgatory discussion thread",
-   "snippet": "What models and configs are we using? Please share here On windows, I am using this copium pared down model https://huggingface.co/Bucoid/Qwen3.8-27B-Uncensored-IQ4-XS-MTP-16GB-VRAM-GGUF with MTP disabled, q4 k/q4 v mmproj banished to CPU/RAM and a small ub to save whatever context I can (90k-100k)…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuzz3j/16_gb_vram_purgatory_discussion_thread/",
+   "id": "d1a6e483fb4a7de5412686a6bc9f9478738e3613f5a9279001d9b3f84c2fd914",
+   "title": "gpt-reserve what is this?",
+   "snippet": "I just noticed this in my usage, though I haven&#39;t come across anything new in my model picker. What is this? &#32; submitted by &#32; /u/20240412 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vuzuuh/gptreserve_what_is_this/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
+     "name": "r/OpenAI",
      "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T02:24:22Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
-   "id": "434547e2ee782bea377f0e2e2d37d2e10ddfff9fa1f5c94d6e76f7fce337b9bc",
-   "title": "I'm really hoping we're in 2026's 2-month-gap between QwQ and Qwen3 right now",
-   "snippet": "QwQ was genuine next-gen performance usable on local hardware, but the massive required context (it&#39;s reasoning style was akin to &quot;if I say every possible word, I&#39;ll notice the right one!&quot; ) kinda made it unusable for agentic coding. It was ~2 months later that Qwen3-32B came out…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vutzeu/im_really_hoping_were_in_2026s_2monthgap_between/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T21:58:51Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
-   "id": "7c3227e89061b9d288a7fadec7c2dd94b9bb3c07e204271e884d49b2a5185d63",
-   "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
-   "snippet": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T21:25:50Z",
+   "publishedAt": "2026-08-22T02:18:36Z",
    "imageURL": null,
    "signal": 85,
    "alert": false
@@ -1295,7 +1375,24 @@
    "category": "tools",
    "publishedAt": "2026-08-21T11:48:05Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 84,
+   "alert": false
+  },
+  {
+   "id": "7c3227e89061b9d288a7fadec7c2dd94b9bb3c07e204271e884d49b2a5185d63",
+   "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+   "snippet": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-21T21:25:50Z",
+   "imageURL": null,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1311,74 +1408,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-21T21:03:32Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "928f73f8a24a08b690a5043505b4b96446147720d834f61d3cef90c4714286a2",
-   "title": "Qwen 3.8 Low and Medium are goated",
-   "snippet": "Artificial Analysis just benchmarked them and the scores are crazy good, proving the earlier success wasn&#39;t only enabled by overthinking. &#32; submitted by &#32; /u/Eyelbee [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vus4ko/qwen_38_low_and_medium_are_goated/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T20:45:14Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "380abf0a94830dbb63998e8a24912575c1112946a362708ace8ac62848325581",
-   "title": "Binance Opens Trading to AI Agents With New Agent OS Platform",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnRDbHdjT0g3dWdlTXJDckRnVVlVb0JZQ2s5UmJycjV4M0ROWGdzMXh1ZUFwTDVWVWFVVWc4aW5ta2I2eEpwbnVVZHFTX2p3dnVvZm13LVUyeGFhdXlkNHdfbXF2bjNzUTJyWDJIRWxqeFAxSEdPWVhBeUd4eWxUam1mUFJqOWNoeXNtZ0hiVkVmSUVrbFhsYkFZaTlnelk?oc=5",
-   "sources": [
-    {
-     "name": "CoinCodex",
-     "domain": "coincodex.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T08:07:00Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "0920be117e7463f0da2dd21c7eda92c52aef4fdfe1f7b7249c4b22f5840aad13",
-   "title": "IBM And Together AI Sign $240 Million Multi-Year Deal For Large-Scale NVIDIA B300 AI Inference Cluster",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT0ZaSlhaSDN3Mmt3eXI1dmlYZXhhcDE5aXJMd09PT1RUUUVvZFdDUTZhWlhSVnVKZ1RzdG5DUUNJVXc2WE5zYVVaQk11ZDFHWVgzR3NrZEdmb1B2SGd4dlVZT3UtY1pJTDJqclFiemRaUnhIQWRld2RNZ1JpdURzNk5pQkwwZVhXckxTbER4ek41WEFpM0xLUi1SbFFGcGlyVWF0ak0xYmpiV19Wd2xnTUdiMW9RUVpLa2NobVZ1eDUzN2fSAcMBQVVfeXFMTk9GWkpYWkgzdzJrd3lyNXZpWGV4YXAxOWlyTHdPT09UVFFFb2RXQ1E2YVpYUlZ1SmdUc3RuQ1FDSVV3NlhOc2FVWkJNdWQxR1lYM0dza2RHZm9QdkhneHZVWU91LWNaSUwyanJRYnpkWlJ4SEFkZXdkTWdSaXVEczZOaUJMMGVYV3JMU2xEeHpONVhBaTNMS1ItUmxRRnBpclVhdGpNMWJqYldfVndsZ01HYjFvUVFaS2tjaG1WdXg1Mzdn?oc=5",
-   "sources": [
-    {
-     "name": "Pulse 2.0",
-     "domain": "pulse2.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T20:04:36Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "e9a3e8082436cd47f7d7be46cfbaa3c06409d3780010133bf0bd679e5bdc18f4",
-   "title": "What we learned about letting agents into a production database",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUEhjb2V1ZVNOR1FocW1Cd01adXQ1cFN3ZzE3Vk9kU2hrcE5NX3FXY0dWM19uRGFtWlRWOFBBSFpSWmxHRUFsVm8zcXl5dVV2RVhuVXlMcEkzbkpBX1B6dDFqVllLby1naUVVOUpWVG5HNjNJeVFpbTJfbFNBQXlscm9lbFJKeFNxQkhPQW9sRFlFcXdFeWJHRzdleDhObTlX?oc=5",
-   "sources": [
-    {
-     "name": "Oracle Blogs",
-     "domain": "blogs.oracle.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T19:59:42Z",
    "imageURL": null,
    "signal": 84,
    "alert": false
@@ -1401,35 +1430,18 @@
    "alert": false
   },
   {
-   "id": "c1a0d115e5b65684d523c488f89851d4b2fe35a0eb423e11a3e729e3e7854490",
-   "title": "Strix Halo (8060S / gfx1151), Qwen-3.8-27B @ Q8 and Q6 UD v3, up to 256K ctx, llama.cpp, DFlash2, vision, real workloads quality and steady performances, optimized recipes, ...",
-   "snippet": "Hi fellows fully-local halos, after manually following existing guides, I decided to build an LLM API endpoint installation and optimization guide that works even when autonomously followed by my pi agent, so I can install/experiment/reinstall easily and without babysitting. Q8 is my default…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuqwd8/strix_halo_8060s_gfx1151_qwen3827b_q8_and_q6_ud/",
+   "id": "7b0a706859af12a6704078b49c01c5ff2cdfa9fe621aea6fadaf07dcc917120b",
+   "title": "Claude Max 5 alternate",
+   "snippet": "Have used Claude max 5 plan for couple of months. I wanted to try another tool (laptop) for similar purpose. Building a software (using Claude Code). Lot of time goes into planning. Other use-case is i ask it to do research (mobile app - Claude chat), including web search. Any suggestions? My…",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vurmcm/claude_max_5_alternate/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
+     "name": "r/OpenAI",
      "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-21T19:58:02Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "4ea07101daf1d60ea8415bb931a3fda93964bbde47273b4998b12a69241a5829",
-   "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-   "snippet": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
-   "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T19:43:39Z",
+   "publishedAt": "2026-08-21T20:25:26Z",
    "imageURL": null,
    "signal": 84,
    "alert": false
@@ -1452,6 +1464,57 @@
    "alert": false
   },
   {
+   "id": "0920be117e7463f0da2dd21c7eda92c52aef4fdfe1f7b7249c4b22f5840aad13",
+   "title": "IBM And Together AI Sign $240 Million Multi-Year Deal For Large-Scale NVIDIA B300 AI Inference Cluster",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT0ZaSlhaSDN3Mmt3eXI1dmlYZXhhcDE5aXJMd09PT1RUUUVvZFdDUTZhWlhSVnVKZ1RzdG5DUUNJVXc2WE5zYVVaQk11ZDFHWVgzR3NrZEdmb1B2SGd4dlVZT3UtY1pJTDJqclFiemRaUnhIQWRld2RNZ1JpdURzNk5pQkwwZVhXckxTbER4ek41WEFpM0xLUi1SbFFGcGlyVWF0ak0xYmpiV19Wd2xnTUdiMW9RUVpLa2NobVZ1eDUzN2fSAcMBQVVfeXFMTk9GWkpYWkgzdzJrd3lyNXZpWGV4YXAxOWlyTHdPT09UVFFFb2RXQ1E2YVpYUlZ1SmdUc3RuQ1FDSVV3NlhOc2FVWkJNdWQxR1lYM0dza2RHZm9QdkhneHZVWU91LWNaSUwyanJRYnpkWlJ4SEFkZXdkTWdSaXVEczZOaUJMMGVYV3JMU2xEeHpONVhBaTNMS1ItUmxRRnBpclVhdGpNMWJqYldfVndsZ01HYjFvUVFaS2tjaG1WdXg1Mzdn?oc=5",
+   "sources": [
+    {
+     "name": "Pulse 2.0",
+     "domain": "pulse2.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-21T20:04:36Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
+   "id": "e9a3e8082436cd47f7d7be46cfbaa3c06409d3780010133bf0bd679e5bdc18f4",
+   "title": "What we learned about letting agents into a production database",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUEhjb2V1ZVNOR1FocW1Cd01adXQ1cFN3ZzE3Vk9kU2hrcE5NX3FXY0dWM19uRGFtWlRWOFBBSFpSWmxHRUFsVm8zcXl5dVV2RVhuVXlMcEkzbkpBX1B6dDFqVllLby1naUVVOUpWVG5HNjNJeVFpbTJfbFNBQXlscm9lbFJKeFNxQkhPQW9sRFlFcXdFeWJHRzdleDhObTlX?oc=5",
+   "sources": [
+    {
+     "name": "Oracle Blogs",
+     "domain": "blogs.oracle.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T19:59:42Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
+   "id": "4ea07101daf1d60ea8415bb931a3fda93964bbde47273b4998b12a69241a5829",
+   "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+   "snippet": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+   "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-21T19:43:39Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
    "id": "507a82077a8d3b79bacf45b6cd20a46eda4aa5e0a69f0517506339efdaca2f06",
    "title": "LTX Releases Open-Weights World Model LTX-2.5",
    "snippet": null,
@@ -1464,57 +1527,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-21T19:37:00Z",
-   "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
-   "id": "b78b9dbecf9df60ac5ecbc5e50b7854ea4452ce9f8c4a0e90ca6ca5b8c5f0eee",
-   "title": "What’s the best general chat “harness” in Aug 2016?",
-   "snippet": "Lots of discussion about coding harnesses, and there’s probably a lot of overlap, but for those allergic to CLI or even TUIs, but still think that tool calling and agentic use can make their general chat lives easier, what local front ends have you landed on? I’m still using OpenWebUI, been…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vupzd7/whats_the_best_general_chat_harness_in_aug_2016/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T19:23:08Z",
-   "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
-   "id": "490e480ba887e67586d1d0ae55880c374d566ee6d4490cce693fb030d55a2dc6",
-   "title": "GLM-5.3: How Z.ai Achieved 6× Coding Gains Without Retraining",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVFVyelJXUk5GeW1vS1Y5aUpwd2tWRldwZy1mZWJydGJkSmpFU20tWjVWSkV4ckNHd0E1TTFpQ2tFTDZvQmhDMnVLSk1FZXh6aXhub1N5dm84QmtnRG8xbjU4a3NUV1QxbTR1cVFqZEFQYTZMbm84YVAzdWJPY19Scg?oc=5",
-   "sources": [
-    {
-     "name": "Intelligent Living",
-     "domain": "intelligentliving.co"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T19:10:23Z",
-   "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
-   "id": "8615926edd750afc43421ec83c7bd9a7859d709d69a4565e985d14e288bae3c4",
-   "title": "Qwen3.8-27B on an RTX 5060 Ti 16GB: IQ4 vs Q8, 64K context, MTP, vision, and agent benchmarks",
-   "snippet": "I’ve been testing Qwen3.8-27B as a possible replacement for the Qwen3.5-9B that I have been running on RTX 5060Ti 16G. The goal was not just maximum tokens/sec, but useful context capacity, reliable tool calling, multi-turn behavior, and vision on a single 16GB GPU for true agentic usage. Its not…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vupiyh/qwen3827b_on_an_rtx_5060_ti_16gb_iq4_vs_q8_64k/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T19:06:22Z",
    "imageURL": null,
    "signal": 83,
    "alert": false
@@ -1622,6 +1634,23 @@
    "alert": false
   },
   {
+   "id": "88f4d760d0898816101086f79d0e7d6a2a227a449091071ab6cf879dfffd4819",
+   "title": "Unexpected log-outs from ChatGPT/Codex windows APP",
+   "snippet": "Anyone else having issues with continue Codex log-outs? &#32; submitted by &#32; /u/Ok_Bag_7550 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vutorx/unexpected_logouts_from_chatgptcodex_windows_app/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T21:47:01Z",
+   "imageURL": null,
+   "signal": 81,
+   "alert": false
+  },
+  {
    "id": "d8c52d9b1d03141e51f5a140f00119250555199e3253c0fe942b8f6874c87750",
    "title": "Stop Making TUIs",
    "snippet": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing. I wrote about my vibe-coded bandwidth and GPU monitoring macOS task…",
@@ -1634,23 +1663,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-21T16:07:32Z",
-   "imageURL": null,
-   "signal": 81,
-   "alert": false
-  },
-  {
-   "id": "807ef9c2e44da735451da31e0cba2e6f21a1f03f150031d7c549ae00832ff86d",
-   "title": "Show HN: Huzzah – a novel approach to coding with AI",
-   "snippet": null,
-   "url": "https://www.danielvaughn.dev/posts/huzzah/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T19:05:36Z",
    "imageURL": null,
    "signal": 81,
    "alert": false
@@ -1673,18 +1685,18 @@
    "alert": false
   },
   {
-   "id": "a94634f47aaec5b9ef2cbba03fc98d5051d010c70058c40fea4dc8cf133f327f",
-   "title": "Qwen3.8-27B different thinking levels",
-   "snippet": "Even the low preset is better than Qwen 3.7 plus or Qwen3.6-27B reasoning &#32; submitted by &#32; /u/Tall_Abrocoma_3533 [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vusds8/qwen3827b_different_thinking_levels/",
+   "id": "807ef9c2e44da735451da31e0cba2e6f21a1f03f150031d7c549ae00832ff86d",
+   "title": "Show HN: Huzzah – a novel approach to coding with AI",
+   "snippet": null,
+   "url": "https://www.danielvaughn.dev/posts/huzzah/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-21T20:55:11Z",
+   "publishedAt": "2026-08-20T19:05:36Z",
    "imageURL": null,
    "signal": 81,
    "alert": false
@@ -1704,23 +1716,6 @@
    "publishedAt": "2026-08-21T15:06:26Z",
    "imageURL": null,
    "signal": 81,
-   "alert": false
-  },
-  {
-   "id": "e7d3d226bff5a60c0bb154bbe44097190c8ad36e76fac1f3d1e85797da11a4e9",
-   "title": "I feel like I finally graduated.",
-   "snippet": "I finally made the move from LM Studio to vLLM thanks to this post https://www.reddit.com/r/LocalLLaMA/s/NmS9CgHvqz . I may not know what it all means yet but I’m going to start diving into the docs to learn as much as I can. I’m running an endpoint on each of my 3090s one for chat and one for…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vurjwc/i_feel_like_i_finally_graduated/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T20:22:48Z",
-   "imageURL": null,
-   "signal": 80,
    "alert": false
   },
   {
@@ -1813,23 +1808,6 @@
    "alert": false
   },
   {
-   "id": "7e5ae06946167288f98cf08f8472ac7e2ce8469fa0ce43597c8d0721e5c42c71",
-   "title": "Dutch regulator fines Uber €825M for letting AI deactivate driver accounts",
-   "snippet": null,
-   "url": "https://nltimes.nl/2026/08/21/dutch-regulator-fines-uber-eu825-mil-letting-algorithm-deactivate-drivers-accounts",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T11:27:29Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
    "id": "f034ee1587ce0876cae192d1fc040203e0d17858ffb1a2dd004d467328dd3875",
    "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
    "snippet": null,
@@ -1868,23 +1846,6 @@
    "alert": false
   },
   {
-   "id": "de986e8070f5d7064e1f12370a4699b1b411f5f0d10fa7bf288bcc0c99d95013",
-   "title": "No Product Manufacturing: How to Achieve 8 Billion Yuan in Sales",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jeFBua2ZvWHZ2TDVTbG9kd01pOFV2MEhsSHNYYUNrQzhGdXp3TVQyNWR5cmNjRUdwOUlvV2VqNEk5NmFaSEpIdmk4XzJzNlBrVFEw?oc=5",
-   "sources": [
-    {
-     "name": "36 Kr",
-     "domain": "eu.36kr.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T02:54:19Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
    "id": "c8b319a4e6300993ec583ae0faf23c0564eb37261e75901e6ca4664aad363f9a",
    "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
    "snippet": "Large language models often fail to answer questions about a bounded document collection when the source documents are not retrieved at inference time. We study this setting as document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free question…",
@@ -1906,6 +1867,23 @@
    "alert": false
   },
   {
+   "id": "de986e8070f5d7064e1f12370a4699b1b411f5f0d10fa7bf288bcc0c99d95013",
+   "title": "No Product Manufacturing: How to Achieve 8 Billion Yuan in Sales",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jeFBua2ZvWHZ2TDVTbG9kd01pOFV2MEhsSHNYYUNrQzhGdXp3TVQyNWR5cmNjRUdwOUlvV2VqNEk5NmFaSEpIdmk4XzJzNlBrVFEw?oc=5",
+   "sources": [
+    {
+     "name": "36 Kr",
+     "domain": "eu.36kr.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T02:54:19Z",
+   "imageURL": null,
+   "signal": 79,
+   "alert": false
+  },
+  {
    "id": "aef1930699d916786266526a6d158d5c62d88448cbf07167828d648cb020f7ed",
    "title": "Major YouTube creators are facing backlash for accepting AI money",
    "snippet": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch…",
@@ -1918,6 +1896,40 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-21T13:37:52Z",
+   "imageURL": null,
+   "signal": 79,
+   "alert": false
+  },
+  {
+   "id": "7e5ae06946167288f98cf08f8472ac7e2ce8469fa0ce43597c8d0721e5c42c71",
+   "title": "Dutch regulator fines Uber €825M for letting AI deactivate driver accounts",
+   "snippet": null,
+   "url": "https://nltimes.nl/2026/08/21/dutch-regulator-fines-uber-eu825-mil-letting-algorithm-deactivate-drivers-accounts",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:27:29Z",
+   "imageURL": null,
+   "signal": 79,
+   "alert": false
+  },
+  {
+   "id": "5eb6856f4f9ff7d6f2ce7c01e60936a0b22d7f6158e3fe4f96eefe81abcf3ca0",
+   "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+   "snippet": null,
+   "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T13:43:33Z",
    "imageURL": null,
    "signal": 78,
    "alert": false
@@ -1935,27 +1947,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-21T05:20:50Z",
-   "imageURL": null,
-   "signal": 78,
-   "alert": false
-  },
-  {
-   "id": "30ed338aa1befde7ba5753342c042ff3cdde49eb0087d7cab3d38674244fb3ac",
-   "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
-   "snippet": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
-   "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    },
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T16:07:26Z",
    "imageURL": null,
    "signal": 78,
    "alert": false
@@ -2008,7 +1999,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T11:00:53Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/zuckoff-glasshole-1152x648.jpg",
-   "signal": 77,
+   "signal": 78,
    "alert": false
   },
   {
@@ -2093,7 +2084,7 @@
    "category": "tools",
    "publishedAt": "2026-08-20T15:26:02Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 77,
    "alert": false
   },
   {
@@ -2178,7 +2169,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2216,27 +2207,6 @@
    "alert": false
   },
   {
-   "id": "b26ec23879c13b42dd868f69597824477ae71fe9b0285eb90563f0dfc343459e",
-   "title": "How Fanatics Betting and Gaming built a multi-agent customer support system",
-   "snippet": "Fanatics Betting and Gaming built a multi-agent customer support system on AWS to handle the complexity of sports betting: state-specific rules, real-time responsible gaming, and traffic spikes during major sporting events. This post walks through the architecture, the AWS services involved, and…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/how-fanatics-betting-and-gaming-built-a-multi-agent-customer-support-system/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T20:40:45Z",
-   "imageURL": null,
-   "signal": 75,
-   "alert": false
-  },
-  {
    "id": "d3e3233312d153049ed6ca829d20164ff78578b559abd80f710ea1ff2dbd654e",
    "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
    "snippet": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. Our previous work, FlashPrefill, mitigates this cost through instantaneous pattern discovery and max-based dynamic thresholding; however, it remains an algorithmic prototype that is still distant from production deployment. In this paper, we present FlashPrefill V2, which evolves FlashPrefill from a prototype toward practical long-context serving along three dimensions. First, we introduce a mean correction term that effectively suppresses the approximation error, keeping performance degradation manageable even at extreme sparsity levels. Second, we redesign the sparse attention operator with PackGQA memory access, warp specialization, and pingpong pipelining, fully aligning with the latest FlashAttention-3/4 implementations and supporting FP8 inference to meet practical quantization requirements. Third, FlashPrefill V2 natively supports paged KV cache and continuous batching, allowing integration as an attention backend in modern inference frameworks such as SGLang. Extensive evaluations on NVIDIA H20 GPUs---among the most widely deployed inference accelerators---demonstrate that FlashPrefill V2 delivers up to 47.26x and 27.19x speedups over FlashAttention-2 at 128K context length under FP8 and BF16 precision, respectively, and, in FP8, still achieves a 30.49x speedup against an FA3/4-aligned dense baseline.",
@@ -2267,7 +2237,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T19:18:21Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2284,7 +2254,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:59:57Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2369,7 +2339,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:53:59Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2424,6 +2394,23 @@
    "alert": false
   },
   {
+   "id": "c021417a74df503f721cc81a985ab021043f735f20964759a58269b4451d0ae4",
+   "title": "Repo0: Design-Driven Zero-to-All Code Generation",
+   "snippet": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language requirements while maintaining a modular repository architecture throughout development. We present Repo0, a continuous structural evolution framework for zero-to-all code generation. Repo0 maintains an explicit architectural state instantiated as a Dual-Directed-Acyclic-Graph (Dual-DAG), consisting of a requirement-level DAG, a component-level DAG, and their alignment relation. Starting from natural-language requirements, it iteratively evolves component boundaries through structural actions guided by modularity metrics until structural convergence, after which the converged architecture guides test-driven development code generation. We evaluate Repo0 on six real-world repositories from RepoCraft using GPT-5 mini and DeepSeek V3.2. Repo0 achieves the highest Functionality Coverage and Pass Rate across all settings. Compared with RPG, the strongest repository-planning baseline, Repo0 improves Functionality Coverage by up to 20.08 percentage points and Pass Rate by up to 29.74 percentage points. Ablation and structural-evolution analyses further demonstrate the importance of the Dual-DAG architectural state, modularity-guided structural evolution, and explicit structural convergence.",
+   "url": "https://huggingface.co/papers/2608.19854",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T00:00:00Z",
+   "imageURL": null,
+   "signal": 73,
+   "alert": false
+  },
+  {
    "id": "c6d3a32289683482335f6e57c9200cefaf7cbea5a41ca18578f01e8f4a4676a0",
    "title": "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI",
    "snippet": "The standard objection to full automation is demand-side: if humans earn nothing, who buys the output? This confuses an accounting role with a biological species. We model a post-AGI economy in which corporations own populations of AI and robotic agents that are both producers and consumers of…",
@@ -2454,7 +2441,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T16:24:12Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2470,23 +2457,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-20T16:24:09Z",
-   "imageURL": null,
-   "signal": 72,
-   "alert": false
-  },
-  {
-   "id": "c021417a74df503f721cc81a985ab021043f735f20964759a58269b4451d0ae4",
-   "title": "Repo0: Design-Driven Zero-to-All Code Generation",
-   "snippet": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language requirements while maintaining a modular repository architecture throughout development. We present Repo0, a continuous structural evolution framework for zero-to-all code generation. Repo0 maintains an explicit architectural state instantiated as a Dual-Directed-Acyclic-Graph (Dual-DAG), consisting of a requirement-level DAG, a component-level DAG, and their alignment relation. Starting from natural-language requirements, it iteratively evolves component boundaries through structural actions guided by modularity metrics until structural convergence, after which the converged architecture guides test-driven development code generation. We evaluate Repo0 on six real-world repositories from RepoCraft using GPT-5 mini and DeepSeek V3.2. Repo0 achieves the highest Functionality Coverage and Pass Rate across all settings. Compared with RPG, the strongest repository-planning baseline, Repo0 improves Functionality Coverage by up to 20.08 percentage points and Pass Rate by up to 29.74 percentage points. Ablation and structural-evolution analyses further demonstrate the importance of the Dual-DAG architectural state, modularity-guided structural evolution, and explicit structural convergence.",
-   "url": "https://huggingface.co/papers/2608.19854",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
    "signal": 72,
    "alert": false
@@ -2539,7 +2509,7 @@
    "category": "tools",
    "publishedAt": "2026-08-20T14:08:09Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2556,7 +2526,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T15:37:00Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2628,7 +2598,24 @@
    "category": "models",
    "publishedAt": "2026-08-20T14:00:00Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 71,
+   "alert": false
+  },
+  {
+   "id": "6452651b061fa432627fd0fcadee45cf29bd600bbae3e29815e24de046f2ef83",
+   "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+   "snippet": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent program organization units (POUs) for them. Whether such logic integrates into an existing PLC project and then runs correctly has been checked only in limited tests. We present SemaPLC, a project-grounded and verification-gated agent harness assembled from conventional tools but governed by a strict completion rule. Rather than stopping when the model judges its own output adequate, SemaPLC declares a task complete only when logged external checks confirm it. Those checks cover the specification, the compilation, and the behavior on a live runtime. On 117 independent-POU tasks matching existing benchmarks, it attains the highest strict verified pass rate on all seven models (72.6\\% mean). On a project-context track of 65 tasks whose generated logic must compile and run inside a real project, it attains the highest mean on integrated compilation, static behavior, and dynamic behavior. Of the three layers, dynamic behavior is the most revealing. We measure it by deploying the generated and the reference logic to a live PLC runtime and comparing their executed traces. All methods fall within 10 static points of one another, whereas dynamic scores separate them sharply, from 22.4 to 31.4 for the baselines against 52.2 for SemaPLC. Overall, our verification-gated harness raises the mean at every layer and most sharply at runtime. Execution, not static scoring, is the faithful test of whether generated control logic actually works. SemaPLC is open-sourced at https://github.com/midea-ai/SemaPLC.",
+   "url": "https://huggingface.co/papers/2608.18565",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-19T00:00:00Z",
+   "imageURL": null,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2649,10 +2636,10 @@
    "alert": false
   },
   {
-   "id": "6452651b061fa432627fd0fcadee45cf29bd600bbae3e29815e24de046f2ef83",
-   "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
-   "snippet": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent program organization units (POUs) for them. Whether such logic integrates into an existing PLC project and then runs correctly has been checked only in limited tests. We present SemaPLC, a project-grounded and verification-gated agent harness assembled from conventional tools but governed by a strict completion rule. Rather than stopping when the model judges its own output adequate, SemaPLC declares a task complete only when logged external checks confirm it. Those checks cover the specification, the compilation, and the behavior on a live runtime. On 117 independent-POU tasks matching existing benchmarks, it attains the highest strict verified pass rate on all seven models (72.6\\% mean). On a project-context track of 65 tasks whose generated logic must compile and run inside a real project, it attains the highest mean on integrated compilation, static behavior, and dynamic behavior. Of the three layers, dynamic behavior is the most revealing. We measure it by deploying the generated and the reference logic to a live PLC runtime and comparing their executed traces. All methods fall within 10 static points of one another, whereas dynamic scores separate them sharply, from 22.4 to 31.4 for the baselines against 52.2 for SemaPLC. Overall, our verification-gated harness raises the mean at every layer and most sharply at runtime. Execution, not static scoring, is the faithful test of whether generated control logic actually works. SemaPLC is open-sourced at https://github.com/midea-ai/SemaPLC.",
-   "url": "https://huggingface.co/papers/2608.18565",
+   "id": "5f6447ddab3a917a59b395e758230231f3d8d1936aea0c8f5b214c1ba8c12e0b",
+   "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+   "snippet": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in the original sources. We present FACET (Fine-grained Agentic Construction of Executable Tasks), a framework that addresses both information preservation and cross-artifact consistency. FACET reconstructs related agent skills into coherent, information-rich scenarios, then realizes and repairs the execution environment before generating the final task artifacts. The resulting container state serves as shared grounding for the instruction, solution, and verifier, while execution-based validation and targeted repair correct artifact-specific failures without unnecessarily regenerating valid components. FACET produces complex terminal tasks with dense executable checks, and successful trajectories collected from these tasks provide effective, data-efficient supervision. Fine-tuning models across multiple scales consistently improves performance on Terminal-Bench 2.1, while analyses of alternative generation schemes support the importance of environment-grounded construction for task validity and solution-verifier alignment. These results establish source-intent preservation and shared executable-state grounding as key principles for scalable terminal-task synthesis.",
+   "url": "https://huggingface.co/papers/2608.18580",
    "sources": [
     {
      "name": "Hugging Face",
@@ -2666,10 +2653,10 @@
    "alert": false
   },
   {
-   "id": "5f6447ddab3a917a59b395e758230231f3d8d1936aea0c8f5b214c1ba8c12e0b",
-   "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
-   "snippet": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in the original sources. We present FACET (Fine-grained Agentic Construction of Executable Tasks), a framework that addresses both information preservation and cross-artifact consistency. FACET reconstructs related agent skills into coherent, information-rich scenarios, then realizes and repairs the execution environment before generating the final task artifacts. The resulting container state serves as shared grounding for the instruction, solution, and verifier, while execution-based validation and targeted repair correct artifact-specific failures without unnecessarily regenerating valid components. FACET produces complex terminal tasks with dense executable checks, and successful trajectories collected from these tasks provide effective, data-efficient supervision. Fine-tuning models across multiple scales consistently improves performance on Terminal-Bench 2.1, while analyses of alternative generation schemes support the importance of environment-grounded construction for task validity and solution-verifier alignment. These results establish source-intent preservation and shared executable-state grounding as key principles for scalable terminal-task synthesis.",
-   "url": "https://huggingface.co/papers/2608.18580",
+   "id": "7b4fdf363d478377950c511297d16be2d72b6ffb0e852c8bfd77ac36174d5c65",
+   "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
+   "snippet": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, training solely on self-generated feedback can reinforce existing biases and suboptimal behaviors, reduce response diversity, and ultimately lead to homogenized responses and training collapse. In this work, we show that unsupervised reasoning can emerge through cooperative multi-agent training. We introduce Co-RL, a framework in which multiple decoupled models, sharing no parameters, are simultaneously optimized through RL using rewards derived from their peers. We further show that increasing cohort diversity, through heterogeneous model families, sizes, and rephrased training samples, reduces the correlated errors that drive self-reinforcing feedback loops. This diversity consistently improves reasoning performance, maintains behavioral diversity, and mitigates training collapse. Across text-only and multimodal domains, Co-RL consistently outperforms the base models and prior label-free approaches, while matching or surpassing supervised methods, without access to any ground-truth labels. Concretely, Co-RL yields average gains of 3.0-8.6% across seven text-only benchmarks for LLMs and 2.3-7.2% across four multimodal benchmarks for VLMs. Code is available at https://github.com/DrStranded/Co-RL.",
+   "url": "https://huggingface.co/papers/2608.17253",
    "sources": [
     {
      "name": "Hugging Face",
@@ -2700,23 +2687,6 @@
    "alert": false
   },
   {
-   "id": "7b4fdf363d478377950c511297d16be2d72b6ffb0e852c8bfd77ac36174d5c65",
-   "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
-   "snippet": "Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce as reasoning capabilities advance beyond what humans can reliably evaluate. Self-rewarding RL reduces this dependence by enabling models to derive reward signals from their own completions. However, training solely on self-generated feedback can reinforce existing biases and suboptimal behaviors, reduce response diversity, and ultimately lead to homogenized responses and training collapse. In this work, we show that unsupervised reasoning can emerge through cooperative multi-agent training. We introduce Co-RL, a framework in which multiple decoupled models, sharing no parameters, are simultaneously optimized through RL using rewards derived from their peers. We further show that increasing cohort diversity, through heterogeneous model families, sizes, and rephrased training samples, reduces the correlated errors that drive self-reinforcing feedback loops. This diversity consistently improves reasoning performance, maintains behavioral diversity, and mitigates training collapse. Across text-only and multimodal domains, Co-RL consistently outperforms the base models and prior label-free approaches, while matching or surpassing supervised methods, without access to any ground-truth labels. Concretely, Co-RL yields average gains of 3.0-8.6% across seven text-only benchmarks for LLMs and 2.3-7.2% across four multimodal benchmarks for VLMs. Code is available at https://github.com/DrStranded/Co-RL.",
-   "url": "https://huggingface.co/papers/2608.17253",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T00:00:00Z",
-   "imageURL": null,
-   "signal": 69,
-   "alert": false
-  },
-  {
    "id": "bdb698ec663c3ddc49e95de324b6893f82fa6817ab1ad97686af841a5324c170",
    "title": "Google Discover is getting an AI chatbot-tuned feed",
    "snippet": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the…",
@@ -2730,7 +2700,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T21:50:22Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2819,7 +2789,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T18:20:35Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2904,6 +2874,23 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:35:26Z",
    "imageURL": null,
+   "signal": 68,
+   "alert": false
+  },
+  {
+   "id": "2094e426acad91e0a3246a067bd87e662617ed70f847fc74c9af4b92a52005ee",
+   "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+   "snippet": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-many nature is poorly captured by single-answer evaluation and benchmarking protocols. To address this, we introduce Top-K prompting as a robust training and inference paradigm to better capture diverse, plausible reaction predictions. We compile CREED-CCV-2+USPTO-XL, an ultra-large-scale dataset of ~45.6 million verified reactions to train the C3LM (Chemistry Constraint-Consistent Language Model). By integrating fine-tuning with ChemCensor-based and novelty-oriented rewards, our model achieves state-of-the-art performance on the OOD URSA-expert-2026 benchmark. Further analysis of reaction uniqueness shows that LLMs and conventional models explore complementary reaction spaces, motivating ensemble-based retrosynthesis systems. Overall, our results establish Top-K, plausibility-aware training as a practical new direction for robust future LLM-based synthesis planning.",
+   "url": "https://huggingface.co/papers/2608.18940",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-19T00:00:00Z",
+   "imageURL": null,
    "signal": 67,
    "alert": false
   },
@@ -2942,23 +2929,6 @@
    "alert": false
   },
   {
-   "id": "2094e426acad91e0a3246a067bd87e662617ed70f847fc74c9af4b92a52005ee",
-   "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
-   "snippet": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-many nature is poorly captured by single-answer evaluation and benchmarking protocols. To address this, we introduce Top-K prompting as a robust training and inference paradigm to better capture diverse, plausible reaction predictions. We compile CREED-CCV-2+USPTO-XL, an ultra-large-scale dataset of ~45.6 million verified reactions to train the C3LM (Chemistry Constraint-Consistent Language Model). By integrating fine-tuning with ChemCensor-based and novelty-oriented rewards, our model achieves state-of-the-art performance on the OOD URSA-expert-2026 benchmark. Further analysis of reaction uniqueness shows that LLMs and conventional models explore complementary reaction spaces, motivating ensemble-based retrosynthesis systems. Overall, our results establish Top-K, plausibility-aware training as a practical new direction for robust future LLM-based synthesis planning.",
-   "url": "https://huggingface.co/papers/2608.18940",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T00:00:00Z",
-   "imageURL": null,
-   "signal": 67,
-   "alert": false
-  },
-  {
    "id": "118c66e0e12e9f3623b0bd0e259afa527001ec2d7191c4231c3a4069e97b3b7f",
    "title": "Dynamic Structural Causal Modeling for Sleep",
    "snippet": "The causal dynamics of sleep-disordered breathing are complex and vary across patient populations, hindering the development of targeted interventions. We learn dynamic causal graphs of sleep-disordered breathing from Home Sleep Apnea Test (HSAT) recordings, revealing systematic differences in…",
@@ -2989,7 +2959,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:54:17Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 67,
    "alert": false
   },
   {
@@ -3006,7 +2976,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:54:08Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 67,
    "alert": false
   },
   {
@@ -3074,7 +3044,24 @@
    "category": "tools",
    "publishedAt": "2026-08-19T16:29:02Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 66,
+   "alert": false
+  },
+  {
+   "id": "30ed338aa1befde7ba5753342c042ff3cdde49eb0087d7cab3d38674244fb3ac",
+   "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+   "snippet": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
+   "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T16:07:26Z",
+   "imageURL": null,
+   "signal": 66,
    "alert": false
   },
   {
@@ -3159,7 +3146,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3244,7 +3231,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T22:13:20Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3260,23 +3247,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-19T16:26:05Z",
-   "imageURL": null,
-   "signal": 63,
-   "alert": false
-  },
-  {
-   "id": "5eb6856f4f9ff7d6f2ce7c01e60936a0b22d7f6158e3fe4f96eefe81abcf3ca0",
-   "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
-   "snippet": null,
-   "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T13:43:33Z",
    "imageURL": null,
    "signal": 63,
    "alert": false
@@ -3333,6 +3303,23 @@
    "alert": false
   },
   {
+   "id": "f05312c96fe3c2220a092d855d2f4673df98eb884917b9658719d070ebf10f99",
+   "title": "Meta AI is getting a Mac app",
+   "snippet": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across…",
+   "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-19T17:00:00Z",
+   "imageURL": null,
+   "signal": 63,
+   "alert": false
+  },
+  {
    "id": "fc1a9abd82b35a9c86d54b1fb0f68bd137a90ec86cea086cc68200bb6a148bdd",
    "title": "Introducing AI Futures",
    "snippet": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
@@ -3363,6 +3350,23 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T05:17:12Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Xdc0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b1d78e9-d676-408c-9f84-8c9f244ef898_864x1821.png",
+   "signal": 62,
+   "alert": false
+  },
+  {
+   "id": "7d8ab6f63d559658625ead6d227e9edf03b28b1d470854e1c7bfd3f9eebee636",
+   "title": "Guess which of these LLM outputs is watermarked",
+   "snippet": null,
+   "url": "https://sgoedecke.github.io/watermark-quiz/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T14:03:58Z",
+   "imageURL": null,
    "signal": 62,
    "alert": false
   },
@@ -3414,7 +3418,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3575,23 +3579,6 @@
    "alert": false
   },
   {
-   "id": "7ba6c2e15df63364ad762702146a3e8eaef814f58d8cf8fa130ed5fffa71a477",
-   "title": "Examining Human-Like Behaviors in LLMs: A Multi-Dimensional Analysis of Model Behaviors, User Factors, and System Prompts",
-   "snippet": "Large language models (LLMs) exhibit a wide range of human-like behaviors, from expressing thoughts and emotions, to engaging in relationship-building with users, to refusing requests and maintaining boundaries. Despite their prevalence, researchers and practitioners lack methods and empirical…",
-   "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
-   "sources": [
-    {
-     "name": "Apple ML",
-     "domain": "machinelearning.apple.com"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T00:00:00Z",
-   "imageURL": null,
-   "signal": 60,
-   "alert": false
-  },
-  {
    "id": "ccb42b7422acc16c284e03a9d4914a5de63a753976a5af65acc04a22f033ec38",
    "title": "The P-Completeness of Inverted Index Traversal: On the Complexity of Evaluating Boolean Query DAGs",
    "snippet": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often compile into deeply nested, non-monotonic Boolean queries over text fields. However, standard query evaluation strategies over inverted indices face severe…",
@@ -3605,7 +3592,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 59,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3690,7 +3677,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3707,23 +3694,6 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 58,
-   "alert": false
-  },
-  {
-   "id": "5ce0d6f8cf61a5ba7e2c1201e2530da1136baea86bdc6911dc304a1b9d69d175",
-   "title": "[AINews] Memory prices up 500% in 12 months",
-   "snippet": "the Memory crunch continues - Moore&#8217;s Law reversed to 2007 levels",
-   "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-   "sources": [
-    {
-     "name": "Latent Space",
-     "domain": "latent.space"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T08:44:52Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!-PTb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95b5b0b3-9bd4-4c08-9c91-ad68807850fc_2272x1434.png",
    "signal": 58,
    "alert": false
   },
@@ -3745,19 +3715,19 @@
    "alert": false
   },
   {
-   "id": "00721c8208aa8084b4406887fe6d02a9b67a4c949f0d383b7ea6abf14f4221a9",
-   "title": "Show HN: Front end skill pack for AI agents, with machine-enforced quality gates",
-   "snippet": null,
-   "url": "https://krishna-modi12.github.io/frontend-design-pro/",
+   "id": "5ce0d6f8cf61a5ba7e2c1201e2530da1136baea86bdc6911dc304a1b9d69d175",
+   "title": "[AINews] Memory prices up 500% in 12 months",
+   "snippet": "the Memory crunch continues - Moore&#8217;s Law reversed to 2007 levels",
+   "url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Latent Space",
+     "domain": "latent.space"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T05:52:19Z",
-   "imageURL": null,
+   "category": "techniques",
+   "publishedAt": "2026-08-19T08:44:52Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!-PTb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95b5b0b3-9bd4-4c08-9c91-ad68807850fc_2272x1434.png",
    "signal": 58,
    "alert": false
   },
@@ -3791,6 +3761,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-19T07:00:00Z",
+   "imageURL": null,
+   "signal": 58,
+   "alert": false
+  },
+  {
+   "id": "00721c8208aa8084b4406887fe6d02a9b67a4c949f0d383b7ea6abf14f4221a9",
+   "title": "Show HN: Front end skill pack for AI agents, with machine-enforced quality gates",
+   "snippet": null,
+   "url": "https://krishna-modi12.github.io/frontend-design-pro/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T05:52:19Z",
    "imageURL": null,
    "signal": 57,
    "alert": false
@@ -3932,23 +3919,6 @@
    "alert": false
   },
   {
-   "id": "7d8ab6f63d559658625ead6d227e9edf03b28b1d470854e1c7bfd3f9eebee636",
-   "title": "Guess which of these LLM outputs is watermarked",
-   "snippet": null,
-   "url": "https://sgoedecke.github.io/watermark-quiz/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T14:03:58Z",
-   "imageURL": null,
-   "signal": 56,
-   "alert": false
-  },
-  {
    "id": "9c25f4ae7a186d68926fabf7ba66321e74423e571b1f86a4351d93eff1c6252c",
    "title": "Pacing model development in an era of cyber-critical capabilities",
    "snippet": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
@@ -3962,7 +3932,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T11:00:00Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 56,
    "alert": false
   },
   {
@@ -4075,7 +4045,24 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 55,
+   "alert": false
+  },
+  {
+   "id": "45cd7975f6d2c6418eaabda25630ee7978fc5057c7c4c3fb49d80c01153df5f6",
+   "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+   "snippet": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's…",
+   "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-16T22:00:39Z",
+   "imageURL": null,
+   "signal": 55,
    "alert": false
   },
   {
@@ -4125,6 +4112,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
+   "imageURL": null,
+   "signal": 54,
+   "alert": false
+  },
+  {
+   "id": "4fdeab7a66fc6733dfa44c3fd7b16df76c7101c0a326c59a8661df16d4161360",
+   "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+   "snippet": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot…",
+   "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-17T23:58:14Z",
    "imageURL": null,
    "signal": 54,
    "alert": false
@@ -4334,7 +4338,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T08:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp",
-   "signal": 52,
+   "signal": 51,
    "alert": false
   },
   {
@@ -4419,7 +4423,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T15:46:22Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Osie!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F131d402d-63bf-4895-b5e7-b8990972a14c_1280x720.png",
-   "signal": 51,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4644,23 +4648,6 @@
    "alert": false
   },
   {
-   "id": "8393c843a171d72369b2dfabe36ce65b3e11844d7844cfc40853fcf71ec3d4b3",
-   "title": "ChatGPT Ads expands across Europe",
-   "snippet": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T22:00:00Z",
-   "imageURL": null,
-   "signal": 48,
-   "alert": false
-  },
-  {
    "id": "6f8368ac763b73731923fdf243c388a7d207e8e71307ee44061b49625d794f6b",
    "title": "The builder’s guide to GPT‑5.6",
    "snippet": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
@@ -4673,6 +4660,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-13T11:00:00Z",
+   "imageURL": null,
+   "signal": 48,
+   "alert": false
+  },
+  {
+   "id": "8393c843a171d72369b2dfabe36ce65b3e11844d7844cfc40853fcf71ec3d4b3",
+   "title": "ChatGPT Ads expands across Europe",
+   "snippet": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T22:00:00Z",
    "imageURL": null,
    "signal": 48,
    "alert": false
@@ -4776,7 +4780,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T23:59:23Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4827,23 +4831,6 @@
    "category": "models",
    "publishedAt": "2026-08-12T14:00:00Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/GlassdoorBestCEOs2026_16x9.png",
-   "signal": 46,
-   "alert": false
-  },
-  {
-   "id": "1119af4be641d2b1a1c6a4a0cbea5d50bdca007d9a9afe03ebb5a620c76e847e",
-   "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
-   "snippet": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computation to difficult or consequential choices. We introduce τ_0-VLA, a hierarchical robot foundation model that formulates high-level subtask generation as a compute-scalable inference problem through world-model-guided test-time computation. At each inference step, the high-level policy uses execution memory to generate a subtask and, when needed, searches over alternatives before committing to its output. A low-level policy then executes the generated subtask across multiple robot embodiments. The policy is trained on 40,115 hours of heterogeneous real-world data with multimodal co-training. Across in-domain and distribution-shifted settings, allocating additional test-time computation substantially improves next-subtask prediction accuracy, and these gains translate into higher closed-loop success on long-horizon robot manipulation tasks.",
-   "url": "https://huggingface.co/papers/2608.16885",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-17T00:00:00Z",
-   "imageURL": null,
    "signal": 46,
    "alert": false
   },
@@ -4967,6 +4954,23 @@
    "alert": false
   },
   {
+   "id": "1119af4be641d2b1a1c6a4a0cbea5d50bdca007d9a9afe03ebb5a620c76e847e",
+   "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+   "snippet": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computation to difficult or consequential choices. We introduce τ_0-VLA, a hierarchical robot foundation model that formulates high-level subtask generation as a compute-scalable inference problem through world-model-guided test-time computation. At each inference step, the high-level policy uses execution memory to generate a subtask and, when needed, searches over alternatives before committing to its output. A low-level policy then executes the generated subtask across multiple robot embodiments. The policy is trained on 40,115 hours of heterogeneous real-world data with multimodal co-training. Across in-domain and distribution-shifted settings, allocating additional test-time computation substantially improves next-subtask prediction accuracy, and these gains translate into higher closed-loop success on long-horizon robot manipulation tasks.",
+   "url": "https://huggingface.co/papers/2608.16885",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-17T00:00:00Z",
+   "imageURL": null,
+   "signal": 44,
+   "alert": false
+  },
+  {
    "id": "c2387aa897345cef2ced913c54250641c518863338608bb6b7e7a0267f9b2e0e",
    "title": "The new Instagram logo is the perfect embodiment of AI slop",
    "snippet": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
@@ -5069,23 +5073,6 @@
    "alert": false
   },
   {
-   "id": "1b555e620b3576f24f15fcd669e7f4a7d191269cd47a4d21b232e7194d040769",
-   "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
-   "snippet": "Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models but current studies remain heavily English-centric. We conduct a large-scale…",
-   "url": "https://machinelearning.apple.com/research/grpo-beyond-english",
-   "sources": [
-    {
-     "name": "Apple ML",
-     "domain": "machinelearning.apple.com"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-18T00:00:00Z",
-   "imageURL": null,
-   "signal": 43,
-   "alert": false
-  },
-  {
    "id": "00fddd522fad501a98f375cc3ffb26379b769eb0d9d26ab1c1dfd45f2b9d22de",
    "title": "Claude's new Scarlet Letter watermark is invisible—for now",
    "snippet": "The mark flags anything Claude processed, even human writing it only edited.",
@@ -5099,6 +5086,23 @@
    "category": "models",
    "publishedAt": "2026-08-13T11:10:18Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg",
+   "signal": 43,
+   "alert": false
+  },
+  {
+   "id": "1b555e620b3576f24f15fcd669e7f4a7d191269cd47a4d21b232e7194d040769",
+   "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
+   "snippet": "Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of pretrained language models but current studies remain heavily English-centric. We conduct a large-scale…",
+   "url": "https://machinelearning.apple.com/research/grpo-beyond-english",
+   "sources": [
+    {
+     "name": "Apple ML",
+     "domain": "machinelearning.apple.com"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-18T00:00:00Z",
+   "imageURL": null,
    "signal": 43,
    "alert": false
   },
@@ -5303,7 +5307,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T16:14:36Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -5388,7 +5392,7 @@
    "category": "research",
    "publishedAt": "2026-08-16T00:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5473,7 +5477,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T15:00:06Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/800vdc.jpg",
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5745,7 +5749,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T16:00:56Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/regionalhubnsf.webp",
-   "signal": 36,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5830,7 +5834,7 @@
    "category": "research",
    "publishedAt": "2026-08-07T00:00:00Z",
    "imageURL": null,
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5915,7 +5919,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T04:34:11Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!1S7v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57c9d273-aa50-4bc7-a7c4-caaf9b4952c2_1540x1624.png",
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -6000,7 +6004,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
-   "signal": 33,
+   "signal": 32,
    "alert": false
   },
   {
@@ -6272,7 +6276,7 @@
    "category": "models",
    "publishedAt": "2026-07-30T13:00:20Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/07/gfn-thursday-7-30-bts-nv-blog-1280x680-logo.jpg",
-   "signal": 30,
+   "signal": 29,
    "alert": false
   },
   {
@@ -6357,7 +6361,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-23T00:00:00Z",
    "imageURL": null,
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -6442,7 +6446,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6527,7 +6531,7 @@
    "category": "research",
    "publishedAt": "2026-07-13T12:37:28Z",
    "imageURL": "https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w528-h297-n-nu-rw-lo",
-   "signal": 27,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6718,23 +6722,6 @@
    "category": "research",
    "publishedAt": "2026-07-16T09:30:42Z",
    "imageURL": "https://lh3.googleusercontent.com/ZRyQg91pjea8kXXaGSlnZIJF90-VwnKHSBxo22e2RedCvCCszsurR8W9NHw80e1V6HtWXccbU1MI27Rtjjf963rD673XgkWK7cZe_1ekfruPgdHHVEc=w528-h297-n-nu-rw-lo",
-   "signal": 25,
-   "alert": false
-  },
-  {
-   "id": "47d89a541c7b19bc21c7c50d267fbfa7935f4ec79f55c77d86f318d86c25a428",
-   "title": "Intelligence is Free, Now What? <br> Data Systems for, of, and by Agents",
-   "snippet": "... government of the people, by the people, for the people ... &mdash; Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs…",
-   "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
-   "sources": [
-    {
-     "name": "BAIR",
-     "domain": "bair.berkeley.edu"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-07-07T09:00:00Z",
-   "imageURL": null,
    "signal": 24,
    "alert": false
   },
@@ -7164,7 +7151,7 @@
    "category": "research",
    "publishedAt": "2026-06-29T13:03:27Z",
    "imageURL": null,
-   "signal": 19,
+   "signal": 20,
    "alert": false
   },
   {
@@ -7606,7 +7593,7 @@
    "category": "techniques",
    "publishedAt": "2026-05-16T11:33:51Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/2b841d26-5b2d-4be9-9710-d89d4f023f0c_1600x900.png",
-   "signal": 14,
+   "signal": 15,
    "alert": false
   },
   {
@@ -8137,7 +8124,7 @@
    "category": "research",
    "publishedAt": "2025-06-05T20:00:00Z",
    "imageURL": null,
-   "signal": 8,
+   "signal": 9,
    "alert": false
   },
   {
