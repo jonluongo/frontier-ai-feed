@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-08-22T19:28:54Z",
+ "generatedAt": "2026-08-22T19:48:35Z",
  "stories": [
   {
    "id": "68b7957e2a48f5971cce92104aeb6e6a40fdf2276406aa6000451bfdbaf3f6cd",
@@ -87,6 +87,23 @@
    "alert": false
   },
   {
+   "id": "33e354a2033bc20bc8f5451efbca42b8d364b08b079a645f30329b93df8e976d",
+   "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+   "snippet": null,
+   "url": "https://twitter.com/argofowl/status/2091150597374537729",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T16:58:49Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
    "id": "c078c610e9e7337c26ba2e1843381a0c1c71dae49be75bacf829afcbdf99418d",
    "title": "Claude Code Now Available to Start a Session From Your Phone, Not Just Resume",
    "snippet": null,
@@ -128,23 +145,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T18:10:03Z",
-   "imageURL": null,
-   "signal": 98,
-   "alert": false
-  },
-  {
-   "id": "33e354a2033bc20bc8f5451efbca42b8d364b08b079a645f30329b93df8e976d",
-   "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
-   "snippet": null,
-   "url": "https://twitter.com/argofowl/status/2091150597374537729",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T16:58:49Z",
    "imageURL": null,
    "signal": 98,
    "alert": false
@@ -417,6 +417,23 @@
    "alert": true
   },
   {
+   "id": "c248308cd463dc290e0378a0d932538f197ecf2b15d1250a8a933eab93c54012",
+   "title": "Munder Difflin – Agent harness to run an office of your clones",
+   "snippet": null,
+   "url": "https://munderdiffl.in/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T09:49:14Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
    "id": "79189f209600a18c2fb79849ab81f7e088dbdf4dc660c1addf5fef4f0ffb79bb",
    "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
    "snippet": null,
@@ -438,10 +455,10 @@
    "alert": true
   },
   {
-   "id": "c248308cd463dc290e0378a0d932538f197ecf2b15d1250a8a933eab93c54012",
-   "title": "Munder Difflin – Agent harness to run an office of your clones",
+   "id": "de07e5fbed4c803d2adb4a9cfdb3bbaf3743f29cc7d7786b4756d959d7605ef9",
+   "title": "Linus Torvalds Endures a Debug Session from Hell, \"Enormously Helped\" by AI",
    "snippet": null,
-   "url": "https://munderdiffl.in/",
+   "url": "https://www.phoronix.com/news/Linus-Torvalds-Debug-AI",
    "sources": [
     {
      "name": "Hacker News",
@@ -449,9 +466,9 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T09:49:14Z",
+   "publishedAt": "2026-08-22T19:11:34Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -506,23 +523,6 @@
    "alert": false
   },
   {
-   "id": "295d51d1e4acfc6437b3c43a9c581c6938b509b848936d836d16d88d528c6741",
-   "title": "NVIDIA AVO Hits 100% on ARC-AGI-3: The Same Claude Opus 5 That Scores 30% Alone",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTlhwWWp5RHpubTBLS2ptZXd0OHdMUWNwN1BnMjNGUjJCUHJ1Mks0S0FfVnBMZDNlTzZLQXl2bGhGUnNtM0ZCUl9Vc3BHWWxZSkw4Mk03SlJsbXlPYXlDTVpQcHNJNjRObmVSSHV3ZzBiRjQwQ2hMbEtNQ3lZbmVFdHUtcUVRcHVuUVE?oc=5",
-   "sources": [
-    {
-     "name": "Pasquale Pillitteri",
-     "domain": "pasqualepillitteri.it"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T13:47:43Z",
-   "imageURL": null,
-   "signal": 94,
-   "alert": false
-  },
-  {
    "id": "0802e5036fe4786632869ef642ff12a9b6e8396fd62cc81856d34b2ddd32871a",
    "title": "AWS AgentCore Harness Bypass Exposed a Cross-Platform Vulnerability Class in Agent Runtimes",
    "snippet": null,
@@ -541,6 +541,69 @@
    "publishedAt": "2026-08-22T05:31:28Z",
    "imageURL": null,
    "signal": 94,
+   "alert": true
+  },
+  {
+   "id": "295d51d1e4acfc6437b3c43a9c581c6938b509b848936d836d16d88d528c6741",
+   "title": "NVIDIA AVO Hits 100% on ARC-AGI-3: The Same Claude Opus 5 That Scores 30% Alone",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTlhwWWp5RHpubTBLS2ptZXd0OHdMUWNwN1BnMjNGUjJCUHJ1Mks0S0FfVnBMZDNlTzZLQXl2bGhGUnNtM0ZCUl9Vc3BHWWxZSkw4Mk03SlJsbXlPYXlDTVpQcHNJNjRObmVSSHV3ZzBiRjQwQ2hMbEtNQ3lZbmVFdHUtcUVRcHVuUVE?oc=5",
+   "sources": [
+    {
+     "name": "Pasquale Pillitteri",
+     "domain": "pasqualepillitteri.it"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-22T13:47:43Z",
+   "imageURL": null,
+   "signal": 93,
+   "alert": false
+  },
+  {
+   "id": "9d7fcca0d60c7aeb2456db170ad3b039fc6279e2b7fcb47a6535404bbaa964f5",
+   "title": "Claude's Corner: Corvera - AI Agents for the CPG Operations Problem",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlBfQ2I1VkxIMzlRSUY2TTB3bjZaR0JuZ0JqdXpxNVRIb3ZfVUhILVRpQWVuX25Ta2l0ZG1waGtLLWt2cVZTOExJeWFYUGQ5TmNLc3BIdlUtcjRjSzVFbWxOV3BqUXR4SjdnUjBsbC11c1c0TEtub3RrYVF4MEhUWTVrcEllaGFhM21rRE9n?oc=5",
+   "sources": [
+    {
+     "name": "StartupHub.ai",
+     "domain": "startuphub.ai"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:10:38Z",
+   "imageURL": null,
+   "signal": 93,
+   "alert": false
+  },
+  {
+   "id": "924e05a3179e98e99178e3e9dcf57a2a81c68e7cde6ebe9a2a25cf3ecce733a4",
+   "title": "Nvidia partners with data center developer Cloverleaf",
+   "snippet": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
+   "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    },
+    {
+     "name": "NVIDIA",
+     "domain": "blogs.nvidia.com"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    },
+    {
+     "name": "EleutherAI",
+     "domain": "blog.eleuther.ai"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-21T22:37:38Z",
+   "imageURL": null,
+   "signal": 93,
    "alert": true
   },
   {
@@ -578,35 +641,6 @@
    "alert": false
   },
   {
-   "id": "924e05a3179e98e99178e3e9dcf57a2a81c68e7cde6ebe9a2a25cf3ecce733a4",
-   "title": "Nvidia partners with data center developer Cloverleaf",
-   "snippet": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
-   "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    },
-    {
-     "name": "NVIDIA",
-     "domain": "blogs.nvidia.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    },
-    {
-     "name": "EleutherAI",
-     "domain": "blog.eleuther.ai"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T22:37:38Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": true
-  },
-  {
    "id": "8df515e7c3278eb7af58ba862ff16cd4fdf14fdafc5319e46869acee0e9c29e2",
    "title": "What Claude's AI text watermark actually does",
    "snippet": null,
@@ -620,7 +654,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T12:46:07Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 92,
    "alert": false
   },
   {
@@ -636,23 +670,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-22T11:59:38Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "1b260678e695c92a8b8ece040c848369aa862a987bbeb490ec2e289388330987",
-   "title": "Is Anthropic-Driven Windfall Reshaping the Investment Case for Amazon.com (AMZN) and Its AI Ambitions?",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZWZaVk5WSzRzak9xa1JBOGNXY19NRVFxelBqMDcteEV1N3VRV0VGTDBvbV9WbTFQdzR3V0VBdXJGcDN3LWp0eXdnSjg4SDl1S01tLS1zdS0xa0lQNy1KR3dzcVN3WkNBLU1nYlZGVzVVcTNuSDRwcDNUY25FX1hhZk5sT1lUV0tVMmlyM3ZlX1M3S25BVmIwQUs1TDVXMl85Vm5JallaLWxvUjdKMmdFaDdMQXJVcEpMVTRmcUVNSUZmdGkzTXZxdU930gHKAUFVX3lxTE1lZlpWTlZLNHNqT3FrUkE4Y1djX01FUXF6UGowNy14RXU3dVFXRUZMMG9tX1ZtMVB3NHdXRUF1ckZwM3ctanR5d2dKODhIOXVLTW0tLXN1LTFrSVA3LUpHd3NxU3daQ0EtTWdiVkZXNVVxM25INHBwM1RjbkVfWGFmTmxPWVRXS1UyaXIzdmVfUzdLbkFWYjBBSzVMNVcyXzlWbklqWVotbG9SN0oyZ0VoN0xBclVwSkxVNGZxRU1JRmZ0aTNNdnF1T3c?oc=5",
-   "sources": [
-    {
-     "name": "simplywall.st",
-     "domain": "simplywall.st"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T16:24:09Z",
    "imageURL": null,
    "signal": 92,
    "alert": false
@@ -696,23 +713,6 @@
    "alert": false
   },
   {
-   "id": "665a5de225b51c85accbe57fd8046958bf4a663c557d1bedd7f067e73f47c7d5",
-   "title": "US stock markets set to open mostly unchanged. Eyes on Meta after open model release",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeExQUy1GNFc0TTR3VHN3YXV4SG9yWmNQN1FzdE83ZmV2Q0xYRVcyYzRKQUdGXzRrcFRrY0lLdk9vY1hzZnBYeVlWdnJoc0VNektwbFNiem5YcGlxYW9IVFMyT0RSNElaN3BXX3ZETnZ6N2tnRjZGNC03LVZlT2pWa2Z5UFQ1V0F2VGk2VUx2QzJISHRCN0FQU1FPeWRDU3hlYTQzTWZaY0J2RGpmZ0EzMVMwek5PUHho?oc=5",
-   "sources": [
-    {
-     "name": "investingLive",
-     "domain": "investinglive.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T15:02:53Z",
-   "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
    "id": "90cb261e26e6d237ee9ec4deca80360cd09c6b099e8fe798566b6a1f52fdcc2b",
    "title": "Row-Bot v4.8.0 is live",
    "snippet": "Row-Bot v4.8.0 is now available. This release adds provider-aware reasoning controls, letting each chat keep a valid reasoning choice for the exact model in use. Depending on model support, you can select Provider default, an effort level, Thinking On or Off, or a bounded token budget from desktop,…",
@@ -730,18 +730,35 @@
    "alert": false
   },
   {
-   "id": "0a8ccfc666fa944d33d85c5586a1ff9974d83867d59413ac172c003e83ac918e",
-   "title": "Round Hill Music Sues Suno and Anthropic Over AI Training Practices",
+   "id": "1b260678e695c92a8b8ece040c848369aa862a987bbeb490ec2e289388330987",
+   "title": "Is Anthropic-Driven Windfall Reshaping the Investment Case for Amazon.com (AMZN) and Its AI Ambitions?",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQmVldzE0NWJJZHZjc3hyWlk5UFR2U0tUTHpTLXFlUmZkbkpKSzJVM1hiMFZ6bF9rYk4wZTBhRXF1cThaUTdRMV9sQjh6U3RoWVBVWFItWkllQVF6NTRuR0Z3NXMzeHlzRFBRYmdsVnlIVXVRVzNPSVhja1BsMnMzVFpIeFFoYmM?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZWZaVk5WSzRzak9xa1JBOGNXY19NRVFxelBqMDcteEV1N3VRV0VGTDBvbV9WbTFQdzR3V0VBdXJGcDN3LWp0eXdnSjg4SDl1S01tLS1zdS0xa0lQNy1KR3dzcVN3WkNBLU1nYlZGVzVVcTNuSDRwcDNUY25FX1hhZk5sT1lUV0tVMmlyM3ZlX1M3S25BVmIwQUs1TDVXMl85Vm5JallaLWxvUjdKMmdFaDdMQXJVcEpMVTRmcUVNSUZmdGkzTXZxdU930gHKAUFVX3lxTE1lZlpWTlZLNHNqT3FrUkE4Y1djX01FUXF6UGowNy14RXU3dVFXRUZMMG9tX1ZtMVB3NHdXRUF1ckZwM3ctanR5d2dKODhIOXVLTW0tLXN1LTFrSVA3LUpHd3NxU3daQ0EtTWdiVkZXNVVxM25INHBwM1RjbkVfWGFmTmxPWVRXS1UyaXIzdmVfUzdLbkFWYjBBSzVMNVcyXzlWbklqWVotbG9SN0oyZ0VoN0xBclVwSkxVNGZxRU1JRmZ0aTNNdnF1T3c?oc=5",
    "sources": [
     {
-     "name": "edm.com",
-     "domain": "edm.com"
+     "name": "simplywall.st",
+     "domain": "simplywall.st"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-22T16:09:14Z",
+   "publishedAt": "2026-08-22T16:24:09Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "665a5de225b51c85accbe57fd8046958bf4a663c557d1bedd7f067e73f47c7d5",
+   "title": "US stock markets set to open mostly unchanged. Eyes on Meta after open model release",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeExQUy1GNFc0TTR3VHN3YXV4SG9yWmNQN1FzdE83ZmV2Q0xYRVcyYzRKQUdGXzRrcFRrY0lLdk9vY1hzZnBYeVlWdnJoc0VNektwbFNiem5YcGlxYW9IVFMyT0RSNElaN3BXX3ZETnZ6N2tnRjZGNC03LVZlT2pWa2Z5UFQ1V0F2VGk2VUx2QzJISHRCN0FQU1FPeWRDU3hlYTQzTWZaY0J2RGpmZ0EzMVMwek5PUHho?oc=5",
+   "sources": [
+    {
+     "name": "investingLive",
+     "domain": "investinglive.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T15:02:53Z",
    "imageURL": null,
    "signal": 91,
    "alert": false
@@ -764,18 +781,18 @@
    "alert": false
   },
   {
-   "id": "24f2f949a5a2735fd36971b89f1a69b85089def5043578efd841da1e68e335ef",
-   "title": "Anthropic could raise $100bn, ten times Europe’s largest listing in decades",
+   "id": "0a8ccfc666fa944d33d85c5586a1ff9974d83867d59413ac172c003e83ac918e",
+   "title": "Round Hill Music Sues Suno and Anthropic Over AI Training Practices",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQTI1WjZ2ZldTUDJhNlpWSnBfYy1CUmoxNlgtQ2lSem5qZDNSSG1tQTVrRm1oM1JvdUR2emRHc3FQOGwxdUNxTmlaQ3BFSHJ6aFU2TUhxN3pHcXJRV0gxdTBrYWpLb2thY3hTMU5YYW4yU29HMGdiSGl1YS1wa1JrU2F3?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQmVldzE0NWJJZHZjc3hyWlk5UFR2U0tUTHpTLXFlUmZkbkpKSzJVM1hiMFZ6bF9rYk4wZTBhRXF1cThaUTdRMV9sQjh6U3RoWVBVWFItWkllQVF6NTRuR0Z3NXMzeHlzRFBRYmdsVnlIVXVRVzNPSVhja1BsMnMzVFpIeFFoYmM?oc=5",
    "sources": [
     {
-     "name": "The Next Web",
-     "domain": "thenextweb.com"
+     "name": "edm.com",
+     "domain": "edm.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-22T10:11:42Z",
+   "publishedAt": "2026-08-22T16:09:14Z",
    "imageURL": null,
    "signal": 91,
    "alert": false
@@ -798,23 +815,6 @@
    "alert": false
   },
   {
-   "id": "48f4ef089509eb0d1991507651a3c94ce5b85321e4cc4fa4dcfa5f21c7ee55cd",
-   "title": "Feral Flame 狼子-rowshi-",
-   "snippet": "&#32; submitted by &#32; /u/Thin_Ad_8068 [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/OpenAI/comments/1vv8hi1/feral_flame_狼子rowshi/",
-   "sources": [
-    {
-     "name": "r/OpenAI",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T10:09:53Z",
-   "imageURL": null,
-   "signal": 91,
-   "alert": false
-  },
-  {
    "id": "df63102a57f71f085d8b9dbe7056b2d1b805bd6c719be0b04c95c0aae862e661",
    "title": "The Evolution of the Agent Harness",
    "snippet": "Models keep absorbing the harness into their weights &#8212; soon, it will be a harness for human attention rather than for the model.",
@@ -828,6 +828,40 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T07:30:52Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!bUv7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F758de9a0-631f-43a0-a331-fd871432a60b_1280x720.png",
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "24f2f949a5a2735fd36971b89f1a69b85089def5043578efd841da1e68e335ef",
+   "title": "Anthropic could raise $100bn, ten times Europe’s largest listing in decades",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQTI1WjZ2ZldTUDJhNlpWSnBfYy1CUmoxNlgtQ2lSem5qZDNSSG1tQTVrRm1oM1JvdUR2emRHc3FQOGwxdUNxTmlaQ3BFSHJ6aFU2TUhxN3pHcXJRV0gxdTBrYWpLb2thY3hTMU5YYW4yU29HMGdiSGl1YS1wa1JrU2F3?oc=5",
+   "sources": [
+    {
+     "name": "The Next Web",
+     "domain": "thenextweb.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T10:11:42Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": false
+  },
+  {
+   "id": "48f4ef089509eb0d1991507651a3c94ce5b85321e4cc4fa4dcfa5f21c7ee55cd",
+   "title": "Feral Flame 狼子-rowshi-",
+   "snippet": "&#32; submitted by &#32; /u/Thin_Ad_8068 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/OpenAI/comments/1vv8hi1/feral_flame_狼子rowshi/",
+   "sources": [
+    {
+     "name": "r/OpenAI",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T10:09:53Z",
+   "imageURL": null,
    "signal": 90,
    "alert": false
   },
@@ -896,24 +930,24 @@
    "category": "tools",
    "publishedAt": "2026-08-22T05:52:10Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 89,
    "alert": false
   },
   {
-   "id": "40b068d0d8a37dcfa8b14acabe37edcc507a4a181942e07c5ae44f70c9967450",
-   "title": "Anthropic’s mega-IPO prep is forcing enterprise buyers to treat AI vendors like long-term critical infrastructure",
+   "id": "eab279117163d264cdf3fb8330259b1d4773a338aef34b5cc0812f1fa85e9b88",
+   "title": "80% of developers find AI coding more addictive than helpful",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUXJmOTNvZUx2MzE0NmVhVFBHaDVkWHoxekw4MWpmVE92bDhMeDBCZWF2Sl9UeWNmSVZwNzhLbUlZemMtNWFnOVRyZk1KMTh6WFFERko2ZWJvTTI1OHY4S01CTTZVZTYydWFQRzFlellIa3JTNHptSWhXNnlsWm9HSVhzUVJfUU9uWUhQeThHd3l4UVlVT2FBYWpXNFpxU2ptR0FxWmpyNmZBX0xoellDNHJSSTJVN01ZQWFDZXRheko5b0pCOHJrVWtuZW52cjE0VVFzUzM3RkdPcFlkWDJZd200M3h3RG9UZjEyR0t3ZkFzcHhjTy0wRnJGNmpHWS1oTjRqWUhR?oc=5",
+   "url": "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/",
    "sources": [
     {
-     "name": "MarketScale",
-     "domain": "marketscale.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-22T14:50:42Z",
+   "category": "tools",
+   "publishedAt": "2026-08-22T14:14:30Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 89,
    "alert": false
   },
   {
@@ -938,6 +972,23 @@
    "alert": false
   },
   {
+   "id": "40b068d0d8a37dcfa8b14acabe37edcc507a4a181942e07c5ae44f70c9967450",
+   "title": "Anthropic’s mega-IPO prep is forcing enterprise buyers to treat AI vendors like long-term critical infrastructure",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUXJmOTNvZUx2MzE0NmVhVFBHaDVkWHoxekw4MWpmVE92bDhMeDBCZWF2Sl9UeWNmSVZwNzhLbUlZemMtNWFnOVRyZk1KMTh6WFFERko2ZWJvTTI1OHY4S01CTTZVZTYydWFQRzFlellIa3JTNHptSWhXNnlsWm9HSVhzUVJfUU9uWUhQeThHd3l4UVlVT2FBYWpXNFpxU2ptR0FxWmpyNmZBX0xoellDNHJSSTJVN01ZQWFDZXRheko5b0pCOHJrVWtuZW52cjE0VVFzUzM3RkdPcFlkWDJZd200M3h3RG9UZjEyR0t3ZkFzcHhjTy0wRnJGNmpHWS1oTjRqWUhR?oc=5",
+   "sources": [
+    {
+     "name": "MarketScale",
+     "domain": "marketscale.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T14:50:42Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
    "id": "5a24da06e894b7ad5552d6e9f27cc22ee6883069f652f9e95ffacc3be4ff8cfd",
    "title": "Desktop projects in mobile",
    "snippet": "I&#39;m not happy that we can&#39;t view our desktop projects on our mobile devices. Could we maybe suggest that this feature be changed? &#32; submitted by &#32; /u/jiggloopuff [link] &#32; [comments]",
@@ -950,40 +1001,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-22T08:12:25Z",
-   "imageURL": null,
-   "signal": 89,
-   "alert": false
-  },
-  {
-   "id": "eab279117163d264cdf3fb8330259b1d4773a338aef34b5cc0812f1fa85e9b88",
-   "title": "80% of developers find AI coding more addictive than helpful",
-   "snippet": null,
-   "url": "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T14:14:30Z",
-   "imageURL": null,
-   "signal": 89,
-   "alert": false
-  },
-  {
-   "id": "5db81ff54bc4f2a15b8e5e722fb17bfa67e15adac885d346b8aff3cd04ff7533",
-   "title": "Florida Man Shares Plans with ChatGPT to Kill His Wife, OpenAI Alerts FBI",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMWwxbDQ2X2xuMXRxNGU2bEVkbVJiMlcyUkE5U09abkgzWmxxTndSeTR3S3oyVG5GN1phVGlmbGU2azVnMTdLODJnTk5fbWVfUzhQaTVOU280QzM4VHEzbjhuZ09oYmtjZjV1NHloQXRYQUJJRjdyRE9jNzd2V01yY2F6ZWdITXdGaU5IZER4OA?oc=5",
-   "sources": [
-    {
-     "name": "Yahoo",
-     "domain": "yahoo.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T14:30:12Z",
    "imageURL": null,
    "signal": 89,
    "alert": false
@@ -1002,7 +1019,24 @@
    "category": "tools",
    "publishedAt": "2026-08-22T04:31:44Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "5db81ff54bc4f2a15b8e5e722fb17bfa67e15adac885d346b8aff3cd04ff7533",
+   "title": "Florida Man Shares Plans with ChatGPT to Kill His Wife, OpenAI Alerts FBI",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMWwxbDQ2X2xuMXRxNGU2bEVkbVJiMlcyUkE5U09abkgzWmxxTndSeTR3S3oyVG5GN1phVGlmbGU2azVnMTdLODJnTk5fbWVfUzhQaTVOU280QzM4VHEzbjhuZ09oYmtjZjV1NHloQXRYQUJJRjdyRE9jNzd2V01yY2F6ZWdITXdGaU5IZER4OA?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo",
+     "domain": "yahoo.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T14:30:12Z",
+   "imageURL": null,
+   "signal": 88,
    "alert": false
   },
   {
@@ -1070,7 +1104,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T03:14:00Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 87,
    "alert": false
   },
   {
@@ -1087,7 +1121,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T05:53:24Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 87,
    "alert": false
   },
   {
@@ -1103,23 +1137,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-22T02:05:00Z",
-   "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "b186905e895c5dbb78ab95d7c08a2ab53cd646d905ffdf380ace499f11eb5da0",
-   "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-   "snippet": null,
-   "url": "https://ozbrain.com",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T23:09:06Z",
    "imageURL": null,
    "signal": 87,
    "alert": false
@@ -1159,6 +1176,23 @@
    "alert": false
   },
   {
+   "id": "b186905e895c5dbb78ab95d7c08a2ab53cd646d905ffdf380ace499f11eb5da0",
+   "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+   "snippet": null,
+   "url": "https://ozbrain.com",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T23:09:06Z",
+   "imageURL": null,
+   "signal": 86,
+   "alert": false
+  },
+  {
    "id": "e06c60c7b2e8744f4f944528453981bafbd218ce81cb51abd4abafb4ed2b13e3",
    "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
    "snippet": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every…",
@@ -1180,7 +1214,28 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:56:59Z",
    "imageURL": null,
-   "signal": 87,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "42eec241c4461931c4d8724d72176f1441701319f3b7b51779b9711a0abc901d",
+   "title": "LFM2.5-DSpark: Up to 3.2x Faster Inference from H100 to MacB",
+   "snippet": null,
+   "url": "https://www.liquid.ai/blog/lfm2.5-dspark",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T17:36:03Z",
+   "imageURL": null,
+   "signal": 86,
    "alert": false
   },
   {
@@ -1218,27 +1273,6 @@
    "alert": false
   },
   {
-   "id": "42eec241c4461931c4d8724d72176f1441701319f3b7b51779b9711a0abc901d",
-   "title": "LFM2.5-DSpark: Up to 3.2x Faster Inference from H100 to MacB",
-   "snippet": null,
-   "url": "https://www.liquid.ai/blog/lfm2.5-dspark",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T17:36:03Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
    "id": "c3ac0a8c9413873c1dbefc1f5777b95f6d81794e46f781be2d541af1ef3da5e7",
    "title": "Never Again by Design",
    "snippet": "&#32; submitted by &#32; /u/Advanced-Cat9927 [link] &#32; [comments]",
@@ -1252,7 +1286,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T04:35:30Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1269,7 +1303,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T00:33:33Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1285,6 +1319,27 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T12:07:30Z",
+   "imageURL": null,
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "8e75bf392f17adf8d0431b4444d1382d2e54302b3722c970e6f817b6c8f517fd",
+   "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+   "snippet": null,
+   "url": "https://annas-archive.gl/blog/physical-destruction.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T02:37:47Z",
    "imageURL": null,
    "signal": 85,
    "alert": false
@@ -1324,24 +1379,20 @@
    "alert": false
   },
   {
-   "id": "8e75bf392f17adf8d0431b4444d1382d2e54302b3722c970e6f817b6c8f517fd",
-   "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+   "id": "825cc28280e6d7fedfef5d91a43a4cab1c3b179ef8dc5f3925f2ec52135dc603",
+   "title": "I'm becoming AI-blind",
    "snippet": null,
-   "url": "https://annas-archive.gl/blog/physical-destruction.html",
+   "url": "https://cymerys.com/w/im-becoming-ai-blind",
    "sources": [
     {
      "name": "Hacker News",
      "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-21T02:37:47Z",
+   "publishedAt": "2026-08-21T11:48:05Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1357,23 +1408,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-22T02:18:36Z",
-   "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "825cc28280e6d7fedfef5d91a43a4cab1c3b179ef8dc5f3925f2ec52135dc603",
-   "title": "I'm becoming AI-blind",
-   "snippet": null,
-   "url": "https://cymerys.com/w/im-becoming-ai-blind",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T11:48:05Z",
    "imageURL": null,
    "signal": 84,
    "alert": false
@@ -1443,7 +1477,7 @@
    "category": "tools",
    "publishedAt": "2026-08-21T20:25:26Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1460,7 +1494,7 @@
    "category": "tools",
    "publishedAt": "2026-08-21T19:51:48Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1515,23 +1549,6 @@
    "alert": false
   },
   {
-   "id": "507a82077a8d3b79bacf45b6cd20a46eda4aa5e0a69f0517506339efdaca2f06",
-   "title": "LTX Releases Open-Weights World Model LTX-2.5",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZYlB5Q21Rd0o1bk00U2E3MEpqOS01V2ItcGFINnV5UWpKeWhGSkZVeEVqVzRkUHdic1B1TG5qcWJUTFFzcVJGU2ZKay1tRHMxdS1VZ1JLRVp1WHo5MEJJcXh1Y2xWd2xXR1lnUDhGOG9IOXBNWGY3Sw?oc=5",
-   "sources": [
-    {
-     "name": "Animation World Network",
-     "domain": "awn.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T19:37:00Z",
-   "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
    "id": "5c3d76b828a4f01ae4709ee534ed18d434479a5e23acc7586c1eb42019eafdba",
    "title": "Anthropic’s Opus 4.6 is a smut-machine",
    "snippet": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
@@ -1545,7 +1562,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T23:07:25Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1630,7 +1647,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T16:57:01Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1668,23 +1685,6 @@
    "alert": false
   },
   {
-   "id": "3c8ea595bcfc2f92873f309fca7725ff60c8c0167076a362eeaa63f8c28c73e5",
-   "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSWZBQ1djTVQzRlBJNmxoOWFsbjM1Mnc1WFVBaE5sT01iNDBqVW9mYUQ3RjJ5Z0lFMzBORFJocjJWQzBoLWprREc0QlRNSC1GMDF2WDlwbzR4MF9NVk84dDUxR19KRVdBX1dVa05xV0NrX3E5VXBPXzZrTm5MeGRROUIwQm44NzZwWS1McW9ucmpadnJFdWU00gGcAUFVX3lxTFBMYXhJTC1vSUR1TWt0aDhXUWc3WldXb1h2UmxqQV9OSUNIMFB1Mzc0SmNrSmdUeE0wakg1LWZvNmV2b2dMcV9ISVNTLUN3a1NWWkRueWR1aXRyS0J0c2VSb2hYQjEwN3kyckZwM0hKV0dvOWhEdWc3bGtRenh4cF91OTFBeDhsbnk3Ymxwc0JLR3NaSXAxWUR3MmFyQw?oc=5",
-   "sources": [
-    {
-     "name": "MarkTechPost",
-     "domain": "marktechpost.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-21T21:15:53Z",
-   "imageURL": null,
-   "signal": 81,
-   "alert": false
-  },
-  {
    "id": "807ef9c2e44da735451da31e0cba2e6f21a1f03f150031d7c549ae00832ff86d",
    "title": "Show HN: Huzzah – a novel approach to coding with AI",
    "snippet": null,
@@ -1697,6 +1697,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-20T19:05:36Z",
+   "imageURL": null,
+   "signal": 81,
+   "alert": false
+  },
+  {
+   "id": "3c8ea595bcfc2f92873f309fca7725ff60c8c0167076a362eeaa63f8c28c73e5",
+   "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSWZBQ1djTVQzRlBJNmxoOWFsbjM1Mnc1WFVBaE5sT01iNDBqVW9mYUQ3RjJ5Z0lFMzBORFJocjJWQzBoLWprREc0QlRNSC1GMDF2WDlwbzR4MF9NVk84dDUxR19KRVdBX1dVa05xV0NrX3E5VXBPXzZrTm5MeGRROUIwQm44NzZwWS1McW9ucmpadnJFdWU00gGcAUFVX3lxTFBMYXhJTC1vSUR1TWt0aDhXUWc3WldXb1h2UmxqQV9OSUNIMFB1Mzc0SmNrSmdUeE0wakg1LWZvNmV2b2dMcV9ISVNTLUN3a1NWWkRueWR1aXRyS0J0c2VSb2hYQjEwN3kyckZwM0hKV0dvOWhEdWc3bGtRenh4cF91OTFBeDhsbnk3Ymxwc0JLR3NaSXAxWUR3MmFyQw?oc=5",
+   "sources": [
+    {
+     "name": "MarkTechPost",
+     "domain": "marktechpost.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-21T21:15:53Z",
    "imageURL": null,
    "signal": 81,
    "alert": false
@@ -1715,7 +1732,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T15:06:26Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 80,
+   "alert": false
+  },
+  {
+   "id": "11ac83b5c037f7be157242b013c075df8a28e4f88d788e7acd9edb6485b2321e",
+   "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+   "snippet": null,
+   "url": "https://github.com/proliferate-ai/proliferate",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T16:47:15Z",
+   "imageURL": null,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1740,23 +1774,6 @@
    "alert": false
   },
   {
-   "id": "5cc79eddb22a864c63ce2b0d2e969872650a9d1f755caabd58e663a558ff467e",
-   "title": "Anthropic Taps Google Chip Veteran as Part of Push Into Hardware",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTEtlVWN3QmU2bFF2QzRyZDBJTUliblExZnM3d1JqcjBLN1V3TDI3MXFnaFdfV1Z5Yl9xRDJ4SkViQVhabEpVQVB4a2tuQ2xDV1doS0ZwWDBBVTJpcXJoS1c2Sk1WQ3p2aDNKYklaYjJpbTZPSENmSzBTQTVodndSWDBWUkJPWml6djBXNWJIazI5dkUtNENLQXZmM0puMzlidExXZnp4aG43WXcwZGZIc3NOR1A0Zw?oc=5",
-   "sources": [
-    {
-     "name": "Bloomberg.com",
-     "domain": "bloomberg.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T19:59:55Z",
-   "imageURL": null,
-   "signal": 80,
-   "alert": false
-  },
-  {
    "id": "05f582b31c0a37a30dac360d0d4a11636cfd00b23bec1d0445da16afef1e80f3",
    "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
    "snippet": "There's about to be a big fight to secure access to space.",
@@ -1774,35 +1791,18 @@
    "alert": false
   },
   {
-   "id": "11ac83b5c037f7be157242b013c075df8a28e4f88d788e7acd9edb6485b2321e",
-   "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+   "id": "5cc79eddb22a864c63ce2b0d2e969872650a9d1f755caabd58e663a558ff467e",
+   "title": "Anthropic Taps Google Chip Veteran as Part of Push Into Hardware",
    "snippet": null,
-   "url": "https://github.com/proliferate-ai/proliferate",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTEtlVWN3QmU2bFF2QzRyZDBJTUliblExZnM3d1JqcjBLN1V3TDI3MXFnaFdfV1Z5Yl9xRDJ4SkViQVhabEpVQVB4a2tuQ2xDV1doS0ZwWDBBVTJpcXJoS1c2Sk1WQ3p2aDNKYklaYjJpbTZPSENmSzBTQTVodndSWDBWUkJPWml6djBXNWJIazI5dkUtNENLQXZmM0puMzlidExXZnp4aG43WXcwZGZIc3NOR1A0Zw?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "Bloomberg.com",
+     "domain": "bloomberg.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T16:47:15Z",
-   "imageURL": null,
-   "signal": 80,
-   "alert": false
-  },
-  {
-   "id": "7fad1946e3e9445378b672fa557ca3ba60aa34ca4207ad49bb6ed5c391a74d92",
-   "title": "A coding agent on a 1987 Commodore Amiga 500 with a 7MHz CPU and 1 MB of RAM",
-   "snippet": null,
-   "url": "https://twitter.com/DXhusni/status/2090839488058859726",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T11:49:47Z",
+   "category": "models",
+   "publishedAt": "2026-08-21T19:59:55Z",
    "imageURL": null,
    "signal": 80,
    "alert": false
@@ -1820,6 +1820,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-21T18:48:28Z",
+   "imageURL": null,
+   "signal": 80,
+   "alert": false
+  },
+  {
+   "id": "7e5ae06946167288f98cf08f8472ac7e2ce8469fa0ce43597c8d0721e5c42c71",
+   "title": "Dutch regulator fines Uber €825M for letting AI deactivate driver accounts",
+   "snippet": null,
+   "url": "https://nltimes.nl/2026/08/21/dutch-regulator-fines-uber-eu825-mil-letting-algorithm-deactivate-drivers-accounts",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:27:29Z",
    "imageURL": null,
    "signal": 79,
    "alert": false
@@ -1867,6 +1884,23 @@
    "alert": false
   },
   {
+   "id": "7fad1946e3e9445378b672fa557ca3ba60aa34ca4207ad49bb6ed5c391a74d92",
+   "title": "A coding agent on a 1987 Commodore Amiga 500 with a 7MHz CPU and 1 MB of RAM",
+   "snippet": null,
+   "url": "https://twitter.com/DXhusni/status/2090839488058859726",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:49:47Z",
+   "imageURL": null,
+   "signal": 79,
+   "alert": false
+  },
+  {
    "id": "de986e8070f5d7064e1f12370a4699b1b411f5f0d10fa7bf288bcc0c99d95013",
    "title": "No Product Manufacturing: How to Achieve 8 Billion Yuan in Sales",
    "snippet": null,
@@ -1879,40 +1913,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T02:54:19Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "aef1930699d916786266526a6d158d5c62d88448cbf07167828d648cb020f7ed",
-   "title": "Major YouTube creators are facing backlash for accepting AI money",
-   "snippet": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-   "sources": [
-    {
-     "name": "The Verge",
-     "domain": "theverge.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T13:37:52Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "7e5ae06946167288f98cf08f8472ac7e2ce8469fa0ce43597c8d0721e5c42c71",
-   "title": "Dutch regulator fines Uber €825M for letting AI deactivate driver accounts",
-   "snippet": null,
-   "url": "https://nltimes.nl/2026/08/21/dutch-regulator-fines-uber-eu825-mil-letting-algorithm-deactivate-drivers-accounts",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T11:27:29Z",
    "imageURL": null,
    "signal": 79,
    "alert": false
@@ -1947,6 +1947,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-21T05:20:50Z",
+   "imageURL": null,
+   "signal": 78,
+   "alert": false
+  },
+  {
+   "id": "aef1930699d916786266526a6d158d5c62d88448cbf07167828d648cb020f7ed",
+   "title": "Major YouTube creators are facing backlash for accepting AI money",
+   "snippet": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+   "sources": [
+    {
+     "name": "The Verge",
+     "domain": "theverge.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-21T13:37:52Z",
    "imageURL": null,
    "signal": 78,
    "alert": false
@@ -1999,7 +2016,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T11:00:53Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/zuckoff-glasshole-1152x648.jpg",
-   "signal": 78,
+   "signal": 77,
    "alert": false
   },
   {
@@ -2037,6 +2054,23 @@
    "alert": false
   },
   {
+   "id": "09523f683853cee9bea6d54d2e9d4b30c60ede5c01d348f3f8655a4a2bc40baa",
+   "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+   "snippet": null,
+   "url": "https://github.com/zachahn/vomit",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T15:26:02Z",
+   "imageURL": null,
+   "signal": 77,
+   "alert": false
+  },
+  {
    "id": "e3ddd7a65cd3a566e91c60250d01ee8b4672eaf661344d99931e4cbb3eebb307",
    "title": "Measuring benchmark optimization in speech recognition",
    "snippet": null,
@@ -2067,24 +2101,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T23:57:32Z",
    "imageURL": null,
-   "signal": 77,
-   "alert": false
-  },
-  {
-   "id": "09523f683853cee9bea6d54d2e9d4b30c60ede5c01d348f3f8655a4a2bc40baa",
-   "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
-   "snippet": null,
-   "url": "https://github.com/zachahn/vomit",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T15:26:02Z",
-   "imageURL": null,
-   "signal": 77,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2139,19 +2156,19 @@
    "alert": false
   },
   {
-   "id": "9a7583fc09aea8e9643baca9e1eae3c38434ba7a8bd3bdf0d8b40b3c73c4020a",
-   "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-   "snippet": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-   "url": "https://www.latent.space/p/wayfinder-skill",
+   "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
+   "title": "Anti-AI fonts are useless and harmful",
+   "snippet": null,
+   "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
    "sources": [
     {
-     "name": "Latent Space",
-     "domain": "latent.space"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T20:59:09Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!gjWE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png",
+   "category": "tools",
+   "publishedAt": "2026-08-20T15:06:53Z",
+   "imageURL": null,
    "signal": 76,
    "alert": false
   },
@@ -2169,7 +2186,24 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "9a7583fc09aea8e9643baca9e1eae3c38434ba7a8bd3bdf0d8b40b3c73c4020a",
+   "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+   "snippet": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+   "url": "https://www.latent.space/p/wayfinder-skill",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "domain": "latent.space"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T20:59:09Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!gjWE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png",
+   "signal": 75,
    "alert": false
   },
   {
@@ -2186,23 +2220,6 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T05:45:21Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!mQfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a668ad4-aca6-4c1c-ac78-5132b8f3d7a8_834x844.png",
-   "signal": 75,
-   "alert": false
-  },
-  {
-   "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
-   "title": "Anti-AI fonts are useless and harmful",
-   "snippet": null,
-   "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T15:06:53Z",
-   "imageURL": null,
    "signal": 75,
    "alert": false
   },
@@ -2254,7 +2271,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:59:57Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2394,6 +2411,23 @@
    "alert": false
   },
   {
+   "id": "acf4cd57263162cdc871398f61cedd56af2cb56108e197fd483a733501f8fb8a",
+   "title": "Hacking with Claude on a $27 smart watch",
+   "snippet": null,
+   "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T14:08:09Z",
+   "imageURL": null,
+   "signal": 73,
+   "alert": false
+  },
+  {
    "id": "c021417a74df503f721cc81a985ab021043f735f20964759a58269b4451d0ae4",
    "title": "Repo0: Design-Driven Zero-to-All Code Generation",
    "snippet": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language requirements while maintaining a modular repository architecture throughout development. We present Repo0, a continuous structural evolution framework for zero-to-all code generation. Repo0 maintains an explicit architectural state instantiated as a Dual-Directed-Acyclic-Graph (Dual-DAG), consisting of a requirement-level DAG, a component-level DAG, and their alignment relation. Starting from natural-language requirements, it iteratively evolves component boundaries through structural actions guided by modularity metrics until structural convergence, after which the converged architecture guides test-driven development code generation. We evaluate Repo0 on six real-world repositories from RepoCraft using GPT-5 mini and DeepSeek V3.2. Repo0 achieves the highest Functionality Coverage and Pass Rate across all settings. Compared with RPG, the strongest repository-planning baseline, Repo0 improves Functionality Coverage by up to 20.08 percentage points and Pass Rate by up to 29.74 percentage points. Ablation and structural-evolution analyses further demonstrate the importance of the Dual-DAG architectural state, modularity-guided structural evolution, and explicit structural convergence.",
@@ -2424,7 +2458,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:26:24Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2441,7 +2475,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T16:24:12Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2496,23 +2530,6 @@
    "alert": false
   },
   {
-   "id": "acf4cd57263162cdc871398f61cedd56af2cb56108e197fd483a733501f8fb8a",
-   "title": "Hacking with Claude on a $27 smart watch",
-   "snippet": null,
-   "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T14:08:09Z",
-   "imageURL": null,
-   "signal": 72,
-   "alert": false
-  },
-  {
    "id": "9c053eef9018983766db16140a84552406fab558221fb276e5c7ae5c819f10e9",
    "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
    "snippet": "Research: A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering…",
@@ -2526,7 +2543,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T15:37:00Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2542,6 +2559,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-20T15:20:03Z",
+   "imageURL": null,
+   "signal": 71,
+   "alert": false
+  },
+  {
+   "id": "e031588d6b621984f4e46cec1348e8372c3c6b6ff08ae7a0e9b1f2d04a754a6f",
+   "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+   "snippet": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed the capacity of a single DiT forward pass, they must be split into groups, exposing two coupled bottlenecks. On the reference-context side, conditioning on all previously generated views grows as O(N), weakening cross-view appearance guidance. On the target-context side, disjoint groups cannot directly exchange information, causing global structural drift. 4DAnyone addresses both bottlenecks with two complementary designs: Reference Context Packing (RCP) compresses growing reference views into a fixed-length mixed-resolution context with O(1) reference-context complexity, while Target Context Routing (TCR) rotates target-view groupings during denoising to share context across groups at high-noise steps and stabilize details at low-noise steps. We further build the MVGameHuman dataset using our in-house game engine and combine it with light-stage and in-the-wild video datasets for training. Experiments on DNA-Rendering and DyMVHumans show that 4DAnyone outperforms prior methods in both novel-view video quality and downstream 4DGS reconstruction, with robust in-the-wild generalization. See our project page for video results and source code: https://4danyone.github.io.",
+   "url": "https://huggingface.co/papers/2608.20335",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
    "signal": 71,
    "alert": false
@@ -2568,10 +2602,10 @@
    "alert": false
   },
   {
-   "id": "e031588d6b621984f4e46cec1348e8372c3c6b6ff08ae7a0e9b1f2d04a754a6f",
-   "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
-   "snippet": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed the capacity of a single DiT forward pass, they must be split into groups, exposing two coupled bottlenecks. On the reference-context side, conditioning on all previously generated views grows as O(N), weakening cross-view appearance guidance. On the target-context side, disjoint groups cannot directly exchange information, causing global structural drift. 4DAnyone addresses both bottlenecks with two complementary designs: Reference Context Packing (RCP) compresses growing reference views into a fixed-length mixed-resolution context with O(1) reference-context complexity, while Target Context Routing (TCR) rotates target-view groupings during denoising to share context across groups at high-noise steps and stabilize details at low-noise steps. We further build the MVGameHuman dataset using our in-house game engine and combine it with light-stage and in-the-wild video datasets for training. Experiments on DNA-Rendering and DyMVHumans show that 4DAnyone outperforms prior methods in both novel-view video quality and downstream 4DGS reconstruction, with robust in-the-wild generalization. See our project page for video results and source code: https://4danyone.github.io.",
-   "url": "https://huggingface.co/papers/2608.20335",
+   "id": "6452651b061fa432627fd0fcadee45cf29bd600bbae3e29815e24de046f2ef83",
+   "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+   "snippet": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent program organization units (POUs) for them. Whether such logic integrates into an existing PLC project and then runs correctly has been checked only in limited tests. We present SemaPLC, a project-grounded and verification-gated agent harness assembled from conventional tools but governed by a strict completion rule. Rather than stopping when the model judges its own output adequate, SemaPLC declares a task complete only when logged external checks confirm it. Those checks cover the specification, the compilation, and the behavior on a live runtime. On 117 independent-POU tasks matching existing benchmarks, it attains the highest strict verified pass rate on all seven models (72.6\\% mean). On a project-context track of 65 tasks whose generated logic must compile and run inside a real project, it attains the highest mean on integrated compilation, static behavior, and dynamic behavior. Of the three layers, dynamic behavior is the most revealing. We measure it by deploying the generated and the reference logic to a live PLC runtime and comparing their executed traces. All methods fall within 10 static points of one another, whereas dynamic scores separate them sharply, from 22.4 to 31.4 for the baselines against 52.2 for SemaPLC. Overall, our verification-gated harness raises the mean at every layer and most sharply at runtime. Execution, not static scoring, is the faithful test of whether generated control logic actually works. SemaPLC is open-sourced at https://github.com/midea-ai/SemaPLC.",
+   "url": "https://huggingface.co/papers/2608.18565",
    "sources": [
     {
      "name": "Hugging Face",
@@ -2579,7 +2613,7 @@
     }
    ],
    "category": "research",
-   "publishedAt": "2026-08-20T00:00:00Z",
+   "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
    "signal": 71,
    "alert": false
@@ -2598,24 +2632,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T14:00:00Z",
    "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
-   "id": "6452651b061fa432627fd0fcadee45cf29bd600bbae3e29815e24de046f2ef83",
-   "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
-   "snippet": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent program organization units (POUs) for them. Whether such logic integrates into an existing PLC project and then runs correctly has been checked only in limited tests. We present SemaPLC, a project-grounded and verification-gated agent harness assembled from conventional tools but governed by a strict completion rule. Rather than stopping when the model judges its own output adequate, SemaPLC declares a task complete only when logged external checks confirm it. Those checks cover the specification, the compilation, and the behavior on a live runtime. On 117 independent-POU tasks matching existing benchmarks, it attains the highest strict verified pass rate on all seven models (72.6\\% mean). On a project-context track of 65 tasks whose generated logic must compile and run inside a real project, it attains the highest mean on integrated compilation, static behavior, and dynamic behavior. Of the three layers, dynamic behavior is the most revealing. We measure it by deploying the generated and the reference logic to a live PLC runtime and comparing their executed traces. All methods fall within 10 static points of one another, whereas dynamic scores separate them sharply, from 22.4 to 31.4 for the baselines against 52.2 for SemaPLC. Overall, our verification-gated harness raises the mean at every layer and most sharply at runtime. Execution, not static scoring, is the faithful test of whether generated control logic actually works. SemaPLC is open-sourced at https://github.com/midea-ai/SemaPLC.",
-   "url": "https://huggingface.co/papers/2608.18565",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T00:00:00Z",
-   "imageURL": null,
-   "signal": 71,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2700,7 +2717,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T21:50:22Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2716,6 +2733,27 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-20T20:53:13Z",
+   "imageURL": null,
+   "signal": 69,
+   "alert": false
+  },
+  {
+   "id": "8a29e8cb39cdb074780f56178a67dd1922b58004436151495990c5f199fc7283",
+   "title": "Claude writing a macOS driver for my obscure HP printer built only for Windows",
+   "snippet": null,
+   "url": "https://twitter.com/kuberwastaken/status/2089377982536388964",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "inkl",
+     "domain": "inkl.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-18T12:22:58Z",
    "imageURL": null,
    "signal": 69,
    "alert": false
@@ -2750,27 +2788,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
-   "imageURL": null,
-   "signal": 69,
-   "alert": false
-  },
-  {
-   "id": "8a29e8cb39cdb074780f56178a67dd1922b58004436151495990c5f199fc7283",
-   "title": "Claude writing a macOS driver for my obscure HP printer built only for Windows",
-   "snippet": null,
-   "url": "https://twitter.com/kuberwastaken/status/2089377982536388964",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "inkl",
-     "domain": "inkl.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-18T12:22:58Z",
    "imageURL": null,
    "signal": 69,
    "alert": false
@@ -2861,23 +2878,6 @@
    "alert": false
   },
   {
-   "id": "0d473f03641046ede1c31b52a7b5fba9be9ae494ee664ca0e9c1f06925ea5d3e",
-   "title": "Physical-Support Confidence Sets for Highly Coherent Dictionaries",
-   "snippet": "Sparse pursuit after dictionary learning can yield a precise atom support even when its physical interpretation is not justified by the calibration data, especially for highly coherent dictionaries where alternative calibration-compatible dictionaries may assign different physical meanings to the…",
-   "url": "https://arxiv.org/abs/2608.20295v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T17:35:26Z",
-   "imageURL": null,
-   "signal": 68,
-   "alert": false
-  },
-  {
    "id": "2094e426acad91e0a3246a067bd87e662617ed70f847fc74c9af4b92a52005ee",
    "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
    "snippet": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-many nature is poorly captured by single-answer evaluation and benchmarking protocols. To address this, we introduce Top-K prompting as a robust training and inference paradigm to better capture diverse, plausible reaction predictions. We compile CREED-CCV-2+USPTO-XL, an ultra-large-scale dataset of ~45.6 million verified reactions to train the C3LM (Chemistry Constraint-Consistent Language Model). By integrating fine-tuning with ChemCensor-based and novelty-oriented rewards, our model achieves state-of-the-art performance on the OOD URSA-expert-2026 benchmark. Further analysis of reaction uniqueness shows that LLMs and conventional models explore complementary reaction spaces, motivating ensemble-based retrosynthesis systems. Overall, our results establish Top-K, plausibility-aware training as a practical new direction for robust future LLM-based synthesis planning.",
@@ -2890,6 +2890,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
+   "imageURL": null,
+   "signal": 68,
+   "alert": false
+  },
+  {
+   "id": "0d473f03641046ede1c31b52a7b5fba9be9ae494ee664ca0e9c1f06925ea5d3e",
+   "title": "Physical-Support Confidence Sets for Highly Coherent Dictionaries",
+   "snippet": "Sparse pursuit after dictionary learning can yield a precise atom support even when its physical interpretation is not justified by the calibration data, especially for highly coherent dictionaries where alternative calibration-compatible dictionaries may assign different physical meanings to the…",
+   "url": "https://arxiv.org/abs/2608.20295v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T17:35:26Z",
    "imageURL": null,
    "signal": 67,
    "alert": false
@@ -2907,6 +2924,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-20T17:32:16Z",
+   "imageURL": null,
+   "signal": 67,
+   "alert": false
+  },
+  {
+   "id": "aca7847db12030b3da7ae0dda9403c40917066f5e8b9a7330a49e7296b49b294",
+   "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+   "snippet": null,
+   "url": "https://github.com/onecli/onecli",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T16:29:02Z",
    "imageURL": null,
    "signal": 67,
    "alert": false
@@ -2959,7 +2993,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:54:17Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2976,7 +3010,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:54:08Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 66,
    "alert": false
   },
   {
@@ -3031,23 +3065,6 @@
    "alert": false
   },
   {
-   "id": "aca7847db12030b3da7ae0dda9403c40917066f5e8b9a7330a49e7296b49b294",
-   "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-   "snippet": null,
-   "url": "https://github.com/onecli/onecli",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T16:29:02Z",
-   "imageURL": null,
-   "signal": 66,
-   "alert": false
-  },
-  {
    "id": "30ed338aa1befde7ba5753342c042ff3cdde49eb0087d7cab3d38674244fb3ac",
    "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
    "snippet": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
@@ -3061,7 +3078,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T16:07:26Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3146,7 +3163,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3218,23 +3235,6 @@
    "alert": false
   },
   {
-   "id": "f1b19f2f1e664660449c3325cc5739c9544b8ac6d3a742c44dc51f1e0c625a28",
-   "title": "Domain and publish date filters for Web Search on AgentCore",
-   "snippet": "Web Search on Amazon Bedrock AgentCore now supports runtime domain and published-date filtering. New per-request filters give developers per-call control over which web sources their agents consult and how fresh those sources must be, all enforced server-side. This release also expands Web Search…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-19T22:13:20Z",
-   "imageURL": null,
-   "signal": 64,
-   "alert": false
-  },
-  {
    "id": "d348a67dbd20da89ffb463b002aae74e98bf83a7baa08fee620713fbae02aaf6",
    "title": "Extensible Software in the age of LLMs",
    "snippet": null,
@@ -3247,6 +3247,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-19T16:26:05Z",
+   "imageURL": null,
+   "signal": 63,
+   "alert": false
+  },
+  {
+   "id": "f1b19f2f1e664660449c3325cc5739c9544b8ac6d3a742c44dc51f1e0c625a28",
+   "title": "Domain and publish date filters for Web Search on AgentCore",
+   "snippet": "Web Search on Amazon Bedrock AgentCore now supports runtime domain and published-date filtering. New per-request filters give developers per-call control over which web sources their agents consult and how fresh those sources must be, all enforced server-side. This release also expands Web Search…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/",
+   "sources": [
+    {
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-19T22:13:20Z",
    "imageURL": null,
    "signal": 63,
    "alert": false
@@ -3354,23 +3371,6 @@
    "alert": false
   },
   {
-   "id": "7d8ab6f63d559658625ead6d227e9edf03b28b1d470854e1c7bfd3f9eebee636",
-   "title": "Guess which of these LLM outputs is watermarked",
-   "snippet": null,
-   "url": "https://sgoedecke.github.io/watermark-quiz/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T14:03:58Z",
-   "imageURL": null,
-   "signal": 62,
-   "alert": false
-  },
-  {
    "id": "28fddc95ce1c97d0f79529803d263ef92ab4345d8777854e7a3fedfb3ca30a14",
    "title": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
    "snippet": "Large language model (LLM) based agents have demonstrated remarkable proficiency in automated software issue resolution, yet they often struggle to resolve issues in a specific repository because they lack project-specific knowledge. Existing self-evolving approaches acquire such knowledge from repository history or online repair trajectories, but they either depend on available historical issue-resolution signals or incur substantial per-issue test-time exploration cost. In this paper, we propose SkillForge, a self-distillation framework that proactively acquires project-specific knowledge from the repository itself. Instead of waiting for real issues to expose project-specific knowledge gaps, SkillForge synthesizes project-specific issues by re-implementing test-covered core functionalities of the repository. By resolving these synthetic issues, SkillForge distills reusable project-specific knowledge into entity-grounded skills and associates them with relevant repository entities for future issue resolution. Extensive experiments using both open-source and closed-source models show that SkillForge consistently improves issue resolution performance over strong baselines. These results demonstrate that proactively acquiring project-specific knowledge before solving real issues substantially improves downstream software issue resolution.",
@@ -3418,7 +3418,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3545,6 +3545,23 @@
    "alert": false
   },
   {
+   "id": "7d8ab6f63d559658625ead6d227e9edf03b28b1d470854e1c7bfd3f9eebee636",
+   "title": "Guess which of these LLM outputs is watermarked",
+   "snippet": null,
+   "url": "https://sgoedecke.github.io/watermark-quiz/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T14:03:58Z",
+   "imageURL": null,
+   "signal": 60,
+   "alert": false
+  },
+  {
    "id": "d96b4129d44ca7f6a2f5011273cddcf5eaf2d08ba9d94228da4952ec404c0d84",
    "title": "5 new ways to level up your learning with Search",
    "snippet": "Here’s how you can use Google Search tools to study for classes and standardized tests.",
@@ -3592,7 +3609,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3677,7 +3694,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 59,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3817,23 +3834,6 @@
    "alert": false
   },
   {
-   "id": "b6461cff58b0d468ae0839c09660bc58c13f01c83a6b6bd8f1064709b5bfb032",
-   "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
-   "snippet": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
-   "url": "https://www.latent.space/p/glean-model-routing",
-   "sources": [
-    {
-     "name": "Latent Space",
-     "domain": "latent.space"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-18T21:41:10Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!mpso!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ac64fa7-87ce-4106-816c-5811822047e1_1280x720.png",
-   "signal": 57,
-   "alert": false
-  },
-  {
    "id": "d68239847d75e067ab5c39ab68611eced662a1728008f6f3f68f4cdcf4f11dc3",
    "title": "[AINews] Stripe buys OpenRouter for $7B",
    "snippet": "No GPUs, no Agents, just really, really, really good infra and distribution.",
@@ -3847,6 +3847,23 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T23:13:41Z",
    "imageURL": "https://substackcdn.com/image/youtube/w_728,c_limit/QHBjufYK8TA",
+   "signal": 57,
+   "alert": false
+  },
+  {
+   "id": "b6461cff58b0d468ae0839c09660bc58c13f01c83a6b6bd8f1064709b5bfb032",
+   "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+   "snippet": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
+   "url": "https://www.latent.space/p/glean-model-routing",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "domain": "latent.space"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-18T21:41:10Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!mpso!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ac64fa7-87ce-4106-816c-5811822047e1_1280x720.png",
    "signal": 57,
    "alert": false
   },
@@ -3991,47 +4008,6 @@
    "alert": false
   },
   {
-   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
-   "title": "Anthropic could be worth $2 trillion when it goes public",
-   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
-   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    },
-    {
-     "name": "NDTV",
-     "domain": "ndtv.com"
-    },
-    {
-     "name": "The New Indian Express",
-     "domain": "newindianexpress.com"
-    },
-    {
-     "name": "Yahoo Finance",
-     "domain": "finance.yahoo.com"
-    },
-    {
-     "name": "BeInCrypto",
-     "domain": "beincrypto.com"
-    },
-    {
-     "name": "The Indian Express",
-     "domain": "indianexpress.com"
-    },
-    {
-     "name": "The New York Times",
-     "domain": "nytimes.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T13:58:56Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
-   "signal": 55,
-   "alert": false
-  },
-  {
    "id": "6ce97df4a251395a43d159307744093c6820a77935369bde3d40cc4806acd2e1",
    "title": "Towards Quantifying Benchmark Optimization in ASR Models",
    "snippet": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchmark optimization, focusing on cases where the audio underdetermines the reference transcript. We identify three families of behavioral probes that reveal models' capabilities of reproducing benchmark reference spans despite underdetermined audio: reference disagreement, masked-number recovery, and orthographic switching. We find that the highest-scoring open source models output verbatim reference transcript spans even when the relevant audio is contradictory, masked, or ambiguous. Using a variety of mechanistic probes, we show that models respond to narrow acoustic cues to override the faithful representation of the audio in favor of a benchmark-optimized policy. We show the benchmark-optimized behavior can be causally manipulated via low-rank linear steering or simply appending audio to the end of a segment in some cases. Overall, our results indicate that high-performing models exhibit benchmark-conditioned behaviors that can inflate benchmark performance without reflecting improved general-purpose transcription ability.",
@@ -4151,23 +4127,6 @@
    "alert": false
   },
   {
-   "id": "a40230c73300e1ebd7b82a7d40c06cbb6a0e461bec752924b553db481ff1a610",
-   "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
-   "snippet": "“We're not necessarily building in a dogmatic fashion towards full autonomy.”",
-   "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T21:18:49Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/1872-Factory-One-opening-1152x648.jpeg",
-   "signal": 53,
-   "alert": false
-  },
-  {
    "id": "dd475a40b23538739e525bf7d9a9d9dd84511f7905cd123123cf7b94730d5522",
    "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
    "snippet": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the agent. We introduce OmniScientist, an end-to-end, omni-modal AI scientist that conducts multidisciplinary research directly from heterogeneous raw evidence. A perception layer and 3 autonomous agents for ideation, experiment, and writeup operate within a deterministic pipeline, allowing observations to shape research questions, experimental decisions, and final claims throughout the research lifecycle. By running idea, rigour, and claim checks in code, the system enforces novelty screening, statistical validity, execution provenance, and numerical traceability. We evaluate OmniScientist on 36 real-data cases spanning 5 discipline families, 4 families of scientific evidence, and modalities including images, signals, audio, video, 3-D structures, trajectories, tables, formulae, and graphs. The system completes the full path from raw data to a compiled manuscript in all 36 cases and achieves a mean overall paper score of 6.3 with the reference reasoning backbone. In paired comparisons against a blind variant that receives only precomputed scalar features, direct perception improves all 7 evaluation dimensions and wins 85% of head-to-head judgments. These results show that lifecycle-wide perception is essential for evidence-grounded scientific discovery and provides a practical path toward broadly capable AI scientists.",
@@ -4185,6 +4144,23 @@
    "alert": false
   },
   {
+   "id": "a40230c73300e1ebd7b82a7d40c06cbb6a0e461bec752924b553db481ff1a610",
+   "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
+   "snippet": "“We're not necessarily building in a dogmatic fashion towards full autonomy.”",
+   "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T21:18:49Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/1872-Factory-One-opening-1152x648.jpeg",
+   "signal": 53,
+   "alert": false
+  },
+  {
    "id": "bf50ec5ce617ac83f0c8191a946860d3cb0cd0d2aa8f71d8bb07d1b2c9c687ea",
    "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
    "snippet": null,
@@ -4198,6 +4174,43 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T19:46:21Z",
    "imageURL": null,
+   "signal": 53,
+   "alert": false
+  },
+  {
+   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
+   "title": "Anthropic could be worth $2 trillion when it goes public",
+   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
+   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    },
+    {
+     "name": "NDTV",
+     "domain": "ndtv.com"
+    },
+    {
+     "name": "The New Indian Express",
+     "domain": "newindianexpress.com"
+    },
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
+    },
+    {
+     "name": "BeInCrypto",
+     "domain": "beincrypto.com"
+    },
+    {
+     "name": "The New York Times",
+     "domain": "nytimes.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T13:58:56Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
    "signal": 53,
    "alert": false
   },
@@ -4232,7 +4245,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 52,
    "alert": false
   },
   {
@@ -4342,23 +4355,6 @@
    "alert": false
   },
   {
-   "id": "833db2c9ec7ee42b0a9d147b41b03aaddd7b4c732de6471d5d63c51e50834353",
-   "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
-   "snippet": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene on risky actions, but action-local checks do not guide an agent through a multi-step procedure. Workflow-following systems support prescribed process execution, but primarily target workflow completion rather than safeguarding agent behavior. PolicyGuide instead compiles each domain policy into a workflow graph and invokes a proactive verifier at user-turn boundaries. From persisted graph state, the verifier reconciles open requests and returns step-specific remediation along a policy-compliant path. Across the τ^2-bench airline, retail, and telecom domains with a GPT-5.4 agent and verifier, PolicyGuide raises mean Pass^4 from 0.42 to 0.62, with the largest gain on telecom (0.19 to 0.61), the most workflow-structured domain. The same workflows transfer to Claude Sonnet 4.6 and Gemini 2.5 Pro agents. Complementary evaluations find the lowest observed attack-success rate under adversarial users and the strongest procedural compliance in an author-designed workflow-level validation.",
-   "url": "https://huggingface.co/papers/2608.19861",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T00:00:00Z",
-   "imageURL": null,
-   "signal": 51,
-   "alert": false
-  },
-  {
    "id": "1380f7766171a5a616fa9c577a9838fc6a9a2eedb637829cee254df1dadbabf0",
    "title": "The Defender’s Window",
    "snippet": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
@@ -4371,6 +4367,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-17T05:30:00Z",
+   "imageURL": null,
+   "signal": 51,
+   "alert": false
+  },
+  {
+   "id": "833db2c9ec7ee42b0a9d147b41b03aaddd7b4c732de6471d5d63c51e50834353",
+   "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+   "snippet": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene on risky actions, but action-local checks do not guide an agent through a multi-step procedure. Workflow-following systems support prescribed process execution, but primarily target workflow completion rather than safeguarding agent behavior. PolicyGuide instead compiles each domain policy into a workflow graph and invokes a proactive verifier at user-turn boundaries. From persisted graph state, the verifier reconciles open requests and returns step-specific remediation along a policy-compliant path. Across the τ^2-bench airline, retail, and telecom domains with a GPT-5.4 agent and verifier, PolicyGuide raises mean Pass^4 from 0.42 to 0.62, with the largest gain on telecom (0.19 to 0.61), the most workflow-structured domain. The same workflows transfer to Claude Sonnet 4.6 and Gemini 2.5 Pro agents. Complementary evaluations find the lowest observed attack-success rate under adversarial users and the strongest procedural compliance in an author-designed workflow-level validation.",
+   "url": "https://huggingface.co/papers/2608.19861",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
    "signal": 51,
    "alert": false
@@ -4508,7 +4521,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T15:05:36Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4593,7 +4606,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T20:11:29Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4665,23 +4678,6 @@
    "alert": false
   },
   {
-   "id": "8393c843a171d72369b2dfabe36ce65b3e11844d7844cfc40853fcf71ec3d4b3",
-   "title": "ChatGPT Ads expands across Europe",
-   "snippet": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T22:00:00Z",
-   "imageURL": null,
-   "signal": 48,
-   "alert": false
-  },
-  {
    "id": "c0986f6628d189a1ac370992d714e2906f134950b6ed170922abe5ac2caf0e49",
    "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
    "snippet": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
@@ -4694,6 +4690,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-13T10:00:00Z",
+   "imageURL": null,
+   "signal": 47,
+   "alert": false
+  },
+  {
+   "id": "8393c843a171d72369b2dfabe36ce65b3e11844d7844cfc40853fcf71ec3d4b3",
+   "title": "ChatGPT Ads expands across Europe",
+   "snippet": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+   "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-18T22:00:00Z",
    "imageURL": null,
    "signal": 47,
    "alert": false
@@ -5035,7 +5048,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 43,
    "alert": false
   },
   {
@@ -5120,7 +5133,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T05:16:41Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!k-nI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPWkSuDbkAExHc7.png",
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -5205,7 +5218,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T22:02:25Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261896328-1152x648.jpg",
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -5328,23 +5341,6 @@
    "alert": false
   },
   {
-   "id": "b83997df209ee9990ae6c6983c161b701f6db13394f82aa3011eb4a31bbc1cae",
-   "title": "Securing the Infrastructure of Intelligence",
-   "snippet": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical resources: advanced chips, packaging, memory…",
-   "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-   "sources": [
-    {
-     "name": "NVIDIA",
-     "domain": "blogs.nvidia.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-17T12:34:51Z",
-   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
-   "signal": 40,
-   "alert": false
-  },
-  {
    "id": "fd73ce0e976e316f4c8b99a07b93ef607ab15cc6b5f4ba892fce8e01c732b428",
    "title": "I wrote an AI textbook — how long until AI can do it better?",
    "snippet": "Reflections on AI's writing ability and how AI models get more capable.",
@@ -5358,6 +5354,23 @@
    "category": "research",
    "publishedAt": "2026-08-12T13:01:16Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/815ecb78-309c-4ca3-9ceb-a3329100ae64_3182x1790.png",
+   "signal": 40,
+   "alert": false
+  },
+  {
+   "id": "b83997df209ee9990ae6c6983c161b701f6db13394f82aa3011eb4a31bbc1cae",
+   "title": "Securing the Infrastructure of Intelligence",
+   "snippet": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical resources: advanced chips, packaging, memory…",
+   "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+   "sources": [
+    {
+     "name": "NVIDIA",
+     "domain": "blogs.nvidia.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-17T12:34:51Z",
+   "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
    "signal": 40,
    "alert": false
   },
@@ -5562,7 +5575,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T13:02:42Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!ccYc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4468909c-7481-4b27-9566-6fc838b95743_1074x731.jpeg",
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5647,7 +5660,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T17:26:53Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5974,23 +5987,6 @@
    "alert": false
   },
   {
-   "id": "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669",
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "snippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T09:00:00Z",
-   "imageURL": null,
-   "signal": 33,
-   "alert": false
-  },
-  {
    "id": "639d81441a0d947392fec3ea925322625063884e4fab0a9a5833310a2d78f30b",
    "title": "The latest AI news we announced in July 2026",
    "snippet": "Here are Google’s latest AI updates from July 2026",
@@ -6004,6 +6000,23 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
+   "signal": 33,
+   "alert": false
+  },
+  {
+   "id": "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669",
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "snippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T09:00:00Z",
+   "imageURL": null,
    "signal": 32,
    "alert": false
   },
@@ -6089,7 +6102,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T14:03:08Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/dff5e29d-7c81-4f81-a64b-10d9b9bbecbc_2856x1577.png",
-   "signal": 32,
+   "signal": 31,
    "alert": false
   },
   {
@@ -6174,7 +6187,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T00:38:21Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/jhh-support-blog-visual-logo-lock-up-3x4-1.png",
-   "signal": 31,
+   "signal": 30,
    "alert": false
   },
   {
@@ -6616,7 +6629,7 @@
    "category": "research",
    "publishedAt": "2026-07-09T16:46:22Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 25,
    "alert": false
   },
   {
@@ -7151,7 +7164,7 @@
    "category": "research",
    "publishedAt": "2026-06-29T13:03:27Z",
    "imageURL": null,
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -7593,7 +7606,7 @@
    "category": "techniques",
    "publishedAt": "2026-05-16T11:33:51Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/2b841d26-5b2d-4be9-9710-d89d4f023f0c_1600x900.png",
-   "signal": 15,
+   "signal": 14,
    "alert": false
   },
   {
@@ -8124,7 +8137,7 @@
    "category": "research",
    "publishedAt": "2025-06-05T20:00:00Z",
    "imageURL": null,
-   "signal": 9,
+   "signal": 8,
    "alert": false
   },
   {
