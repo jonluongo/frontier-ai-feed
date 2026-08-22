@@ -1,7 +1,32 @@
 {
  "version": 1,
- "generatedAt": "2026-08-22T20:20:12Z",
+ "generatedAt": "2026-08-22T20:49:01Z",
  "stories": [
+  {
+   "id": "5c707b927edc4c60d74842526d6d8d43a2e592f43be7bd4b20c260f42522d7ee",
+   "title": "Anthropic embeds Claude Mythos 5 in security tools, pledges $35M in credits",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdW1oRnlQZE1SS0YzbUo3ajM5ZDZBSWp2ZThTeWhnQnkzTWJLVjM1MHVLcGR2S1dwQWlHMnZ0ekg3MGZVTFNxZVRsLVVncVA0eW1NeDlNNDZPNXNQcUQ1eUY3R1o5RC01UjZUcEk5ejZWendzZUctbE82LWxnUDZ2U0kxWFVPWmVON2FmU3RKeEZKMGNWQl9IYXM3TlAwcms2dUNQLWdDRzBoSkk?oc=5",
+   "sources": [
+    {
+     "name": "Dealroom",
+     "domain": "app.dealroom.co"
+    },
+    {
+     "name": "The Zero Net",
+     "domain": "thezeronet.com"
+    },
+    {
+     "name": "MarkTechPost",
+     "domain": "marktechpost.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-22T17:33:51Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": true
+  },
   {
    "id": "3bfaeaf588a2527872eacdb12ecf8eddb7b5dd6a0c2a8c6fc3db0ac0b47a3aed",
    "title": "AI reshapes curriculum planning in regional TVET programme",
@@ -50,7 +75,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T20:00:00Z",
    "imageURL": null,
-   "signal": 99,
+   "signal": 98,
    "alert": false
   },
   {
@@ -88,6 +113,23 @@
    "alert": false
   },
   {
+   "id": "a830cb593718a7926abd399b9c38dbf0f85cdb433837fef1129d0aa4b6d2b9ae",
+   "title": "Watching that wattage, in your terminal.",
+   "snippet": "Released today: version 1.3 of energygraph Zero build dependencies, lightweight tool for live views of the power-consumption. Version 1.3 adds support for dGPUs from nvidia, intel, amd. Depending on vendor support, you can also get the consumption by your cpu cores, iGPU, platform system, dram. In…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvkgs6/watching_that_wattage_in_your_terminal/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T18:47:37Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
    "id": "0c6311229130eeac14e0cdf52e405d292828e588767f1a5c280b3404b26b4ec2",
    "title": "GLM and I created a llama.cpp fork optimized for AMD GFX906 (Mi50, Mi60, Radeon VII, GCN HIP) - Machine Learning, LLMs, & AI",
    "snippet": "I felt the need to share this here. Looking for feedback. &#32; submitted by &#32; /u/milpster [link] &#32; [comments]",
@@ -118,7 +160,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T19:16:31Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": false
   },
   {
@@ -135,7 +177,24 @@
    "category": "tools",
    "publishedAt": "2026-08-22T16:58:49Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "bc1e6c7fc211943c605059432966884c4dbe875a35507617da99c4ca51688e8b",
+   "title": "Current best model for narrative, chat, prompt creation (so basically everything except agentic coding)? - 5090",
+   "snippet": "Im looking to set up a new local llm (probably on unsloth studio as that seemed to be doing pretty well last time I tested it). This one won&#39;t need to do agentic coding or app building or anything (not this time) but instead more &#39;text&#39; based tasks such as - being given reference images…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vviy88/current_best_model_for_narrative_chat_prompt/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T17:49:39Z",
+   "imageURL": null,
+   "signal": 97,
    "alert": false
   },
   {
@@ -181,6 +240,23 @@
    "alert": true
   },
   {
+   "id": "53de3fca829591e91689a6a3a21ccda67b31e70aa6555874cfc81bd1b54e7a16",
+   "title": "Why your local LLM feels dumber than it is",
+   "snippet": null,
+   "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T18:14:16Z",
+   "imageURL": null,
+   "signal": 96,
+   "alert": false
+  },
+  {
    "id": "ebf6264c3c48d22f903ac3416fd7b1a486edd60c92d4af1cd41c5b5abeb18c1d",
    "title": "Israeli scientists: AI can make personality tests, predict responses",
    "snippet": null,
@@ -194,7 +270,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T18:10:03Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -211,7 +287,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T17:01:16Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -228,7 +304,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T17:00:28Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -245,7 +321,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T18:00:00Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -261,40 +337,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T17:26:32Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "3f89e94f44724b318410048e73b56d70cf88f771d4d1c029d992eddb0b72b02c",
-   "title": "More than just code review",
-   "snippet": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are…",
-   "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T15:56:54Z",
-   "imageURL": null,
-   "signal": 96,
-   "alert": false
-  },
-  {
-   "id": "39cee1d77d502a9d1c95d4f74cd9d93111bfd4095401765bcd33565d5abe7ded",
-   "title": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZnpBd0lPTTR4TV9fNVRRVmYxU2tjWnNGRk1tNXhkT2lEZ3g1TWd4OWFNTFpQdzZmcTMzVnFPdjkzWHFtenp3ai1seEFBejJTTVEwOVBVZjZQX2tKX3BKdXRjdVhuR09oN1hsbDhoQzNWV3lIMWNFU3J3QkNhU3RONllSNkM3NTF0aE1qLXBuSnlwRTJlb01JMnRZSXNpMmxMclBFTmZmQ3dlczNpTWdMNC1rMGFLYVFteEpNNUlOQXFsaFRPVGYwQktvSHA5eVE5SEdxT0djeWk?oc=5",
-   "sources": [
-    {
-     "name": "TechRadar",
-     "domain": "techradar.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T17:05:00Z",
    "imageURL": null,
    "signal": 96,
    "alert": false
@@ -317,8 +359,42 @@
    "category": "tools",
    "publishedAt": "2026-08-22T11:24:54Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
    "alert": true
+  },
+  {
+   "id": "3f89e94f44724b318410048e73b56d70cf88f771d4d1c029d992eddb0b72b02c",
+   "title": "More than just code review",
+   "snippet": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are…",
+   "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-22T15:56:54Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "39cee1d77d502a9d1c95d4f74cd9d93111bfd4095401765bcd33565d5abe7ded",
+   "title": "Claude wins out in major user satisfaction survey, beating Gemini and ChatGPT — but it's bad news for Grok and Siri",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZnpBd0lPTTR4TV9fNVRRVmYxU2tjWnNGRk1tNXhkT2lEZ3g1TWd4OWFNTFpQdzZmcTMzVnFPdjkzWHFtenp3ai1seEFBejJTTVEwOVBVZjZQX2tKX3BKdXRjdVhuR09oN1hsbDhoQzNWV3lIMWNFU3J3QkNhU3RONllSNkM3NTF0aE1qLXBuSnlwRTJlb01JMnRZSXNpMmxMclBFTmZmQ3dlczNpTWdMNC1rMGFLYVFteEpNNUlOQXFsaFRPVGYwQktvSHA5eVE5SEdxT0djeWk?oc=5",
+   "sources": [
+    {
+     "name": "TechRadar",
+     "domain": "techradar.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T17:05:00Z",
+   "imageURL": null,
+   "signal": 95,
+   "alert": false
   },
   {
    "id": "cf6ea0309b5eaff550d5c830f90fb92f504ebda221a537e302eec31fee9be8b0",
@@ -334,7 +410,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T15:26:22Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
    "alert": false
   },
   {
@@ -350,23 +426,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T16:30:34Z",
-   "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "fb93a742d2a1d2ab4d8792ff91c44aa9d1ad77ef90496fdef0f3d190e195e3ca",
-   "title": "This is a great sub, regardless of what complaints people have about it.",
-   "snippet": "This is a genuine community of real generally respectful adult human beings. Despite the enthusiasm all of you have for local AI, you can recognize that there are times when local LLMs are flawed, and even how practical they are to use for the majority of people to use. Go over to r/linux and…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vveabg/this_is_a_great_sub_regardless_of_what_complaints/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T14:44:56Z",
    "imageURL": null,
    "signal": 95,
    "alert": false
@@ -389,8 +448,25 @@
    "category": "tools",
    "publishedAt": "2026-08-22T09:43:38Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": true
+  },
+  {
+   "id": "fb93a742d2a1d2ab4d8792ff91c44aa9d1ad77ef90496fdef0f3d190e195e3ca",
+   "title": "This is a great sub, regardless of what complaints people have about it.",
+   "snippet": "This is a genuine community of real generally respectful adult human beings. Despite the enthusiasm all of you have for local AI, you can recognize that there are times when local LLMs are flawed, and even how practical they are to use for the majority of people to use. Go over to r/linux and…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vveabg/this_is_a_great_sub_regardless_of_what_complaints/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T14:44:56Z",
+   "imageURL": null,
+   "signal": 94,
+   "alert": false
   },
   {
    "id": "058d495cab2c8c26823cb4785ec59c56b412ceec76fa81bc79e4442d41ab0efb",
@@ -406,24 +482,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T16:00:00Z",
    "imageURL": null,
-   "signal": 95,
-   "alert": false
-  },
-  {
-   "id": "7168adf94fa8add0a5ec8f8b7c4e7098aa09774aeb302c0cd4628640a8fc4fb0",
-   "title": "Fixed the MTP head on Ornith1.5 35B A3B. +3% TPS -33% wall clock",
-   "snippet": "I love the Ornith 35B local models, 1.0 has been running my HAM radio rig for me. I have a hackRF receiver and a 5 watt quansheng portable the both run headless through the PC. I tried out the new Ornith1.5 build and it was faster and more accurate than 1.0. I read the threads that talked about the…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvft7b/fixed_the_mtp_head_on_ornith15_35b_a3b_3_tps_33/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T15:46:27Z",
-   "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -448,27 +507,10 @@
    "alert": true
   },
   {
-   "id": "268a39d8382d04d702bbddee2a5bbd314b209f444ad71cea3ec08eb308b4e4ef",
-   "title": "Meghan O'Gieblyn: Donna Haraway’s Cyborg Manifesto in the Age of AI",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZm1MT3ozNlg1UHhqWTF5dW5yelcxQUdxbmF6cTVERUxTS2hWMGt3dUdRSHdKY2FOUUpuRHYyMHdIaDhSTEVBd2JlZ0E0STJzTXR1Y0lMczZ5SmlHUnZKOVhLYjhmejhmd1pGaEwxM2x3UW9JMVJvVlJlTkZlQjMtc3lPbw?oc=5",
-   "sources": [
-    {
-     "name": "The Yale Review",
-     "domain": "yalereview.org"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T15:24:57Z",
-   "imageURL": null,
-   "signal": 94,
-   "alert": false
-  },
-  {
-   "id": "d8cf43d22a20e508a0f4db864f390bc771ac3691a8defeb401cc4d2bc8eedd34",
-   "title": "Your own GGUF",
-   "snippet": "Hello, I have a few questions that I can&#39;t seem to find a clear answer to. Does it make sense to make your own GGUF? I noticed that when I compile llamacpp (vulkan or rocm), the processing and generation is a bit better, does it work similarly with doing GGUF yourself? If I use Vulkan, is it…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvf7tk/your_own_gguf/",
+   "id": "7168adf94fa8add0a5ec8f8b7c4e7098aa09774aeb302c0cd4628640a8fc4fb0",
+   "title": "Fixed the MTP head on Ornith1.5 35B A3B. +3% TPS -33% wall clock",
+   "snippet": "I love the Ornith 35B local models, 1.0 has been running my HAM radio rig for me. I have a hackRF receiver and a 5 watt quansheng portable the both run headless through the PC. I tried out the new Ornith1.5 build and it was faster and more accurate than 1.0. I read the threads that talked about the…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvft7b/fixed_the_mtp_head_on_ornith15_35b_a3b_3_tps_33/",
    "sources": [
     {
      "name": "r/LocalLLaMA",
@@ -476,7 +518,7 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T15:22:23Z",
+   "publishedAt": "2026-08-22T15:46:27Z",
    "imageURL": null,
    "signal": 94,
    "alert": false
@@ -495,24 +537,58 @@
    "category": "tools",
    "publishedAt": "2026-08-22T09:49:14Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
-   "id": "53de3fca829591e91689a6a3a21ccda67b31e70aa6555874cfc81bd1b54e7a16",
-   "title": "Why your local LLM feels dumber than it is",
+   "id": "268a39d8382d04d702bbddee2a5bbd314b209f444ad71cea3ec08eb308b4e4ef",
+   "title": "Meghan O'Gieblyn: Donna Haraway’s Cyborg Manifesto in the Age of AI",
    "snippet": null,
-   "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZm1MT3ozNlg1UHhqWTF5dW5yelcxQUdxbmF6cTVERUxTS2hWMGt3dUdRSHdKY2FOUUpuRHYyMHdIaDhSTEVBd2JlZ0E0STJzTXR1Y0lMczZ5SmlHUnZKOVhLYjhmejhmd1pGaEwxM2x3UW9JMVJvVlJlTkZlQjMtc3lPbw?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "The Yale Review",
+     "domain": "yalereview.org"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T15:24:57Z",
+   "imageURL": null,
+   "signal": 93,
+   "alert": false
+  },
+  {
+   "id": "d8cf43d22a20e508a0f4db864f390bc771ac3691a8defeb401cc4d2bc8eedd34",
+   "title": "Your own GGUF",
+   "snippet": "Hello, I have a few questions that I can&#39;t seem to find a clear answer to. Does it make sense to make your own GGUF? I noticed that when I compile llamacpp (vulkan or rocm), the processing and generation is a bit better, does it work similarly with doing GGUF yourself? If I use Vulkan, is it…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvf7tk/your_own_gguf/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T18:14:16Z",
+   "publishedAt": "2026-08-22T15:22:23Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
+   "alert": false
+  },
+  {
+   "id": "ed066fd3cc7554ccf997abfe5a01e87bef5a01d45267c2a42aa9cc68d0cb0c01",
+   "title": "What Is AGENTS.md? AI Coding File Guide (2026)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWZxSlU0alBETzExQXl6TU8ySzBmaEdjcnQwM0I0MWZFMjVmZ1hRUERrVUpZdnlIUk1DcmxULUg5Mk9ud29NQkcyWERaWk93UkFxUHY0WDdKcHJjRGVzOVMydGpPUTFaYmtDcXoyTjZOSldVN3RWTUxZeEpXSEJWLVJ1SXIwb21ib1R2dTdfdVNkOXkwVkhOYnJDUU9HbVZhOE8wZktZRVMxdw?oc=5",
+   "sources": [
+    {
+     "name": "StartupHub.ai",
+     "domain": "startuphub.ai"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-22T13:04:49Z",
+   "imageURL": null,
+   "signal": 93,
    "alert": false
   },
   {
@@ -537,61 +613,6 @@
    "alert": true
   },
   {
-   "id": "ed066fd3cc7554ccf997abfe5a01e87bef5a01d45267c2a42aa9cc68d0cb0c01",
-   "title": "What Is AGENTS.md? AI Coding File Guide (2026)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWZxSlU0alBETzExQXl6TU8ySzBmaEdjcnQwM0I0MWZFMjVmZ1hRUERrVUpZdnlIUk1DcmxULUg5Mk9ud29NQkcyWERaWk93UkFxUHY0WDdKcHJjRGVzOVMydGpPUTFaYmtDcXoyTjZOSldVN3RWTUxZeEpXSEJWLVJ1SXIwb21ib1R2dTdfdVNkOXkwVkhOYnJDUU9HbVZhOE8wZktZRVMxdw?oc=5",
-   "sources": [
-    {
-     "name": "StartupHub.ai",
-     "domain": "startuphub.ai"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T13:04:49Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "de07e5fbed4c803d2adb4a9cfdb3bbaf3743f29cc7d7786b4756d959d7605ef9",
-   "title": "Linus Torvalds Endures a Debug Session from Hell, \"Enormously Helped\" by AI",
-   "snippet": null,
-   "url": "https://www.phoronix.com/news/Linus-Torvalds-Debug-AI",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T19:11:34Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": false
-  },
-  {
-   "id": "0802e5036fe4786632869ef642ff12a9b6e8396fd62cc81856d34b2ddd32871a",
-   "title": "AWS AgentCore Harness Bypass Exposed a Cross-Platform Vulnerability Class in Agent Runtimes",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWFORmk3ckdOYXlxdy1SUHdqbzlyVDg3ejFwTXBlWHFyVUhNWjd0N1J2Q1cyejBlSmVVREt4Z1JQUzV3TFY5d01ZRHVJSFZmZTNqdTBZWWx3RWs1MThRNGJFLV83czhFT29HRTZyc1lDLUpUSjAwYnJ6NWRwMEl6UmNpVW5PTFNzUFVEazJUNmdjNWQya3RpZEFXWTFNZzZ4cHNPWXV1LWMyb05OeWpsd2t2RjBtZ2xwMFdPQ2t6cVl0RE9sc1o2dg?oc=5",
-   "sources": [
-    {
-     "name": "CryptoRank",
-     "domain": "cryptorank.io"
-    },
-    {
-     "name": "forkast.news",
-     "domain": "forkast.news"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T05:31:28Z",
-   "imageURL": null,
-   "signal": 93,
-   "alert": true
-  },
-  {
    "id": "95c9776410dbb70b7fd14bd63430f427f3d35f99ade35eb498dbdc0de942fef4",
    "title": "Lean Prompts Beat Micromanagement in New Anthropic Models",
    "snippet": null,
@@ -605,7 +626,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T12:01:30Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 92,
    "alert": false
   },
   {
@@ -702,7 +723,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T11:10:38Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 91,
    "alert": false
   },
   {
@@ -719,7 +740,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T13:14:53Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 91,
    "alert": false
   },
   {
@@ -735,23 +756,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T12:51:49Z",
-   "imageURL": null,
-   "signal": 91,
-   "alert": false
-  },
-  {
-   "id": "8df515e7c3278eb7af58ba862ff16cd4fdf14fdafc5319e46869acee0e9c29e2",
-   "title": "What Claude's AI text watermark actually does",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3QXVSLWxia3VqbkVfbkgtbGVENU1ERjRqMnotR0w1bklDS2xXRHFzTG9JNFNsenBMRVpMb2t5aWVmR1VYNjduTTlfclRCdE5qZlhxRVFSTTNSd3V6dlN3NTdEOFlabjByZmRWZlpCekkxSmtOejN2Mw?oc=5",
-   "sources": [
-    {
-     "name": "Mashable",
-     "domain": "mashable.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T12:46:07Z",
    "imageURL": null,
    "signal": 91,
    "alert": false
@@ -774,25 +778,21 @@
    "alert": false
   },
   {
-   "id": "f51d21a98220f748e31a0e63d5c7220aad6750411eb4a24616b8243429c05f98",
-   "title": "Claude Design: Anthropic’s AI Prototyping Tool Explained",
+   "id": "8df515e7c3278eb7af58ba862ff16cd4fdf14fdafc5319e46869acee0e9c29e2",
+   "title": "What Claude's AI text watermark actually does",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Sb2dHeTFqQXk4cElGLTRtQ1F2aDYwRkhCQTY0b3ZUZUk1LTRkSURuY1JiaFRQamFkQVNmVktjek5wckxvZ2lYMzBTeFZCcXVNT2llSkxfUkllY0U?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3QXVSLWxia3VqbkVfbkgtbGVENU1ERjRqMnotR0w1bklDS2xXRHFzTG9JNFNsenBMRVpMb2t5aWVmR1VYNjduTTlfclRCdE5qZlhxRVFSTTNSd3V6dlN3NTdEOFlabjByZmRWZlpCekkxSmtOejN2Mw?oc=5",
    "sources": [
     {
-     "name": "The Zero Net",
-     "domain": "thezeronet.com"
-    },
-    {
-     "name": "Dealroom",
-     "domain": "app.dealroom.co"
+     "name": "Mashable",
+     "domain": "mashable.com"
     }
    ],
    "category": "techniques",
-   "publishedAt": "2026-08-22T05:05:35Z",
+   "publishedAt": "2026-08-22T12:46:07Z",
    "imageURL": null,
    "signal": 91,
-   "alert": true
+   "alert": false
   },
   {
    "id": "d7994a94036ab5c4f9cc2816f403e4526a887107c0d3d60932ac6dd7d2b8dcbf",
@@ -812,6 +812,27 @@
    "alert": false
   },
   {
+   "id": "f0ee3c50ea05ba89a8918deed9b3c574898e766909692bdb09b638628e16012a",
+   "title": "I tried to do agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours, but amazingly, the flight simulator worked.",
+   "snippet": "I used LM Studio Bionic with Qwen 3.8 27B Q3_K_S with 57k context. It took a staggering 63 hours to finish coding. After the first prompt &quot;Create a beautiful, relaxing flight simulator in a single HTML page&quot; taking 47.8 hours, it created an html file that showed the title screen that said…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    },
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T23:19:10Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": true
+  },
+  {
    "id": "bd51def575ec344dbe32362fb1c4b50c24b1209ce9fe94014000744372faba4b",
    "title": "Freetokens project is impressive",
    "snippet": "A new project was released yesterday and I have the opportunity to test it today. Papper: https://arxiv.org/abs/2608.16157 Github: https://github.com/FlashML-org/FreeToken My initial tests with the following setup: RTX 5080 (16 GB) DDR6 64GB AMD Ryzen 9 9950X3D I got 100tok/s on QWEN3.6-35B-A3B…",
@@ -829,22 +850,22 @@
    "alert": false
   },
   {
-   "id": "f0ee3c50ea05ba89a8918deed9b3c574898e766909692bdb09b638628e16012a",
-   "title": "I tried to do agenic coding with Qwen 3.8 27B 3bit quant on a macbook air m2 24gb. It took 63 hours, but amazingly, the flight simulator worked.",
-   "snippet": "I used LM Studio Bionic with Qwen 3.8 27B Q3_K_S with 57k context. It took a staggering 63 hours to finish coding. After the first prompt &quot;Create a beautiful, relaxing flight simulator in a single HTML page&quot; taking 47.8 hours, it created an html file that showed the title screen that said…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vuvx0t/i_tried_to_do_agenic_coding_with_qwen_38_27b_3bit/",
+   "id": "d1829425ff1bd6fe6f80accb5f087bc4820cc24c3682db24266b665315289517",
+   "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+   "snippet": "Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real…",
+   "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
+     "name": "AWS ML",
+     "domain": "aws.amazon.com"
     },
     {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T23:19:10Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-21T17:02:35Z",
    "imageURL": null,
    "signal": 90,
    "alert": true
@@ -881,61 +902,6 @@
    "publishedAt": "2026-08-22T16:24:09Z",
    "imageURL": null,
    "signal": 90,
-   "alert": false
-  },
-  {
-   "id": "d1829425ff1bd6fe6f80accb5f087bc4820cc24c3682db24266b665315289517",
-   "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
-   "snippet": "Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real…",
-   "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
-   "sources": [
-    {
-     "name": "AWS ML",
-     "domain": "aws.amazon.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-21T17:02:35Z",
-   "imageURL": null,
-   "signal": 90,
-   "alert": true
-  },
-  {
-   "id": "eab279117163d264cdf3fb8330259b1d4773a338aef34b5cc0812f1fa85e9b88",
-   "title": "80% of developers find AI coding more addictive than helpful",
-   "snippet": null,
-   "url": "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T14:14:30Z",
-   "imageURL": null,
-   "signal": 89,
-   "alert": false
-  },
-  {
-   "id": "0a8ccfc666fa944d33d85c5586a1ff9974d83867d59413ac172c003e83ac918e",
-   "title": "Round Hill Music Sues Suno and Anthropic Over AI Training Practices",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQmVldzE0NWJJZHZjc3hyWlk5UFR2U0tUTHpTLXFlUmZkbkpKSzJVM1hiMFZ6bF9rYk4wZTBhRXF1cThaUTdRMV9sQjh6U3RoWVBVWFItWkllQVF6NTRuR0Z3NXMzeHlzRFBRYmdsVnlIVXVRVzNPSVhja1BsMnMzVFpIeFFoYmM?oc=5",
-   "sources": [
-    {
-     "name": "edm.com",
-     "domain": "edm.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T16:09:14Z",
-   "imageURL": null,
-   "signal": 89,
    "alert": false
   },
   {
@@ -990,6 +956,23 @@
    "alert": false
   },
   {
+   "id": "0a8ccfc666fa944d33d85c5586a1ff9974d83867d59413ac172c003e83ac918e",
+   "title": "Round Hill Music Sues Suno and Anthropic Over AI Training Practices",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQmVldzE0NWJJZHZjc3hyWlk5UFR2U0tUTHpTLXFlUmZkbkpKSzJVM1hiMFZ6bF9rYk4wZTBhRXF1cThaUTdRMV9sQjh6U3RoWVBVWFItWkllQVF6NTRuR0Z3NXMzeHlzRFBRYmdsVnlIVXVRVzNPSVhja1BsMnMzVFpIeFFoYmM?oc=5",
+   "sources": [
+    {
+     "name": "edm.com",
+     "domain": "edm.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T16:09:14Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
    "id": "c43f305bff02a71d3a5ae4eed8b7739ffd27c412baf22affe1176987a9c500ce",
    "title": "Think you're going to get cheap DDR5 RAM? Think again, even if prices fall, scalper bots now outnumber shoppers 10 to 1 and will keep prices high",
    "snippet": "&#32; submitted by &#32; /u/DeltaSqueezer [link] &#32; [comments]",
@@ -1003,24 +986,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T09:52:52Z",
    "imageURL": null,
-   "signal": 88,
-   "alert": false
-  },
-  {
-   "id": "f8d053d4a597ac758bf944b53fe68a570b2eb9caebe2efe538f057ec6c1afeb9",
-   "title": "DeepSeek Jailbreak Test: A New Prompt, New Results Concita De Gregorio Malattia (QlyaXrpkQm)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zeHJBT1Jmdnc2MEp3VXRoaVViOTE5Q0lKNkJDa1l6ZG5ja2hDblZwT08wcXBDQ1ViWlVBdGMzalRKbktMcDYwZ0hyeVlkaWtDcS1MVWt1Nzd2S0k?oc=5",
-   "sources": [
-    {
-     "name": "Mshale",
-     "domain": "mshale.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T06:24:11Z",
-   "imageURL": null,
-   "signal": 88,
+   "signal": 89,
    "alert": false
   },
   {
@@ -1036,6 +1002,23 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-22T06:23:58Z",
+   "imageURL": null,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "428588b47658626a13a47e884ef40142d6fade56959f36a8139ff34eabf7f467",
+   "title": "Vector Brings Natural-Language AI Automation to CANoe",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWXdUUUs0UDdIYkhYTWdHd2NaNW9xOTRTbDRKME1CSmVkN1NTVmFRdGlOVm9DWHJQR3YxQ213Si1lOVpMUnIwQ0ROOUo3Y21RVWJQdGFWeWg2S3FrdWxyeEtoR3RadnBEVDZPeEp1VWhwZnVBbXludURvR19kenBONXEyM2NjZw?oc=5",
+   "sources": [
+    {
+     "name": "embedded.com",
+     "domain": "embedded.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T09:17:00Z",
    "imageURL": null,
    "signal": 88,
    "alert": false
@@ -1092,23 +1075,6 @@
    "alert": false
   },
   {
-   "id": "40b068d0d8a37dcfa8b14acabe37edcc507a4a181942e07c5ae44f70c9967450",
-   "title": "Anthropic’s mega-IPO prep is forcing enterprise buyers to treat AI vendors like long-term critical infrastructure",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUXJmOTNvZUx2MzE0NmVhVFBHaDVkWHoxekw4MWpmVE92bDhMeDBCZWF2Sl9UeWNmSVZwNzhLbUlZemMtNWFnOVRyZk1KMTh6WFFERko2ZWJvTTI1OHY4S01CTTZVZTYydWFQRzFlellIa3JTNHptSWhXNnlsWm9HSVhzUVJfUU9uWUhQeThHd3l4UVlVT2FBYWpXNFpxU2ptR0FxWmpyNmZBX0xoellDNHJSSTJVN01ZQWFDZXRheko5b0pCOHJrVWtuZW52cjE0VVFzUzM3RkdPcFlkWDJZd200M3h3RG9UZjEyR0t3ZkFzcHhjTy0wRnJGNmpHWS1oTjRqWUhR?oc=5",
-   "sources": [
-    {
-     "name": "MarketScale",
-     "domain": "marketscale.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T14:50:42Z",
-   "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
    "id": "50e25805631eb44b0a293d9afdfd8d6db3598e5b3a66a42fa062a1c3a02fb02b",
    "title": "Netflix tests language model as alternative to hand-built recommendation logic",
    "snippet": null,
@@ -1143,18 +1109,52 @@
    "alert": false
   },
   {
-   "id": "5db81ff54bc4f2a15b8e5e722fb17bfa67e15adac885d346b8aff3cd04ff7533",
-   "title": "Florida Man Shares Plans with ChatGPT to Kill His Wife, OpenAI Alerts FBI",
+   "id": "40b068d0d8a37dcfa8b14acabe37edcc507a4a181942e07c5ae44f70c9967450",
+   "title": "Anthropic’s mega-IPO prep is forcing enterprise buyers to treat AI vendors like long-term critical infrastructure",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMWwxbDQ2X2xuMXRxNGU2bEVkbVJiMlcyUkE5U09abkgzWmxxTndSeTR3S3oyVG5GN1phVGlmbGU2azVnMTdLODJnTk5fbWVfUzhQaTVOU280QzM4VHEzbjhuZ09oYmtjZjV1NHloQXRYQUJJRjdyRE9jNzd2V01yY2F6ZWdITXdGaU5IZER4OA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUXJmOTNvZUx2MzE0NmVhVFBHaDVkWHoxekw4MWpmVE92bDhMeDBCZWF2Sl9UeWNmSVZwNzhLbUlZemMtNWFnOVRyZk1KMTh6WFFERko2ZWJvTTI1OHY4S01CTTZVZTYydWFQRzFlellIa3JTNHptSWhXNnlsWm9HSVhzUVJfUU9uWUhQeThHd3l4UVlVT2FBYWpXNFpxU2ptR0FxWmpyNmZBX0xoellDNHJSSTJVN01ZQWFDZXRheko5b0pCOHJrVWtuZW52cjE0VVFzUzM3RkdPcFlkWDJZd200M3h3RG9UZjEyR0t3ZkFzcHhjTy0wRnJGNmpHWS1oTjRqWUhR?oc=5",
    "sources": [
     {
-     "name": "Yahoo",
-     "domain": "yahoo.com"
+     "name": "MarketScale",
+     "domain": "marketscale.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-22T14:30:12Z",
+   "publishedAt": "2026-08-22T14:50:42Z",
+   "imageURL": null,
+   "signal": 87,
+   "alert": false
+  },
+  {
+   "id": "de07e5fbed4c803d2adb4a9cfdb3bbaf3743f29cc7d7786b4756d959d7605ef9",
+   "title": "Linus Torvalds Endures a Debug Session from Hell, \"Enormously Helped\" by AI",
+   "snippet": null,
+   "url": "https://www.phoronix.com/news/Linus-Torvalds-Debug-AI",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T19:11:34Z",
+   "imageURL": null,
+   "signal": 87,
+   "alert": false
+  },
+  {
+   "id": "02e2c04236bdcc24ceffb57a7d339141767c48c63df929a8468a877d90733b1e",
+   "title": "AWS AgentCore Harness Bypass Exposed a Cross-Platform Vulnerability Class in Agent Runtimes",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcW5iMGZWVXpnanFvemQ0QTFOcE5fbEJnd202SGJSZENjazJFaW5PS3V4WVlwR0N2WmxiT2RJQU1jZm1STmNKMXZGM0VldDE1S29nSW1aZlA2b0hCQ3BNUmtBMUZhRkZySWE0Tm52MUl4ZjF2djFjZnBJeVB5bVhIbDdJLXF0ZXNrcHBELUNFM0FSRWZ4ZlJTR090cFhfdk12VkFUdHdzQmY3X0tkc3Z2cUxUQQ?oc=5",
+   "sources": [
+    {
+     "name": "forkast.news",
+     "domain": "forkast.news"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T03:14:00Z",
    "imageURL": null,
    "signal": 87,
    "alert": false
@@ -1173,7 +1173,24 @@
    "category": "tools",
    "publishedAt": "2026-08-22T03:14:00Z",
    "imageURL": null,
-   "signal": 87,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "5db81ff54bc4f2a15b8e5e722fb17bfa67e15adac885d346b8aff3cd04ff7533",
+   "title": "Florida Man Shares Plans with ChatGPT to Kill His Wife, OpenAI Alerts FBI",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMWwxbDQ2X2xuMXRxNGU2bEVkbVJiMlcyUkE5U09abkgzWmxxTndSeTR3S3oyVG5GN1phVGlmbGU2azVnMTdLODJnTk5fbWVfUzhQaTVOU280QzM4VHEzbjhuZ09oYmtjZjV1NHloQXRYQUJJRjdyRE9jNzd2V01yY2F6ZWdITXdGaU5IZER4OA?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo",
+     "domain": "yahoo.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T14:30:12Z",
+   "imageURL": null,
+   "signal": 86,
    "alert": false
   },
   {
@@ -1189,61 +1206,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-22T02:05:00Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
-   "id": "8268c86ca412a2684c3a8e147165325d97593a8216a7395e15cfea11879f8899",
-   "title": "Claude Design 3.0 Just Destroyed AI Slop Forever Vulture (zRIf3VOdMt)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqNWltZEVPdk4tbWhRU0NQemoxMlh3VFVsbV9iNHhsQ01JVzRTTDAzODI2RmpZT2hXWk1CMmthb19OLW51eEN1cXJrVy04Y1dZYkkzUGF5Y3VnRFU?oc=5",
-   "sources": [
-    {
-     "name": "Mshale",
-     "domain": "mshale.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T05:53:24Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
-   "id": "42eec241c4461931c4d8724d72176f1441701319f3b7b51779b9711a0abc901d",
-   "title": "LFM2.5-DSpark: Up to 3.2x Faster Inference from H100 to MacB",
-   "snippet": null,
-   "url": "https://www.liquid.ai/blog/lfm2.5-dspark",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T17:36:03Z",
-   "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
-   "id": "98eb2e54982166b2892539a9038099c685c06335508a4b3a193b17f4a3e869e8",
-   "title": "Embedded AI",
-   "snippet": null,
-   "url": "https://nostarch.com/embedded-ai",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T09:07:26Z",
    "imageURL": null,
    "signal": 86,
    "alert": false
@@ -1287,24 +1249,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T01:17:29Z",
    "imageURL": null,
-   "signal": 85,
-   "alert": false
-  },
-  {
-   "id": "b186905e895c5dbb78ab95d7c08a2ab53cd646d905ffdf380ace499f11eb5da0",
-   "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-   "snippet": null,
-   "url": "https://ozbrain.com",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T23:09:06Z",
-   "imageURL": null,
-   "signal": 85,
+   "signal": 86,
    "alert": false
   },
   {
@@ -1321,7 +1266,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T00:57:55Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 86,
    "alert": false
   },
   {
@@ -1337,6 +1282,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T04:44:43Z",
+   "imageURL": null,
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "b186905e895c5dbb78ab95d7c08a2ab53cd646d905ffdf380ace499f11eb5da0",
+   "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+   "snippet": null,
+   "url": "https://ozbrain.com",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T23:09:06Z",
    "imageURL": null,
    "signal": 85,
    "alert": false
@@ -1359,6 +1321,27 @@
    "alert": false
   },
   {
+   "id": "42eec241c4461931c4d8724d72176f1441701319f3b7b51779b9711a0abc901d",
+   "title": "LFM2.5-DSpark: Up to 3.2x Faster Inference from H100 to MacB",
+   "snippet": null,
+   "url": "https://www.liquid.ai/blog/lfm2.5-dspark",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T17:36:03Z",
+   "imageURL": null,
+   "signal": 85,
+   "alert": false
+  },
+  {
    "id": "b518b1bb1b4168ef4670a4fe39fe8fed35c04e37f8da624acf572ac4718e9df1",
    "title": "This is why I run locally.",
    "snippet": "It was only a matter of time... &#32; submitted by &#32; /u/Retumbo77 [link] &#32; [comments]",
@@ -1372,7 +1355,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T03:52:00Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 85,
    "alert": false
   },
   {
@@ -1397,6 +1380,23 @@
    "alert": false
   },
   {
+   "id": "eab279117163d264cdf3fb8330259b1d4773a338aef34b5cc0812f1fa85e9b88",
+   "title": "80% of developers find AI coding more addictive than helpful",
+   "snippet": null,
+   "url": "https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T14:14:30Z",
+   "imageURL": null,
+   "signal": 84,
+   "alert": false
+  },
+  {
    "id": "7b982ba2fded39432f0309850ee115bfe99a16e0cb84a19542747563ae2c543e",
    "title": "AI Week in Review 26.08.21",
    "snippet": null,
@@ -1409,23 +1409,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-22T02:56:11Z",
-   "imageURL": null,
-   "signal": 84,
-   "alert": false
-  },
-  {
-   "id": "b586af3abe82ec23803826cddcfe8efc62ffdb239827432880bac9f557f4f534",
-   "title": "Anthropic eyeing $100B in blockbuster IPO (ANTHRO:Private)",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYzNwZGREWWdDRlYtZHgtVGRmTmVleTlSS0ljSGtqTVpJM3hoZ1R2dThPOFFEelFOTUFGem9ob2FERDBjb1NwSm55UVZOdXdVOFNUMGFkU25RZzVBdnlqNnoxa2ZRVkFjYUFSdjgtTGN3NnhBUFkzU0pVRVJjZ2p2eQ?oc=5",
-   "sources": [
-    {
-     "name": "Seeking Alpha",
-     "domain": "seekingalpha.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T12:07:30Z",
    "imageURL": null,
    "signal": 84,
    "alert": false
@@ -1461,7 +1444,7 @@
    "category": "tools",
    "publishedAt": "2026-08-21T11:48:05Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1499,6 +1482,23 @@
    "alert": false
   },
   {
+   "id": "b586af3abe82ec23803826cddcfe8efc62ffdb239827432880bac9f557f4f534",
+   "title": "Anthropic eyeing $100B in blockbuster IPO (ANTHRO:Private)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYzNwZGREWWdDRlYtZHgtVGRmTmVleTlSS0ljSGtqTVpJM3hoZ1R2dThPOFFEelFOTUFGem9ob2FERDBjb1NwSm55UVZOdXdVOFNUMGFkU25RZzVBdnlqNnoxa2ZRVkFjYUFSdjgtTGN3NnhBUFkzU0pVRVJjZ2p2eQ?oc=5",
+   "sources": [
+    {
+     "name": "Seeking Alpha",
+     "domain": "seekingalpha.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T12:07:30Z",
+   "imageURL": null,
+   "signal": 83,
+   "alert": false
+  },
+  {
    "id": "ac9e71776a373feb5add3f70ad2ccc0f1811bb7f642df26f5b07e6da9d9d39d6",
    "title": "Gamified Coding Tools: claudemon Turns Claude Code Waiting Time Into A Pokémon Game",
    "snippet": null,
@@ -1516,18 +1516,18 @@
    "alert": false
   },
   {
-   "id": "928f73f8a24a08b690a5043505b4b96446147720d834f61d3cef90c4714286a2",
-   "title": "Qwen 3.8 Low and Medium are goated",
-   "snippet": "Artificial Analysis just benchmarked them and the scores are crazy good, proving the earlier success wasn&#39;t only enabled by overthinking. &#32; submitted by &#32; /u/Eyelbee [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vus4ko/qwen_38_low_and_medium_are_goated/",
+   "id": "98eb2e54982166b2892539a9038099c685c06335508a4b3a193b17f4a3e869e8",
+   "title": "Embedded AI",
+   "snippet": null,
+   "url": "https://nostarch.com/embedded-ai",
    "sources": [
     {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-21T20:45:14Z",
+   "publishedAt": "2026-08-22T09:07:26Z",
    "imageURL": null,
    "signal": 83,
    "alert": false
@@ -1545,23 +1545,6 @@
    ],
    "category": "tools",
    "publishedAt": "2026-08-21T14:31:52Z",
-   "imageURL": null,
-   "signal": 83,
-   "alert": false
-  },
-  {
-   "id": "a929f58b03d3d95b0ebe2fb2313cf6d08926a24f867cabaa1c4a748bc9ddce65",
-   "title": "Quick impressions: A week of using Codex more than Claude",
-   "snippet": null,
-   "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T19:51:48Z",
    "imageURL": null,
    "signal": 82,
    "alert": false
@@ -1601,6 +1584,23 @@
    "alert": false
   },
   {
+   "id": "a929f58b03d3d95b0ebe2fb2313cf6d08926a24f867cabaa1c4a748bc9ddce65",
+   "title": "Quick impressions: A week of using Codex more than Claude",
+   "snippet": null,
+   "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T19:51:48Z",
+   "imageURL": null,
+   "signal": 82,
+   "alert": false
+  },
+  {
    "id": "5c3d76b828a4f01ae4709ee534ed18d434479a5e23acc7586c1eb42019eafdba",
    "title": "Anthropic’s Opus 4.6 is a smut-machine",
    "snippet": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
@@ -1631,7 +1631,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T17:16:13Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1703,23 +1703,6 @@
    "alert": false
   },
   {
-   "id": "d8c52d9b1d03141e51f5a140f00119250555199e3253c0fe942b8f6874c87750",
-   "title": "Stop Making TUIs",
-   "snippet": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing. I wrote about my vibe-coded bandwidth and GPU monitoring macOS task…",
-   "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-21T16:07:32Z",
-   "imageURL": null,
-   "signal": 81,
-   "alert": false
-  },
-  {
    "id": "807ef9c2e44da735451da31e0cba2e6f21a1f03f150031d7c549ae00832ff86d",
    "title": "Show HN: Huzzah – a novel approach to coding with AI",
    "snippet": null,
@@ -1733,22 +1716,22 @@
    "category": "tools",
    "publishedAt": "2026-08-20T19:05:36Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 81,
    "alert": false
   },
   {
-   "id": "3c8ea595bcfc2f92873f309fca7725ff60c8c0167076a362eeaa63f8c28c73e5",
-   "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSWZBQ1djTVQzRlBJNmxoOWFsbjM1Mnc1WFVBaE5sT01iNDBqVW9mYUQ3RjJ5Z0lFMzBORFJocjJWQzBoLWprREc0QlRNSC1GMDF2WDlwbzR4MF9NVk84dDUxR19KRVdBX1dVa05xV0NrX3E5VXBPXzZrTm5MeGRROUIwQm44NzZwWS1McW9ucmpadnJFdWU00gGcAUFVX3lxTFBMYXhJTC1vSUR1TWt0aDhXUWc3WldXb1h2UmxqQV9OSUNIMFB1Mzc0SmNrSmdUeE0wakg1LWZvNmV2b2dMcV9ISVNTLUN3a1NWWkRueWR1aXRyS0J0c2VSb2hYQjEwN3kyckZwM0hKV0dvOWhEdWc3bGtRenh4cF91OTFBeDhsbnk3Ymxwc0JLR3NaSXAxWUR3MmFyQw?oc=5",
+   "id": "d8c52d9b1d03141e51f5a140f00119250555199e3253c0fe942b8f6874c87750",
+   "title": "Stop Making TUIs",
+   "snippet": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing. I wrote about my vibe-coded bandwidth and GPU monitoring macOS task…",
+   "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
    "sources": [
     {
-     "name": "MarkTechPost",
-     "domain": "marktechpost.com"
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
     }
    ],
    "category": "techniques",
-   "publishedAt": "2026-08-21T21:15:53Z",
+   "publishedAt": "2026-08-21T16:07:32Z",
    "imageURL": null,
    "signal": 80,
    "alert": false
@@ -1766,23 +1749,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-21T15:06:26Z",
-   "imageURL": null,
-   "signal": 80,
-   "alert": false
-  },
-  {
-   "id": "a94634f47aaec5b9ef2cbba03fc98d5051d010c70058c40fea4dc8cf133f327f",
-   "title": "Qwen3.8-27B different thinking levels",
-   "snippet": "Even the low preset is better than Qwen 3.7 plus or Qwen3.6-27B reasoning &#32; submitted by &#32; /u/Tall_Abrocoma_3533 [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vusds8/qwen3827b_different_thinking_levels/",
-   "sources": [
-    {
-     "name": "r/LocalLLaMA",
-     "domain": "reddit.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T20:55:11Z",
    "imageURL": null,
    "signal": 80,
    "alert": false
@@ -1809,10 +1775,10 @@
    "alert": false
   },
   {
-   "id": "e7d3d226bff5a60c0bb154bbe44097190c8ad36e76fac1f3d1e85797da11a4e9",
-   "title": "I feel like I finally graduated.",
-   "snippet": "I finally made the move from LM Studio to vLLM thanks to this post https://www.reddit.com/r/LocalLLaMA/s/NmS9CgHvqz . I may not know what it all means yet but I’m going to start diving into the docs to learn as much as I can. I’m running an endpoint on each of my 3090s one for chat and one for…",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vurjwc/i_feel_like_i_finally_graduated/",
+   "id": "a94634f47aaec5b9ef2cbba03fc98d5051d010c70058c40fea4dc8cf133f327f",
+   "title": "Qwen3.8-27B different thinking levels",
+   "snippet": "Even the low preset is better than Qwen 3.7 plus or Qwen3.6-27B reasoning &#32; submitted by &#32; /u/Tall_Abrocoma_3533 [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vusds8/qwen3827b_different_thinking_levels/",
    "sources": [
     {
      "name": "r/LocalLLaMA",
@@ -1820,9 +1786,9 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-21T20:22:48Z",
+   "publishedAt": "2026-08-21T20:55:11Z",
    "imageURL": null,
-   "signal": 79,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1839,24 +1805,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T14:00:00Z",
    "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "f034ee1587ce0876cae192d1fc040203e0d17858ffb1a2dd004d467328dd3875",
-   "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-   "snippet": null,
-   "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T18:48:28Z",
-   "imageURL": null,
-   "signal": 79,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1902,23 +1851,6 @@
    "alert": false
   },
   {
-   "id": "7e5ae06946167288f98cf08f8472ac7e2ce8469fa0ce43597c8d0721e5c42c71",
-   "title": "Dutch regulator fines Uber €825M for letting AI deactivate driver accounts",
-   "snippet": null,
-   "url": "https://nltimes.nl/2026/08/21/dutch-regulator-fines-uber-eu825-mil-letting-algorithm-deactivate-drivers-accounts",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T11:27:29Z",
-   "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
    "id": "de986e8070f5d7064e1f12370a4699b1b411f5f0d10fa7bf288bcc0c99d95013",
    "title": "No Product Manufacturing: How to Achieve 8 Billion Yuan in Sales",
    "snippet": null,
@@ -1932,14 +1864,14 @@
    "category": "models",
    "publishedAt": "2026-08-22T02:54:19Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 79,
    "alert": false
   },
   {
-   "id": "5eb6856f4f9ff7d6f2ce7c01e60936a0b22d7f6158e3fe4f96eefe81abcf3ca0",
-   "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+   "id": "f034ee1587ce0876cae192d1fc040203e0d17858ffb1a2dd004d467328dd3875",
+   "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
    "snippet": null,
-   "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+   "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
    "sources": [
     {
      "name": "Hacker News",
@@ -1947,24 +1879,41 @@
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-21T13:43:33Z",
+   "publishedAt": "2026-08-21T18:48:28Z",
    "imageURL": null,
-   "signal": 78,
+   "signal": 79,
    "alert": false
   },
   {
-   "id": "7fad1946e3e9445378b672fa557ca3ba60aa34ca4207ad49bb6ed5c391a74d92",
-   "title": "A coding agent on a 1987 Commodore Amiga 500 with a 7MHz CPU and 1 MB of RAM",
-   "snippet": null,
-   "url": "https://twitter.com/DXhusni/status/2090839488058859726",
+   "id": "aef1930699d916786266526a6d158d5c62d88448cbf07167828d648cb020f7ed",
+   "title": "Major YouTube creators are facing backlash for accepting AI money",
+   "snippet": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "The Verge",
+     "domain": "theverge.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T11:49:47Z",
+   "category": "models",
+   "publishedAt": "2026-08-21T13:37:52Z",
+   "imageURL": null,
+   "signal": 79,
+   "alert": false
+  },
+  {
+   "id": "9dc1de68a5365283fa2c2a7cb4450f332147c68ea758d97e8bb3e8d4a7e2e43e",
+   "title": "Nvidia plans to invest in AI data supplier Mercor, which is valued at $20 billion",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oTFM1UVM0Rlh6ZFNTaWEwR042LWkzSlp6WUFhZ2N0dE9sTUpJczd2S01GcGhJX1M2UnVXaFFvRl9odEdGWklyaS1GWkM1R2x1MEp5eWNPcG9iSmIzV0Jqa1VTRdIBY0FVX3lxTE5oTFM1UVM0Rlh6ZFNTaWEwR042LWkzSlp6WUFhZ2N0dE9sTUpJczd2S01GcGhJX1M2UnVXaFFvRl9odEdGWklyaS1GWkM1R2x1MEp5eWNPcG9iSmIzV0Jqa1VTRQ?oc=5",
+   "sources": [
+    {
+     "name": "Bitget",
+     "domain": "bitget.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T05:09:41Z",
    "imageURL": null,
    "signal": 78,
    "alert": false
@@ -1987,18 +1936,18 @@
    "alert": false
   },
   {
-   "id": "aef1930699d916786266526a6d158d5c62d88448cbf07167828d648cb020f7ed",
-   "title": "Major YouTube creators are facing backlash for accepting AI money",
-   "snippet": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch…",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+   "id": "5eb6856f4f9ff7d6f2ce7c01e60936a0b22d7f6158e3fe4f96eefe81abcf3ca0",
+   "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+   "snippet": null,
+   "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
    "sources": [
     {
-     "name": "The Verge",
-     "domain": "theverge.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-21T13:37:52Z",
+   "category": "tools",
+   "publishedAt": "2026-08-21T13:43:33Z",
    "imageURL": null,
    "signal": 78,
    "alert": false
@@ -2017,7 +1966,7 @@
    "category": "research",
    "publishedAt": "2026-08-21T11:59:48Z",
    "imageURL": "https://lh3.googleusercontent.com/ymmK0Dgovn-_MGlnQJffYxKdTe5LAnkAZr-GNnIjiFzsGOAAmOmUDuVACbNgIy-tqrJhGBdaQ_PaElc8EKRKRWtYg4eWx8HVcaVzdYy7hg7Q_8k=w528-h297-n-nu-rw-lo",
-   "signal": 77,
+   "signal": 78,
    "alert": false
   },
   {
@@ -2034,7 +1983,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T11:00:53Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/zuckoff-glasshole-1152x648.jpg",
-   "signal": 77,
+   "signal": 78,
    "alert": false
   },
   {
@@ -2089,23 +2038,6 @@
    "alert": false
   },
   {
-   "id": "09523f683853cee9bea6d54d2e9d4b30c60ede5c01d348f3f8655a4a2bc40baa",
-   "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
-   "snippet": null,
-   "url": "https://github.com/zachahn/vomit",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T15:26:02Z",
-   "imageURL": null,
-   "signal": 76,
-   "alert": false
-  },
-  {
    "id": "e3ddd7a65cd3a566e91c60250d01ee8b4672eaf661344d99931e4cbb3eebb307",
    "title": "Measuring benchmark optimization in speech recognition",
    "snippet": null,
@@ -2119,7 +2051,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T00:00:00Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 77,
    "alert": false
   },
   {
@@ -2135,6 +2067,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-20T23:57:32Z",
+   "imageURL": null,
+   "signal": 77,
+   "alert": false
+  },
+  {
+   "id": "09523f683853cee9bea6d54d2e9d4b30c60ede5c01d348f3f8655a4a2bc40baa",
+   "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+   "snippet": null,
+   "url": "https://github.com/zachahn/vomit",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T15:26:02Z",
    "imageURL": null,
    "signal": 76,
    "alert": false
@@ -2187,7 +2136,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T21:23:38Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2204,24 +2153,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 75,
-   "alert": false
-  },
-  {
-   "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
-   "title": "Anti-AI fonts are useless and harmful",
-   "snippet": null,
-   "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T15:06:53Z",
-   "imageURL": null,
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2238,7 +2170,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T20:59:09Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!gjWE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png",
-   "signal": 75,
+   "signal": 76,
    "alert": false
   },
   {
@@ -2276,7 +2208,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T05:45:21Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!mQfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a668ad4-aca6-4c1c-ac78-5132b8f3d7a8_834x844.png",
-   "signal": 74,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
+   "title": "Anti-AI fonts are useless and harmful",
+   "snippet": null,
+   "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T15:06:53Z",
+   "imageURL": null,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2293,7 +2242,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T08:02:55Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2310,7 +2259,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T19:18:21Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 75,
    "alert": false
   },
   {
@@ -2378,7 +2327,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:54:37Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2395,7 +2344,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:54:17Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 74,
    "alert": false
   },
   {
@@ -2463,24 +2412,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T16:46:00Z",
    "imageURL": null,
-   "signal": 72,
-   "alert": false
-  },
-  {
-   "id": "acf4cd57263162cdc871398f61cedd56af2cb56108e197fd483a733501f8fb8a",
-   "title": "Hacking with Claude on a $27 smart watch",
-   "snippet": null,
-   "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T14:08:09Z",
-   "imageURL": null,
-   "signal": 72,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2497,7 +2429,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2548,7 +2480,24 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:24:09Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 72,
+   "alert": false
+  },
+  {
+   "id": "7e5ae06946167288f98cf08f8472ac7e2ce8469fa0ce43597c8d0721e5c42c71",
+   "title": "Dutch regulator fines Uber €825M for letting AI deactivate driver accounts",
+   "snippet": null,
+   "url": "https://nltimes.nl/2026/08/21/dutch-regulator-fines-uber-eu825-mil-letting-algorithm-deactivate-drivers-accounts",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:27:29Z",
+   "imageURL": null,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2565,7 +2514,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T16:06:06Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2581,23 +2530,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-20T16:00:00Z",
-   "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
-   "id": "9c053eef9018983766db16140a84552406fab558221fb276e5c7ae5c819f10e9",
-   "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-   "snippet": "Research: A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering…",
-   "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T15:37:00Z",
    "imageURL": null,
    "signal": 71,
    "alert": false
@@ -2620,6 +2552,23 @@
    "alert": false
   },
   {
+   "id": "9c053eef9018983766db16140a84552406fab558221fb276e5c7ae5c819f10e9",
+   "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+   "snippet": "Research: A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering…",
+   "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T15:37:00Z",
+   "imageURL": null,
+   "signal": 71,
+   "alert": false
+  },
+  {
    "id": "3529facf086217e100399c8e607fb61928b5e904e2708b8762933a12a48de4af",
    "title": "Build intelligent security for healthcare APIs with Amazon Bedrock",
    "snippet": "Learn how to add context-aware security monitoring to FHIR APIs using Amazon Bedrock. This post shows how to detect anomalous access patterns, classify data sensitivity automatically, and generate compliance reports in natural language, all without adding latency to clinical workflows.",
@@ -2633,7 +2582,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T15:20:03Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 71,
+   "alert": false
+  },
+  {
+   "id": "acf4cd57263162cdc871398f61cedd56af2cb56108e197fd483a733501f8fb8a",
+   "title": "Hacking with Claude on a $27 smart watch",
+   "snippet": null,
+   "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T14:08:09Z",
+   "imageURL": null,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2692,23 +2658,6 @@
    "alert": false
   },
   {
-   "id": "b39e42552198e020d6a98129de7fd4afd045982ced9d1bf4de71c244f45de7f0",
-   "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
-   "snippet": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
-   "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T00:13:44Z",
-   "imageURL": null,
-   "signal": 70,
-   "alert": false
-  },
-  {
    "id": "5f6447ddab3a917a59b395e758230231f3d8d1936aea0c8f5b214c1ba8c12e0b",
    "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
    "snippet": "Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assumptions, the resulting task may be unsolvable or incorrectly evaluated. Meanwhile, multi-stage synthesis can discard the goals, dependencies, state transitions, and procedural constraints encoded in the original sources. We present FACET (Fine-grained Agentic Construction of Executable Tasks), a framework that addresses both information preservation and cross-artifact consistency. FACET reconstructs related agent skills into coherent, information-rich scenarios, then realizes and repairs the execution environment before generating the final task artifacts. The resulting container state serves as shared grounding for the instruction, solution, and verifier, while execution-based validation and targeted repair correct artifact-specific failures without unnecessarily regenerating valid components. FACET produces complex terminal tasks with dense executable checks, and successful trajectories collected from these tasks provide effective, data-efficient supervision. Fine-tuning models across multiple scales consistently improves performance on Terminal-Bench 2.1, while analyses of alternative generation schemes support the importance of environment-grounded construction for task validity and solution-verifier alignment. These results establish source-intent preservation and shared executable-state grounding as key principles for scalable terminal-task synthesis.",
@@ -2721,6 +2670,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
+   "imageURL": null,
+   "signal": 70,
+   "alert": false
+  },
+  {
+   "id": "b39e42552198e020d6a98129de7fd4afd045982ced9d1bf4de71c244f45de7f0",
+   "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+   "snippet": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+   "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-21T00:13:44Z",
    "imageURL": null,
    "signal": 70,
    "alert": false
@@ -2739,7 +2705,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2824,7 +2790,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T14:00:00Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2840,6 +2806,23 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-20T18:20:35Z",
+   "imageURL": null,
+   "signal": 68,
+   "alert": false
+  },
+  {
+   "id": "2094e426acad91e0a3246a067bd87e662617ed70f847fc74c9af4b92a52005ee",
+   "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+   "snippet": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-many nature is poorly captured by single-answer evaluation and benchmarking protocols. To address this, we introduce Top-K prompting as a robust training and inference paradigm to better capture diverse, plausible reaction predictions. We compile CREED-CCV-2+USPTO-XL, an ultra-large-scale dataset of ~45.6 million verified reactions to train the C3LM (Chemistry Constraint-Consistent Language Model). By integrating fine-tuning with ChemCensor-based and novelty-oriented rewards, our model achieves state-of-the-art performance on the OOD URSA-expert-2026 benchmark. Further analysis of reaction uniqueness shows that LLMs and conventional models explore complementary reaction spaces, motivating ensemble-based retrosynthesis systems. Overall, our results establish Top-K, plausibility-aware training as a practical new direction for robust future LLM-based synthesis planning.",
+   "url": "https://huggingface.co/papers/2608.18940",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
    "signal": 68,
    "alert": false
@@ -2893,23 +2876,6 @@
    "publishedAt": "2026-08-20T17:58:22Z",
    "imageURL": null,
    "signal": 68,
-   "alert": false
-  },
-  {
-   "id": "2094e426acad91e0a3246a067bd87e662617ed70f847fc74c9af4b92a52005ee",
-   "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
-   "snippet": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-many nature is poorly captured by single-answer evaluation and benchmarking protocols. To address this, we introduce Top-K prompting as a robust training and inference paradigm to better capture diverse, plausible reaction predictions. We compile CREED-CCV-2+USPTO-XL, an ultra-large-scale dataset of ~45.6 million verified reactions to train the C3LM (Chemistry Constraint-Consistent Language Model). By integrating fine-tuning with ChemCensor-based and novelty-oriented rewards, our model achieves state-of-the-art performance on the OOD URSA-expert-2026 benchmark. Further analysis of reaction uniqueness shows that LLMs and conventional models explore complementary reaction spaces, motivating ensemble-based retrosynthesis systems. Overall, our results establish Top-K, plausibility-aware training as a practical new direction for robust future LLM-based synthesis planning.",
-   "url": "https://huggingface.co/papers/2608.18940",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T00:00:00Z",
-   "imageURL": null,
-   "signal": 67,
    "alert": false
   },
   {
@@ -2994,7 +2960,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:20:09Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 67,
    "alert": false
   },
   {
@@ -3079,7 +3045,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:28:28Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 66,
    "alert": false
   },
   {
@@ -3112,23 +3078,6 @@
    ],
    "category": "models",
    "publishedAt": "2026-08-20T16:00:00Z",
-   "imageURL": null,
-   "signal": 65,
-   "alert": false
-  },
-  {
-   "id": "aca7847db12030b3da7ae0dda9403c40917066f5e8b9a7330a49e7296b49b294",
-   "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-   "snippet": null,
-   "url": "https://github.com/onecli/onecli",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T16:29:02Z",
    "imageURL": null,
    "signal": 65,
    "alert": false
@@ -3181,7 +3130,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3198,24 +3147,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 64,
-   "alert": false
-  },
-  {
-   "id": "d348a67dbd20da89ffb463b002aae74e98bf83a7baa08fee620713fbae02aaf6",
-   "title": "Extensible Software in the age of LLMs",
-   "snippet": null,
-   "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T16:26:05Z",
-   "imageURL": null,
-   "signal": 64,
+   "signal": 65,
    "alert": false
   },
   {
@@ -3253,6 +3185,23 @@
    "alert": false
   },
   {
+   "id": "aca7847db12030b3da7ae0dda9403c40917066f5e8b9a7330a49e7296b49b294",
+   "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+   "snippet": null,
+   "url": "https://github.com/onecli/onecli",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T16:29:02Z",
+   "imageURL": null,
+   "signal": 64,
+   "alert": false
+  },
+  {
    "id": "f7dc95732d84964cc7133b30e7fa035a07a59cd1991bfabcce119d887729298e",
    "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
    "snippet": "Research: smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run…",
@@ -3266,7 +3215,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T23:16:00Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3283,7 +3232,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T22:46:07Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 64,
    "alert": false
   },
   {
@@ -3299,6 +3248,23 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-19T22:13:20Z",
+   "imageURL": null,
+   "signal": 63,
+   "alert": false
+  },
+  {
+   "id": "d348a67dbd20da89ffb463b002aae74e98bf83a7baa08fee620713fbae02aaf6",
+   "title": "Extensible Software in the age of LLMs",
+   "snippet": null,
+   "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T16:26:05Z",
    "imageURL": null,
    "signal": 63,
    "alert": false
@@ -3338,23 +3304,6 @@
    "alert": false
   },
   {
-   "id": "7d8ab6f63d559658625ead6d227e9edf03b28b1d470854e1c7bfd3f9eebee636",
-   "title": "Guess which of these LLM outputs is watermarked",
-   "snippet": null,
-   "url": "https://sgoedecke.github.io/watermark-quiz/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T14:03:58Z",
-   "imageURL": null,
-   "signal": 62,
-   "alert": false
-  },
-  {
    "id": "e7a0ed5e125a96bdc3a3f88ec705b17738b478308ce550279e4607447a1332b7",
    "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
    "snippet": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive or unreliable verifiers, and still produce static environments. To alleviate the engineering burden of rebuilding environments from scratch, we propose Environment Harness (EnvHarness), a programmable layer of plug-in components that wraps a static environment to reshape its behavior without modifying the underlying logic. Operating through standard interfaces, EnvHarness applies across diverse domains while ensuring every reshaped environment retains its original verifier. To automate this process, we introduce EnvRigger, which treats the target policy as a black box, observing its execution trajectories to synthesize EnvHarness components targeting diagnosed flaws, and validating them via fresh rollouts. Across five benchmarks in four domains, EnvHarness outperforms both original environments and domain-specific environment generation pipelines, achieving up to a 9.0-point improvement on held-out instances with 9.8% fewer execution steps. Furthermore, EnvHarness provides a superior optimization signal for reinforcement learning, enabling continuous, targeted co-evolution of the policy and its environment.",
@@ -3368,7 +3317,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 63,
    "alert": false
   },
   {
@@ -3423,6 +3372,23 @@
    "alert": false
   },
   {
+   "id": "7d8ab6f63d559658625ead6d227e9edf03b28b1d470854e1c7bfd3f9eebee636",
+   "title": "Guess which of these LLM outputs is watermarked",
+   "snippet": null,
+   "url": "https://sgoedecke.github.io/watermark-quiz/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T14:03:58Z",
+   "imageURL": null,
+   "signal": 62,
+   "alert": false
+  },
+  {
    "id": "8a29e8cb39cdb074780f56178a67dd1922b58004436151495990c5f199fc7283",
    "title": "Claude writing a macOS driver for my obscure HP printer built only for Windows",
    "snippet": null,
@@ -3436,7 +3402,7 @@
    "category": "tools",
    "publishedAt": "2026-08-18T12:22:58Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 62,
    "alert": false
   },
   {
@@ -3627,7 +3593,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T19:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp",
-   "signal": 59,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3712,7 +3678,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T19:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3797,7 +3763,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3852,18 +3818,18 @@
    "alert": false
   },
   {
-   "id": "00721c8208aa8084b4406887fe6d02a9b67a4c949f0d383b7ea6abf14f4221a9",
-   "title": "Show HN: Front end skill pack for AI agents, with machine-enforced quality gates",
-   "snippet": null,
-   "url": "https://krishna-modi12.github.io/frontend-design-pro/",
+   "id": "baf07daff59f271b90795fd50023fb349ec75ddad4cd8dc3dc0716042648ecd3",
+   "title": "How NVIDIA scales expertise with ChatGPT Work",
+   "snippet": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+   "url": "https://openai.com/index/nvidia/chatgpt-work",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "OpenAI",
+     "domain": "openai.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T05:52:19Z",
+   "category": "models",
+   "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
    "signal": 57,
    "alert": false
@@ -3882,24 +3848,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 56,
-   "alert": false
-  },
-  {
-   "id": "baf07daff59f271b90795fd50023fb349ec75ddad4cd8dc3dc0716042648ecd3",
-   "title": "How NVIDIA scales expertise with ChatGPT Work",
-   "snippet": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-   "url": "https://openai.com/index/nvidia/chatgpt-work",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-18T00:00:00Z",
-   "imageURL": null,
-   "signal": 56,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3984,7 +3933,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 56,
    "alert": false
   },
   {
@@ -4001,6 +3950,27 @@
    "category": "models",
    "publishedAt": "2026-08-20T15:45:55Z",
    "imageURL": null,
+   "signal": 55,
+   "alert": false
+  },
+  {
+   "id": "fec51d95d54dbb564f125578b356238b0c84ed2b2842e71aa1496f5a72909de7",
+   "title": "Building an AI Text Detector From Scratch",
+   "snippet": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+   "sources": [
+    {
+     "name": "Ahead of AI",
+     "domain": "magazine.sebastianraschka.com"
+    },
+    {
+     "name": "Andrej Karpathy",
+     "domain": "youtube.com"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-15T11:54:24Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png",
    "signal": 55,
    "alert": false
   },
@@ -4039,27 +4009,6 @@
    "alert": false
   },
   {
-   "id": "fec51d95d54dbb564f125578b356238b0c84ed2b2842e71aa1496f5a72909de7",
-   "title": "Building an AI Text Detector From Scratch",
-   "snippet": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
-   "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-   "sources": [
-    {
-     "name": "Ahead of AI",
-     "domain": "magazine.sebastianraschka.com"
-    },
-    {
-     "name": "Andrej Karpathy",
-     "domain": "youtube.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-15T11:54:24Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png",
-   "signal": 55,
-   "alert": false
-  },
-  {
    "id": "6023038a8912cd08a228ab148d313f6cbcbb616de2e9ed683b2e7118ab009ee0",
    "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
    "snippet": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
@@ -4073,48 +4022,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T07:00:00Z",
    "imageURL": null,
-   "signal": 54,
-   "alert": false
-  },
-  {
-   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
-   "title": "Anthropic could be worth $2 trillion when it goes public",
-   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
-   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-   "sources": [
-    {
-     "name": "Ars Technica",
-     "domain": "arstechnica.com"
-    },
-    {
-     "name": "NDTV",
-     "domain": "ndtv.com"
-    },
-    {
-     "name": "The New Indian Express",
-     "domain": "newindianexpress.com"
-    },
-    {
-     "name": "Yahoo Finance",
-     "domain": "finance.yahoo.com"
-    },
-    {
-     "name": "BeInCrypto",
-     "domain": "beincrypto.com"
-    },
-    {
-     "name": "The Indian Express",
-     "domain": "indianexpress.com"
-    },
-    {
-     "name": "The New York Times",
-     "domain": "nytimes.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T13:58:56Z",
-   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
-   "signal": 54,
+   "signal": 55,
    "alert": false
   },
   {
@@ -4131,7 +4039,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 55,
    "alert": false
   },
   {
@@ -4182,7 +4090,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 54,
    "alert": false
   },
   {
@@ -4199,7 +4107,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 54,
    "alert": false
   },
   {
@@ -4216,7 +4124,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 54,
    "alert": false
   },
   {
@@ -4254,6 +4162,43 @@
    "alert": false
   },
   {
+   "id": "cc050b32d46b9ed56158d30b682136b6d46d4a256d2950aa6d19dd965cf4b70c",
+   "title": "Anthropic could be worth $2 trillion when it goes public",
+   "snippet": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
+   "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+   "sources": [
+    {
+     "name": "Ars Technica",
+     "domain": "arstechnica.com"
+    },
+    {
+     "name": "NDTV",
+     "domain": "ndtv.com"
+    },
+    {
+     "name": "The New Indian Express",
+     "domain": "newindianexpress.com"
+    },
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
+    },
+    {
+     "name": "The Indian Express",
+     "domain": "indianexpress.com"
+    },
+    {
+     "name": "The New York Times",
+     "domain": "nytimes.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T13:58:56Z",
+   "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
+   "signal": 53,
+   "alert": false
+  },
+  {
    "id": "ab61a980a3481fb2365d056cfadad6b026f2d3be44aca023e633cd14f5aad969",
    "title": "Teaching Everyone to Fish for Tokens",
    "snippet": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
@@ -4267,7 +4212,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T15:07:49Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/b8608bb9-bf33-46e6-8ffe-dcf75a851f9b_3182x1790.png",
-   "signal": 52,
+   "signal": 53,
    "alert": false
   },
   {
@@ -4284,7 +4229,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 53,
    "alert": false
   },
   {
@@ -4373,7 +4318,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 51,
+   "signal": 52,
    "alert": false
   },
   {
@@ -4411,23 +4356,6 @@
    "alert": false
   },
   {
-   "id": "833db2c9ec7ee42b0a9d147b41b03aaddd7b4c732de6471d5d63c51e50834353",
-   "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
-   "snippet": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene on risky actions, but action-local checks do not guide an agent through a multi-step procedure. Workflow-following systems support prescribed process execution, but primarily target workflow completion rather than safeguarding agent behavior. PolicyGuide instead compiles each domain policy into a workflow graph and invokes a proactive verifier at user-turn boundaries. From persisted graph state, the verifier reconciles open requests and returns step-specific remediation along a policy-compliant path. Across the τ^2-bench airline, retail, and telecom domains with a GPT-5.4 agent and verifier, PolicyGuide raises mean Pass^4 from 0.42 to 0.62, with the largest gain on telecom (0.19 to 0.61), the most workflow-structured domain. The same workflows transfer to Claude Sonnet 4.6 and Gemini 2.5 Pro agents. Complementary evaluations find the lowest observed attack-success rate under adversarial users and the strongest procedural compliance in an author-designed workflow-level validation.",
-   "url": "https://huggingface.co/papers/2608.19861",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T00:00:00Z",
-   "imageURL": null,
-   "signal": 51,
-   "alert": false
-  },
-  {
    "id": "80213d36d8a3b81ba3434f59bfebcc8924b29df67ae202f46f7fe584c41364fc",
    "title": "SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback",
    "snippet": "Agent Skills are today either hand-authored or produced in a single LLM generation pass, and consequently possess no closed loop through which they might improve from the interaction failures they actually cause. Recent work does close this loop, but derives its feedback from single-turn question-answering evaluation. The consequence is a sharp asymmetry: once the first round has patched the gaps that a single exchange can reveal, the evolution gradient decays, the defects that surface only across multiple turns remain invisible, and evolution stalls. Governance in these systems is likewise driven by an end-to-end verification score, a scalar gate that can reject a degraded candidate but can neither localize nor repair its structural cause. We argue that the binding constraint on sustained skill evolution is neither editing capability nor the number of iterations, but whether the evaluation feedback keeps supplying trustworthy evolution gradients. We introduce SkillEvo, in which trustworthy feedback generates the gradient and controllable governance constrains its direction. The first component recasts multi-turn user simulation from an evaluation endpoint into a feedback generator: follow-up questions expose defects layer by layer, so that every round of revision both consumes feedback and produces new feedback. The second replaces the passive rejection of a scalar gate with an independent governance layer that actively repairs factual degradation and structural bloat, preventing the gradient from drifting as degradation accumulates. Across six categories of cloud services, 9 production Skills, and 98 skill-reference files, SkillEvo surpasses self-reflection-based evolution by 23.0 points and single- turn-QA-driven evolution by 15.4 points.",
@@ -4440,6 +4368,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
+   "signal": 51,
+   "alert": false
+  },
+  {
+   "id": "833db2c9ec7ee42b0a9d147b41b03aaddd7b4c732de6471d5d63c51e50834353",
+   "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+   "snippet": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene on risky actions, but action-local checks do not guide an agent through a multi-step procedure. Workflow-following systems support prescribed process execution, but primarily target workflow completion rather than safeguarding agent behavior. PolicyGuide instead compiles each domain policy into a workflow graph and invokes a proactive verifier at user-turn boundaries. From persisted graph state, the verifier reconciles open requests and returns step-specific remediation along a policy-compliant path. Across the τ^2-bench airline, retail, and telecom domains with a GPT-5.4 agent and verifier, PolicyGuide raises mean Pass^4 from 0.42 to 0.62, with the largest gain on telecom (0.19 to 0.61), the most workflow-structured domain. The same workflows transfer to Claude Sonnet 4.6 and Gemini 2.5 Pro agents. Complementary evaluations find the lowest observed attack-success rate under adversarial users and the strongest procedural compliance in an author-designed workflow-level validation.",
+   "url": "https://huggingface.co/papers/2608.19861",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
    "signal": 51,
    "alert": false
@@ -4458,7 +4403,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 51,
    "alert": false
   },
   {
@@ -4543,7 +4488,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T15:05:36Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4560,7 +4505,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T15:45:29Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2250404047-1152x648.jpg",
-   "signal": 49,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4628,7 +4573,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T14:49:54Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4645,7 +4590,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T20:11:29Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4713,7 +4658,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T11:00:00Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4730,7 +4675,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T10:00:00Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4815,7 +4760,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T21:23:35Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!_6Y2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49ade27f-0d84-40f3-840a-3c919e0bb8af_4239x2504.webp",
-   "signal": 46,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4900,7 +4845,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4985,7 +4930,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T21:03:50Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 45,
    "alert": false
   },
   {
@@ -5070,7 +5015,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T13:00:05Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/image1.jpeg",
-   "signal": 43,
+   "signal": 44,
    "alert": false
   },
   {
@@ -5087,7 +5032,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 43,
+   "signal": 44,
    "alert": false
   },
   {
@@ -5172,7 +5117,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 42,
+   "signal": 43,
    "alert": false
   },
   {
@@ -5257,7 +5202,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T22:02:25Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261896328-1152x648.jpg",
-   "signal": 41,
+   "signal": 42,
    "alert": false
   },
   {
@@ -5342,7 +5287,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T18:29:41Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 41,
    "alert": false
   },
   {
@@ -5427,7 +5372,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 40,
    "alert": false
   },
   {
@@ -5512,7 +5457,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T16:10:08Z",
    "imageURL": null,
-   "signal": 38,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5529,7 +5474,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T15:00:06Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/800vdc.jpg",
-   "signal": 38,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5614,7 +5559,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T13:02:42Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!ccYc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4468909c-7481-4b27-9566-6fc838b95743_1074x731.jpeg",
-   "signal": 37,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5699,7 +5644,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T17:26:53Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
-   "signal": 36,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5784,7 +5729,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-05T01:21:47Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Gpou!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNw6xyYaUAA_BVO.jpg",
-   "signal": 35,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5869,7 +5814,7 @@
    "category": "models",
    "publishedAt": "2026-08-03T15:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp",
-   "signal": 34,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5971,7 +5916,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T04:34:11Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!1S7v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57c9d273-aa50-4bc7-a7c4-caaf9b4952c2_1540x1624.png",
-   "signal": 33,
+   "signal": 34,
    "alert": false
   },
   {
@@ -6056,7 +6001,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T09:00:00Z",
    "imageURL": null,
-   "signal": 32,
+   "signal": 33,
    "alert": false
   },
   {
@@ -6077,23 +6022,6 @@
    "alert": false
   },
   {
-   "id": "13ba8953c9f3a1d4e261c6fac5a10dc559d15a2fb1175fe8880d06498dfe99c6",
-   "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
-   "snippet": "Object detectors often produce over-confident predictions for objects outside their training categories, leading to so-called out-of-distribution (OoD) hallucinations. Existing approaches for detecting or mitigating such hallucinations typically either construct scoring functions directly over learned object detector representations or modify the object detector itself to suppress hallucination emergence. However, the latent priors implicitly encoded in these representations remain largely unexplored and have not been explicitly decoded for OoD detection. To uncover and exploit these latent priors, we propose Structured Prior Knowledge (SPK), a hallucination-oriented framework that explicitly elicits OoD-relevant priors from pretrained object detectors. Specifically, SPK leverages in-distribution data and hallucination-inducing samples as diagnostic supervision to elicit part-level semantic concepts underlying object detector decision-making, rather than using them merely for rejection or object detector adaptation. The elicited semantic priors are further integrated with geometric and contextual priors to form a compact five-dimensional SPK representation for OoD detection. Extensive experiments across diverse object detector architectures and multiple OoD benchmarks demonstrate that SPK achieves state-of-the-art OoD detection. Our findings reveal that pretrained object detectors already encode substantially richer latent knowledge than is typically exploited for OoD detection. More importantly, this knowledge can be explicitly elicited and organized into a compact, structured, and interpretable knowledge space for prediction reliability analysis. This suggests a promising proactive route for improving object detector reliability by explicitly uncovering and leveraging latent priors. Code and data are available at: https://gricad-gitlab.univ-grenoble-alpes.fr/dnn-safety/spk",
-   "url": "https://huggingface.co/papers/2608.19080",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-19T00:00:00Z",
-   "imageURL": null,
-   "signal": 32,
-   "alert": false
-  },
-  {
    "id": "8479edade87c05f7ad28ccddb6c2edbe71fd6793836e03837a7e0b61bddf0b84",
    "title": "EvoLib: Turning experience into evolving knowledge",
    "snippet": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft…",
@@ -6106,6 +6034,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-07-30T16:00:00Z",
+   "imageURL": null,
+   "signal": 32,
+   "alert": false
+  },
+  {
+   "id": "13ba8953c9f3a1d4e261c6fac5a10dc559d15a2fb1175fe8880d06498dfe99c6",
+   "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+   "snippet": "Object detectors often produce over-confident predictions for objects outside their training categories, leading to so-called out-of-distribution (OoD) hallucinations. Existing approaches for detecting or mitigating such hallucinations typically either construct scoring functions directly over learned object detector representations or modify the object detector itself to suppress hallucination emergence. However, the latent priors implicitly encoded in these representations remain largely unexplored and have not been explicitly decoded for OoD detection. To uncover and exploit these latent priors, we propose Structured Prior Knowledge (SPK), a hallucination-oriented framework that explicitly elicits OoD-relevant priors from pretrained object detectors. Specifically, SPK leverages in-distribution data and hallucination-inducing samples as diagnostic supervision to elicit part-level semantic concepts underlying object detector decision-making, rather than using them merely for rejection or object detector adaptation. The elicited semantic priors are further integrated with geometric and contextual priors to form a compact five-dimensional SPK representation for OoD detection. Extensive experiments across diverse object detector architectures and multiple OoD benchmarks demonstrate that SPK achieves state-of-the-art OoD detection. Our findings reveal that pretrained object detectors already encode substantially richer latent knowledge than is typically exploited for OoD detection. More importantly, this knowledge can be explicitly elicited and organized into a compact, structured, and interpretable knowledge space for prediction reliability analysis. This suggests a promising proactive route for improving object detector reliability by explicitly uncovering and leveraging latent priors. Code and data are available at: https://gricad-gitlab.univ-grenoble-alpes.fr/dnn-safety/spk",
+   "url": "https://huggingface.co/papers/2608.19080",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
    "signal": 32,
    "alert": false
@@ -6141,7 +6086,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T14:03:08Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/dff5e29d-7c81-4f81-a64b-10d9b9bbecbc_2856x1577.png",
-   "signal": 31,
+   "signal": 32,
    "alert": false
   },
   {
@@ -6226,7 +6171,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T00:38:21Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/jhh-support-blog-visual-logo-lock-up-3x4-1.png",
-   "signal": 30,
+   "signal": 31,
    "alert": false
   },
   {
@@ -6311,7 +6256,7 @@
    "category": "research",
    "publishedAt": "2026-07-30T15:00:59Z",
    "imageURL": null,
-   "signal": 29,
+   "signal": 30,
    "alert": false
   },
   {
@@ -6413,7 +6358,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-23T00:00:00Z",
    "imageURL": null,
-   "signal": 28,
+   "signal": 29,
    "alert": false
   },
   {
@@ -6498,7 +6443,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 27,
+   "signal": 28,
    "alert": false
   },
   {
@@ -6583,7 +6528,7 @@
    "category": "research",
    "publishedAt": "2026-07-13T12:37:28Z",
    "imageURL": "https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w528-h297-n-nu-rw-lo",
-   "signal": 26,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6668,7 +6613,7 @@
    "category": "research",
    "publishedAt": "2026-07-09T16:46:22Z",
    "imageURL": null,
-   "signal": 25,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6944,7 +6889,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-10T17:25:44Z",
    "imageURL": null,
-   "signal": 22,
+   "signal": 23,
    "alert": false
   },
   {
@@ -7029,7 +6974,7 @@
    "category": "models",
    "publishedAt": "2026-06-25T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp",
-   "signal": 21,
+   "signal": 22,
    "alert": false
   },
   {
@@ -7118,7 +7063,7 @@
    "category": "models",
    "publishedAt": "2026-07-01T18:15:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp",
-   "signal": 20,
+   "signal": 21,
    "alert": false
   },
   {
@@ -7390,7 +7335,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-17T17:56:42Z",
    "imageURL": null,
-   "signal": 17,
+   "signal": 18,
    "alert": false
   },
   {
@@ -7475,7 +7420,7 @@
    "category": "research",
    "publishedAt": "2026-06-09T15:16:25Z",
    "imageURL": null,
-   "signal": 16,
+   "signal": 17,
    "alert": false
   },
   {
@@ -7832,7 +7777,7 @@
    "category": "techniques",
    "publishedAt": "2026-04-17T18:07:46Z",
    "imageURL": null,
-   "signal": 12,
+   "signal": 13,
    "alert": false
   },
   {
@@ -7917,7 +7862,7 @@
    "category": "techniques",
    "publishedAt": "2026-03-06T16:25:26Z",
    "imageURL": null,
-   "signal": 11,
+   "signal": 12,
    "alert": false
   },
   {
@@ -8282,7 +8227,7 @@
    "category": "research",
    "publishedAt": "2024-10-14T05:39:43Z",
    "imageURL": null,
-   "signal": 7,
+   "signal": 8,
    "alert": false
   },
   {
@@ -8724,7 +8669,7 @@
    "category": "research",
    "publishedAt": "2024-02-22T20:05:00Z",
    "imageURL": null,
-   "signal": 2,
+   "signal": 3,
    "alert": false
   },
   {
