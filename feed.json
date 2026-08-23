@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-08-23T05:27:39Z",
+ "generatedAt": "2026-08-23T05:56:23Z",
  "stories": [
   {
    "id": "42d19da539998be259e7692e06c191b687a874420e21b7a6adac2ba04c44dafd",
@@ -13,6 +13,10 @@
      "domain": "timesofindia.indiatimes.com"
     },
     {
+     "name": "Storyboard18",
+     "domain": "storyboard18.com"
+    },
+    {
      "name": "Briefs Finance",
      "domain": "briefs.co"
     }
@@ -22,6 +26,23 @@
    "imageURL": null,
    "signal": 99,
    "alert": true
+  },
+  {
+   "id": "7134574ab1a2c2e857dc48d142d9178440f34f6318f666d329443b19d06fe8d4",
+   "title": "Feeling sick? More people are asking AI what to do",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV0JqTzhwTGY5aXF4OVdzTzRSb2QyNXBQZlV6Y2JORV9hMmd2R1htM3EyZ2pDNHdGSUpoMnpENmRYakVpSjBpUHlFNDBEMlZLQ0lxT1ZDZmo5T1dMQ3I2YkxqS3ZLcEZObnRWTGY1Qk5QNkZLakMwOFZJVlhESXM2aTRWRHJoOFRlYXAydWtkcmRsZE0tNXV5QkhwQQ?oc=5",
+   "sources": [
+    {
+     "name": "Jacksonville Journal-Courier",
+     "domain": "myjournalcourier.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-23T05:29:57Z",
+   "imageURL": null,
+   "signal": 99,
+   "alert": false
   },
   {
    "id": "e01532bf0fd080a487321d93e9b037df941d5ae305300e48454d5bfc3c6a5954",
@@ -40,31 +61,6 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-08-22T23:50:57Z",
-   "imageURL": null,
-   "signal": 99,
-   "alert": true
-  },
-  {
-   "id": "03c4dc5af87267e9ad7c160b40777f923648b610c815c4715e475797852688d9",
-   "title": "Claude Code Adds AI Design, Cross-Session Chat",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT2xzQVBlUlJHUjEwZzdkQkM0Y3JWYXctOTVZY3E1SXFzYmdIa2ZoaUwxNFU2RzJWQjVmeFA5NWJTb2tBX0xROVN6NzhJTEwwTmhZS203UkxHT29CRzVGYVZ4Wjd3UnlRSHVjd3RNejRIQjEwX05kYWloVmpJd2xUQ0lwNlJKWGtXeXNMR2ZqRlpaUDRPWjdSa1d1aVdyMjYzQ2VLZWZwaWNfSENR?oc=5",
-   "sources": [
-    {
-     "name": "StartupHub.ai",
-     "domain": "startuphub.ai"
-    },
-    {
-     "name": "Pasquale Pillitteri",
-     "domain": "pasqualepillitteri.it"
-    },
-    {
-     "name": "Mshale",
-     "domain": "mshale.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-22T21:04:37Z",
    "imageURL": null,
    "signal": 99,
    "alert": true
@@ -108,6 +104,95 @@
    "alert": false
   },
   {
+   "id": "620d63695d2de079033c330013297adef6d2dd2b15b3a45463c09ca8da28d49e",
+   "title": "I fine tuned Gemma 4 12B for a 2.7x improvement on tool calling because I can't fit anything else comfortably into my 16 GBs of Vram",
+   "snippet": "Gemma 12B is obviously a very well trained model, I always thought the fine tuning they did on it wasn&#39;t really cut out for agentic coding. From my own experiences it struggles to use the tools it&#39;s given from Github Copilot and is also very inept at the cli too. So I thought I&#39;d kill…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvtu9z/i_fine_tuned_gemma_4_12b_for_a_27x_improvement_on/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-23T01:30:21Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "a1f21062b1d540567e45e89687f18449a29c8df2e496d54c155f507eaa619aec",
+   "title": "“The All Spark” Cluster: Upgrading from 16 - 36 DGX Sparks",
+   "snippet": "Earlier this year I posted about building what at the time I believe was the first 16x DGX Spark Cluster. I’m now adding 20 more Sparks to the cluster in my homelab server rack, giving me 4.6TB of unified memory. • 36x Sparks • 1x 200Gbps FS 24 x 200Gb QSFP56 + 8x 400Gb Switch • 24x QSFP56 DAC…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvv7iv/the_all_spark_cluster_upgrading_from_16_36_dgx/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-23T02:38:29Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": false
+  },
+  {
+   "id": "03c4dc5af87267e9ad7c160b40777f923648b610c815c4715e475797852688d9",
+   "title": "Claude Code Adds AI Design, Cross-Session Chat",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT2xzQVBlUlJHUjEwZzdkQkM0Y3JWYXctOTVZY3E1SXFzYmdIa2ZoaUwxNFU2RzJWQjVmeFA5NWJTb2tBX0xROVN6NzhJTEwwTmhZS203UkxHT29CRzVGYVZ4Wjd3UnlRSHVjd3RNejRIQjEwX05kYWloVmpJd2xUQ0lwNlJKWGtXeXNMR2ZqRlpaUDRPWjdSa1d1aVdyMjYzQ2VLZWZwaWNfSENR?oc=5",
+   "sources": [
+    {
+     "name": "StartupHub.ai",
+     "domain": "startuphub.ai"
+    },
+    {
+     "name": "Pasquale Pillitteri",
+     "domain": "pasqualepillitteri.it"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-22T21:04:37Z",
+   "imageURL": null,
+   "signal": 98,
+   "alert": true
+  },
+  {
+   "id": "c8d9f6cf9848f32f3434be3d417173ac14219325c697c89acefc03b228fc74da",
+   "title": "Has anyone actually made 64k feel like 300k+ with recursive local agents?",
+   "snippet": "I&#39;m running Qwen 3.8 27B locally on a single GPU. I can push the context to 131k, but I&#39;d rather run it faster at 64k if the agent can manage context properly. What I have in mind is pretty simple: one model stays loaded the whole time main agent gets 64k when something is too big, it…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvt3c4/has_anyone_actually_made_64k_feel_like_300k_with/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-23T00:54:06Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "ca5eab347630f7037dc153f7d5f075aacdf61e53ee65ce3ad02235aa97d01101",
+   "title": "Tested in Coding: Q8_K_XL Qwen3.8 27B vs BF16 Qwen3.6 27B",
+   "snippet": "Further to my last post, https://www.reddit.com/r/LocalLLaMA/comments/1vldngi/tested_in_coding_bf16_muse_glimmer_vs_bf16_qwen36/ , I bring this requested comparison of Qwen3.8 27B. Context: Both models are running at full FP16 KV-cache. Due to RAM limitations, BF16 Qwen3.6 was running at 150,000,…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvsokm/tested_in_coding_q8_k_xl_qwen38_27b_vs_bf16/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-23T00:34:31Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
+  },
+  {
    "id": "a4a76a41cc1a5f4d1bc4ca276cedfec83bcfedbe3eac0b111f942ab5ca3c720e",
    "title": "Get 6 hours of Claude and ChatGPT project management training for $20",
    "snippet": null,
@@ -121,29 +206,42 @@
    "category": "models",
    "publishedAt": "2026-08-23T01:57:09Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 97,
    "alert": false
   },
   {
-   "id": "208c4a2c4201684f295b99e3fb971569dd54d9a3452a71a9e0e167896fc776ef",
-   "title": "ChatGPT vs Claude vs Grok: $280 Price Gap [2026]",
+   "id": "55eb813cdabb9e4163bf2c2c136fb01c233562105f9126a1a4ce7299360b6082",
+   "title": "1-800-Flowers Uses ChatGPT For 'MomVerse' 05/12/2023",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94VUJiMEhuOTNsVDNoeHRoSTdfZld6OFFYUEdSazVhcGR1ZE1zcHMwemt0SnZURmlrR3NFOEV6NUx2Tm10V1dlNHNvNHpIRllkVkVZQW10dlVtQThLZHBKcmN5cjVJVGotNW9R?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYWczOU9WWHpPZEI4SUFqNWl4czh6ZGd2czBaUEk4Z0tqdVZhU3NZRl9mMEJuN0ZFVjE3Q0d6cWh5c3VibUlOM2ZLalVmZzg0RnFRMWRuUG5qSGNlNVpqUm05bVQtbTlLT0JkMWJQUllXMDlNM0x5eWdtV1psUEEtcWxBX1hNVUVPMkZMQklrb1lTSlJfVHJBYnl2S0UzWFpINlFpeHpra3ltMXFlZ0l5VnFOM08wWHJIZDNqRF9LRGtkNjVZNUVlSXpMRzMwWG1yVzJkZWZsN1FmcExlTEVCOFRB?oc=5",
    "sources": [
     {
-     "name": "tech-insider.org",
-     "domain": "tech-insider.org"
-    },
-    {
-     "name": "TechRadar",
-     "domain": "techradar.com"
+     "name": "MediaPost",
+     "domain": "mediapost.com"
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-22T21:31:30Z",
+   "publishedAt": "2026-08-23T01:50:42Z",
    "imageURL": null,
-   "signal": 98,
-   "alert": true
+   "signal": 97,
+   "alert": false
+  },
+  {
+   "id": "6756649005af8fd963c049c80ef67ff8398d0969ae9f2aae98514e5bd55dbe94",
+   "title": "Best harness for long autonomous tasks",
+   "snippet": "I read a lot of posts like &quot;I&#39;ve given this prompt to my Qwen 3.8 27b and it one-shotted me a 3d game after 24 hours&quot;. I wonder, what&#39;s the best harness for tasks like this? It has to have auto compaction and probably a memory system, right? And excellent computer use and self…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvsgsp/best_harness_for_long_autonomous_tasks/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-23T00:24:26Z",
+   "imageURL": null,
+   "signal": 97,
+   "alert": false
   },
   {
    "id": "8df515e7c3278eb7af58ba862ff16cd4fdf14fdafc5319e46869acee0e9c29e2",
@@ -159,7 +257,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-23T00:58:34Z",
    "imageURL": null,
-   "signal": 98,
+   "signal": 96,
    "alert": false
   },
   {
@@ -176,24 +274,24 @@
    "category": "tools",
    "publishedAt": "2026-08-22T23:09:46Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
-   "id": "b40c1fb091879e534da34923ca8ed17c0a05c291af9dac3faf6f9f3a14e18e3a",
-   "title": "Amazon-Backed Anthropic Needs $1.2 Trillion in Revenue to Justify $2 Trillion Valuation, 'Dean of Valuation' Says",
+   "id": "79fa8d49efad746b0dcbed8e7da7ec7d6306b7ce3fe46ad025e5d7cc5572f09e",
+   "title": "Palantir's Karp – frontier AI labs that are 'trying to drug addict us'",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSy1GSHhzQ3RhZnNlUXRGdUU0UXAzYUdjNm5leHBlR2lsQmtMeFhhTl83Qy0zcThqSVBWRTl2REM1dDVHVUpaRG1heUNGRTNicmc3OHctX0pOSm4xTFNTRFpGU0VOTklnMUxMaVRFcWJqLUlsRy1aUmV5b1lfTmpVOUdqaS12Mzcxa3F6RlJFTVdWZDZ4MWZvZWl2VQ?oc=5",
+   "url": "https://www.cnbc.com/2026/08/03/palantir-karp-open-ai-anthropic-open-weight.html",
    "sources": [
     {
-     "name": "Yahoo Finance",
-     "domain": "finance.yahoo.com"
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-23T03:30:00Z",
+   "category": "tools",
+   "publishedAt": "2026-08-23T04:03:46Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
    "alert": false
   },
   {
@@ -210,7 +308,24 @@
    "category": "tools",
    "publishedAt": "2026-08-22T18:14:16Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 96,
+   "alert": false
+  },
+  {
+   "id": "b40c1fb091879e534da34923ca8ed17c0a05c291af9dac3faf6f9f3a14e18e3a",
+   "title": "Amazon-Backed Anthropic Needs $1.2 Trillion in Revenue to Justify $2 Trillion Valuation, 'Dean of Valuation' Says",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSy1GSHhzQ3RhZnNlUXRGdUU0UXAzYUdjNm5leHBlR2lsQmtMeFhhTl83Qy0zcThqSVBWRTl2REM1dDVHVUpaRG1heUNGRTNicmc3OHctX0pOSm4xTFNTRFpGU0VOTklnMUxMaVRFcWJqLUlsRy1aUmV5b1lfTmpVOUdqaS12Mzcxa3F6RlJFTVdWZDZ4MWZvZWl2VQ?oc=5",
+   "sources": [
+    {
+     "name": "Yahoo Finance",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-23T03:30:00Z",
+   "imageURL": null,
+   "signal": 96,
    "alert": false
   },
   {
@@ -227,7 +342,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T23:18:00Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 95,
    "alert": false
   },
   {
@@ -244,7 +359,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T21:04:26Z",
    "imageURL": null,
-   "signal": 97,
+   "signal": 95,
    "alert": false
   },
   {
@@ -261,7 +376,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T23:00:16Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
    "alert": false
   },
   {
@@ -278,7 +393,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T20:45:49Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 95,
+   "alert": false
+  },
+  {
+   "id": "c6ceb4d0852ad474369aa9b37c36008616f91783e94ab7cc267cde632dedafad",
+   "title": "I benchmark DFlash 2 (PR build) in llama.cpp on Qwen 3.8 27B against all speculative methods for 3 days. 2.26x on 100 real coding prompts, 4.68x with one n-gram drafter on top. Up to 8x on specific cases.",
+   "snippet": "Hey guys, Inco AI shipped DFlash 2 a few days ago with a drafter for Qwen 3.8 27B and a llama.cpp PR. I built the PR and ran it against plain decoding, MTP, the n-gram lookup drafters, and my July DFlash 1 numbers on Qwen 3.6 27B for 3 days. One RTX PRO 6000, concurrency 1, about three days of…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvncyh/i_benchmark_dflash_2_pr_build_in_llamacpp_on_qwen/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T20:41:35Z",
+   "imageURL": null,
+   "signal": 95,
    "alert": false
   },
   {
@@ -303,7 +435,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T11:11:39Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png",
-   "signal": 96,
+   "signal": 95,
    "alert": true
   },
   {
@@ -320,7 +452,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T16:58:49Z",
    "imageURL": null,
-   "signal": 96,
+   "signal": 94,
    "alert": false
   },
   {
@@ -337,24 +469,24 @@
    "category": "models",
    "publishedAt": "2026-08-22T21:46:56Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
-   "id": "79fa8d49efad746b0dcbed8e7da7ec7d6306b7ce3fe46ad025e5d7cc5572f09e",
-   "title": "Palantir's Karp – frontier AI labs that are 'trying to drug addict us'",
+   "id": "208c4a2c4201684f295b99e3fb971569dd54d9a3452a71a9e0e167896fc776ef",
+   "title": "ChatGPT vs Claude vs Grok: $280 Price Gap [2026]",
    "snippet": null,
-   "url": "https://www.cnbc.com/2026/08/03/palantir-karp-open-ai-anthropic-open-weight.html",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94VUJiMEhuOTNsVDNoeHRoSTdfZld6OFFYUEdSazVhcGR1ZE1zcHMwemt0SnZURmlrR3NFOEV6NUx2Tm10V1dlNHNvNHpIRllkVkVZQW10dlVtQThLZHBKcmN5cjVJVGotNW9R?oc=5",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "tech-insider.org",
+     "domain": "tech-insider.org"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-23T04:03:46Z",
+   "category": "models",
+   "publishedAt": "2026-08-22T21:31:30Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -371,7 +503,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T19:00:00Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
    "alert": false
   },
   {
@@ -388,7 +520,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T18:53:10Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 94,
+   "alert": false
+  },
+  {
+   "id": "a830cb593718a7926abd399b9c38dbf0f85cdb433837fef1129d0aa4b6d2b9ae",
+   "title": "Watching that wattage, in your terminal.",
+   "snippet": "Released today: version 1.3 of energygraph Zero build dependencies, lightweight tool for live views of the power-consumption. Version 1.3 adds support for dGPUs from nvidia, intel, amd. Depending on vendor support, you can also get the consumption by your cpu cores, iGPU, platform system, dram. In…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvkgs6/watching_that_wattage_in_your_terminal/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T18:47:37Z",
+   "imageURL": null,
+   "signal": 93,
    "alert": false
   },
   {
@@ -405,7 +554,45 @@
    "category": "models",
    "publishedAt": "2026-08-22T21:13:25Z",
    "imageURL": null,
-   "signal": 95,
+   "signal": 93,
+   "alert": false
+  },
+  {
+   "id": "4449d44580bfd5315f6de6dcf3d3edc5867ab0f661fdcd6cfec2701ff494f79e",
+   "title": "Artificial Analysis \"Intelligence\": A meaningless benchmark",
+   "snippet": "https://preview.redd.it/84zi5nsdawkh1.png?width=2368&amp;format=png&amp;auto=webp&amp;s=1109e69db807b153064b1f5b61d22cf1e9fbca05 Another user posted the benchmarks for Qwen 3.8 27B today, and while I think Qwen 27B is a really powerful model, I can&#39;t help but notice just how meaningless these…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv80xa/artificial_analysis_intelligence_a_meaningless/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    },
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T09:43:38Z",
+   "imageURL": null,
+   "signal": 93,
+   "alert": true
+  },
+  {
+   "id": "b83d6cca66a5ef0b70e0daed9399327f84fcc7b1dcd60d3bac3933ffbf61f24f",
+   "title": "Create tts voice from actual animal sound recording",
+   "snippet": "In short, I want to create voices for my real chickens that I&#39;m creating generated videos of. Ultimately I would like to create voices to be used in a tts application that are based on their real &quot;voice patterns&quot;, as though the voice was being made with their own vocal chords. I do…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvnfy4/create_tts_voice_from_actual_animal_sound/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T20:45:00Z",
+   "imageURL": null,
+   "signal": 93,
    "alert": false
   },
   {
@@ -422,24 +609,41 @@
    "category": "tools",
    "publishedAt": "2026-08-23T02:02:03Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 93,
    "alert": false
   },
   {
-   "id": "3f21824caff8c05c1af4faaa74cc010e4bf4c2490932f747c6661030d9107b1e",
-   "title": "Apple degrades privacy and encryption of iMessage with AI integrations",
-   "snippet": null,
-   "url": "https://twitter.com/stevemoraco/status/2091194172917338520",
+   "id": "bc1e6c7fc211943c605059432966884c4dbe875a35507617da99c4ca51688e8b",
+   "title": "Current best model for narrative, chat, prompt creation (so basically everything except agentic coding)? - 5090",
+   "snippet": "Im looking to set up a new local llm (probably on unsloth studio as that seemed to be doing pretty well last time I tested it). This one won&#39;t need to do agentic coding or app building or anything (not this time) but instead more &#39;text&#39; based tasks such as - being given reference images…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vviy88/current_best_model_for_narrative_chat_prompt/",
    "sources": [
     {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-23T01:41:02Z",
+   "publishedAt": "2026-08-22T17:49:39Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "4513c94c300e0697f0ebdf6e3c3f00a73ab5543f1f73bb091a11ec8f9be1d813",
+   "title": "New 100B Liquid AI model coming soon",
+   "snippet": "Liquid AI currently possesses among the fastest LLM architectures around, and some of the best SLMs (in terms of utility IMO) around, so I&#39;m very excited to see what a potential 100B LFM (3?) model would look like! Link to the poll: https://x.com/ramin_m_h/status/2091236099612098943?s=20 &#32;…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvmxls/new_100b_liquid_ai_model_coming_soon/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T20:24:18Z",
+   "imageURL": null,
+   "signal": 92,
    "alert": false
   },
   {
@@ -456,7 +660,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T20:08:53Z",
    "imageURL": null,
-   "signal": 94,
+   "signal": 92,
    "alert": false
   },
   {
@@ -473,24 +677,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T20:08:07Z",
    "imageURL": null,
-   "signal": 94,
-   "alert": false
-  },
-  {
-   "id": "487359c8c4145402cebc2c95e412d8cd51a481ea6f80c70dc1fd862a83cf085d",
-   "title": "IPO Fever Heats Up for OpenAI and Anthropic",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUmFobjRZR2hxMGRKcEhsa3J0LS0xODg0c1BxUHpKTlh2VS1oZmJmVlZlWG5famo3OHl3QkFUeURTMUotX2ZjTmEtY2lodjFWUklNSW5jNERvZ1RpQ2FxQUlrTndtb2oxNXBDZzBIX3lqR1I2YktPODNWOFY3UjcxZkdzZ0h6a193SnAtejBiSQ?oc=5",
-   "sources": [
-    {
-     "name": "The Motley Fool",
-     "domain": "fool.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-23T01:33:34Z",
-   "imageURL": null,
-   "signal": 94,
+   "signal": 92,
    "alert": false
   },
   {
@@ -507,7 +694,41 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T17:01:16Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 92,
+   "alert": false
+  },
+  {
+   "id": "487359c8c4145402cebc2c95e412d8cd51a481ea6f80c70dc1fd862a83cf085d",
+   "title": "IPO Fever Heats Up for OpenAI and Anthropic",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUmFobjRZR2hxMGRKcEhsa3J0LS0xODg0c1BxUHpKTlh2VS1oZmJmVlZlWG5famo3OHl3QkFUeURTMUotX2ZjTmEtY2lodjFWUklNSW5jNERvZ1RpQ2FxQUlrTndtb2oxNXBDZzBIX3lqR1I2YktPODNWOFY3UjcxZkdzZ0h6a193SnAtejBiSQ?oc=5",
+   "sources": [
+    {
+     "name": "The Motley Fool",
+     "domain": "fool.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-23T01:33:34Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
+  },
+  {
+   "id": "0c6311229130eeac14e0cdf52e405d292828e588767f1a5c280b3404b26b4ec2",
+   "title": "GLM and I created a llama.cpp fork optimized for AMD GFX906 (Mi50, Mi60, Radeon VII, GCN HIP) - Machine Learning, LLMs, & AI",
+   "snippet": "I felt the need to share this here. Looking for feedback. &#32; submitted by &#32; /u/milpster [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvljbz/glm_and_i_created_a_llamacpp_fork_optimized_for/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T19:29:19Z",
+   "imageURL": null,
+   "signal": 91,
    "alert": false
   },
   {
@@ -524,7 +745,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T09:49:14Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 91,
    "alert": false
   },
   {
@@ -553,8 +774,25 @@
    "category": "models",
    "publishedAt": "2026-08-21T22:37:38Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 91,
    "alert": true
+  },
+  {
+   "id": "1012d9e8368be5cfdde7cb014f4d988c38ac0a884a0e084f920ade09cf7f5b5a",
+   "title": "Single RTX 5090: Qwen3.8-27B NVFP4 at a real 262K context in vLLM — 77 tok/s short-context, 64.7 tok/s at 128K",
+   "snippet": "This is the Qwen3.8-27B setup I actually use every day on one RTX 5090. I wanted to write it down with enough detail that another 5090 owner can reproduce it instead of guessing which memory knobs I used. The short version: the full 262,144-token window fits together with vision, FP8 KV, prefix…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvl7pc/single_rtx_5090_qwen3827b_nvfp4_at_a_real_262k/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T19:16:31Z",
+   "imageURL": null,
+   "signal": 91,
+   "alert": false
   },
   {
    "id": "3f89e94f44724b318410048e73b56d70cf88f771d4d1c029d992eddb0b72b02c",
@@ -570,7 +808,41 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T15:56:54Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 90,
+   "alert": false
+  },
+  {
+   "id": "cf6ea0309b5eaff550d5c830f90fb92f504ebda221a537e302eec31fee9be8b0",
+   "title": "How to remove trendy speech from llms?",
+   "snippet": "For example: Instead of saying: &quot;I created this new ID&quot; It says: &quot;I minted this new ID&quot; Instead of: &quot;This alternative path is available&quot; It says: &quot;this escape hatch is available&quot; This speech is so nonsensical and annoying. Just. Speek. Literally ... OR…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvfbde/how_to_remove_trendy_speech_from_llms/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T15:26:22Z",
+   "imageURL": null,
+   "signal": 90,
+   "alert": false
+  },
+  {
+   "id": "fb93a742d2a1d2ab4d8792ff91c44aa9d1ad77ef90496fdef0f3d190e195e3ca",
+   "title": "This is a great sub, regardless of what complaints people have about it.",
+   "snippet": "This is a genuine community of real generally respectful adult human beings. Despite the enthusiasm all of you have for local AI, you can recognize that there are times when local LLMs are flawed, and even how practical they are to use for the majority of people to use. Go over to r/linux and…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vveabg/this_is_a_great_sub_regardless_of_what_complaints/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T14:44:56Z",
+   "imageURL": null,
+   "signal": 90,
    "alert": false
   },
   {
@@ -587,7 +859,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T17:33:51Z",
    "imageURL": null,
-   "signal": 93,
+   "signal": 90,
    "alert": false
   },
   {
@@ -604,24 +876,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T23:30:20Z",
    "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
-   "id": "6aca7c53e0a4bf23bc7aa4c0b1ba7717dbb67a1d59b4aef015d6c9337823b122",
-   "title": "ChatGPT-Image-Aug-21-2026-09_26_15-AM",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV0RVbzFpbTlVLVdkRXlqVW5kZFNNUjhLQjFpZlZFdFZac1lJOTBCVEVITnUwNjJRUEk3UzBjZTRUNGxDRU1mVlIzODVBY0pueDlZMXBoYlRydktlZWFXLWdrWlpsaldOLWwwYlNrMU5ad21SM1VRUnBiQzktc2VLendJU3R0QkpiUlZWTEc4ZnAxcms2NXVWeUUzY1dZb0xicHpfQXBGVXhYQkRvejJHNWc2TERvbENKMk5uYUNFRGVkZU5tTnVhNVlwdzJTSjlPVWdtYzFrbHo3MmM5?oc=5",
-   "sources": [
-    {
-     "name": "SiliconANGLE",
-     "domain": "siliconangle.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T17:06:00Z",
-   "imageURL": null,
-   "signal": 92,
+   "signal": 90,
    "alert": false
   },
   {
@@ -638,7 +893,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T16:30:34Z",
    "imageURL": null,
-   "signal": 92,
+   "signal": 89,
    "alert": false
   },
   {
@@ -659,8 +914,8 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T17:02:35Z",
    "imageURL": null,
-   "signal": 92,
-   "alert": true
+   "signal": 89,
+   "alert": false
   },
   {
    "id": "058d495cab2c8c26823cb4785ec59c56b412ceec76fa81bc79e4442d41ab0efb",
@@ -676,24 +931,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T16:00:00Z",
    "imageURL": null,
-   "signal": 92,
-   "alert": false
-  },
-  {
-   "id": "352f7efb32e63ff92fbcad73ed2bcf7ecc9ed5f230245224a39aeb390e66bf39",
-   "title": "Anthropic Reportedly Projects Up To $200B In 2028 Revenue As IPO Draws Near",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPU1h2aktHZXhPUjNzUEVGd2RESV9GcGJZN1lvblpzZXJpTkNHdDNUUXR0eFdTWmNZV01zMnFSQUljUHlUT2tuclNDRmJlRTdkcmlKUGxGa1ExNTNxNEZrMDdRanoyVkxvMVpiTXBhc3lhSXQtR2swQjZjRXdTYmZLaUg0V2dUVkh4MWhtdmxaa05IX05ZdXBrU3htZVJUd3RIZ0dnZC1ZcUl0aWg4M0xlNVJPWkxiUzYwd0JzaktVMjdETnhQc1E0bi1JbGpjN3ZwSEFjcGZR?oc=5",
-   "sources": [
-    {
-     "name": "Stocktwits",
-     "domain": "stocktwits.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T21:27:01Z",
-   "imageURL": null,
-   "signal": 91,
+   "signal": 89,
    "alert": false
   },
   {
@@ -710,7 +948,75 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T12:01:30Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 89,
+   "alert": false
+  },
+  {
+   "id": "7168adf94fa8add0a5ec8f8b7c4e7098aa09774aeb302c0cd4628640a8fc4fb0",
+   "title": "Fixed the MTP head on Ornith1.5 35B A3B. +3% TPS -33% wall clock",
+   "snippet": "I love the Ornith 35B local models, 1.0 has been running my HAM radio rig for me. I have a hackRF receiver and a 5 watt quansheng portable the both run headless through the PC. I tried out the new Ornith1.5 build and it was faster and more accurate than 1.0. I read the threads that talked about the…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvft7b/fixed_the_mtp_head_on_ornith15_35b_a3b_3_tps_33/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T15:46:27Z",
+   "imageURL": null,
+   "signal": 89,
+   "alert": false
+  },
+  {
+   "id": "352f7efb32e63ff92fbcad73ed2bcf7ecc9ed5f230245224a39aeb390e66bf39",
+   "title": "Anthropic Reportedly Projects Up To $200B In 2028 Revenue As IPO Draws Near",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPU1h2aktHZXhPUjNzUEVGd2RESV9GcGJZN1lvblpzZXJpTkNHdDNUUXR0eFdTWmNZV01zMnFSQUljUHlUT2tuclNDRmJlRTdkcmlKUGxGa1ExNTNxNEZrMDdRanoyVkxvMVpiTXBhc3lhSXQtR2swQjZjRXdTYmZLaUg0V2dUVkh4MWhtdmxaa05IX05ZdXBrU3htZVJUd3RIZ0dnZC1ZcUl0aWg4M0xlNVJPWkxiUzYwd0JzaktVMjdETnhQc1E0bi1JbGpjN3ZwSEFjcGZR?oc=5",
+   "sources": [
+    {
+     "name": "Stocktwits",
+     "domain": "stocktwits.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T21:27:01Z",
+   "imageURL": null,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "2cc29a0750b6f17d9af6d8ae1925c3565ca6318ec4150802f28a89b3ab8c8d8b",
+   "title": "web_search tool in deepseek harness needs api key from deepseek and deepseek charges you as deepseek-v4-flash usage.",
+   "snippet": "I was experimenting with deepseek harness when found that even if you don&#39;t use deepseek models, you can configure the web_search tool with their api key and every hit will cost you as if you called deepseek-v4-flash model. It&#39;s a bummer. on top of that there is currently no other free web…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vva30g/web_search_tool_in_deepseek_harness_needs_api_key/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:35:34Z",
+   "imageURL": null,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "d8cf43d22a20e508a0f4db864f390bc771ac3691a8defeb401cc4d2bc8eedd34",
+   "title": "Your own GGUF",
+   "snippet": "Hello, I have a few questions that I can&#39;t seem to find a clear answer to. Does it make sense to make your own GGUF? I noticed that when I compile llamacpp (vulkan or rocm), the processing and generation is a bit better, does it work similarly with doing GGUF yourself? If I use Vulkan, is it…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvf7tk/your_own_gguf/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T15:22:23Z",
+   "imageURL": null,
+   "signal": 88,
    "alert": false
   },
   {
@@ -727,7 +1033,58 @@
    "category": "tools",
    "publishedAt": "2026-08-22T11:24:54Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "3f21824caff8c05c1af4faaa74cc010e4bf4c2490932f747c6661030d9107b1e",
+   "title": "Apple degrades privacy and encryption of iMessage with AI integrations",
+   "snippet": null,
+   "url": "https://twitter.com/stevemoraco/status/2091194172917338520",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-23T01:41:02Z",
+   "imageURL": null,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "1a45e28259b8fbc1b702de334474f1ec0a0496a421fc2ff749ede4fde01d4f1d",
+   "title": "Anyone else tried out KV cache blending?",
+   "snippet": "Idea is simple-ish in abstract: instead of running normal prefill over all of a given prompt, split it into parts - generates caches for part A and part B in isolation, concatenate the result, feed it into decode like normal. I honestly thought it&#39;d totally fail. But I&#39;ve been trying it out…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv9oe2/anyone_else_tried_out_kv_cache_blending/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:14:40Z",
+   "imageURL": null,
+   "signal": 88,
+   "alert": false
+  },
+  {
+   "id": "9d7fcca0d60c7aeb2456db170ad3b039fc6279e2b7fcb47a6535404bbaa964f5",
+   "title": "Claude's Corner: Corvera - AI Agents for the CPG Operations Problem",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZlBfQ2I1VkxIMzlRSUY2TTB3bjZaR0JuZ0JqdXpxNVRIb3ZfVUhILVRpQWVuX25Ta2l0ZG1waGtLLWt2cVZTOExJeWFYUGQ5TmNLc3BIdlUtcjRjSzVFbWxOV3BqUXR4SjdnUjBsbC11c1c0TEtub3RrYVF4MEhUWTVrcEllaGFhM21rRE9n?oc=5",
+   "sources": [
+    {
+     "name": "StartupHub.ai",
+     "domain": "startuphub.ai"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T11:10:38Z",
+   "imageURL": null,
+   "signal": 87,
    "alert": false
   },
   {
@@ -744,7 +1101,7 @@
    "category": "models",
    "publishedAt": "2026-08-22T20:49:06Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 87,
    "alert": false
   },
   {
@@ -761,7 +1118,24 @@
    "category": "tools",
    "publishedAt": "2026-08-22T10:29:07Z",
    "imageURL": null,
-   "signal": 91,
+   "signal": 87,
+   "alert": false
+  },
+  {
+   "id": "bf7fda769d50bc399f85887ac35d520e478c92e73b436dc480c0ba33527ae538",
+   "title": "How To Use Atlassian’s MCP Server With VS Code - Jira And Confluence 14-May (b2yCkfFzFx)",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzLXFrQVYyMTJfSTVlMEFZcDJoQkxzMDhGUkhDeTl1by12UExJbW16RTF0UENla2YzYzE2aENXdFJIb3NrRnZ1U2ZvcFhvZkFFc1FyV0tza2ZQLWM?oc=5",
+   "sources": [
+    {
+     "name": "Mshale",
+     "domain": "mshale.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T10:14:48Z",
+   "imageURL": null,
+   "signal": 87,
    "alert": false
   },
   {
@@ -778,7 +1152,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T13:47:43Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 87,
+   "alert": false
+  },
+  {
+   "id": "819d0665fdcf3ab1f100cd6666e047216e07bac2f45b4fae8ad93e6c0f2eba04",
+   "title": "Qwen 3.5 4B IQ2_XS: +16.67% Reasoning Performance From Tensor-Level Allocation",
+   "snippet": "I was finally able to replicate tensor level allocation outside the Gemma family. https://huggingface.co/ByteOtter/Qwen3.5-4B-CADA-IQ2_XS After the Gemma 4 12b, e4b and gemma 3 4b results, I attempted to expand into qwen and ran into a few walls. After 2 version updates and a slightly different…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vvc6pw/qwen_35_4b_iq2_xs_1667_reasoning_performance_from/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T13:15:55Z",
+   "imageURL": null,
+   "signal": 86,
    "alert": false
   },
   {
@@ -795,24 +1186,41 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T13:14:53Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 86,
    "alert": false
   },
   {
-   "id": "0c3f628594cf6336fd80cd6fb37570c3a309b87c8c168c862a6d16fe19faa64d",
-   "title": "Amanda Knox: A Chatbot’s False Confession",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BMGdlbktkUDI4ZGN1Vzd5RDAtcGl0Mi1HaG5QZmlUTGk2RzN5N00xRWpIdVRDX0d6TndQMDk5WDBqU1FUMUFYN2txMWVtcjlmMUdFUFdJQjVtSXdEbW5yWHFZNTdKV2xKT2ZKZA?oc=5",
+   "id": "d7994a94036ab5c4f9cc2816f403e4526a887107c0d3d60932ac6dd7d2b8dcbf",
+   "title": "AntLing released a dspark draft model for Ling-3.0-flash",
+   "snippet": "No GGUFs yet on Huggingface though. &#32; submitted by &#32; /u/Ihtien [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv71pg/antling_released_a_dspark_draft_model_for/",
    "sources": [
     {
-     "name": "The Free Press",
-     "domain": "thefp.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-22T12:51:49Z",
+   "category": "tools",
+   "publishedAt": "2026-08-22T08:46:11Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 86,
+   "alert": false
+  },
+  {
+   "id": "bd51def575ec344dbe32362fb1c4b50c24b1209ce9fe94014000744372faba4b",
+   "title": "Freetokens project is impressive",
+   "snippet": "A new project was released yesterday and I have the opportunity to test it today. Papper: https://arxiv.org/abs/2608.16157 Github: https://github.com/FlashML-org/FreeToken My initial tests with the following setup: RTX 5080 (16 GB) DDR6 64GB AMD Ryzen 9 9950X3D I got 100tok/s on QWEN3.6-35B-A3B…",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv6v00/freetokens_project_is_impressive/",
+   "sources": [
+    {
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T08:34:53Z",
+   "imageURL": null,
+   "signal": 86,
    "alert": false
   },
   {
@@ -829,7 +1237,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T07:32:42Z",
    "imageURL": null,
-   "signal": 90,
+   "signal": 86,
    "alert": false
   },
   {
@@ -846,7 +1254,32 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T07:30:52Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!bUv7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F758de9a0-631f-43a0-a331-fd871432a60b_1280x720.png",
-   "signal": 89,
+   "signal": 85,
+   "alert": false
+  },
+  {
+   "id": "e06c60c7b2e8744f4f944528453981bafbd218ce81cb51abd4abafb4ed2b13e3",
+   "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+   "snippet": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every…",
+   "url": "https://arxiv.org/abs/2608.20318v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    },
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    },
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T17:56:59Z",
+   "imageURL": null,
+   "signal": 85,
    "alert": false
   },
   {
@@ -863,24 +1296,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T06:24:11Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 85,
    "alert": false
   },
   {
-   "id": "60f6881022461320c518dec5f1230addef1776acbcefa4bb0069e9f177b194f6",
-   "title": "VCX Becomes Retail’s AI Darling On SpaceX, Anthropic Hype — One Investor Warns Of 50% Crash",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTUpEU2pwZ2djY3cwUWNPNWNHMXV2QW5kQlp3STl0VGFBU0tvaDZEN1FaS3VTY1pPWlVhbnB4RXJESjg5dDFncHlJTE1PaWFieUExMlBVUjFnbUE2LTJIQzlpenFRUWYyd0FSTEZRd1NWUmFBN1NoSkp6ZlNlOVRiUTk0eHpYUVY1Y0VQSUhNUkRFNVdHdE94WlJ2M3c5OUNzSXBKbFdCMkU3LTdrdDR6eWdnVHNSamNFR0FhQkdfS2k?oc=5",
+   "id": "063c55db94213397f2addab39c065b2c70fc667887f1010b15f5d34fe1f783d3",
+   "title": "Llama.cpp version 0.2.0 is out!",
+   "snippet": "You can find the changelog and source code here: https://github.com/ggml-org/llama.cpp/releases/tag/v0.2.0 Associated pre-build is here: https://github.com/ggml-org/llama.cpp/releases/tag/b10566 &#32; submitted by &#32; /u/PhilippeEiffel [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv4mei/llamacpp_version_020_is_out/",
    "sources": [
     {
-     "name": "Stocktwits",
-     "domain": "stocktwits.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
-   "category": "models",
-   "publishedAt": "2026-08-22T20:52:12Z",
+   "category": "tools",
+   "publishedAt": "2026-08-22T06:23:58Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 85,
    "alert": false
   },
   {
@@ -897,41 +1330,41 @@
    "category": "tools",
    "publishedAt": "2026-08-22T06:05:00Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 85,
    "alert": false
   },
   {
-   "id": "0802e5036fe4786632869ef642ff12a9b6e8396fd62cc81856d34b2ddd32871a",
-   "title": "AWS AgentCore Harness Bypass Exposed a Cross-Platform Vulnerability Class in Agent Runtimes",
+   "id": "60f6881022461320c518dec5f1230addef1776acbcefa4bb0069e9f177b194f6",
+   "title": "VCX Becomes Retail’s AI Darling On SpaceX, Anthropic Hype — One Investor Warns Of 50% Crash",
    "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcWFORmk3ckdOYXlxdy1SUHdqbzlyVDg3ejFwTXBlWHFyVUhNWjd0N1J2Q1cyejBlSmVVREt4Z1JQUzV3TFY5d01ZRHVJSFZmZTNqdTBZWWx3RWs1MThRNGJFLV83czhFT29HRTZyc1lDLUpUSjAwYnJ6NWRwMEl6UmNpVW5PTFNzUFVEazJUNmdjNWQya3RpZEFXWTFNZzZ4cHNPWXV1LWMyb05OeWpsd2t2RjBtZ2xwMFdPQ2t6cVl0RE9sc1o2dg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTUpEU2pwZ2djY3cwUWNPNWNHMXV2QW5kQlp3STl0VGFBU0tvaDZEN1FaS3VTY1pPWlVhbnB4RXJESjg5dDFncHlJTE1PaWFieUExMlBVUjFnbUE2LTJIQzlpenFRUWYyd0FSTEZRd1NWUmFBN1NoSkp6ZlNlOVRiUTk0eHpYUVY1Y0VQSUhNUkRFNVdHdE94WlJ2M3c5OUNzSXBKbFdCMkU3LTdrdDR6eWdnVHNSamNFR0FhQkdfS2k?oc=5",
    "sources": [
     {
-     "name": "CryptoRank",
-     "domain": "cryptorank.io"
+     "name": "Stocktwits",
+     "domain": "stocktwits.com"
     }
    ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T05:31:28Z",
+   "category": "models",
+   "publishedAt": "2026-08-22T20:52:12Z",
    "imageURL": null,
-   "signal": 89,
+   "signal": 84,
    "alert": false
   },
   {
-   "id": "44c5f76ca5fb8d8be355f32a4ad47b0cc320fc2fa5898b5868e695b586f50dce",
-   "title": "EXCLUSIVE: 'It's Like Everybody's Become a Builder': AI Is Creating a New Security Problem, Vanta Says",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbVVFa0xjaUE4M1FBREFjZmw0eG9qX2EtVk9GMlVzNkhDdDM5QWsyRlBOaThqeVJteHF3WTdXVFY1WjBQNGJPc3dVSVU2MjlUU20xelBGMlhsMFAzREQ5R0hNcXBIMlZPa1djWnR2T3BlR1VaT25CNEozZjJ3WjJubGRUWDFZd1ZJaDBNVnhxcmotNXhoS0lra0lkVlVsUzd4WV9zbHozempzNVpWU0hKR3NQODJDMlRKbXJuVlRxdDFiVm90dW1mU2lqQVRmMHZUMWJzbDZFME94U2JoREFpbw?oc=5",
+   "id": "c43f305bff02a71d3a5ae4eed8b7739ffd27c412baf22affe1176987a9c500ce",
+   "title": "Think you're going to get cheap DDR5 RAM? Think again, even if prices fall, scalper bots now outnumber shoppers 10 to 1 and will keep prices high",
+   "snippet": "&#32; submitted by &#32; /u/DeltaSqueezer [link] &#32; [comments]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vv86lm/think_youre_going_to_get_cheap_ddr5_ram_think/",
    "sources": [
     {
-     "name": "Sahm",
-     "domain": "sahmcapital.com"
+     "name": "r/LocalLLaMA",
+     "domain": "reddit.com"
     }
    ],
    "category": "tools",
-   "publishedAt": "2026-08-22T09:57:31Z",
+   "publishedAt": "2026-08-22T09:52:52Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 84,
    "alert": false
   },
   {
@@ -948,7 +1381,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T09:17:00Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 84,
    "alert": false
   },
   {
@@ -969,7 +1402,7 @@
    "category": "tools",
    "publishedAt": "2026-08-21T02:37:47Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 84,
    "alert": false
   },
   {
@@ -986,7 +1419,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T07:41:16Z",
    "imageURL": null,
-   "signal": 88,
+   "signal": 84,
    "alert": false
   },
   {
@@ -1003,28 +1436,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-22T07:36:00Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Vw9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc661e612-544b-4eaa-9603-78e5f28276b7_1956x1228.png",
-   "signal": 88,
-   "alert": false
-  },
-  {
-   "id": "e06c60c7b2e8744f4f944528453981bafbd218ce81cb51abd4abafb4ed2b13e3",
-   "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
-   "snippet": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every…",
-   "url": "https://arxiv.org/abs/2608.20318v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    },
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T17:56:59Z",
-   "imageURL": null,
-   "signal": 87,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1041,24 +1453,7 @@
    "category": "tools",
    "publishedAt": "2026-08-21T11:48:05Z",
    "imageURL": null,
-   "signal": 87,
-   "alert": false
-  },
-  {
-   "id": "665a5de225b51c85accbe57fd8046958bf4a663c557d1bedd7f067e73f47c7d5",
-   "title": "US stock markets set to open mostly unchanged. Eyes on Meta after open model release",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeExQUy1GNFc0TTR3VHN3YXV4SG9yWmNQN1FzdE83ZmV2Q0xYRVcyYzRKQUdGXzRrcFRrY0lLdk9vY1hzZnBYeVlWdnJoc0VNektwbFNiem5YcGlxYW9IVFMyT0RSNElaN3BXX3ZETnZ6N2tnRjZGNC03LVZlT2pWa2Z5UFQ1V0F2VGk2VUx2QzJISHRCN0FQU1FPeWRDU3hlYTQzTWZaY0J2RGpmZ0EzMVMwek5PUHho?oc=5",
-   "sources": [
-    {
-     "name": "investingLive",
-     "domain": "investinglive.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T15:02:53Z",
-   "imageURL": null,
-   "signal": 87,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1075,7 +1470,7 @@
    "category": "tools",
    "publishedAt": "2026-08-21T14:31:52Z",
    "imageURL": null,
-   "signal": 87,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1092,7 +1487,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T21:25:50Z",
    "imageURL": null,
-   "signal": 87,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1109,24 +1504,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T19:43:39Z",
    "imageURL": null,
-   "signal": 86,
-   "alert": false
-  },
-  {
-   "id": "0a8ccfc666fa944d33d85c5586a1ff9974d83867d59413ac172c003e83ac918e",
-   "title": "Round Hill Music Sues Suno and Anthropic Over AI Training Practices",
-   "snippet": null,
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQmVldzE0NWJJZHZjc3hyWlk5UFR2U0tUTHpTLXFlUmZkbkpKSzJVM1hiMFZ6bF9rYk4wZTBhRXF1cThaUTdRMV9sQjh6U3RoWVBVWFItWkllQVF6NTRuR0Z3NXMzeHlzRFBRYmdsVnlIVXVRVzNPSVhja1BsMnMzVFpIeFFoYmM?oc=5",
-   "sources": [
-    {
-     "name": "edm.com",
-     "domain": "edm.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-22T16:09:14Z",
-   "imageURL": null,
-   "signal": 86,
+   "signal": 83,
    "alert": false
   },
   {
@@ -1143,7 +1521,7 @@
    "category": "tools",
    "publishedAt": "2026-08-20T19:05:36Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1160,7 +1538,7 @@
    "category": "tools",
    "publishedAt": "2026-08-21T19:51:48Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1181,7 +1559,24 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:59:46Z",
    "imageURL": null,
-   "signal": 86,
+   "signal": 82,
+   "alert": false
+  },
+  {
+   "id": "0a8ccfc666fa944d33d85c5586a1ff9974d83867d59413ac172c003e83ac918e",
+   "title": "Round Hill Music Sues Suno and Anthropic Over AI Training Practices",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQmVldzE0NWJJZHZjc3hyWlk5UFR2U0tUTHpTLXFlUmZkbkpKSzJVM1hiMFZ6bF9rYk4wZTBhRXF1cThaUTdRMV9sQjh6U3RoWVBVWFItWkllQVF6NTRuR0Z3NXMzeHlzRFBRYmdsVnlIVXVRVzNPSVhja1BsMnMzVFpIeFFoYmM?oc=5",
+   "sources": [
+    {
+     "name": "edm.com",
+     "domain": "edm.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-22T16:09:14Z",
+   "imageURL": null,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1202,7 +1597,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T17:18:58Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 82,
    "alert": false
   },
   {
@@ -1219,7 +1614,7 @@
    "category": "tools",
    "publishedAt": "2026-08-21T23:09:06Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1236,7 +1631,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T17:16:13Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1253,7 +1648,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T17:06:17Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1270,7 +1665,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T16:59:15Z",
    "imageURL": null,
-   "signal": 85,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1287,7 +1682,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T16:58:19Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1304,7 +1699,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T16:57:01Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 81,
    "alert": false
   },
   {
@@ -1321,7 +1716,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T16:07:32Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1338,7 +1733,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T23:07:25Z",
    "imageURL": null,
-   "signal": 84,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1355,7 +1750,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-21T15:06:26Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1372,7 +1767,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T14:00:00Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1393,7 +1788,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:14:24Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 80,
    "alert": false
   },
   {
@@ -1410,7 +1805,7 @@
    "category": "tools",
    "publishedAt": "2026-08-22T09:07:26Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1427,7 +1822,24 @@
    "category": "tools",
    "publishedAt": "2026-08-21T13:43:33Z",
    "imageURL": null,
-   "signal": 83,
+   "signal": 79,
+   "alert": false
+  },
+  {
+   "id": "380abf0a94830dbb63998e8a24912575c1112946a362708ace8ac62848325581",
+   "title": "Binance Opens Trading to AI Agents With New Agent OS Platform",
+   "snippet": null,
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnRDbHdjT0g3dWdlTXJDckRnVVlVb0JZQ2s5UmJycjV4M0ROWGdzMXh1ZUFwTDVWVWFVVWc4aW5ta2I2eEpwbnVVZHFTX2p3dnVvZm13LVUyeGFhdXlkNHdfbXF2bjNzUTJyWDJIRWxqeFAxSEdPWVhBeUd4eWxUam1mUFJqOWNoeXNtZ0hiVkVmSUVrbFhsYkFZaTlnelk?oc=5",
+   "sources": [
+    {
+     "name": "CoinCodex",
+     "domain": "coincodex.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T08:07:00Z",
+   "imageURL": null,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1452,7 +1864,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T22:36:37Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1469,7 +1881,7 @@
    "category": "tools",
    "publishedAt": "2026-08-19T21:19:50Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 79,
    "alert": false
   },
   {
@@ -1486,7 +1898,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1503,7 +1915,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T13:37:52Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1520,7 +1932,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 82,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1537,7 +1949,7 @@
    "category": "research",
    "publishedAt": "2026-08-21T11:59:48Z",
    "imageURL": "https://lh3.googleusercontent.com/ymmK0Dgovn-_MGlnQJffYxKdTe5LAnkAZr-GNnIjiFzsGOAAmOmUDuVACbNgIy-tqrJhGBdaQ_PaElc8EKRKRWtYg4eWx8HVcaVzdYy7hg7Q_8k=w528-h297-n-nu-rw-lo",
-   "signal": 81,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1554,41 +1966,7 @@
    "category": "models",
    "publishedAt": "2026-08-21T11:00:53Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/zuckoff-glasshole-1152x648.jpg",
-   "signal": 81,
-   "alert": false
-  },
-  {
-   "id": "e3ddd7a65cd3a566e91c60250d01ee8b4672eaf661344d99931e4cbb3eebb307",
-   "title": "Measuring benchmark optimization in speech recognition",
-   "snippet": null,
-   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-21T00:00:00Z",
-   "imageURL": null,
-   "signal": 81,
-   "alert": false
-  },
-  {
-   "id": "ad2b779c2da9702654fc022a3c467a8a15d4f136efca6e14731e3be97815cb22",
-   "title": "ChatGPT search now uses the site:operator at scale",
-   "snippet": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.…",
-   "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-20T23:57:32Z",
-   "imageURL": null,
-   "signal": 81,
+   "signal": 78,
    "alert": false
   },
   {
@@ -1605,7 +1983,41 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 81,
+   "signal": 77,
+   "alert": false
+  },
+  {
+   "id": "e3ddd7a65cd3a566e91c60250d01ee8b4672eaf661344d99931e4cbb3eebb307",
+   "title": "Measuring benchmark optimization in speech recognition",
+   "snippet": null,
+   "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-21T00:00:00Z",
+   "imageURL": null,
+   "signal": 77,
+   "alert": false
+  },
+  {
+   "id": "ad2b779c2da9702654fc022a3c467a8a15d4f136efca6e14731e3be97815cb22",
+   "title": "ChatGPT search now uses the site:operator at scale",
+   "snippet": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.…",
+   "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+   "sources": [
+    {
+     "name": "Simon Willison",
+     "domain": "simonwillison.net"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-20T23:57:32Z",
+   "imageURL": null,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1626,7 +2038,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T20:40:45Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1643,7 +2055,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T08:02:55Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 77,
    "alert": false
   },
   {
@@ -1660,7 +2072,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T21:46:03Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 76,
    "alert": false
   },
   {
@@ -1677,7 +2089,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T21:23:38Z",
    "imageURL": null,
-   "signal": 80,
+   "signal": 76,
    "alert": false
   },
   {
@@ -1694,24 +2106,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T20:59:09Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!gjWE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1de39b70-d389-48c7-aaac-623d91e6f959_2560x1440.png",
-   "signal": 80,
-   "alert": false
-  },
-  {
-   "id": "bf3ce004223067e733884fe597819ec69753824b43694605fea18e136670ee39",
-   "title": "Autolith: A programming agent with a live runtime",
-   "snippet": null,
-   "url": "https://www.lambda-symbolics.com/autolith",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T15:40:57Z",
-   "imageURL": null,
-   "signal": 79,
+   "signal": 76,
    "alert": false
   },
   {
@@ -1728,7 +2123,24 @@
    "category": "models",
    "publishedAt": "2026-08-20T19:18:21Z",
    "imageURL": null,
-   "signal": 79,
+   "signal": 76,
+   "alert": false
+  },
+  {
+   "id": "bf3ce004223067e733884fe597819ec69753824b43694605fea18e136670ee39",
+   "title": "Autolith: A programming agent with a live runtime",
+   "snippet": null,
+   "url": "https://www.lambda-symbolics.com/autolith",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T15:40:57Z",
+   "imageURL": null,
+   "signal": 76,
    "alert": false
   },
   {
@@ -1745,109 +2157,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "7b47eab8cd2a7b4dd42fafa84fa7b389cfb3b205fa8ab8152a679da9dcc5f689",
-   "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-   "snippet": "Yes, we&#8217;re confused too.",
-   "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-   "sources": [
-    {
-     "name": "Latent Space",
-     "domain": "latent.space"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-21T05:45:21Z",
-   "imageURL": "https://substackcdn.com/image/fetch/$s_!mQfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a668ad4-aca6-4c1c-ac78-5132b8f3d7a8_834x844.png",
-   "signal": 79,
-   "alert": false
-  },
-  {
-   "id": "a0c2a274821518693e40667523d0e5ccc4251ffc44dea277351ed27f5fbe6cc0",
-   "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
-   "snippet": "Simile&#8217;s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it&#8217;s gone from fun exploration to very serious business.",
-   "url": "https://www.latent.space/p/simile",
-   "sources": [
-    {
-     "name": "Latent Space",
-     "domain": "latent.space"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-21T23:37:38Z",
-   "imageURL": null,
-   "signal": 78,
-   "alert": false
-  },
-  {
-   "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
-   "title": "Anti-AI fonts are useless and harmful",
-   "snippet": null,
-   "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T15:06:53Z",
-   "imageURL": null,
-   "signal": 78,
-   "alert": false
-  },
-  {
-   "id": "7ec2913efb04d77f735680ebd40b9ae3f6fa497808f02ec45caf0f9d6961862d",
-   "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
-   "snippet": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and…",
-   "url": "https://arxiv.org/abs/2608.20338v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T17:59:57Z",
-   "imageURL": null,
-   "signal": 78,
-   "alert": false
-  },
-  {
-   "id": "8eaa80cbb5a93fba4d71ae00247e2f0d60c3f1e645fd78318061e3bfb43784d3",
-   "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
-   "snippet": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral…",
-   "url": "https://arxiv.org/abs/2608.20320v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T17:57:42Z",
-   "imageURL": null,
-   "signal": 78,
-   "alert": false
-  },
-  {
-   "id": "dc94525dcacf636b14d04423a1db5296a9d086488d848981e3e3197031dfa385",
-   "title": "Inducing Task Models from Computer-Use Traces",
-   "snippet": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks…",
-   "url": "https://arxiv.org/abs/2608.20319v1",
-   "sources": [
-    {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T17:57:00Z",
-   "imageURL": null,
-   "signal": 78,
+   "signal": 75,
    "alert": false
   },
   {
@@ -1864,7 +2174,92 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "26d9ae1b925943ff1b046d21564e3eea7f29accc883efc7d7807d8c6708ac3fb",
+   "title": "Anti-AI fonts are useless and harmful",
+   "snippet": null,
+   "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T15:06:53Z",
+   "imageURL": null,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "7b47eab8cd2a7b4dd42fafa84fa7b389cfb3b205fa8ab8152a679da9dcc5f689",
+   "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+   "snippet": "Yes, we&#8217;re confused too.",
+   "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+   "sources": [
+    {
+     "name": "Latent Space",
+     "domain": "latent.space"
+    }
+   ],
+   "category": "techniques",
+   "publishedAt": "2026-08-21T05:45:21Z",
+   "imageURL": "https://substackcdn.com/image/fetch/$s_!mQfw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a668ad4-aca6-4c1c-ac78-5132b8f3d7a8_834x844.png",
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "7ec2913efb04d77f735680ebd40b9ae3f6fa497808f02ec45caf0f9d6961862d",
+   "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+   "snippet": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and…",
+   "url": "https://arxiv.org/abs/2608.20338v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T17:59:57Z",
+   "imageURL": null,
+   "signal": 75,
+   "alert": false
+  },
+  {
+   "id": "8eaa80cbb5a93fba4d71ae00247e2f0d60c3f1e645fd78318061e3bfb43784d3",
+   "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+   "snippet": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral…",
+   "url": "https://arxiv.org/abs/2608.20320v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T17:57:42Z",
+   "imageURL": null,
+   "signal": 74,
+   "alert": false
+  },
+  {
+   "id": "dc94525dcacf636b14d04423a1db5296a9d086488d848981e3e3197031dfa385",
+   "title": "Inducing Task Models from Computer-Use Traces",
+   "snippet": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks…",
+   "url": "https://arxiv.org/abs/2608.20319v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T17:57:00Z",
+   "imageURL": null,
+   "signal": 74,
    "alert": false
   },
   {
@@ -1881,7 +2276,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:54:37Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 74,
    "alert": false
   },
   {
@@ -1898,7 +2293,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:54:17Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 74,
    "alert": false
   },
   {
@@ -1915,24 +2310,24 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:53:59Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 74,
    "alert": false
   },
   {
-   "id": "477f749974d3677cf18f26bb34940265f607bb3cd5b905061b2f217fd86b80eb",
-   "title": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents",
-   "snippet": "Large language model (LLM) agents can induce skills from completed tasks and reuse them later to grow more capable with experience. In practice, induced skills may transfer unreliably and can even harm the agent that retrieves them. When agent-induced skills transfer reliably across tasks remains…",
-   "url": "https://arxiv.org/abs/2608.20274v1",
+   "id": "a0c2a274821518693e40667523d0e5ccc4251ffc44dea277351ed27f5fbe6cc0",
+   "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+   "snippet": "Simile&#8217;s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it&#8217;s gone from fun exploration to very serious business.",
+   "url": "https://www.latent.space/p/simile",
    "sources": [
     {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
+     "name": "Latent Space",
+     "domain": "latent.space"
     }
    ],
-   "category": "research",
-   "publishedAt": "2026-08-20T17:12:08Z",
+   "category": "techniques",
+   "publishedAt": "2026-08-21T23:37:38Z",
    "imageURL": null,
-   "signal": 77,
+   "signal": 74,
    "alert": false
   },
   {
@@ -1949,7 +2344,24 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 73,
+   "alert": false
+  },
+  {
+   "id": "477f749974d3677cf18f26bb34940265f607bb3cd5b905061b2f217fd86b80eb",
+   "title": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents",
+   "snippet": "Large language model (LLM) agents can induce skills from completed tasks and reuse them later to grow more capable with experience. In practice, induced skills may transfer unreliably and can even harm the agent that retrieves them. When agent-induced skills transfer reliably across tasks remains…",
+   "url": "https://arxiv.org/abs/2608.20274v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T17:12:08Z",
+   "imageURL": null,
+   "signal": 73,
    "alert": false
   },
   {
@@ -1966,7 +2378,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 73,
    "alert": false
   },
   {
@@ -1983,7 +2395,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T16:52:57Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2000,7 +2412,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T16:46:00Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 73,
    "alert": false
   },
   {
@@ -2017,7 +2429,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:26:24Z",
    "imageURL": null,
-   "signal": 76,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2034,7 +2446,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T16:24:12Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2051,7 +2463,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:24:09Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2068,24 +2480,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T16:06:06Z",
    "imageURL": null,
-   "signal": 75,
-   "alert": false
-  },
-  {
-   "id": "8625f311cd075df682a0da653870d26069eff4acb2e8912614ec872fbd931efd",
-   "title": "Broadening access to Skala creates a faster path to predictive DFT",
-   "snippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. The post Broadening access to Skala creates a…",
-   "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
-   "sources": [
-    {
-     "name": "Microsoft Research",
-     "domain": "microsoft.com"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T16:00:00Z",
-   "imageURL": null,
-   "signal": 75,
+   "signal": 72,
    "alert": false
   },
   {
@@ -2102,7 +2497,24 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 75,
+   "signal": 72,
+   "alert": false
+  },
+  {
+   "id": "8625f311cd075df682a0da653870d26069eff4acb2e8912614ec872fbd931efd",
+   "title": "Broadening access to Skala creates a faster path to predictive DFT",
+   "snippet": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. The post Broadening access to Skala creates a…",
+   "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+   "sources": [
+    {
+     "name": "Microsoft Research",
+     "domain": "microsoft.com"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T16:00:00Z",
+   "imageURL": null,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2119,24 +2531,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T15:37:00Z",
    "imageURL": null,
-   "signal": 74,
-   "alert": false
-  },
-  {
-   "id": "f034ee1587ce0876cae192d1fc040203e0d17858ffb1a2dd004d467328dd3875",
-   "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
-   "snippet": null,
-   "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-21T18:48:28Z",
-   "imageURL": null,
-   "signal": 74,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2153,7 +2548,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T15:20:03Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 71,
+   "alert": false
+  },
+  {
+   "id": "f034ee1587ce0876cae192d1fc040203e0d17858ffb1a2dd004d467328dd3875",
+   "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+   "snippet": null,
+   "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-21T18:48:28Z",
+   "imageURL": null,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2170,7 +2582,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T14:00:00Z",
    "imageURL": null,
-   "signal": 74,
+   "signal": 71,
    "alert": false
   },
   {
@@ -2187,24 +2599,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T12:00:00Z",
    "imageURL": null,
-   "signal": 74,
-   "alert": false
-  },
-  {
-   "id": "b39e42552198e020d6a98129de7fd4afd045982ced9d1bf4de71c244f45de7f0",
-   "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
-   "snippet": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
-   "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T00:13:44Z",
-   "imageURL": null,
-   "signal": 73,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2221,14 +2616,14 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 70,
    "alert": false
   },
   {
-   "id": "5139cb7756590ae9be3293d16b6342235b0cea4dc1dfaf616282a23090379c6d",
-   "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
-   "snippet": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
-   "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+   "id": "b39e42552198e020d6a98129de7fd4afd045982ced9d1bf4de71c244f45de7f0",
+   "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+   "snippet": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+   "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
    "sources": [
     {
      "name": "TechCrunch",
@@ -2236,9 +2631,9 @@
     }
    ],
    "category": "models",
-   "publishedAt": "2026-08-20T22:09:51Z",
+   "publishedAt": "2026-08-21T00:13:44Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2255,7 +2650,24 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 73,
+   "signal": 70,
+   "alert": false
+  },
+  {
+   "id": "5139cb7756590ae9be3293d16b6342235b0cea4dc1dfaf616282a23090379c6d",
+   "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+   "snippet": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
+   "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T22:09:51Z",
+   "imageURL": null,
+   "signal": 70,
    "alert": false
   },
   {
@@ -2272,7 +2684,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T21:50:22Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2289,7 +2701,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T20:53:13Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2306,24 +2718,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 72,
-   "alert": false
-  },
-  {
-   "id": "161fa86044d10b9dd62d1c75ead49300614e876572d9381373fa65998875f7fc",
-   "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-   "snippet": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
-   "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T18:20:35Z",
-   "imageURL": null,
-   "signal": 72,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2340,7 +2735,24 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 72,
+   "signal": 69,
+   "alert": false
+  },
+  {
+   "id": "161fa86044d10b9dd62d1c75ead49300614e876572d9381373fa65998875f7fc",
+   "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+   "snippet": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+   "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-20T18:20:35Z",
+   "imageURL": null,
+   "signal": 69,
    "alert": false
   },
   {
@@ -2357,7 +2769,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:59:57Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2374,7 +2786,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:58:50Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2391,7 +2803,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:58:22Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2408,7 +2820,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T17:53:37Z",
    "imageURL": null,
-   "signal": 71,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2425,24 +2837,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:35:26Z",
    "imageURL": null,
-   "signal": 71,
-   "alert": false
-  },
-  {
-   "id": "446fb3e584d06eb0041990a07f64eca0c7d38934973f014b1d8bc7063b946e41",
-   "title": "AI boosted homework scores, then exam scores dropped: study",
-   "snippet": null,
-   "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-19T06:13:31Z",
-   "imageURL": null,
-   "signal": 70,
+   "signal": 68,
    "alert": false
   },
   {
@@ -2459,7 +2854,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T17:32:16Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2476,7 +2871,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:30:14Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2493,7 +2888,24 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:20:09Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 67,
+   "alert": false
+  },
+  {
+   "id": "446fb3e584d06eb0041990a07f64eca0c7d38934973f014b1d8bc7063b946e41",
+   "title": "AI boosted homework scores, then exam scores dropped: study",
+   "snippet": null,
+   "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-19T06:13:31Z",
+   "imageURL": null,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2510,7 +2922,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:54:17Z",
    "imageURL": null,
-   "signal": 70,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2527,7 +2939,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:54:08Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 67,
    "alert": false
   },
   {
@@ -2544,7 +2956,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:53:00Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2561,7 +2973,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:31:01Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2578,7 +2990,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T16:28:28Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2595,7 +3007,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T16:07:26Z",
    "imageURL": null,
-   "signal": 69,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2612,24 +3024,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 68,
-   "alert": false
-  },
-  {
-   "id": "1838fc7c2644c98202ec54e9b81582d221cebe101c31cf00511fda7baa12eafb",
-   "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
-   "snippet": "Andreessen Horowitz has two partners sitting on the boards of companies that now&#160;compete with each other: Ben Horowitz at Databricks and Martin Casado at&#160;Fivetran. Nothing too scandalous on the surface, except&#160;the Department of&#160;Justice&#160;has&#160;reportedly&#160;been…",
-   "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-21T14:00:00Z",
-   "imageURL": null,
-   "signal": 68,
+   "signal": 66,
    "alert": false
   },
   {
@@ -2646,7 +3041,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T23:16:00Z",
    "imageURL": null,
-   "signal": 68,
+   "signal": 65,
+   "alert": false
+  },
+  {
+   "id": "1838fc7c2644c98202ec54e9b81582d221cebe101c31cf00511fda7baa12eafb",
+   "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+   "snippet": "Andreessen Horowitz has two partners sitting on the boards of companies that now&#160;compete with each other: Ben Horowitz at Databricks and Martin Casado at&#160;Fivetran. Nothing too scandalous on the surface, except&#160;the Department of&#160;Justice&#160;has&#160;reportedly&#160;been…",
+   "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-21T14:00:00Z",
+   "imageURL": null,
+   "signal": 65,
    "alert": false
   },
   {
@@ -2663,24 +3075,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T22:46:07Z",
    "imageURL": null,
-   "signal": 68,
-   "alert": false
-  },
-  {
-   "id": "acf4cd57263162cdc871398f61cedd56af2cb56108e197fd483a733501f8fb8a",
-   "title": "Hacking with Claude on a $27 smart watch",
-   "snippet": null,
-   "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-20T14:08:09Z",
-   "imageURL": null,
-   "signal": 68,
+   "signal": 65,
    "alert": false
   },
   {
@@ -2697,7 +3092,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T22:13:20Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 65,
+   "alert": false
+  },
+  {
+   "id": "acf4cd57263162cdc871398f61cedd56af2cb56108e197fd483a733501f8fb8a",
+   "title": "Hacking with Claude on a $27 smart watch",
+   "snippet": null,
+   "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-20T14:08:09Z",
+   "imageURL": null,
+   "signal": 65,
    "alert": false
   },
   {
@@ -2714,7 +3126,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T13:00:35Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/xai-grok-1152x648.jpg",
-   "signal": 67,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2731,7 +3143,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T13:00:24Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/GFN_Thursday-Firefox.jpg",
-   "signal": 67,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2748,7 +3160,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T19:00:00Z",
    "imageURL": null,
-   "signal": 67,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2765,7 +3177,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T19:00:00Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2782,7 +3194,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T17:00:00Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 64,
    "alert": false
   },
   {
@@ -2799,7 +3211,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2816,7 +3228,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T07:00:00Z",
    "imageURL": null,
-   "signal": 66,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2833,7 +3245,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-20T05:17:12Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Xdc0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b1d78e9-d676-408c-9f84-8c9f244ef898_864x1821.png",
-   "signal": 66,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2850,7 +3262,7 @@
    "category": "tools",
    "publishedAt": "2026-08-19T16:29:02Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2867,7 +3279,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 63,
    "alert": false
   },
   {
@@ -2884,7 +3296,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 62,
    "alert": false
   },
   {
@@ -2901,7 +3313,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T13:09:03Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 62,
    "alert": false
   },
   {
@@ -2918,7 +3330,7 @@
    "category": "tools",
    "publishedAt": "2026-08-18T12:22:58Z",
    "imageURL": null,
-   "signal": 65,
+   "signal": 62,
    "alert": false
   },
   {
@@ -2935,7 +3347,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 62,
    "alert": false
   },
   {
@@ -2952,7 +3364,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 62,
    "alert": false
   },
   {
@@ -2973,7 +3385,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T18:13:47Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-149405480-1152x648.jpg",
-   "signal": 64,
+   "signal": 61,
    "alert": false
   },
   {
@@ -2990,7 +3402,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T22:56:31Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3007,7 +3419,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T22:09:56Z",
    "imageURL": null,
-   "signal": 64,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3024,7 +3436,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T20:36:50Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3041,7 +3453,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T20:04:41Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2273586740-1024x648.jpg",
-   "signal": 63,
+   "signal": 61,
    "alert": false
   },
   {
@@ -3058,7 +3470,7 @@
    "category": "tools",
    "publishedAt": "2026-08-20T14:03:58Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3075,7 +3487,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3092,7 +3504,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 63,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3109,7 +3521,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T19:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp",
-   "signal": 62,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3126,7 +3538,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T18:45:57Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3143,7 +3555,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T21:39:20Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 60,
    "alert": false
   },
   {
@@ -3160,7 +3572,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T19:00:00Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3177,7 +3589,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T18:09:38Z",
    "imageURL": null,
-   "signal": 62,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3194,7 +3606,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T13:00:04Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-2242817595-1152x648.jpg",
-   "signal": 61,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3211,7 +3623,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T11:00:00Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3228,7 +3640,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-19T08:44:52Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!-PTb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95b5b0b3-9bd4-4c08-9c91-ad68807850fc_2272x1434.png",
-   "signal": 61,
+   "signal": 59,
    "alert": false
   },
   {
@@ -3245,7 +3657,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T07:00:00Z",
    "imageURL": null,
-   "signal": 61,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3262,7 +3674,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3279,7 +3691,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3296,7 +3708,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T17:14:19Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3313,7 +3725,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 60,
+   "signal": 58,
    "alert": false
   },
   {
@@ -3330,7 +3742,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T23:13:41Z",
    "imageURL": "https://substackcdn.com/image/youtube/w_728,c_limit/QHBjufYK8TA",
-   "signal": 60,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3347,7 +3759,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T21:41:10Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!mpso!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ac64fa7-87ce-4106-816c-5811822047e1_1280x720.png",
-   "signal": 59,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3364,24 +3776,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 59,
-   "alert": false
-  },
-  {
-   "id": "3ae9c5a0eab095eecc8ac1f86eac25519848c71723f492708d1247a91521020f",
-   "title": "Going out of my way to prove I'm not an AI – Ep. #1 – OG images",
-   "snippet": null,
-   "url": "https://huijer.co/notes/going-out-of-my-way-to-prove-im-not-an-ai-og-images",
-   "sources": [
-    {
-     "name": "Hacker News",
-     "domain": "news.ycombinator.com"
-    }
-   ],
-   "category": "tools",
-   "publishedAt": "2026-08-22T14:03:09Z",
-   "imageURL": null,
-   "signal": 59,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3402,7 +3797,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T11:54:24Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png",
-   "signal": 59,
+   "signal": 57,
+   "alert": false
+  },
+  {
+   "id": "3ae9c5a0eab095eecc8ac1f86eac25519848c71723f492708d1247a91521020f",
+   "title": "Going out of my way to prove I'm not an AI – Ep. #1 – OG images",
+   "snippet": null,
+   "url": "https://huijer.co/notes/going-out-of-my-way-to-prove-im-not-an-ai-og-images",
+   "sources": [
+    {
+     "name": "Hacker News",
+     "domain": "news.ycombinator.com"
+    }
+   ],
+   "category": "tools",
+   "publishedAt": "2026-08-22T14:03:09Z",
+   "imageURL": null,
+   "signal": 57,
    "alert": false
   },
   {
@@ -3419,24 +3831,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 59,
-   "alert": false
-  },
-  {
-   "id": "79fdd08ae106be4e0fa4301e31aecc93c0209a765101228c16338175c66d6e1a",
-   "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
-   "snippet": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
-   "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
-   "sources": [
-    {
-     "name": "TechCrunch",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-20T19:15:05Z",
-   "imageURL": null,
-   "signal": 58,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3453,7 +3848,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T11:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3470,24 +3865,24 @@
    "category": "models",
    "publishedAt": "2026-08-18T11:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 56,
    "alert": false
   },
   {
-   "id": "4a6f3bc763ebcf1b66f1c44b0014a195b759bfb30fdbc1a4247666b821b5bddf",
-   "title": "Catching the Rug: Early Prediction of Fraudulent Memecoins on Solana via Machine Learning",
-   "snippet": "The rapid proliferation of memecoins on blockchain platforms has increased the risk of fraudulent activities, particularly rug pulls. While previous studies have focused on Ethereum-based tokens, this paper shifts the spotlight to Solana, the leading blockchain for memecoins by trading volume and…",
-   "url": "https://arxiv.org/abs/2608.20271v1",
+   "id": "79fdd08ae106be4e0fa4301e31aecc93c0209a765101228c16338175c66d6e1a",
+   "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+   "snippet": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+   "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
    "sources": [
     {
-     "name": "arXiv",
-     "domain": "export.arxiv.org"
+     "name": "TechCrunch",
+     "domain": "techcrunch.com"
     }
    ],
-   "category": "research",
-   "publishedAt": "2026-08-20T17:09:41Z",
+   "category": "models",
+   "publishedAt": "2026-08-20T19:15:05Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 56,
    "alert": false
   },
   {
@@ -3504,7 +3899,24 @@
    "category": "models",
    "publishedAt": "2026-08-18T07:00:00Z",
    "imageURL": null,
-   "signal": 58,
+   "signal": 56,
+   "alert": false
+  },
+  {
+   "id": "4a6f3bc763ebcf1b66f1c44b0014a195b759bfb30fdbc1a4247666b821b5bddf",
+   "title": "Catching the Rug: Early Prediction of Fraudulent Memecoins on Solana via Machine Learning",
+   "snippet": "The rapid proliferation of memecoins on blockchain platforms has increased the risk of fraudulent activities, particularly rug pulls. While previous studies have focused on Ethereum-based tokens, this paper shifts the spotlight to Solana, the leading blockchain for memecoins by trading volume and…",
+   "url": "https://arxiv.org/abs/2608.20271v1",
+   "sources": [
+    {
+     "name": "arXiv",
+     "domain": "export.arxiv.org"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T17:09:41Z",
+   "imageURL": null,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3521,7 +3933,7 @@
    "category": "models",
    "publishedAt": "2026-08-20T15:45:55Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3538,7 +3950,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T22:00:39Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3555,7 +3967,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3572,7 +3984,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 55,
    "alert": false
   },
   {
@@ -3589,7 +4001,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 57,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3606,24 +4018,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 56,
-   "alert": false
-  },
-  {
-   "id": "4fdeab7a66fc6733dfa44c3fd7b16df76c7101c0a326c59a8661df16d4161360",
-   "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-   "snippet": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot…",
-   "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-   "sources": [
-    {
-     "name": "Simon Willison",
-     "domain": "simonwillison.net"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-08-17T23:58:14Z",
-   "imageURL": null,
-   "signal": 56,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3640,7 +4035,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T21:18:49Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/1872-Factory-One-opening-1152x648.jpeg",
-   "signal": 56,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3657,7 +4052,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-17T19:46:21Z",
    "imageURL": null,
-   "signal": 56,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3674,7 +4069,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 56,
+   "signal": 54,
    "alert": false
   },
   {
@@ -3695,7 +4090,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T17:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp",
-   "signal": 55,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3712,24 +4107,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T15:07:49Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/b8608bb9-bf33-46e6-8ffe-dcf75a851f9b_3182x1790.png",
-   "signal": 55,
-   "alert": false
-  },
-  {
-   "id": "6ce97df4a251395a43d159307744093c6820a77935369bde3d40cc4806acd2e1",
-   "title": "Towards Quantifying Benchmark Optimization in ASR Models",
-   "snippet": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchmark optimization, focusing on cases where the audio underdetermines the reference transcript. We identify three families of behavioral probes that reveal models' capabilities of reproducing benchmark reference spans despite underdetermined audio: reference disagreement, masked-number recovery, and orthographic switching. We find that the highest-scoring open source models output verbatim reference transcript spans even when the relevant audio is contradictory, masked, or ambiguous. Using a variety of mechanistic probes, we show that models respond to narrow acoustic cues to override the faithful representation of the audio in favor of a benchmark-optimized policy. We show the benchmark-optimized behavior can be causally manipulated via low-rank linear steering or simply appending audio to the end of a segment in some cases. Overall, our results indicate that high-performing models exhibit benchmark-conditioned behaviors that can inflate benchmark performance without reflecting improved general-purpose transcription ability.",
-   "url": "https://huggingface.co/papers/2608.19936",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T00:00:00Z",
-   "imageURL": null,
-   "signal": 55,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3746,7 +4124,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 55,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3763,7 +4141,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3780,7 +4158,24 @@
    "category": "research",
    "publishedAt": "2026-08-17T13:05:36Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 53,
+   "alert": false
+  },
+  {
+   "id": "6ce97df4a251395a43d159307744093c6820a77935369bde3d40cc4806acd2e1",
+   "title": "Towards Quantifying Benchmark Optimization in ASR Models",
+   "snippet": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchmark optimization, focusing on cases where the audio underdetermines the reference transcript. We identify three families of behavioral probes that reveal models' capabilities of reproducing benchmark reference spans despite underdetermined audio: reference disagreement, masked-number recovery, and orthographic switching. We find that the highest-scoring open source models output verbatim reference transcript spans even when the relevant audio is contradictory, masked, or ambiguous. Using a variety of mechanistic probes, we show that models respond to narrow acoustic cues to override the faithful representation of the audio in favor of a benchmark-optimized policy. We show the benchmark-optimized behavior can be causally manipulated via low-rank linear steering or simply appending audio to the end of a segment in some cases. Overall, our results indicate that high-performing models exhibit benchmark-conditioned behaviors that can inflate benchmark performance without reflecting improved general-purpose transcription ability.",
+   "url": "https://huggingface.co/papers/2608.19936",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T00:00:00Z",
+   "imageURL": null,
+   "signal": 53,
    "alert": false
   },
   {
@@ -3797,7 +4192,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3814,7 +4209,7 @@
    "category": "research",
    "publishedAt": "2026-08-19T00:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3831,7 +4226,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 54,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3848,7 +4243,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T08:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp",
-   "signal": 53,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3865,7 +4260,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T05:30:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 52,
    "alert": false
   },
   {
@@ -3887,8 +4282,8 @@
      "domain": "marketscale.com"
     },
     {
-     "name": "The New Indian Express",
-     "domain": "newindianexpress.com"
+     "name": "France 24",
+     "domain": "france24.com"
     },
     {
      "name": "Yahoo Finance",
@@ -3898,7 +4293,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T13:58:56Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
-   "signal": 53,
+   "signal": 51,
    "alert": false
   },
   {
@@ -3915,7 +4310,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T15:46:22Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Osie!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F131d402d-63bf-4895-b5e7-b8990972a14c_1280x720.png",
-   "signal": 53,
+   "signal": 51,
    "alert": false
   },
   {
@@ -3932,7 +4327,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 53,
+   "signal": 51,
    "alert": false
   },
   {
@@ -3949,7 +4344,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T23:59:37Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 51,
    "alert": false
   },
   {
@@ -3966,7 +4361,7 @@
    "category": "research",
    "publishedAt": "2026-08-16T00:00:00Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 51,
    "alert": false
   },
   {
@@ -3983,7 +4378,7 @@
    "category": "research",
    "publishedAt": "2026-08-20T00:00:00Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4000,7 +4395,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-16T15:05:36Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4017,7 +4412,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T17:10:09Z",
    "imageURL": null,
-   "signal": 52,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4034,7 +4429,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T15:45:29Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2250404047-1152x648.jpg",
-   "signal": 51,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4051,7 +4446,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-18T17:13:13Z",
    "imageURL": null,
-   "signal": 51,
+   "signal": 50,
    "alert": false
   },
   {
@@ -4068,7 +4463,7 @@
    "category": "models",
    "publishedAt": "2026-08-19T12:00:00Z",
    "imageURL": null,
-   "signal": 51,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4085,7 +4480,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T23:53:47Z",
    "imageURL": null,
-   "signal": 51,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4102,7 +4497,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T20:11:29Z",
    "imageURL": null,
-   "signal": 51,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4119,7 +4514,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T19:37:34Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4136,7 +4531,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T14:49:54Z",
    "imageURL": null,
-   "signal": 50,
+   "signal": 49,
    "alert": false
   },
   {
@@ -4153,7 +4548,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T17:00:13Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-4-1152x648.jpg",
-   "signal": 50,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4170,7 +4565,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T16:45:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp",
-   "signal": 50,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4187,24 +4582,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T11:00:00Z",
    "imageURL": null,
-   "signal": 50,
-   "alert": false
-  },
-  {
-   "id": "d222aad9650a21c631511f268bfc65e7248f6c3195eb8bb4712cb46d5ecc27ad",
-   "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
-   "snippet": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity (STS), clustering, pair classification, and retrieval. In aggregate the two paradigms are effectively tied: the best LLM (Gemini 3.1 Pro, 77.6) and the best embedding model (77.2) differ by 0.4 points. Their strengths differ by task: LLMs lead on reasoning-heavy retrieval, embedding models lead on classification, and the two match on clustering, STS, and pair classification. Reaching that parity is expensive. An LLM costs up to 1,431x more than an embedding model of comparable quality (USD 154 vs. USD 0.11 per benchmark pass), and the open LLMs tested process tokens 2.5 to 736x more slowly on the same GPU. Reasoning tokens account for 28 to 81% of LLM inference cost; lower reasoning budgets preserve or improve retrieval quality for most models in our ablation. The Pareto frontier contains the leading embedding models and one LLM, Gemini 3.1 Pro. These results support a division of labour: use embedding models for similarity, classification, and clustering, and reserve LLMs for reasoning-intensive retrieval. Our code, datasets, and results are publicly available at https://github.com/embeddings-benchmark/embedders-dilemma.",
-   "url": "https://huggingface.co/papers/2608.12875",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-13T00:00:00Z",
-   "imageURL": null,
-   "signal": 49,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4221,7 +4599,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T10:00:00Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4238,7 +4616,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-15T03:22:00Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 48,
    "alert": false
   },
   {
@@ -4255,7 +4633,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T03:03:17Z",
    "imageURL": null,
-   "signal": 49,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4272,7 +4650,24 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T21:54:35Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 47,
+   "alert": false
+  },
+  {
+   "id": "d222aad9650a21c631511f268bfc65e7248f6c3195eb8bb4712cb46d5ecc27ad",
+   "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
+   "snippet": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity (STS), clustering, pair classification, and retrieval. In aggregate the two paradigms are effectively tied: the best LLM (Gemini 3.1 Pro, 77.6) and the best embedding model (77.2) differ by 0.4 points. Their strengths differ by task: LLMs lead on reasoning-heavy retrieval, embedding models lead on classification, and the two match on clustering, STS, and pair classification. Reaching that parity is expensive. An LLM costs up to 1,431x more than an embedding model of comparable quality (USD 154 vs. USD 0.11 per benchmark pass), and the open LLMs tested process tokens 2.5 to 736x more slowly on the same GPU. Reasoning tokens account for 28 to 81% of LLM inference cost; lower reasoning budgets preserve or improve retrieval quality for most models in our ablation. The Pareto frontier contains the leading embedding models and one LLM, Gemini 3.1 Pro. These results support a division of labour: use embedding models for similarity, classification, and clustering, and reserve LLMs for reasoning-intensive retrieval. Our code, datasets, and results are publicly available at https://github.com/embeddings-benchmark/embedders-dilemma.",
+   "url": "https://huggingface.co/papers/2608.12875",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-13T00:00:00Z",
+   "imageURL": null,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4289,7 +4684,7 @@
    "category": "research",
    "publishedAt": "2026-08-14T21:23:35Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!_6Y2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49ade27f-0d84-40f3-840a-3c919e0bb8af_4239x2504.webp",
-   "signal": 48,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4306,7 +4701,7 @@
    "category": "models",
    "publishedAt": "2026-08-18T22:00:00Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 47,
    "alert": false
   },
   {
@@ -4323,7 +4718,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T17:44:59Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4340,7 +4735,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T16:00:00Z",
    "imageURL": null,
-   "signal": 48,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4357,7 +4752,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T14:00:00Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/GlassdoorBestCEOs2026_16x9.png",
-   "signal": 47,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4374,7 +4769,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T07:11:08Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!nQZJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPcJLMtagAAx07t.jpg",
-   "signal": 47,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4391,7 +4786,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T06:00:00Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4408,7 +4803,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T05:30:39Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!dQiQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d28d24c-21c5-4e67-a9e6-00b50421ddfe_2112x1214.png",
-   "signal": 47,
+   "signal": 46,
    "alert": false
   },
   {
@@ -4425,7 +4820,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T21:03:50Z",
    "imageURL": null,
-   "signal": 47,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4442,7 +4837,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4459,7 +4854,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T19:48:12Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg",
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4476,7 +4871,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-14T00:00:00Z",
    "imageURL": null,
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4493,7 +4888,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T13:00:05Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/image1.jpeg",
-   "signal": 46,
+   "signal": 45,
    "alert": false
   },
   {
@@ -4510,7 +4905,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T17:32:10Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/instagram-2026-wordmark.png",
-   "signal": 46,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4527,7 +4922,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T17:04:18Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4544,7 +4939,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T10:00:00Z",
    "imageURL": null,
-   "signal": 45,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4561,7 +4956,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T13:00:33Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-13-blog-1920x1080-logo.jpg",
-   "signal": 45,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4578,7 +4973,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T05:16:41Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!k-nI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHPWkSuDbkAExHc7.png",
-   "signal": 45,
+   "signal": 44,
    "alert": false
   },
   {
@@ -4595,7 +4990,7 @@
    "category": "models",
    "publishedAt": "2026-08-13T11:10:18Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/claude-psycho-watermark-1152x648.jpg",
-   "signal": 45,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4612,7 +5007,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4629,7 +5024,7 @@
    "category": "research",
    "publishedAt": "2026-08-17T00:00:00Z",
    "imageURL": null,
-   "signal": 44,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4646,7 +5041,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T20:45:52Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2267221283-1152x648.jpg",
-   "signal": 44,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4663,7 +5058,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T01:53:47Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!HIbH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2087221157787525120.jpg",
-   "signal": 44,
+   "signal": 43,
    "alert": false
   },
   {
@@ -4680,7 +5075,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4697,7 +5092,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4714,7 +5109,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4731,7 +5126,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T22:02:25Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2261896328-1152x648.jpg",
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4748,7 +5143,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:43:21Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
-   "signal": 43,
+   "signal": 42,
    "alert": false
   },
   {
@@ -4765,7 +5160,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T21:00:30Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2286491305-1024x648.jpg",
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4782,7 +5177,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T18:29:41Z",
    "imageURL": null,
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4799,7 +5194,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-12T16:14:36Z",
    "imageURL": null,
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4816,7 +5211,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T14:01:59Z",
    "imageURL": "https://lh3.googleusercontent.com/8RcynTx1ujudyw8Fs05Pv8WJahe2FQ3z1Y7gNHm-xvOTJLdMp9hNDsIIoQbJsnav6evNLgY1iT9B9ercsyIn0U1N51pzScvSfe6IHk2SjDJx-MaVzQ=w528-h297-n-nu-rw-lo",
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4833,7 +5228,7 @@
    "category": "research",
    "publishedAt": "2026-08-13T00:00:00Z",
    "imageURL": null,
-   "signal": 42,
+   "signal": 41,
    "alert": false
   },
   {
@@ -4850,7 +5245,7 @@
    "category": "research",
    "publishedAt": "2026-08-12T13:01:16Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/815ecb78-309c-4ca3-9ceb-a3329100ae64_3182x1790.png",
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4867,7 +5262,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T12:34:51Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4884,7 +5279,7 @@
    "category": "models",
    "publishedAt": "2026-08-12T00:00:00Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4901,7 +5296,7 @@
    "category": "research",
    "publishedAt": "2026-08-16T00:00:00Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4918,7 +5313,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T16:10:08Z",
    "imageURL": null,
-   "signal": 41,
+   "signal": 40,
    "alert": false
   },
   {
@@ -4935,7 +5330,7 @@
    "category": "research",
    "publishedAt": "2026-08-18T00:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -4952,7 +5347,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T15:00:06Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/800vdc.jpg",
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -4969,7 +5364,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-11T13:37:10Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -4986,7 +5381,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T05:00:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5003,7 +5398,7 @@
    "category": "models",
    "publishedAt": "2026-08-17T03:15:00Z",
    "imageURL": null,
-   "signal": 40,
+   "signal": 39,
    "alert": false
   },
   {
@@ -5037,7 +5432,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T22:13:03Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg",
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5054,7 +5449,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T14:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5071,7 +5466,7 @@
    "category": "research",
    "publishedAt": "2026-08-10T13:02:42Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!ccYc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4468909c-7481-4b27-9566-6fc838b95743_1074x731.jpeg",
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5088,7 +5483,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T12:00:00Z",
    "imageURL": null,
-   "signal": 39,
+   "signal": 38,
    "alert": false
   },
   {
@@ -5122,7 +5517,7 @@
    "category": "models",
    "publishedAt": "2026-08-10T10:00:00Z",
    "imageURL": null,
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5139,7 +5534,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-07T05:13:46Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!qA0L!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3b60b0e-d47f-4723-bb40-be9594e9bab4_786x754.png",
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5156,7 +5551,7 @@
    "category": "models",
    "publishedAt": "2026-08-14T17:26:53Z",
    "imageURL": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
-   "signal": 38,
+   "signal": 37,
    "alert": false
   },
   {
@@ -5207,7 +5602,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T00:00:00Z",
    "imageURL": null,
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5224,7 +5619,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-05T01:21:47Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!Gpou!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FHNw6xyYaUAA_BVO.jpg",
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5241,7 +5636,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T16:00:56Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/regionalhubnsf.webp",
-   "signal": 37,
+   "signal": 36,
    "alert": false
   },
   {
@@ -5279,23 +5674,6 @@
    "alert": false
   },
   {
-   "id": "4cc3c3edb3f634bab42650eb969d70588724c73876e93fb9d7f89bd6cafa075e",
-   "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
-   "snippet": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline and do not grow from the agent's own workflows. We introduce FlowEvo, a training-free framework in which workflows and skills co-evolve at inference time. FlowEvo compiles successful workflows into callable skills, stores them in a persistent bank, and uses retrieved skills either through direct execution or as context for constructing new workflows. It also tracks each skill's downstream utility and suppresses skills that cause negative transfer. Using a shared GPT-4o-mini backbone, FlowEvo achieves the highest accuracy among 8 baselines on the full standard splits of ALFWorld, HumanEval, MBPP, GSM8K, and MATH-500. On ALFWorld, it reaches 85.6%, 26.4 points above the strongest baseline, while using roughly one third as many tokens. Across 10 base models spanning 7B to 671B parameters, FlowEvo outperforms ExpeL in 49 of 50 model-dataset comparisons. Code is available at https://github.com/DEFENSE-SEU/FlowEvo.",
-   "url": "https://huggingface.co/papers/2607.21596",
-   "sources": [
-    {
-     "name": "Hugging Face",
-     "domain": "huggingface.co"
-    }
-   ],
-   "category": "research",
-   "publishedAt": "2026-08-20T00:00:00Z",
-   "imageURL": null,
-   "signal": 36,
-   "alert": false
-  },
-  {
    "id": "a8dbd4f6642c381b4aa8ca6657444c7a6e98990d561dfe46f5c5def39ae36cd1",
    "title": "Orchard: An open framework for scalable agentic AI",
    "snippet": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open framework for scalable…",
@@ -5309,7 +5687,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T16:00:00Z",
    "imageURL": null,
-   "signal": 36,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5326,7 +5704,24 @@
    "category": "models",
    "publishedAt": "2026-08-03T15:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_coding_course_hero.max-600x600.format-webp.webp",
-   "signal": 36,
+   "signal": 35,
+   "alert": false
+  },
+  {
+   "id": "4cc3c3edb3f634bab42650eb969d70588724c73876e93fb9d7f89bd6cafa075e",
+   "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+   "snippet": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline and do not grow from the agent's own workflows. We introduce FlowEvo, a training-free framework in which workflows and skills co-evolve at inference time. FlowEvo compiles successful workflows into callable skills, stores them in a persistent bank, and uses retrieved skills either through direct execution or as context for constructing new workflows. It also tracks each skill's downstream utility and suppresses skills that cause negative transfer. Using a shared GPT-4o-mini backbone, FlowEvo achieves the highest accuracy among 8 baselines on the full standard splits of ALFWorld, HumanEval, MBPP, GSM8K, and MATH-500. On ALFWorld, it reaches 85.6%, 26.4 points above the strongest baseline, while using roughly one third as many tokens. Across 10 base models spanning 7B to 671B parameters, FlowEvo outperforms ExpeL in 49 of 50 model-dataset comparisons. Code is available at https://github.com/DEFENSE-SEU/FlowEvo.",
+   "url": "https://huggingface.co/papers/2607.21596",
+   "sources": [
+    {
+     "name": "Hugging Face",
+     "domain": "huggingface.co"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-08-20T00:00:00Z",
+   "imageURL": null,
+   "signal": 35,
    "alert": false
   },
   {
@@ -5377,7 +5772,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T15:02:06Z",
    "imageURL": null,
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5394,7 +5789,7 @@
    "category": "models",
    "publishedAt": "2026-08-06T13:00:11Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/gfn-thursday-8-6-nv-blog-1280x680-logo.jpg",
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5411,7 +5806,7 @@
    "category": "techniques",
    "publishedAt": "2026-08-06T04:34:11Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!1S7v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57c9d273-aa50-4bc7-a7c4-caaf9b4952c2_1540x1624.png",
-   "signal": 35,
+   "signal": 34,
    "alert": false
   },
   {
@@ -5462,7 +5857,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T15:00:49Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/alpamayo-launch-kv-blog-1920x1080-1.jpg",
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5479,7 +5874,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T15:00:47Z",
    "imageURL": "https://blogs.nvidia.com/wp-content/uploads/2026/08/ai-storage-fms-1920x1080-1.jpg",
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5496,7 +5891,7 @@
    "category": "models",
    "publishedAt": "2026-08-04T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp",
-   "signal": 34,
+   "signal": 33,
    "alert": false
   },
   {
@@ -5512,23 +5907,6 @@
    ],
    "category": "research",
    "publishedAt": "2026-07-30T17:00:00Z",
-   "imageURL": null,
-   "signal": 33,
-   "alert": false
-  },
-  {
-   "id": "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669",
-   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-   "snippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-   "sources": [
-    {
-     "name": "OpenAI",
-     "domain": "openai.com"
-    }
-   ],
-   "category": "models",
-   "publishedAt": "2026-08-13T09:00:00Z",
    "imageURL": null,
    "signal": 33,
    "alert": false
@@ -5551,6 +5929,23 @@
    "alert": false
   },
   {
+   "id": "6eaab463a55def8752bc46f2c536b71667c705dda0554f0b21cc44218f91b669",
+   "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+   "snippet": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+   "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+   "sources": [
+    {
+     "name": "OpenAI",
+     "domain": "openai.com"
+    }
+   ],
+   "category": "models",
+   "publishedAt": "2026-08-13T09:00:00Z",
+   "imageURL": null,
+   "signal": 32,
+   "alert": false
+  },
+  {
    "id": "02ee117c8673acd4af7d44514ba68c885d341049763719728b9b93751ec759cf",
    "title": "Introducing our Artifacts Hub and Adoption Dashboard",
    "snippet": "Scaling our curation and measurement of the open ecosystem.",
@@ -5564,7 +5959,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T14:03:08Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/dff5e29d-7c81-4f81-a64b-10d9b9bbecbc_2856x1577.png",
-   "signal": 33,
+   "signal": 32,
    "alert": false
   },
   {
@@ -5581,7 +5976,7 @@
    "category": "research",
    "publishedAt": "2026-08-03T13:31:22Z",
    "imageURL": null,
-   "signal": 33,
+   "signal": 32,
    "alert": false
   },
   {
@@ -5649,7 +6044,7 @@
    "category": "research",
    "publishedAt": "2026-08-02T13:01:40Z",
    "imageURL": "https://substackcdn.com/image/fetch/$s_!RSM6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a71a4f9-5ac5-447e-82ff-899915627512_2048x1152.jpeg",
-   "signal": 32,
+   "signal": 31,
    "alert": false
   },
   {
@@ -5734,7 +6129,7 @@
    "category": "models",
    "publishedAt": "2026-08-11T10:00:00Z",
    "imageURL": null,
-   "signal": 31,
+   "signal": 30,
    "alert": false
   },
   {
@@ -5819,7 +6214,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-29T16:33:51Z",
    "imageURL": null,
-   "signal": 30,
+   "signal": 29,
    "alert": false
   },
   {
@@ -5835,6 +6230,23 @@
    ],
    "category": "research",
    "publishedAt": "2026-08-10T12:32:20Z",
+   "imageURL": null,
+   "signal": 29,
+   "alert": false
+  },
+  {
+   "id": "744cfb89b4ddcfc4b6e36ce7c8f16029fee764a2c55a8cf54f46fe19f37a6f71",
+   "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
+   "snippet": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of…",
+   "url": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-07-29T09:00:00Z",
    "imageURL": null,
    "signal": 29,
    "alert": false
@@ -5887,7 +6299,7 @@
    "category": "models",
    "publishedAt": "2026-07-28T13:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp",
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -5908,7 +6320,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-10T17:25:44Z",
    "imageURL": null,
-   "signal": 29,
+   "signal": 28,
    "alert": false
   },
   {
@@ -5976,7 +6388,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-22T16:36:53Z",
    "imageURL": null,
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -5993,7 +6405,7 @@
    "category": "research",
    "publishedAt": "2026-07-22T13:38:54Z",
    "imageURL": null,
-   "signal": 28,
+   "signal": 27,
    "alert": false
   },
   {
@@ -6061,7 +6473,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-21T00:00:00Z",
    "imageURL": null,
-   "signal": 27,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6078,7 +6490,7 @@
    "category": "research",
    "publishedAt": "2026-07-20T15:48:28Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/b7967fef-8d08-4180-a3fd-8c2239bc9619_3182x1790.png",
-   "signal": 27,
+   "signal": 26,
    "alert": false
   },
   {
@@ -6150,7 +6562,7 @@
    "category": "research",
    "publishedAt": "2026-07-22T14:09:04Z",
    "imageURL": null,
-   "signal": 26,
+   "signal": 25,
    "alert": false
   },
   {
@@ -6239,6 +6651,23 @@
    "alert": false
   },
   {
+   "id": "47d89a541c7b19bc21c7c50d267fbfa7935f4ec79f55c77d86f318d86c25a428",
+   "title": "Intelligence is Free, Now What? <br> Data Systems for, of, and by Agents",
+   "snippet": "... government of the people, by the people, for the people ... &mdash; Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs…",
+   "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-07-07T09:00:00Z",
+   "imageURL": null,
+   "signal": 24,
+   "alert": false
+  },
+  {
    "id": "152be1da91274cb4d46c30812013f093bf539860c53540c3d2c4e79e2d58037b",
    "title": "The most controversial rewrite in history just shipped...",
    "snippet": null,
@@ -6320,7 +6749,7 @@
    "category": "models",
    "publishedAt": "2026-07-14T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp",
-   "signal": 24,
+   "signal": 23,
    "alert": false
   },
   {
@@ -6405,7 +6834,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-10T00:00:00Z",
    "imageURL": null,
-   "signal": 23,
+   "signal": 22,
    "alert": false
   },
   {
@@ -6490,7 +6919,7 @@
    "category": "research",
    "publishedAt": "2026-06-22T14:52:45Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/267cdc82-6fbc-4f68-bcba-160091396dfd_3182x1790.png",
-   "signal": 22,
+   "signal": 21,
    "alert": false
   },
   {
@@ -6506,6 +6935,27 @@
    ],
    "category": "techniques",
    "publishedAt": "2026-07-02T16:27:26Z",
+   "imageURL": null,
+   "signal": 21,
+   "alert": false
+  },
+  {
+   "id": "74c2d9384314eb4505e7aa882a776b904da2fbe825c66ac5f453e87b7d8fc64f",
+   "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+   "snippet": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand? We provide a detailed analysis of recent progress in the…",
+   "url": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    },
+    {
+     "name": "Ahead of AI",
+     "domain": "magazine.sebastianraschka.com"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-05-08T09:00:00Z",
    "imageURL": null,
    "signal": 21,
    "alert": false
@@ -6558,7 +7008,7 @@
    "category": "techniques",
    "publishedAt": "2026-07-01T16:33:28Z",
    "imageURL": null,
-   "signal": 21,
+   "signal": 20,
    "alert": false
   },
   {
@@ -6575,7 +7025,24 @@
    "category": "models",
    "publishedAt": "2026-07-01T16:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp",
-   "signal": 21,
+   "signal": 20,
+   "alert": false
+  },
+  {
+   "id": "295c66d677846ed1542d792d8d2be377d438e341715dd3348bb98a43e5f750bc",
+   "title": "2026 BAIR Graduate Showcase",
+   "snippet": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans…",
+   "url": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-07-01T09:00:00Z",
+   "imageURL": null,
+   "signal": 20,
    "alert": false
   },
   {
@@ -6626,7 +7093,7 @@
    "category": "research",
    "publishedAt": "2026-06-16T15:46:31Z",
    "imageURL": "https://lh3.googleusercontent.com/X6w_t9eA7TLFiq3JMp1kXlon25qi9N6O0AxPyp7j0qOIu8oz-QDsaOP-oKz7FIuqlA3W1evDbeLYssDJM_fjkqeyscPO_fHJd0xeD0IoDlHkiUQW1w=w528-h297-n-nu-rw-lo",
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -6643,7 +7110,7 @@
    "category": "research",
    "publishedAt": "2026-06-15T11:30:53Z",
    "imageURL": null,
-   "signal": 20,
+   "signal": 19,
    "alert": false
   },
   {
@@ -6711,7 +7178,7 @@
    "category": "research",
    "publishedAt": "2026-06-16T21:29:50Z",
    "imageURL": "https://lh3.googleusercontent.com/kc7RMwXGDfJAoCsgs6pUuONGMXePGbvF_q_i8i-bWBBakQ91O8VYPk8cyHfpOD1uF-lw8Mk6pd2JpXofi5n4qNoNziPol46lBMmZuxoG9NKl16CW=w528-h297-n-nu-rw-lo",
-   "signal": 19,
+   "signal": 18,
    "alert": false
   },
   {
@@ -6728,7 +7195,7 @@
    "category": "research",
    "publishedAt": "2026-06-16T13:29:30Z",
    "imageURL": null,
-   "signal": 19,
+   "signal": 18,
    "alert": false
   },
   {
@@ -6813,7 +7280,7 @@
    "category": "techniques",
    "publishedAt": "2026-06-10T18:43:12Z",
    "imageURL": null,
-   "signal": 18,
+   "signal": 17,
    "alert": false
   },
   {
@@ -6898,7 +7365,7 @@
    "category": "research",
    "publishedAt": "2026-06-09T14:02:33Z",
    "imageURL": null,
-   "signal": 17,
+   "signal": 16,
    "alert": false
   },
   {
@@ -6983,7 +7450,7 @@
    "category": "models",
    "publishedAt": "2026-06-30T06:00:00Z",
    "imageURL": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp",
-   "signal": 16,
+   "signal": 15,
    "alert": false
   },
   {
@@ -7191,6 +7658,23 @@
    "alert": false
   },
   {
+   "id": "8d7af329ff255378a005b450c4d3c835a0999162199d7c8125c25a8b365cc2b5",
+   "title": "Gradient-based Planning for World Models at Longer Horizons",
+   "snippet": "GRASP is a new gradient-based planner for learned dynamics (a “world model”) that makes long-horizon planning practical by (1) lifting the trajectory into virtual states so optimization is parallel across time, (2) adding stochasticity directly to the state iterates for exploration, and (3)…",
+   "url": "http://bair.berkeley.edu/blog/2026/04/20/grasp/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-04-20T09:00:00Z",
+   "imageURL": null,
+   "signal": 13,
+   "alert": false
+  },
+  {
    "id": "c1d13bcffe0d3cc5627f0df11b08656d1db98f713d1b3315452a3bf31541f0b0",
    "title": "Claude Opus 4.7 - A New Frontier, in Performance … and Drama",
    "snippet": null,
@@ -7221,7 +7705,7 @@
    "category": "techniques",
    "publishedAt": "2026-02-25T13:26:56Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/380ad0cc-566e-4e54-8862-00e2de6f269b_2670x1398.png",
-   "signal": 13,
+   "signal": 12,
    "alert": false
   },
   {
@@ -7259,6 +7743,23 @@
    "alert": false
   },
   {
+   "id": "cdccc1ac3a9bc12ca76d4558b17fdd8ee982989fec14f6a25dc3fdde08fa17a6",
+   "title": "Identifying Interactions at Scale for LLMs",
+   "snippet": "--> Understanding the behavior of complex machine learning systems, particularly Large Language Models (LLMs), is a critical challenge in modern artificial intelligence. Interpretability research aims to make the decision-making process more transparent to model builders and impacted humans, a step…",
+   "url": "http://bair.berkeley.edu/blog/2026/03/13/spex/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-03-13T09:00:00Z",
+   "imageURL": null,
+   "signal": 12,
+   "alert": false
+  },
+  {
    "id": "d4aa3f34571ee5391937e686e30fbb1ae5b9574abf1bfc57719dc80ac5ef3017",
    "title": "What the New ChatGPT 5.4 Means for the World",
    "snippet": null,
@@ -7276,23 +7777,6 @@
    "alert": false
   },
   {
-   "id": "cef9ff40519ebab38a25a3cda173522ae1ad29cb1d9f372f7f9fefde074a1772",
-   "title": "Categories of Inference-Time Scaling for Improved LLM Reasoning",
-   "snippet": "And an Overview of Recent Inference-Scaling Papers",
-   "url": "https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling",
-   "sources": [
-    {
-     "name": "Ahead of AI",
-     "domain": "magazine.sebastianraschka.com"
-    }
-   ],
-   "category": "techniques",
-   "publishedAt": "2026-01-24T11:23:18Z",
-   "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/1f97789d-b769-45fe-b884-ba0f7941da9e_1846x1230.png",
-   "signal": 12,
-   "alert": false
-  },
-  {
    "id": "f6ef26cd40dea01d057338f66c39ac3f9106688277a126967e6357c7cbba6ad2",
    "title": "Deadline Day for Autonomous AI Weapons & Mass Surveillance",
    "snippet": null,
@@ -7306,7 +7790,7 @@
    "category": "techniques",
    "publishedAt": "2026-02-27T14:57:29Z",
    "imageURL": null,
-   "signal": 12,
+   "signal": 11,
    "alert": false
   },
   {
@@ -7323,6 +7807,23 @@
    "category": "techniques",
    "publishedAt": "2025-12-30T12:22:26Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/dfad3fc4-b195-4e7e-a6a7-7701b59ed57b_1394x918.png",
+   "signal": 11,
+   "alert": false
+  },
+  {
+   "id": "fdfd3d815dab68d0d93cc5040e9fb33f7a3b286d84a00ec8c539d961c610fa0f",
+   "title": "Information-Driven Design of Imaging Systems",
+   "snippet": "An encoder (optical system) maps objects to noiseless images, which noise corrupts into measurements. Our information estimator uses only these noisy measurements and a noise model to quantify how well measurements distinguish objects. Many imaging systems produce measurements that humans never see…",
+   "url": "http://bair.berkeley.edu/blog/2026/01/10/information-driven-imaging/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2026-01-10T09:00:00Z",
+   "imageURL": null,
    "signal": 11,
    "alert": false
   },
@@ -7391,7 +7892,41 @@
    "category": "techniques",
    "publishedAt": "2025-11-04T13:06:07Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/e1732960-2119-429d-96e7-bafee7f79283_5862x3699.jpeg",
-   "signal": 11,
+   "signal": 10,
+   "alert": false
+  },
+  {
+   "id": "092461451a5e9b38988f76fa6c2113630fd8a6df2ecb701dea5c584f3360a518",
+   "title": "RL without TD learning",
+   "snippet": "In this post, I’ll introduce a reinforcement learning (RL) algorithm based on an “alternative” paradigm: divide and conquer . Unlike traditional methods, this algorithm is not based on temporal difference (TD) learning (which has scalability challenges ), and scales well to long-horizon tasks. We…",
+   "url": "http://bair.berkeley.edu/blog/2025/11/01/rl-without-td-learning/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2025-11-01T09:00:00Z",
+   "imageURL": null,
+   "signal": 10,
+   "alert": false
+  },
+  {
+   "id": "f9fe76b83ee885b4df13cceac7b26c294704d189e14dd69390149e9a40a9f96b",
+   "title": "What exactly does word2vec learn?",
+   "snippet": "What exactly does word2vec learn, and how? Answering this question amounts to understanding representation learning in a minimal yet interesting language modeling task. Despite the fact that word2vec is a well-known precursor to modern language models, for many years, researchers lacked a…",
+   "url": "http://bair.berkeley.edu/blog/2025/09/01/qwem-word2vec-theory/",
+   "sources": [
+    {
+     "name": "BAIR",
+     "domain": "bair.berkeley.edu"
+    }
+   ],
+   "category": "research",
+   "publishedAt": "2025-09-01T09:00:00Z",
+   "imageURL": null,
+   "signal": 10,
    "alert": false
   },
   {
@@ -7446,7 +7981,7 @@
    "category": "research",
    "publishedAt": "2025-08-01T15:00:00Z",
    "imageURL": null,
-   "signal": 10,
+   "signal": 9,
    "alert": false
   },
   {
@@ -7463,7 +7998,7 @@
    "category": "techniques",
    "publishedAt": "2025-07-19T11:11:10Z",
    "imageURL": "https://substack-post-media.s3.amazonaws.com/public/images/45c50202-0e8b-4e64-8296-4e2ccf4cb287_1756x1227.png",
-   "signal": 10,
+   "signal": 9,
    "alert": false
   },
   {
@@ -7480,7 +8015,7 @@
    "category": "research",
    "publishedAt": "2025-06-23T00:00:00Z",
    "imageURL": null,
-   "signal": 10,
+   "signal": 9,
    "alert": false
   },
   {
@@ -7531,7 +8066,7 @@
    "category": "research",
    "publishedAt": "2025-05-30T22:00:00Z",
    "imageURL": null,
-   "signal": 9,
+   "signal": 8,
    "alert": false
   },
   {
@@ -7548,7 +8083,7 @@
    "category": "research",
    "publishedAt": "2024-10-31T00:00:00Z",
    "imageURL": null,
-   "signal": 9,
+   "signal": 8,
    "alert": false
   },
   {
@@ -7620,7 +8155,7 @@
    "category": "techniques",
    "publishedAt": "2025-02-05T18:23:47Z",
    "imageURL": null,
-   "signal": 8,
+   "signal": 7,
    "alert": false
   },
   {
@@ -7637,7 +8172,7 @@
    "category": "research",
    "publishedAt": "2024-09-19T00:00:00Z",
    "imageURL": null,
-   "signal": 8,
+   "signal": 7,
    "alert": false
   },
   {
@@ -7705,7 +8240,7 @@
    "category": "research",
    "publishedAt": "2024-10-10T00:00:00Z",
    "imageURL": null,
-   "signal": 7,
+   "signal": 6,
    "alert": false
   },
   {
@@ -7722,7 +8257,7 @@
    "category": "research",
    "publishedAt": "2024-03-20T20:54:00Z",
    "imageURL": null,
-   "signal": 7,
+   "signal": 6,
    "alert": false
   },
   {
@@ -7790,7 +8325,7 @@
    "category": "research",
    "publishedAt": "2024-05-22T17:00:00Z",
    "imageURL": null,
-   "signal": 6,
+   "signal": 5,
    "alert": false
   },
   {
@@ -7807,7 +8342,7 @@
    "category": "research",
    "publishedAt": "2024-04-14T17:00:00Z",
    "imageURL": null,
-   "signal": 6,
+   "signal": 5,
    "alert": false
   },
   {
@@ -7875,7 +8410,7 @@
    "category": "research",
    "publishedAt": "2024-03-19T20:15:00Z",
    "imageURL": null,
-   "signal": 5,
+   "signal": 4,
    "alert": false
   },
   {
@@ -7892,7 +8427,7 @@
    "category": "research",
    "publishedAt": "2024-03-19T15:00:00Z",
    "imageURL": null,
-   "signal": 5,
+   "signal": 4,
    "alert": false
   },
   {
@@ -7977,7 +8512,7 @@
    "category": "research",
    "publishedAt": "2024-03-07T18:15:00Z",
    "imageURL": null,
-   "signal": 4,
+   "signal": 3,
    "alert": false
   },
   {
